@@ -1,0 +1,22 @@
+/***
+ * $Source$
+ * $Revision$ $Date$
+ */
+
+/***
+ *	Builtin function FUNC
+ *
+ */
+
+#include "../cdbl_rt.h"
+
+DBLArg_t
+BUILTIN(FUNC)						/* Function	*/
+  ()
+{
+  DBLArg_t  result;
+
+  return result;
+} /* FUNC */
+
+/* End of $Source$ */

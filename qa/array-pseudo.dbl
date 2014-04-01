@@ -1,0 +1,27 @@
+;;;
+; $Source$
+; $Revision$ $Date$
+; Pseudo Arrays
+;
+; Intentionally walk beyond end of pseudo array to show it works as per manual.
+
+RECORD REC
+	BEFORE	, A10, "**BEFORE**"
+	PSEUDO	, 5A10, 'ONE', 'TWO', 'THREE', 'FOUR', 'FIVE'
+	BEYOND	, A10, "**BEYOND**"
+
+RECORD LINE
+		, A7, "PSEUDO("
+	I	, D2
+		, A4, ") = "
+
+PROC
+	I = 0
+	WHILE (I .LT. 7)
+	  BEGIN
+	    DISPLAY(1, LINE, " '", PSEUDO(I), "'", 10)
+	    INCR I
+	  END
+	END
+
+; End of $Source$

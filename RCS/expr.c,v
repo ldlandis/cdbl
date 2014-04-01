@@ -1,0 +1,3054 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.55;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.50;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.05.53;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.22;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.52.59;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.10;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.05;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.35;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.33;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.24;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.07;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.29;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.11;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.00;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.45.57;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.43.59;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.42;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.38.58;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.04;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.47;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.25;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.49;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.16;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.47;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.38;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.44;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.21;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.03;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.21;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.40.41;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.31;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.43;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.34;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.02;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.28;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.42;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.19;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.10;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.19;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.27;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.14;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.13;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.50;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.08;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.39;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.55;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.10;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.25;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/expr.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:50 $
+ */
+
+/***
+ *	Various utilities for munging and walking and building expressions.
+ *
+ *	See the documentation in parse.h for more information.
+ *	Note: Assumes that gram.h includes node.h.
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "prototype.h"
+#include "assert.h"
+#include "gram.h"
+#include "parse.h"
+#include "_tokens.h"
+#include "cdbl_rt.h"
+
+/**
+ *	Local Definitions
+ *	Note: INDENT (and definition of 'indent') here MUST match
+ *	      that in generate.c for consistent and "pretty" output.
+ */
+#define INDENT indent*2, ""
+
+
+/**
+ *	Local functions
+ */
+static
+void      bld_ref	PROTOARGS((char *, Node_id, Node_id));
+static
+void      emitn_l_op_r	PROTOARGS((int, int, char *, int, int)),
+          emitn_load	PROTOARGS((int));
+static
+int       expr		PROTOARGS((Node_id));
+static
+void      n_relational	PROTOARGS((int, int, int, char *, int, int)),
+	  no_dec	PROTOARGS((int, int, int, int)),
+	  scale_dec	PROTOARGS((int, int, int, int)),
+	  temp_free	PROTOARGS((int)),
+          temp_freeall  PROTOARGS((void)),
+	  temp_print	PROTOARGS((int)),
+	  temp_unref	PROTOARGS((int));
+static
+int       temp_get	PROTOARGS((void));
+static
+int       temp_load_ID	PROTOARGS((Node_id)),
+          temp_load_NUMBER PROTOARGS((Node_id)),
+          temp_load_STRING PROTOARGS((Node_id));
+
+/**
+ *	Global "globals"
+ */
+extern
+char     *blkname;			/* From generate.c		*/
+
+/**
+ *	Local "globals"
+ */
+static
+FILE     *f;				/* The "output" file descriptor	*/
+static
+int       indent;			/* Current indent level		*/
+static
+struct					/* Temporary descriptor		*/
+  {					/* ----------------------------	*/
+    char      inuse;			/* Temporary is in use		*/
+    char      n_loaded;			/* Temporary is loaded numeric	*/
+    char      n_dec;			/* # of decimals right of '.'	*/
+    char      is_num_const;		/* Temporary is a number const	*/
+    char      type;			/* Data type of contents (?/A/D)*/
+    Node_id   spec;			/* Spec of reference		*/
+    char      ref[100];			/* Referenced element		*/
+    char      rsize[10];		/* Referenced element size	*/
+    char      rtype[10];		/* Referenced element type	*/
+  }       __temp[MAX_NTEMP];
+
+/**
+ *	Create a C code string expression for spec.
+ *	Note: Generates code leaving result in __string.
+ */
+void
+c_sexpr(file, indentation, spec)			/* Function	*/
+  FILE     *file;
+  int       indentation;
+  Node_id   spec;
+{
+  int       result;
+
+  f      = file;
+  indent = indentation;
+
+/**/if (_parse.flags) printf("c_sexpr(spec=[%d])\n", spec);
+/***/
+
+  temp_freeall();			/* Free all temporaries		*/
+
+  result = expr(spec);			/* Generate string expression	*/
+/**/if (_parse.flags) temp_print(result);
+/***/
+
+  switch (__temp[result].type)
+    {
+      case 'D':				/* Numeric to string conversion	*/
+        if ( ! __temp[result].n_loaded )
+          emitn_load(result);
+				/* MAX_NUM_DIGITS + 2 for '-' and '.'	*/
+        fprintf(f, "%*s__n_dec = %d; __nexpr = __n_%d;\n", INDENT,
+		__temp[result].n_dec, result);
+        fprintf(f,
+  "%*sdbl_mkarg(%s, \"%s\", (void *)%s, -1, \"A%d.%d\", ARG_ISVAR);\n",
+		INDENT, "&__an_arg",
+                blkname, "__string", MAX_NUM_DIGITS + 2, __temp[result].n_dec
+	       );
+        fprintf(f, "%*sdbl_putn(&__an_arg, __nexpr, __n_dec);\n", INDENT);
+        fprintf(f, "%*s__string[%d] = '\\0';\n", INDENT, MAX_NUM_DIGITS + 2);
+        break;
+
+      case 'A':				/* Already a string result	*/
+        genref(__temp[result].spec);
+        fprintf(f, "%*ssprintf(__string, \"%%.*s\", %s, %s);\n", INDENT,
+                "__an_arg.size", "__an_arg.addr");
+        break;
+      default:
+        c_warning("didn't do anything with result, spec=[%d]", spec);
+    }
+
+  temp_free(result);
+} /* c_sexpr */
+
+/**
+ *	Create a C code expression for spec returning numeric result.
+ *	Note: Generates code leaving result in __nexpr.
+ */
+void
+c_nexpr(file, indentation, spec)			/* Function	*/
+  FILE     *file;
+  int       indentation;
+  Node_id   spec;
+{
+  int       result;
+
+  f      = file;
+  indent = indentation;
+
+  temp_freeall();			/* Free all temporaries		*/
+
+  result = expr(spec);			/* Generate numeric expression	*/
+  if ( ! __temp[result].n_loaded)
+    emitn_load(result);
+  fprintf(f, "%*s__n_dec = %d;  __nexpr = __n_%d;\n", INDENT,
+	  __temp[result].n_dec, result);
+
+  temp_free(result);
+} /* c_nexpr */
+
+/**
+ *	Create a C code reference for spec.
+ *	Note: Returns staticly allocated buffer pointers.
+ */
+void
+c_ref(spec, refp, sizep, typep)				/* Function	*/
+  Node_id   spec;
+  char    **refp;
+  char    **sizep;
+  char    **typep;
+{
+  static
+  char      ref[BUFSIZ], size[BUFSIZ], type[BUFSIZ];
+  Node_id   n, ty;
+
+  *refp  = ref;
+  *sizep = size;
+  *typep = type;
+
+  if (_parse.flags)
+    printf("c_ref(spec=%d)\n", spec);
+
+  strcpy(ref, "");			/* Clear the buffer		*/
+
+  if (n = (Node_id)find_long(spec, T__FIELD_OF))
+    bld_ref(ref, spec, n);		/* Build the reference		*/
+/**/if (_parse.flags)
+/**/  printf("DID bld_ref(ref=\"%s\", spec=[%d], n=[%d]\n", ref, spec, n);
+/***/
+/*=*/{ /* block */
+/*=*/  char     *sz;
+/*=*/  strcpy(size, "0");		/* Return something valid	*/
+/*=*/  if (n && (sz = find_string(n, T__SIZE_BUFFER)))
+/*=*/    strcpy(size, sz);
+/*=*/  else if (n)
+/*=*/    c_error("%s spec=[%d] n=[%d]",
+/*=*/            "expected n=[0] for function call, hmm...", spec, n);
+/*=*/} /* block */
+  if (n && (ty = rnn(n, T__TYPE, NIL)))	/* Field data			*/
+    strcpy(type, find_string(ty, T__TYPE));
+  else					/* Aggregate base treat as A<n>	*/
+    sprintf(type, "A%s", size);
+
+  if (_parse.flags)
+    printf("c_ref: spec=%d returning ref=\"%s\" size=\"%s\" type=\"%s\"\n",
+            spec, ref, size, type);
+} /* c_ref */
+
+/**
+ *	Local functions
+ */
+
+/**
+ *	Note:
+ *		Does not interpret subscripts as it needs to.
+ */
+static
+void
+bld_ref(ref, spec, type)				/* Function	*/
+  char     *ref;
+  Node_id   spec;
+  Node_id   type;
+{
+  int       xt;
+  Node_id   d, n;
+  char     *xs;
+
+  if (_parse.flags)
+    printf("bld_ref(ref=0x%08lx, spec=[%d] type=[%d]\n", ref, spec, type);
+
+  if ( ! type )				/* Likely a function call	*/
+    {
+      if (rnn(spec, T__SUBR, NIL))	/* Yup				*/
+        {
+	  ng(spec, &xt, &xs);
+	  if (xt == T_ID)		/* Paranoid			*/
+	    {
+/**/c_warning("not handling function results well, yet.. Patch it!");
+/***/
+	      strcat(ref, xs);
+	    }
+	  else
+	    c_error("%s spec=[%d] xt=%d:%s xs=\"%s\"",
+	            "bld_ref: internal error",
+	            spec, xt, to_token(xt), xs);
+	  goto Done;
+	}
+      else
+        c_error("bld_ref: internal error spec=[%d] type=[%d]", spec, type);
+      goto Done;
+    }
+
+  if (d = (Node_id)find_long(type, T__FIELD_OF))
+    bld_ref(ref, spec, d);		/* Recurse to top parent	*/
+
+  if (_parse.flags)
+    printf("bld_ref: d=[%d]\n", d);
+
+  ng(type, &xt, &xs);
+  if      (xt == T__FIELD)		/* Field			*/
+    strcat(ref, find_string(type, T_LABEL));
+  else if (xt == T__PARAMETER)		/* It's a parameter		*/
+    ;					/* For now, address with groups	*/
+  else					/* It's a record/common/etc	*/
+    {
+      Node_id   t;			/* Dereference to main def	*/
+      if ( t = rnn(type, T__REDEFINES, NIL) )
+        strcat(ref, find_string(t, T_ID));
+      else if (t = rnn(type, T__REDEFINEDBY, NIL))
+        strcat(ref, find_string(type, T_ID));
+
+      if (t)				/* Dereferenced into a union	*/
+        strcat(ref, "_UNION.");		/* Add selector before field	*/
+					/* Now add field info		*/
+      strcat(ref, find_string(type, T_ID));
+    }
+Done:
+  if (strlen(ref))			/* If something in buffer	*/
+    strcat(ref, ".");
+  if (_parse.flags)
+    printf("bld_ref: returning ref=\"%s\"\n", ref);
+} /* bld_ref */
+
+
+void
+emitn_l_op_r(result,  left, op, right, isfunc)		/* Function	*/
+  int       result;
+  int       left;
+  char     *op;
+  int       right;
+{
+  if ((result <  0 || result >= MAX_NTEMP) ||
+      (left   < -1 || left   >= MAX_NTEMP) ||
+      (right  <  0 || right  >= MAX_NTEMP)
+     )
+    {
+      c_error("%s: internal error result=%d left=%d op=\"%s\" right=%d",
+	      "emitn_l_op_r", result, left, op, right
+             );
+      return;
+    }
+  if (__temp[result].type != 'D')
+    c_error("emitn_l_op_r: result=%d.type='%c'", result,__temp[result].type);
+  if ((left >= 0) && (__temp[left  ].type != 'D'))
+    c_error("emitn_l_op_r: left=%d.type='%c'",   left,  __temp[left  ].type);
+  if (right < 0)
+    c_error("emitn_l_op_r: right=%d",            right);
+  if (__temp[right ].type != 'D')
+    c_error("emitn_l_op_r: right=%d.type='%c'",  right, __temp[right ].type);
+
+  if ((left >= 0) &&
+      (! __temp[left ].n_loaded) &&	/* Have we loaded the data yet?	*/
+      (! __temp[left ].is_num_const)	/* And is not a constant	*/
+     )
+    emitn_load(left);
+  if ((! __temp[right].n_loaded) &&	/* Have we loaded the data yet?	*/
+      (! __temp[right].is_num_const)	/* And is not a constant	*/
+     )
+    emitn_load(right);
+
+  if (isfunc)				/* "op" is a function to call	*/
+    {
+      fprintf(f, "%*s__n_%d = %s(", INDENT, result, op);
+
+      if (left >= 0)
+        {
+          if (__temp[left].is_num_const)
+            fprintf(f, "%.*s", strlen(__temp[left].ref)-2, __temp[left].ref+1);
+          else
+            fprintf(f, "__n_%d", left);
+          __temp[left ].n_loaded = 1;
+	  fprintf(f, ", ");
+        }
+      if (__temp[right].is_num_const)
+        fprintf(f, "%.*s", strlen(__temp[right].ref)-2, __temp[right].ref+1);
+      else
+        fprintf(f, "__n_%d", right);
+      __temp[right].n_loaded = 1;
+      fprintf(f, ");\n");
+      goto Done;
+    }
+  if (left >= 0)			/* Dyadic usage			*/
+    {
+      fprintf(f, "%*s__n_%d = ", INDENT, result);
+
+      if (__temp[left].is_num_const)
+        fprintf(f, "%.*s", strlen(__temp[left ].ref)-2, __temp[left ].ref+1);
+      else
+        fprintf(f, "__n_%d", left);
+      __temp[left ].n_loaded = 1;
+
+      fprintf(f, " %s ", op);
+
+      if (__temp[right].is_num_const)
+        fprintf(f, "%.*s", strlen(__temp[right].ref)-2, __temp[right].ref+1);
+      else
+        fprintf(f, "__n_%d", right);
+      fprintf(f, ";\n");
+      __temp[right].n_loaded = 1;
+    }
+  else					/* Monadic usage		*/
+    {
+      fprintf(f, "%*s__n_%d = ", INDENT, result);
+      fprintf(f, "%s", op);
+      if (__temp[right].is_num_const)
+        fprintf(f, "%.*s", strlen(__temp[right].ref)-2, __temp[right].ref+1);
+      else
+        fprintf(f, "__n_%d", right);
+      fprintf(f, ";\n");
+      __temp[right].n_loaded = 1;
+    }
+Done:
+  temp_unref(result);			/* No longer referencing loc	*/
+} /* emitn_l_op_r */
+
+void
+emitn_load(r)						/* Function	*/
+  int       r;
+{
+  switch (__temp[r].type)
+    {
+      default:
+        c_error("emitn_load: r=%d.type='%c'", r, __temp[r].type);
+	break;
+      case 'A':
+      case 'D':
+/**/if (_parse.flags) {
+/**/  printf("emitn_load(r=%d) spec=[%d] T_O_LBRACK=[%d] T_O_LPAREN=[%d]\n",
+/**/         r, __temp[r].spec,
+/**/         __temp[r].spec ? rnn(__temp[r].spec, T_O_LBRACK, NIL) : NIL,
+/**/         __temp[r].spec ? rnn(__temp[r].spec, T_O_LPAREN, NIL) : NIL
+/**/         );
+/**/}
+/***/
+	if (__temp[r].is_num_const)
+	  {
+            int       ln = strlen(__temp[r].ref) - 2;
+	    fprintf(f, "%*s__n_%d = %.*s;\n", INDENT, r, ln, __temp[r].ref+1);
+	  }
+	else
+	  {
+	    genref(__temp[r].spec);
+            fprintf(f, "%*s__n_%d = dbl_num(&__an_arg);\n", INDENT, r);
+	  }
+        break;
+    }
+  __temp[r].n_loaded = 1;		/* Now loaded with data		*/
+} /* emitn_load */
+
+/**
+ *	Visit the 'spec' tree, expanding the results as needed returning
+ *	the temporary containing the result of the expression.
+ */
+static
+int
+expr(spec)						/* Function	*/
+  Node_id   spec;
+{
+  int       result, left = -1, right = -1;
+  int       xt;
+  Node_id   d;
+  char     *xs;
+
+  if (d = rnn(spec, T__LEFT, NIL))
+    left  = expr(d);			/* Expand left sub-tree		*/
+  if (d = rnn(spec, T__RIGHT, NIL))
+    right = expr(d);			/* Expand right sub-tree	*/
+
+  ng(spec, &xt, &xs);			/* Get operation to do		*/
+  result = (left < 0) ? right : left;
+  if (_parse.flags)
+    printf("expr(spec=[%d]): result=%d left=%d right=%d xt=%d(%s)\n",
+           spec, result, left, right, xt, to_token(xt)
+	  );
+  switch (xt)				/* Dispatch to opcode		*/
+    {
+      default:
+NotImplemented:
+        c_error("expr.expr: has not implemented op=%d(%s) for %s",
+	        xt, to_token(xt), xs
+	       );
+	break;
+      case T_ID:
+        result = temp_load_ID(spec);	/* Get T_ID described to temp	*/
+/**/	if (_parse.flags) { printf("ID\n");     temp_print(result); }
+/***/
+	break;
+
+      case T_NUMBER:
+        result = temp_load_NUMBER(spec);/* Get T_NUMBER into temp	*/
+/**/    if (_parse.flags) { printf("NUMBER\n"); temp_print(result); }
+/***/
+	break;
+
+      case T_STRING:
+        result = temp_load_STRING(spec);/* Get T_STRING into temp	*/
+/**/	if (_parse.flags) { printf("STRING\n"); temp_print(result); }
+/***/
+	break;
+
+      case T_O_BOR:
+	no_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "|", right, 0);
+	break;
+      case T_O_BXOR:
+	no_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "^", right, 0);
+	break;
+      case T_O_BAND:
+	no_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "&", right, 0);
+	break;
+      case T_O_BNOT:
+	no_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "~", right, 0);
+	break;
+      case T_O_OR:
+	no_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "||", right, 0);
+	break;
+      case T_O_XOR:
+	no_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "dbl_xor", right, 1);
+	break;
+      case T_O_AND:
+	no_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "&&", right, 0);
+	break;
+      case T_O_NOT:
+        emitn_l_op_r(result,  left, "!", right, 0);
+	break;
+      case T_O_EQS:
+	no_dec(result, left, xt, right);
+	n_relational(result, xt, left, "==", right, 1);
+	break;
+      case T_O_NES:
+	no_dec(result, left, xt, right);
+	n_relational(result, xt, left, "!=", right, 1);
+	break;
+      case T_O_GTS:
+	no_dec(result, left, xt, right);
+	n_relational(result, xt, left, ">",  right, 1);
+	break;
+      case T_O_LTS:
+	no_dec(result, left, xt, right);
+	n_relational(result, xt, left, "<",  right, 1);
+	break;
+      case T_O_GES:
+	no_dec(result, left, xt, right);
+	n_relational(result, xt, left, ">=", right, 1);
+	break;
+      case T_O_LES:
+	no_dec(result, left, xt, right);
+	n_relational(result, xt, left, "<=", right, 1);
+	break;
+      case T_O_EQU:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, "==", right, 0);
+	break;
+      case T_O_NEU:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, "!=", right, 0);
+	break;
+      case T_O_GTU:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, ">",  right, 0);
+	break;
+      case T_O_LTU:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, "<",  right, 0);
+	break;
+      case T_O_GEU:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, ">=", right, 0);
+	break;
+      case T_O_LEU:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, "<=", right, 0);
+	break;
+      case T_O_EQ:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, "==", right, 0);
+	break;
+      case T_O_NE:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, "!=", right, 0);
+	break;
+      case T_O_GT:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, ">",  right, 0);
+	break;
+      case T_O_LT:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, "<",  right, 0);
+	break;
+      case T_O_GE:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, ">=", right, 0);
+	break;
+      case T_O_LE:
+        scale_dec(result, left, xt, right);
+	n_relational(result, xt, left, "<=", right, 0);
+	break;
+      case T_O_ADD:
+        scale_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "+", right, 0);
+	break;
+      case T_O_SUB:
+        scale_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "-", right, 0);
+	break;
+      case T_O_SLHSLH:
+	goto NotImplemented;
+        scale_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "??", right, 0);
+	break;
+      case T_O_MUL:
+        scale_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "*", right, 0);
+	break;
+      case T_O_DIV:
+        scale_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "/", right, 0);
+	break;
+      case T_O_ROUND:
+        scale_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "dbl_round", right, 1);
+	break;
+      case T_O_ROUNDTRUE:
+	goto NotImplemented;
+        scale_dec(result, left, xt, right);
+        emitn_l_op_r(result,  left, "??", right, 0);
+	break;
+    }
+  if (result < 0)
+    c_error("expr.expr: internal error - failed to get result temp");
+  else
+    {
+      if ((result != left)  && (left  >= 0))
+        temp_free(left);		/* Done with left temporary	*/
+      if ((result != right) && (right >= 0))
+        temp_free(right);		/* Done with right temporary	*/
+    }
+/**/if (_parse.flags) printf("expr: return result=%d\n", result);
+/***/
+  return result;
+} /* expr */
+
+static
+void
+n_relational(result, op, left, rel, right, string)
+  int       result;
+  int       op;
+  int       left;
+  char     *rel;
+  int       right;
+{
+  int       conv;
+
+/**/if (_parse.flags) {
+/**/printf("expr.n_relational(result=%d,op=%d,left=%d,rel=%s,right=%d\n",
+/**/                          result,   op,   left,   rel,   right);
+/**/temp_print(left);
+/**/temp_print(right);
+/**/}
+/***/
+  conv = 0;				/* Determine conversions	*/
+  if (__temp[left ].type == 'A') 
+    conv = 2;
+  if (__temp[right].type == 'A') 
+    conv++;
+/**/if (_parse.flags) printf("n_relational: conv=%d\n", conv);
+/***/
+
+  switch (conv)
+    {
+      case 3:				/* A(left) rel A(right)		*/
+        {
+          int       shorter = -1;
+	  int       sizel = atoi(__temp[left ].rsize),
+	            sizer = atoi(__temp[right].rsize);
+	  if (sizer != sizel)
+	    shorter = sizel < sizer ? left : right;
+/**/if (_parse.flags) printf("shorter=%d\n", shorter);
+          fprintf(f, "%*s__iexpr = strncmp(%s, %s, %s);\n", INDENT,
+	          __temp[left].ref, __temp[right].ref,
+		  __temp[shorter < 0 ? left : shorter].rsize);
+	  if (shorter != -1)		/* Not the same length		*/
+	    {
+	      shorter = (shorter == left) ? -1 : 1;
+	      fprintf(f, "%*s__n_%d =  __iexpr;\n", INDENT, left);
+	      fprintf(f, "%*sif (__iexpr == 0)\n", INDENT);
+	      fprintf(f, "%*s  __n_%d = %d;\n", INDENT, left, shorter);
+	    }
+	  temp_unref(left);
+	  __temp[left ].type = 'D';
+	  __temp[left ].n_loaded++;
+	  fprintf(f, "%*s__n_%d = 0;\n", INDENT, right);
+	  temp_unref(right);
+	  __temp[right].type = 'D';
+	  __temp[right].n_loaded++;
+	}
+	goto Emit;
+      case 2:				/* A(left) rel D(right)		*/
+	if (string)
+	  c_error("numeric %s used in string relational test",
+	          __temp[left ].ref);
+	genref(__temp[left].spec);
+        fprintf(f, "%*s__n_%d = dbl_num(&__an_arg);\n", INDENT, left);
+        temp_unref(left);
+	__temp[left ].type = 'D';
+	/* Fall-thru */
+      case 1:				/* D(left) rel A(right)		*/
+	if (string)
+	  c_error("numeric %s used in string relational test",
+	          __temp[right].ref);
+	if ((conv & 1) == 0)
+	  goto Emit;
+	genref(__temp[right].spec);
+        fprintf(f, "%*s__n_%d = dbl_num(&__an_arg);\n", INDENT, right);
+        temp_unref(right);
+	__temp[right].type = 'D';
+	/* Fall-thru */
+      case 0:				/* D(left) rel D(right)		*/
+	if (string)
+	  c_error("numerics %s and %s used in string relational test",
+	          __temp[left ].ref, __temp[right].ref);
+Emit:
+/**/if (_parse.flags) {
+/**/printf("n_relational.Emit: __temp[%d] %s __temp[%d]\n", left, rel, right);
+/**/temp_print(left);
+/**/temp_print(right);
+/**/}
+/***/
+        emitn_l_op_r(result,  left, rel, right, 0);
+    }
+} /* n_relational */
+
+/**
+ *	Ensure no decimal fractions involved in operation.
+ */
+static
+void
+no_dec(result, left, op, right)				/* Function	*/
+  int       result;
+  int       left;
+  int       op;
+  int       right;
+{
+  if (__temp[left ].n_dec || __temp[right].n_dec)
+    c_error("%s not allowed on fractional decimal fields", to_token(op));
+} /* no_dec */
+
+/**
+ *	Scale numeric values for operation.  Note: __temp[result].n_dec
+ *	is always upgraded to match the resulting precision.
+ */
+static
+void
+scale_dec(result, left, op, right)			/* Function	*/
+  int       result;
+  int       left;
+  int       op;
+  int       right;
+{
+  int       upgrade, new_ndec;
+
+  if (left == -1)			/* Monadic operator		*/
+    upgrade = result, new_ndec = __temp[right].n_dec;
+  else switch (op)			/* Scale based on operation	*/
+    {
+      default:
+        upgrade  = __temp[left].n_dec < __temp[right].n_dec ? left : right;
+	new_ndec = __temp[(upgrade == left) ? right : left].n_dec;
+        if (__temp[left].n_dec == __temp[right].n_dec)
+          break;			/* Numbers of same precision	*/
+
+	if (! __temp[upgrade].n_loaded)	/* Time has come to load #	*/
+	  emitn_load(upgrade);		/*   so can adjusted precision	*/
+	fprintf(f, "%*s__n_%d *= 1%0*d;\n", INDENT, upgrade,
+	        new_ndec - __temp[upgrade].n_dec, 0);
+	__temp[upgrade].n_dec = new_ndec;
+	__temp[upgrade].is_num_const = 0;
+	break;
+      case T_O_MUL:
+	upgrade  = result;
+        new_ndec = __temp[left ].n_dec + __temp[right].n_dec;
+	break;
+    }
+  __temp[result].n_dec = new_ndec;
+/**/if (_parse.flags)
+/**/  printf("scale_dec(%d, %d, %s, %d) upgrade=%d new_ndec=%d\n", 
+/**/         result, left, to_token(op), right, upgrade, new_ndec);
+/***/
+} /* scale_dec */
+
+/**
+ *	Free a temporary register 'r'.
+ */
+static
+void
+temp_free(r)						/* Function	*/
+  int       r;
+{
+  assert("r", r, 0, (! (r < 0 || r >= MAX_NTEMP)));
+  __temp[r].inuse = 0;
+/**/ if (_parse.flags) printf("temp_free: r=%d\n", r);
+/***/
+} /* temp_free */
+
+/**
+ *	Free all numeric temporary registers.
+ */
+static
+void
+temp_freeall()						/* Function	*/
+{
+  int       r;
+  for (r = 0;  r < MAX_NTEMP;  ++r)
+    temp_free(r);			/* Yeah, it's overkill to call()*/
+} /* temp_freeall */
+
+/**
+ *	Get a numeric termporary.
+ */
+static
+int
+temp_get()						/* Function	*/
+{
+  int       r;
+  for (r = 0;  r < MAX_NTEMP;  ++r)
+    if (__temp[r].inuse == 0)
+      {
+        __temp[r].inuse        = 1;	/* Set temporary active		*/
+	__temp[r].n_loaded     = 0;	/* Not loaded with numeric	*/
+	__temp[r].n_dec        = 0;	/* No decimals to right of '.'	*/
+	__temp[r].type         = '?';	/* Unknown type			*/
+	__temp[r].is_num_const = 0;	/* Not a numeric constant	*/
+	temp_unref(r);			/* Not pointing at anything	*/
+/**/ if (_parse.flags) printf("temp_get: r=%d\n", r);
+/***/
+	return r;
+      }
+  c_error("%s: internal error - ran out of numeric temporaries, MAX_NTEMP=%d",
+          "temp_get", MAX_NTEMP);
+  printf("---------------- Begin  temporaries print ----------------\n");
+  for (r = 0;  r < MAX_NTEMP;  ++r)	/* Dump current temporaries	*/
+    temp_print(r);
+  printf("---------------- End of temporaries print ----------------\n");
+  return -1;
+} /* temp_get */
+
+int
+temp_load_ID(spec)					/* Function	*/
+  Node_id   spec;
+{
+  int       result;
+  char     *ref, *rsize, *rtype;
+
+/**/result = spec / spec;
+
+  result = temp_get();			/* Get a temporary		*/
+
+  { /* block */				/* Check for a DEFINEd value	*/
+    int       xt;
+    Node_id   n;
+    char     *xs;
+    if (n = find_long(spec, T_CD_DEFINE))
+      {					/* DEFINEd value, not really ID	*/
+        n = rnn(n, T_CD_DEFINE, NIL);	/* Get to defined value		*/
+	ng(n, &xt, &xs);
+	switch (xt)
+	  {
+	    default:
+	      result = -1;
+	      c_error("internal error on .DEFINE spec=[%d] n=[%d]", spec, n);
+	      break;
+	    case T_NUMBER:
+	      result = temp_load_NUMBER(n);
+	      break;
+	    case T_STRING:
+	      result = temp_load_STRING(n);
+	      break;
+	  }
+        goto Done;
+      }
+  } /* block */
+  c_ref(spec, &ref, &rsize, &rtype);	/* Get ID described		*/
+
+  if (strlen(ref  ) > sizeof(__temp[0].ref  ))
+    c_error("overflow of temp[].ref by %d:%s",   strlen(ref), ref);
+  if (strlen(rsize) > sizeof(__temp[0].rsize))
+    c_error("overflow of temp[].rsize by %d:%s", strlen(rsize), rsize);
+  if (strlen(rtype) > sizeof(__temp[0].rtype))
+    c_error("overflow of temp[].rtype by %d:%s", strlen(rtype), rtype);
+
+  strncpy(__temp[result].ref,   ref,   sizeof(__temp[0].ref  ));
+  strncpy(__temp[result].rsize, rsize, sizeof(__temp[0].rsize));
+  strncpy(__temp[result].rtype, rtype, sizeof(__temp[0].rtype));
+  __temp[result].spec = spec;
+  __temp[result].ref[strlen(__temp[result].ref) - 1] = '\0';
+  __temp[result].type = __temp[result].rtype[0];
+Done:
+  return result;
+} /* temp_load_ID */
+
+static
+int
+temp_load_NUMBER(spec)					/* Function	*/
+  Node_id   spec;
+{
+  int       result, len, n_dec = 0;
+  int       xt;
+  char     *xs, *dp;
+
+/**/result = spec / spec;
+
+  result = temp_get();			/* Get a temporary		*/
+
+  ng(spec, &xt, &xs);			/* Get the number's value	*/
+
+  len = strlen(xs);
+
+  if (xt != T_NUMBER)
+    c_error("temp_load_NUMBER requested to load spec=[%d] is %d(%s)",
+            spec, xt, to_token(xt));
+  if (len + 2 > sizeof(__temp[0].ref))
+    c_error("overflow of temp[].ref by %d:\"%s\"", len, xs);
+
+  if (dp = strchr(xs, '.'))		/* Has a decimal point		*/
+    {
+      n_dec = len - (dp - xs) - 1;
+/**/if (_parse.flags)
+/**/  printf("temp_load_NUMBER: xs=\"%s\" n_dec=%d len=%d\n", xs, n_dec, len);
+/***/
+      sprintf(__temp[result].ref, "\"%.*s%.*s\"",
+	      len - n_dec - 1, xs, n_dec, xs + (len - n_dec)
+             );
+      len--;				/* Removed the '.' so shorter	*/
+    }
+  else					/* No decimal, take as is	*/
+    sprintf(__temp[result].ref, "\"%s\"", xs);
+  sprintf(__temp[result].rsize, "%d",  len);
+  sprintf(__temp[result].rtype, n_dec ? "D%d.%d" : "D%d", len, n_dec);
+  __temp[result].spec         = spec;
+  __temp[result].type         = __temp[result].rtype[0];
+  __temp[result].is_num_const = len < 10;/* If too large C can't handle	*/
+  __temp[result].n_dec        = n_dec;
+  return result;
+} /* temp_load_NUMBER */
+
+static
+int
+temp_load_STRING(spec)					/* Function	*/
+  Node_id   spec;
+{
+  int       result;
+  int       xt;
+  char     *xs;
+
+/**/result = spec / spec;
+
+  result = temp_get();			/* Get a temporary		*/
+
+  ng(spec, &xt, &xs);			/* Get the string's value	*/
+
+  if (xt != T_STRING)
+    c_error("temp_load_STRING requested to load spec=[%d] is %d(%s)",
+            spec, xt, to_token(xt));
+  if (strlen(xs) + 2 > sizeof(__temp[0].ref))
+    c_error("overflow of temp[].ref by %d:\"%s\"", strlen(xs), xs);
+
+  sprintf(__temp[result].ref, "\"%.*s\"", sizeof(__temp[0].ref) - 3, xs);
+  sprintf(__temp[result].rsize, "%d",  strlen(xs));
+  sprintf(__temp[result].rtype, "A%d", strlen(xs));
+  __temp[result].spec = spec;
+  __temp[result].type = __temp[result].rtype[0];
+
+  return result;
+} /* temp_load_STRING */
+
+/**
+ *	Print the contents of a temporary.
+ */
+static
+void
+temp_print(r)						/* Function	*/
+  int       r;
+{
+  printf("__temp[%d].inuse     = %d\n", r, __temp[r].inuse);
+  printf("%9s.n_loaded  = %d\n",    "",    __temp[r].n_loaded);
+  printf("%9s.n_dec     = %d\n",    "",    __temp[r].n_dec);
+  printf("%9s.is_num_const = %d\n", "",    __temp[r].is_num_const);
+  printf("%9s.type      = '%c'\n",  "",    __temp[r].type);
+  printf("%9s.spec      =[%5d]\n",  "",    __temp[r].spec);
+  printf("%9s.ref       =\"%s\"\n", "",    __temp[r].ref);
+  printf("%9s.rsize     =\"%s\"\n", "",    __temp[r].rsize);
+  printf("%9s.rtype     =\"%s\"\n", "",    __temp[r].rtype);
+} /* temp_print */
+
+/**
+ *	Tweaks entry so that no one will think it references anything.
+ */
+static
+void
+temp_unref(r)						/* Function	*/
+  int       r;
+{
+  __temp[r].is_num_const = 0;
+  __temp[r].ref  [0] = '\0';
+  __temp[r].rsize[0] = '\0';
+  __temp[r].rtype[0] = '\0';
+} /* temp_unref */
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/expr.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:05:53 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:22 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:52:59 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:10 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:05 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:35 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:33 $
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:24 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:07 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:29 $
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:11 $
+d25 1
+a25 1
+ *	Note: INDENT (and definition of 'indent')here MUST match
+d446 1
+a446 1
+/**/	if (_parse.flags) temp_print(result);
+d452 1
+a452 1
+/**/    if (_parse.flags) temp_print(result);
+d458 1
+a458 1
+/**/	if (_parse.flags) temp_print(result);
+d596 9
+a604 4
+  if ((result != left)  && (left  >= 0))
+    temp_free(left);			/* Done with left temporary	*/
+  if ((result != right) && (right >= 0))
+    temp_free(right);			/* Done with right temporary	*/
+d768 2
+d801 2
+d807 4
+d821 2
+d825 24
+d864 1
+d877 2
+d922 2
+d926 1
+a926 1
+  ng(spec, &xt, &xs);			/* Get the number's value	*/
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:00 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:45:57 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:43:59 $
+d37 1
+a37 1
+void      emitn_l_op_r	PROTOARGS((int, int, char *, int)),
+d287 1
+a287 1
+emitn_l_op_r(result,  left, op, right)			/* Function	*/
+d298 2
+a299 2
+      c_error("internal error result=%d left=%d op=\"%s\" right=%d",
+	      result, left, op, right
+d322 21
+d373 1
+d464 1
+a464 1
+        emitn_l_op_r(result,  left, "|", right);
+d468 1
+a468 1
+        emitn_l_op_r(result,  left, "^", right);
+d472 1
+a472 1
+        emitn_l_op_r(result,  left, "&", right);
+d476 1
+a476 1
+        emitn_l_op_r(result,  left, "~", right);
+d480 1
+a480 1
+        emitn_l_op_r(result,  left, "||", right);
+d484 1
+a484 2
+	goto NotImplemented;
+        emitn_l_op_r(result,  left, "??", right);
+d488 1
+a488 1
+        emitn_l_op_r(result,  left, "&&", right);
+d491 1
+a491 1
+        emitn_l_op_r(result,  left, "!", right);
+d567 1
+a567 1
+        emitn_l_op_r(result,  left, "+", right);
+d571 1
+a571 1
+        emitn_l_op_r(result,  left, "-", right);
+d576 1
+a576 1
+        emitn_l_op_r(result,  left, "??", right);
+d580 1
+a580 1
+        emitn_l_op_r(result,  left, "*", right);
+d584 1
+a584 1
+        emitn_l_op_r(result,  left, "/", right);
+a586 1
+	goto NotImplemented;
+d588 1
+a588 1
+        emitn_l_op_r(result,  left, "??", right);
+d593 1
+a593 1
+        emitn_l_op_r(result,  left, "??", right);
+d691 1
+a691 1
+        emitn_l_op_r(result,  left, rel, right);
+d796 2
+a797 2
+  c_error("internal error - ran out of numeric temporaries, MAX_NTEMP=%d",
+          MAX_NTEMP);
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:42 $
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:38:58 $
+a114 1
+        fprintf(f, "%*s__an_arg = ", INDENT);
+d116 2
+a117 1
+	        "dbl_mkarg(\"%s\", (void *)%s, -1, \"A%d.%d\", ARG_ISVAR);\n",
+d130 1
+a130 3
+        c_warning("%s - didn't do anything with result, spec=[%d]",
+                  _parse.file, spec
+	         );
+d197 1
+a197 1
+/*=*/    c_error("%s - %s spec=[%d] n=[%d]\n", _parse.file,
+d239 1
+a239 2
+/**/c_warning("%s - not handling function results well, yet.. Patch it!\n",
+/**/          _parse.file);
+d244 2
+a245 2
+	    c_error("%s - %s spec=[%d] xt=%d:%s xs=\"%s\"\n",
+	            _parse.file, "bld_ref: internal error",
+d250 1
+a250 2
+        c_error("%s - bld_ref: internal error spec=[%d] type=[%d]\n",
+	        _parse.file, spec, type);
+d298 2
+a299 2
+      c_error("%s - internal error result=%d left=%d op=\"%s\" right=%d\n",
+	      _parse.file, result, left, op, right
+d304 1
+a304 1
+    c_error("emitn_l_op_r: result=%d.type='%c'\n",result,__temp[result].type);
+d306 1
+a306 1
+    c_error("emitn_l_op_r: left=%d.type='%c'\n",  left,  __temp[left  ].type);
+d308 1
+a308 1
+    c_error("emitn_l_op_r: right=%d\n", right);
+d310 1
+a310 1
+    c_error("emitn_l_op_r: right=%d.type='%c'\n", right, __temp[right ].type);
+d418 1
+a418 1
+        c_error("expr.expr: has not implemented op=%d(%s) for %s\n",
+d642 2
+a643 2
+	  c_error("%s - numeric %s used in string relational test",
+	          _parse.file, __temp[left ].ref);
+d651 2
+a652 2
+	  c_error("%s - numeric %s used in string relational test",
+	          _parse.file, __temp[right].ref);
+d662 2
+a663 2
+	  c_error("%s - numerics %s and %s used in string relational test",
+	          _parse.file, __temp[left ].ref, __temp[right].ref);
+d687 1
+a687 3
+    c_error("%s %s not allowed on fractional decimal fields",
+            _parse.file, to_token(op)
+	   );
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:04 $
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:47 $
+d733 3
+a735 2
+/**/printf("scale_dec(%d, %d, %s, %d) upgrade=%d new_ndec=%d\n", 
+/**/       result, left, to_token(op), right, upgrade, new_ndec);
+d838 2
+a839 1
+/**/printf("temp_load_NUMBER: xs=\"%s\" n_dec=%d len=%d\n", xs, n_dec, len);
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:25 $
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:49 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:16 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:47 $
+d113 2
+a114 2
+        fprintf(f, "%*s__nexpr = __n_%d;  __n_dec = %d;\n", INDENT,
+                result, __temp[result].n_dec);
+d158 2
+a159 2
+  fprintf(f, "%*s__nexpr = __n_%d;  __n_dec = %d;\n", INDENT,
+          result, __temp[result].n_dec);
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:38 $
+d104 2
+d107 1
+a107 1
+  if (strlen(__temp[result].ref))	/* Haven't loaded into __string	*/
+d109 24
+a132 3
+      genref(__temp[result].spec);
+      fprintf(f, "%*ssprintf(__string, \"%%.*s\", %s, %s);\n", INDENT,
+              "__an_arg.size", "__an_arg.addr");
+a133 15
+  else if (__temp[result].n_loaded)	/* Is loaded as a number	*/
+    {
+				/* MAX_NUM_DIGITS + 2 for '-' and '.'	*/
+      fprintf(f, "%*s__an_arg = ", INDENT);
+      fprintf(f,
+	      "dbl_mkarg(\"%s\", (void *)%s, -1, \"A%d.%d\", ARG_ISVAR);\n",
+              blkname, "__string", MAX_NUM_DIGITS + 2, __temp[result].n_dec
+	     );
+      fprintf(f, "%*sdbl_putn(&__an_arg, __nexpr, __n_dec);\n", INDENT);
+      fprintf(f, "%*s__string[%d] = '\\0';\n", INDENT, MAX_NUM_DIGITS + 2);
+    }
+  else
+    c_warning("%s - didn't do anything with result, spec=[%d]",
+              _parse.file, spec
+	     );
+d837 2
+d842 1
+d850 1
+a850 1
+  __temp[result].is_num_const = 1;
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:44 $
+d21 1
+a29 3
+typedef int ExprTarget;
+#define EXPR_STRING	1		/* Expression target is string	*/
+#define EXPR_NUMBER	2		/* Expression target is number	*/
+d38 1
+a38 2
+          emitn_load	PROTOARGS((int)),
+	  emits_l_op_r	PROTOARGS((int, int, char *, int));
+d40 1
+a40 1
+int       expr		PROTOARGS((Node_id, ExprTarget));
+d43 2
+d74 1
+d103 1
+a103 1
+  result = expr(spec, EXPR_STRING);	/* Generate string expression	*/
+d111 15
+d147 1
+a147 1
+  result = expr(spec, EXPR_NUMBER);	/* Generate numeric expression	*/
+d150 2
+a151 1
+  fprintf(f, "%*s__nexpr = __n_%d;\n", INDENT, result);
+d178 1
+a178 1
+  n = (Node_id)find_long(spec, T__FIELD_OF);
+d180 2
+a181 2
+  strcpy(ref, "");			/* Clear the buffer		*/
+  bld_ref(ref, spec, n);		/* Build the reference		*/
+a384 66
+void
+emits_l_op_r(result,  left, op, right)			/* Function	*/
+  int       result;
+  int       left;
+  char     *op;
+  int       right;
+{
+  int       t0 = -1, t1 = -1;
+
+  if (__temp[result].type != 'A')
+    c_error("emits_l_op_r: result=%d.type='%c'\n",result,__temp[result].type);
+
+					/* Load left  into __string	*/
+  if (__temp[left].type == 'D')
+    {
+      if (! __temp[left ].n_loaded)	/* Have we loaded the data yet?	*/
+        emitn_load(left);
+      fprintf(f, "%*s__an_arg =", INDENT);
+      fprintf(f,
+        "dbl_mkarg(\"%s\", (void *)__string, -1, \"A\", ARG_ISVAR);\n",
+              blkname);
+      fprintf(f, "%*sdbl_putn(&__an_arg, __n_%d);\n", INDENT, left);
+    }
+  else
+    {
+      fprintf(f, "%*s__an_arg =", INDENT);
+      fprintf(f,
+        "dbl_mkarg(\"%s\", (void *)__string, %d, \"%s\", ARG_ISVAR);\n",
+              blkname, __temp[left ].rsize, __temp[left ].rtype);
+      fprintf(f, "%*sdbl_puts(&__an_arg, 0, %s);\n", INDENT, __temp[left ].ref);
+    }
+
+					/* Load right into __number	*/
+  if (__temp[right].type == 'D')
+    {
+      if (! __temp[right].n_loaded)	/* Have we loaded the data yet?	*/
+        emitn_load(right);
+      fprintf(f, "%*s__an_arg =", INDENT);
+      fprintf(f,
+        "dbl_mkarg(\"%s\", (void *)__number, -1, \"A\", ARG_ISVAR);\n",
+              blkname);
+      fprintf(f, "%*sdbl_putn(&__an_arg, __n_%d);\n", INDENT, right);
+      fprintf(f, "%*s__number[%s] = '\\0';\n", INDENT, __temp[right].rsize);
+    }
+  else
+    {
+      fprintf(f, "%*s__an_arg =", INDENT);
+      fprintf(f,
+        "dbl_mkarg(\"%s\", (void *)__number, %d, \"%s\", ARG_ISVAR);\n",
+              blkname, __temp[right].rsize, __temp[right].rtype);
+      fprintf(f, "%*sdbl_puts(&__an_arg, 1, %s);\n", INDENT, __temp[right].ref);
+      fprintf(f, "%*s__number[%s] = '\\0';\n", INDENT, __temp[right].rsize);
+    }
+
+					/* Do "op" result in __string	*/
+  if      (op == "+")
+    fprintf(f, "%*sstrcat(__string, __number);\n", INDENT);
+  else if (op == "-")
+    fprintf(f, "%*sdbl_strremove(__string, __number);\n", INDENT);
+  else
+    c_error("%s - internal error in emits_l_op_r(%d, %d, %s, %d)",
+            _parse.file, result, left, op, right);
+
+  temp_unref(result);			/* Result is now in __string	*/
+} /* emits_l_op_r */
+
+d391 1
+a391 1
+expr(spec, target)					/* Function	*/
+a392 1
+  ExprTarget target;
+d394 1
+a394 1
+  int       result, badtarget = 0, left = -1, right = -1;
+d400 1
+a400 1
+    left  = expr(d, target);		/* Expand left sub-tree		*/
+d402 1
+a402 1
+    right = expr(d, target);		/* Expand right sub-tree	*/
+d407 2
+a408 2
+    printf("expr(spec=[%d],target=%d): result=%d left=%d right=%d xt=%d(%s)\n",
+           spec, target, result, left, right, xt, to_token(xt)
+a412 2
+NotDefinedForTarget:
+        badtarget = 1;			/* Invalid opcode for type	*/
+d414 3
+a416 13
+	switch (target)
+	  {
+	    case EXPR_STRING:	xs = "EXPR_STRING";	break;
+	    case EXPR_NUMBER:	xs = "EXPR_NUMBER";	break;
+	    default:		xs = "unknown target";	break;
+	  }
+	if (badtarget)
+	  c_error("%s - operator %s is undefined for %s\n",
+	          _parse.file, to_token(xt), xs);
+	else
+          c_error("expr.expr: has not implemented op=%d(%s) for %s (%d)\n",
+	          xt, to_token(xt), xs, target
+	         );
+d421 1
+d423 1
+d427 1
+d429 1
+d433 1
+d437 2
+a438 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "|", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d441 2
+a442 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "^", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d445 2
+a446 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "&", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d449 2
+a450 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "~", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d453 2
+a454 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "||", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d457 3
+a459 9
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      goto NotImplemented;
+              emitn_l_op_r(result,  left, "??", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d462 2
+a463 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "&&", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d466 1
+a466 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "!", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d469 2
+a470 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "==", right, 1);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d473 2
+a474 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "!=", right, 1);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d477 2
+a478 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, ">",  right, 1);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d481 2
+a482 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "<",  right, 1);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d485 2
+a486 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, ">=", right, 1);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d489 2
+a490 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "<=", right, 1);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d493 2
+a494 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "==", right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d497 2
+a498 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "!=", right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d501 2
+a502 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, ">",  right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d505 2
+a506 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "<",  right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d509 2
+a510 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, ">=", right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d513 2
+a514 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "<=", right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d517 2
+a518 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "==", right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d521 2
+a522 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "!=", right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d525 2
+a526 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, ">",  right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d529 2
+a530 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "<",  right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d533 2
+a534 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, ">=", right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d537 2
+a538 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      n_relational(result, xt, left, "<=", right, 0);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d541 2
+a542 11
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "+", right);
+	      break;
+	    case EXPR_STRING:
+	      emits_l_op_r(result,  left, "+", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d545 2
+a546 11
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "-", right);
+	      break;
+	    case EXPR_STRING:
+	      emits_l_op_r(result,  left, "-", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d549 3
+a551 9
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      goto NotImplemented;
+              emitn_l_op_r(result,  left, "??", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d554 2
+a555 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "*", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d558 2
+a559 8
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+              emitn_l_op_r(result,  left, "/", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d562 3
+a564 9
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      goto NotImplemented;
+              emitn_l_op_r(result,  left, "??", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d567 3
+a569 9
+	switch (target)
+	  {
+	    case EXPR_NUMBER:
+	      goto NotImplemented;
+              emitn_l_op_r(result,  left, "??", right);
+	      break;
+	    default:
+	      goto NotImplemented;
+	  }
+d672 59
+d765 4
+a768 3
+        __temp[r].inuse = 1;		/* Set temporary active		*/
+	__temp[r].n_loaded = 0;		/* Not loaded with numeric	*/
+	__temp[r].type  = '?';		/* Unknown type			*/
+d810 1
+a810 1
+  int       result;
+d812 1
+a812 1
+  char     *xs;
+d818 2
+d823 2
+a824 2
+  if (strlen(xs) + 2 > sizeof(__temp[0].ref))
+    c_error("overflow of temp[].ref by %d:\"%s\"", strlen(xs), xs);
+d826 13
+a838 5
+  sprintf(__temp[result].ref, "\"%.*s\"", sizeof(__temp[0].ref) - 3, xs);
+  sprintf(__temp[result].rsize, "%d",  strlen(xs));
+  sprintf(__temp[result].rtype, "D%d", strlen(xs));
+  __temp[result].spec = spec;
+  __temp[result].type = __temp[result].rtype[0];
+d840 1
+a840 1
+
+d882 1
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:21 $
+d305 1
+d310 2
+d313 1
+d319 1
+d324 1
+d330 1
+d398 1
+a398 1
+      fprintf(f, "%*sdbl_puts(&__an_arg, %s);\n", INDENT, __temp[left ].ref);
+d411 1
+d419 2
+a420 1
+      fprintf(f, "%*sdbl_puts(&__an_arg,  %s);\n", INDENT, __temp[right].ref);
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:03 $
+d75 1
+d166 2
+a167 1
+/**/printf("DID bld_ref(ref=\"%s\", spec=[%d], n=[%d]\n", ref, spec, n);
+d293 3
+a295 1
+       ! __temp[left ].n_loaded)	/* Have we loaded the data yet?	*/
+d297 3
+a299 1
+  if ( ! __temp[right].n_loaded)	/* Have we loaded the data yet?	*/
+d302 23
+a324 8
+  if (left >= 0)
+    fprintf(f, "%*s__n_%d = __n_%d %s __n_%d;\n",
+            INDENT, result, left, op, right
+	   );
+  else
+    fprintf(f, "%*s__n_%d = %s __n_%d;\n",
+            INDENT, result, op, right
+	   );
+d339 7
+a345 5
+/**/printf("emitn_load(r=%d) spec=[%d] T_O_LBRACK=[%d] T_O_LPAREN=[%d]\n",
+/**/       r, __temp[r].spec,
+/**/       __temp[r].spec ? rnn(__temp[r].spec, T_O_LBRACK, NIL) : NIL,
+/**/       __temp[r].spec ? rnn(__temp[r].spec, T_O_LPAREN, NIL) : NIL
+/**/       );
+d347 10
+a356 7
+/*
+	fprintf(f, "%*s__an_arg = ", INDENT);
+        fprintf(f, "dbl_mkarg(\"%s\", (void *)%s, %s, \"%s\", ARG_ISVAR);\n",
+                blkname, __temp[r].ref, __temp[r].rsize, __temp[r].rtype);
+ */
+	genref(__temp[r].spec);
+        fprintf(f, "%*s__n_%d = dbl_num(&__an_arg);\n", INDENT, r);
+a383 3
+/*
+      fprintf(f, "%*sdbl_putn(__string, -1, \"A\", __n_%d);\n", INDENT, left);
+ */
+a391 5
+/*
+    fprintf(f, "%*sdbl_puts(__string, %s, \"%s\", %s);\n", INDENT,
+	    __temp[left ].rsize, __temp[left ].rtype, __temp[left ].ref
+	   ); 
+ */
+a403 3
+/*
+      fprintf(f, "%*sdbl_putn(__number, -1, \"A\", __n_%d);\n", INDENT, right);
+ */
+a411 5
+/*
+    fprintf(f, "%*sdbl_puts(__number, %s, \"%s\", %s);\n", INDENT,
+	    __temp[right].rsize, __temp[right].rtype, __temp[right].ref
+	   ); 
+ */
+a893 6
+/*
+	fprintf(f, "%*s__an_arg = ", INDENT);
+        fprintf(f, "dbl_mkarg(\"%s\", (void *)%s, %s, \"%s\", ARG_ISVAR);\n",
+                blkname, __temp[left].ref, __temp[left].rsize,
+		__temp[left].rtype);
+ */
+a904 6
+/*
+	fprintf(f, "%*s__an_arg = ", INDENT);
+        fprintf(f, "dbl_mkarg(\"%s\", (void *)%s, %s, \"%s\", ARG_ISVAR);\n",
+                blkname, __temp[right].ref, __temp[right].rsize,
+		__temp[right].rtype);
+ */
+d963 1
+d1023 1
+d1066 1
+d1082 1
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:21 $
+d105 5
+a109 2
+    fprintf(f, "%*ssprintf(__string, \"%%.*s\", %s, %s);\n", INDENT,
+            __temp[result].rsize, __temp[result].ref);
+d324 1
+d328 2
+d346 1
+a346 1
+    c_error("emitn_l_op_r: result=%d.type='%c'\n",result,__temp[result].type);
+d354 2
+a355 1
+      fprintf(f, "dbl_mkarg(%s, (void *)__string, -1, \"A\", ARG_ISVAR);\n",
+d365 2
+a366 1
+      fprintf(f, "dbl_mkarg(%s, (void *)__string, %d, \"%s\", ARG_ISVAR);\n",
+d368 1
+a368 1
+      fprintf(f, "%*sdbl_puts(&__an_arg, %s);\n", __temp[left ].ref);
+d382 2
+a383 1
+      fprintf(f, "dbl_mkarg(%s, (void *)__number, -1, \"A\", ARG_ISVAR);\n",
+d393 2
+a394 1
+      fprintf(f, "dbl_mkarg(%s, (void *)__number, %d, \"%s\", ARG_ISVAR);\n",
+d396 1
+a396 1
+      fprintf(f, "%*sdbl_puts(&__an_arg,  %s);\n",__temp[right].ref);
+d820 2
+d884 1
+d889 2
+d901 1
+d906 2
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:40:41 $
+d58 6
+d162 2
+d315 10
+a324 2
+        fprintf(f, "%*s__n_%d = dbl_num((void *)%s, %s, \"%s\");\n", INDENT,
+	        r, __temp[r].ref, __temp[r].rsize, __temp[r].rtype);
+d347 5
+d353 1
+d356 6
+d365 2
+d372 6
+a377 1
+        emitn_load(left);
+d379 1
+d382 6
+d391 2
+d783 1
+a783 1
+      case T_O_PND:
+d794 1
+a794 1
+      case T_O_ROUND:
+d872 5
+a876 3
+        fprintf(f, "%*s__n_%d = dbl_num((void *)%s, %s, \"%s\");\n", INDENT,
+		left,
+	        __temp[left ].ref, __temp[left ].rsize, __temp[left ].rtype);
+d886 5
+a890 3
+        fprintf(f, "%*s__n_%d = dbl_num((void *)%s, %s, \"%s\");\n", INDENT,
+		right,
+	        __temp[right].ref, __temp[right].rsize, __temp[right].rtype);
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:31 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:43 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:34 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:02 $
+d156 9
+a164 1
+  strcpy(size, find_string(n, T__SIZE_BUFFER));
+d197 24
+d245 1
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:28 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:42 $
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:19 $
+d99 1
+a99 1
+    fprintf(f, "%*ssprintf(__string, \"%.*s\", %s, %s);\n", INDENT,
+d227 10
+d274 1
+a274 1
+        fprintf(f, "%*s__n_%d = dbl_num(%s, %s, \"%s\");\n", INDENT,
+d746 1
+d753 1
+d760 1
+d795 2
+a796 1
+        fprintf(f, "%*s__n_%d = dbl_num(%s, %s, \"%s\");\n", INDENT,
+d807 2
+a808 1
+        fprintf(f, "%*s__n_%d = dbl_num(%s, %s, \"%s\");\n", INDENT,
+d823 1
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:10 $
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/expr.c,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.36 1995/05/02 10:43:19 ldl Exp ldl $
+d229 1
+a229 1
+  if (__temp[left  ].type != 'D')
+d231 2
+d236 2
+a237 1
+  if ( ! __temp[left ].n_loaded)	/* Have we loaded the data yet?	*/
+d242 8
+a249 3
+  fprintf(f, "%*s__n_%d = __n_%d %s __n_%d;\n",
+          INDENT, result, left, op, right
+	 );
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.35 1995/04/25 11:48:27 ldl Exp ldl $
+d40 2
+a41 1
+          emitn_load	PROTOARGS((int));
+d45 1
+a45 1
+void      n_relational	PROTOARGS((int, int, int, char *, int)),
+d86 1
+a86 3
+  int       xt;
+  Node_id   d;
+  char     *xs;
+a89 2
+/**/c_warning("call of c_sexpr(spec=%d)", spec);
+/**/fprintf(f, "%*s/* c_sexpr(spec=[%d]) */\n",  INDENT, spec);
+d91 1
+a91 1
+/**/printf("c_sexpr(spec=[%d])\n", spec);
+d93 10
+d116 1
+a116 1
+/**/c_warning ("call of c_nexpr(spec=%d)", spec);
+d157 1
+a157 1
+  if (ty = rnn(n, T__TYPE, NIL))	/* Field data			*/
+d242 1
+a242 1
+  temp_unref(result);			/* No longer referencinc loc	*/
+d263 48
+d359 1
+a359 1
+/**/	temp_print(result);
+d363 1
+a363 1
+/**/    temp_print(result);
+d367 1
+a367 1
+/**/	temp_print(result);
+d455 1
+a455 1
+              goto NotImplemented;
+d465 1
+a465 1
+              goto NotImplemented;
+d475 1
+a475 1
+              goto NotImplemented;
+d485 1
+a485 1
+              goto NotImplemented;
+d495 1
+a495 1
+              goto NotImplemented;
+d505 1
+a505 1
+              goto NotImplemented;
+d515 1
+a515 1
+	      n_relational(result, xt, left, "==", right);
+d525 1
+a525 1
+	      n_relational(result, xt, left, "!=", right);
+d535 1
+a535 1
+	      n_relational(result, xt, left, ">", right);
+d545 1
+a545 1
+	      n_relational(result, xt, left, "<", right);
+d555 1
+a555 1
+	      n_relational(result, xt, left, ">=", right);
+d565 1
+a565 1
+	      n_relational(result, xt, left, "<=", right);
+d575 1
+a575 1
+	      n_relational(result, xt, left, "==", right);
+d585 1
+a585 1
+	      n_relational(result, xt, left, "!=", right);
+d595 1
+a595 1
+	      n_relational(result, xt, left, ">", right);
+d605 1
+a605 1
+	      n_relational(result, xt, left, "<", right);
+d615 1
+a615 1
+	      n_relational(result, xt, left, ">=", right);
+d625 1
+a625 1
+	      n_relational(result, xt, left, "<=", right);
+d637 3
+d650 3
+d720 1
+a720 1
+n_relational(result, op, left, rel, right)
+d728 1
+a728 1
+
+d733 1
+d739 1
+a739 1
+/**/printf("n_relational: conv=%d\n", conv);
+d750 1
+a750 1
+/**/printf("shorter=%d\n", shorter);
+d771 3
+d780 3
+d791 3
+d795 1
+d799 1
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.34 1995/04/24 12:23:14 ldl Exp ldl $
+a88 1
+/**/c_warning("call of c_sexpr(spec=%d)", spec);
+d91 2
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.33 1995/04/23 12:55:13 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.32 1995/04/22 12:42:50 ldl Exp ldl $
+d29 4
+d42 1
+a42 1
+int       expr		PROTOARGS((Node_id));
+d44 2
+a45 1
+void      temp_free	PROTOARGS((int)),
+d47 2
+a48 1
+	  temp_print	PROTOARGS((int));
+d53 2
+a54 1
+          temp_load_NUMBER PROTOARGS((Node_id));
+d114 1
+a114 1
+  result = expr(spec);			/* Generate expression		*/
+d117 1
+a117 1
+  fprintf(f, "%*s__nexpr = __ntemp[%d];\n", INDENT, result);
+d231 1
+a231 1
+  fprintf(f, "%*s__ntemp[%d] = __ntemp[%d] %s __ntemp[%d];\n",
+d234 1
+d248 1
+a248 1
+        fprintf(f, "%*s__ntemp[%d] = dbl_num(%s, %s, \"%s\");\n", INDENT,
+d261 1
+a261 1
+expr(spec)						/* Function	*/
+d263 1
+d265 1
+a265 1
+  int       result, left = -1, right = -1;
+d271 1
+a271 1
+    left  = expr(d);			/* Expand left sub-tree		*/
+d273 1
+a273 1
+    right = expr(d);			/* Expand right sub-tree	*/
+d276 1
+d278 2
+a279 2
+    printf("expr(spec=[%d]): result=%d, left=%d right=%d xt=%d(%s)\n",
+           spec, result, left, right, xt, to_token(xt)
+a280 1
+  result = (left < 0) ? right : left;
+d284 16
+a299 3
+        c_error("expr.expr: has not implemented op=%d(%s)\n",
+	        xt, to_token(xt)
+	       );
+d309 4
+d315 8
+a322 1
+        emitn_l_op_r(result,  left, "|", right);
+d325 8
+a332 1
+        emitn_l_op_r(result,  left, "^", right);
+d335 8
+a342 1
+        emitn_l_op_r(result,  left, "&", right);
+d345 8
+a352 1
+        emitn_l_op_r(result,  left, "~", right);
+d355 8
+a362 1
+        emitn_l_op_r(result,  left, "||", right);
+d365 9
+a373 1
+        emitn_l_op_r(result,  left, "??", right);
+d376 8
+a383 1
+        emitn_l_op_r(result,  left, "&&", right);
+d386 8
+a393 1
+        emitn_l_op_r(result,  left, "!", right);
+d396 8
+a403 1
+        emitn_l_op_r(result,  left, "|", right);
+d406 8
+a413 1
+        emitn_l_op_r(result,  left, "|", right);
+d416 8
+a423 1
+        emitn_l_op_r(result,  left, "|", right);
+d426 8
+a433 1
+        emitn_l_op_r(result,  left, "|", right);
+d436 8
+a443 1
+        emitn_l_op_r(result,  left, "|", right);
+d446 8
+a453 1
+        emitn_l_op_r(result,  left, "|", right);
+d456 8
+a463 1
+        emitn_l_op_r(result,  left, "==", right);
+d466 8
+a473 1
+        emitn_l_op_r(result,  left, "!=", right);
+d476 8
+a483 1
+        emitn_l_op_r(result,  left, ">", right);
+d486 8
+a493 1
+        emitn_l_op_r(result,  left, "<", right);
+d496 8
+a503 1
+        emitn_l_op_r(result,  left, ">=", right);
+d506 8
+a513 1
+        emitn_l_op_r(result,  left, "<=", right);
+d516 8
+a523 1
+        emitn_l_op_r(result,  left, "==", right);
+d526 8
+a533 1
+        emitn_l_op_r(result,  left, "!=", right);
+d536 8
+a543 1
+        emitn_l_op_r(result,  left, ">", right);
+d546 8
+a553 1
+        emitn_l_op_r(result,  left, "<", right);
+d556 8
+a563 1
+        emitn_l_op_r(result,  left, ">=", right);
+d566 8
+a573 1
+        emitn_l_op_r(result,  left, "<=", right);
+d576 8
+a583 1
+        emitn_l_op_r(result,  left, "+", right);
+d586 8
+a593 1
+        emitn_l_op_r(result,  left, "-", right);
+d596 9
+a604 1
+        emitn_l_op_r(result,  left, "??", right);
+d607 8
+a614 1
+        emitn_l_op_r(result,  left, "*", right);
+d617 8
+a624 1
+        emitn_l_op_r(result,  left, "/", right);
+d627 9
+a635 1
+        emitn_l_op_r(result,  left, "??", right);
+d638 9
+a646 1
+        emitn_l_op_r(result,  left, "??", right);
+d649 1
+a649 1
+  if ((result != left)  && (left >= 0) )
+d656 74
+d768 1
+d831 28
+d862 1
+d867 21
+a887 8
+  printf("__temp[%d].inuse     = %d\n", __temp[r].inuse);
+  printf("%9s.n_loaded  =\"%s\"\n", "", __temp[r].n_loaded);
+  printf("%9s.type      =\"%s\"\n", "", __temp[r].type);
+  printf("%9s.spec      =[%5d]\n",  "", __temp[r].spec);
+  printf("%9s.ref       =\"%s\"\n", "", __temp[r].ref);
+  printf("%9s.rsize     =\"%s\"\n", "", __temp[r].rsize);
+  printf("%9s.rtype     =\"%s\"\n", "", __temp[r].rtype);
+} /* print_temp */
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.31 1995/04/19 11:29:08 ldl Exp ldl $
+d22 6
+d34 14
+d52 15
+d69 2
+a70 2
+ *	Create a C code expression for spec.
+ *	Note: Returns dynamically allocated buffer.
+d72 4
+a75 2
+char *
+c_expr(spec)						/* Function	*/
+d82 3
+a84 4
+  char      buf[BUFSIZ];
+  strcpy(buf, "");			/* Clear buffer			*/
+/**/printf("c_expr(spec=[%d])\n", spec);
+/***/
+d86 1
+a86 1
+/**/printf("c_expr: spec=[%d] returning \"%s\"\n", spec, buf);
+d88 1
+a88 2
+  return u_strdup(buf);
+} /* c_expr */
+d92 1
+a92 1
+ *	Note: Returns dynamically allocated buffer.
+d94 4
+a97 2
+char *
+c_nexpr(spec)						/* Function	*/
+d100 11
+a110 4
+  char      buf[BUFSIZ];
+  strcpy(buf, "");			/* Clear buffer			*/
+/**/printf("c_nexpr(spec=[%d])\n", spec);
+/***/
+d112 1
+a112 6
+/**/sprintf(buf, "/*c_nexpr(spec=[%d])*/ 1", spec);
+/***/
+
+/**/printf("c_nexpr: spec=[%d] returning \"%s\"\n", spec, buf);
+/***/
+  return u_strdup(buf);
+d133 4
+a136 2
+/**/printf("c_ref(spec=%d)\n", spec);
+/***/
+d147 3
+a149 3
+/**/printf("c_ref: spec=%d returning ref=\"%s\" size=\"%s\" type=\"%s\"\n",
+/**/        spec, ref, size, type);
+/***/
+a152 17
+ *	Make a variable node reference into a string.
+ *	Note:	The string returned is a pointer to a statically
+ *		allocated buffer within the routine!
+ */
+char *
+mkvarref(id)						/* Function	*/
+  Node_id   id;
+{
+  static
+  char      varref[BUFSIZ];
+
+  strcpy(varref, "");
+/**/printf("mkvarref: [%d]\n", id);
+  return "mkvarref: not implemented";
+} /* mkvarref */
+
+/**
+d171 2
+a172 1
+/**/printf("bld_ref(ref=0x%08lx, spec=[%d] type=[%d]\n", ref, spec, type);
+d177 2
+a178 1
+/**/printf("bld_ref: d=[%d]\n", d);
+d200 2
+a201 1
+/**/printf("bld_ref: returning ref=\"%s\"\n", ref);
+d203 307
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.30 1995/04/18 12:00:39 ldl Exp ldl $
+d89 1
+a89 1
+  Node_id   n;
+d101 4
+a104 1
+  strcpy(type, find_string(rnn(n, T__TYPE, NIL), T__TYPE));
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.29 1995/04/13 10:23:55 ldl Exp ldl $
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.28 1995/04/03 11:47:10 ldl Exp ldl $
+d152 1
+a152 1
+  if (xt == T__FIELD)			/* Field			*/
+d154 2
+d158 10
+a167 6
+      strcat(ref, xs = find_string(type, T_ID));
+      if ( rnn(type, T__REDEFINEDBY, NIL) )
+	{
+          strcat(ref, "_UNION.");	/* It's a redefine		*/
+	  strcat(ref, xs);
+	}
+d169 2
+a170 1
+  strcat(ref, ".");
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.c,v 1.27 1995/03/27 03:06:25 ldl Exp ldl $
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d26 2
+d78 1
+a78 1
+ *	Note: Returns dynamically allocated buffer.
+d80 2
+a81 2
+char *
+c_ref(spec)						/* Function	*/
+d83 3
+d87 7
+a93 2
+  char      buf[BUFSIZ];
+  strcpy(buf, "");			/* Clear buffer			*/
+d96 1
+d98 7
+a104 1
+/**/printf("c_ref: spec=%d returning \"%s\"\n", spec, buf);
+a105 1
+  return u_strdup(buf);
+d125 43
+a167 1
+/* End of $Source$ */
+@

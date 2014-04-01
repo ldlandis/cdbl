@@ -1,0 +1,871 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.55;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.51;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.05.54;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.22;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.00;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.10;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.05;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.36;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.34;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.24;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.08;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.29;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.11;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.00;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.45.58;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.00;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.42;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.38.58;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.05;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.47;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.25;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.49;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.17;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.47;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.39;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.44;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.21;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.03;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.22;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.40.41;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.31;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.44;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.34;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.02;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.28;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.42;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.19;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.10;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.19;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.28;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.14;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.13;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.51;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.08;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.39;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.55;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.10;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.26;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/expr.h,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:51 $
+ */
+
+#ifndef	_EXPR_H_
+#define _EXPR_H_
+
+#include <stdio.h>
+#include "prototype.h"
+
+/***
+ *	These functions generate the code from <expr> trees.
+ *
+ * Synopsis:
+ *	
+ *	void				// Result in __string
+ *	c_sexpr(f, indent, expr)	// Create string C expression
+ *	  FILE     *f;			// File to emit code to
+ *	  int       indent;		// Current indent
+ *	  Node_id   expr;		// Base of expr
+ *
+ *	void				// Result in __nexpr
+ *	c_nexpr(f, indent, expr)	// Create numeric C expression
+ *	  FILE     *f;			// File to emit code to
+ *	  int       indent;		// Current indent
+ *	  Node_id   expr;		// Base of expr
+ *
+ *	void
+ *	c_ref(desc, ref, size, type)	// Create a C reference
+ *	  Node_id   desc;		// Reference descriptor (in)
+ *	  char    **ref;		// C reference name    (out) STATIC
+ *	  char    **size;		// C reference size    (out) STATIC
+ *	  char    **type;		// Dibol data type     (out) STATIC
+ */
+
+/**
+ *	Allocation of numeric temporaries used in code generation.
+ */
+#define MAX_NTEMP	10
+
+/**
+ *	Prototypes for expr exports.
+ */
+void
+  c_sexpr		PROTOARGS((FILE *, int, Node_id)),
+  c_nexpr		PROTOARGS((FILE *, int, Node_id)),
+  c_ref			PROTOARGS((Node_id, char **, char **, char **));
+
+#endif/*_EXPR_H_*/
+
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/expr.h,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:05:54 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:22 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:53:00 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:10 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:05 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:36 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:34 $
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:24 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:08 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:29 $
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:11 $
+d40 1
+a40 1
+#define MAX_NTEMP	5
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:00 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:45:58 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:44:00 $
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:42 $
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:38:58 $
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:05 $
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:47 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:25 $
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:49 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:17 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:47 $
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:39 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:44 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:21 $
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:03 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:22 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:40:41 $
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:31 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:44 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:34 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:02 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:28 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:42 $
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:19 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:10 $
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/expr.h,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.36 1995/05/02 10:43:19 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.35 1995/04/25 11:48:28 ldl Exp ldl $
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.34 1995/04/24 12:23:14 ldl Exp ldl $
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.33 1995/04/23 12:55:13 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.32 1995/04/22 12:42:51 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.31 1995/04/19 11:29:08 ldl Exp ldl $
+d13 1
+a13 1
+ *	This defines a "tangled net" structure.
+d16 12
+d35 4
+a38 9
+ *	
+ *	char *				// DYNAMIC Resulting expression
+ *	c_expr(expr)			// Create C expression
+ *	  Node_id   expr;		// Base of expr
+ *
+ *	char *				// DYNAMIC Resulting expression
+ *	c_nexpr(expr)			// Create numeric C expression
+ *	  Node_id   expr;		// Base of expr
+ *
+d40 1
+d42 3
+a44 4
+char *
+  c_expr		PROTOARGS((Node_id));
+char *
+  c_nexpr		PROTOARGS((Node_id));
+d46 2
+a48 2
+char *
+  mkvarref		PROTOARGS((Node_id));
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.30 1995/04/18 12:00:39 ldl Exp ldl $
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.29 1995/04/13 10:23:55 ldl Exp ldl $
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.28 1995/04/03 11:47:10 ldl Exp ldl $
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/expr.h,v 1.27 1995/03/27 03:06:26 ldl Exp ldl $
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d17 6
+a22 3
+ *	char *				// DYNAMIC string
+ *	c_ref(ref)			// Create a C reference
+ *	  Node_id   ref;		// Base of ref
+d38 2
+a40 2
+  c_ref			PROTOARGS((Node_id));
+char *
+d46 1
+a46 1
+/* End of $Source$ */
+@

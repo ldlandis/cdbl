@@ -1,0 +1,24 @@
+CDBL Permanent Symbols for files in this directory
+. Each table entry is represented by a stanza
+. Stanzas are started with a stanza name
+. A stanza name is the entire non-'.' started line
+. This is the last line of this stanza
+PROCEDURE FORMAL PARAMETERS (Prototype)
+.<ParameterName>  (in declaration order)
+..:<ParameterDataType>
+..[               (optional "real" array)
+...<RealArray1stSubscript>
+....<RealArray2ndSubscript>
+..... ...<RealArrayXthSubscript>
+..(               (optional "pseudo" array)
+...<PseudoArraySubscript>
+QA_CLEAR
+.ARG
+..:D2
+QA_ARRAYS
+QA_ASSIGN
+.ARG
+..:D2
+QA_LABELS
+.COL
+..:D2

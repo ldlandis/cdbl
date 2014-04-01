@@ -1,0 +1,42 @@
+; asg_na.dbl - assignment
+;   nfield = aexp
+RECORD
+	A0, A, "123.4567"
+	A1, A, '123'
+	A2, A, '345'
+	A8, A8
+	A11, A11
+	A12, A12
+	D53, D5.3
+	D6, D6
+	D10, D10
+;	I4, I4
+	P84, P8.4
+PROC
+	OPEN(1,O,'TT:')
+
+	A12 ='910111213141'
+	D10 = A12
+	DISPLAY(1, 'D10 = A12(="',A12,'") = "',D10,'"  want "011213141"')
+
+	A8 = '65444321'
+	D10 = A8
+	DISPLAY(1, 'D10 = A8(="',A8,'") = "',D10,'"  want "0065444321"')
+
+	A11 = '-0065432178'
+	D10 = A11
+	DISPLAY(1, 'D10 = A11(="',A11,'") = "',D10,'"  want "006543217x"')
+
+	D53 = A0
+	DISPLAY(1, 'D53 = A0(="',A0,'") = "',D53,'"  want "23.456"')
+
+	P84 = A0
+	DISPLAY(1, 'P84 = A0(="',A0,'") = "',P84,'"  want "0123.4567"')
+
+;	I4 = A0
+;	DISPLAY(1, 'I4 = A0(="',A0,'") = "',I4,'"  want "123"')
+
+	D6 = A1 + A2
+	DISPLAY(1, 'D6 = A1(="',A1,'") + A2(="',A2,'") = "',D6,'"  want "123345"')
+
+; End asg_na.dbl - assignment

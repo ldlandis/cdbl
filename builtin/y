@@ -1,0 +1,5 @@
+DBLArg_t
+BUILTIN_FUNC(ABS)(narg, arg)			/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+BUILTIN */

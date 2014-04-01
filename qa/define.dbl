@@ -1,0 +1,67 @@
+.note ".IFDEF VALUE"
+.define value,'this is a test'
+.ifdef	value
+.define sam,1
+.else
+.define sam,0
+.endc
+
+.ifdef value
+.note "ifdef worked"
+.else
+.error "ifdef failed"
+.endc
+
+.ifndef value
+.error "ifndef failed"
+.else
+.note "ifndef worked"
+.endc
+
+.warning "just because" 
+.if 0
+.ift
+.error ".ift  in 0 failed"
+.iff
+.note  ".iff  in 0 worked"
+.iftf
+.note  ".iftf in 0 worked"
+.endc
+
+.if 1
+.iff
+.error ".iff  in 0 failed"
+.ift
+.note  ".ift  in 1 worked"
+.iftf
+.note  ".iftf in 1 worked"
+.endc
+
+
+.if 1
+.note "1 worked"
+.define one,1
+.else
+.error "1 failed"
+.define one,2
+.endc
+
+.if 0
+.error "2 failed"
+.define two,3
+.else
+.note "2 worked"
+.define two,2
+.endc
+
+.if sam * 3
+.define bigone,sam * 4
+.endc
+
+.if sam - 1
+.define littleone,(sam+1) * 1
+.endc
+
+
+PROC
+	DISPLAY(10, value)

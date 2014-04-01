@@ -1,0 +1,104 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.42;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.40;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc__ckarg.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:40 $
+ */
+
+#include <stdio.h>
+#include "../cdbl_rt.h"
+#include "xc__ckarg.h"
+
+void
+xc__ckarg(rtn, narg, arg_v, nadscr, adscr_v)		/* Function	*/
+  char     *rtn;
+  int       narg;
+  DBLArg_t *arg_v;
+  int       nadscr;
+  XC_ADscr *adscr_v;
+{
+  int       i;
+
+  if (narg != nadscr)			/* Mismatching error code	*/
+    {
+      drt_ERROR(rtn, "$ERR_ARGNUM");
+      return;
+    }
+
+  for (i = 0;  i < narg;  ++i)		/* Verify argments conform	*/
+    {
+      DBLArg_t *arg   = arg_v   + i;
+      XC_ADscr *adscr = adscr_v + i;
+#define SET_ERROR(dflt)\
+         drt_ERROR(rtn, (adscr->ercode) ? (adscr->ercode) : dflt)
+
+      switch (adscr->flags)		/* Check for writing literals...*/
+        {
+	  case ARG_ISVAR:		/* MUST be a variable		*/
+	    if ( ARG_ISTYPE(arg->flags) != ARG_ISVAR )
+	      SET_ERROR("$ERR_WRITLIT");
+	}
+
+        				/* Check for size requirements	*/
+      if (adscr->minsize || adscr->maxsize)
+        {
+	  if (                   (arg->size < adscr->minsize) ||
+	      (adscr->maxsize && (arg->size > adscr->maxsize))
+	     )
+	    {
+	      SET_ERROR("$ERR_ARGSIZ");
+	      return;
+	    }
+	}
+
+      if (adscr->dtype)			/* Check for data type required	*/
+        {
+	  if (adscr->dtype[0] != arg->type[0])
+	    SET_ERROR("$ERR_INVARGTYP");
+	}
+#undef	SET_ERROR
+    }
+} /* xc__ckarg */
+
+/* End of $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc__ckarg.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Source$
+ * $Revision$ $Date$
+d61 1
+a61 1
+/* End of $Source$ */
+@

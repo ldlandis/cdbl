@@ -1,0 +1,57 @@
+;;;
+; $Source$
+; $Revision$ $Date$
+; Test expressions with substrings and arrays etc etc
+RECORD STUFF
+	PMONTHS, 12A3,		'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN',
+				'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'
+	RMONTHS, [4,3]A9,	'January'  , 'February' , 'March'    ,
+				'April'    , 'May'      , 'June'     ,
+				'July'     , 'August'   , 'September',
+				'October'  , 'November' , 'December'
+	MDAYS,	 [12]D2, 	 31        ,  28        ,  31        ,
+				 30        ,  31        ,  30        ,
+				 31        ,  31        ,  30        ,
+				 31        ,  30        ,  31
+	ADAYS,	 A36,	 	' 31 28 31 30 31 30 31 31 30 31 30 31'
+
+
+RECORD VARS
+	 ,	A2, 'I='
+	I,	D2
+	 ,	A3, ' J='
+	J,	D2
+	 ,	A3, ' K='
+	K,	D2
+	 ,	A5, ' MON='
+	MON,	A3
+	 ,	A6, ' DAYS='
+	DAYS,	A2
+	 ,      A6, ' NDAY='
+	NDAY,	A2
+	PROMPT, A2, '? '
+
+RECORD
+	GREETER,A5, '12345'
+
+PROC
+	PROMPT(1,1) = ':'
+	FOR I = 1 UNTIL 12 DO
+	  BEGIN
+	    J = (I - 1) / 3 + 1
+	    K = I - (J - 1) * 3
+	    MON = RMONTHS[J,K](1:3)
+	    DAYS = MDAYS[I]
+	    NDAY = ADAYS((I - 1) * 3 + 2:(I - 1) * 3 + 3)
+	    DISPLAY(1, VARS,
+	            PMONTHS(I), " = ", RMONTHS[J,K],
+	            " (", MON, ")",
+		    10
+		   )
+	  END
+	GREETER(1:1)=RMONTHS[2,1](5,1)
+	GREETER(2:2)=RMONTHS[1,1](2:2)
+	GREETER(3,1)=RMONTHS[4,3](8:8)
+	GREETER(4:4)=RMONTHS[3,3](9,1)
+	GREETER(5,1)=RMONTHS[2,2](3:3)
+	DISPLAY(1, 'hi there!', 10, '  --', GREETER, '!', 10)

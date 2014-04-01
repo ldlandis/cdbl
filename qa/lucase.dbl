@@ -1,0 +1,11 @@
+RECORD DATA
+	BEFORE, A6 , '-<abc:'
+	STRING, A40, 'This is a test of LOCASE and UPCASE...'
+	BEYOND, A6 , ':XYZ>-'
+
+PROC
+	DISPLAY(1, 'Initial ', DATA, 10)
+	LOCASE STRING
+	DISPLAY(1, 'LOCASE  ', DATA, 10)
+	UPCASE STRING
+	DISPLAY(1, 'UPCASE  ', DATA, 10)

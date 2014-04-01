@@ -1,0 +1,6863 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.53;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.48;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.05.50;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.20;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.52.58;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.09;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.03;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.34;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.32;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.23;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.04;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.27;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.10;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.46.59;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.45.57;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.43.59;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.41;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.38.57;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.04;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.46;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.24;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.48;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.16;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.46;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.38;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.43;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.20;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.02;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.21;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.40.41;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.30;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.43;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.34;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.01;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.27;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.42;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.19;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.10;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.18;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.27;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.13;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.12;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.50;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.08;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.35;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:48 $
+ */
+
+
+/**
+ * Synopsis:
+ *	See cdbl_rt.h.
+ *
+ * Description:
+ *	Runtime support for cdbl programs.  The interfaces to these
+ *	routines are specified in the header cdbl_rt.h, which is shared
+ *	by the compiler and executable.  That is, the compiler generates
+ *	calls conformant to the interface definitions.
+ */
+
+#include "cdbl_rt.h"
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 	*/
+/*			 Detach from life for a bit			*/
+#include "gram.h"
+#include "_tokens.c"
+/**
+ *	NOTE:	This routine must match what is in node.c used
+ *		by the compiler.
+ *	Decode token value to readable text.
+ */
+char *
+to_token(t)						/* Function	*/
+  int       t;
+{
+  char     *s;
+
+  if ( ! ( (T__NIL  <= t) && (t <= T__LAST) ) )
+    return "!BOGUS!";
+
+  t -= T__NIL;				/* Remove offset for array ref	*/
+
+  if ( ! (s = token_kw[t]) )		/* Pick a table to decode by	*/
+    if ( ! ( s = tokenseq[t] ) )
+      s = token_rkw[t];			/* "Raw bits" is *best*		*/
+  return s;
+} /* to_token */
+
+/*			 Resume with real life now			*/
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 	*/
+
+#include <ctype.h>
+#include <db.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <varargs.h>
+
+#define END_OF_LINE	"\n"
+
+typedef					/* Type: IO_kind		*/
+  int       IO_kind;			/* ----------------------------	*/
+#define IO_BINARY	1		/* Binary I/O			*/
+#define IO_TEXT		2		/* Text I/O			*/
+
+
+/**
+ *	A few notes on ISAM files.  The physical file has all of the indexes
+ *	and data stored in it.  The first (0) key descriptor (keys[0]) is
+ *	for the primary key, which is guaranteed to be DBL_ISAM_A_NOCHANGE
+ *	and DBL_ISAM_A_NODUPLICATES.  The data record is stored with the
+ *	primary key entry.  Index (secondary key) file keys are stored with
+ *	the primary key value.  READ operations cause the setting of the
+ *	ckey field to point to the key to use, the default being the primary
+ *	key.  Subsequent READ, not specifying a different index, and READS
+ *	operations use the ckey index in its most recent state.
+ *
+ *	A schmatic of the layout of an indexed file is:
+ *	   <*>:"ISAM":DBLISAMH_t record
+ *	   <0>:prikey:data
+ *	  [<1>:seckey1 prikey:""	Where <1>, <2>... are the index
+ *	   <2>:seckey2 prikey:""	number in the DBLISAMH_t descriptor.
+ *	   ...
+ *	  ]
+ *
+ *	Note that there cannot be an index <3> without there being an index
+ *	<1> and <2>.  If the DBLISAMH_t contents of an existing file do not
+ *	"match" the open request, then a fatal error is generated.
+ *
+ *	Index <*> is the character created by "char ch = MAX_ISAM_KEYS;",
+ *	since MAX_ISAM_KEYS is a small number, this never overflows the
+ *	sizeof(char).  (ASSERTION!)
+ *
+ *	Note that the dbopen(3) file is opened with no duplicates allowed.
+ *	Therefore, since secondary indexes require the ability to allow
+ *	duplicate keys, and the primary index forbids duplicate keys,  the
+ *	key values for secondary indexes are created by concatenating the
+ *	index number, the secondary key and the primary key together, forming
+ *	a unique secondary key value.  For secondary indexes, the "data"
+ *	associated with the key is (effectively) "" null data.
+ *LDL	(or should be thought of as such -- dbopen(3) may not allow empty
+ *	DBT data parts, don't recall right now -- I intend to fix this when
+ *	I know the answer after implementing).
+ *
+ *	Note that key[MAX_ISAM_KEYS] contains the current "hi-key" for the
+ *	primary index (key[0]).  In APPEND mode, no key may be added that
+ *	collates below this value.
+ *
+ *	CAVEAT: CURRENT IMPLEMENTATION DOES *NOT* SUPPORT MULTI-USER
+ *	        CONCURRENT UPDATE ACCESS TO ISAM FILES!
+ *
+ *	CAVEAT: For multi-user environments, locking needs to be implemented
+ *	and as new records are added to the file, the "hi-key" updated from
+ *	the file prior to attempting addition of the new key.
+ */
+typedef					/* Type: FileIndexed		*/
+struct					/* Index-Oriented Files		*/
+  {					/* ----------------------------	*/
+    DB       *db;			/* dbopen(3)) handle		*/
+    DBLISAMH_t keys;			/* Key descriptor		*/
+    int       ckey;			/* Current active key in key[]	*/
+    char     *key[MAX_ISAM_KEYS + 1];	/* Pointers into keybuf per krf	*/
+    char      keylen[MAX_ISAM_KEYS + 1];/* Length of ix#+key[n]		*/
+    char     *keybuf;			/* Local key buffer		*/
+  }       FileIndexed;			/*				*/
+
+typedef					/* Type: FileRelative		*/
+struct					/* Record-Oriented Files	*/
+  {					/* ----------------------------	*/
+    int       fd;			/* O.S. file descriptor		*/
+    long      recno;			/* Last referenced record #	*/
+    int       size;			/* First record size		*/
+  }       FileRelative;			/*				*/
+
+static
+void      close_io	PROTOARGS((int));
+static
+void      crack_args	PROTOARGS((int, char **, char **));
+static
+int       decode_key_attr PROTOARGS((char **, char *));
+static
+int       decode_key_type PROTOARGS((char **, char *));
+static
+void      do_rel_read	PROTOARGS((char *, int, DBLArg_t *, IO_kind));
+static
+void      do_rel_write	PROTOARGS((char *, int, DBLArg_t *, IO_kind));
+static
+void      errno_clr	PROTOARGS((void));
+static
+void      errno_print	PROTOARGS((char *));
+static
+void      errno_set	PROTOARGS((int,   IOS_t,   char *));
+static
+char     *file_mode	PROTOARGS((int));
+static
+char     *file_type	PROTOARGS((int));
+static
+DBLArg_t *find_arg	PROTOARGS((int, DBLArg_t *, int));
+static
+void      flush_io	PROTOARGS((void));
+static
+int       ios_ck_nargs	PROTOARGS((char *,IOS_t,int,DBLArg_t *,int,int,int*));
+static
+int       isam_key_compare PROTOARGS((const DBT *, const DBT *));
+static
+int       isam_keyck	PROTOARGS((FileIndexed *, DBLArg_t *));
+static
+int       isam_keysv	PROTOARGS((FileIndexed *, DBLArg_t *));
+static
+DBT       isam_mkkey	PROTOARGS((FileIndexed *, DBLArg_t *, int));
+static
+int       isam_open	PROTOARGS((int, int, DBLArg_t*, char*, FileIndexed*));
+static
+IOS_t     isam_read	PROTOARGS((char *, int, DBLArg_t *, int));
+static
+DBT       isam_svkey	PROTOARGS((FileIndexed *, int));
+static
+void      isam_update	PROTOARGS((char *, int, DBLArg_t *, int));
+static
+int       parse_keys	PROTOARGS((int, DBLArg_t *, DBLISAMH_t *));
+static
+int       parse_number	PROTOARGS((char **));
+static
+char     *resolved_file_name PROTOARGS((char *));
+static
+void      set_file_open	PROTOARGS((int, char *, int, void *, int, int));
+static
+void      set_ofp	PROTOARGS((int, int, int));
+static
+char     *src_loc	PROTOARGS((void));
+
+#ifdef	CDBL_RT_DEBUG
+static
+void      print_iof	PROTOARGS((FileIndexed *));
+static
+void      print_keys	PROTOARGS((DBLISAMH_t *));
+#endif/*CDBL_RT_DEBUG*/
+
+extern
+int       errno;			/* Global standard errno value	*/
+
+static
+int       debug = 0;			/* Debugging output on/off	*/
+
+static
+struct					/* Error sts/message billboard	*/
+  {					/* ----------------------------	*/
+    int       has_error;		/* !0 means we have an error	*/
+    int       errno;			/* Error number	(from O.S.)	*/
+    IOS_t     io_sts;			/* Last I/O status		*/
+    char     *routine;			/* Source routine name		*/
+    int       line;			/* Source routine line number	*/
+    char      dblmsg[BUFSIZ];		/* DBL specific error message	*/
+  }           dbl_error = { 0 };	/*				*/
+
+static
+struct					/* Open Files Descriptors	*/
+  {					/* ----------------------------	*/
+    int       channel;			/* DBL channel id		*/
+#define DBL_CHANNEL_FREE -1		/*   Channel is not in use	*/
+    char     *file_name;		/* Name of file (if appropriate)*/
+    int       file_mode;		/* Open mode(s)			*/
+#define DBL_FM_NONE	0x00		/*   No operations allowed	*/
+#define DBL_FM_READ	0x01		/*   Read operations allowed	*/
+#define DBL_FM_WRITE	0x02		/*   Write operations allowed	*/
+#define DBL_FM_APPEND	0x04		/*   Append operations allowed	*/
+#define DBL_FM_DELETE	0x08		/*   Delete operations allowed	*/
+#define DBL_FM_NOBUF	0x10		/*   For STREAM setbuf(NULL)	*/
+    int       file_type;		/* Discriminator for descr	*/
+#define DBL_FT_NONE	 0		/*   Not opened			*/
+#define DBL_FT_REGULAR	 1		/*   Regular file		*/
+#define DBL_FT_STREAM	 2		/*   fprintf-able FILE *	*/
+#define DBL_FT_INDEXED   3		/*   Indexed using dbopen(3)	*/
+#define DBL_FT_RELATIVE	 4		/*   Relative I/O file		*/
+    union				/* Discriminated variant record	*/
+      {					/* ----------------------------	*/
+        FileRelative rof;		/* DBL_FT_{REGULAR,RELATIVE}	*/
+	FILE     *file;			/* DBL_FT_STREAM		*/
+	FileIndexed iof;		/* DBL_FT_INDEXED		*/
+      }       descr;			/* ----------------------------	*/
+#define MAX_OPEN_FILES	20
+  }       open_files[MAX_OPEN_FILES], *ofp = 0;
+
+#define MAX_CDBL_XCALL_DEPTH	50
+static
+struct					/* Runtime call stack (routines)*/
+  {					/* ----------------------------	*/
+    char     *routine;			/* Routine name			*/
+    int       line;			/* Line number			*/
+    int      *call_return;		/* Base of return stack for rtn	*/
+    int      *call_stack;		/* Return stack top pointer	*/
+  }       cdbl_stack[MAX_CDBL_XCALL_DEPTH]
+	= {
+	    { "<bottom>", 0 }
+	  };
+static
+int       cdbl_cframe = 0;		/* Current stack frame		*/
+
+/**
+ *	CDBL "DIBOL" data management routines.
+ */
+
+void
+dbl_linkage(routine, returnstack, stack)		/* Function	*/
+  char     *routine;
+  int      *returnstack;
+  int      *stack;
+{
+  int       sp;
+  extern
+  int      *__lineno;			/* Satisfied in main		*/
+
+  if ( routine )			/* Linking			*/
+    { 
+      sp = ++cdbl_cframe;
+      if (sp >= MAX_CDBL_XCALL_DEPTH)
+        drt_FATAL("XCALL RUNTIME STACK OVERFLOW");
+      cdbl_stack[sp].routine     = routine;
+      cdbl_stack[sp].line        = 0;
+      cdbl_stack[sp].call_return = returnstack;
+      cdbl_stack[sp].call_stack  = stack;
+    }
+  else					/* De-linking			*/
+    {
+      sp = --cdbl_cframe;
+      if (sp < 0)
+        drt_FATAL("XCALL RUNTIME STACK UNDERFLOW");
+    }
+  __lineno =  &cdbl_stack[sp].line;	/* Point to current line counter*/
+} /* dbl_linkage */
+
+/**
+ * Notes on dbl_mkarg() and dbl_toarg().
+ *	All arguments used in XCALLs are passed using the DBLArg_t structure.
+ *	On the call, the DBLArg_t structure is created (dbl_mkarg), and passed
+ *	in to the routine as the 'argument'.  The routine then decodes the
+ *	argument (dbl_toarg), which updates the local argument pointer address
+ *	so the routine then has 'by reference' access to the data.
+ *
+ * Note:
+ *    o	Type mis-matches are detected in dbl_toarg.
+ *    o	Numeric constants are always put in a fixed size buffer, and the
+ *	address is diddled to match the callee.
+ *
+ * Caveat:
+ *    o	If "strings" are in writable memory, then numeric constants can be
+ *	modified by the caller, so be careful.
+ */
+void
+dbl_mkarg(arg, caller, addr, size, type, flags)		/* Function	*/
+  DBLArg_t *arg;
+  char     *caller;
+  void     *addr;
+  int       size;
+  char     *type;
+  int       flags;
+{
+  arg->caller  = caller;
+  arg->addr    = addr;			/* Making an arg is real easy	*/
+  arg->size    = size;
+  arg->type    = type;
+  arg->flags   = flags;
+} /* dbl_mkarg */
+
+Llong
+dbl_num(arg)						/* Function	*/
+  DBLArg_t *arg;
+{
+  Llong     num = 0;
+  int       i   = arg->size, has_dec = 0;
+  char     *cp  = (char *)arg->addr;
+
+  while (i--)
+    switch (*cp)
+      {
+        case '0': case '1': case '2': case '3': case '4':
+        case '5': case '6': case '7': case '8': case '9':
+          num = num * 10 + *cp++ - '0';
+	  break;
+	case '.':
+	  if (has_dec++)		/* Stop, saw '.' already	*/
+	    goto End_Of_Number;
+	  /* Fall-thru */
+	case ' ':
+	  /* Ignore character */
+	  ++cp;
+	  break;
+	default:
+	  goto End_Of_Number;
+      }
+End_Of_Number:
+  if ((i == 0) && ((*cp >= 'p') || (*cp < 'y')))
+    num = -(num * 10 + (*cp - 'p'));
+  return num;
+} /* dbl_num */
+
+void
+dbl_putn(arg, data, dprec)				/* Function	*/
+  DBLArg_t *arg;
+  Llong     data;
+  int       dprec;
+{
+  char      buf[BUFSIZ], *pp;
+  int       digits, prec, sign, size = arg->size;
+  long      top, bottom;
+
+  sign = data < 0;
+  if (sign)				/* Capture sign of number	*/
+    data = -data;
+
+  prec = digits = 0;
+/** /printf("dbl_putn: arg->type=\"%s\" size=%d\n", arg->type, size);
+/***/
+  if (pp = strchr(arg->type, '.'))	/* Have a precision		*/
+    prec = atoi(pp + 1);		/* # of digits to right of '.'	*/
+  digits = dprec - prec;		/* # of digits to shift		*/
+
+/** /top    = data / 1000000000; bottom = data % 1000000000;
+/** /printf("dbl_putn(-arg-, %s%ld%09ld, %d) prec=%d digits=%d\n",
+/** /        sign ? "-" : "", top, bottom, dprec, prec, digits);
+/***/
+
+  if      (digits < 0)
+    while (digits++)			/* Grow to fit target precision	*/
+      data *= 10;
+  else if (digits > 0)
+    while (digits--)			/* Shrink to fit precision	*/
+      data /= 10;
+
+/** /top    = data / 1000000000; bottom = data % 1000000000;
+/** /printf("dbl_putn: scaled data=%s%ld%09ld\n",
+/** /        sign ? "-" : "", top, bottom);
+/***/
+
+  top    = data / 1000000000;
+  bottom = data % 1000000000;
+
+  if (size < 0)				/* Always in A<n> context	*/
+    {
+      int       n;			/* Minimum width of output	*/
+
+      n = prec;
+/** /printf("dbl_putn: size<0: n=%d\n", n);
+/***/
+      n = ((n > 9) && top) ? n - 9 : n;
+      if (top)
+        sprintf(buf, "%s %*ld%09ld", sign ? "-" : "", n, top, bottom);
+      else if (prec)
+        sprintf(buf, "%s %*ld",      sign ? "-" : "", n,      bottom);
+      else
+        sprintf(buf, "%s %ld",       sign ? "-" : "",         bottom);
+      size = strlen(buf);
+
+/** /printf("dbl_putn: size<0: prec=%d n=%d buf=%d:\"%.*s\"\n",
+/** /       prec, n, size, size, buf);
+/***/
+      { /* block */
+        char     *dp;
+	digits = size - prec - sign - 1;
+	dp = buf + sign;		/* Skip over sign (if present)	*/
+	pp = dp + 1;			/* Skip over allocated ' '	*/
+/** /printf("dbl_putn: digits=%d dp=\"%s\" pp=\"%s\"\n", digits, dp, pp);
+/***/
+	while (digits--)
+	  *dp++ = *pp++;
+	*dp = prec ? '.' : '\0';	/* Insert '.' or terminate #	*/
+      } /* block */
+    }
+  else
+    {
+      if (size <= 9)
+        sprintf(buf, "%0*ld", size, bottom);
+      else
+        {
+          sprintf(buf, "%0*.*d", size - 9, size - 9, top);
+          sprintf(&buf[size - 9], "%09ld", bottom);
+        }
+      if (sign)				/* Convert to negative		*/
+        buf[size - 1] = buf[size - 1] + 'p' - '0';
+    }
+/** /printf("dbl_putn: returning buf=%d:\"%.*s\"\n", size, size, buf);
+/***/
+  if (size < atoi(arg->type + 1))	/* If shorter, then copy to nul	*/
+    strcpy(arg->addr, buf);
+  else					/* else, don't clobber next fld	*/
+    strncpy(arg->addr, buf, size);	/* by limiting copy to size	*/
+} /* dbl_putn */
+
+void
+dbl_puts(arg, align, data)				/* Function	*/
+  DBLArg_t *arg;
+  char     *align;
+  char     *data;
+{
+  int       size = arg->size, offset = 0, dsize;
+  char     *fmt;
+  char      buf[BUFSIZ];
+
+  dsize = data ? strlen(data) : 0;
+  if (dsize > size)			/* Take rightmost chars		*/
+    offset = dsize - size;
+
+  if      (strcmp(align, "")      == 0)
+    goto Default_Alignment;
+  else if (strcmp(align, "LEFT")  == 0)
+Default_Alignment:
+    fmt = "%-*.*s";
+  else if (strcmp(align, "RIGHT") == 0)
+    fmt = "%*.*s";
+  else
+    fmt = "unknown alignment";
+
+/** /printf("dbl_puts(-arg-, align=%s, data=%d:\"%s\"): size=%d offset=%d\n",
+/** / align ? align : "<default>", dsize, data, size, offset);
+/***/
+  sprintf(buf, fmt, size, size, data + offset);
+/** /printf("dbl_puts: arg->addr=%d:\"%s\"\n",  size, buf);
+/***/
+  strncpy((char *)arg->addr, buf, size);
+} /* dbl_puts */
+
+void
+dbl_putsf(arg, align, data, format)			/* Function	*/
+  DBLArg_t *arg;
+  char     *data;
+  char     *align;
+  char     *format;
+{
+  dbl_puts(arg, align, data);				/** FOR NOW **/
+} /* dbl_putsf */
+
+Llong
+dbl_round(num, place)					/* Function	*/
+  Llong     num;
+  Llong     place;
+{
+  place %= 16;
+  place -= 1;				/* Adjust to one less place	*/
+
+  if (place <= 0)
+    goto Done;				/* Leave number as is		*/
+
+  while (place-- > 0)			/* Adjust number to # of places	*/
+    num /= 10;
+  if ((num % 10) >= 5)			/* If last digit is 5 or greater*/
+    num += 10;				/*   round up the result	*/
+  num /= 10;				/* Final adjustment, rounded	*/
+Done:
+  return num;
+} /* dbl_round */
+
+void
+dbl_toarg(rtn, name, addr, size, type)			/* Function	*/
+  char     *rtn;
+  char     *name;
+  void    **addr;
+  int       size;
+  int       type;
+{
+  DBLArg_t *arg = *(DBLArg_t **)addr;
+  char     *buf = (char *)arg->addr;	/* Default target address	*/
+
+  if (arg->flags & ARG_ISEMPTY)
+    {
+      if (debug)
+        fprintf(stderr, "%s: %s %s %s\n",  rtn,
+	        "formal is vacuous, usage of", name,
+		"is likely to cause a segmentation fault"
+	       );
+      buf = (char *)NULL;		/* No argument			*/
+    }
+  if (arg->flags & ARG_ISCONST)
+    {
+      if (debug)
+        fprintf(stderr, "%s: %s %s %s\n", rtn,
+	        "actual parameter for", name, "is a constant, CAREFUL!"
+	       );
+    }
+  if (size != arg->size)		/* Formal/actual sizes differ	*/
+    {
+      if (debug)
+        fprintf(stderr, "%s: formal size=%d != actual size=%d\n",
+	        rtn, size, arg->size);
+      if (size < arg->size)		/* Formal smaller than actual	*/
+        buf += arg->size - size;	/* Adjust pointer to fit	*/
+      else				/* Formal larger than actual	*/
+        fprintf(stderr, "%s: formal (size=%d) too large for actual (size=%d)\n",
+	        rtn, size, arg->size);
+    }
+  if (type != *arg->type)		/* Formal/actual type mismatch	*/
+    {
+      static
+      char      errmsg[100];
+      sprintf(errmsg, "%s parameter type mismatch %c passed %c expected",
+              rtn, arg->type, type);
+      drt_FATAL(errmsg);		/* Fatal error			*/
+    }
+  *addr = buf;				/* Point formal to actual	*/
+} /* dbl_toarg */
+
+Llong
+dbl_xor(num1, num2)					/* Function	*/
+  Llong     num1;
+  Llong     num2;
+{
+  return num1 ^ num2;
+} /* dbl_xor */
+
+/* --------------------------------------------------------------------	*/
+
+/**
+ *	CDBL Run-Time IO support routines (returning IOS_t).
+ *	These routines have the ability to produce run-time status
+ *	returns that affect the flow of the program.  If an exception
+ *	status is generated, the program may "goto" a label to handle
+ *	that exception (or fail if the exception is not trapped).
+ */
+
+IOS_t
+drt_accept(channel, nargs, args)			/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  drt_FATAL("drt_accept: NOT IMPLEMENTED");
+} /* drt_accept */
+
+IOS_t
+drt_delete(channel, nargs, args)			/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, T__RT_RECID, 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *data, *recid;
+
+  drt_FATAL("drt_delete: NOT IMPLEMENTED");
+  set_ofp(channel, DBL_FM_READ, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_get", DBL_IOS_ERR, nargs, args, 2, 2, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+  recid = find_arg(nargs, args, T__RT_RECID);
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "DELETE @@ %s: Invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	}
+	break;
+
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_RELATIVE;
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+      case DBL_FT_RELATIVE:
+	{
+	  ofp->descr.rof.recno = dbl_num(recid);
+	  do_rel_read("DELETE", channel, data, IO_BINARY);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  sprintf(buf, "DELETE @@ %s: not implemented on stream file yet",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+      case DBL_FT_INDEXED:
+        {
+          IOS_t     ios;
+	  int       dir = 0;		/* Exact match required		*/
+	  if (ios = isam_read("DELETE", channel, data, dir))
+	    {
+	      sprintf(buf, "DELETE @@ %s: ISAM dir=%d", src_loc(), dir);
+	      errno_set(0, ios, buf);
+	      goto BailOut;
+	    }
+	  sprintf(buf, "DELETE @@ %s: invalid operation on ISAM file", src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_delete");
+/***/
+  return dbl_error.io_sts;
+} /* drt_delete */
+
+IOS_t
+drt_find(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, T__RT_RECID, 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *data, *recid;
+
+  set_ofp(channel, DBL_FM_READ, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_find", DBL_IOS_ERR, nargs, args, 2, 2, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+/**/ if (data) printf("drt_find: has data??\n");
+/***/
+  recid = find_arg(nargs, args, T__RT_RECID);
+/**/ if ( ! recid) printf("drt_find: doesn't have recid??\n");
+/***/
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "FIND @@ %s: Invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	}
+	break;
+
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_RELATIVE;
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+      case DBL_FT_RELATIVE:
+	{
+	  ofp->descr.rof.recno = dbl_num(recid);
+	  do_rel_read("FIND", channel, data, IO_BINARY);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  sprintf(buf, "FIND @@ %s: not implemented on stream file yet",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+      case DBL_FT_INDEXED:
+        {
+          IOS_t     ios;
+	  int       dir = 1;
+	  if (ios = isam_read("FIND", channel, recid, dir))
+	    {
+	      sprintf(buf, "FIND @@ %s: ISAM dir=%d", src_loc(), dir);
+	      errno_set(0, ios, buf);
+	      goto BailOut;
+	    }
+	  sprintf(buf, "FIND @@ %s: invalid operation on ISAM file", src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_find");
+/***/
+  return dbl_error.io_sts;
+} /* drt_find */
+
+IOS_t
+drt_forms(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *ctrlp;
+  int       ctrl;
+  FILE     *f;
+
+  set_ofp(channel, DBL_FM_WRITE, DBL_FT_STREAM);
+  if ( ! ofp )
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_forms", DBL_IOS_ERR, nargs, args, 1, 1, allowed_args))
+    goto BailOut;
+
+  ctrl = -4;				/* An 'ignored' value		*/
+  if (ctrlp = find_arg(nargs, args, T__RT_CTRL))
+    ctrl = dbl_num(ctrlp);
+
+  f = ofp->descr.file;
+  switch (ctrl)
+    {
+      case -3: fprintf(f, "%c", 'M' & 0x1F);	break;	/* <cr>	*/
+      case -2: fprintf(f, "%c", 'N' & 0x1F);	break;	/* ^N	*/
+      case -1: fprintf(f, "%c", 'K' & 0x1F); 	break;	/* <vt>	*/
+      case  0: fprintf(f, "%c", 'L' & 0x1F);	break;	/* <ff>	*/
+      default:
+	if (ctrl < 0)			/* < -3 is ok, and ignored	*/
+	  goto BailOut;
+
+        if (ctrl > 9999)		/* > 9999 is badness - BANG!	*/
+	  {
+	    sprintf(buf, "FORMS(%d,ctrl=%d) @@ %s: %s",
+	            channel, ctrl, src_loc(), "ctrl not in range of 1..9999"
+		    );
+            errno_set(0, DBL_IOS_LONG, buf);
+	    goto BailOut;
+	  }
+	else
+	  while (ctrl--)
+	    fprintf(f, "\n");				/* <cr/lf> */
+    }
+BailOut:
+/** /errno_print("drt_forms");
+/***/
+  return dbl_error.io_sts;
+} /* drt_forms */
+
+IOS_t
+drt_get(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, T__RT_RECID, 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *data, *recid;
+
+  set_ofp(channel, DBL_FM_READ, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_get", DBL_IOS_ERR, nargs, args, 2, 2, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+  recid = find_arg(nargs, args, T__RT_RECID);
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "GET @@ %s: Invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	}
+	break;
+
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_RELATIVE;
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+      case DBL_FT_RELATIVE:
+	{
+	  ofp->descr.rof.recno = dbl_num(recid);
+	  do_rel_read("GET", channel, data, IO_BINARY);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  sprintf(buf, "GET @@ %s: not implemented on stream file yet",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+      case DBL_FT_INDEXED:
+        {
+	  sprintf(buf, "GET @@ %s: invalid operation on ISAM file", src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_get");
+/***/
+  return dbl_error.io_sts;
+} /* drt_get */
+
+IOS_t
+drt_gets(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *data;
+
+  set_ofp(channel, DBL_FM_READ, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_gets", DBL_IOS_ERR, nargs, args, 1, 1, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "GETS @@ %s: invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_REGULAR;
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+      case DBL_FT_RELATIVE:
+	{
+          ++ofp->descr.rof.recno;	/* Bump to next record		*/
+/** /printf("GETS: recno=%ld\n", ofp->descr.rof.recno);
+/***/
+	  do_rel_read("GETS", channel, data, IO_BINARY);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  sprintf(buf, "GETS @@ %s: not implemented on stream file yet",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+
+	  if ( ! fgets(buf, sizeof(buf), ofp->descr.file) )
+	    {
+	      sprintf(buf, "GETS @@ %s: EOF encountered", src_loc());
+	      errno_set(0, DBL_IOS_EOF, buf);
+	      goto BailOut;
+	    }
+	  { /* block */
+            char      *sp, *dp, *ep, ch;
+	    sp = buf;			/* Source			*/
+	    dp = data->addr;		/* Destination			*/
+	    ep = dp + data->size;	/* End of destination		*/
+	    while (ch = *sp++)		/* Get data char		*/
+	      if (strchr("\n", ch))	/* If end of data '\n' or '\0'	*/
+	        while (dp < ep)		/* Fill with			*/
+		  *dp++ = ' ';		/*   spaces			*/
+	      else
+	        *dp++ = ch;		/* Copy data			*/
+	  } /* block */
+	}
+	break;
+
+      case DBL_FT_INDEXED:
+        {
+	  sprintf(buf, "GETS @@ %s: invalid operation on ISAM file",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_gets");
+/***/
+  return dbl_error.io_sts;
+} /* drt_gets */
+
+IOS_t
+drt_open(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_FILENAME, T_KEY, T__RT_MODE, 0 };
+#define OPEN_MD_A (DBL_FM_APPEND                             )
+#define OPEN_MD_I (DBL_FM_READ                               )
+#define OPEN_MD_O (DBL_FM_WRITE                              )
+#define OPEN_MD_U (DBL_FM_READ | DBL_FM_WRITE | DBL_FM_DELETE)
+#define OPEN_SM   (DBL_FT_NONE    )
+#define OPEN_SM_I (DBL_FT_INDEXED )
+#define OPEN_SM_R (DBL_FT_RELATIVE)
+#define OPEN_SM_S (DBL_FT_STREAM  )
+  static
+  struct				/* Table of supported I/O	*/
+    {					/* ----------------------------	*/
+      char     *mode;			/* DIBOL file I/O mode		*/
+      int       fmode;			/* Internal I/O modes allowed	*/
+      int       ftype;			/* File type sub-modes		*/
+    }       *ms,
+             modes_supported[]
+           = {
+	       { "A"  , OPEN_MD_A, OPEN_SM   },
+	       { "I"  , OPEN_MD_I, OPEN_SM   },
+	       { "I:I", OPEN_MD_I, OPEN_SM_I },
+	       { "I:R", OPEN_MD_I, OPEN_SM_R },
+	       { "I:S", OPEN_MD_I, OPEN_SM_S },
+	       { "O"  , OPEN_MD_O, OPEN_SM   },
+	       { "O:S", OPEN_MD_O, OPEN_SM_S },
+	       { "O:P", OPEN_MD_O, OPEN_SM_S },
+	       { "U"  , OPEN_MD_U, OPEN_SM   },
+	       { "U:I", OPEN_MD_U, OPEN_SM_I },
+	       { "U:R", OPEN_MD_U, OPEN_SM_R },
+	       {  NULL, 0, 0 }
+	     };
+#undef OPEN_MD_A
+#undef OPEN_MD_I
+#undef OPEN_MD_O
+#undef OPEN_MD_U
+#undef OPEN_SM
+#undef OPEN_SM_I
+#undef OPEN_SM_R
+#undef OPEN_SM_S
+  DBLArg_t  *mode,
+            *file;
+  int        slot;
+  int        fmode;
+  int        ftype;
+  char      *file_name;
+  void      *descr;
+
+  errno_clr();				/* Clear the error indicator	*/
+
+  if (ios_ck_nargs("drt_open", DBL_IOS_ERR, nargs, args, 2, 0, allowed_args))
+    goto BailOut;
+
+  mode = find_arg(nargs, args, T__RT_MODE);
+  file = find_arg(nargs, args, T__RT_FILENAME);
+
+  if ( ! (mode && file) )
+    {
+      char       buf[BUFSIZ], *em;
+      sprintf(buf, "%s: Missing: ", src_loc());
+      if ( ! mode )
+        strcat(buf, " <file mode>");
+      if ( ! file )
+        strcat(buf, " <file name>");
+      errno_set(0, DBL_IOS_ERR, buf);
+      goto BailOut;
+    }
+
+  { /* block */				/* Confirm it's a supported mode*/
+    for (ms = modes_supported;  ms->mode;  ++ms)
+      if (strcmp((char *)mode->addr, ms->mode) == 0)
+        break;
+    if ( ! ms->mode )
+      {
+        char       buf[BUFSIZ];
+	sprintf(buf, "%s: Mode %s not supported, yet.",
+	        src_loc(), (char *)mode->addr);
+        errno_set(0, DBL_IOS_ERR, buf);
+        goto BailOut;
+      }
+    ftype = ms->ftype;
+    fmode = ms->fmode;
+  } /* block */
+/** /printf("ftype=%d fmode=%d\n", ftype, fmode);
+/***/
+
+  for (ofp = open_files + (slot = 0);  slot < MAX_OPEN_FILES;  ++slot, ++ofp)
+    if (ofp->channel == DBL_CHANNEL_FREE)
+      break;				/* Found empty slot		*/
+/** /printf("slot=%d\n", slot);
+/***/
+  if (slot == MAX_OPEN_FILES)
+    {
+      char       buf[BUFSIZ];
+      sprintf(buf, "%s: too many open files, MAX_OPEN_FILES=%d\n",
+              src_loc(), MAX_OPEN_FILES);
+      errno_set(0, DBL_IOS_ERR, buf);
+      goto BailOut;
+    }
+
+  { /* block */				/* Open the file as per ftype	*/
+    char       buf[BUFSIZ];
+    int        oflags, omode;
+
+    oflags = 0;				/* Initially no flags		*/
+    omode  = 0666;			/* Mode rw-rw-rw-		*/
+
+    if (fmode & (DBL_FM_APPEND             ))
+      oflags = O_WRONLY | O_CREAT | O_APPEND;
+    if (fmode & (DBL_FM_READ               ))
+      oflags = O_RDONLY;
+    if (fmode & (              DBL_FM_WRITE))
+      oflags = O_WRONLY | O_CREAT;
+    if (fmode & (DBL_FM_READ | DBL_FM_WRITE))
+      oflags = O_RDWR   | O_CREAT;
+
+    file_name = resolved_file_name(file->addr);
+    if (strlen(file_name) == 0)		/* Missing environment var?	*/
+      {
+        sprintf(buf, "drt_open: %s: %s, %s",
+	        "can't resolve file name:",
+		 file->addr,
+		"check environment variable setting"
+	       );
+	errno_set(0, DBL_IOS_ERR, buf);
+	goto BailOut;
+      }
+
+    switch (ftype)
+      {
+	case DBL_FT_INDEXED:
+	  {
+	    static
+	    FileIndexed iof;
+	    static
+	    BTREEINFO bt_info = {0, 0, 0, 0, 0, isam_key_compare, 0, 1234};
+	    
+	    iof.db = dbopen(file_name, oflags, omode, DB_BTREE, &bt_info);
+	    if ( ! iof.db)		/* Error opening file		*/
+	      {
+	        sprintf(buf,
+		        "%s: unable to open %s (dbopen(3) flags=0%o mode=0%o)",
+	                src_loc(), file_name, oflags, omode);
+	        errno_set(errno, DBL_IOS_ERR, buf);
+	        goto BailOut;
+	      }
+	    if ( isam_open(channel, nargs, args, file_name, &iof) )
+	      goto BailOut;
+
+#ifdef	CDBL_RT_DEBUG
+	    if (debug)
+	      {
+	        printf("OPEN:\n");
+	        print_keys(&iof.keys);
+	      }
+#endif/*CDBL_RT_DEBUG*/
+	    descr = (void *)&iof;	/* Note: must be static		*/
+	  }
+	  break;
+
+        case DBL_FT_NONE:
+	case DBL_FT_REGULAR:
+	case DBL_FT_RELATIVE:
+	  {
+	    static
+	    FileRelative rof;
+            int        fd;
+	    if ((fd = open(file_name, oflags, omode)) < 0)
+	      {
+	        sprintf(buf,
+		        "%s: unable to open %s (open(2) flags=0%o mode=0%o)",
+	                src_loc(), file_name, oflags, omode);
+	        errno_set(errno, DBL_IOS_ERR, buf);
+	        goto BailOut;
+	      }
+/** /printf("OPEN: fd=%d\n", fd);
+/***/
+	    rof.fd    = fd;
+	    rof.recno = 0L;		/* BOF				*/
+	    rof.size  = 0;		/* Not known yet		*/
+	    descr = (void *)&rof;	/* Note: must be static		*/
+	  }
+	  break;
+
+	case DBL_FT_STREAM:
+	  {
+            FILE      *stdfile;
+	    char      *iomode;
+
+	    if (fmode & (DBL_FM_APPEND             ))
+	      iomode = "a";
+	    if (fmode & (DBL_FM_READ               ))
+	      iomode = "r";
+	    if (fmode & (              DBL_FM_WRITE))
+	      iomode = "w";
+	    if (fmode & (DBL_FM_READ | DBL_FM_WRITE))
+	      iomode = "w+";
+
+	    if ((stdfile = fopen(file_name, iomode)) == (FILE *)NULL)
+	      {
+	        sprintf(buf, "%s: unable to open stream %s (fopen(3) mode=%s)",
+		        src_loc(), file->addr, iomode);
+                errno_set(errno, DBL_IOS_ERR, buf);
+                goto BailOut;
+	      }
+	    descr = (void *)stdfile;
+	  }
+	  break;
+      }
+  } /* block */
+
+  set_file_open(slot, file_name, channel, descr,  fmode,  ftype);
+
+BailOut:
+/** /errno_print("drt_open");
+/***/
+  return dbl_error.io_sts;
+} /* drt_open */
+
+IOS_t
+drt_put(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, T__RT_RECID, 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *data, *recid;
+
+  set_ofp(channel, DBL_FM_WRITE, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_put", DBL_IOS_ERR, nargs, args, 2, 2, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+  recid = find_arg(nargs, args, T__RT_RECID);
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "PUT @@ %s: Invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+      case DBL_FT_REGULAR:
+        {
+	  sprintf(buf, "PUT @@ %s: can't do relative I/O on sequential file",
+	          src_loc());
+	  errno_set(errno, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_RELATIVE;
+	/* Fall-thru */
+      case DBL_FT_RELATIVE:
+	{
+	  do_rel_write("PUT", channel, data, IO_BINARY);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  sprintf(buf, "PUT @@ %s: invalid operation on sequential file",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+      case DBL_FT_INDEXED:
+        {
+	  sprintf(buf, "PUT @@ %s: invalid operation on ISAM file", src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_put");
+/***/
+  return dbl_error.io_sts;
+} /* drt_put */
+
+IOS_t
+drt_puts(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *data;
+
+  set_ofp(channel, DBL_FM_WRITE, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_puts", DBL_IOS_ERR, nargs, args, 1, 1, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "PUTS @@ %s: invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_REGULAR;
+/** /printf("WRITES: DBL_FT_NONE\n");
+/***/
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+/** /if (ofp->file_type == DBL_FT_REGULAR) printf("PUTS: DBL_FT_REGULAR\n");
+/***/
+      case DBL_FT_RELATIVE:
+/** /if (ofp->file_type == DBL_FT_RELATIVE) printf("PUTS: DBL_FT_RELATIVE\n");
+/***/
+	{
+          ++ofp->descr.rof.recno;	/* Bump to next record		*/
+/** /printf("WRITES: recno=%ld\n", ofp->descr.rof.recno);
+/***/
+	  do_rel_write("PUTS", channel, data, IO_BINARY);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  fprintf(ofp->descr.file, "%.*s", data->size, data->addr);
+	}
+	break;
+      case DBL_FT_INDEXED:
+        {
+	  sprintf(buf, "PUTS @@ %s: invalid operation on ISAM file",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_puts");
+/***/
+  return dbl_error.io_sts;
+} /* drt_puts */
+
+IOS_t
+drt_read(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, T__RT_RECID, T_KRF, 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *data, *recid;
+
+  set_ofp(channel, DBL_FM_READ, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_read", DBL_IOS_ERR, nargs, args, 2, 3, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+  recid = find_arg(nargs, args, T__RT_RECID);
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "READ @@ %s: Invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	}
+	break;
+
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_RELATIVE;
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+      case DBL_FT_RELATIVE:
+	{
+	  ofp->descr.rof.recno = dbl_num(recid);
+	  do_rel_read("READ", channel, data, IO_TEXT);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  sprintf(buf, "READ @@ %s: invalid operation on sequential file",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	}
+	break;
+      case DBL_FT_INDEXED:
+        {
+          IOS_t     ios;
+	  int       dir = 1;
+          DBLArg_t *krf = find_arg(nargs, args, T_KRF);
+
+	  if (krf)			/* Set key (rel 1) to use 	*/
+	    ofp->descr.iof.ckey = (int) dbl_num(krf) - 1;
+
+/** /printf("READ channel=%d krf=%d dir=%d\n",
+/** /       channel, ofp->descr.iof.ckey, dir);
+/***/
+
+	  if (ios = isam_read("READ", channel, data, dir))
+	    {
+	      sprintf(buf, "READ @@ %s: ISAM dir=%d", src_loc(), dir);
+	      errno_set(0, ios, buf);
+	      goto BailOut;
+	    }
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_read");
+/***/
+  return dbl_error.io_sts;
+} /* drt_read */
+
+IOS_t
+drt_reads(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, T_DIRECTION, T_REVERSE, T_WAIT, 0 };
+  char      buf[BUFSIZ];
+  int       dir  = 1;			/* Default to forward direction	*/
+  int       waittime = 0;		/* Default to no wait		*/
+  DBLArg_t *data, *p;
+
+  set_ofp(channel, DBL_FM_READ, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_reads", DBL_IOS_ERR, nargs, args, 1, 0, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+
+  if ((p = find_arg(nargs, args, T_DIRECTION)) ||
+      (p = find_arg(nargs, args, T_REVERSE))
+     )
+    dir = dbl_num(p);			/* Set direction of read	*/
+
+  if ( p = find_arg(nargs, args, T_WAIT) )
+    waittime = dbl_num(p);		/* Set wait time in seconds	*/
+/**/if (waittime)
+/**/  {
+/**/    sprintf(buf, "READS @@ %s: WAIT:%d not implemented yet",
+/**/            src_loc(), waittime);
+/**/    errno_set(0, DBL_IOS_ERR, buf);
+/**/    goto BailOut;
+/**/  }
+/***/
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "READS @@ %s: invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	}
+	break;
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_REGULAR;
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+      case DBL_FT_RELATIVE:
+	{
+/** /printf("READS: recno=%ld dir=%d\n", ofp->descr.rof.recno, dir);
+/***/
+	  if (dir < 0)			/* Read REVERSE			*/
+	    {
+              --ofp->descr.rof.recno;	/* Bump to next record		*/
+	      if (ofp->descr.rof.recno < 1)
+	        {
+		  sprintf(buf, "READS can't reverse read before BOF");
+                  errno_set(0, DBL_IOS_EOF, buf);
+		  goto BailOut;
+		}
+	    }
+	  else
+            ++ofp->descr.rof.recno;	/* Bump to next record		*/
+/** /printf("READS: recno=%ld\n", ofp->descr.rof.recno);
+/***/
+	  do_rel_read("READS", channel, data, IO_TEXT);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  if ( ! fgets(buf, sizeof(buf), ofp->descr.file) )
+	    {
+	      sprintf(buf, "READS @@ %s: EOF encountered", src_loc());
+	      errno_set(0, DBL_IOS_EOF, buf);
+	      goto BailOut;
+	    }
+	  { /* block */
+            char      *sp, *dp, *ep, ch;
+	    sp = buf;			/* Source			*/
+	    dp = data->addr;		/* Destination			*/
+	    ep = dp + data->size;	/* End of destination		*/
+	    while (ch = *sp++)		/* Get data char		*/
+	      if (strchr("\n", ch))	/* If end of data '\n' or '\0'	*/
+	        while (dp < ep)		/* Fill with			*/
+		  *dp++ = ' ';		/*   spaces			*/
+	      else
+	        *dp++ = ch;		/* Copy data			*/
+	  } /* block */
+	}
+	break;
+
+      case DBL_FT_INDEXED:
+        {
+          IOS_t     ios;
+
+	  dir = dir < 0 ? dir : 2;	/* dir=0|1 use data, want svkey	*/
+/** /printf("READS channel=%d krf=%d dir=%d\n",
+/** /       channel, ofp->descr.iof.ckey, dir);
+/***/
+	  if (ios = isam_read("READS", channel, data, dir))
+	    {
+	      sprintf(buf, "READS @@ %s: ISAM dir=%d", src_loc(), dir);
+	      errno_set(0, ios, buf);
+	      goto BailOut;
+	    }
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_reads");
+/***/
+  return dbl_error.io_sts;
+} /* drt_reads */
+
+IOS_t
+drt_store(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *data;
+
+  set_ofp(channel, DBL_FM_WRITE, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_store", DBL_IOS_ERR, nargs, args, 1, 1, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "WRITE @@ %s: Invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	}
+	break;
+
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_RELATIVE;
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+	/* Fall-thru */
+      case DBL_FT_RELATIVE:
+	{
+	  sprintf(buf, "STORE @@ %s: invalid operation on relative file",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  sprintf(buf, "STORE @@ %s: invalid operation on sequential file",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	}
+	break;
+      case DBL_FT_INDEXED:
+        {
+/** /printf("drt_store: call isam_update\n");
+/***/
+	  isam_update("STORE", channel, data, 0);
+/** /printf("drt_store: isam_update returned\n");
+/***/
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_store");
+/***/
+  return dbl_error.io_sts;
+} /* drt_store */
+
+IOS_t
+drt_write(channel, nargs, args)				/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, T__RT_RECID, 0 };
+  char      buf[BUFSIZ];
+  DBLArg_t *data, *recid;
+
+  set_ofp(channel, DBL_FM_WRITE, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_write", DBL_IOS_ERR, nargs, args, 2, 2, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+  recid = find_arg(nargs, args, T__RT_RECID);
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "WRITE @@ %s: Invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	}
+	break;
+
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_RELATIVE;
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+	/* Fall-thru */
+      case DBL_FT_RELATIVE:
+	{
+	  ofp->descr.rof.recno = dbl_num(recid);
+	  do_rel_write("WRITE", channel, data, IO_TEXT);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  sprintf(buf, "WRITE @@ %s: invalid operation on sequential file",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	}
+	break;
+      case DBL_FT_INDEXED:
+        {
+/** /printf("drt_write: call isam_update\n");
+/***/
+	  isam_update("WRITE", channel, data, 1);
+/** /printf("drt_write: isam_update returned\n");
+/***/
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_write");
+/***/
+  return dbl_error.io_sts;
+} /* drt_write */
+
+/**
+ */
+IOS_t
+drt_writes(channel, nargs, args)			/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+{
+  static
+  int       allowed_args[] = { T__RT_DATA, T_DIRECTION, T_REVERSE, T_WAIT, 0 };
+  char      buf[BUFSIZ];
+  int       dir = 1;
+  DBLArg_t *data, *p;
+
+  set_ofp(channel, DBL_FM_WRITE, DBL_FT_NONE);
+  if ( ! ofp )				/* Oops.			*/
+    goto BailOut;
+
+  if (ios_ck_nargs("drt_writes", DBL_IOS_ERR, nargs, args, 1, 0, allowed_args))
+    goto BailOut;
+
+  data  = find_arg(nargs, args, T__RT_DATA);
+
+  if ((p = find_arg(nargs, args, T_DIRECTION)) ||
+      (p = find_arg(nargs, args, T_REVERSE))
+     )
+    dir = dbl_num(p);			/* Set direction of read	*/
+
+  switch(ofp->file_type)
+    {
+      default:
+        {
+	  sprintf(buf, "WRITES @@ %s: invalid file type %d for channel %d",
+	          src_loc(), ofp->file_type, channel);
+          errno_set(errno, DBL_IOS_ERR, buf);
+	}
+	break;
+      case DBL_FT_NONE:			/* Need to set type		*/
+        ofp->file_type = DBL_FT_REGULAR;
+/** /printf("WRITES: DBL_FT_NONE\n");
+/***/
+	/* Fall-thru */
+      case DBL_FT_REGULAR:
+/** /if (ofp->file_type == DBL_FT_REGULAR) printf("WRITES: DBL_FT_REGULAR\n");
+/***/
+      case DBL_FT_RELATIVE:
+/** /if (ofp->file_type == DBL_FT_RELATIVE) printf("WRITES: DBL_FT_RELATIVE\n");
+/***/
+	{
+	  if (dir < 0)			/* Write REVERSE		*/
+	    {
+              --ofp->descr.rof.recno;	/* Bump to next record		*/
+	      if (ofp->descr.rof.recno < 1)
+	        {
+		  sprintf(buf, "WRITES can't reverse write before BOF");
+                  errno_set(0, DBL_IOS_EOF, buf);
+		  goto BailOut;
+		}
+	    }
+	  else
+            ++ofp->descr.rof.recno;	/* Bump to next record		*/
+/** /printf("WRITES: recno=%ld\n", ofp->descr.rof.recno);
+/***/
+	  do_rel_write("WRITES", channel, data, IO_TEXT);
+	}
+	break;
+
+      case DBL_FT_STREAM:
+        {
+	  if (dir < 0)
+	    {
+	      sprintf(buf, "can't reverse WRITES on stream file");
+              errno_set(0, DBL_IOS_ERR, buf);
+	      goto BailOut;
+	    }
+	  fprintf(ofp->descr.file, "%.*s\n", data->size, data->addr);
+	}
+	break;
+      case DBL_FT_INDEXED:
+        {
+	  sprintf(buf, "WRITES @@ %s: invalid operation on ISAM file",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+	break;
+    }
+BailOut:
+/** /errno_print("drt_writes");
+/***/
+  return dbl_error.io_sts;
+} /* drt_writes */
+
+/* --------------------------------------------------------------------	*/
+
+/**
+ *	CDBL Run-Time support routines.
+ */
+void
+drt_ERROR(rtn, err)					/* Function	*/
+  char     *rtn;
+  char     *err;
+{
+  char      buf[BUFSIZ];
+  sprintf(buf, "ERROR %s in %s", err, rtn);
+  drt_FATAL(buf);
+} /* drt_ERROR */
+
+void
+drt_EXIT(sts)						/* Function	*/
+  int       sts;
+{
+  /* close all files, especially indices, etc */
+  close_io(-1);
+  exit(sts);
+} /* drt_EXIT */
+
+void
+drt_FATAL(message)					/* Function	*/
+  char     *message;
+{
+  int       sp = cdbl_cframe;
+
+  fprintf(stderr, "CDBL FATAL ERROR: AT LINE %s:%d\n%s\n",
+          cdbl_stack[sp].routine, cdbl_stack[sp].line, message);
+  errno_print("FATAL");
+  do
+    {
+      int       i;
+      fprintf(stderr, "Routine %s return stack\n", cdbl_stack[sp].routine);
+      for (i = *cdbl_stack[sp].call_stack;  i >= 0;  --i)
+        fprintf(stderr, "  %d: %d\n", i, cdbl_stack[sp].call_return[i]);
+    }
+  while (--sp > 0);
+  close_io(-1);				/* Close all channels		*/
+  drt_EXIT(1);
+} /* drt_FATAL */
+
+char *
+drt_FILNM(channel)					/* Function	*/
+  int        channel;
+{
+  int        slot;
+
+  if (channel != DBL_CHANNEL_FREE)
+    for (slot = 0;  slot < MAX_OPEN_FILES;  ++slot)
+      if (open_files[slot].channel == channel)
+        return open_files[slot].file_name;
+  return NULL;
+} /* drt_FILNM */
+
+void
+drt_INIT(argc, argv, arge)				/* Function	*/
+  int        argc;
+  char     **argv;
+  char     **arge;
+{
+  int        i;
+
+  crack_args(argc, argv, arge);
+  setbuf(stdout, NULL); /* FOR NOW */
+  for (i = 0;  i < MAX_OPEN_FILES;  ++i)
+    set_file_open(i, NULL, DBL_CHANNEL_FREE, (void *)NULL,
+                       DBL_FM_NONE, DBL_FT_NONE);
+  set_file_open(0, "<",  0, stdin,  DBL_FM_READ,  DBL_FT_STREAM);
+  set_file_open(1, ">",  1, stdout, DBL_FM_WRITE, DBL_FT_STREAM);
+  set_file_open(2, "2>", 2, stderr, DBL_FM_WRITE|DBL_FM_NOBUF, DBL_FT_STREAM);
+} /* drt_INIT */
+
+void
+drt_clear(arg)						/* Function	*/
+  DBLArg_t *arg;
+{
+  char      buf[BUFSIZ];
+  int       size = arg->size;
+  char     *bp   = arg->addr;
+  char      ch;
+
+  switch (arg->type[0])
+    {
+      default:
+	sprintf(buf, "drt_clear(-arg-).type=%s\n", arg->type);
+        drt_FATAL(buf);
+      case 'A': ch = ' ';		break;
+      case 'D': ch = '0';		break;
+    }
+  while (size-- > 0)			/* Fill with 'clear' value	*/
+    *bp++ = ch;
+} /* drt_clear */
+
+void
+drt_close(channel)					/* Function	*/
+  int       channel;
+{
+  close_io(channel);			/* Only close this channel	*/
+} /* drt_close */
+
+void
+drt_decr(arg)						/* Function	*/
+  DBLArg_t *arg;
+{
+  Llong     i;
+  i = dbl_num(arg);
+  i = i - 1;
+  dbl_putn(arg, i, 0);			/* Whole numbers only		*/
+} /* drt_decr */
+
+#if 0
+void
+drt_detach()						/* Function	*/
+{
+  drt_FATAL("drt_detach: NOT IMPLEMENTED");
+} /* drt_detach */
+#endif /* 0 */
+
+void
+drt_display(channel, va_alist)				/* Function	*/
+  int       channel;
+  va_dcl
+{
+  va_list   args;
+  char      buf[BUFSIZ];
+  DBLArg_t *arg;
+
+  va_start(args);
+
+					/* Set up open file pointer	*/
+  set_ofp(channel, DBL_FM_WRITE, DBL_FT_STREAM);
+  if ( ! ofp )
+    goto Return;
+
+  while (arg = va_arg(args, DBLArg_t *))
+    {
+      if (arg->flags & ARG_ISEMPTY)	/* Who cares...	 ignore		*/
+        continue;
+      switch (arg->type[0])
+        {
+	  default:
+	    sprintf(buf, "%s%s'%s', size=%d data=0x%08x->\"%.*s\"\n",
+	            arg->caller, " invalid type ", arg->type,
+		    arg->size, arg->addr,
+		    arg->size, (char *) arg->addr
+		   );
+	    drt_FATAL(buf);
+	    /* NOT REACHED */
+	  case 'D':
+	    { /* block */
+              int       ch = dbl_num(arg) & 0xFF;
+	      fputc(ch, ofp->descr.file);
+	    } /* block */
+	    break;
+	  case 'A':
+	    fprintf(ofp->descr.file, "%.*s", arg->size, (char *)arg->addr);
+	    break;
+	}
+    }
+Return:
+  va_end(args);
+} /* drt_display */
+
+void
+drt_errortrap(loc)					/* Function	*/
+  char     *loc;
+{
+  char      msg[BUFSIZ];
+  int       sp = cdbl_cframe;
+  if (loc)
+    sprintf(msg, "UNKNOWN ERROR TRAP \"%s\" at %s:%d", loc,
+            cdbl_stack[sp].routine, cdbl_stack[sp].line);
+  else
+    sprintf(msg, "UNTRAPPED ERROR at %s:%d",
+            cdbl_stack[sp].routine, cdbl_stack[sp].line);
+  drt_FATAL(msg);
+} /* drt_errortrap */
+
+void
+drt_incr(arg)						/* Function	*/
+  DBLArg_t *arg;
+{
+  Llong     i;
+  i = dbl_num(arg);
+  i = i + 1;
+  dbl_putn(arg, i, 0);			/* Whole numbers only		*/
+} /* drt_incr */
+
+void
+drt_locase(arg)						/* Function	*/
+  DBLArg_t *arg;
+{
+  char     *bp = arg->addr, *cp;
+  int       ln = arg->size;
+
+  while (ln--)
+    cp = bp++, *cp = isupper(*cp) ? tolower(*cp) : *cp;
+} /* drt_locase */
+
+#if 0
+void
+drt_stop(arg)						/* Function	*/
+  DBLArg_t *arg;
+{
+  flush_io();
+  close_io(-1);				/* Close all channels		*/
+  drt_FATAL("drt_stop: NOT IMPLEMENTED");
+} /* drt_stop */
+#endif /* 0 */
+
+void
+drt_terminate()						/* Function	*/
+{
+  int       sp = cdbl_cframe;
+/**/printf("Successful termination at line %s:%d\n",
+/**/       cdbl_stack[sp].routine, cdbl_stack[sp].line);
+/***/
+  flush_io();
+  close_io(-1);				/* Close all channels		*/
+/**/exit(0);
+/***/
+} /* drt_terminate */
+
+#if 0
+void
+drt_unlock(channel)					/* Function	*/
+  int       channel;
+{
+  drt_FATAL("drt_unlock: NOT IMPLEMENTED");
+} /* drt_unlock */
+#endif /* 0 */
+
+void
+drt_upcase(arg)						/* Function	*/
+  DBLArg_t *arg;
+{
+  char     *bp = arg->addr, *cp;
+  int       ln = arg->size;
+
+  while (ln--)
+    cp = bp++, *cp = islower(*cp) ? toupper(*cp) : *cp;
+} /* drt_upcase */
+
+/* --------------------------------------------------------------------	*/
+/* Internal Support Routines						*/
+/* --------------------------------------------------------------------	*/
+
+static
+void
+close_io(chan)						/* Function	*/
+  int       chan;
+{
+  int       slot;
+  for (ofp = open_files + (slot = 0);  slot < MAX_OPEN_FILES;  ++slot, ++ofp)
+    if (((chan < 0) || (chan == ofp->channel)) &&
+        (ofp->channel != DBL_CHANNEL_FREE)
+       )
+      {
+        switch (ofp->file_type)
+          {
+	    case DBL_FT_NONE:		/* Not opened			*/
+	      break;
+	    case DBL_FT_REGULAR:	/* Regular file			*/
+	      close(ofp->descr.rof.fd);
+	      break;
+	    case DBL_FT_STREAM:		/* fprintf-able FILE *		*/
+	      if (slot > 2)		/*   leave std{in,out,err} open	*/
+		fclose(ofp->descr.file);
+	      break;
+	    case DBL_FT_INDEXED:	/* dbopen(3)			*/
+	      {
+		DB       *db;
+	        if (db = ofp->descr.iof.db)
+		  {
+		    db->sync(db, 0);
+		    db->close(db);
+/** /printf("db close on channel %d, at slot %d\n", chan, slot);
+/***/
+/*ldl		    ofp->descr.iof.db = (DB *)NULL; */
+		  }
+	      }
+	      break;
+          }
+        ofp->channel = DBL_CHANNEL_FREE;
+	if (chan >= 0)			/* Done with specified channel	*/
+	  break;			/*   kill the loop		*/
+      }
+} /* close_io */
+
+static
+void
+crack_args(argc, argv, arge)				/* Function	*/
+  int        argc;
+  char     **argv;
+  char     **arge;
+{
+  int        i;
+  for (i = 0;  i < argc;  ++i)
+    if (strcmp(argv[i], "-d") == 0)
+      debug = 1;
+} /* crack_args */
+
+/**
+ *	Decode (actually encode) the key attributes as per:
+ *	Keyword      Constant              Value Meaning
+ *	------------ --------------------- ----- ----------------------------
+ *	WHOLE        DBL_ISAM_A_USES_WHOLE    0	 Segment follows "whole" attr
+ *	CHANGE       DBL_ISAM_A_CHANGE        1	 Key value may be changed
+ *	NOCHANGE     DBL_ISAM_A_NOCHANGE      2	 Key may not be changed
+ *	DUPLICATES   DBL_ISAM_A_DUPLICATES    4	 Duplicate keys allowed
+ *	NODUPLICATES DBL_ISAM_A_NODUPLICATES  8	 Duplicate keys not allowed
+ *	ASCENDING    DBL_ISAM_A_ASCENDING    16	 Key (segment) sorts up
+ *	DESCENDING   DBL_ISAM_A_DESCENDING   32	 Key (segment) sorts down
+ *
+ *	These may be "wire-or-d" but not all combinations make sense.
+ *	Returns < 0 if error, and has written problem to buf.
+ */
+static
+int
+decode_key_attr(cpp, buf)				/* Function	*/
+  char    **cpp;
+  char     *buf;
+{
+  static
+  struct				/* Key attribute keywords	*/
+    {					/* ----------------------------	*/
+      char     *keyword;		/* Keyword text			*/
+      int       value;			/* Value of keyword		*/
+    } kw_tab[] =			/* ----------------------------	*/
+    {					/* Values			*/
+      { "WHOLE"       , DBL_ISAM_A_USES_WHOLE	},
+      { "CHANGE"      , DBL_ISAM_A_CHANGE	},
+      { "NOCHANGE"    , DBL_ISAM_A_NOCHANGE	},
+      { "DUPLICATES"  , DBL_ISAM_A_DUPLICATES	},
+      { "NODUPLICATES", DBL_ISAM_A_NODUPLICATES	},
+      { "ASCENDING"   , DBL_ISAM_A_ASCENDING	},
+      { "DESCENDING"  , DBL_ISAM_A_DESCENDING	},
+      {  NULL         , 0			}
+    }, *kw;
+  char     *cp = *cpp;
+  int       i, ln, attr = 0;
+
+  if (*cp == '(')
+    while (*cp != ')')
+      {
+      }
+  else if (isdigit(*cp))
+    {
+      attr = parse_number(cpp);
+    }
+  return attr;    
+} /* decode_key_attr */
+
+static
+int
+decode_key_type(cpp, buf)				/* Function	*/
+  char    **cpp;
+  char     *buf;
+{
+  char    *cp = *cpp, type = *cp++;
+
+  switch (type)
+    {
+      case 'A':
+      case 'S':
+      case 'I':
+        break;
+      case 'P':
+      case 'U':
+	sprintf(buf, "type '%c' valid but not implemented", type);
+	type = -2;
+        break;
+      default:
+        sprintf(buf, "invalid type '%c', must be 'A', 'S', 'P', 'I' or 'U'",
+	        type);
+	type = -1;
+    }
+  *cpp = cp;
+  return type;
+} /* decode_key_type */
+
+
+/**
+ * Contract: ofp set-up for I/O
+ */
+static
+void
+do_rel_read(caller, channel, data, kind)		/* Function	*/
+  char     *caller;
+  int       channel;
+  DBLArg_t *data;
+  IO_kind   kind;
+{
+  char      buf[BUFSIZ];
+  int       rsize, wsize;
+  long      pos, recno;
+
+/** /printf("do_rel_read(\"%s\", %d, -data-, kind=%s)\n", caller, channel,
+/** /       (kind == IO_BINARY) ? "IO_BINARY" :
+/** /      ((kind == IO_TEXT) ? "IO_TEXT" : "*unknown*"));
+/** /printf("  ofp->file_mode      = %s\n",  file_mode(ofp->file_mode));
+/** /printf("  ofp->file_type      = %s\n",  file_type(ofp->file_type));
+/** /printf("  ofp->descr.rof.fd   = %d\n",  ofp->descr.rof.fd);
+/** /printf("  ofp->descr.rof.recno= %ld\n", ofp->descr.rof.recno);
+/** /printf("  ofp->descr.rof.size = %d\n",  ofp->descr.rof.size);
+/***/
+  if (ofp->file_mode & DBL_FM_APPEND)
+    {
+      sprintf(buf, "%s @@ %s: read with APPEND mode?", caller, src_loc());
+      errno_set(0, DBL_IOS_ERR, buf);
+      goto BailOut;
+    }
+  if (ofp->descr.rof.size  == 0)
+    {
+      if (ofp->descr.rof.size == 0)
+        ofp->descr.rof.size  = data->size;
+      if ( ! ofp->descr.rof.size)
+	{
+	  sprintf(buf, "%s @@ %s: zero length record", caller, src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+      rsize = ofp->descr.rof.size;
+    }
+/** /printf("do_rel_read: recno=%ld .size=%d data->size=%d\n",
+/** /       ofp->descr.rof.recno, ofp->descr.rof.size, data->size);
+/***/
+  if (data->size != ofp->descr.rof.size)
+    {
+      sprintf(buf, "%s @@ %s: wrong record size, rqst=%d file=%d",
+              caller, src_loc(), data->size, ofp->descr.rof.size);
+      errno_set(0, DBL_IOS_LONG, buf);
+      goto BailOut;
+    }
+  rsize = ofp->descr.rof.size;
+  if (ofp->descr.rof.recno < 1L)
+    {
+      sprintf(buf, "%s @@ %s: invalid record number %ld",
+              caller, src_loc(), ofp->descr.rof.recno);
+      errno_set(0, DBL_IOS_KEY, buf);
+      goto BailOut;
+    }
+  if      (kind == IO_BINARY)
+    pos = (rsize                      ) * (ofp->descr.rof.recno - 1);
+  else if (kind == IO_TEXT)
+    pos = (rsize + strlen(END_OF_LINE)) * (ofp->descr.rof.recno - 1);
+  else
+    {
+      sprintf(buf, "%s @@ %s: unknown kind=%d", caller,  src_loc(), kind);
+      errno_set(0, DBL_IOS_ERR, buf);
+      goto BailOut;
+    }
+/** /printf("do_rel_read: lseek(%d, %ld, %d)\n",
+/** /       ofp->descr.rof.fd, pos, SEEK_SET);
+/***/
+  if (lseek(ofp->descr.rof.fd, pos, SEEK_SET) < 0L)
+    {
+      sprintf(buf, "%s @@ %s: lseek to record %d failed",
+              caller, src_loc(), ofp->descr.rof.recno);
+      errno_set(errno, DBL_IOS_ERR, buf);
+    }
+  wsize = read(ofp->descr.rof.fd, data->addr, data->size);
+  if (wsize != data->size)
+    {
+      sprintf(buf, "%s @@ %s: error - read %d bytes of %d request",
+              caller, src_loc(), wsize, data->size);
+      errno_set(errno, DBL_IOS_ERR, buf);
+      goto BailOut;
+    }
+  if (kind == IO_TEXT)
+    {
+      wsize =  read(ofp->descr.rof.fd, buf, strlen(END_OF_LINE));
+      if ((wsize != strlen(END_OF_LINE)) &&
+          (strcmp(buf, END_OF_LINE) != 0)
+         )
+        {
+          sprintf(buf,
+              "%s @@ %s: error - record %ld corrupt, didn't get end-of-line",
+                  caller, src_loc(), ofp->descr.rof.recno);
+          errno_set(errno, DBL_IOS_ERR, buf);
+          goto BailOut;
+        }
+    }
+
+BailOut:
+/** /errno_print("do_rel_read");
+/***/
+  ;
+} /* do_rel_read */
+
+/**
+ * Contract: ofp set-up for I/O
+ */
+static
+void
+do_rel_write(caller, channel, data, kind)		/* Function	*/
+  char     *caller;
+  int       channel;
+  DBLArg_t *data;
+  IO_kind   kind;
+{
+  char      buf[BUFSIZ];
+  int       rsize, wsize;
+  long      pos, recno;
+
+/** /printf("do_rel_write(\"%s\", %d, -data-, kind=%s)\n", caller, channel,
+/** /       (kind == IO_BINARY) ? "IO_BINARY" :
+/** /      ((kind == IO_TEXT) ? "IO_TEXT" : "*unknown*"));
+/** /printf("  ofp->file_mode      = %s\n",  file_mode(ofp->file_mode));
+/** /printf("  ofp->file_type      = %s\n",  file_type(ofp->file_type));
+/** /printf("  ofp->descr.rof.fd   = %d\n",  ofp->descr.rof.fd);
+/** /printf("  ofp->descr.rof.recno= %ld\n", ofp->descr.rof.recno);
+/** /printf("  ofp->descr.rof.size = %d\n",  ofp->descr.rof.size);
+/***/
+  if ((ofp->file_mode & DBL_FM_APPEND)    ||
+      (ofp->descr.rof.size  == 0)         ||
+      (ofp->descr.rof.recno == 0L)
+     )
+    {
+      if (ofp->descr.rof.size == 0)
+        ofp->descr.rof.size  = data->size;
+      if ( ! ofp->descr.rof.size)
+	{
+	  sprintf(buf, "%s @@ %s: zero length record", caller, src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+      if      (kind == IO_BINARY)
+        rsize = ofp->descr.rof.size;
+      else if (kind == IO_TEXT)
+        rsize = ofp->descr.rof.size + strlen(END_OF_LINE);
+      else
+        {
+          sprintf(buf, "%s @@ %s: unknown kind=%d", caller,  src_loc(), kind);
+          errno_set(0, DBL_IOS_ERR, buf);
+          goto BailOut;
+	}
+      if (ofp->file_mode & DBL_FM_APPEND)
+        {
+          if ((pos = lseek(ofp->descr.rof.fd, 0L, SEEK_END)) < 0L)
+	    {
+	      sprintf(buf, "%s @@ %s: %s %d", caller, src_loc(),
+	              "could not position to EOF on channel",
+		      channel);
+              errno_set(errno, DBL_IOS_ERR, buf);
+	      goto BailOut;
+	    }
+	}
+      else
+        pos = ofp->descr.rof.recno * rsize;
+      ofp->descr.rof.recno = (pos / rsize);
+    }
+/** /printf("do_rel_write: recno=%ld .size=%d data->size=%d\n",
+/** /       ofp->descr.rof.recno, ofp->descr.rof.size, data->size);
+/***/
+  if (data->size != ofp->descr.rof.size)
+    {
+      sprintf(buf, "%s @@ %s: wrong record size, rqst=%d file=%d",
+              caller, src_loc(), data->size, ofp->descr.rof.size);
+      errno_set(0, DBL_IOS_LONG, buf);
+      goto BailOut;
+    }
+  if      (kind == IO_BINARY)
+    rsize = ofp->descr.rof.size;
+  else if (kind == IO_TEXT)
+    rsize = ofp->descr.rof.size + strlen(END_OF_LINE);
+  else
+    {
+      sprintf(buf, "%s @@ %s: unknown kind=%d", caller,  src_loc(), kind);
+      errno_set(0, DBL_IOS_ERR, buf);
+      goto BailOut;
+    }
+  if (ofp->descr.rof.recno < 1L)
+    {
+      sprintf(buf, "%s @@ %s: invalid record number %ld",
+              caller, src_loc(), ofp->descr.rof.recno);
+      errno_set(0, DBL_IOS_KEY, buf);
+      goto BailOut;
+    }
+  pos = rsize * (ofp->descr.rof.recno - 1);
+/** /printf("do_rel_write: lseek(%d, %ld, %d)\n",
+/** /       ofp->descr.rof.fd, pos, SEEK_SET);
+/***/
+  if (lseek(ofp->descr.rof.fd, pos, SEEK_SET) < 0L)
+    {
+      sprintf(buf, "%s @@ %s: lseek to record %d failed",
+              caller, src_loc(), ofp->descr.rof.recno);
+      errno_set(errno, DBL_IOS_ERR, buf);
+    }
+  wsize = write(ofp->descr.rof.fd, data->addr, data->size);
+  if (wsize != data->size)
+    {
+      sprintf(buf, "%s @@ %s: error - wrote %d bytes of %d request",
+              caller, src_loc(), wsize, data->size);
+      errno_set(errno, DBL_IOS_ERR, buf);
+      goto BailOut;
+    }
+  if (kind == IO_TEXT)
+    {
+      wsize =  write(ofp->descr.rof.fd, END_OF_LINE, strlen(END_OF_LINE));
+      if (wsize != strlen(END_OF_LINE))
+        {
+          sprintf(buf, "%s @@ %s: error - couldn't write end-of-line",
+                  caller, src_loc());
+          errno_set(errno, DBL_IOS_ERR, buf);
+          goto BailOut;
+        }
+    }
+
+BailOut:
+/** /errno_print("do_rel_write");
+/***/
+  ;
+} /* do_rel_write */
+
+static
+void
+errno_clr()						/* Function	*/
+{
+  errno_set(0, DBL_IOS_OK, NULL);	/* Clear the structure		*/
+  dbl_error.has_error = 0;		/* No error has occurred	*/
+} /* errno_clr */
+
+static
+void
+errno_print(caller)					/* Function	*/
+  char     *caller;
+{
+  if (dbl_error.has_error)
+    {
+      static
+      char     *ios_nm[] =
+        {
+	  "OK",				/* DBL_IOS_OK	 0		*/
+	  "EOF",			/* DBL_IOS_EOF	 1		*/
+	  "ERR",			/* DBL_IOS_ERR	 2		*/
+	  "KEY",			/* DBL_IOS_KEY	 3		*/
+	  "LOCK",			/* DBL_IOS_LOCK	 4		*/
+	  "LONG",			/* DBL_IOS_LONG	 5		*/
+	};
+
+      fprintf(stderr, "%s: IOS=[%s](%d):%s ",
+              caller, ios_nm[dbl_error.io_sts], dbl_error.io_sts,
+	      dbl_error.dblmsg
+	     );
+      if (errno = dbl_error.errno)
+        perror("errno=");
+      else
+        fprintf(stderr, "\n");
+    }
+} /* errno_print */
+
+static
+void
+errno_set(errno, io_sts, dblmsg)			/* Function	*/
+  int       errno;
+  IOS_t     io_sts;
+  char     *dblmsg;
+{
+  dbl_error.has_error = 1;
+  dbl_error.errno     = errno;
+  dbl_error.io_sts    = io_sts;
+  dbl_error.routine   = cdbl_stack[cdbl_cframe].routine;
+  dbl_error.line      = cdbl_stack[cdbl_cframe].line;
+  strncpy(dbl_error.dblmsg, dblmsg ? dblmsg : "", sizeof(dbl_error.dblmsg));
+  dbl_error.dblmsg[sizeof(dbl_error.dblmsg) - 1] = '\0';
+} /* errno_set */
+
+/**
+ *	Note that this routine can be called multiple times in a single
+ *	function invocation.  Therefore if both calls have bogus 'fmode's
+ *	then the returned value is the same for both.
+ */
+static
+char *
+file_mode(fmode)					/* Function	*/
+  int       fmode;
+{
+  char     *cp;
+  switch (fmode)
+    {
+      default:
+        { /* block */
+	  static
+          char      buf[40];
+          sprintf(cp = buf, "UNKNOWN fmode = 0x%04x\n", fmode);
+        } /* block */
+        break;
+      case DBL_FM_NONE:
+	cp = "NONE";
+	break;
+      case DBL_FM_READ:
+	cp = "READ";
+	break;
+      case DBL_FM_WRITE:
+	cp = "WRITE";
+	break;
+      case DBL_FM_WRITE|DBL_FM_READ:
+	cp = "WRITE, READ";
+	break;
+      case DBL_FM_APPEND:
+	cp = "APPEND";
+	break;
+      case DBL_FM_APPEND|DBL_FM_READ:
+	cp = "APPEND, READ";
+	break;
+      case DBL_FM_APPEND|DBL_FM_WRITE:
+	cp = "APPEND, WRITE";
+	break;
+      case DBL_FM_APPEND|DBL_FM_WRITE|DBL_FM_READ:
+	cp = "APPEND, WRITE, READ";
+	break;
+      case DBL_FM_DELETE:
+	cp = "DELETE";
+	break;
+      case DBL_FM_DELETE|DBL_FM_WRITE|DBL_FM_READ:
+        cp = "DELETE, WRITE, READ";
+	break;
+      case DBL_FM_DELETE|DBL_FM_APPEND:
+	cp = "DELETE, APPEND";
+	break;
+      case DBL_FM_DELETE|DBL_FM_APPEND|DBL_FM_READ:
+	cp = "DELETE, APPEND, READ";
+	break;
+      case DBL_FM_DELETE|DBL_FM_APPEND|DBL_FM_WRITE:
+	cp = "DELETE, APPEND, WRITE";
+	break;
+      case DBL_FM_DELETE|DBL_FM_APPEND|DBL_FM_WRITE|DBL_FM_READ:
+	cp = "DELETE, APPEND, WRITE, READ";
+	break;
+      case DBL_FM_NOBUF:
+	cp = "NOBUF";
+	break;
+      case DBL_FM_NOBUF|DBL_FM_DELETE:
+	cp = "NOBUF, DELETE";
+	break;
+      case DBL_FM_NOBUF|DBL_FM_DELETE|DBL_FM_APPEND:
+	cp = "NOBUF, DELETE, APPEND";
+	break;
+      case DBL_FM_NOBUF|DBL_FM_DELETE|DBL_FM_APPEND|DBL_FM_READ:
+	cp = "NOBUF, DELETE, APPEND, READ";
+	break;
+      case DBL_FM_NOBUF|DBL_FM_DELETE|DBL_FM_APPEND|DBL_FM_WRITE:
+	cp = "NOBUF, DELETE, APPEND, WRITE";
+	break;
+      case DBL_FM_NOBUF|DBL_FM_DELETE|DBL_FM_APPEND|DBL_FM_WRITE|DBL_FM_READ:
+	cp = "NOBUF, DELETE, APPEND, WRITE, READ";
+	break;
+    }
+  return cp;
+} /* file_mode */
+
+/**
+ *	Note that this routine can be called multiple times in a single
+ *	function invocation.  Therefore if both calls have bogus 'ftype's
+ *	then the returned value is the same for both.
+ */
+static
+char *
+file_type(ftype)					/* Function	*/
+  int       ftype;
+{
+  char     *cp;
+  switch (ftype)
+    {
+      default:
+        { /* block */
+	  static
+          char      buf[40];
+          sprintf(cp = buf, "UNKNOWN ftype = %d\n", ftype);
+        } /* block */
+        break;
+      case DBL_FT_INDEXED:  cp = "indexed";		break;
+      case DBL_FT_NONE:     cp = "no-file-type";	break;
+      case DBL_FT_REGULAR:  cp = "regular";		break;
+      case DBL_FT_RELATIVE: cp = "relative";		break;
+      case DBL_FT_STREAM:   cp = "stream";		break;
+    }
+  return cp;
+} /* file_type */
+
+static
+DBLArg_t *
+find_arg(nargs, args, token)				/* Function	*/
+  int       nargs;
+  DBLArg_t *args;
+  int       token;
+{
+  DBLArg_t *p = (DBLArg_t *)NULL;
+/** /printf("find_arg: look for %s\n", to_token(token));
+/***/
+  while (nargs--)			/* Look for arg with token	*/
+    {
+      if (ARG_TOKEN(args->flags) == token)
+	{
+	  p = args;
+          break;
+	}
+      ++args;
+    }
+/** /printf("%s\n", p ? "Found it" : "No gots");
+/***/
+  return p;
+} /* find_arg */
+
+static
+void
+flush_io()						/* Function	*/
+{
+  int       slot;
+  for (ofp = open_files + (slot = 0);  slot < MAX_OPEN_FILES;  ++slot, ++ofp)
+    switch (ofp->file_type)
+      {
+	case DBL_FT_NONE:		/* Not opened			*/
+	  break;
+	case DBL_FT_REGULAR:		/* Regular file			*/
+	case DBL_FT_RELATIVE:		/* Relative file		*/
+	  break;
+	case DBL_FT_STREAM:		/* fprintf-able FILE *		*/
+	  fflush(ofp->descr.file);
+	  break;
+	case DBL_FT_INDEXED:		/* dbopen(3)			*/
+	  ofp->descr.iof.db->sync(ofp->descr.iof.db, 0);
+	  break;
+      }
+} /* flush_io */
+
+static
+int
+ios_ck_nargs(rtn, ios, nargs, args, min, max, allowed)	/* Function	*/
+  char     *rtn;
+  IOS_t     ios;
+  int       nargs;
+  DBLArg_t *args;
+  int       min;
+  int       max;
+  int      *allowed;
+{
+  char      buf[BUFSIZ];
+  int       is_error = 0, i, j;
+
+  if ((nargs < min) || (max && (nargs > max)))
+    {
+      if ((min == max) || (max == 0))
+        sprintf(buf, "%s @@ %s: called with %d parameters? (want %d%s)",
+	        rtn, src_loc(), nargs, min, max ? "" : " or more");
+      else
+        sprintf(buf, "%s @@ %s: called with %d parameters? (min=%d max=%d)",
+	        rtn, src_loc(), nargs, min, max);
+      errno_set(0, ios, buf);
+      is_error = 1;
+    }
+  else
+    {
+      char       bogus[BUFSIZ];		/* Diagnose all params in error	*/
+      strcpy(bogus, "");		/* Empty bogus param diagnostic	*/
+      for (i = 0;  i < nargs;  ++i)
+        {				/* Walk args, ensure valid args	*/
+          int        arg_t = ARG_TOKEN(args[i].flags);
+	  if (arg_t)
+	    {
+	      for (j = 0;  allowed[j];  ++j)
+	        if (arg_t == allowed[j])
+	          break;
+	      if (allowed[j] == 0)
+	        {
+		  sprintf(buf, "%sarg(%d)=%s", strlen(bogus) ? ", " : "",
+		          i, to_token(arg_t));
+		  strcat(bogus, buf);
+		  is_error = 1;
+	        }
+	    }
+        }
+      if (is_error)			/* We have bogus parameters	*/
+        {
+          sprintf(buf, "%s @@ %s: don't grok %s", rtn, src_loc(), bogus);
+          errno_set(0, ios, buf);
+	}
+    }
+  return is_error;
+} /* ios_ck_nargs */
+
+/**
+ *	Compare two keys.  Note that the index files are 'separated' from 
+ *	one another by the value of the first byte, which indicates which
+ *	index this key is a part of.  Index 0 is the primary index. 
+ *	Indexes 1 through MAX_ISAM_KEYS-1 are the secondary indexes.
+ *	Index MAX_ISAM_KEYS has a single entry, containing the index
+ *	descriptor for this file, keyed by the key "ISAM".
+ */
+static
+int
+isam_key_compare(key1, key2)				/* Function	*/
+  const DBT       *key1;
+  const DBT       *key2;
+{
+  char     *k1 = (char *)key1->data,
+           *k2 = (char *)key2->data;
+  int       i1 = *k1++,
+            i2 = *k2++,
+	    ln = key1->size - 1;
+
+/** /printf("isam_key_compare: i1=%d i2=%d\n", i1, i2);
+/***/
+  if (i1 != i2)				/* Not in same index		*/
+    return i1 - i2;			/* Diff by index		*/
+
+/** /printf("isam_key_compare: key1->size=%d key2->size=%d\n",
+/** /       key1->size, key2->size);
+/***/
+  					/* Same index, now go for key	*/
+  if (key1->size != key2->size)
+    {
+      char       buf[BUFSIZ];
+      sprintf(buf, "%s: %s\n(%d)%d:.*s vs (%d):%d:.*s", "isam_key_compare",
+              "INTERNAL ERROR  - mismatching sizes for index keys",
+	      key1->size, i1, k1,
+	      key2->size, i2, k2
+	     );
+      drt_FATAL(buf);
+    }
+/** /printf("isam_key_compare: strncmp(\"%.*s\", \"%.*s\", %d)=%d\n", 
+/** /        ln, k1, ln, k2, ln, strncmp(k1, k2, ln));
+/***/
+  return strncmp(k1, k2, ln);		/* Compare keys straight out	*/
+} /* isam_key_compare */
+
+/**
+ *	Check saved key information with 'data' to ensure that fields
+ *	that are not supposed to change haven't, etc.
+ *
+ * Strategy:
+ *     	Compares the 'data' sources with the previously saved entries.
+ *   1.	Sweep through key segments looking for "changed" elements, ensure
+ *	that there is not a NOCHANGE in effect on that segment.  If there
+ *	is a NOCHANGE constraint, and there is a difference between the
+ *	'data' and the saved key, then error.  Note that a NOCHANGE for the
+ *	key overrides allowing CHANGE on a key segment.
+ *   2.	Sweep through key segments looking for "noduplicate" elements.  For
+ *	all keys having a "noduplicate" attribute, ensure that there is no
+ *	duplicate key (i.e. one that exists that does not point to "our"
+ *	record).  Note that the way "our record" is determined is that it is
+ *	expected that the key saved in the 0 index is "primary" and "unique".
+ *	All secondary indexes store the primary key as their data value, hence
+ *	secondary indexes always require two reads to get to the real record:
+ *	(1) read the index entry containing the primary key and (2) read the
+ *	record using the primary key.  If duplicates are allowed on the
+ *	primary key, then things may break randomly.
+ *
+ * Caveat:
+ *	Note that this does I/O when it encounters things that require
+ *	checking for NODUPLICATES.
+ */
+static
+int
+isam_keyck(iof, data)					/* Function	*/
+  FileIndexed *iof;
+  DBLArg_t *data;
+{
+  char     *dp, *sp, buf[BUFSIZ];
+  int       ck, ln, k, s, ok;
+
+  ok = 0;				/* Things are NOT ok		*/
+
+/**
+ * Step 1: Look for invalid "changes" to keys.
+ */
+  for (k = 0;  k < iof->keys.nkey;  ++k)
+    {					/* For each key			*/
+      dp = iof->key[k];			/* "Save" space for key 'k'	*/
+      for (s = 0;  s < iof->keys.key[k].nseg;  ++s)
+      	{				/* For each key segment		*/
+	  ln = iof->keys.key[k].seg[s].slen;
+	  				/* Recall DBL arrays start at 1	*/
+	  sp = iof->keys.key[k].seg[s].spos + (char *)data->addr - 1;
+	  if (((iof->keys.key[k].attr         & DBL_ISAM_A_NOCHANGE) ||
+	       (iof->keys.key[k].seg[s].sattr & DBL_ISAM_A_NOCHANGE)
+	      )  &&
+	      (memcmp((void *)dp, (void *)sp, ln) != 0)
+	     )
+	    {  
+	      sprintf(buf, "%s key=%d seg=%d was='%.*s' now='%.*s'",
+	              "ISAM key changed,", k, s, ln, dp, ln, sp);
+	      errno_set(0, DBL_IOS_KEY, buf);
+	      goto BailOut;
+	    }
+	  dp += ln;
+	}
+    }
+
+/**
+ * Step 2: Look for duplicate records.
+ */
+
+#if 0
+#define DBL_ISAM_A_DUPLICATES	 4	/* Duplicate keys allowed	*/
+#define DBL_ISAM_A_NODUPLICATES	 8	/* Duplicate keys not allowed**	*/
+typedef
+struct
+  {
+    char      label[8]; /*ISAM_LABEL*/
+    int       cookie;			/* Magic cookie (so can find)	*/
+#define ISAM_COOKIE	0xF00D		/* Looks like food ;-)		*/
+    int       nkey;			/* # of indexes			*/
+    struct				/* Key descriptor per index	*/
+      {					/* ----------------------------	*/
+	int       len;			/* Key length (sum seg lengths)	*/
+        char      type;			/* Type of field A, S, P, I, U	*/
+        char      attr;			/* DBL_ISAM_A_xxx values	*/
+        int       nseg;			/* # of segments in key		*/
+	struct				/* Key segment descriptors	*/
+	  {				/* ----------------------------	*/
+            int       spos;		/* Starting position (rel 1)	*/
+	    int       slen;		/* Length of segment (bytes)	*/
+	    char      stype;		/* Type of field A, S, P, I, U	*/
+            char      sattr;		/* DBL_ISAM_A_xxx values	*/
+	  }       seg[MAX_KEY_SEGS];	/* ----------------------------	*/
+      }       key[MAX_ISAM_KEYS];	/*				*/
+  }       DBLISAMH_t;			/*				*/
+#endif/*0*/
+
+BailOut:
+  return ok;
+} /* isam_keyck */
+
+/**
+ *	Save key information from 'data' into selected 'iof' FileIndexed
+ *	descriptor.
+ */
+static
+int
+isam_keysv(iof, data)					/* Function	*/
+  FileIndexed *iof;
+  DBLArg_t *data;
+{
+  DBT       dbt;
+  char     *dp, *sp;
+  int       ln, k, s, ok;
+
+  ok = 0;				/* Default to an 'error' state	*/
+  for (k = 0;  k < iof->keys.nkey;  ++k)
+    {					/* For each key			*/
+      dbt = isam_mkkey(iof, data, k);	/* Make key for index key 'k'	*/
+      if ( ! (sp = (char *)dbt.data) )
+        goto BailOut;			/* Error was posted, pass on up	*/
+
+      dp = iof->key[k];			/* "Save" space for key 'k'	*/
+      ln = iof->keylen[k];		/* Including ix#		*/
+/**/  if (ln != dbt.size)
+/**/    printf("isam_keysv: ERROR ln=%d != dbt.size=%d\n", ln, dbt.size);
+/***/
+      while (ln-- > 0)			/* Move key segment to savearea */
+	*dp++ = *sp++;
+/** /printf("isam_keysv: key %d = (%d):'%.*s'\n",
+/** /       iof->key[k][0], iof->keylen[k] - 1,
+/** /       iof->keylen[k] - 1, &iof->key[k][1]);
+/***/
+    }
+  ok = 1;				/* It all worked, no error	*/
+BailOut:
+  return ok;
+} /* isam_keysv */
+
+/**
+ *	Note that the 'data' is expected to be either a T__RT_DATA or
+ *	a T__RT_RECID argument. If neither, 'tis an error.
+ *
+ *	For T_RT_DATA, the key is extracted as per the key descriptor.
+ *
+ *	For T_RT_RECID, the key is merely copied into the key. This means
+ *	that the passed in key better match (in size and alignment) to the
+ *	key in the index, or the record is not found.  Maybe this can be
+ *	made a tad "smarter" in the future.
+ */
+static
+DBT
+isam_mkkey(iof, data, keyno)				/* Function	*/
+  FileIndexed *iof;
+  DBLArg_t *data;
+  int       keyno;
+{
+  static
+  char     *mkkey = (char *)NULL;
+  static
+  int       mkkeylen = -1;
+
+  DBT       dbt;
+  char     *dp, *sp, buf[BUFSIZ];
+  int       ln, s;
+
+/** /printf("isam_mkkey(-iof-, %s, keyno=%d)\n",
+/** /       (ARG_TOKEN(data->flags) == T__RT_RECID) ? "T__RT_RECID" :
+/** /      ((ARG_TOKEN(data->flags) == T__RT_DATA)  ? "T__RT_DATA " : "??"),
+/** /       keyno
+/** /      );
+/***/
+  dbt.data = (void *)NULL;
+  dbt.size = 0;
+
+  if ((keyno < 0) || (keyno >= iof->keys.nkey))
+    {
+      sprintf(buf, "ISAM invalid key=%d (expect 0..%d)",
+              keyno, iof->keys.nkey - 1);
+      errno_set(0, DBL_IOS_KEY, buf);
+      goto BailOut;
+    }
+
+  if (mkkeylen < iof->keylen[keyno])	/* keylen[] includes ix#	*/
+    {					/* Need to grow current stash	*/
+      if (mkkey)
+        mkkey = realloc(mkkey, mkkeylen = iof->keylen[keyno] + 1 );
+      else
+        mkkey = malloc (       mkkeylen = iof->keylen[keyno] + 1 );
+      if ( ! mkkey )			/* Oops, can't grow		*/
+        {
+          sprintf(buf, "ISAM couldn't (re)allocate key stash (%d bytes)",
+	          mkkeylen);
+          errno_set(0, DBL_IOS_KEY, buf);
+          goto BailOut;
+	}
+    }
+
+  dp    = mkkey;			/* Buffer to build key into	*/
+  *dp++ = keyno;			/* First char of key is key#	*/
+
+  if      (ARG_TOKEN(data->flags) == T__RT_RECID)
+    {
+      ln = data->size;
+      sp = data->addr;
+      memcpy(dp, sp, ln);		/* Move recid info to buffer	*/
+/** /printf("  T__RT_RECID \"%.*s\"\n", ln, sp);
+/***/
+      dp += ln;
+    }
+  else if (ARG_TOKEN(data->flags) == T__RT_DATA)
+    for (s = 0;  s < iof->keys.key[keyno].nseg;  ++s)
+      {					/* For each key segment		*/
+        ln = iof->keys.key[keyno].seg[s].slen;
+	  				/* Recall DBL arrays start at 1	*/
+        sp = iof->keys.key[keyno].seg[s].spos + (char *)data->addr - 1;
+	memcpy(dp, sp, ln);		/* Move key segment to buffer	*/
+/** /printf("  T__RT_DATA spos=%d ix=%d (%d):\"%.*s\"\n",
+/** /       iof->keys.key[keyno].seg[s].spos, s, ln, ln, sp);
+/***/
+	dp += ln;
+      }
+  else
+    {
+      errno_set(0, DBL_IOS_ERR, "isam_mkkey: not T__RT_{DATA,RECID}");
+      goto BailOut;
+    }
+  *dp = '\0';				/* Just because (not used,but..)*/
+
+  dbt.data = (void *) mkkey;		/* Buffer to build key into	*/
+  dbt.size = dp - mkkey;
+
+/** /printf("isam_mkkey: %d:(%ld)\"%.*s\"\n",
+/** /       ((char *)dbt.data)[0], dbt.size - 1,
+/** /       (int)dbt.size - 1, &((char *)dbt.data)[1]);
+/***/
+BailOut:
+  return dbt;
+} /* isam_mkkey */
+
+/**
+ *	Finishes "opening" the ISAM file.
+ *
+ *	Inited   KEY:	Description of action
+ *	------	------	--------------------------------------------------
+ *	 Yes	 Yes	Ensure that KEY: "matches" file, initialize
+ *			memory descriptors as per file contents.  Open of
+ *			existing file need not specify all secondary indexes.
+ *			But, we need to populate all of the secondary index
+ *			descriptors in the event we add data to the file.
+ *	  No	 Yes	Initialize descriptors (file & memory) as per KEY:
+ *	 Yes	  No	Initialize memory descriptor as per file contents
+ *	  No	  No	Fatal error trap (KEY:)
+ *
+ *	If all opens ok, then return 0.  If error, then the error_set()
+ *	has been called, with the appropriate error message, etc, and let
+ *	the higher level routine (drt_open) return the error trap.
+ *
+ *	NOTE: at this point ofp is *not* set-up.
+ */
+static
+int
+isam_open(channel, nargs, args, file_name, iof)		/* Function	*/
+  int       channel;
+  int       nargs;
+  DBLArg_t *args;
+  char     *file_name;
+  FileIndexed *iof;
+{
+  DB       *db   = iof->db;
+  DBT       keydesc;
+  DBT       fi;
+  DBLISAMH_t keys;
+  int       i, hadkeys = 0, isinited = 0, have_error = 0;
+  char      buf[BUFSIZ];
+
+  if (i = parse_keys(nargs,args,&keys))	/* If there is a KEY: descriptor*/
+    {
+      hadkeys = 1;			/*   indicate we loaded it	*/
+      keys.cookie = ISAM_COOKIE;	/* Make magic cookie valid	*/
+      strcpy(keys.label, ISAM_LABEL);
+    }
+  if (i < 0)				/* If error in KEY: descriptor	*/
+    {
+      have_error = 1;
+      goto BailOut;			/* parse_keys set error		*/
+    }
+
+  sprintf(buf, "%cISAM", MAX_ISAM_KEYS);/* Get file version of index	*/
+  keydesc.data = (void *)buf;		/* descriptor, if any		*/
+  keydesc.size = strlen(buf);
+  					/* Index descriptor from file	*/
+  if ( db->get(db, &keydesc,  &fi, 0) == 0)
+    isinited = 1;			/* We have an inited ISAM file	*/
+
+/** /if (hadkeys)  { printf("parsed keys\n"); print_keys(&keys);}
+/** /if (isinited && (fi.size == sizeof(DBLISAMH_t)) )
+/** /		  { printf("infile keys\n"); print_keys((DBLISAMH_t*)fi.data);}
+/***/
+
+/** /printf("isam_open: hadkeys=%d isinited=%d\n", hadkeys, isinited);
+/***/
+
+  					/* Inited  KEY:			*/
+  if (hadkeys)				/* ------  ----			*/
+    {
+      if (isinited)			/*  Yes    Yes			*/
+        {				/*   Ensure spec matches file	*/
+          int       k, s;
+	  char     *fmt;
+          DBLISAMH_t *fkeys;
+
+	  fkeys = (DBLISAMH_t *)fi.data;
+	  if (fi.size != sizeof(keys))
+	    {
+	      sprintf(buf, "%s ISAM descriptor size is %d, expected %d",
+	              file_name, fi.size, sizeof(keys));
+Bogus_Descriptor:
+	      errno_set(0, DBL_IOS_ERR, buf);
+	      have_error = 1;
+	      goto BailOut;
+	    }
+	  if (fkeys->cookie != keys.cookie)
+	    {
+	      sprintf(buf, "%s ISAM magic cookie not valid (0x%x vs 0x%x)",
+	              fkeys->cookie, keys.cookie);
+	      goto Bogus_Descriptor;
+	    }
+	  if (fkeys->nkey != keys.nkey)
+	    {
+	      sprintf(buf, "%s ISAM has %d keys, now specifying %d",
+	              file_name, fkeys->nkey, keys.nkey);
+	      goto Bogus_Descriptor;
+	    }
+	  for (k = 0;  k < keys.nkey;  ++k)
+	    {
+	      fmt = "%s index %d %s %d mismatches spec of %d";
+
+	      if (fkeys->key[k].len  != keys.key[k].len)
+	        {
+		  sprintf(buf, fmt, file_name, k, "key length",
+	                  fkeys->key[k].len, keys.key[k].len);
+		  goto Bogus_Descriptor;
+		}
+
+	      if (fkeys->key[k].attr != keys.key[k].attr)
+	        {
+		  sprintf(buf, fmt, file_name, k, "key attributes",
+	                  fkeys->key[k].attr, keys.key[k].attr);
+		  goto Bogus_Descriptor;
+		}
+
+	      if (fkeys->key[k].nseg != keys.key[k].nseg)
+	        {
+		  sprintf(buf, fmt, file_name, k, "key # of segments",
+	                  fkeys->key[k].nseg, keys.key[k].nseg);
+		  goto Bogus_Descriptor;
+		}
+
+	      fmt = "%s index %d %s '%c' mismatches spec of '%c'";
+	      if (fkeys->key[k].type != keys.key[k].type)
+	        {
+		  sprintf(buf, fmt, file_name, k, "key type",
+	                  fkeys->key[k].type, keys.key[k].type);
+		  goto Bogus_Descriptor;
+		}
+	      for (s = 0;  s < keys.key[k].nseg;  ++s)
+	        {
+	          fmt = "%s index %d segment %d %s %d mismatches spec of %d";
+		  if (fkeys->key[k].seg[s].spos  != keys.key[k].seg[s].spos)
+	            {
+		      sprintf(buf, fmt, k, s, "key segment starting position",
+	                      fkeys->key[k].seg[s].spos,
+			      keys.key[k].seg[s].spos);
+		      goto Bogus_Descriptor;
+		    }
+		  if (fkeys->key[k].seg[s].slen  != keys.key[k].seg[s].slen)
+	            {
+		      sprintf(buf, fmt, k, s, "key segment length",
+	                      fkeys->key[k].seg[s].slen,
+			      keys.key[k].seg[s].slen);
+		      goto Bogus_Descriptor;
+		    }
+		  if (fkeys->key[k].seg[s].sattr != keys.key[k].seg[s].sattr)
+	            {
+		      sprintf(buf, fmt, k, s, "key segment attributes",
+	                      fkeys->key[k].seg[s].sattr,
+			      keys.key[k].seg[s].sattr);
+		      goto Bogus_Descriptor;
+		    }
+
+	          fmt="%s index %d segment %d %s '%c' mismatches spec of '%c'";
+		  if (fkeys->key[k].seg[s].stype != keys.key[k].seg[s].stype)
+	            {
+		      sprintf(buf, fmt, k, s, "key segment type",
+	                      fkeys->key[k].seg[s].stype,
+			      keys.key[k].seg[s].stype);
+		      goto Bogus_Descriptor;
+		    }
+		}
+	    }
+	}
+      else				/*   No    Yes			*/
+        {				/*   Init file & memory via KEY:*/
+	  fi.data = (void *)&keys;
+	  fi.size = sizeof(keys);
+          if (db->put(db, &keydesc,  &fi, 0) != 0)
+	    {
+	      sprintf(buf, "couldn't init ISAM file %s", file_name);
+	      errno_set(errno, DBL_IOS_ERR, buf);
+	      have_error = 1;
+	      goto BailOut;
+	    }
+	}
+    }
+  else
+    {
+      if (isinited)			/*  Yes     No			*/
+	keys = *((DBLISAMH_t *)fi.data);/*   Init memory as per file	*/
+      else				/*   No     No			*/
+        {				/*   Invalid, nothing specified	*/
+	  sprintf(buf, "%s %s %s", "ISAM file", file_name,
+	          "must be inited, or OPEN must specify keys");
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  have_error = 1;
+	  goto BailOut;
+	}
+    }
+
+  { /* block */				/* Initialize key buffer(s)	*/
+    int       k, koff;
+    char     *kb;
+
+    koff = 0;
+    for (k = 0;  k < keys.nkey;  ++k)	/* Process each index		*/
+      {
+	iof->keylen[k] =		/* Note: +1 is for ix# in key	*/
+	            keys.key[k].len + 1;
+        koff += iof->keylen[k];		/*   add size of index[k] key	*/
+      }
+
+    if ( ! (kb = iof->keybuf = (char *)malloc(koff)))
+      {					/* Can't get key buffer		*/
+	sprintf(buf, "%s %s, %s %d %s", "ISAM file", file_name,
+	        "couldn't allocate key buffer of", koff, "bytes");
+	errno_set(0, DBL_IOS_ERR, buf);
+	have_error = 1;
+	goto BailOut;
+      }
+
+    koff = 0;
+    for (k = 0;  k < keys.nkey;  ++k)	/* Stuff the key descriptors	*/
+      {
+	iof->key[k]    = kb + koff;	/* Address of the buffer	*/
+	iof->key[k][0] = '\0';		/* Terminate the string		*/
+	koff += iof->keylen[k];		/* Bump offset to next key desc	*/
+      }
+  } /* block */				/* Initialize key buffer(s)	*/
+
+/** /print_keys(&keys);
+/***/
+  iof->keys = keys;			/* Stash the index file descr	*/
+  iof->ckey = -1;			/* No current key		*/
+
+BailOut:
+  return have_error;
+} /* isam_open */
+
+/**
+ *	Read ISAM file:
+ *	  dir <  0 read reverse order current index next record
+ *	  dir == 0 read exact match in current index
+ *	  dir == 1 read exact match in current, but setup for sequential
+ *	  dir >  1 read forward order current index next record
+ */
+static
+int
+isam_read(caller, channel, data, dir)			/* Function	*/
+  char     *caller;
+  int       channel;
+  DBLArg_t *data;
+  int       dir;
+{
+  FileIndexed *iof = &ofp->descr.iof;
+  DB       *db   = iof->db;
+  DBT       key, rec;
+  IOS_t     ios;
+  int       sts, opts;
+  char      buf[BUFSIZ], *kp;
+
+  ios = DBL_IOS_OK;
+
+  if (iof->ckey < 0)			/* No key selected		*/
+    {
+      if ((dir < 0) || (dir > 1))	/* Doing sequential operation	*/
+        {
+	  sprintf(buf, "%s @@ %s: no key selected, must READ or FIND first",
+	          caller, src_loc());
+	  errno_set(0, ios = DBL_IOS_KEY, buf);
+	  goto Done;
+	}
+      iof->ckey = 0;
+    }
+
+  key = ((dir < 0) || (dir > 1))	/* Get saved/supplied key	*/
+         ? isam_svkey(iof,       iof->ckey)
+         : isam_mkkey(iof, data, iof->ckey);
+
+  kp = (char *)key.data;		/* For diagnostic message	*/
+  					/* Note: key.data points to a	*/
+					/* locally cached buffer.	*/
+
+/** /printf("isam_read: ckey=%d dir=%d key=%d:'%.*s'\n",
+/** /       iof->ckey, dir, *kp, (int)key.size - 1, kp + 1);
+/***/
+  sts = 0;
+  if ((dir == 0) && ((sts = db->get(db, &key, &rec, 0)) != 0))
+    {					/* Record not found		*/
+      sprintf(buf, "%s @@ %s: record not found (sts=%d key=%d '%.*s')",
+              caller, src_loc(), sts, *kp, (int)key.size - 1, kp + 1);
+      errno_set(0, ios = DBL_IOS_KEY, buf);
+      goto Done;
+    }
+
+  if ((dir == 0) && (sts == 0))		/* Got record we want		*/
+    goto Done;
+
+/** /printf("isam_read: %sdoing sequential read %s\n",
+/** /       dir ? "" : "not ", (dir < 0) ? "previous" : "next");
+/***/
+/**
+ *	Note: dbopen(3) is sort of different.  Intervening get, put, etc
+ *	operations do not affect the cursor.
+ *??	So, do we need to do this twice to go sequentially if using a
+ *	svkey?  Proabably.  Try and make a note of things.
+ * Strategy:
+ *	1. If READ (dir == 1), then see if the key is in the index.
+ *	2.   Key is in index, so search backward(forward) one key so
+ *	     that sequential will get the selected key.
+ *      3.   If sequential operation hits EOF(BOF), then set opts to
+ *	     do a R_FIRST(R_LAST) else do a R_NEXT(R_PREV).
+ *	   else
+ *	4.   Use the direction flag to set the options.
+ *	5. Do the sequential operation setting the cursor for subsequent
+ *	   READS operations.
+ */
+/** /printf("isam_read: before db->get, key.data=0x%08lx\n", key.data);
+/***/
+  if ((dir == 1) && (sts = db->get(db, &key, &rec, 0)) == 0)
+    {					/* Searching for first key	*/
+      char     *kk;
+/** /printf("isam_read: after db->get, key.data=0x%08lx\n", key.data);
+/***/
+/**
+ * If the seed key address is not restored, key.data points into the 
+ * dbopen stuff so that subsequent db->seq calls just walk to the next/prev
+ * entry without looking at the keys.
+ */
+      key.data = kp;			/* Restore seed key address	*/
+
+      kk = ((char *)key.data) + key.size - 1;
+					/* kk points to last char of key*/
+      opts = ((dir < 0) ? R_NEXT : R_PREV);
+/** /printf("isam_read: dir=%d get.sts=%d\n", dir, sts);
+/***/
+      if (dir < 0)
+	{
+	  (*kk)++;			/* Go to key following request	*/
+	  opts = R_CURSOR;
+/** /printf("isam_read: position to first key of next higher index\n");
+/***/
+	}
+      else
+        {
+	  if (((char *)key.data)[0])	/* Position to last key of prev	*/
+	    {
+	      (*kk)--;			/* Go to key preceding request	*/
+	      opts = R_CURSOR;
+/** /printf("isam_read: position to last key of next lower index\n");
+/***/
+	    }
+	  else				/* Position to first key of all	*/
+	    {
+	    opts = R_FIRST;
+/** /printf("isam_read: position to first key of index file\n");
+/***/
+	    }
+	}
+    }
+  else
+    opts = (dir < 0) ? R_PREV : R_NEXT;
+/** /printf("isam_read: R_FIRST=%d R_LAST=%d R_NEXT=%d R_PREV=%d R_CURSOR=%d\n",
+/** /                   R_FIRST,   R_LAST,   R_NEXT,   R_PREV,   R_CURSOR);
+/** /printf("isam_read: db->seq(-db-, key=%d:'%.*s', -rec-, %d)\n",
+/** /       ((char *)key.data)[0], (int)key.size-1, ((char *)key.data)+1, opts);
+/***/
+  if ((sts = db->seq(db, &key, &rec, opts)) != 0)
+    {					/* End (or beginning) of file	*/
+Eof_or_Bof:
+/** /printf("isam_read: Eof_or_Bof sts=%d\n", sts);
+/***/
+      sprintf(buf, "%s @@ %s: %s of file (sts=%d)", caller, src_loc(),
+              (dir < 0) ? "beginning" : "end", sts);
+      errno_set(0, ios = DBL_IOS_EOF, buf);
+      goto Done;
+    }
+/** /printf("isam_read: did db->seq, got key=%d:'%.*s' rec=%.*s\n",
+/** /       ((char *)key.data)[0], (int)key.size - 1, ((char *)key.data) + 1,
+/** /                              (int)rec.size    , ((char *)rec.data)    );
+/***/
+
+  if (((char *)key.data)[0] != (char) iof->ckey)
+    goto Eof_or_Bof;
+
+  if ( ! iof->ckey)			/* Did read on primary key	*/
+    goto Done;
+
+/**
+ * Note: am capturing the diagnostic before call to db->get() because the
+ *	 contents of 'key' may be changed by call to db->get().
+ */
+  key = rec;				/* Now point to data record key	*/
+  kp  = (char *)key.data;
+  sprintf(buf, "%s @@ %s: invalid key pointer (key=%d '%s')", caller, src_loc(),
+          *kp, kp + 1);
+/** /printf("isam_read: 0x%08lx key=%d '%.*s'\n",
+/** /       kp, *kp, (int)key.size - 1, kp + 1);
+/***/
+  if ((sts = db->get(db, &key, &rec, 0)) != 0)
+/** / { printf("sts=%d key.size=%d .data=%d:'%.*s'\n",
+/** /          sts, (int)key.size, ((char *)key.data)[0],
+/** /          (int) key.size - 1, ((char *)key.data)+1);
+/** /   printf("      rec.size=%d .data='%.*s'\n",
+/** /          (int)rec.size, (int)rec.size, rec.data);
+/***/
+    errno_set(0, ios = DBL_IOS_ERR, buf);
+/** / }
+/***/
+/** /printf("isam_read: did db->get\n");
+/***/
+
+  /* fall-thru */
+
+Done:
+  if ((ios == DBL_IOS_OK) &&		/* Still ok, and reading record	*/
+      (ARG_TOKEN(data->flags) == T__RT_DATA)
+     )
+    {
+      char     *what = "record size mismatch";
+      if (data->size != rec.size)
+	{
+          char      buf[BUFSIZ];
+Isam_Read_Error:
+	  sprintf(buf,"%s(channel=%d): isam_read %s (size data:%d record:%ld)",
+	          caller, channel, what, data->size, rec.size);
+          errno_set(0, ios = DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+      					/* Copy the data		*/
+      memcpy(data->addr, rec.data, data->size);
+/** /printf("isam_read: read data (%d):'%.*s'\n",
+/** /       (int)data->size, (int)data->size, data->addr);
+/***/
+      what = "isam_keysv() failed";
+      if ( ! isam_keysv(iof, data) )
+        goto Isam_Read_Error;
+    }
+BailOut:
+/** /printf("isam_read: done\n");
+/***/
+  return ios;
+} /* isam_read */
+
+/**
+ *	Fetch a saved key value.
+ */
+static
+DBT
+isam_svkey(iof, ckey)					/* Function	*/
+  FileIndexed *iof;
+  int       ckey;
+{
+  DBT       key;
+
+  key.size = 0;
+  key.data = NULL;
+
+  if (ckey < 0 || ckey >= iof->keys.nkey)
+    {
+      char      buf[BUFSIZ];
+      sprintf(buf, "isam_svkey: @@ %s: ckey=%d must be in range of 0..%d",
+              src_loc(), ckey, iof->keys.nkey);
+      errno_set(0, DBL_IOS_KEY, buf);
+    }
+  else
+    {
+      key.size = iof->keylen[ckey];
+      key.data = iof->key[ckey];
+/** /printf("isam_svkey: fetched %d:'%.*s'\n", *((char *)key.data),
+/** /       (int)key.size - 1, (char *)key.data + 1);
+/***/
+    }
+  return key;
+} /* isam_svkey */
+
+/**
+ */
+static
+void
+isam_update(caller, channel, data, cmp)			/* Function	*/
+  char     *caller;
+  int       channel;
+  DBLArg_t *data;
+  int       cmp;
+{
+  FileIndexed *iof = &ofp->descr.iof;
+  DB       *db = iof->db;
+  int       ok;
+  IOS_t     ios;
+  DBT       key, rec;
+
+  ok = 1;
+  if (cmp)				/* If updating an existing rec	*/
+    ok = isam_keyck(iof, data);
+
+  if (ok)
+    {
+      int       ix;
+      char      pkey[BUFSIZ], *kp, buf[BUFSIZ];
+
+/**
+ * Note: The following code is not very robust.  I am wanting to get an
+ *	initial version of ISAM going ASAP, and will worry about better
+ *	exception handling in the future!
+ */
+
+/**
+ * Note: Need to squirrel away the primary key information since the locally
+ *	cached key buffer is reused for each call to isam_mkkey().
+ */
+      rec = isam_mkkey(iof, data, 0);	/* Main index key		*/
+      if (rec.size > sizeof(pkey))
+        {
+	  sprintf(buf, "%s @@ %s: pkey buffer too small, need %ld have %d",
+	          caller, src_loc(), rec.size, sizeof(pkey));
+	  errno_set(0, ios = DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+      memcpy(pkey, rec.data, (size_t)rec.size);
+      rec.data = pkey;
+/** /printf("isam_update: pkey(%d)=%d:\"%.*s\"\n",
+/** /       rec.size, ((char *)rec.data)[0],
+/** /       (int)rec.size - 1, &((char *)rec.data)[1]);
+/***/
+ 
+					/* Update sub-indexes		*/
+      for (ix = 1;  ix < iof->keys.nkey;  ++ix)
+        {
+	  key = isam_mkkey(iof, data, ix);
+	  kp  = (char *)key.data;
+	  if (db->put(db, &key, &rec, 0) != 0)
+	    {
+	      sprintf(buf, "%s @@ %s: failed to create key=%d '%s'", caller,
+	              src_loc(), *kp, kp + 1);
+	      
+              errno_set(0, ios = DBL_IOS_ERR, buf);
+	      goto BailOut;
+	    }
+	}
+      if ( ! isam_keysv(iof, data) )
+        {
+	  sprintf(buf, "%s @@ %s: failed to save keys", caller, src_loc());
+	  errno_set(0, ios = DBL_IOS_KEY,  buf);
+	  goto BailOut;
+	}
+      key = rec;			/* Primary key			*/
+      rec.data = data->addr;		/* Real data record		*/
+      rec.size = data->size;
+      kp = (char *)rec.data;
+      if (db->put(db, &key, &rec, 0) != 0)
+        {
+	  sprintf(buf, "%s @@ %s: failed to create key=%d '%s'", caller,
+	          src_loc(), *kp, kp + 1);
+	  errno_set(0, ios = DBL_IOS_ERR, buf);
+	  goto BailOut;
+	}
+    }
+BailOut:
+  return;
+} /* isam_update */
+
+/**
+ *	Parse a key specification which is of the form:
+ *	  '(' <keyspecs> ')'
+ *	and <keyspecs> is a list of <keyspec> where a <keyspec> is:
+ *	  '(' <pos> ',' <size> [ ',' 'TYPE:' <type> [ ',' 'ATTR:' <attr> ]] ')'
+ * or
+ *	  '(' <pos> ',' <size> ',' <pos> ',' <size> ...
+ *			       [ ',' 'TYPE:' <type> [ ',' 'ATTR:' <attr> ]] ')'
+ * or
+ *	  '(SEG:(<pos> ',' <size>
+ *			       [ ',' 'TYPE:' <type> [ ',' 'ATTR:' <attr> ]] ')'
+ *	    ['(SEG:(<pos> ',' <size>
+ *			       [ ',' 'TYPE:' <type> [ ',' 'ATTR:' <attr> ]] ')'
+ *	    ]
+ *			       [ ',' 'TYPE:' <type> [ ',' 'ATTR:' <attr> ]] ')'
+ * <pos>
+ * <size>
+ * <type>
+ * <attr>
+ */
+int
+parse_keys(nargs, args, keys)				/* Function	*/
+  int       nargs;
+  DBLArg_t *args;
+  DBLISAMH_t *keys;
+{
+  DBLArg_t *key;
+  char      keydesc[BUFSIZ], buf[BUFSIZ];
+  int       nkey, nseg, exitinner;
+
+  keys->nkey = 0;			/* Sane-ify the struct		*/
+
+  if (debug)
+    printf("parse_keys(%d, -args-, -keys-) T_KEY=%s\n",
+           nargs, find_arg(nargs, args, T_KEY) ? "Yes" : "NO - FAILED");
+  if ( ! (key = find_arg(nargs, args, T_KEY)) )
+    return 0;				/* No spec, so ok from here	*/
+
+  { /* block */				/* Normalize: remove ' ' and case*/
+    char     *dp, *sp, ch;		/* and capture some stats	*/
+    int       ln;
+    sp = (char *)key->addr;
+    ln = key->size;
+    if (ln > sizeof(keydesc))
+      {
+        sprintf(buf, "%s: KEY: descriptor too large (%d chars max)",
+	        src_loc(), sizeof(keydesc));
+	goto Key_Error;
+      }
+    for (dp = keydesc;  ln && (ch = *sp);  ++sp, --ln)
+      {
+        if (isspace(ch))		/* Blow by space characters	*/
+	  continue;
+        if (islower(ch))		/* Convert lower to upper case	*/
+	  ch = toupper(ch);
+        *dp++ = ch;			/* Save character		*/
+      }
+  } /* block */
+/**
+ *	The KEY: is parsed by the following state machine, which is
+ *	hopefully faithfully represented in the code.
+ * 
+ * 0:                    s = 0; init segment [k][s]
+ *    <num>    -> 1
+ *    "SEG:("  -> 8
+ *     *       -> Error pos <num> or 'SEG:(' expected
+ * 1:                    pos = atoi(<num>),  cp += len(<num>)
+ *    ','      -> 2
+ *     *       -> Error ',' expected
+ * 2: <num>    -> 3
+ *     *       -> Error size <num> expected
+ * 3:                    size = atoi(<num>), cp += len(<num>)
+ *    ','      -> 4 (advancing cp++)
+ *    ')'      -> 4 (no cp++)
+ *     *       -> Error ',' expected
+ * 4:                    store pos, size at [k][s], attr/type = default
+ *                             [k]nseg = ++s  and [k]len += size
+ *                       attr = type = 0
+ *    <num>    -> 1
+ *    ')'      -> 7
+ *    'TYPE:'  -> 5
+ *    'ATTR:'  -> 6
+ *     *       -> Error pos <num>, 'TYPE:' or 'ATTR:' expected
+ * 5:                    type = decode_key_type(cp), cp += len(decoded)
+ *    ',ATTR:' -> 6
+ *    ')'      -> 7
+ *     *       -> Error ',ATTR:' or ')' expected
+ * 
+ * 6:                    attr = decode_key_attr(cp), cp += len(decoded)
+ *    ',TYPE:' -> 5
+ *    ')'      -> 7
+ *     *       -> Error ',TYPE:' or ')' expected
+ * 7:                    store type, attr at [k], ++k
+ *                       continue while (*cp == '(')
+ * 8: <num>    -> 9
+ *     *       -> Error SEG: pos <num> expected
+ * 9:                    pos = atoi(<num>), cp += len(<num>)
+ *    ','      -> 10
+ *     *       -> Error ',' expected
+ * 10: <num>   -> 11
+ *     *       -> Error SEG: size <num> expected
+ * 11:                   size = atoi(<num>), cp += len(<num>)
+ *    ',TYPE:' -> 12
+ *    ',ATTR:' -> 13
+ *    ')'      -> 14
+ *     *       -> Error in SEG:, ')', ',TYPE:' or ',ATTR:' expected
+ * 12:                   type = decode_key_type(cp), cp += len(decoded)
+ *    ',ATTR:' -> 13
+ *    ')'      -> 14
+ *     *       -> Error in SEG:, ',ATTR:' or ')' expected
+ * 13:                   attr = decode_key_attr(cp), cp += len(decoded)
+ *    ',TYPE:' -> 12
+ *    ')'      -> 14
+ *     *       -> Error ',TYPE:' or ')' expected
+ * 14:                   store pos, size, type, attr at [k][s], [k]nseg = ++s
+ *                       attr = type = 0
+ *    ',SEG:(' -> 8
+ *    ',TYPE:' -> 5
+ *    ',ATTR:' -> 6
+ *    ')'      -> 7
+ *     *       -> Error ',SEG:(', ',TYPE:', ',ATTR:' or ')' expected
+ */
+  if (keydesc[0] == '(')
+  { /* block */				/* Parse the key descriptor	*/
+    char     *cp, *ms;
+    int       k, s, ml, pos, size, attr, type, state;
+
+    cp = keydesc + 1;
+    k  = 0;				/* Key (Index) #0		*/
+    while (*cp++ == '(')		/* Parse a key descriptor	*/
+      {
+        state = 0;
+	exitinner = 0;
+	attr = type = 0;
+        while (1)
+	  {
+	    if (debug)
+	      printf("state = %d, cp='%s'\n", state, cp);
+	    switch (state)
+              {
+/* state 0:
+ * 0:                    s = 0; init segment [k][s]
+ *    <num>    -> 1
+ *    "SEG:("  -> 8
+ *     *       -> Error pos <num> or 'SEG:(' expected
+ */
+case 0: 	  
+	  s = 0;			/* Start at seg #0 of key #k	*/
+	  keys->key[k].len = 0;
+	  if (isdigit(*cp))
+	    {
+	      state = 1;
+					if (debug) printf("0->1\n");
+	      continue;
+	    }
+	  ml = strlen(ms = "SEG:(");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 8;
+					if (debug) printf("0->8\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected pos <num> or 'SEG:('",
+	          cp - keydesc, keydesc);
+	  goto Key_Error;
+
+/* state 1:
+ * 1:                    pos = atoi(<num>),  cp += len(<num>)
+ *    ','      -> 2
+ *     *       -> Error ',' expected
+ */
+case  1:
+	  pos = parse_number(&cp);
+	  if (*cp == ',')
+	    {
+	      cp++;
+	      state = 2;
+					if (debug) printf("1->2\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected ','",
+	          cp - keydesc, keydesc);
+	  goto Key_Error;
+
+/* state 2:
+ * 2: <num>    -> 3
+ *     *       -> Error size <num> expected
+ */
+case  2:
+          if (isdigit(*cp))
+	    {
+	      state = 3;
+					if (debug) printf("2->3\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected size <num>",
+	          cp - keydesc, keydesc);
+	  goto Key_Error;
+
+/* state 3:
+ * 3:                    size = atoi(<num>), cp += len(<num>)
+ *    ','      -> 4 (advancing cp++)
+ *    ')'      -> 4 (no cp++)
+ *     *       -> Error ',' expected
+ */
+case  3:
+	  size = parse_number(&cp);
+	  if (*cp == ',')
+	    {
+	      cp++;
+	      state = 4;
+					if (debug) printf("3->4\n");
+	      continue;
+	    }
+	  if (*cp == ')')
+	    {
+	      state = 4;
+					if (debug) printf("3->4\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected ','",
+	          cp - keydesc, keydesc);
+	  goto Key_Error;
+
+/* state 4:
+ * 4:                    store pos, size at [k][s], attr/type = default
+ *                             [k]nseg = ++s  and [k]len += size
+ *    <num>    -> 1
+ *    ')'      -> 7
+ *    'TYPE:'  -> 5
+ *    'ATTR:'  -> 6
+ *     *       -> Error pos <num>, 'TYPE:' or 'ATTR:' expected
+ */
+case  4:
+	  keys->key[k].seg[s].spos  = pos;
+	  keys->key[k].seg[s].slen  = size;
+	  keys->key[k].seg[s].stype = 0;	/* DEFAULT?*/
+	  keys->key[k].seg[s].sattr = 0;	/* DEFAULT?*/
+	  keys->key[k].nseg = ++s;
+	  keys->key[k].len += size;
+
+	  if (s >= MAX_KEY_SEGS)
+	    {
+	      sprintf(buf, "Error @@%d in '%s': too many key segments (max=%d)",
+	              cp - keydesc, keydesc, MAX_KEY_SEGS);
+	      goto Key_Error;
+	    }
+
+	  if (isdigit(*cp))
+	    {
+	      state = 1;
+					if (debug) printf("4->1\n");
+	      continue;
+	    }
+	  if (*cp == ')')
+	    {
+	      cp++;
+	      state = 7;
+					if (debug) printf("4->7\n");
+	      continue;
+	    }
+	  ml = strlen(ms = "TYPE:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 5;
+					if (debug) printf("4->5\n");
+	      continue;
+	    }
+	  ml = strlen(ms = "ATTR:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 6;
+					if (debug) printf("4->6\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected %s",
+	          cp - keydesc, keydesc, "pos <num>, 'TYPE:' or 'ATTR:'"
+		  );
+	  goto Key_Error;
+
+/* state 5:
+ * 5:                    type = decode_key_type(cp), cp += len(decoded)
+ *    ',ATTR:' -> 6
+ *    ')'      -> 7
+ *     *       -> Error ',ATTR:' or ')' expected
+ */
+case  5:
+	  if ((type = decode_key_type(&cp, buf)) < 0)
+	    goto Key_Error;
+	  ml = strlen(ms = ",ATTR:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 6;
+					if (debug) printf("5->6\n");
+	      continue;
+	    }
+	  if (*cp == ')')
+	    {
+	      cp++;
+	      state = 7;
+					if (debug) printf("5->7\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected ',ATTR:' or ')'",
+	          cp - keydesc, keydesc);
+	  goto Key_Error;
+
+/* state 6:
+ * 6:                    attr = decode_key_attr(cp), cp += len(decoded)
+ *    ',TYPE:' -> 5
+ *    ')'      -> 7
+ *     *       -> Error ',TYPE:' or ')' expected
+ */
+case  6:
+	  if ((attr = decode_key_attr(&cp, buf)) < 0)
+	    goto Key_Error;
+	  ml = strlen(ms = ",TYPE:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 5;
+					if (debug) printf("6->5\n");
+	      continue;
+	    }
+	  if (*cp == ')')
+	    {
+	      cp++;
+	      state = 7;
+					if (debug) printf("6->7\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected ',TYPE:' or ')'",
+	          cp - keydesc, keydesc);
+	  goto Key_Error;
+
+/* state 7:
+ * 7:                    store type, attr at [k], ++k
+ *                       continue while (*cp == '(')
+ */
+case  7:
+	  if ( ! attr )			/* No ATTR: spec so default	*/
+	    {
+	      char     *ap = k
+			      ? "(CHANGE,DUPLICATES,ASCENDING)"
+	                      : "(NOCHANGE,NODUPLICATES,ASCENDING)";
+	      ap = k ? "21" : "36";	/* Override symbolic for now	*/
+              attr = decode_key_attr(&ap, buf);
+	    }
+	  keys->key[k].type = type ? type : 'A';
+	  keys->key[k].attr = attr;
+	  keys->nkey        = ++k;
+	  if (s >= MAX_ISAM_KEYS)
+	    {
+	      sprintf(buf, "Error @@%d in '%s': too indexes (max=%d)",
+	              cp - keydesc, keydesc, MAX_ISAM_KEYS);
+	      goto Key_Error;
+	    }
+					if (debug) printf("7->exitinner\n");
+
+	  exitinner = 1;
+	  break;
+
+/* state 8:
+ * 8: <num>    -> 9
+ *     *       -> Error SEG: pos <num> expected
+ */
+case  8:
+	  if (isdigit(*cp))
+	    {
+	      state = 9;
+					if (debug) printf("8->9\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected SEG: pos <num>",
+	          cp - keydesc, keydesc);
+	  goto Key_Error;
+
+/* state 9:
+ * 9:                    pos = atoi(<num>), cp += len(<num>)
+ *    ','      -> 10
+ *     *       -> Error ',' expected
+ */
+case  9:
+	  pos = parse_number(&cp);
+	  if (*cp == ',')
+	    {
+	      cp++;
+	      state = 10;
+					if (debug) printf("9->10\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected ','",
+	          cp - keydesc, keydesc);
+	  goto Key_Error;
+
+/* state 10:
+ * 10: <num>   -> 11
+ *     *       -> Error SEG: size <num> expected
+ */
+case 10:
+	  if (isdigit(*cp))
+	    {
+	      state = 11;
+					if (debug) printf("10->11\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected SEG: size <num>",
+	          cp - keydesc, keydesc);
+	  goto Key_Error;
+
+/* state 11:
+ * 11:                   size = atoi(<num>), cp += len(<num>)
+ *    ',TYPE:' -> 12
+ *    ',ATTR:' -> 13
+ *    ')'      -> 14
+ *     *       -> Error in SEG:, ')', ',TYPE:' or ',ATTR:' expected
+ */
+case 11:
+	  size = parse_number(&cp);
+	  ml = strlen(ms = ",TYPE:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 12;
+					if (debug) printf("11->12\n");
+	      continue;
+	    }
+	  ml = strlen(ms = ",ATTR:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 13;
+					if (debug) printf("11->13\n");
+	      continue;
+	    }
+	  if (*cp == ')')
+	    {
+	      cp++;
+	      state = 14;
+					if (debug) printf("11->14\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected %s",
+	          cp - keydesc, keydesc, "SEG: ')', ',TYPE:' or ',ATTR:'");
+	  goto Key_Error;
+
+/* state 12:
+ * 12:                   type = decode_key_type(cp), cp += len(decoded)
+ *    ',ATTR:' -> 13
+ *    ')'      -> 14
+ *     *       -> Error in SEG:, ',ATTR:' or ')' expected
+ */
+case 12:
+	  if ((type = decode_key_type(&cp, buf)) < 0)
+	    goto Key_Error;
+	  ml = strlen(ms = ",ATTR:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 13;
+					if (debug) printf("12->13\n");
+	      continue;
+	    }
+	  if (*cp == ')')
+	    {
+	      cp++;
+	      state = 14;
+					if (debug) printf("12->14\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected %s",
+	          cp - keydesc, keydesc, "SEG: ')' or ',ATTR:'");
+	  goto Key_Error;
+
+/* state 13:
+ * 13:                   attr = decode_key_attr(cp), cp += len(decoded)
+ *    ',TYPE:' -> 12
+ *    ')'      -> 14
+ *     *       -> Error ',TYPE:' or ')' expected
+ */
+case 13:
+	  if ((attr = decode_key_attr(&cp, buf)) < 0)
+	    goto Key_Error;
+	  ml = strlen(ms = ",TYPE:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 12;
+					if (debug) printf("13->12\n");
+	      continue;
+	    }
+	  if (*cp == ')')
+	    {
+	      cp++;
+	      state = 14;
+					if (debug) printf("13->14\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected %s",
+	          cp - keydesc, keydesc, "SEG: ')' or ',TYPE:'");
+	  goto Key_Error;
+
+/* state 14
+ * 14:                   store pos, size, type, attr at [k][s], [k]nseg = ++s
+ *                       attr = type = 0
+ *    ',SEG:(' -> 8
+ *    ',TYPE:' -> 5
+ *    ',ATTR:' -> 6
+ *    ')'      -> 7
+ *     *       -> Error ',SEG:(', ',TYPE:', ',ATTR:' or ')' expected
+ */
+case 14:
+	  keys->key[k].seg[s].spos  = pos;
+	  keys->key[k].seg[s].slen  = size;
+	  keys->key[k].seg[s].stype = type;
+	  keys->key[k].seg[s].sattr = attr;
+	  keys->key[k].nseg = ++s;
+	  keys->key[k].len += size;
+
+	  if (s >= MAX_KEY_SEGS)
+	    {
+	      sprintf(buf, "Error @@%d in '%s': too many key segments (max=%d)",
+	              cp - keydesc, keydesc, MAX_KEY_SEGS);
+	      goto Key_Error;
+	    }
+
+	  attr = type = 0;		/* Re-initialize		*/
+
+	  ml = strlen(ms = ",SEG:(");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 8;
+					if (debug) printf("14->8\n");
+	      continue;
+	    }
+	  ml = strlen(ms = ",TYPE:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 5;
+					if (debug) printf("14->5\n");
+	      continue;
+	    }
+	  ml = strlen(ms = ",ATTR:");
+	  if (strncmp(cp, ms, ml) == 0)
+	    {
+	      cp   += ml;
+	      state = 6;
+					if (debug) printf("14->6\n");
+	      continue;
+	    }
+	  if (*cp == ')')
+	    {
+	      cp++;
+	      state = 7;
+					if (debug) printf("14->7\n");
+	      continue;
+	    }
+	  sprintf(buf, "Error @@%d in '%s': expected %s",
+	          cp - keydesc, keydesc,
+		  "',SEG:(', ',TYPE:', ',ATTR:' or ')'"
+		  );
+	  goto Key_Error;
+
+              } /* switch (state) */
+	    if (debug)
+              printf("bottom: exitinner=%d state=%d\n", exitinner, state);
+	    if (exitinner)
+	      break;
+          } /* while (1) */
+      } /* while (*cp == '(') */
+  } /* block */
+
+  return keys->nkey;
+
+Key_Error:
+  errno_set(0, DBL_IOS_KEY, buf);
+  return -1;				/* ERROR indicator		*/
+} /* parse_keys */
+
+/* --------------------------------------------------------------------	*/
+/* --------------------------------------------------------------------	*/
+#ifdef	QA_PARSE_KEYS
+
+/**
+ *	Main for qa_kp.
+ */
+int      *__lineno;			/* Satisfied in main		*/
+DB *
+dbopen(cp, i1, i2, dbt, vp)				/* Function	*/
+  const char *cp;
+  int       i1, i2;
+  DBTYPE    dbt;
+  const void *vp;
+{
+  drt_FATAL("Called dummy stub of dbopen(3) in cdbl_rt.c?");
+} /* dbopen */
+
+main(argc, argv)					/* qa_kp	*/
+  int       argc;
+  char    **argv;
+{
+  int       sts;
+  char     *cp;
+  DBLArg_t  arg;
+  DBLISAMH_t keys;
+
+  switch (argc)
+    {
+      default:
+        fprintf(stderr, "usage: %s [-debug] <open_spec>\n", argv[0]);
+	exit( 1 );
+      case 3:
+        debug = 1;
+	cp = argv[2];
+	break;
+      case 2:
+	cp = argv[1];
+    }
+  dbl_mkarg(&arg, "test", (void *)cp, strlen(cp), "A*", ARG_ISVAR);
+  arg.flags |= T_KEY;
+  printf("Calling parse on:\n  '%s'\n", cp);
+  sts = parse_keys(1, &arg, &keys);
+  printf("Returned status %d\n", sts);
+  errno_print(*argv);
+  print_keys(&keys);
+} /* main */
+#endif/*QA_PARSE_KEYS*/
+
+#ifdef	UTL_DUMP_INDEX
+/**
+ *	Main for cdbl_di.
+ */
+int      *__lineno;			/* Satisfied in main		*/
+main(argc, argv, arge)					/* cdbl_di	*/
+  int       argc;
+  char    **argv;
+  char    **arge;
+{
+  FileIndexed *iof;
+  DB       *db;
+  DBT       key, rec;
+  DBLArg_t  __arg[2];
+  int       chan = 10, i, sts;
+  IOS_t     ios;
+  char     *cp;
+
+  drt_INIT(argc, argv, arge);
+  switch (argc)
+    {
+      default:
+        fprintf(stderr, "usage: %s [-debug] <i-file>\n", argv[0]);
+	exit( 1 );
+      case 3:
+        debug = 1;
+	cp = argv[2];
+	break;
+      case 2:
+        cp = argv[1];
+    }
+  dbl_mkarg(&__arg[0], "cdbl_di", (void *)cp, strlen(cp), "A*", ARG_ISVAR);
+  __arg[0].flags |= T__RT_FILENAME;
+
+  cp = "I:I";
+  dbl_mkarg(&__arg[1], "cdbl_di", (void *)cp, strlen(cp), "A*", ARG_ISCONST);
+  __arg[1].flags |= T__RT_MODE;
+
+  ios = drt_open(chan, 2, __arg);
+  if (ios != DBL_IOS_OK)
+    {
+      printf("ios=%d\n", ios);
+      goto BailOut;
+    }
+  set_ofp(chan, DBL_FM_READ, DBL_FT_NONE);
+  iof = &ofp->descr.iof;
+  db  = iof->db;
+  print_keys(&iof->keys);
+  if ((sts = db->seq(db, &key, &rec, R_FIRST)) != 0)
+    printf("db->seq(..., R_FIRST) status = %d\n", sts);
+  do
+    {
+      int       ix = ((char *)key.data)[0];
+/** /printf("key.size=%ld .data=0x%lx rec.size=%ld .data=0x%lx\n",
+/** /        key.size, key.data, rec.size, rec.data);
+/***/
+      printf("%d: '%.*s'\n  ",
+             ((char *)key.data)[0],
+	     (int)key.size - 1, &((char *)key.data)[1]
+	    );
+      if (ix == MAX_ISAM_KEYS)		/* This is the key descriptor	*/
+        ix = 0;
+      if (ix)
+        printf("%d:(%ld)", ((char *)rec.data)[0], rec.size - 1);
+      printf("\"%.*s\"\n",
+             (int) (rec.size - (ix ? 1 : 0)), &((char *)rec.data)[ix ? 1 : 0]
+	    );
+    }
+  while ((sts = db->seq(db, &key, &rec, R_NEXT)) == 0);
+  printf("db->seq(..., R_FIRST) status = %d\n", sts);
+BailOut:
+  drt_close(chan);
+} /* main */
+#endif/*UTL_DUMP_INDEX*/
+
+/* --------------------------------------------------------------------	*/
+/* --------------------------------------------------------------------	*/
+
+static
+int
+parse_number(cpp)					/* Function	*/
+  char    **cpp;
+{
+  char     *cp = *cpp;
+  int       val;
+  val = atoi(cp);			/* Get value of number		*/
+  while (isdigit(*cp))			/* Skip over digits		*/
+    ++cp;
+  *cpp = cp;				/* Update source pointer	*/
+  return val;
+} /* parse_number */
+
+/**
+ *	Resolve the file name.  Rules include:
+ *	(1) Expand environment references (preceding ":") to upper case
+ *	    and lookup via getenv().  Note that the case of what is in
+ *	    the environment variable is *NOT* changed.
+ *	(2) Map to lower case stuff following the ":" in the name.
+ *	(3) If no suffix (indicated by lack of "." in name), add ".ddf"
+ *	(4) If multiple ":" pieces are used, then only the first is used.
+ *
+ * Examples:
+ *	Environment:
+ *	  DAT=/usr/local/Data
+ *	  LOG=/usr/local/Log
+ *
+ *	Requested		Resolved to
+ *	-----------------------	--------------------------------------
+ *	Filename.DAT		filename.dat
+ *	DATAFILE		datafile.ddf
+ *	LOG:MYLOG		/usr/local/Log/mylog.ddf
+ *	dat:INVENT.DAT		/usr/local/Data/invent.dat
+ */
+static
+char *
+resolved_file_name(name)				/* Function	*/
+  char     *name;
+{
+  static
+  char      file_name[BUFSIZ];
+  char      ch, *dp, *sp;
+  int       ln;
+
+  strcpy(file_name, "");		/* Clear "accumulator"		*/
+
+  if (sp = strchr(name, ':'))		/* Have an environment spec	*/
+    {
+      sprintf(file_name, "%.*s", name, sp - name);
+      for (sp = file_name;  *sp; ++sp)
+        if (islower(*sp))		/* Convert to upper case	*/
+	  *sp = toupper(*sp);
+      if ( ! (sp = getenv(file_name)))	/* No environment var, oops	*/
+        goto BailOut;
+      strcpy(file_name, sp);		/* Copy in replacement		*/
+    }
+  if ( ! (sp = strrchr(name, ':')) )	/* Don't have an environment	*/
+    sp = name;				/*   so start with beginning	*/
+
+  dp = file_name;			/* Setup filename destination	*/
+  if (ln = strlen(file_name))		/* Have an environment		*/
+    {
+      dp += ln - 1;			/* At last char in environment	*/
+      if (*dp != '/')			/* It's not a directory, yet	*/
+        *++dp = '/';			/*   so add a slash		*/
+    }
+
+  while (ch = *sp++)			/* Copy file name, to lower case*/
+    *dp++ = isupper(ch) ? tolower(ch) : ch;
+  *dp++ = ch;				/* Terminate string		*/
+
+					/* See if to add .ddf extension	*/
+  if ( ! (dp = strrchr(file_name, '/')) )
+    dp = file_name;
+  while (*dp)
+    {
+      if (*dp == '.')			/* Look for '.' in name		*/
+        break;
+      ++dp;
+    }
+  if (*dp != '.')			/* No '.' in name, add .ddf	*/
+    strcat(file_name, ".ddf");
+  goto Return;
+
+BailOut:
+  strcpy(file_name, "");		/* Clear temp usage from buf	*/
+Return:
+  return file_name;
+} /* resolved_file_name */
+
+/**
+ *	'name' is a static string so strdup() it.
+ */
+static
+void
+set_file_open(slot, name, channel, descr, fmode, ftype)	/* Function	*/
+  int       slot;
+  char     *name;
+  int       channel;
+  void     *descr;
+  int       fmode;
+  int       ftype;
+{
+  if ((slot < 0) || (slot >= MAX_OPEN_FILES))
+    {
+      char      buf[BUFSIZ];
+      sprintf(buf, "%s: set_file_open(slot=%d, ...) bogus slot\n",
+              src_loc(), slot);
+      errno_set(0, DBL_IOS_ERR, buf);
+      goto Return;
+    }
+  ofp = open_files + slot;
+  ofp->file_name = name ? strdup(name) : (char *)NULL;
+  ofp->channel   = channel;
+  ofp->file_mode = fmode;
+  switch (ofp->file_type = ftype)
+    {
+      case DBL_FT_NONE:
+        if (descr == (void *)NULL)	/* Init call, nothing there	*/
+	  break;
+      case DBL_FT_REGULAR:
+      case DBL_FT_RELATIVE:
+	ofp->descr.rof = *((FileRelative *)descr);
+	break;
+      case DBL_FT_INDEXED:
+        ofp->descr.iof = *((FileIndexed *)descr);
+	break;
+      case DBL_FT_STREAM:
+	if ( ! descr )
+	  {
+	    fprintf(stderr, "Warning: channel %d is not working\n", channel);
+	    ofp->file_mode = DBL_FM_NONE;
+	    ofp->file_type = DBL_FT_NONE;
+	    break;
+	  }
+        ofp->descr.file = (FILE *) descr;
+	break;
+    }
+  if ((fmode  & DBL_FM_NOBUF) &&
+      (ftype == DBL_FT_STREAM)
+     )
+    setbuf(ofp->descr.file, NULL);	/* No buffering			*/
+Return:
+  ;
+} /* set_file_open */
+
+/**
+ * Contract: errno_clr() is called to ensure that the error status is
+ *	     initially indicating no error so that any error that is
+ *	     posted is known to be "fresh".
+ */
+void
+set_ofp(channel, fmode, ftype)				/* Function	*/
+  int       channel;
+  int       fmode;
+  int       ftype;
+{
+  int       slot;
+  char      buf[BUFSIZ], *msg;
+
+  errno_clr();				/* Clear the error indicator	*/
+
+/** /printf("set_ofp(%d, fmode=%d:%s, ftype=%d:%s)\n",
+/** /       channel, fmode, file_mode(fmode), ftype, file_type(ftype));
+/***/
+  for (ofp = open_files + (slot = 0);  slot < MAX_OPEN_FILES;  ++slot, ++ofp)
+    if (ofp->channel == channel)	/* Found the channel		*/
+      {
+/** /printf("  found channel=%d at slot=%d\n", channel, slot);
+/***/
+	if (ftype && (ftype != ofp->file_type))
+	  {				/* Not correct type of file	*/
+	    sprintf(buf, "%s: Channel %d is %s file, requesting %s\n",
+	            src_loc(), channel,
+		    file_type(ofp->file_type), file_type(ftype));
+	    goto Bad_File_Operation;
+	  }
+	if (fmode && ((fmode & ofp->file_mode) == 0))
+	  {				/* Allowed operation on file?	*/
+	    sprintf(buf, "%s: Channel %d is %s mode, requesting %s\n",
+	            src_loc(), channel,
+		    file_mode(ofp->file_mode), file_mode(fmode));
+	    goto Bad_File_Operation;
+	  }
+        goto Return;
+      }
+
+  sprintf(buf, "%s: Channel %d is not an open channel", src_loc(), channel);
+Bad_File_Operation:
+  errno_set(0, DBL_IOS_ERR, buf);
+  ofp = 0;
+
+Return:
+  errno_print("set_ofp");
+  ;
+} /* set_ofp */
+
+static
+char *
+src_loc()						/* Function	*/
+{
+  static
+  char      buf[100];
+  int       sp = cdbl_cframe;
+
+  sprintf(buf, "%s.%d", cdbl_stack[sp].routine, cdbl_stack[sp].line);
+  return buf;
+} /* src_loc */
+
+/* --------------------------------------------------------------------	*/
+
+/**
+ *	Debugging Routines
+ */
+
+#ifdef	CDBL_RT_DEBUG
+
+void
+print_iof(iof)						/* Function	*/
+  FileIndexed *iof;
+{
+  printf("print_iof(iof=0x%08lx)\n", iof);
+  if (iof->db)				/* Not opened			*/
+    {
+      printf("iof->ckey=%d\n", iof->ckey);
+      print_keys(&iof->keys);
+      if (iof->keybuf)			/* Key buffer allocated, dump	*/
+        {
+          int       k;
+          printf("Key   buffer   Content\n");
+          printf("--- ---------- -----------------------------------------\n");
+          for (k = 0;  k < iof->keys.nkey;  ++k)
+            {
+              int       ln = iof->keylen[k];
+	      char     *kb = iof->key[k];
+	      printf("%3d 0x%08lx %d:'%.*s'\n", k, kb, *kb, ln - 1, kb + 1);
+            }
+        }
+    }
+} /* print_iof */
+
+void
+print_keys(keys)					/* Function	*/
+  DBLISAMH_t *keys;
+{
+  int       k, s;
+
+  printf("ISAM key descriptor\n");
+  printf("Index Len Type Attr #Seg  Pos Len Type Attr\n");
+  printf("----- --- ---- ---- ---- ---- --- ---- ----\n");
+  for (k = 0;  k < keys->nkey;  ++k)
+    {
+      printf("  %2d  %3d   %c   %2d    %d\n",
+                k, 
+	             keys->key[k].len,
+	                   keys->key[k].type,
+	                        keys->key[k].attr,
+				       keys->key[k].nseg);
+      for (s = 0;  s < keys->key[k].nseg;  ++s)
+        printf("%-22s%d   %3d %3d   %c%c  %2d\n",
+	        "",
+		     s,
+		          keys->key[k].seg[s].spos,
+		              keys->key[k].seg[s].slen,
+		                    keys->key[k].seg[s].stype
+				      ? keys->key[k].seg[s].stype
+				      : keys->key[k].type,
+		                       keys->key[k].seg[s].stype ? ' ' : '*',
+		                         keys->key[k].seg[s].sattr);
+    }
+  printf("done\n");
+} /* print_keys */
+
+#endif/*CDBL_RT_DEBUG*/
+
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:05:50 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:20 $
+d1730 10
+d1768 13
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:52:58 $
+d121 1
+a121 1
+    char      keylen[MAX_ISAM_KEYS + 1];/* Length of key[n]		*/
+d174 2
+d654 2
+a655 1
+/**/errno_print("drt_delete");
+d730 2
+a731 1
+/**/errno_print("drt_find");
+d783 2
+a784 1
+/**/errno_print("drt_forms");
+d847 2
+a848 1
+/**/errno_print("drt_get");
+d933 2
+a934 1
+/**/errno_print("drt_gets");
+d1158 2
+a1159 1
+/**/errno_print("drt_open");
+d1229 2
+a1230 1
+/**/errno_print("drt_put");
+d1298 2
+a1299 1
+/**/errno_print("drt_puts");
+d1310 1
+a1310 1
+  int       allowed_args[] = { T__RT_DATA, T__RT_RECID, 0 };
+d1318 1
+a1318 1
+  if (ios_ck_nargs("drt_read", DBL_IOS_ERR, nargs, args, 2, 2, allowed_args))
+d1356 9
+a1370 3
+	  sprintf(buf, "READ @@ %s: ISAM file not implemented yet", src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+d1375 2
+d1479 5
+d1494 2
+a1495 1
+/**/errno_print("drt_reads");
+d1551 1
+a1551 1
+/**/printf("drt_store: call isam_update\n");
+d1554 1
+a1554 1
+/**/printf("drt_store: isam_update returned\n");
+d1560 1
+a1560 1
+/**/errno_print("drt_store");
+d1617 1
+a1617 1
+/**/printf("drt_write: call isam_update\n");
+d1620 1
+a1620 1
+/**/printf("drt_write: isam_update returned\n");
+d1626 1
+a1626 1
+/**/errno_print("drt_write");
+d1719 2
+a1720 1
+/**/errno_print("drt_writes");
+d1981 2
+a1982 1
+/**/printf("db close on channel %d, at slot %d\n", chan, slot);
+d2190 2
+a2191 1
+/**/errno_print("do_rel_read");
+d2315 2
+a2316 1
+/**/errno_print("do_rel_write");
+d2335 15
+a2349 2
+      fprintf(stderr, "%s: IOS=%d:%s ",
+              caller, dbl_error.io_sts, dbl_error.dblmsg);
+d2678 2
+a2679 1
+	  sp = iof->keys.key[k].seg[s].spos + (char *)data->addr;
+d2705 1
+d2752 1
+a2752 1
+      ln = iof->keylen[k];
+d2754 1
+a2754 1
+/**/    printf("isam_keysv: ln=%d != dbt.size=%d\n", ln, dbt.size);
+d2758 4
+d2795 6
+d2812 1
+a2812 1
+  if (mkkeylen < iof->keylen[keyno])
+d2835 2
+d2843 2
+a2844 1
+        sp = iof->keys.key[keyno].seg[s].spos + (char *)data->addr;
+d2846 3
+d2861 4
+d2909 1
+d2924 3
+a2926 3
+/**/if (hadkeys)  { printf("parsed keys\n"); print_keys(&keys);}
+/**/if (isinited && (fi.size == sizeof(DBLISAMH_t)) )
+/**/		  { printf("infile keys\n"); print_keys((DBLISAMH_t*)fi.data);}
+d2929 2
+a2930 1
+/**/printf("isam_open: hadkeys=%d isinited=%d\n", hadkeys, isinited);
+d3065 1
+a3065 1
+	iof->keylen[k] =		/* Note: +1 is for key# in key	*/
+d3088 2
+a3089 1
+/**/print_keys(&keys);
+d3101 2
+a3102 1
+ *	  dir >  0 read forward order current index next record
+d3116 1
+d3122 14
+a3135 1
+    iof->ckey = 0;
+a3136 1
+  key = isam_mkkey(iof, data, iof->ckey);
+d3141 5
+a3145 1
+  if ((db->get(db, &key, &rec, 0) != 0) && (dir == 0))
+d3147 2
+a3148 2
+      sprintf(buf, "%s @@ %s: record not found (key=%d '%s')", caller,
+              src_loc(), *kp, kp + 1);
+d3152 74
+a3225 3
+  if ( dir &&				/* Want prev/next		*/
+      (db->seq(db, &key, &rec, (dir < 0) ? R_PREV : R_NEXT) != 0)
+     )
+d3227 5
+a3231 2
+      sprintf(buf, "%s @@ %s: %s of file", caller, src_loc(),
+              (dir < 0) ? "beginning" : "end");
+d3235 8
+a3242 1
+    
+d3254 10
+a3263 1
+  if (db->get(db, &key, &rec, 0) != 0)
+d3265 4
+d3289 3
+d3297 2
+d3303 32
+d3379 4
+d3398 6
+d4106 14
+a4119 3
+      printf("%d: '%s'\n   '%s'\n",
+             ((char *)key.data)[0], &((char *)key.data)[1],
+	     ((char *)rec.data)
+d4368 1
+a4368 1
+	      printf("%3d 0x%08lx %.*s\n", k, kb, ln, kb);
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:09 $
+d52 1
+d164 6
+d172 3
+a174 1
+void      isam_update	PROTOARGS((char *, int, DBLArg_t *));
+d190 2
+d610 1
+a610 1
+	  sprintf(buf, "GET @@ %s: Invalid file type %d for channel %d",
+d623 1
+a623 1
+	  do_rel_read("GET", channel, data, IO_BINARY);
+d629 1
+a629 1
+	  sprintf(buf, "GET @@ %s: not implemented on stream file yet",
+d637 9
+a645 1
+	  sprintf(buf, "GET @@ %s: invalid operation on ISAM file", src_loc());
+d671 1
+a671 1
+  if (ios_ck_nargs("drt_get", DBL_IOS_ERR, nargs, args, 2, 2, allowed_args))
+d675 2
+d678 2
+d685 1
+a685 1
+	  sprintf(buf, "GET @@ %s: Invalid file type %d for channel %d",
+d698 1
+a698 1
+	  do_rel_read("GET", channel, data, IO_BINARY);
+d704 1
+a704 1
+	  sprintf(buf, "GET @@ %s: not implemented on stream file yet",
+d712 9
+a720 1
+	  sprintf(buf, "GET @@ %s: invalid operation on ISAM file", src_loc());
+d727 1
+a727 1
+/**/errno_print("drt_get");
+d1344 8
+d1460 7
+a1466 4
+	  sprintf(buf, "READS @@ %s: ISAM dir=%d not implemented yet",
+	          src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+d1512 1
+a1512 1
+	  sprintf(buf, "STORE @@ %s: invalude operation on relative file",
+d1527 5
+a1531 1
+	  isam_update("STORE", channel, data);
+d1536 2
+d1593 5
+a1597 1
+	  isam_update("WRITE", channel, data);
+d1602 2
+d2486 1
+d2592 215
+d2982 1
+a2982 3
+        {				/*   Init memory as per file	*/
+	  keys = *((DBLISAMH_t *)fi.data);
+	}
+d2993 31
+d3031 6
+d3038 2
+a3039 1
+isam_read(caller, channel, data)			/* Function	*/
+d3043 1
+d3045 72
+d3119 2
+d3123 1
+a3123 1
+isam_update(caller, channel, data)			/* Function	*/
+d3127 1
+d3129 64
+d3784 3
+d3798 1
+a3798 1
+main(argc, argv)
+d3826 1
+a3826 1
+}
+d3828 65
+a3937 2
+  extern
+  char     *getenv PROTOARGS((char *));
+d4113 24
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:03 $
+d135 2
+d163 3
+a165 1
+int       open_isam	PROTOARGS((int, int, DBLArg_t*, char*, FileIndexed*));
+d173 1
+a173 1
+void      set_file_open	PROTOARGS((int, int, void *, int, int));
+d179 5
+a572 1
+#if 0
+d579 5
+d585 50
+a635 1
+#endif /* 0 */
+a636 1
+#if 0
+d643 55
+a697 1
+  drt_FATAL("drt_find: NOT IMPLEMENTED");
+a698 1
+#endif /* 0 */
+d709 2
+a710 1
+  int       ctrl =  dbl_num(&args[0]);
+d720 4
+d759 1
+a759 1
+  int       allowed_args[] = { 0 };
+d761 1
+a761 2
+  DBLArg_t *data  = &args[0];
+  DBLArg_t *recid = &args[1];
+d770 3
+d822 1
+a822 1
+  int       allowed_args[] = { 0 };
+d824 1
+a824 1
+  DBLArg_t *data = &args[0];
+d833 2
+d907 1
+a907 1
+  int       allowed_args[] = { 0 };
+d1052 1
+a1052 1
+	    if ( ! open_isam(channel, nargs, args, file_name, &iof) )
+d1055 7
+d1117 1
+a1117 1
+  set_file_open(slot, channel, descr,  fmode,  ftype);
+d1131 1
+a1131 1
+  int       allowed_args[] = { 0 };
+d1133 1
+a1133 2
+  DBLArg_t *data  = &args[0];
+  DBLArg_t *recid = &args[1];
+d1142 3
+d1201 1
+a1201 1
+  int       allowed_args[] = { 0 };
+d1203 1
+a1203 1
+  DBLArg_t *data = &args[0];
+d1212 2
+d1269 1
+a1269 1
+  int       allowed_args[] = { 0 };
+d1271 1
+a1271 2
+  DBLArg_t *data  = &args[0];
+  DBLArg_t *recid = &args[1];
+d1280 3
+d1330 1
+a1330 1
+  int       allowed_args[] = { T_DIRECTION, T_REVERSE, T_WAIT, 0 };
+d1334 1
+a1334 1
+  DBLArg_t *data = &args[0], *p;
+d1343 2
+d1439 52
+a1490 1
+  drt_FATAL("drt_store: NOT IMPLEMENTED");
+d1500 1
+a1500 1
+  int       allowed_args[] = { 0 };
+d1502 1
+a1502 2
+  DBLArg_t *data  = &args[0];
+  DBLArg_t *recid = &args[1];
+d1511 3
+a1522 7
+      case DBL_FT_REGULAR:
+        {
+	  sprintf(buf, "WRITE @@ %s: can't do relative I/O on sequential file",
+	          src_loc());
+	  errno_set(errno, DBL_IOS_ERR, buf);
+	}
+	break;
+d1527 2
+d1531 1
+d1545 1
+a1545 3
+	  sprintf(buf, "WRITE @@ %s: ISAM file not implemented yet", src_loc());
+	  errno_set(0, DBL_IOS_ERR, buf);
+	  goto BailOut;
+d1562 1
+a1562 1
+  int       allowed_args[] = { T_DIRECTION, T_REVERSE, T_WAIT, 0 };
+d1565 1
+a1565 1
+  DBLArg_t *data = &args[0], *p;
+d1574 2
+d1676 1
+d1687 2
+d1691 5
+a1695 4
+    set_file_open(i, DBL_CHANNEL_FREE, (void *)NULL, DBL_FM_NONE, DBL_FT_NONE);
+  set_file_open(0, 0, stdin,  DBL_FM_READ,  DBL_FT_STREAM);
+  set_file_open(1, 1, stdout, DBL_FM_WRITE, DBL_FT_STREAM);
+  set_file_open(2, 2, stderr, DBL_FM_WRITE|DBL_FM_NOBUF, DBL_FT_STREAM);
+d1880 3
+a1882 1
+    if ((chan < 0) || (chan == ofp->channel))
+d1896 10
+d1914 13
+d1990 1
+a1992 1
+      case 'I':
+d2508 2
+a2509 1
+            i2 = *k2++;
+d2511 2
+d2516 3
+d2530 4
+a2533 1
+  return strcmp(k1, k2);		/* Compare keys straight out	*/
+d2558 1
+a2558 1
+open_isam(channel, nargs, args, file_name, iof)		/* Function	*/
+d2573 4
+a2576 1
+    hadkeys = 1;			/*   indicate we loaded it	*/
+d2584 1
+a2584 1
+  keydesc.data = (char *)buf;		/* descriptor, if any		*/
+d2587 1
+a2587 1
+  if (db->get(db, &keydesc,  &fi, 0) == 0)
+d2590 7
+d2602 93
+a2694 1
+	  drt_FATAL("open_isam: Yes Yes");
+d2698 9
+a2706 1
+	  drt_FATAL("open_isam: No Yes");
+d2713 1
+a2713 1
+	  drt_FATAL("open_isam: Yes No");
+d2725 2
+a2726 12
+#if 0
+typedef					/* Type: FileIndexed		*/
+struct					/* Index-Oriented Files		*/
+  {					/* ----------------------------	*/
+    DB       *db;			/* dbopen(3)) handle		*/
+    DBLISAMH_t keys;			/* Key descriptor		*/
+    int       ckey;			/* Current active key in key[]	*/
+    char     *key[MAX_ISAM_KEYS + 1];	/* Pointers into keybuf per krf	*/
+    char      keylen[MAX_ISAM_KEYS + 1];/* Length of key[n]		*/
+    char     *keybuf;			/* Local key buffer		*/
+  }       FileIndexed;			/*				*/
+#endif
+d2730 18
+a2747 1
+} /* open_isam */
+d3346 1
+a3346 1
+	/* DUMMY STUB */
+a3348 32
+void
+print_keys(keys)					/* Function	*/
+  DBLISAMH_t *keys;
+{
+  int       k, s;
+
+  printf("ISAM key descriptor\n");
+  printf("Index Len Type Attr #Seg  Pos Len Type Attr\n");
+  printf("----- --- ---- ---- ---- ---- --- ---- ----\n");
+  for (k = 0;  k < keys->nkey;  ++k)
+    {
+      printf("  %2d  %3d   %c   %2d    %d\n",
+                k, 
+	             keys->key[k].len,
+	                   keys->key[k].type,
+	                        keys->key[k].attr,
+				       keys->key[k].nseg);
+      for (s = 0;  s < keys->key[k].nseg;  ++s)
+        printf("%-22s%d   %3d %3d   %c%c  %2d\n",
+	        "",
+		     s,
+		          keys->key[k].seg[s].spos,
+		              keys->key[k].seg[s].slen,
+		                    keys->key[k].seg[s].stype
+				      ? keys->key[k].seg[s].stype
+				      : keys->key[k].type,
+		                       keys->key[k].seg[s].stype ? ' ' : '*',
+		                         keys->key[k].seg[s].sattr);
+    }
+  printf("done\n");
+} /* print_keys */
+
+d3455 12
+d3476 1
+d3480 1
+a3480 1
+set_file_open(slot, channel, descr, fmode, ftype)	/* Function	*/
+d3482 1
+d3497 1
+d3503 2
+d3593 42
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:34 $
+d135 4
+d165 2
+d823 2
+a824 2
+  DBLArg_t  *mode = &args[0],
+            *file = &args[1];
+d833 1
+a833 1
+  if (ios_ck_nargs("drt_open", DBL_IOS_ERR, nargs, args, 2, 2, allowed_args))
+d836 15
+a1294 1
+#if 0
+a1302 1
+#endif /* 0 */
+d1712 80
+d2344 1
+a2344 1
+  int       hadkeys = 0, isinited = 0, have_error = 0;
+d2347 1
+a2347 1
+  if (parse_keys(nargs, args, &keys))	/* If there is a KEY: descriptor*/
+d2349 5
+d2386 1
+d2403 1
+d2408 18
+d2433 652
+a3084 2
+  drt_FATAL("parse_keys: not implemented");
+} /* parse_key */
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:32 $
+d19 30
+d50 1
+d64 61
+a124 1
+typedef					/* Type: ROFile			*/
+d128 1
+a128 1
+    Llong     recno;			/* Last referenced record #	*/
+d130 1
+a130 1
+  }       ROFile;			/*				*/
+d149 2
+d153 5
+a157 1
+int       ios_ck_nargs	PROTOARGS((char *, IOS_t, int, int, int));
+d159 4
+d203 1
+a203 1
+#define DBL_FT_DBOPEN    3		/*   dbopen(3)			*/
+d207 1
+a207 1
+        ROFile    rof;			/* DBL_FT_{REGULAR,RELATIVE}	*/
+d209 1
+a209 1
+/*!!	DB       *db;			/* DBL_FT_DBOPEN		*/
+d551 3
+a553 3
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+d561 3
+a563 3
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+d572 3
+a574 3
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+d586 2
+d596 1
+a596 1
+  if (ios_ck_nargs("drt_forms", DBL_IOS_ERR, nargs, 1, 1))
+d629 9
+a637 7
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+{
+  char       buf[BUFSIZ];
+  DBLArg_t  *data  = &args[0];
+  DBLArg_t  *recid = &args[1];
+d643 1
+a643 1
+  if (ios_ck_nargs("drt_get", DBL_IOS_ERR, nargs, 2, 2))
+d675 1
+a675 1
+      case DBL_FT_DBOPEN:
+d690 3
+a692 3
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+d694 4
+a697 2
+  char       buf[BUFSIZ];
+  DBLArg_t  *data = &args[0];
+d703 1
+a703 1
+  if (ios_ck_nargs("drt_gets", DBL_IOS_ERR, nargs, 1, 1))
+d757 1
+a757 1
+      case DBL_FT_DBOPEN:
+d773 3
+a775 3
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+d777 2
+d784 1
+a784 1
+#define OPEN_SM_I (DBL_FT_DBOPEN  )
+d790 3
+a792 3
+      char      *mode;			/* DIBOL file I/O mode		*/
+      int        fmode;			/* Internal I/O modes allowed	*/
+      int        ftype;			/* File type sub-modes		*/
+d822 1
+d827 1
+a827 1
+  if (ios_ck_nargs("drt_open", DBL_IOS_ERR, nargs, 2, 2))
+d864 26
+d892 1
+a892 1
+	case DBL_FT_DBOPEN:
+d894 18
+a911 4
+/*!!        DB        *db;*/
+	    sprintf(buf, "drt_open: internal error - DBOPEN not yet supported");
+            errno_set(0, DBL_IOS_ERR, buf);
+            goto BailOut;
+d919 4
+a922 15
+            int        fd, oflags, omode;
+
+	    oflags = 0;			/* Initially no flags		*/
+	    omode  = 0666;		/* Mode rw-rw-rw-		*/
+
+	    if (fmode & (DBL_FM_APPEND             ))
+	      oflags = O_WRONLY | O_CREAT | O_APPEND;
+	    if (fmode & (DBL_FM_READ               ))
+	      oflags = O_RDONLY;
+	    if (fmode & (              DBL_FM_WRITE))
+	      oflags = O_WRONLY | O_CREAT;
+	    if (fmode & (DBL_FM_READ | DBL_FM_WRITE))
+	      oflags = O_RDWR   | O_CREAT;
+
+	    if ((fd = open(file->addr, oflags, omode)) < 0)
+d926 1
+a926 1
+	                src_loc(), file->addr, oflags, omode);
+d932 4
+a935 1
+	    descr = (void *)fd;
+d953 1
+a953 1
+	    if ((stdfile = fopen(file->addr, iomode)) == (FILE *)NULL)
+d975 9
+a983 7
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+{
+  char       buf[BUFSIZ];
+  DBLArg_t  *data  = &args[0];
+  DBLArg_t  *recid = &args[1];
+d989 1
+a989 1
+  if (ios_ck_nargs("drt_put", DBL_IOS_ERR, nargs, 2, 2))
+d1028 1
+a1028 1
+      case DBL_FT_DBOPEN:
+d1043 3
+a1045 3
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+d1047 4
+a1050 2
+  char       buf[BUFSIZ];
+  DBLArg_t  *data = &args[0];
+d1056 1
+a1056 1
+  if (ios_ck_nargs("drt_puts", DBL_IOS_ERR, nargs, 1, 1))
+d1093 1
+a1093 1
+      case DBL_FT_DBOPEN:
+d1109 9
+a1117 7
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+{
+  char       buf[BUFSIZ];
+  DBLArg_t  *data  = &args[0];
+  DBLArg_t  *recid = &args[1];
+d1123 1
+a1123 1
+  if (ios_ck_nargs("drt_read", DBL_IOS_ERR, nargs, 2, 2))
+d1154 1
+a1154 1
+      case DBL_FT_DBOPEN:
+d1168 3
+a1170 3
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+d1172 6
+a1177 2
+  char       buf[BUFSIZ];
+  DBLArg_t  *data = &args[0];
+d1183 1
+a1183 1
+  if (ios_ck_nargs("drt_reads", DBL_IOS_ERR, nargs, 1, 1))
+d1186 16
+d1217 14
+a1230 1
+          ++ofp->descr.rof.recno;	/* Bump to next record		*/
+d1260 1
+a1260 1
+      case DBL_FT_DBOPEN:
+d1262 1
+a1262 1
+	  sprintf(buf, "READS @@ %s: invalid operation on ISAM file",
+d1277 3
+a1279 3
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+d1287 9
+a1295 7
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+{
+  char       buf[BUFSIZ];
+  DBLArg_t  *data  = &args[0];
+  DBLArg_t  *recid = &args[1];
+d1301 1
+a1301 1
+  if (ios_ck_nargs("drt_write", DBL_IOS_ERR, nargs, 2, 2))
+d1337 1
+a1337 1
+      case DBL_FT_DBOPEN:
+d1349 2
+d1353 3
+a1355 3
+  int        channel;
+  int        nargs;
+  DBLArg_t  *args;
+d1357 5
+a1361 2
+  char       buf[BUFSIZ];
+  DBLArg_t  *data = &args[0];
+d1367 1
+a1367 1
+  if (ios_ck_nargs("drt_writes", DBL_IOS_ERR, nargs, 1, 1))
+d1370 5
+d1396 12
+a1407 1
+          ++ofp->descr.rof.recno;	/* Bump to next record		*/
+d1416 6
+d1425 1
+a1425 1
+      case DBL_FT_DBOPEN:
+d1520 1
+a1520 1
+  Llong      i;
+d1581 1
+a1581 1
+  char      *loc;
+d1583 2
+a1584 2
+  char       msg[BUFSIZ];
+  int        sp = cdbl_cframe;
+d1596 1
+a1596 1
+  DBLArg_t  *arg;
+d1598 1
+a1598 1
+  Llong      i;
+d1666 1
+a1666 1
+  int        chan;
+d1668 1
+a1668 1
+  int        slot;
+d1683 1
+a1683 1
+	    case DBL_FT_DBOPEN:		/* dbopen(3)			*/
+d1698 8
+a1705 8
+  char      *caller;
+  int        channel;
+  DBLArg_t  *data;
+  IO_kind    kind;
+{
+  char       buf[BUFSIZ];
+  int        rsize, wsize;
+  Llong      pos, recno;
+d1805 8
+a1812 8
+  char      *caller;
+  int        channel;
+  DBLArg_t  *data;
+  IO_kind    kind;
+{
+  char       buf[BUFSIZ];
+  int        rsize, wsize;
+  Llong      pos, recno;
+d2067 1
+a2067 1
+      case DBL_FT_DBOPEN:   cp = "indexed";		break;
+d2077 24
+d2104 1
+a2104 1
+  int        slot;
+d2116 1
+a2116 1
+	case DBL_FT_DBOPEN:		/* dbopen(3)			*/
+d2123 17
+a2139 15
+ios_ck_nargs(rtn, ios, nargs, min, max)			/* Function	*/
+  char      *rtn;
+  IOS_t      ios;
+  int        nargs;
+  int        min;
+  int        max;
+{
+  char       buf[100];
+  int        is_error = 0;
+
+  if ((nargs < min) || (nargs > max))
+    {
+      if (min == max)
+        sprintf(buf, "%s @@ %s: called with %d parameters? (want %d)",
+	        rtn, src_loc(), nargs, min);
+d2146 27
+d2177 203
+d2384 5
+a2388 5
+  int        slot;
+  int        channel;
+  void      *descr;
+  int        fmode;
+  int        ftype;
+d2392 1
+a2392 1
+      char       buf[BUFSIZ];
+d2406 1
+a2406 3
+        ofp->descr.rof.fd    = (int)descr;
+	ofp->descr.rof.recno = 0L;	/* BOF				*/
+	ofp->descr.rof.size  = 0;	/* Not known yet		*/
+d2408 3
+d2437 3
+a2439 3
+  int        channel;
+  int        fmode;
+  int        ftype;
+d2441 2
+a2442 2
+  int        slot;
+  char       buf[BUFSIZ], *msg;
+d2486 2
+a2487 2
+  char       buf[100];
+  int        sp = cdbl_cframe;
+d2492 1
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:23 $
+d480 45
+a1277 1
+#if 0
+d1282 15
+a1296 1
+  drt_FATAL("drt_clear: NOT IMPLEMENTED");
+a1297 1
+#endif /* 0 */
+a1382 10
+
+#if 0
+void
+drt_forms(channel, code)				/* Function	*/
+  int       channel;
+  DBLArg_t *code;
+{
+  drt_FATAL("drt_forms: NOT IMPLEMENTED");
+} /* drt_forms */
+#endif /* 0 */
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:04 $
+d27 6
+d44 1
+a44 1
+void      do_rel_read	PROTOARGS((char *, int, DBLArg_t *));
+d46 1
+a46 1
+void      do_rel_write	PROTOARGS((char *, int, DBLArg_t *));
+a478 1
+#if 0
+d485 51
+a535 1
+  drt_FATAL("drt_get: NOT IMPLEMENTED");
+a536 1
+#endif /* 0 */
+a537 1
+#if 0
+d544 73
+a616 1
+  drt_FATAL("drt_gets: NOT IMPLEMENTED");
+a617 1
+#endif /* 0 */
+a785 1
+#if 0
+d792 58
+a849 1
+  drt_FATAL("drt_put: NOT IMPLEMENTED");
+a850 1
+#endif /* 0 */
+a851 1
+#if 0
+d858 56
+a913 1
+  drt_FATAL("drt_puts: NOT IMPLEMENTED");
+a914 1
+#endif /* 0 */
+d950 1
+a950 1
+	  do_rel_read("READ", channel, data);
+d1007 1
+a1007 1
+	  do_rel_read("READS", channel, data);
+d1098 1
+a1098 1
+	  do_rel_write("WRITE", channel, data);
+d1161 1
+a1161 1
+	  do_rel_write("WRITES", channel, data);
+d1440 1
+a1440 1
+do_rel_read(caller, channel, data)			/* Function	*/
+d1444 1
+d1450 3
+a1452 1
+/** /printf("do_rel_read(\"%s\", %d, -data-)\n", caller, channel);
+d1495 10
+a1504 1
+  pos = (rsize + strlen(END_OF_LINE)) * (ofp->descr.rof.recno - 1);
+d1522 1
+a1522 4
+  wsize =  read(ofp->descr.rof.fd, buf, strlen(END_OF_LINE));
+  if ((wsize != strlen(END_OF_LINE)) &&
+      (strcmp(buf, END_OF_LINE) != 0)
+     )
+d1524 6
+a1529 1
+      sprintf(buf,
+d1531 4
+a1534 3
+              caller, src_loc(), ofp->descr.rof.recno);
+      errno_set(errno, DBL_IOS_ERR, buf);
+      goto BailOut;
+d1547 1
+a1547 1
+do_rel_write(caller, channel, data)			/* Function	*/
+d1551 1
+d1557 3
+a1559 1
+/** /printf("do_rel_write(\"%s\", %d, -data-)\n", caller, channel);
+d1579 10
+a1588 1
+      rsize = ofp->descr.rof.size + strlen(END_OF_LINE);
+d1614 10
+a1623 1
+  rsize = ofp->descr.rof.size + strlen(END_OF_LINE);
+d1649 1
+a1649 2
+  wsize =  write(ofp->descr.rof.fd, END_OF_LINE, strlen(END_OF_LINE));
+  if (wsize != strlen(END_OF_LINE))
+d1651 8
+a1658 4
+      sprintf(buf, "%s @@ %s: error - couldn't write end-of-line",
+              caller, src_loc());
+      errno_set(errno, DBL_IOS_ERR, buf);
+      goto BailOut;
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:27 $
+d20 1
+d22 1
+d25 14
+d40 1
+a40 1
+void      close_io	PROTOARGS((void));
+d42 6
+d54 2
+d59 5
+d69 13
+a81 2
+struct
+  {
+d83 2
+d97 1
+d100 1
+a100 1
+        int       fd;			/* DBL_FT_REGULAR		*/
+d501 38
+d541 1
+a541 4
+  int        slot, fd;
+/*!!DB        *db;
+ */
+  FILE      *stdfile;
+d546 23
+d570 4
+a573 2
+    if (ofp->channel == -1)		/* Found empty slot		*/
+      break;
+d577 4
+a580 2
+      sprintf(buf, "too many open files, MAX_OPEN_FILES=%d\n", MAX_OPEN_FILES);
+      drt_FATAL(buf);
+d583 72
+d656 4
+a683 1
+#if 0
+d690 49
+a738 1
+  drt_FATAL("drt_read: NOT IMPLEMENTED");
+a739 1
+#endif /* 0 */
+a740 1
+#if 0
+d747 67
+a813 1
+  drt_FATAL("drt_reads: NOT IMPLEMENTED");
+a814 1
+#endif /* 0 */
+a826 1
+#if 0
+d833 54
+a886 1
+  drt_FATAL("drt_write: NOT IMPLEMENTED");
+a887 1
+#endif /* 0 */
+a888 1
+#if 0
+d895 56
+a950 3
+  drt_FATAL("drt_writes: NOT IMPLEMENTED");
+} /* drt_write */
+#endif /* 0 */
+d962 2
+a963 1
+  exit(1);
+d974 1
+d995 1
+a995 1
+    set_file_open(i, -1, (void *)NULL, DBL_FM_NONE, DBL_FT_NONE);
+a1009 1
+#if 0
+d1014 1
+a1014 1
+  drt_FATAL("drt_close: NOT IMPLEMENTED");
+a1015 1
+#endif /* 0 */
+d1049 1
+a1049 4
+    {
+      sprintf(buf, "DISPLAY channel=%d is not open", channel);
+      drt_FATAL(buf);
+    }
+d1076 1
+d1132 1
+a1132 1
+  close_io();
+d1143 1
+d1145 1
+a1145 1
+  close_io();
+d1147 1
+d1171 2
+d1176 2
+a1177 1
+close_io()						/* Function	*/
+d1181 1
+a1181 1
+    switch (ofp->file_type)
+d1183 17
+a1199 11
+	case DBL_FT_NONE:		/* Not opened			*/
+	  break;
+	case DBL_FT_REGULAR:		/* Regular file			*/
+	  close(ofp->descr.fd);
+	  break;
+	case DBL_FT_STREAM:		/* fprintf-able FILE *		*/
+	  if (slot > 2)			/*   leave std{in,out,err} open	*/
+	    fclose(ofp->descr.file);
+	  break;
+	case DBL_FT_DBOPEN:		/* dbopen(3)			*/
+	  break;
+d1204 232
+d1482 3
+d1539 5
+a1543 9
+      case DBL_FT_NONE:
+        cp = "'no file-type'";
+	break;
+      case DBL_FT_REGULAR:
+        cp = "'regular file'";
+	break;
+      case DBL_FT_STREAM:
+        cp = "'stdio stream'";
+	break;
+d1545 1
+d1559 1
+d1569 26
+d1609 4
+a1612 2
+      sprintf(buf, "set_file_open(slot=%d, ...) bogus slot\n", slot);
+      drt_FATAL(buf);
+d1619 1
+d1621 4
+a1624 1
+        ofp->descr.fd   = *((int *) descr);
+d1641 2
+d1645 5
+d1659 5
+d1667 7
+a1673 4
+	if (ftype != ofp->file_type)	/* Not correct type of file	*/
+	  {
+	    sprintf(buf, "Channel %d file_type is %s, request for %s\n",
+	            channel, file_type(ofp->file_type), file_type(ftype));
+d1676 5
+a1680 5
+					/* Allowed operation on file?	*/
+	if ((fmode & ofp->file_mode) == 0)
+	  {
+	    sprintf(buf, "Channel %d file_mode is %s, request for %s\n",
+	            channel, file_mode(ofp->file_mode), file_mode(fmode));
+d1686 1
+a1686 1
+  sprintf(buf, "Channel %d is not an open channel", channel);
+d1688 1
+a1688 1
+  drt_FATAL(buf);
+d1692 1
+d1695 12
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:10 $
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:46:59 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:45:57 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:43:59 $
+d312 20
+d381 8
+a398 1
+#if 0
+a406 1
+#endif /* 0 */
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:41 $
+a928 1
+      case DBL_FT_NONE:
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:38:57 $
+d129 3
+a131 2
+DBLArg_t
+dbl_mkarg(caller, addr, size, type, flags)		/* Function	*/
+d138 5
+a142 7
+  DBLArg_t  arg;
+  arg.caller  = caller;
+  arg.addr    = addr;			/* Making an arg is real easy	*/
+  arg.size    = size;
+  arg.type    = type;
+  arg.flags   = flags;
+  return arg;				/* See! All done.		*/
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:04 $
+d374 1
+a374 1
+drt_accept(channel, field /*, label, wait*/)			/* Function	*/
+d376 2
+a377 5
+  DBLArg_t  *field;
+  /*
+  DBLArg_t  *label;
+  DBLArg_t  *wait;
+   */
+d385 1
+a385 1
+drt_delete(channel, key)				/* Function	*/
+d387 2
+a388 1
+  DBLArg_t  *key;
+d390 1
+a390 1
+  drt_FATAL("drt_accept: NOT IMPLEMENTED");
+d396 4
+a399 1
+drt_find	PROTOARGS((/*???*/));
+d401 1
+a401 1
+  drt_FATAL("drt_accept: NOT IMPLEMENTED");
+d407 1
+a407 1
+drt_get(channel, data, recno)				/* Function	*/
+d409 2
+a410 2
+  DBLArg_t  *data;
+  DBLArg_t  *recno;
+d418 1
+a418 1
+drt_gets(channel, data)					/* Function	*/
+d420 2
+a421 1
+  DBLArg_t  *data;
+d428 1
+a428 1
+drt_open(channel, mode, file)				/* Function	*/
+d430 2
+a431 2
+  DBLArg_t  *mode;
+  DBLArg_t  *file;
+d433 2
+d458 1
+a458 1
+drt_put(channel, data, recno)				/* Function	*/
+d460 2
+a461 2
+  DBLArg_t  *data;
+  DBLArg_t  *recno;
+d469 1
+a469 1
+drt_puts(channel, data)					/* Function	*/
+d471 2
+a472 1
+  DBLArg_t  *data;
+d480 4
+a483 1
+drt_read()						/* Function	*/
+d491 4
+a494 1
+drt_reads()						/* Function	*/
+d502 1
+a502 1
+drt_store(channel, data, key)				/* Function	*/
+d504 2
+a505 2
+  DBLArg_t  *data;
+  DBLArg_t  *key;
+d513 1
+a513 1
+drt_write(channel, data)				/* Function	*/
+d515 2
+a516 1
+  DBLArg_t  *data;
+d524 1
+a524 1
+drt_writes(channel, data)				/* Function	*/
+d526 2
+a527 1
+  DBLArg_t  *data;
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:46 $
+d64 15
+d82 6
+a87 5
+int
+dbl_int(data, size, type)				/* Function	*/
+  char     *data;
+  int       size;
+  char     *type;
+d89 3
+a91 2
+  int       num = 0, i = size;
+  char     *cp  = data;
+d93 18
+a110 6
+  while (i-- && isdigit(*cp))
+    num = num * 10 + *cp++ - '0';
+  if ((i == 0) && ((*cp >= 'p') || (*cp < 'y')))
+    num = -(num * 10 + (*cp - 'p'));
+  return num;
+} /* dbl_int */
+a313 7
+dbl_strremove(s, remove)				/* Function	*/
+  char     *s;
+  char     *remove;
+{
+} /* dbl_strremove */
+
+void
+d372 1
+d382 1
+d384 1
+d386 1
+d392 1
+d394 20
+d415 1
+a415 3
+IOS_t     drt_find	PROTOARGS((/*???*/));
+IOS_t     drt_get	PROTOARGS((/*???*/));
+IOS_t     drt_gets	PROTOARGS((/*???*/));
+d417 9
+d452 67
+a518 7
+IOS_t	  drt_put();
+IOS_t	  drt_puts();
+IOS_t     drt_read	PROTOARGS((/*???*/));
+IOS_t     drt_reads	PROTOARGS((/*???*/));
+IOS_t     drt_store	PROTOARGS((int, DBLArg_t *, DBLArg_t *));
+IOS_t     drt_write	PROTOARGS((int, DBLArg_t *));
+IOS_t     drt_writes	PROTOARGS((int, DBLArg_t *));
+d537 12
+a548 3
+  extern
+  char   *__lineno;			/* Supplied by program		*/
+  fprintf(stderr, "CDBL FATAL ERROR: AT LINE %s\n%s\n", __lineno, message);
+d567 1
+d572 1
+d574 1
+d576 1
+d581 1
+d583 1
+d595 1
+d599 1
+d601 1
+d654 9
+d665 10
+d696 1
+d703 1
+d705 1
+d710 3
+a712 3
+  extern
+  char   *__lineno;			/* Supplied by program		*/
+/**/printf("Successful termination at line %s\n", __lineno);
+d718 1
+d723 1
+d725 1
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:24 $
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:48 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:16 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:46 $
+d24 2
+d30 3
+a32 1
+void      set_file_open	PROTOARGS((int, void *, int, int));
+d54 1
+d59 1
+d343 66
+d438 4
+a441 4
+    set_file_open(i, (void *)NULL, DBL_FM_NONE, DBL_FT_NONE);
+  set_file_open(0, stdin,  DBL_FM_READ,  DBL_FT_STREAM);
+  set_file_open(1, stdout, DBL_FM_WRITE, DBL_FT_STREAM);
+  set_file_open(2, stderr, DBL_FM_WRITE|DBL_FM_NOBUF, DBL_FT_STREAM);
+a465 7
+IOS_t
+drt_delete(channel, key)				/* Function	*/
+  int        channel;
+  DBLArg_t  *key;
+{
+} /* drt_delete */
+
+d484 5
+d549 2
+d559 2
+d583 22
+d718 20
+d742 2
+a743 1
+set_file_open(channel, descr, fmode, ftype)		/* Function	*/
+d749 7
+a755 1
+  ofp = open_files + channel;
+d787 1
+a787 1
+  int        i;
+d790 1
+a790 1
+  for (ofp = open_files + (i = 0);  i < MAX_OPEN_FILES;  ++i, ++ofp)
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:38 $
+d116 1
+a116 1
+  int       i   = arg->size;
+d119 19
+a137 2
+  while (i-- && isdigit(*cp))
+    num = num * 10 + *cp++ - '0';
+d153 7
+a159 1
+  prec = 0;
+d161 7
+a167 4
+    {
+      prec = atoi(pp + 1);		/* # of digits to right of '.'	*/
+      digits = dprec - prec;		/* # of digits to shift		*/
+    }
+d176 4
+a179 3
+  sign = data < 0 ? -1 : 0;
+  if (sign)				/* Capture sign of number	*/
+    data = -data;
+d186 6
+d193 3
+a195 1
+        sprintf(buf, "%s%ld%09ld", sign ? "-" : "", top, bottom);
+d197 1
+a197 1
+        sprintf(buf, "%s%ld",      sign ? "-" : "",      bottom);
+d200 14
+a213 8
+      if (prec)				/* Insert '.' into output	*/
+        {
+           pp = &buf[size];
+           digits = prec;
+	   while (digits--)		/* Copy end down one		*/
+	     *(pp + 1) = *pp;
+	   *pp = '.';			/* Insert '.'			*/
+	}
+d227 6
+a232 1
+  strncpy(arg->addr, buf, size);
+d259 3
+d263 2
+d364 1
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:43 $
+d20 1
+d127 1
+a127 1
+dbl_putn(arg, data)					/* Function	*/
+d130 1
+d132 2
+a133 2
+  char      buf[BUFSIZ];
+  int       sign, size = arg->size;
+d136 14
+d164 9
+d190 1
+a190 1
+dbl_puts(arg, dtoa, align, data)			/* Function	*/
+a191 1
+  int       dtoa;
+d218 1
+a218 1
+dbl_putsf(arg, dtoa, align, data, format)		/* Function	*/
+a219 1
+  int       dtoa;
+d224 1
+a224 1
+  dbl_puts(arg, dtoa, align, data);			/** FOR NOW **/
+d339 1
+a339 1
+  dbl_putn(arg, i);
+d409 1
+a409 1
+  dbl_putn(arg, i);
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:20 $
+d165 1
+a165 1
+dbl_puts(arg, align, data)				/* Function	*/
+d167 1
+d171 1
+a171 1
+  int       size = arg->size;
+d175 4
+d189 1
+a189 1
+  sprintf(buf, fmt, size, size, data);
+d194 1
+a194 1
+dbl_putsf(arg, align, data, format)			/* Function	*/
+d196 1
+d201 1
+a201 1
+  dbl_puts(arg, align, data);				/** FOR NOW **/
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:02 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:21 $
+d387 1
+a387 1
+  char     *bp = arg->addr;
+d389 3
+a391 3
+  do
+    *bp++ = isupper(*bp) ? tolower(*bp) : *bp;
+  while (--ln);
+d419 1
+a419 1
+  char     *bp = arg->addr;
+d421 3
+a423 3
+  do
+    *bp++ = islower(*bp) ? toupper(*bp) : *bp;
+  while (--ln);
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:40:41 $
+d111 2
+a112 4
+dbl_num(data, size, type)				/* Function	*/
+  void     *data;
+  int       size;
+  char     *type;
+d115 2
+a116 2
+  int       i = size;
+  char     *cp  = (char *)data;
+d126 2
+a127 4
+dbl_putn(target, size, type, data)			/* Function	*/
+  char     *target;
+  int       size;
+  char     *type;
+d131 1
+a131 1
+  int       sign;
+d161 1
+a161 1
+  strncpy(target, buf, size);
+d165 2
+a166 4
+dbl_puts(target, size, type, align, data)		/* Function	*/
+  void     *target;
+  int       size;
+  char     *type;
+d170 2
+a172 1
+  char     *fmt;
+d177 2
+a178 1
+    fmt = "-*.*s";
+d180 1
+a180 2
+Default_Alignment:
+    fmt = "*.*s";
+d185 1
+a185 1
+  strncpy(target, buf, size);
+d189 2
+a190 4
+dbl_putsf(target, size, type, align, data, format)	/* Function	*/
+  void     *target;
+  int       size;
+  char     *type;
+d195 1
+a195 1
+  dbl_puts(target, size, type, align, data);	/** FOR NOW **/
+d292 2
+a293 4
+drt_clear(ref, size, type)				/* Function	*/
+  char      *ref;
+  int        size;
+  char      *type;
+d304 2
+a305 4
+drt_decr(ref, size, type)				/* Function	*/
+  char      *ref;
+  int        size;
+  char      *type;
+d308 1
+a308 1
+  i = dbl_num(ref, size, type);
+d310 1
+a310 1
+  dbl_putn(ref, size, type, i);
+d355 1
+a355 1
+              int       ch = dbl_num(arg->addr, arg->size, arg->type) & 0xFF;
+a366 1
+void      drt_errortrap	PROTOARGS((char *));
+d374 2
+a375 4
+drt_incr(ref, size, type)				/* Function	*/
+  char      *ref;
+  int        size;
+  char      *type;
+d378 1
+a378 1
+  i = dbl_num(ref, size, type);
+d380 1
+a380 1
+  dbl_putn(ref, size, type, i);
+d384 2
+a385 4
+drt_locase(ref, size, type)				/* Function	*/
+  char      *ref;
+  int        size;
+  char      *type;
+d387 5
+d395 2
+a396 4
+drt_stop(data, size, type)				/* Function	*/
+  char     *data;
+  int       size;
+  char     *type;
+d416 2
+a417 4
+drt_upcase(ref, size, type)				/* Function	*/
+  char      *ref;
+  int        size;
+  char      *type;
+d419 5
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:30 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:43 $
+d20 1
+d23 9
+d34 23
+d78 2
+a79 2
+ *	All arguments used in XCALLs are passed using the DBLArg structure.
+ *	On the call, the DBLArg structure is created (dbl_mkarg), and passed
+d93 1
+a93 1
+DBLArg
+d101 1
+a101 1
+  DBLArg    arg;
+d110 1
+a110 1
+long long
+d116 1
+a116 1
+  long long num = 0;
+d132 1
+a132 1
+  long long data;
+d202 1
+a202 1
+  dbl_puts(target, size, type, data);		/** FOR NOW **/
+d218 1
+a218 1
+  char      type;
+d220 1
+a220 1
+  DBLArg   *arg = *(DBLArg **)addr;
+d256 1
+a256 1
+      drt_error(errmsg);		/* Fatal error			*/
+d278 3
+a280 1
+  fprintf(stderr, "CDBL FATAL ERROR: %s\n", message);
+d285 14
+d318 4
+d324 1
+a324 1
+IOS
+d327 1
+a327 1
+  DBLArg    *key;
+d337 1
+a337 1
+drt_display(channel, data, size, type)			/* Function	*/
+d339 1
+a339 3
+  char     *data;
+  int       size;
+  char     *type;
+d341 35
+d386 1
+a386 1
+drt_indr(ref, size, type)				/* Function	*/
+d391 5
+a395 1
+} /* drt_indr */
+d416 4
+d435 188
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:34 $
+d65 1
+a65 1
+  char      type;
+d217 1
+a217 1
+  if (type != arg->type)		/* Formal/actual type mismatch	*/
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:01 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:27 $
+d136 1
+a136 1
+dbl_puts(target, size, type, data)			/* Function	*/
+d140 1
+d144 13
+a156 1
+  sprintf(buf, "%-*.*s", size, size, data);
+d160 2
+a161 2
+int
+dbl_putsf(target, size, type, data, format)		/* Function	*/
+d166 1
+d169 1
+a169 1
+  dbl_puts(target, size, type, data);
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:42 $
+d256 7
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:19 $
+d62 5
+d79 1
+a79 1
+  char     *data;
+d85 1
+a85 1
+  char     *cp  = data;
+d137 1
+a137 1
+  char     *target;
+d149 1
+a149 1
+  char     *target;
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:10 $
+d61 1
+a61 1
+dbl_mkarg(caller, addr, size, type, isconst)		/* Function	*/
+d68 1
+a68 1
+  arg.isconst = isconst;
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v 1.36 1995/05/02 10:43:18 ldl Exp ldl $
+d21 3
+d43 29
+d160 48
+d316 1
+a316 1
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v $ */
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v 1.35 1995/04/25 11:48:27 ldl Exp ldl $
+d19 1
+d30 8
+d40 59
+a98 1
+int
+d105 3
+d118 1
+d121 4
+a124 5
+long long
+dbl_num(data, size, type)				/* Function	*/
+  char     *data;
+  int       size;
+  char     *type;
+d126 4
+a129 1
+} /* dbl_num */
+d151 27
+d186 23
+d222 5
+d228 7
+a234 1
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v $ */
+d236 1
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v 1.34 1995/04/24 12:23:13 ldl Exp ldl $
+d39 10
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v 1.33 1995/04/23 12:55:12 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v 1.32 1995/04/22 12:42:50 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v 1.31 1995/04/19 11:29:08 ldl Exp ldl $
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.c,v 1.30 1995/04/18 12:00:35 ldl Exp ldl $
+d19 4
+d31 36
+d68 1
+a68 1
+dbl_display(channel, data, size, type)			/* Function	*/
+d74 1
+a74 1
+} /* dbl_display */
+d77 1
+a77 1
+dbl_stop(data, size, type)				/* Function	*/
+d82 1
+a82 1
+} /* dbl_stop */
+d85 1
+a85 1
+dbl_terminate()						/* Function	*/
+d87 1
+a87 1
+} /* dbl_terminate */
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d50 1
+a50 1
+/* End of $Source$ */
+@

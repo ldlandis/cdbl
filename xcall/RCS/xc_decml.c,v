@@ -1,0 +1,78 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.44;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.41;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_decml.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:41 $
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "../cdbl_rt.h"
+#include "xc__ckarg.h"
+
+static
+XC_ADscr  adscr[] =
+            { /* min  max  type     flags     ercode     */
+	      {    0,   0, NULL, 0,             NULL   },
+	      {    0,   0, "D" , ARG_ISVAR  ,   NULL   }
+	    };
+static
+int       nadscr = sizeof(adscr) / sizeof(adscr[0]);
+
+void
+XCALL_FUNC(DECML)(narg, arg)				/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+{
+  char     *rtn = "DECML";
+  Llong     n;
+
+  xc__ckarg(rtn, narg, arg, nadscr, adscr);
+
+  n = ((char *)arg[0].addr)[0];
+  dbl_putn(&arg[1], n, 0);
+
+} /* DECML XCALL */ 
+
+/* End of $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_decml.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Source$
+ * $Revision$ $Date$
+d35 1
+a35 1
+/* End of $Source$ */
+@

@@ -1,0 +1,66 @@
+record
+entry,  a5
+numberposted, d2
+outrow, d2
+ctr,    d10
+error,  5a1, "one", "two", "three", "four", "five"
+valid,  d1
+whatno, d1
+inxctl, d1
+row,    d2
+
+PROC
+	using (whatno) select
+		(1),	while (.not.Valid .and. .not.Inxctl) call get_dates
+		(2),	while (.not.Valid .and. .not.Inxctl) call get_comp
+		(3),	while (.not.Valid .and. .not.Inxctl) call get_alt
+		(),	Valid = 1
+	endusing
+	using (Inxctl) select
+		(1),	return				;^W
+		(2),	begin
+			valid = 2			;end
+			return
+			end
+		(),	nop
+	endusing
+	using (Whatno) select
+		(1,5),	Row = 10
+		(2,6),  Row = 12
+		(3,7),	Row = 14
+		(4,8),	Row = 16
+	endusing
+	using (Inxctl) select
+		(1),	begin			;^W
+			call reset
+			return
+			end
+		(2),	begin
+			valid = 2		;end
+			return
+			end
+		(),	nop			;OK
+	endusing
+	using (Error(Ctr)) select
+	   (0),	xcall outpt(OutRow,16,1,'Successfully consolidated',1)
+  	   (1),	xcall outpt(OutRow,16,1,'YTDGLT file unavailable',1)
+	   (2),	begin
+		   Entry(1,5) = NumberPosted,'ZZZZX'
+		   xcall outpt(OutRow,16,1,'Insufficient space in GLWORK.',1)
+		   xcall outpt(0,0,0,'  Records needed: ',1)
+		   xcall outpt(0,0,0,Entry(1,5),1)
+		   end
+	   (3),	xcall outpt(OutRow,16,1,'Selected records out of balance',1) 
+	   (4),	begin
+		   xcall outpt(OutRow,16,1,'Consolidation complete, but some',1)
+		   xcall outpt(0,0,0,' account #''s were not on file',1)
+		end
+	   (5), xcall outpt(OutRow,16,1,'No transactions to consolidate',1)
+	   (6), xcall outpt(OutRow,16,1,'GLAIDX file unavailable',1)
+	   (7), xcall outpt(OutRow,16,1,'GLAMAS file unavailable',1)
+	endusing
+get_dates,
+get_comp,
+get_alt,
+reset,
+	return

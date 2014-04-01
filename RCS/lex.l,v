@@ -1,0 +1,3635 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.59;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.57;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.06.00;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.27;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.03;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.14;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.14;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.38;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.36;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.29;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.11;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.33;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.16;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.03;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.46.00;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.02;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.45;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.39.01;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.07;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.50;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.28;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.52;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.19;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.49;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.41;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.47;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.23;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.05;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.26;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.41.00;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.33;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.46;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.36;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.04;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.30;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.44;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.21;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.14;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.21;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.29;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.16;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.15;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.52;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.10;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.41;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.56;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.12;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.28;	author ldl;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	95.03.26.19.58.14;	author ldl;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	95.03.23.13.31.34;	author ldl;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	95.03.19.23.29.19;	author ldl;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	95.03.08.13.33.28;	author ldl;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	95.03.06.12.00.17;	author ldl;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	95.03.06.10.31.58;	author ldl;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	95.03.05.03.24.37;	author ldl;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	95.03.03.12.36.19;	author ldl;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	95.02.27.12.55.28;	author ldl;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	95.02.26.10.54.28;	author ldl;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	95.01.07.15.34.53;	author ldl;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	95.01.07.11.22.36;	author ldl;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	94.12.31.02.31.31;	author ldl;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	94.12.30.21.01.50;	author ldl;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	94.12.27.04.07.25;	author ldl;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	94.12.26.23.53.00;	author ldl;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	94.12.16.07.22.19;	author ldl;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	94.12.15.23.42.29;	author ldl;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	94.12.04.07.22.25;	author ldl;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	94.12.02.07.12.51;	author ldl;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	94.12.01.07.06.01;	author ldl;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	94.11.28.05.26.51;	author ldl;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	94.11.26.08.23.53;	author ldl;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	94.11.22.14.26.54;	author ldl;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	94.11.19.06.22.09;	author ldl;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	94.11.16.13.07.10;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@%array
+%{
+/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/lex.l,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:57 $
+ */
+
+/***
+ *	This is the lexical analyzer for DIBOL.
+ */
+
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+#include "parse.h"
+#include "gram.h"
+#include "_tokens.h"
+#include "cdbl_rt.h"
+
+
+/***
+ *	Exported functions (called by the parser).
+ *
+ *	void
+ *	s_do_include()			// Start including from stashed
+ *
+ *	char *				// Created node for string
+ *	s_filter(str)			// Filter string returning node
+ *	  char     *str;		// String to filter (e.g. yytext)
+ *					// Note: Only routine allowed to
+ *					//       allocate strings!
+ *
+ *	int				// Index of kw in table (0 = not)
+ *	s_kw_lookup(kw, table)		// Lookup keyword in table
+ *	  char     *kw;			// Candidate keyword
+ *	  char     *table[];		// Table to search
+ *
+ *	void
+ *	s_next_include(file)		// Stash named file for include
+ *	  Token     file;		// T_STRING of file name
+ *
+ *	void
+ *	s_skip_to_eol(tok)		// Begin skip to end-of-line
+ *	  Token     tok;		// Token initiating the skip
+ *
+ *	void
+ *	s_tolower(str)			// Convert string to lowercase
+ *	  char     *str;		// String to convert
+ *
+ *	void
+ *	s_toupper(str)			// Convert string to uppercase
+ *	  char     *str;		// String to convert
+ */
+
+/***
+ *	Local functions (used by lexical analyzer only).
+ *
+ *	char *				// Created node for builtin
+ *	s_builtin(str)			// Lookup builtin function
+ *	  char     *str;		// Candidate function
+ *
+ *	char *				// Expanded name (newly allocated)
+ *	s_expand_logicals(name)		// Expand logicals in filename
+ *	  char     *name;		// Original (freed on completion)
+ *					// CAVEAT: input "name" may be freed
+ *
+ *	char *				// Created node for kw/dir/id
+ *	s_kw_dir_id(str, &t_type)	// Lookup keyword/directive/id
+ *        char     *str;		// Candidate keyword/directive/id
+ *	  int      *t_type;		// Token classification
+ *
+ *	int				// 0=done, 1=popped last, no more
+ *	s_push_pop_file(f)		// Push or pop a file descriptor
+ *	  FILE    *f;			// File to push (or NULL for pop)
+ */
+static
+char     *s_builtin	PROTOARGS((char *));
+static
+char     *s_expand_logicals PROTOARGS((char *));
+static
+int       s_is_rw_tok	PROTOARGS((char *));
+static
+int       s_push_pop_file PROTOARGS((FILE *));
+
+/***
+ *	Local "globals"
+ */
+
+static
+char    **bi_tab = (char **)NULL,	/* Built-in Table		*/
+        **xc_tab = (char **)NULL;	/* XCALL table			*/
+static
+char    **cd_tab = &tokenseq[T__COMPILER_DIRECTIVES - T__NIL],
+	**rw_tab = &tokenseq[T__RESERVED_WORDS      - T__NIL],
+        **op_tab = &tokenseq[T__OPERATORS           - T__NIL];
+
+/**
+ *	The if stack, et al.  Note: if_active = 0 means that there is
+ *	no active if AND if_stack[0] is always non-zero (i.e. 'active').
+ */
+#define IF_STACK_MAX	20
+struct					/* .IF/.IFDEF/.IFNDEF Stack	*/
+  {					/* ----------------------------	*/
+    int       kind;			/* Token id (.IF/.IFDEF/.IFNDEF)*/
+    int       cond;			/* Condition value 0 or !0	*/
+    int       elses;			/* Have seen .ELSE		*/
+    int       iftf;			/* Current iftf setting		*/
+    char     *file;			/* File where started		*/
+    int       line;			/* Line in file where started	*/
+    int       cd_line;			/* .LINE line number		*/
+  }       if_stack[IF_STACK_MAX] =	/*				*/
+  {					/* ----------------------------	*/
+    { 0, 1, -1, IFTF_NONE, "", 0, -1}	/* Entry [0] - default behavior	*/
+  };					/* ----------------------------	*/
+static
+int       if_active = 0;
+#define SETCONDITION(title, cond)\
+			{\
+/**/if (_parse.yydebug) { int i;\
+/**/  printf("%s if_active=%d\n", title, if_active);\
+/**/  printf(" # kind    cond iftf elses file:line\n");\
+/**/  printf("-- ------- ---- ---- ----- -----------------\n");\
+/**/  for (i = if_active;  i > 0;  --i)\
+/**/    printf("%2d %7s %4d %4d %5d %s:%d\n", i, to_token(if_stack[i].kind),\
+/**/           if_stack[i].cond, if_stack[i].iftf, if_stack[i].elses,\
+/**/           if_stack[i].file, if_stack[i].line);\
+/**/  printf("%2d %7s %4d %4d %5d\n", i, "ALWAYS",\
+/**/           if_stack[i].cond, if_stack[i].iftf, if_stack[i].elses);\
+/**/}\
+/***/\
+			  cond = if_stack[if_active].cond;\
+			  if (if_active)\
+			    switch (if_stack[if_active].iftf)\
+			      {\
+				case IFTF_NONE:			    break;\
+			        case IFTF_FALSE:  cond = cond == 0; break;\
+			        case IFTF_TRUE:   cond = cond != 0; break;\
+			        case IFTF_ALWAYS: cond = 1;         break;\
+				default: c_error("%s (@@ %s.%d) %s=%d",\
+					 "internal error - ",\
+					 __FILE__, __LINE__,\
+				         "SETCONDITION cond", cond);\
+			      }\
+/**/if (_parse.flags)\
+/**/  printf("SETCONDITION: %s if_active=%d cond=%d\n",\
+/**/         title, if_active, (int)cond);\
+/***/\
+			}
+
+#define	RETURN(title, x)	{\
+                          int       cond;\
+			  SETCONDITION(title, cond);\
+			  if (cond)\
+			    return(x);\
+/**/			  if (_parse.yydebug)\
+/**/			    printf("from %s, continue scanning\n", title);\
+/***/			\
+			}
+
+
+/**
+ *	The lexical rules.
+ */
+%}
+
+%%
+
+
+\%[A-Za-z][A-Za-z0-9_]*	{		/* Built-in			*/
+  _parse.newline = 0;
+  					/* s_builtin returns static	*/
+  yylval.token.token_value = s_builtin(yytext);
+  if (_parse.yydebug)
+    printf("pat %builtin = \"%s\"\n", yylval.token.token_value);
+  RETURN("built-in", yylval.token.token_id = T_BUILTIN);
+  					/* Don't free token as is static*/
+}
+
+"."	{
+/* Note: We get here indirectly (usually) from
+ * the lex rule that follows, since there is
+ * some context for when to recognize things.
+ */
+  _parse.newline = 0;
+  yylval.token.token_value = s_filter(yytext);
+  if (_parse.yydebug)
+    printf("pat \".\" = \"%s\"\n", yylval.token.token_value);
+  RETURN("'.'", yylval.token.token_id = T_O_PERIOD);
+  free(yylval.token.token_value);
+}
+
+[\.?A-Za-z$_][A-Za-z0-9$_]*([ \t]*,)?	{/* Keyword/resword/dir/id/label*/
+  int       kw;
+
+  s_toupper(yytext);			/* Convert to upper case	*/
+  if (_parse.yydebug)
+    printf("pat id/kw = \"%s\"\n", yytext);
+			  		/* Is this an operator?		*/
+  yylval.token.token_value = NULL;
+  if (yytext[0] == '.')
+    {
+      if ( kw = s_kw_lookup(yytext, op_tab) )
+	{
+	  char      ch = input();	/* Look ahead at character	*/
+	  				/* Eat a following '.' for now	*/
+	  if (ch != '.')		/* If it's a dot, eg .LE.	*/
+	    unput(ch);			/*   else, let come in		*/
+	  RETURN("op", yylval.token.token_id = kw + T__NIL+(op_tab-tokenseq));
+	  goto Exit_With_Free;
+	}
+
+/**
+ *	Handling of conditionals is done in this way.  If the we are 
+ *	currently accepting tokens (i.e. if_stack[if_active]) then the
+ *	return is taken and the grammar handles stuff.  If we are not
+ *	accepting tokens, then we look at if_stack[if_active] and if the
+ *	compiler directive causes us to switch state, then we do that, and
+ *	return to the grammar.  If not active ( !if_stack[if_active] ) and
+ *	the directive does/cannot change state, then we continue skipping.
+ */
+      if ( kw = s_kw_lookup(yytext, cd_tab) )
+        {
+	  int       id = kw + T__NIL + (cd_tab - tokenseq);
+	  int       cond;
+
+	  SETCONDITION("cd", cond);
+/**/if (_parse.yydebug)
+/**/  printf("lex kw: cond=%d kw=%s\n", cond, yytext);
+/***/
+
+	  if ( ! cond )			/* Directives that change state	*/
+	    switch (id)			/*  need to be seen if skipping	*/
+	      {
+	        case T_CD_ELSE:	s_cd_else( 1 /* pend */);	break;
+	        case T_CD_END:					break;
+	        case T_CD_ENDC: s_cd_endc( 1 /* pend */ );	break;
+	        case T_CD_IFF:	s_cd_iftf( IFTF_FALSE  );	break;
+	        case T_CD_IFT:	s_cd_iftf( IFTF_TRUE   );	break;
+	        case T_CD_IFTF: s_cd_iftf( IFTF_ALWAYS );	break;
+	      }
+/**/if (_parse.yydebug)
+/**/  printf("lex kw: RETURN or continue scanning\n");
+/***/
+	  RETURN("cd", yylval.token.token_id = id);
+	  goto Exit_With_Free;
+	}
+
+      REJECT;				/* Return to "." above		*/
+    }
+/**/if (_parse.yydebug)
+/**/  printf("lex label? yytext=\"%s\" len=%d ch='%c'==','? newline=%d\n",
+/**/         yytext, strlen(yytext), yytext[strlen(yytext)-1],
+/**/         _parse.newline);
+/***/
+  if (yytext[strlen(yytext)-1] == ',')	/* Looks like a label		*/
+    {
+/*-
+ * Note: we already disallow labels to be reserved words since at this point
+ * in time we don't want to try to conditionally convert tokens to T_ID's as
+ * this isn't the natural way for a yacc grammar to work (at least not in my
+ * experience.  Maybe I'll learn more as I get older...)  Anyway, since we
+ * aren't allowing labels to match the spelling of reserved words, primarily
+ * since we don't want to have all of the strange cases were labels are used
+ * as targets (GOTO, CALL, etc) to have to handle more than T_ID, we disallow
+ * labels at this point.  This has the additional desired behavior of causing
+ * the proper recognition of the following DIBOL structure:
+ *   RECORD ,X
+ * which is an unnamed redefinition of a record.  Without disqualifying the
+ * reserved words from being label names, the parse, since it is in a record,
+ * thinks it is getting a field of type 'X', named 'RECORD'.  That is not
+ * what is wanted.  All this for the simple two lines that follow!
+ */
+/**/if (_parse.yydebug) {
+/**/  printf("_parse.newline=%d s_is_rw_tok(\"%s\")=%d\n",
+/**/          _parse.newline, yytext, s_is_rw_tok(yytext));
+/**/}
+/***/
+      if (s_is_rw_tok(yytext))		/* It's a reserved word so we	*/
+        _parse.newline = 0;		/*   don't allow as label	*/
+/**/if (_parse.yydebug) printf("lex label - we think, newline=%d\n",
+/**/                          _parse.newline);
+/***/
+      if (_parse.newline)		/* It qualifies as a label	*/
+	{
+	  char     *cp;
+	  _parse.newline = 0;		/* No longer allow label	*/
+	  yylval.token.token_value = s_filter(yytext);
+
+	  				/* Trim off training stuff	*/
+	  cp = yylval.token.token_value + strlen(yylval.token.token_value) - 1;
+	  while (strchr(" \t,", *cp))
+	    --cp;			/* Trim trailing space/tab/comma*/
+
+	  *++cp = '\0';			/* Terminate after formal label	*/
+	  if (_parse.yydebug)
+	    printf("found label \"%s\"\n", yylval.token.token_value);
+	  RETURN("label", yylval.token.token_id = T_LABEL);
+	  goto Exit_With_Free;
+	}
+      else
+        {
+	  /**
+	   * Note: at this point we saw something that looks sort of like
+	   * a label, but a label is not allowed.  So we have to push back
+	   * the comma and white space, leaving only the T_ID.  One case
+	   * where this can occur is a formatted assignment ala:
+	   *	AFIELD = NUMEXPR , FORMAT
+	   * If NUMEXPR is a variable, and we have a FORMAT, then the
+	   * sequence "NUMEXPR ," can match the "label" pattern above.
+	   * In this case, we want to parse as T_ID["NUMEXPR"] then,
+	   * T_O_COMMA rather than as T_LABEL["NUMEXPR"].  Got it? Hope so.
+	   * Note: unput() shortens yytext automatically.
+	   */
+	  char     *cp = yytext + strlen(yytext) - 1;
+          while (strchr(" \t,", *cp))
+	    unput(*cp--);		/* Put back chars not in label	*/
+	  /* Now, fall into the T_ID code below */
+	  /* Hmm, is there a construct where we'd want to jump over the
+	   * kw lookup?  Will leave it this way unless something emerges.
+	   */
+	}
+    }
+  _parse.newline = 0;
+
+/* Note:
+ *	Not sure I understand, but if there is some push-back activity
+ *	or whatever, the effects of the s_toupper() are lost on yytext,
+ *	and need to be done again.
+ */
+  s_toupper(yytext);			/* Convert to upper case	*/
+
+  if ( kw = s_kw_lookup(yytext, rw_tab) )
+    {
+      RETURN("rw", yylval.token.token_id = kw + T__NIL + (rw_tab - tokenseq));
+      goto Exit_With_Free;
+    }
+
+  yylval.token.token_value = s_filter(yytext);
+  if (_parse.yydebug)
+    printf("pat <id> = \"%s\"\n", yylval.token.token_value);
+  RETURN("id", yylval.token.token_id = T_ID);
+  /* Fall-thru */
+
+Exit_With_Free:
+  if (yylval.token.token_value)
+    free(yylval.token.token_value);
+}
+
+[0-9]+("."[0-9]+)?  {
+  int       ndig;
+  char     *str;
+  _parse.newline = 0;
+  str =  s_filter(yytext);
+/*
+  while (str && (str[0] == '0') && (str[1] != '.') && (str[1] != '\0'))
+ */
+  while (str && (str[0] == '0') && (str[1] != '\0'))
+    ++str;				/* Trim leading  '0's		*/
+  yylval.token.token_value = str;
+  if (_parse.yydebug)
+    printf("pat <num> = \"%s\"\n", yylval.token.token_value);
+  ndig = MAX_NUM_DIGITS;
+  if (strchr(str, '.'))			/* Don't count '.' in precision	*/
+    ndig++;
+  if (strlen(str) > 19)
+    c_warning("numeric constant %s requires too much precision", str);
+  RETURN("number", yylval.token.token_id = T_NUMBER);
+  free(yylval.token.token_value);
+}
+
+\"[^\"\n]*\"	{
+  int       ln = strlen(yytext);
+  _parse.newline = 0;
+  if (_parse.yydebug)
+    printf("\"gather = (ln=%d):'%s'\n", ln, yytext);
+  if ((yytext[ln - 1] == '"') &&
+      (yytext[ln - 2] == '"')
+     )
+/**/{ if (_parse.yydebug) printf("do yymore()\n");
+/***/
+    yymore();
+/**/}
+/***/
+  if (_parse.yydebug)
+    printf("no yymore() - ready return result\n");
+  yylval.token.token_value = s_filter(yytext);
+  if (_parse.yydebug)
+    printf("pat \" = '%s'\n", yylval.token.token_value);
+  RETURN("dq string", yylval.token.token_id = T_STRING);
+  free(yylval.token.token_value);
+}
+
+\'[^\'\n]*\'	{
+  int       ln = strlen(yytext);
+  _parse.newline = 0;
+  if (_parse.yydebug)
+    printf("'gather = (ln=%d):\"%s\"\n", ln, yytext);
+
+  if ((yytext[ln - 1] == '\'') &&
+      (yytext[ln - 2] == '\'')
+     )
+/**/{ if (_parse.yydebug) printf("do yymore()\n");
+/***/
+    yymore();
+/**/}
+/***/
+  if (_parse.yydebug)
+    printf("no yymore() - ready return result\n");
+  yylval.token.token_value = s_filter(yytext);
+  if (_parse.yydebug)
+    printf("pat ' = \"%s\"\n", yylval.token.token_value);
+  RETURN("sq string", yylval.token.token_id = T_STRING);
+  free(yylval.token.token_value);
+}
+
+\n/[ \t\f]*"&"	{			/* Continuation			*/
+  if (_parse.yydebug)
+    printf("pat continuation\n");
+  while ( input() != '&' )
+    /* eat characters to the ampersand */ ;
+  _parse.newline = 0;
+  _parse.line++;
+  if (_parse.cd_line > 0)
+    _parse.cd_line++;
+}
+
+\n	{				/* End of line			*/
+  _parse.newline = 1;
+  _parse.line++;
+  if (_parse.cd_line > 0)
+    _parse.cd_line++;
+  if (_parse.yydebug)
+    printf("file \"%s\", line %d, pat \\n\n", _parse.file, _parse.line);
+}
+
+[ \t\f]	{				/* White space			*/
+}
+
+";".*	{				/* Zigamorphed comment		*/
+  if (_parse.yydebug)
+    printf("pat ;.* = \"%s\"\n", yytext);
+}
+
+.	{				/* Single character tokens	*/
+  int       kw, nl = _parse.newline;
+  _parse.newline = 0;
+  if (_parse.yydebug)
+    printf("pat . <any> nl=%d yytext=\"%s\"\n", nl, yytext);
+  if ( kw = s_kw_lookup(yytext, op_tab) )
+    {
+      yylval.token.token_value = NULL;
+      yylval.token.token_id = kw + T__NIL + (op_tab - tokenseq);
+
+      if ( nl && (yylval.token.token_id == T_O_COMMA) )
+	{				/* It's really a label		*/
+	  static
+          int       uniqueid = 0;
+	  char      label[20];		/* Generate a fake, unique label*/
+	  sprintf(label, "__%d", ++uniqueid);
+          yylval.token.token_id = T_LABEL;
+	  yylval.token.token_value = s_filter(label);
+	}
+
+      if (_parse.yydebug)
+        printf("pat . token=%d = \"%s\"\n", yylval.token.token_id,
+               token_rkw[yylval.token.token_id - T__NIL]);
+      RETURN("<char>", yylval.token.token_id);
+      free(yylval.token.token_value);
+    }
+  else
+    c_warning("unknown character '%c'", yytext[0]);
+}
+
+%%
+
+
+/***
+ *	Exported functions (to parser).
+ */
+/**
+ *	Starts reading from the stashed file name.
+ *	NOTE: This is rather special case code, and does not accept
+ *	the full syntax of VMS DIBOL.
+ */
+static
+char     *stashed_filename = NULL;
+
+void
+s_do_include()						/* Function	*/
+{
+  char    *rtn = "lex.l>s_do_include:";
+  if ( ! stashed_filename )
+    {
+      c_error("no stashed filename to include??");
+      return;
+    }
+  s_push_pop_file(yyin);		/* Save where we are		*/
+  stashed_filename = s_expand_logicals(stashed_filename);
+  if ( ! (yyin = fopen(stashed_filename, "r")) )
+    {
+      c_error("can't open \"%s\"", stashed_filename);
+      s_push_pop_file((FILE *)NULL);	/* Restore to where we were	*/
+      free(stashed_filename);
+      stashed_filename = NULL;
+      return;
+    }
+  if (_parse.yydebug)
+    printf("%s reading from file \"%s\"\n", rtn, stashed_filename);
+
+  yy_switch_to_buffer( yy_create_buffer(yyin, YY_BUF_SIZE) );
+  BEGIN(INITIAL);
+  					/* Note: since parse.h has a	*/
+					/* static string, we'll not try	*/
+					/* to free any of the file names*/
+					/* so there is a bit of cancer.	*/
+  _parse.file = stashed_filename;
+  _parse.line = 1;
+  _parse.newline =  1;
+  _parse.cd_line = -1;
+
+  stashed_filename = NULL;
+} /* s_do_include */
+
+/***
+ *	Filter string returning node.
+ *	Note: This is the only function that returns strings that may
+ *	      need to be freed.  All other strings in the NET are
+ *	      statically allocated.
+ *	Note: If the incoming string starts with a double quote (") or
+ *	      single quote ('), then special filtering occurs.  That
+ *	      is, the leading and trailing characters are removed (it
+ *	      is assumed that the string pattern recognized a string)
+ *	      and if two consecutive leading characters are found, then
+ *	      one is removed.  For example:
+ *		Input			Output
+ *		-----------------------	-----------------------	
+ *		"Plain text"		Plain text
+ *		'Plain text'		Plain text
+ *		"Otto's shop"		Otto's shop
+ *		'Otto''s shop'		Otto's shop
+ *		'He said, "Hi"'		He said, "Hi"
+ *		"He said, ""Hi"""	He said, "Hi"
+ */
+char *
+s_filter(str)						/* Function	*/
+  char     *str;
+{
+  char    *rtn = "lex.l>s_filter:";
+  register
+  char     *sp, *dp, ch, qt;
+
+  str = u_strdup(str);			/* Allocate a new string	*/
+  qt = *(dp = sp = str);		/* Get quote character		*/
+  if (_parse.yydebug)
+    printf("%s qt=%c \"%s\"\n", rtn, qt, str);
+  if (strchr("\"'", qt) != NULL)	/* If 1st is valid quote char	*/
+    sp++;				/* Don't copy the quote 	*/
+  else
+    qt = '\000';			/* Not a quoted string so...	*/
+
+	/**
+	 * Remove quotes from string, in place.
+	 */
+  while (ch = *sp++)			/* Scan the source string	*/
+    {
+/** /printf("ch=%c (0x%02x)\n", ch, ch);
+/***/
+      if (qt && (ch == qt))		/* Found a quote		*/
+        {
+          char      nc = *sp;		/* Look-ahead 'next' character	*/
+/** /printf("nc=%c (0x%02x)\n", nc, nc);
+/***/
+	  if (nc)			/* Not end-of-string		*/
+	    {
+	      if (ch == qt)		/* Two quotes is a quoted quote	*/
+	        *dp++ = nc, sp++;	/* Copy the quote, advancing	*/
+	      else
+/**
+ * Note: if I were a better programmer, I would know whether or not this
+ *	 case could ever occur.  I don't think it should, so I am taking
+ *	 what I think is the best action, given the situation, and issuing
+ *	 some diagnostics.
+ */
+/**/{ printf("s_filter: quote qt=%02x and nc=%02x\n", qt, nc);
+/*??*/	        *sp = '\000';		/* Kill the string here		*/
+/**/}
+/***/
+	    }
+       /* else
+        *   don't do anything, effectively 'eats' closing quote
+	*/
+	}
+      else
+        *dp++ = ch;			/* Copy regular character	*/
+    }
+
+/** /printf("%s qt=0x%02x *(sp-3)=0x%02x *(-2)=0x%02x *(-1)=0x%02x\n",
+/** /       rtn, qt, *(sp-3), *(sp-2), *(sp-1));
+/***/
+  if (qt && (*(sp - 2) != qt))		/* Check for closing quote	*/
+    c_warning("missing closing %s quote", (qt=='\'') ? "\"'\"" : "'\"'");
+
+/** /printf("%s ch=0x%02x (%c)\n", rtn, ch, ch);
+/***/
+  *dp = ch;				/* Terminate string		*/
+  if (_parse.yydebug)
+    printf("%s returning \"%s\"\n", rtn, str);
+  return str;
+} /* s_filter */
+
+/**
+ *	Stashes a file name for s_do_include() to draw from.
+ */
+void
+s_next_include(file)					/* Function	*/
+  Token     file;
+{
+  char    *rtn = "lex.l>s_next_include:";
+  /* Note: cancer for file.token_value if stashed file */
+  if (stashed_filename)
+    c_error("can't stash \"%s\" because \"%s\" is stashed already??",
+            file.token_value, stashed_filename);
+  else
+    stashed_filename = file.token_value;
+  if (_parse.yydebug)
+    printf("%s stashed file \"%s\"\n", rtn, stashed_filename);
+} /* s_next_include */
+
+/**
+ *	Issues a warning that this is ignored, and skips to the end of
+ *	the current input line.
+ */
+void
+s_skip_to_eol(tok)					/* Function	*/
+  Token     tok;
+{
+  c_warning("%s - ignored, skipping to end of line", to_token(tok.token_id));
+  while (input() != '\n')
+    /* skip input to eol */ ;
+  unput('\n');				/* Push back an '\n' so ok	*/
+} /* s_skip_to_eol */
+
+/***
+ *	Local functions
+ */
+/**
+ *	Lookup a builtin function.
+ *	Note: This function never allocates a string that needs to be
+ *	      freed.  Strings (e.g. builtin name) points to a static.
+ */
+static
+char *
+s_builtin(str)						/* Function	*/
+  char     *str;
+{
+  int       bi;
+  char     *name = str + 1;
+  s_toupper(str);			/* Convert to upper case	*/
+  for (bi = 0;  builtins[bi].if_name;  ++bi)
+    if (strcmp(builtins[bi].if_name, name) == 0)
+      return builtins[bi].if_name;
+  c_error("unknown %BUILTIN function '%s'", str);
+  return "%UNKNOWN";
+} /* s_builtin */
+
+/***
+ *	Compiler Directive 'IF' statement support routines.
+ *	These routines are exported to the world.
+ */
+
+/**
+ *	Toggle the current top.  If multiple .ELSEs are found, toggle
+ *	each time .ELSE is found, but warn in all but the first one.
+ *
+ *	'pending' means that we saw the .ENDC while skipping and that
+ *	the if_active has already been decremented.  When we recognized
+ *	the .ENDC and were skipping this was called with 'pend=1'.
+ */
+void
+s_cd_else(pend)						/* Function	*/
+  int       pend;
+{
+  static
+  int       pending = 0;
+/**/if (_parse.yydebug)
+/**/  {
+/**/    printf("s_cd_else(pend=%d) pending=%d", pend, pending);
+/**/    printf(" if_stack[if_active=%d].cond=%ld .iftf=%d\n", 
+/**/           if_active, if_stack[if_active].cond, if_stack[if_active].iftf);
+/**/  }
+/***/
+  if (pending)
+    {
+      if (pend)
+        c_error("s_cd_else: internal error pend and pending");
+    }
+  else
+    {
+      if (if_active)
+        {
+          if (if_stack[if_active].elses++)
+            c_warning("Multiple .ELSE (#%d) on if starting at %s.%d, toggled",
+	              if_stack[if_active].elses,
+	              if_stack[if_active].file, if_stack[if_active].line 
+		     );
+          if_stack[if_active].cond = ! if_stack[if_active].cond;
+        }
+      else
+        c_error(".ELSE without an active .IF, .IFDEF or .IFNDEF");
+    }
+  pending = pend;
+/**
+ * Only for .IF do we have to be sensitive to whether or not we have hit
+ * the .ELSE since the cd_expr was terminated by pushing to the new state.
+ * Since that new state was part of the 'then' side of the equation, it
+ * must be popped so that the parse can correctly reposition itself.
+ * What's going on (I think):
+ *	When we are getting ready to have the .ELSE go active, we have
+ *	looked ahead (lAlr(1)) and gotten the token that stopped our
+ *	parse.  So, we have to pop that token as it was part of the 'then'
+ *	of the .IF.  (See .ENDC stuff too).
+ * Note: gram.c is patched to refetch the value of yystate from the stack
+ *      after calling yylex() because pop_gram_state() pops the state stack
+ *	and yystate (in the parser) is "out of date".
+ */
+  if ( pending					&&
+      (if_stack[if_active].kind == T_CD_IF)	&&
+       if_stack[if_active].cond
+     )					/* Pop off the pending state	*/
+    pop_gram_state(".ELSE going active");
+} /* s_cd_else */
+
+/**
+ *	Delete an 'if' state level.
+ *	'pending' means that we saw the .ENDC while skipping and that
+ *	the if_active has already been decremented.  When we recognized
+ *	the .ENDC and were skipping this was called with 'pend=1'.
+ */
+void
+s_cd_endc(pend)						/* Function	*/
+  int       pend;
+{
+  static
+  int       pending = 0;
+/**/if (_parse.yydebug)
+/**/  printf("s_cd_endc(pend=%d) pending=%d if_active=%d\n", 
+/**/         pend, pending, if_active);
+/***/
+  if (pending)
+    {
+      if (pend)
+        c_error("s_cd_endc: internal error pend and pending");
+    }
+  else
+    {
+      if ( pend					&&
+          (if_stack[if_active].kind == T_CD_IF)	&&
+          (if_stack[if_active].cond == 0)
+         )				/* Pop off the pending state	*/
+        pop_gram_state(".ENDC going active");
+      if (if_active)
+        --if_active;
+      else
+        c_error(".ENDC without an active .IF, .IFDEF or .IFNDEF");
+    }
+  pending = pend;
+} /* s_cd_endc */
+
+/**
+ *	Add an 'if' state level where
+ *	cond	meaning
+ *	----	--------------------------------------------------
+ *	  0	FALSE
+ *	 !0	TRUE
+ */
+void
+s_cd_if(kind, cond)					/* Function	*/
+  Token     kind;
+  long      cond;
+{
+/**/if (_parse.flags)
+/**/  printf("s_cd_if(%s, cond=%ld) if_active=%d\n",
+/**/         to_token(kind.token_id), cond, if_active);
+/***/    
+  if (if_active < IF_STACK_MAX)
+    {
+      ++if_active;
+      if_stack[if_active].kind  = kind.token_id;
+      if_stack[if_active].cond  = (int) (cond != 0);
+      if_stack[if_active].elses = 0;
+      if_stack[if_active].iftf  = IFTF_NONE;
+      if_stack[if_active].file  = _parse.file;
+      if_stack[if_active].line  = _parse.line;
+      if_stack[if_active].cd_line = _parse.cd_line;
+    }
+  else
+    {
+      int       i;
+      c_error(".IF/.IFDEF/.IFNDEF stack overflow (Max depth allowed is %d)",
+              IF_STACK_MAX);
+      printf("if_stack dump\n");
+      for (i = if_active;  i;  --i)
+        printf("  %2d %s.%d  %s cond=%ld iftf=%d\n",
+	       i, if_stack[i].file, if_stack[i].line,
+	       to_token(if_stack[i].kind), if_stack[i].cond, if_stack[i].iftf
+	      );
+      printf("if_stack dump end\n");
+    }
+} /* s_cd_if */
+
+/**
+ *	if_def	meaning
+ *	------	--------------------------------------------------
+ *	   0	IFNDEF - if token not defined
+ *	   1	IFDEF - if token is defined
+ */
+void
+s_cd_ifdef(token, id)					/* Function	*/
+  Token     token;
+  Token     id;
+{
+  int       is_def;
+  long      cond;
+
+/**/if (_parse.flags)
+/**/  printf("s_cd_ifdef(%s, %s)\n", to_token(token.token_id), id.token_value);
+/***/
+  is_def = lkupname(id.token_value, T_CD_DEFINE);
+/**/if (_parse.flags)
+/**/  printf("s_cd_ifdef: %s is %sin .DEFINE table\n",
+/**/         id.token_value, is_def ? "" : "not ");
+/***/
+  if ( ! is_def )			/* Not a define, try as field	*/
+/**/{
+    is_def = lkupname(id.token_value, T_ID);
+/**/if (_parse.flags)
+/**/  printf("s_cd_ifdef: %s is %sin identifier table\n",
+/**/         id.token_value, is_def ? "" : "not ");
+/**/}
+/***/
+  switch (token.token_id)
+    {
+      case T_CD_IFDEF:	cond =  is_def; break;
+      case T_CD_IFNDEF:	cond = !is_def; break;
+      default:
+        c_error("s_cd_ifdef: internal error token=%d:%s", token.token_id,
+	        to_token(token.token_id)
+	       );
+    }
+  s_cd_if(token, cond);
+} /* s_cd_ifdef */
+
+/**
+ *	Sets if_stack[if_active].iftf to flag:
+ *	  IFTF_NONEE	Start accepting according to .cond only
+ *	  IFTF_ALWAYS	Start accepting whether TRUE or FALSE
+ *	  IFTF_FALSE	Start accepting if FALSE
+ *	  IFTF_TRUE	Start accepting if TRUE
+ */
+void
+s_cd_iftf(flag)						/* Function	*/
+  int       flag;
+{
+/**/if (_parse.flags)
+/**/  printf("s_cd_iftf(%d) if_active=%d\n",  flag, if_active);
+/***/
+  switch (flag)
+    {
+      default:
+        c_error("s_cd_iftf(%d) - internal error", flag);
+      case IFTF_NONE:
+      case IFTF_FALSE:
+      case IFTF_TRUE:
+      case IFTF_ALWAYS:
+        ;
+    }
+  if (if_active)
+    if_stack[if_active].iftf = flag;
+  else
+    c_error(".IFF/.IFT/.IFTF without an active .IF, .IFDEF or .IFNDEF");
+} /* s_cd_iftf */
+
+
+
+/***
+ *	Expand logicals contained in "name"
+ */
+static
+char *
+s_expand_logicals(name)					/* Function	*/
+  char     *name;
+{
+  char     *rtn = "lex.l>s_expand_logicals:";
+  char     *cp;
+
+  s_tolower(name);			/* Force whole name tolower	*/
+  if (_parse.yydebug)
+    printf("%s(\"%s\")\n", rtn, name);
+
+  while (cp = strchr(name, ':'))	/* There is a logical		*/
+    {
+      int       ln = cp - name;
+      char     *ep;
+      static
+      char      env[1024];		/* Should be a long enuf buffer	*/
+
+      strncpy(env, name, ln);		/* Get environment name		*/
+      env[ln] = '\000';
+      s_toupper(env);			/* Force environment to CAPS	*/
+      s_tolower(cp);			/* Force filenames lowercase	*/
+      if (_parse.yydebug)
+        printf("%s: env=\"%s\"\n", rtn, env);
+      if ( ep = getenv(env) )		/* Name found - expand it	*/
+        {
+          if (_parse.yydebug)
+            printf("%s: %s=\"%s\"\n", rtn, env, ep);
+	  if ((strlen(ep) + strlen(cp)) > sizeof(env))
+	    {
+	      c_error("expansion of \"%s\" is too long", name);
+	      break;
+	    }
+	  sprintf(env, "%s%s%s",
+	          ep, (ep[strlen(ep)-1] == '/') ? "" : "/", ++cp
+		 );
+	  free(name);
+	  name = u_strdup(env);
+          if (_parse.yydebug)
+            printf("%s: name=\"%s\"\n", rtn, name);
+	}
+      else
+	{
+          c_error("no logical (env) named %s", env);
+	  break;
+	}
+    }
+  return name;
+} /* s_expand_logicals */
+
+
+
+/***
+ *	Lookup string in keyword table, returning index of entry,
+ *	or 0 (if not found).
+ *	Note: This requires an off by one correction to the return
+ *	result when calculating the token_id.
+ *	Note: Each sequence of valid tokens is bordered by NULL entries
+ *	in the tokenseq[], so, set up to skip the first entry, since it
+ *	is a NULL for sure.
+ *	EXPORTED.
+ */
+int
+s_kw_lookup(str, kwt)					/* Function	*/
+  char    *str;
+  char    *kwt[];
+{
+  char    *rtn = "lex.l>s_kw_lookup:";
+  register
+  char   **kw = kwt + 1;		/* Pointing to NULL entry, skip	*/
+
+  do					/* Loop through the table	*/
+/** /{ printf("%s compare \"%s\" with \"%s\"\n", rtn, str, *kw);
+/***/
+    if (strcmp(str, *kw) == 0)
+      break;				/* Found entry, break out	*/
+/** /}
+/***/
+  while (*++kw);			/* Try next entry		*/
+
+/** /printf("%s *kw%s=NULL returning %d\n", rtn, *kw ? "!" : "",
+/** /       *kw ? kw - kwt : 0);
+/***/
+  return *kw ? kw - kwt : 0;
+} /* s_kw_lookup */
+
+static
+int
+s_is_rw_tok(sp)						/* Function	*/
+  char    *sp;
+{
+  char     buf[BUFSIZ], *dp;
+  int      is_rw;
+
+  dp = buf;
+  while ( *sp && (! strchr(" \t,", *sp)) )
+    *dp++ =  *sp++;			/* Copy only the token part	*/
+  *dp = '\0';
+  is_rw = s_kw_lookup(buf, rw_tab) != 0;
+  if (is_rw &&
+      (
+       ( 				/* Specific exceptions		*/
+        strcmp(buf, tokenseq[T_COMMON  - T__NIL]) &&
+        strcmp(buf, tokenseq[T_LITERAL - T__NIL]) &&
+        strcmp(buf, tokenseq[T_RECORD  - T__NIL]) &&
+        (strcmp(buf, tokenseq[T_CLEAR  - T__NIL]) || _parse.newline)
+       )
+      )
+     )
+    c_error("Label \"%s\" not allowed, as %s is a reserved word", buf, buf);
+  return is_rw;
+} /* s_is_rw_tok */
+
+/***
+ *	Push or pop a file from active state.  If "f" is non-NULL, then
+ *	it is pushed on the stack.  If "f" is NULL, then it is popped off
+ *	of the stack and restored for scanning.  When the stack is empty
+ *	and pop is called, then return 1 (yywrap, no more), else 0.
+ *
+ *	Note: Sort of groping for yy_buffer_state, dependent on flex.
+ *	      Trying to use "published" stuff.
+ */
+static
+int
+s_push_pop_file(f)					/* Function	*/
+  FILE    *f;
+{
+  char    *rtn = "lex.l>s_push_pop_file:";
+  static
+  struct
+    {
+      YY_BUFFER_STATE state;		/* Lexical analyzer state	*/
+      char    *file;			/* File it is reading		*/
+      int      line;			/* Line number it is on		*/
+      int      cd_line;			/* .LINE number (if active)	*/
+    }      file [ MX_INCLUDE_NESTING ];
+  static
+  int      nfiles = 0;
+  int      nomore = 0;
+  if ( f )				/* Push a file			*/
+    {
+      if (nfiles < MX_INCLUDE_NESTING - 1)
+	{
+	  file[ nfiles ].state = YY_CURRENT_BUFFER;
+	  file[ nfiles ].file  = _parse.file;
+	  file[ nfiles ].line  = _parse.line;
+	  file[ nfiles ].cd_line = _parse.cd_line;
+	  nfiles++;
+	  if (_parse.yydebug)
+	    printf("%s push f=0x%08x\n", rtn, f);
+	}
+      else
+        c_error(".INCLUDE file nesting too deep");
+    }
+  else					/* Pop a file (restore)		*/
+    {
+      if (nfiles)
+	{
+	  if (YY_CURRENT_BUFFER)
+	    yy_delete_buffer(YY_CURRENT_BUFFER);
+	  --nfiles;
+	  _parse.file = file[ nfiles ].file;
+	  _parse.line = file[ nfiles ].line;
+	  _parse.cd_line = file[ nfiles ].cd_line;
+	  yy_switch_to_buffer( file[ nfiles ].state );
+	  if (_parse.yydebug)
+	    printf("%s pop\n", rtn);
+	}
+      else
+        nomore = 1;
+    }
+  if (_parse.yydebug)
+    printf("%s returning %d (file %s.%d)\n",
+           rtn, nomore, _parse.file, _parse.line);
+  return nomore;
+} /* s_push_pop_file */
+
+/**
+ *	Filter string converting upper case (uncouth, if used extensively)
+ *	too lower case (civilized) letters.
+ *	EXPORTED.
+ */
+void
+s_tolower(str)						/* Function	*/
+  char    *str;
+{
+  register
+  char    *s, ch;
+  
+  ch = *(s = str);			/* Prime the pump		*/
+  do
+    if (isupper(ch))			/* If upper (uncouth) char	*/
+      *s = tolower(ch);			/*   make it civilized		*/
+  while (ch = *++s);			/* Get next character, and loop	*/
+
+} /* s_tolower */
+
+/**
+ *	Filter string converting lower case (civilized) letters to 
+ *	upper case (uncouth, if use extensively) letters.
+ *	EXPORTED.
+ */
+void
+s_toupper(str)						/* Function	*/
+  char    *str;
+{
+  register
+  char    *s, ch;
+  
+  ch = *(s = str);			/* Prime the pump		*/
+  do
+    if (islower(ch))			/* If lower (civilized) char	*/
+      *s = toupper(ch);			/*   make it uncouth   (shout!)	*/
+  while (ch = *++s);			/* Get next character, and loop	*/
+
+} /* s_toupper */
+
+int
+yywrap()						/* Function	*/
+{
+  return s_push_pop_file((FILE *)NULL);
+}
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/lex.l,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:06:00 $
+d45 8
+a74 4
+ *
+ *	void
+ *	s_toupper(str)			// Convert string to uppercase
+ *	  char     *str;		// String to convert
+a83 4
+static
+void      s_tolower	PROTOARGS((char *));
+static
+void      s_toupper	PROTOARGS((char *));
+a87 69
+static
+struct					/* Built-in Descriptor Table	*/
+  {					/* ----------------------------	*/
+    char     *bi_name;			/* Name of built-in		*/
+    int       bi_narg;			/* # of arguments		*/
+  }       builtins[]			/* ----------------------------	*/
+= {
+    { "%ABS",        -1 },
+    { "%ADDR",       -1 },
+    { "%ARGA",       -1 },
+    { "%ARGN",       -1 },
+    { "%B",          -1 },
+    { "%BBBKSTR",    -1 },
+    { "%BIN",        -1 },
+    { "%BIT_IS_CLR", -1 },
+    { "%BIT_IS_SET", -1 },
+    { "%CHAR",       -1 },
+    { "%CHOPEN",     -1 },
+    { "%CPUTIME",    -1 },
+    { "%D",          -1 },
+    { "%DATE",       -1 },
+    { "%DECML",      -1 },
+    { "%DEFINED",    -1 },
+    { "%DESCR",      -1 },
+    { "%ERLINE",     -1 },
+    { "%ERNUM",      -1 },
+    { "%ERROR",      -1 },
+    { "%FALSE",      -1 },
+    { "%HEX",        -1 },
+    { "%INRANGE",    -1 },
+    { "%INSTR",      -1 },
+    { "%INT",        -1 },
+    { "%INTEGER",    -1 },
+    { "%JBNO",       -1 },
+    { "%LEN",        -1 },
+    { "%NUMARGS",    -1 },
+    { "%O",          -1 },
+    { "%OCT",        -1 },
+    { "%OUTRANGE",   -1 },
+    { "%PACKED",     -1 },
+    { "%PASSED",     -1 },
+    { "%REF",        -1 },
+    { "%RFA",        -1 },
+    { "%RSIZE",      -1 },
+    { "%RTERM",      -1 },
+    { "%SCR_ATT",    -1 },
+    { "%SCR_CLR",    -1 },
+    { "%SCR_MOV",    -1 },
+    { "%SIZE",       -1 },
+    { "%STRING",     -1 },
+    { "%SUCCESS",    -1 },
+    { "%SYSERR",     -1 },
+    { "%TIME",       -1 },
+    { "%TNMBR",      -1 },
+    { "%TRIM",       -1 },
+    { "%TRUE",       -1 },
+    { "%TTNAME",     -1 },
+    { "%TTSTS",      -1 },
+    { "%UNSIGNED",   -1 },
+    { "%VAL",        -1 },
+    { "%VARIANT",    -1 },
+    { "%VERSN",      -1 },
+    { "%VMS",        -1 },
+    { "%WAIT",       -1 },
+    { "%WKDAY",      -1 },
+    { "%X",          -1 },
+    { "%XTRNL",      -1 },
+    { "%ZONED",      -1 },
+  };
+d90 2
+a91 1
+char    **bi_tab = (char **)NULL;	/* Built-in Table		*/
+d647 1
+a647 1
+ *	Lookup and build a NET node for a builtin function.
+d657 1
+a657 10
+  
+  if ( ! bi_tab )			/* Need to build vector of names*/
+    {
+      int       nbi;
+      nbi = sizeof(builtins) / sizeof(builtins[0]);
+      if ( ! (bi_tab = (char **)calloc(nbi, sizeof(char *))) )
+        c_error("couldn't allocate bi_tab?"),			exit( 1 );
+      for (bi = 0;  bi < nbi;  ++bi)
+        bi_tab[bi] = builtins[bi].bi_name;
+    }
+d659 5
+a663 3
+  if (!(bi = s_kw_lookup(str, bi_tab)))	/* Lookup builtin		*/
+    c_error("unknown %BUILTIN function '%s'", str);
+  return bi_tab[bi];			/* Now pointing to static string*/
+d949 1
+d1069 1
+a1070 1
+static
+d1089 1
+a1089 1
+ *
+a1090 1
+static
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:27 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:53:03 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:14 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:14 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:38 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:36 $
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:29 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:11 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:33 $
+d239 1
+d244 1
+a244 1
+  free(yylval.token.token_value);
+d341 5
+d440 1
+d443 3
+a445 3
+    printf("\"gather = \"%s\"\n", yytext);
+  if ((yytext[strlen(yytext)-1] == '"') &&
+      (yytext[strlen(yytext)-2] == '"')
+d456 1
+a456 1
+    printf("pat \" = \"%s\"\n", yylval.token.token_value);
+d465 1
+a465 1
+    printf("'gather = \"%s\"\n", yytext);
+d467 2
+a468 2
+  if ((yytext[strlen(yytext)-1] == '\'') &&
+      (yytext[strlen(yytext)-2] == '\'')
+d1063 2
+a1064 1
+      ( 				/* Specific exceptions		*/
+d1067 3
+a1069 1
+        strcmp(buf, tokenseq[T_RECORD  - T__NIL])
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:16 $
+d88 2
+a89 1
+char     *bi_tab[] =			/* Built-in Table		*/
+d91 65
+a155 61
+    "%ABS",
+    "%ADDR",
+    "%ARGA",
+    "%ARGN",
+    "%B",
+    "%BBBKSTR",
+    "%BIN",
+    "%BIT_IS_CLR",
+    "%BIT_IS_SET",
+    "%CHAR",
+    "%CHOPEN",
+    "%CPUTIME",
+    "%D",
+    "%DATE",
+    "%DECML",
+    "%DEFINED",
+    "%DESCR",
+    "%ERLINE",
+    "%ERNUM",
+    "%ERROR",
+    "%FALSE",
+    "%HEX",
+    "%INRANGE",
+    "%INSTR",
+    "%INT",
+    "%INTEGER",
+    "%JBNO",
+    "%LEN",
+    "%NUMARGS",
+    "%O",
+    "%OCT",
+    "%OUTRANGE",
+    "%PACKED",
+    "%PASSED",
+    "%REF",
+    "%RFA",
+    "%RSIZE",
+    "%RTERM",
+    "%SCR_ATT",
+    "%SCR_CLR",
+    "%SCR_MOV",
+    "%SIZE",
+    "%STRING",
+    "%SUCCESS",
+    "%SYSERR",
+    "%TIME",
+    "%TNMBR",
+    "%TRIM",
+    "%TRUE",
+    "%TTNAME",
+    "%TTSTS",
+    "%UNSIGNED",
+    "%VAL",
+    "%VARIANT",
+    "%VERSN",
+    "%VMS",
+    "%WAIT",
+    "%WKDAY",
+    "%X",
+    "%XTRNL",
+    "%ZONED",
+d159 2
+d259 1
+a259 1
+[\.?A-Za-z$][A-Za-z0-9$_]*([ \t]*,)?	{/* Keyword/resword/dir/id/label*/
+d317 5
+d342 3
+d579 1
+d719 9
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:03 $
+d95 1
+a98 1
+    "%BBBKSTR",
+d108 1
+d110 1
+d117 1
+d128 3
+d137 2
+d230 1
+a230 1
+'%'[A-Za-z][A-Za-z0-9]*	{		/* Built-in			*/
+d703 1
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:46:00 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:44:02 $
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:45 $
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:39:01 $
+d509 1
+a509 1
+    c_warning("unknown character '%c'\n", yytext[0]);
+d532 1
+a532 1
+      c_error("no stashed filename to include??\n");
+d539 1
+a539 1
+      c_error("can't open \"%s\"\n", stashed_filename);
+d638 1
+a638 1
+    c_warning("missing closing %s\n", (qt=='\'') ? "\"'\"" : "'\"'");
+d658 1
+a658 1
+    c_error("can't stash \"%s\" because \"%s\" is stashed already??\n",
+d696 1
+a696 1
+    c_error("unknown %BUILTIN function '%s'\n", str);
+d966 1
+a966 1
+          c_error("no logical (env) named %s\n", env);
+d1028 1
+a1028 1
+    c_error("Label \"%s\" not allowed, as %s is a reserved word\n", buf, buf);
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:07 $
+d163 1
+d166 1
+a166 1
+    { 0, 1, -1, IFTF_NONE, "", 0}	/* Entry [0] - default behavior	*/
+d461 2
+d468 2
+d556 1
+d828 1
+d1053 1
+d1065 1
+d1082 1
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:50 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:28 $
+d150 62
+d226 2
+a227 1
+  return yylval.token.token_id = T_BUILTIN;
+d239 2
+a240 1
+  return yylval.token.token_id = T_O_PERIOD;
+d259 2
+a260 1
+	  return yylval.token.token_id = kw + T__NIL + (op_tab - tokenseq);
+d263 9
+d273 25
+a297 1
+	return yylval.token.token_id = kw + T__NIL + (cd_tab - tokenseq);
+d335 2
+a336 1
+	  return yylval.token.token_id = T_LABEL;
+d371 4
+a374 1
+    return yylval.token.token_id = kw + T__NIL + (rw_tab - tokenseq);
+d379 6
+a384 1
+  return yylval.token.token_id = T_ID;
+d405 2
+a406 1
+  return yylval.token.token_id = T_NUMBER;
+d426 2
+a427 1
+  return yylval.token.token_id = T_STRING;
+d449 2
+a450 1
+  return yylval.token.token_id = T_STRING;
+d500 2
+a501 1
+      return yylval.token.token_id;
+d503 2
+a504 1
+  c_warning("unknown character '%c'\n", yytext[0]);
+d693 217
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:52 $
+d209 1
+a209 1
+ * experience.  Maybe I'll learn more as I get older...  Anyway, since we
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:19 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:49 $
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:41 $
+d18 1
+d281 1
+d285 1
+d287 2
+d293 5
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:47 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:23 $
+d280 1
+d282 4
+a285 1
+  yylval.token.token_value = s_filter(yytext);
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:05 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:26 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:41:00 $
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:33 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:46 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:36 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:04 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:30 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:44 $
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:21 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:14 $
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d4 2
+a5 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/lex.l,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.36 1995/05/02 10:43:21 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.35 1995/04/25 11:48:29 ldl Exp ldl $
+d76 2
+d204 18
+d657 24
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.34 1995/04/24 12:23:16 ldl Exp ldl $
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.33 1995/04/23 12:55:15 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.32 1995/04/22 12:42:52 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.31 1995/04/19 11:29:10 ldl Exp ldl $
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.30 1995/04/18 12:00:41 ldl Exp ldl $
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.29 1995/04/13 10:23:56 ldl Exp ldl $
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.28 1995/04/03 11:47:12 ldl Exp ldl $
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.27 1995/03/27 03:06:28 ldl Exp ldl $
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.26 1995/03/26 19:58:14 ldl Exp ldl $
+@
+
+
+1.26
+log
+@26-Mar-1995 Checkpoint 1
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.25 1995/03/23 13:31:34 ldl Exp ldl $
+@
+
+
+1.25
+log
+@23-Mar-1995 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.24 1995/03/19 23:29:19 ldl Exp ldl $
+d242 8
+@
+
+
+1.24
+log
+@19-Mar-1995 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.23 1995/03/08 13:33:28 ldl Exp ldl $
+@
+
+
+1.23
+log
+@08-Mar-1995 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.22 1995/03/06 12:00:17 ldl Exp ldl $
+d32 5
+a75 2
+int       s_kw_lookup	PROTOARGS((char *, char *[]));
+static
+d144 1
+a144 1
+        **kw_tab = &tokenseq[T__KEYWORDS            - T__NIL],
+d176 1
+a176 1
+[\.?A-Za-z$][A-Za-z0-9$_]*([ \t]*,)?	{/* Keyword/dir/id/label	*/
+d242 2
+a243 2
+  if ( kw = s_kw_lookup(yytext, kw_tab) )
+    return yylval.token.token_id = kw + T__NIL + (kw_tab - tokenseq);
+a605 1
+static
+@
+
+
+1.22
+log
+@06-Mar-1995 Checkpoint 2
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.21 1995/03/06 10:31:58 ldl Exp ldl $
+d393 1
+a393 1
+  _parse.line = 0;
+d426 1
+a426 1
+  str = strdup(str);			/* Allocate a new string	*/
+d579 1
+a579 1
+	  name = strdup(env);
+@
+
+
+1.21
+log
+@06-Mar-1995 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.20 1995/03/05 03:24:37 ldl Exp ldl $
+@
+
+
+1.20
+log
+@04-Mar-1995 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.19 1995/03/03 12:36:19 ldl Exp ldl $
+@
+
+
+1.19
+log
+@03-Mar-1995 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.18 1995/02/27 12:55:28 ldl Exp ldl $
+d333 8
+a340 1
+        yylval.token.token_id = T_LABEL;/* It's really a label		*/
+@
+
+
+1.18
+log
+@27-Feb-1995 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.17 1995/02/26 10:54:28 ldl Exp ldl $
+@
+
+
+1.17
+log
+@26-Feb-1995 Checkpoint
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.16 1995/01/07 15:34:53 ldl Exp ldl $
+@
+
+
+1.16
+log
+@07-Jan-1995 Checkpoint 2
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.15 1995/01/07 11:22:36 ldl Exp ldl $
+@
+
+
+1.15
+log
+@07-Jan-1995 Checkpoint 1
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.14 1994/12/31 02:31:31 ldl Exp ldl $
+d311 1
+a311 1
+    printf("line %d, pat \\n\n", _parse.line);
+d677 1
+a677 1
+    printf("%s returning %d (file %s.d)\n",
+@
+
+
+1.14
+log
+@30-Dec-1994 Checkpoint 2
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.13 1994/12/30 21:01:50 ldl Exp ldl $
+d26 6
+a52 4
+ *	char *				// Created node for string
+ *	s_filter(str)			// Filter string returning node
+ *	  char     *str;		// String to filter (e.g. yytext)
+ *
+a70 2
+char     *s_filter	PROTOARGS((char *));
+static
+d301 2
+d323 1
+a323 1
+  int       kw;
+d326 1
+a326 1
+    printf("pat . <any> yytext=\"%s\"\n", yytext);
+d331 4
+d381 6
+a387 1
+  free(stashed_filename);
+d391 87
+d542 1
+a584 86
+/***
+ *	Filter string returning node.
+ *	Note: This is the only function that returns strings that may
+ *	      need to be freed.  All other strings in the NET are
+ *	      statically allocated.
+ *	Note: If the incoming string starts with a double quote (") or
+ *	      single quote ('), then special filtering occurs.  That
+ *	      is, the leading and trailing characters are removed (it
+ *	      is assumed that the string pattern recognized a string)
+ *	      and if two consecutive leading characters are found, then
+ *	      one is removed.  For example:
+ *		Input			Output
+ *		-----------------------	-----------------------	
+ *		"Plain text"		Plain text
+ *		'Plain text'		Plain text
+ *		"Otto's shop"		Otto's shop
+ *		'Otto''s shop'		Otto's shop
+ *		'He said, "Hi"'		He said, "Hi"
+ *		"He said, ""Hi"""	He said, "Hi"
+ */
+char *
+s_filter(str)						/* Function	*/
+  char     *str;
+{
+  char    *rtn = "lex.l>s_filter:";
+  register
+  char     *sp, *dp, ch, qt;
+
+  str = strdup(str);			/* Allocate a new string	*/
+  qt = *(dp = sp = str);		/* Get quote character		*/
+  if (_parse.yydebug)
+    printf("%s qt=%c \"%s\"\n", rtn, qt, str);
+  if (strchr("\"'", qt) != NULL)	/* If 1st is valid quote char	*/
+    sp++;				/* Don't copy the quote 	*/
+  else
+    qt = '\000';			/* Not a quoted string so...	*/
+
+	/**
+	 * Remove quotes from string, in place.
+	 */
+  while (ch = *sp++)			/* Scan the source string	*/
+    {
+/** /printf("ch=%c (0x%02x)\n", ch, ch);
+/***/
+      if (qt && (ch == qt))		/* Found a quote		*/
+        {
+          char      nc = *sp;		/* Look-ahead 'next' character	*/
+/** /printf("nc=%c (0x%02x)\n", nc, nc);
+/***/
+	  if (nc)			/* Not end-of-string		*/
+	    {
+	      if (ch == qt)		/* Two quotes is a quoted quote	*/
+	        *dp++ = nc, sp++;	/* Copy the quote, advancing	*/
+	      else
+/**
+ * Note: if I were a better programmer, I would know whether or not this
+ *	 case could ever occur.  I don't think it should, so I am taking
+ *	 what I think is the best action, given the situation, and issuing
+ *	 some diagnostics.
+ */
+/**/{ printf("s_filter: quote qt=%02x and nc=%02x\n", qt, nc);
+/*??*/	        *sp = '\000';		/* Kill the string here		*/
+/**/}
+/***/
+	    }
+       /* else
+        *   don't do anything, effectively 'eats' closing quote
+	*/
+	}
+      else
+        *dp++ = ch;			/* Copy regular character	*/
+    }
+
+/** /printf("%s qt=0x%02x *(sp-3)=0x%02x *(-2)=0x%02x *(-1)=0x%02x\n",
+/** /       rtn, qt, *(sp-3), *(sp-2), *(sp-1));
+/***/
+  if (qt && (*(sp - 2) != qt))		/* Check for closing quote	*/
+    c_warning("missing closing %s\n", (qt=='\'') ? "\"'\"" : "'\"'");
+
+/** /printf("%s ch=0x%02x (%c)\n", rtn, ch, ch);
+/***/
+  *dp = ch;				/* Terminate string		*/
+  if (_parse.yydebug)
+    printf("%s returning \"%s\"\n", rtn, str);
+  return str;
+} /* s_filter */
+d637 6
+a642 1
+  YY_BUFFER_STATE file[MX_INCLUDE_NESTING];
+d650 4
+a653 1
+	  file[ nfiles++ ] = YY_CURRENT_BUFFER;
+d666 4
+a669 1
+	  yy_switch_to_buffer( file[ --nfiles ] );
+d677 2
+a678 1
+    printf("%s returning %d\n", rtn, nomore);
+@
+
+
+1.13
+log
+@30-Dec-1994 Checkpoint 1
+@
+text
+@d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.12 1994/12/27 04:07:25 ldl Exp ldl $
+d42 5
+d67 2
+d75 2
+d248 1
+a248 1
+[0-9]+("."[0-9]*)?  {
+d361 1
+d366 2
+d434 53
+d656 20
+@
+
+
+1.12
+log
+@26-Dec-1994 Checkpoint 2
+@
+text
+@d1 1
+d5 1
+a5 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.11 1994/12/26 23:53:00 ldl Exp ldl $
+d21 15
+d51 4
+d66 2
+d147 2
+a148 2
+/**/printf("pat %builtin = \"%s\"\n", yylval.token.token_value);
+/***/
+d159 2
+a160 2
+/**/printf("pat \".\" = \"%s\"\n", yylval.token.token_value);
+/***/
+d168 2
+a169 2
+/**/printf("pat id/kw = \"%s\"\n", yytext);
+/***/
+d202 2
+a203 2
+/**/printf("found label \"%s\"\n", yylval.token.token_value);
+/***/
+d234 2
+a235 2
+/**/printf("pat <id> = \"%s\"\n", yylval.token.token_value);
+/***/
+d242 2
+a243 2
+/**/printf("pat <num> = \"%s\"\n", yylval.token.token_value);
+/***/
+d249 6
+a254 4
+/**/printf("\"gather = \"%s\"\n", yytext);
+/***/
+  if (yytext[strlen(yytext)-1] == '"')
+/**/{ printf("do yymore()\n");
+a257 1
+/**/printf("no yymore() - ready return result\n");
+d259 2
+d262 2
+a263 2
+/**/printf("pat \" = \"%s\"\n", yylval.token.token_value);
+/***/
+d270 2
+a271 2
+/**/printf("'gather = \"%s\"\n", yytext);
+/***/
+d273 4
+a276 2
+  if (yytext[strlen(yytext)-1] == '\'')
+/**/{ printf("do yymore()\n");
+a279 1
+/**/printf("no yymore() - ready return result\n");
+d281 2
+d284 2
+a285 2
+/**/printf("pat ' = \"%s\"\n", yylval.token.token_value);
+/***/
+d290 2
+a291 2
+/**/printf("pat continuation\n");
+/***/
+d299 2
+a300 2
+/**/printf("line %d, pat \\n\n", _parse.line);
+/***/
+d307 2
+a308 2
+/** /printf("pat ;.* = \"%s\"\n", yytext);
+/***/
+d314 2
+a315 2
+/**/printf("pat . <any> yytext=\"%s\"\n", yytext);
+/***/
+d317 1
+a317 2
+/**/{
+/***/
+d320 3
+a322 3
+/**/printf("pat . token=%d = \"%s\"\n", yylval.token.token_id,
+/**/       token_rkw[yylval.token.token_id - T__NIL]);
+/***/
+d324 1
+a324 2
+/**/}
+/***/
+d331 55
+d387 17
+d435 1
+a435 1
+ *		'Plain text"		Plain text
+d445 1
+d449 4
+a452 3
+  qt = *(sp = dp = str);		/* Get quote character		*/
+/**/printf("s_filter: qt=%c\n", qt);
+/***/
+d463 2
+d467 3
+a469 1
+          char      nc = *sp++;		/* Look-ahead 'next' character	*/
+d473 1
+a473 1
+	        *dp++ = nc;		/* Copy the quote, advancing	*/
+d481 1
+a481 1
+/**/{ fprintf(stderr, "s_filter: quote qt=%02x and nc=%02x\n", qt, nc);
+d484 1
+d494 4
+a497 1
+  if (qt && (*--sp != qt))		/* Check for closing quote	*/
+d500 2
+d503 3
+a505 4
+  sp = strdup(str);
+/**/printf("s_filter: returning \"%s\"\n", sp);
+/***/
+  return sp;
+d524 1
+d529 1
+a529 1
+/** /{ printf("s_kw_lookup: compare \"%s\" with \"%s\"\n", str, *kw);
+d537 1
+a537 1
+/** /printf("s_kw_lookup: *kw%s=NULL returning %d\n", *kw ? "!" : "",
+d543 48
+d616 1
+a616 2
+/* need to hack in .INCLUDE stuff */
+  return 1;
+@
+
+
+1.11
+log
+@26-Dec-1994 Checkpoint 1
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.10 1994/12/16 07:22:19 ldl Exp ldl $
+@
+
+
+1.10
+log
+@15-Dec-1994 late
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.9 1994/12/15 23:42:29 ldl Exp ldl $
+@
+
+
+1.9
+log
+@15-Dec-1994 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/lex.l,v 1.8 1994/12/04 07:22:25 ldl Exp ldl $
+d217 1
+a217 1
+("+"|"-")?[0-9]+("."[0-9]*)?  {
+@
+
+
+1.8
+log
+@03-Dec-94 Checkpoint
+@
+text
+@d3 2
+a4 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/RCS/lex.l,v $
+ * $Header: /home/ldl/dbl/RCS/lex.l,v 1.7 1994/12/02 07:12:51 ldl Exp ldl $
+d109 3
+a111 3
+char    **cd_tab = &tokenseq[T__COMPILER_DIRECTIVES - T__NIL + 1],
+        **kw_tab = &tokenseq[T__KEYWORDS            - T__NIL + 1],
+        **op_tab = &tokenseq[T__OPERATORS           - T__NIL + 1];
+d142 1
+a142 1
+[\.?A-Za-z$][A-Za-z0-9$_]*	{	/* Keyword/directive/identifier	*/
+d153 7
+a159 1
+	return yylval.token.token_id = kw + T__NIL + (op_tab - tokenseq);
+d166 41
+d286 2
+d403 5
+d416 1
+a416 1
+  char   **kw = kwt;
+d462 1
+a462 1
+/* End of $Source: /home/ldl/dbl/RCS/lex.l,v $ */
+@
+
+
+1.7
+log
+@01-Dec-94 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/lex.l,v 1.6 1994/12/01 07:06:01 ldl Exp ldl $
+d13 1
+d16 1
+d22 1
+a22 1
+ *	Node *				// Created node for builtin
+d26 1
+a26 1
+ *	Node *				// Created node for string
+d30 1
+a30 1
+ *	Node *				// Created node for kw/dir/id
+a34 5
+ *	Keyword *			// Keyword entry (or NULL)
+ *	s_kw_lookup(str, kw_tab)	// Find kw entry in kw table
+ *	  char     *str;		// String to lookup
+ *	  Keyword   kw_tab[];		// Table of kw entries
+ *
+d40 1
+a40 3
+Node     *s_builtin	PROTOARGS((char *));
+static
+Node     *s_filter	PROTOARGS((char *));
+d42 1
+a42 1
+Node     *s_kw_dir_id	PROTOARGS((char *, int *));
+d44 1
+a44 1
+Keyword  *s_kw_lookup	PROTOARGS((char *, Keyword[]));
+a105 1
+    { NULL         , -1			}
+d108 5
+d123 18
+a140 13
+			  _parse.newline = 0;
+			  yylval.node = s_builtin(yytext);
+			  return T_BUILTIN;
+			}
+
+"."			{ /* Note: We get here indirectly (usually) from
+			   * the lex rule that follows, since there is
+			   * some context for when to recognize things.
+			   */
+			  _parse.newline = 0;
+			  yylval.node = s_filter(yytext);
+			  return T_O_PERIOD;
+			}
+d143 5
+a147 2
+			  Keyword  *kw;
+    			  int       t_type;
+d149 20
+a168 12
+			  if (yytext[0] == '.')
+			    {
+			      if ( kw = s_kw_lookup(yytext, op_tab) )
+NODE			        return kw->kw_tok;
+			      if ( kw = s_kw_lookup(yytext, cd_tab) )
+NODE			        return kw->kw_tok;
+			      REJECT;	/* Return to "." above		*/
+			    }
+			  _parse.newline = 0;
+			  yylval.node = s_kw_dir_id(yytext, &t_type);
+			  return t_type;
+			}
+d171 81
+a251 42
+			  _parse.newline = 0;
+			  yylval.node = s_filter(yytext);
+			  return T_NUMBER;
+			}
+
+\"[^\"\n]*\"		{
+			  _parse.newline = 0;
+			  if (yytext[strlen(yytext)-1] == '"')
+			    yymore();
+			  yylval.node = s_filter(yytext);
+			  return T_STRING;
+			}
+
+\'[^\'\n]*\'		{
+			  _parse.newline = 0;
+			  if (yytext[strlen(yytext)-1] == '\'')
+			    yymore();
+			  yylval.node = s_filter(yytext);
+			  return T_STRING;
+			}
+
+\n/[ \t\f]*"&"		{		/* Continuation			*/
+    			  int       n_type;
+			  _parse.newline = 0;
+			}
+
+\n			{		/* End of line			*/
+			  _parse.newline = 1;
+			}
+
+[ \t\f]			{		/* White space			*/
+			}
+
+';'.*			{		/* Zigamorphed comment		*/
+			}
+
+.			{		/* Single character tokens	*/
+			  _parse.newline = 0;
+			  if (strchr(ch_tok, yytext[0]))
+			    return yytext[0];
+			  c_warning("unknown character '%c'\n", yytext[0]);
+			}
+d262 1
+a262 1
+Node *
+d266 1
+a266 4
+  static
+  Keyword   bad_bi = { "%UnknownBuiltin", T_BUILTIN };
+  register
+  Keyword  *bi;
+d269 2
+a270 5
+    {
+      c_error("unknown %BUILTIN function '%s'\n", str);
+      bi = &bad_bi;			/* Not found, will cause fatal	*/
+    }
+/* build node */
+d293 2
+a294 1
+Node *
+d302 2
+d305 3
+a307 4
+    {
+      sp++;				/* Don't copy the quote 	*/
+      qt = '\000';
+    }
+d341 1
+a341 1
+    c_warning("missing closing %s\n", (qt="'") ? "\"'\"" : "'\"'");
+d345 3
+d352 2
+a353 45
+ *	Handle the cases of keyword, directive and identifier.
+ *	Note: For all keywords and directives, the strings in the
+ *	      nodes are static, for identifiers, dynamic.
+ */
+static
+Node *
+s_kw_dir_id(str, t_type)				/* Function	*/
+  char     *str;
+  int      *t_type;
+{
+  static
+  Keyword   bad_dir_op = { ".Directive/.Operator", T_BUILTIN };
+  Keyword  *kw = (Keyword *)NULL;
+
+  if (str[0] == '.')			/* Is a directive or operator?	*/
+    {
+      if ( ! (kw = s_kw_lookup(str, cd_tab)) )
+        kw = s_kw_lookup(str, op_tab);
+    }
+  else
+    {
+      if (_parse.datatype == 0)		/* If datatype, no kw search	*/
+        kw = s_kw_lookup(str, kw_tab);
+
+      if ( ! kw )			/* 
+      if ( ! (_parse.datatype && (kw = s_kw_lookup(str, kw_tab))) )
+      if 
+    }
+  if (!(bi = s_kw_lookup(str, bi_tab)))	/* Lookup builtin		*/
+    {
+      c_error("unknown %BUILTIN function '%s'\n", str);
+      bi = &bad_bi;
+    }
+/* build node */
+    char     *kw_text;			/* Text to match keyword	*/
+    int       kw_tok;			/* Token id to return to parser	*/
+Keyword   kw_tab[] =			/* Keyword table		*/
+          op_tab[] =		/* Operator Table		*/
+          cd_tab[] =		/* Compiler Directives Table	*/
+} /* s_kw_dir_id */
+
+
+/***
+ *	Lookup string in Keyword table, returning pointer to entry,
+ *	or NULL (if not found).
+d356 1
+a356 1
+Keyword *
+d358 2
+a359 2
+  char     *str;
+  Keyword  kwt[];
+d362 1
+a362 1
+  Keyword *kw = &kwt;
+d365 3
+a367 1
+    if (strcmp(kw->kw_text, str) == 0)))
+d369 9
+a377 1
+  while ((++kw)->kw_text);		/* Try next entry		*/
+a378 2
+  return kw->kw_text ? kw : (Keyword *)NULL;
+} /* s_kw_lookup */
+d380 1
+a380 1
+/***
+d401 6
+@
+
+
+1.6
+log
+@30-Nov-94 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/lex.l,v 1.5 1994/11/28 05:26:51 ldl Exp ldl $
+d12 1
+a12 1
+#include <types.h>
+@
+
+
+1.5
+log
+@27-Nov-94 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/lex.l,v 1.4 1994/11/26 08:23:53 ldl Exp ldl $
+@
+
+
+1.4
+log
+@25-Nov-94 Checkpoint (Early A.M. on the 26th)
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/lex.l,v 1.3 1994/11/22 14:26:54 ldl Exp ldl $
+a12 1
+#include "node.h"
+@
+
+
+1.3
+log
+@22-Nov-94 Checkpoint
+@
+text
+@d3 2
+a4 2
+ * $Locker$ $Source$
+ * $Header$
+a16 9
+/***
+ *	Local typedefs
+ */
+typedef
+struct					/* Keywords			*/
+  {					/* ----------------------------	*/
+    char     *kw_text;			/* Text to match keyword	*/
+    int       kw_tok;			/* Token id to return to parser	*/
+  }           KeyWord;
+d54 2
+a55 2
+/**
+ * 	Local "global" data values.
+d57 1
+a57 208
+static
+Keyword   kw_tab[] =			/* Keyword table		*/
+  {					/* ---------------------------- */
+    { "ACCEPT"     , T_ACCEPT		},
+    { "ALIGN"      , T_ALIGN		},
+    { "ALLOC"      , T_ALLOC		},
+    { "BEGIN"      , T_BEGIN		},
+    { "BKTSIZ"     , T_BKTSIZ		},
+    { "BLKSIZ"     , T_BLKSIZ		},
+    { "BUFNUM"     , T_BUFNUM		},
+    { "BUFSIZ"     , T_BUFSIZ		},
+    { "BUILTIN"    , T_BUILTIN		},
+    { "BY"         , T_BY		},
+    { "CALL"       , T_CALL		},
+    { "CLEAR"      , T_CLEAR		},
+    { "CLOSE"      , T_CLOSE		},
+    { "COMMON"     , T_COMMON		},
+    { "CONTIG"     , T_CONTIG		},
+    { "COPIES"     , T_COPIES		},
+    { "DECR"       , T_DECR		},
+    { "DEFAULT"    , T_DEFAULT		},
+    { "DELETE"     , T_DELETE		},
+    { "DEQ"        , T_DEQ		},
+    { "DETACH"     , T_DETACH		},
+    { "DISPLAY"    , T_DISPLAY		},
+    { "DO"         , T_DO		},
+    { "EDIT"       , T_EDIT		},
+    { "ELSE"       , T_ELSE		},
+    { "END"        , T_END		},
+    { "ENDGROUP"   , T_ENDGROUP		},
+    { "ENDUSING"   , T_ENDUSING		},
+    { "ERASE"      , T_ERASE		},
+    { "EXIT"       , T_EXIT		},
+    { "EXITLOOP"   , T_EXITLOOP		},
+    { "EXTERNAL"   , T_EXTERNAL		},
+    { "FDL"        , T_FDL		},
+    { "FIND"       , T_FIND		},
+    { "FLAGS"      , T_FLAGS		},
+    { "FLUSH"      , T_FLUSH		},
+    { "FOR"        , T_FOR		},
+    { "FORM"       , T_FORM		},
+    { "FORMAT"     , T_FORMAT		},
+    { "FORMS"      , T_FORMS		},
+    { "FRETURN"    , T_FRETURN		},
+    { "FROM"       , T_FROM		},
+    { "FUNCTION"   , T_FUNCTION		},
+    { "GLOBAL"     , T_GLOBAL		},
+    { "GOTO"       , T_GOTO		},
+    { "GROUP"      , T_GROUP		},
+    { "IF"         , T_IF		},
+    { "INCR"       , T_INCR		},
+    { "KEY"        , T_KEY		},
+    { "KEYNUM"     , T_KEYNUM		},
+    { "LITERAL"    , T_LITERAL		},
+    { "LOCAL"      , T_LOCAL		},
+    { "LOCASE"     , T_LOCASE		},
+    { "LPNUM"      , T_LPNUM		},
+    { "LPQUE"      , T_LPQUE		},
+    { "MATCH"      , T_MATCH		},
+    { "MODE"       , T_MODE		},
+    { "NEXTLOOP"   , T_NEXTLOOP		},
+    { "NOP"        , T_NOP		},
+    { "NOSUFFIX"   , T_NOSUFFIX		},
+    { "NUMREC"     , T_NUMREC		},
+    { "OFFERROR"   , T_OFFERROR		},
+    { "OFFSET"     , T_OFFSET		},
+    { "ONERROR"    , T_ONERROR		},
+    { "OPEN"       , T_OPEN		},
+    { "POS"        , T_POS		},
+    { "PROC"       , T_PROC		},
+    { "PROMPT"     , T_PROMPT		},
+    { "PROTECT"    , T_PROTECT		},
+    { "RANGE"      , T_RANGE		},
+    { "READ"       , T_READ		},
+    { "READS"      , T_READS		},
+    { "RECORD"     , T_RECORD		},
+    { "RECSIZ"     , T_RECSIZ		},
+    { "RECTYPE"    , T_RECTYPE		},
+    { "RECV"       , T_RECV		},
+    { "REPEAT"     , T_REPEAT		},
+    { "RETURN"     , T_RETURN		},
+    { "RFA"        , T_RFA		},
+    { "SELECT"     , T_SELECT		},
+    { "SEND"       , T_SEND		},
+    { "SHARE"      , T_SHARE		},
+    { "SLEEP"      , T_SLEEP		},
+    { "STOP"       , T_STOP		},
+    { "STORE"      , T_STORE		},
+    { "SUBROUTINE" , T_SUBROUTINE	},
+    { "THEN"       , T_THEN		},
+    { "THRU"       , T_THRU		},
+    { "UNLOCK"     , T_UNLOCK		},
+    { "UNTIL"      , T_UNTIL		},
+    { "UPCASE"     , T_UPCASE		},
+    { "USING"      , T_USING		},
+    { "VIDEO"      , T_VIDEO		},
+    { "WAIT"       , T_WAIT		},
+    { "WHILE"      , T_WHILE		},
+    { "WRITE"      , T_WRITE		},
+    { "WRITES"     , T_WRITES		},
+    { "XCALL"      , T_XCALL		},
+    { "XRETURN"    , T_XRETURN		},
+    { NULL         , -1			}
+  },      op_tab[] =			/* Operator Table		*/
+  {					/* ----------------------------	*/
+    { "+"          , T_O_ADD		},
+    { "O_AND"      , T_O_AND		},
+    { "O_BAND"     , T_O_BAND		},
+    { "O_BNOT"     , T_O_BNOT		},
+    { "O_BOR"      , T_O_BOR		},
+    { "O_BXOR"     , T_O_BXOR		},
+    { ".EQ"        , T_O_EQ		},
+    { ".EQS"       , T_O_EQS		},
+    { ".EQU"       , T_O_EQU		},
+    { ".GE"        , T_O_GE		},
+    { ".GES"       , T_O_GES		},
+    { ".GEU"       , T_O_GEU		},
+    { ".GT"        , T_O_GT		},
+    { ".GTS"       , T_O_GTS		},
+    { ".GTU"       , T_O_GTU		},
+    { ".LE"        , T_O_LE		},
+    { ".LES"       , T_O_LES		},
+    { ".LEU"       , T_O_LEU		},
+    { ".LT"        , T_O_LT		},
+    { ".LTS"       , T_O_LTS		},
+    { ".LTU"       , T_O_LTU		},
+    { ".NE"        , T_O_NE		},
+    { ".NES"       , T_O_NES		},
+    { ".NEU"       , T_O_NEU		},
+    { "*"          , T_O_MUL		},
+    { "O_NOT"      , T_O_NOT		},
+    { "O_OR"       , T_O_OR		},
+    { "#"          , T_O_PND		},
+    { "##"         , T_O_PNDPND		},
+    { "/"          , T_O_DIV		},
+    { "//"         , T_O_SLHSLH		},
+    { "-"          , T_O_SUB		},
+    { "("          , T_O_LPAREN		},
+    { ")"          , T_O_RPAREN		},
+    { "*"          , T_O_MUL		},
+    { ","          , T_O_COMMA		},
+    { "."          , T_O_PERIOD		},
+    { ":"          , T_O_COLON		},
+    { "<"          , T_O_LESS		},
+    { "="          , T_O_EQUAL		},
+    { ">"          , T_O_GREAT		},
+    { "@@"          , T_O_AT		},
+    { "["          , T_O_LBRACE		},
+    { "]"          , T_O_RBRACE		},
+    { "O_XOR"      , T_O_XOR		},
+    { NULL         , -1			}
+  },      bi_tab[] =			/* Built-in Table		*/
+  {					/* ----------------------------	*/
+    { "%ABS"       , T_BUILTIN		},
+    { "%ADDR"      , T_BUILTIN		},
+    { "%ARGA"      , T_BUILTIN		},
+    { "%ARGN"      , T_BUILTIN		},
+    { "%B"         , T_BUILTIN		},
+    { "%BIN"       , T_BUILTIN		},
+    { "%BIT_IS_CLR", T_BUILTIN		},
+    { "%BIT_IS_SET", T_BUILTIN		},
+    { "%BBBKSTR"   , T_BUILTIN		},
+    { "%CHAR"      , T_BUILTIN		},
+    { "%CHOPEN"    , T_BUILTIN		},
+    { "%CPUTIME"   , T_BUILTIN		},
+    { "%D"         , T_BUILTIN		},
+    { "%DATE"      , T_BUILTIN		},
+    { "%DECML"     , T_BUILTIN		},
+    { "%DEFINED"   , T_BUILTIN		},
+    { "%DESCR"     , T_BUILTIN		},
+    { "%ERLINE"    , T_BUILTIN		},
+    { "%ERROR"     , T_BUILTIN		},
+    { "%HEX"       , T_BUILTIN		},
+    { "%INRANGE"   , T_BUILTIN		},
+    { "%INSTR"     , T_BUILTIN		},
+    { "%INT"       , T_BUILTIN		},
+    { "%INTEGER"   , T_BUILTIN		},
+    { "%JBNO"      , T_BUILTIN		},
+    { "%NUMARGS"   , T_BUILTIN		},
+    { "%O"         , T_BUILTIN		},
+    { "%OCT"       , T_BUILTIN		},
+    { "%OUTRANGE"  , T_BUILTIN		},
+    { "%PACKED"    , T_BUILTIN		},
+    { "%PASSED"    , T_BUILTIN		},
+    { "%REF"       , T_BUILTIN		},
+    { "%RFA"       , T_BUILTIN		},
+    { "%RSIZE"     , T_BUILTIN		},
+    { "%RTERM"     , T_BUILTIN		},
+    { "%SIZE"      , T_BUILTIN		},
+    { "%STRING"    , T_BUILTIN		},
+    { "%SUCCESS"   , T_BUILTIN		},
+    { "%SYSERR"    , T_BUILTIN		},
+    { "%TIME"      , T_BUILTIN		},
+    { "%TNMBR"     , T_BUILTIN		},
+    { "%TTNAME"    , T_BUILTIN		},
+    { "%TTSTS"     , T_BUILTIN		},
+    { "%UNSIGNED"  , T_BUILTIN		},
+    { "%VAL"       , T_BUILTIN		},
+    { "%VARIANT"   , T_BUILTIN		},
+    { "%VERSN"     , T_BUILTIN		},
+    { "%VMS"       , T_BUILTIN		},
+    { "%WAIT"      , T_BUILTIN		},
+    { "%WKDAY"     , T_BUILTIN		},
+    { "%X"         , T_BUILTIN		},
+    { "%XTRNL"     , T_BUILTIN		},
+    { "%ZONED"     , T_BUILTIN		},
+    { NULL         , -1			}
+  },      cd_tab[] =			/* Compiler Directives Table	*/
+d59 53
+a111 21
+    { ".ALIGN"     , T_CD_ALIGN		},
+    { ".END"       , T_CD_END		},
+    { ".IDENT"     , T_CD_IDENT		},
+    { ".IF"        , T_CD_IF		},
+    { ".ELSE"      , T_CD_ELSE		},
+    { ".ENDC"      , T_CD_ENDC		},
+    { ".IFDEF"     , T_CD_IFDEF		},
+    { ".IFNDEF"    , T_CD_IFNDEF	},
+    { ".INCLUDE"   , T_CD_INCLUDE	},
+    { ".LIST"      , T_CD_LIST		},
+    { ".MAIN"      , T_CD_MAIN		},
+    { ".NOLIST"    , T_CD_NOLIST	},
+    { ".PAGE"      , T_CD_PAGE		},
+    { ".PROC"      , T_CD_PROC		},
+    { ".PSECT"     , T_CD_PSECT		},
+    { ".RESTORE"   , T_CD_RESTORE	},
+    { ".SAVE"      , T_CD_SAVE		},
+    { ".SHOW"      , T_CD_SHOW		},
+    { ".SUBROUTINE", T_CD_SUBROUTINE	},
+    { ".SUBTITLE"  , T_CD_SUBTITLE	},
+    { ".TITLE"     , T_CD_TITLE		},
+d385 1
+a385 1
+/* End of $Source$ */
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d1 5
+a5 233
+" quote
+" "
+"\t"
+#
+##
+%
+& continuation
+'
+(
+)
+*
++
+,
+-
+.
+/
+//
+:
+; comment
+<
+=
+>
+[
+]
+
+<id> = [a-z$][a-z0-9$_]* 
+<lit> = "O'Hare" 'O''Hare'
+<num> = {+|-}d{d}*.?{d}*
+
+ACCEPT
+BEGIN
+GROUP
+ENDGROUP
+GLOBAL
+EXTERNAL
+NOSUFFIX
+END
+CALL
+CLEAR
+CLOSE
+DECR
+DELETE
+DETACH
+DISPLAY
+DO
+UNTIL
+EXIT
+EXITLOOP
+FIND
+FLUSH
+FOR
+FORMS
+FRETURN
+GOTO
+IF
+THEN
+ELSE
+INCR
+LOCASE
+LPQUE
+NEXTLOOP
+NOP
+OFFERROR
+ONERROR
+OPEN
+PROC
+READ
+READS
+RECV
+REPEAT
+RETURN
+SEND
+SLEEP
+STOP
+STORE
+UNLOCK
+UPCASE
+USING
+RANGE
+WHILE
+WRITE
+WRITES
+XCALL
+XRETURN
+%ABS(exp)
+%ADDR(field)
+%ARGA(m)
+%ARGN(m)
+%B(value)
+%BIN(exp[,flag])
+%BIT_IS_CLR(bitnum,value)
+%BIT_IS_SET(bitnum,value)
+%BBBKSTR(start_pos,string,substring)
+%CHAR(exp)
+%CHOPEN(ch)
+%CPUTIME
+%D(value)
+%DATE
+%DECML(string)
+%DEFINED(field)
+%DESCR(argname)
+%ERLINE
+%ERROR
+%HEX(exp[,flag])
+%INRANGE
+%INSTR(start_pos,string,substring)
+%INT(exp)
+%INTEGER(exp)
+%JBNO
+%NUMARGS
+%O(value)
+%OCT(exp[,flag])
+%OUTRANGE
+%PACKED(exp)
+%PASSED(argname)
+%REF
+%RFA
+%RSIZE
+%RTERM
+%SIZE(field_name)
+%STRING(exp)
+%SUCCESS(status)
+%SYSERR
+%TIME
+%TNMBR
+%TTNAME
+%TTSTS(ch)
+%UNSIGNED(exp)
+%VAL(exp)
+%VARIANT
+%VERSN
+%VMS
+%WAIT(parameterss[,seconds])
+%WKDAY
+%X(value)
+%XTRNL(exp)
+%ZONED(exp)
+ACCESS
+ASCII
+BEGFL
+CHAIN
+DATE
+DBL$ASTRST
+DBL$ASTSAV
+DBL$BKSTR
+DBL$CHOPEN
+DBL$CPUTM
+DBL$CREMBX
+DBL$DELMBX
+DBL$DEVCLT
+DBL$ERRMOD
+DBL$ERRTXT
+DBL$EXECUTE_IMAGE_ROUTINE
+DBL$EXITERROR
+DBL$GETDFN
+DBL$GETFNM
+DBL$PARSE
+DBL$SETCTL
+DBL$SETDFN
+DBL$SNDOP
+DBL$TIMOUT
+DBL$TTBRDCST
+DBL$TTCHAR
+DBL$TTNAME
+DBL$TT_NAME_TO_NUMBER
+DBL$TT_NUMBER_TO_NAME
+DBL$WKDAY
+DBL$XARGS
+DBL$XSTAT
+DCML
+DELET
+DSMNT
+EMPBUF
+ENDFL
+ERROR
+FATAL
+FILEC
+FLAGS
+GETCM
+GETFA
+GLINE
+GTENT
+INSTR
+JBNAM
+JBNO
+KILL
+LOCK
+MNT
+MONEY
+PAK
+PURGE
+PUTCM
+RCVID
+RENAM
+RSTAT
+RSTATD
+RUNJB
+SIZE
+SLICE
+SORT
+SRCVID
+SRECV
+SSEND
+TIME
+TNMBR
+TTFLGS
+TTSTS
+UNLOCK
+UNPAK
+VERSN
+WAIT
+---
+.ALIGN
+.END
+.IDENT
+.IF
+.ELSE
+.ENDC
+.IFDEF
+.IFNDEF
+.INCLUDE
+.LIST
+.MAIN
+.NOLIST
+.PAGE
+.PROC
+.PSECT
+.RESTORE
+.SAVE
+.SHOW
+.SUBROUTINE
+.SUBTITLE
+.TITLE
+d7 3
+a9 1
+---
+d11 559
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@

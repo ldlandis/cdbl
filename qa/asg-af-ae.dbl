@@ -1,0 +1,38 @@
+;;;
+; $Source$
+; $Revision$ $Date$
+; 3.3.1 Moving Alpha Data
+; afield = aexp
+RECORD NAMES
+	NAME1	, A4, 'Fred'
+	NAME2	, A7, 'Johnson'
+RECORD REC
+	A	, A5, 'ABCDE'
+	B	, A3, 'FGH'
+
+PROC
+	DISPLAY(1, "NAMES='",NAMES,"'",10)
+	NAME1=NAME2
+	DISPLAY(1, "NAMES='",NAMES,"' want 'JohnJohnson'", 10)
+	DISPLAY(1, "NAMES.NAME1='",NAMES.NAME1,"' want 'John'", 10)
+	DISPLAY(1, "NAMES.NAME2='",NAMES.NAME2,"' want 'Johnson'", 10, 10)
+
+	DISPLAY(1, "REC='",REC,"'", 10)
+	A=B
+	DISPLAY(1, "A=B", 10)
+	DISPLAY(1, "  REC='",REC,"' want 'FGH  FGH'", 10)
+	DISPLAY(1, "  REC.A='",REC.A,"' want 'FGH  '", 10)
+	DISPLAY(1, "  REC.B='",REC.B,"' want 'FGH'", 10)
+	A=B [RIGHT]
+	DISPLAY(1, "A=B [RIGHT]", 10)
+	DISPLAY(1, "  REC='",REC,"' want '  FGHFGH'", 10)
+	DISPLAY(1, "  REC.A='",REC.A,"' want '  FGH'", 10)
+	DISPLAY(1, "  REC.B='",REC.B,"' want 'FGH'", 10)
+	A=B [LEFT]
+	DISPLAY(1, "A=B [LEFT]", 10)
+	DISPLAY(1, "  REC='",REC,"' want 'FGH  FGH'", 10)
+	DISPLAY(1, "  REC.A='",REC.A,"' want 'FGH  '", 10)
+	DISPLAY(1, "  REC.B='",REC.B,"' want 'FGH'", 10)
+	END
+
+; End of $Source$

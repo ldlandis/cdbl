@@ -1,0 +1,19 @@
+/***
+ * $Source$
+ * $Revision$ $Date$
+ */
+
+#include <stdio.h>
+#include <cdbl/cdbl_rt.h>
+
+void
+XCALL_FUNC(
+)(narg, arg)				/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+{
+} /*
+XCALL */
+
+
+/* End of $Source$ */

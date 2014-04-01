@@ -1,0 +1,64 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.30;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.33;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/builtin/RCS/bi_char.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:33 $
+ */
+
+/***
+ *	Builtin function CHAR
+ */
+
+#include "../cdbl_rt.h"
+
+DBLArg_t
+BUILTIN_FUNC(CHAR)(narg, arg)				/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+{
+  DBLArg_t  result;
+  return result;
+} /* CHAR BUILTIN */ 
+
+/* End of $Source: /home/ldl/dbl/cdbl/builtin/RCS/bi_char.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Source$
+ * $Revision$ $Date$
+d21 1
+a21 1
+/* End of $Source$ */
+@

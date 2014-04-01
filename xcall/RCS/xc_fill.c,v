@@ -1,0 +1,88 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.45;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.42;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_fill.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:42 $
+ */
+
+#include <stdio.h>
+#include "../cdbl_rt.h"
+#include "xc__ckarg.h"
+
+static
+XC_ADscr  adscr[] =
+            { /* min  max  type     flags     ercode     */
+	      {    0,   0, "A" , 0,             NULL   },
+	      {    0,   0, "A" , ARG_ISVAR  ,   NULL   },
+	    };
+static
+int       nadscr = sizeof(adscr) / sizeof(adscr[0]);
+
+void
+XCALL_FUNC(FILL)(narg, arg)				/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+{
+  char     *rtn = "FILL";
+  char     *sp, *dp;
+  int       m, n;
+
+  xc__ckarg(rtn, narg, arg, nadscr, adscr);
+
+  dp = (char *)arg[1].addr;
+  n  =  arg[1].size;
+
+  m  = 0;				/* Need to prime pump		*/
+  while (n-- > 0)
+    {
+      if (--m <= 0)			/* Time to re-prime pump	*/
+	{
+          sp = (char *)arg[0].addr;
+	  m  = arg[0].size;
+	}
+      *dp++ = *sp++;
+    }
+} /* FILL XCALL */ 
+
+/* End of $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_fill.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Source$
+ * $Revision$ $Date$
+d45 1
+a45 1
+/* End of $Source$ */
+@

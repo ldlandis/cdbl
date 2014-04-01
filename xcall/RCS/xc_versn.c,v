@@ -1,0 +1,101 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.49;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.44;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_versn.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:44 $
+ */
+
+#include <stdio.h>
+#include <string.h>
+#include "../cdbl_rt.h"
+#include "xc__ckarg.h"
+
+static
+char     *versn = "$Revision: 1.73 $";
+
+static
+XC_ADscr  adscr[] =
+            { /* min  max  type     flags     ercode     */
+	      {    0,   0, "A" , ARG_ISVAR  ,   NULL   }
+	    };
+static
+int       nadscr = sizeof(adscr) / sizeof(adscr[0]);
+
+void
+XCALL_FUNC(VERSN)(narg, arg)				/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+{
+  char     *rtn = "VERSN";
+  char      buf[21], *src, *dst;
+  int       majvn, minvn, patch, n;
+
+  xc__ckarg(rtn, narg, arg, nadscr, adscr);
+  if (narg != 1)
+
+  majvn = atoi(strchr(versn, ':') + 1);
+  minvn = atoi(strchr(versn, '.') + 1);
+  patch = 0;
+
+  sprintf(buf, "%-7s%-4s%.1s%02d.%02d%02d",
+          "Linux  ",
+	  "    ",
+	  "T",
+	  majvn,
+	  minvn,
+	  patch
+	 );
+  src = buf;
+  dst = (char *)arg->addr;
+  n   = arg->size;
+  while (*src && (n-- > 0))
+    *dst++ = *src++;
+  while (n-- > 0)
+    *dst++ = ' ';
+} /* VERSN XCALL */ 
+
+/* End of $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_versn.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Source$
+ * $Revision$ $Date$
+d12 1
+a12 1
+char     *versn = "$Revision: 1.72 $";
+d55 1
+a55 1
+/* End of $Source$ */
+@

@@ -1,0 +1,34 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.05.51;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@RECORD
+	DATA, A8
+	REC,  D1
+
+PROC
+	DATA = $true
+	DATA = $false
+;	DATA = %nobuiltin
+	DATA = %true
+	DATA = %false
+	END
+@

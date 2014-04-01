@@ -1,0 +1,12 @@
+#include "../xcall/xc__ckarg.h"
+
+static
+XC_ADscr  adscr[] =
+            { /* min  max  type     flags     ercode     */
+	      {    0,   0, NULL, 0,             NULL   },
+	      {    0,   0, "A" , ARG_ISVAR  ,   NULL   },
+	    };
+static
+int       nadscr = sizeof(adscr) / sizeof(adscr[0]);
+
+  xc__ckarg(rtn, narg, arg, nadscr, adscr);

@@ -1,0 +1,17 @@
+PROC
+	OPEN(1,O,"file",
+	        ALLOC:1,
+	        BKTSIZ:1,
+	        BLKSIZ:1,
+	        BUFNUM:1,
+	        BUFSIZ:1,
+	        CONTIG:1,
+	        DEQ:1,
+	        FDL:1,
+	        KEY:1,
+	        NUMREC:1,
+		OPTIONS:1,
+	        PROTECT:1,
+	        RECSIZ:1,
+	        RECTYPE:1,
+	        SHARE:1)

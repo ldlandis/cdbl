@@ -1,0 +1,4214 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.57;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.54;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.05.58;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.24;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.02;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.12;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.07;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.37;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.35;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.27;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.10;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.32;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.13;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.02;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.45.59;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.01;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.44;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.39.00;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.06;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.49;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.27;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.51;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.18;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.48;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.40;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.46;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.22;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.04;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.25;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.40.43;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.33;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.46;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.36;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.03;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.29;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.44;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.21;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.13;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.20;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.29;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.15;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.14;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.52;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.09;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.40;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.56;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.11;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.28;	author ldl;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	95.03.26.19.58.13;	author ldl;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	95.03.23.13.31.33;	author ldl;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	95.03.19.23.29.18;	author ldl;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	95.03.08.13.33.28;	author ldl;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	95.03.06.12.00.17;	author ldl;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	95.03.06.10.31.58;	author ldl;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	95.03.05.03.24.37;	author ldl;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	95.03.03.12.36.19;	author ldl;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	95.02.27.12.55.27;	author ldl;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	95.02.26.10.54.28;	author ldl;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	95.01.07.15.34.52;	author ldl;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	95.01.07.11.22.35;	author ldl;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	94.12.31.02.31.31;	author ldl;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	94.12.30.21.01.50;	author ldl;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	94.12.27.04.07.25;	author ldl;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	94.12.26.23.52.58;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/gram_support.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:54 $
+ */
+
+/**
+ *	Support routines included by the resulting gram.c (output
+ *	from yacc of gram.g).
+ */
+
+#define	IS_t__NIL(x)	(\
+			  ((x).token_id == t__NIL.token_id) &&\
+			  ((x).token_value == t__NIL.token_value)\
+		        )
+static
+Token     t__NIL = { T__NIL, NULL };	/* The T__NIL token		*/
+
+/**
+ *	Ties to the _tokens.c stuff.
+ */
+extern
+char     *tokenseq[];
+static
+char    **kw_tab = &tokenseq[T__KEYWORDS - T__NIL];
+#define ALLOW_KEYWORD(x)	tokenseq[x - T__NIL]
+
+
+/**
+ *	Support functions
+ */
+static
+Node_id
+  x_accept_args		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_accept_option	PROTOARGS((Token, Node_id)),
+  x_assignment		PROTOARGS((Node_id, Token,Node_id,Node_id,Node_id)),
+  x_begin_end_label	PROTOARGS((Node_id)),
+  x_builtin		PROTOARGS((Token, Node_id)),
+  x_builtin_def_args	PROTOARGS((Token, Node_id)),
+  x_call		PROTOARGS((Node_id, Node_id)),
+  x_case		PROTOARGS((Node_id, Node_id)),
+  x_case_element	PROTOARGS((Node_id, Token, Node_id)),
+  x_case_else		PROTOARGS((Node_id, Token, Node_id)),
+  x_common_def_header	PROTOARGS((Token, Token, Node_id, Node_id, Node_id)),
+  x_display		PROTOARGS((Node_id, Node_id)),
+  x_display_item	PROTOARGS((Node_id, Node_id)),
+  x_do_until		PROTOARGS((Node_id, Token, Node_id)),
+  x_delete		PROTOARGS((Node_id, Node_id)),
+  x_division		PROTOARGS((Node_id, Node_id)),
+  x_expr_op_expr	PROTOARGS((Node_id, Token, Node_id)),
+  x_field		PROTOARGS((Node_id, Node_id, Node_id, Node_id)),
+  x_field_ref		PROTOARGS(()),
+  x_field_type		PROTOARGS((Node_id, Node_id)),
+  x_find		PROTOARGS((Node_id, Node_id)),
+  x_find_option_expr	PROTOARGS((Token, Node_id)),
+  x_for		PROTOARGS((Node_id, Node_id, Node_id, Node_id, Node_id)),
+  x_forms		PROTOARGS((Node_id, Node_id)),
+  x_func_def_header	PROTOARGS((Token, Token, Token, Node_id)),
+  x_gbl_def_header	PROTOARGS((Token, Token, Node_id, Node_id, Token)),
+  x_get_args		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_gets_args		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_goto		PROTOARGS((Node_id, Node_id)),
+  x_group_definition	PROTOARGS((Token, Node_id)),
+  x_if			PROTOARGS((Node_id, Node_id)),
+  x_if_then_else	PROTOARGS((Node_id, Node_id, Node_id)),
+  x_io			PROTOARGS((Node_id, Node_id)),
+  x_io_exception	PROTOARGS((Token, Token, Token)),
+  x_io_indexed_option	PROTOARGS((Token, Node_id)),
+  x_lit_def_header	PROTOARGS((Token, Token, Node_id, Node_id)),
+  x_lpque		PROTOARGS((Node_id, Node_id)),
+  x_lpque_option	PROTOARGS((Token, Node_id)),
+  x_onerror_trap	PROTOARGS((Node_id, Token)),
+  x_op_expr		PROTOARGS((Token, Node_id)),
+  x_open_attr		PROTOARGS((Token, Node_id)),
+  x_open_mode		PROTOARGS((Token, Node_id)),
+  x_open_options	PROTOARGS((Node_id, Node_id, Node_id, Node_id)),
+  x_proc_div_label	PROTOARGS((Node_id)),
+  x_proc_div_proc	PROTOARGS((Token, Node_id)),
+  x_put_args		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_puts_args		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_read_args		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_read_option		PROTOARGS((Token, Node_id)),
+  x_reads_args		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_reads_label_opts	PROTOARGS((Node_id, Node_id)),
+  x_reads_option	PROTOARGS((Token, Node_id)),
+  x_record_def_header	PROTOARGS((Token, Node_id, Node_id)),
+  x_recv		PROTOARGS((Node_id, Token, Node_id)),
+  x_ref			PROTOARGS((Node_id, Node_id, Node_id)),
+  x_register_div	PROTOARGS((Node_id)),
+  x_send		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_set			PROTOARGS((Node_id, Node_id)),
+  x_sleep		PROTOARGS((Node_id)),
+  x_sort		PROTOARGS((Node_id)),
+  x_sort_arg		PROTOARGS((Token, Node_id)),
+  x_stop_type_at	PROTOARGS((Node_id, Node_id)),
+  x_store		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_sub_decl		PROTOARGS((Token, Token, Node_id)),
+  x_subroutine_division	PROTOARGS((Node_id, Node_id)),
+  x_tree_program	PROTOARGS((Node_id, Node_id)),
+  x_using_select	PROTOARGS((Node_id, Node_id, Node_id)),
+  x_using_selector	PROTOARGS((Node_id, Node_id)),
+  x_video_attr		PROTOARGS((Token, Node_id)),
+  x_video_attr_pos	PROTOARGS((Node_id, Node_id)),
+  x_while		PROTOARGS((Node_id, Node_id)),
+  x_write_args		PROTOARGS((Node_id, Node_id, Node_id)),
+  x_write_option	PROTOARGS((Token, Node_id)),
+  x_writes_args		PROTOARGS((Node_id, Node_id)),
+  x_xcall		PROTOARGS((Token, Node_id));
+static
+Node_id
+  y_id_iskey		PROTOARGS((Token, int)),
+  y_kw_lkset		PROTOARGS((Token, Node_id, int [])),
+  y_scan_expr		PROTOARGS((Node_id, int));
+static
+void
+  x_cd_define		PROTOARGS((Token, Node_id)),
+  y_setdiv		PROTOARGS((int));
+
+/**
+ *	External functions.
+ */
+void
+init_divisions()					/* Function	*/
+{
+  x_division(NIL, (Node_id) -1);
+} /* init_divisions */
+
+/**
+ * CAVEAT: The following is pretty "yacc" generator dependant.  Steal
+ *	   code in the error recovery, pop state area.  Counts on the
+ *	   yyssp, yyss and yyvsp being "global" enough to be updated.
+ */
+void
+pop_gram_state(why)					/* Function	*/
+  char     *why;
+{
+  if (yydebug)
+    printf("yydebug: %s, tossing earlier state %d\n", why, *yyssp);
+  if (yyssp <= yyss)
+    c_error("pop_gram_state: internal error, no state to pop");
+  else
+    {
+      --yyssp;
+      --yyvsp;
+    }
+} /* pop_gram_state */
+
+/**
+ *	Internal functions.
+ */
+
+static
+Node_id
+x_accept_args(ioch, ref, opts)				/* Function	*/
+  Node_id   ioch;
+  Node_id   ref;
+  Node_id   opts;
+{
+  Node_id   n;
+  ns(n = nn(), T_ACCEPT, "x_accept_args");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T_O_COMMA, ref);
+  if ( opts )
+    {
+      Node_id   o;
+      ns(o = nn(), T_O_COMMA, "x_accept_args");
+      adf_n(o, opts);
+      rs(n, T_O_COMMA, o);
+    }
+  return n;
+} /* x_accept_args */
+
+static
+Node_id
+x_accept_option(t, e)					/* Function	*/
+  Token     t;
+  Node_id   e;
+{
+  static
+  int       valid[]
+            = {
+	        T_WAIT,
+	        0
+	      };
+  return y_kw_lkset(t, e, valid);
+} /* x_accept_option */
+
+/**
+ * Note:
+ *	In the parse, we may have accepted the 'align' during the parse
+ *	of the 'ref', since it sort of looks like a "real" array subscript
+ *	(i.e. [LEFT] or [RIGHT]).  So if 'align' is NIL, then we try to
+ *	get the alignment from the T_ALIGN hanging on (somewhere) in the
+ *	'expr' (if present).
+ */
+static
+Node_id
+x_assignment(ref, equal, expr, fmt, align)		/* Function	*/
+  Node_id   ref;
+  Token     equal;
+  Node_id   expr;
+  Node_id   fmt;
+  Node_id   align;
+{
+  Node_id   n = mkid(equal), op = mkid(equal);
+
+  post_file_lineno(n);			/* Post current file/lineno	*/
+  rs(n, T__LEFT, ref);			/* lvalue			*/
+  rs(n, T__OPERATOR, op);		/* operator			*/
+  if (expr)
+    rs(n, T__RIGHT, expr);		/* rvalue			*/
+  if (fmt)
+    rs(n, T_O_COMMA, fmt);		/* save formatting info		*/
+
+/** /printf("x_assignment: ref=[%d] align=[%d]\n", ref, align);
+/***/
+  if ( ! align )			/* No alignment from parse	*/
+    {
+      align = y_scan_expr(expr, T_ALIGN);/* May have one hanging around	*/
+/** /printf("x_assignment: rnn([%d], T_ALIGN, NIL)->[%d]\n", ref, align);
+/***/
+      if (align)			/* Gotta dup, can't double ref	*/
+        {				/* in the tangled net		*/
+          int       xt;
+          char     *xs;
+	  ng(align, &xt, &xs);		/* Get alignment parameter	*/
+/** /printf("x_assignment: xt=%s(%d) xs=\"%s\"\n", to_token(xt), xt, xs);
+/***/
+	  ns(align = nn(), xt, xs);	/* Create new copy		*/
+	}
+    }
+/** /printf("x_assignment: ref=[%d] align=[%d]\n", ref, align);
+/***/
+  if (align)
+    rs(n, T_ALIGN, align);		/* save alignment info		*/
+  return n;
+} /* x_assignment */
+
+static
+Node_id
+x_begin_end_label(label)				/* Function	*/
+  Node_id   label;
+{
+  post_label(label);			/* Post, and error if dup	*/
+  return label;
+} /* x_begin_end_label */
+
+static
+Node_id
+x_builtin(tok, args)					/* Function	*/
+  Token     tok;
+  Node_id   args;
+{
+  Node_id   n = mkid(tok);
+  if (args)
+    {
+      Node_id   a;
+      ns(a = nn(), T_O_LPAREN, "x_builtin");
+      adf_n(a, args);
+      rs(n, T_O_LPAREN, a);
+    }
+  return n;
+} /* builtin */
+
+static
+Node_id
+x_builtin_def_args(tok, list)				/* Function	*/
+  Token     tok;
+  Node_id   list;
+{
+  Node_id   n = mkid(tok);
+
+  y_setdiv(DIV_DAT);			/* In data division		*/
+  if (list)
+    rs(n, T_O_LPAREN, list);
+  return n;
+} /* x_builtin_def_args */
+
+static
+Node_id
+x_call(labels, expr)					/* Function	*/
+  Node_id   labels;
+  Node_id   expr;
+{
+  static
+  long      ret = 0;			/* "global" return target id#	*/
+  Node_id   n;
+  ns(n = nn(), T_CALL, "x_call");
+  post_long(n, T_RETURN, ++ret);	/* Assign local return tag	*/
+  post_long(_parse.div_base, T_RETURN, ret);
+  rs(n, T_ID, labels);
+  if (expr)
+    rs(n, T__EXPR, expr);
+  return n;
+} /* x_call */
+
+static
+Node_id
+x_case(expr, cases)					/* Function	*/
+  Node_id   expr;
+  Node_id   cases;
+{
+  Node_id   n, nt;
+  ns(n = nn(), T_CASE, "x_case");
+  rs(n, T__EXPR, expr);
+  ns(nt = nn(), T_CASE, "x_case");
+  adf_n(nt, cases);
+  rs(n, T_CASE, nt);
+  return n;
+} /* x_case */
+
+static
+Node_id
+x_case_element(val, colon, stmt)			/* Function	*/
+  Node_id   val;
+  Token     colon;
+  Node_id   stmt;
+{
+  Node_id   n, nt;
+  ns(n = nn(), T__STMT, "x_case_element");
+  adf_n(n, stmt);
+  return x_expr_op_expr(val, colon, n);
+} /* x_case_element */
+
+static
+Node_id
+x_case_else(cases, t_else, stmt)			/* Function	*/
+  Node_id   cases;
+  Token     t_else;
+  Node_id   stmt;
+{
+  Node_id   n;
+  if (rnn(cases, t_else.token_id, NIL))	/* Already have an else?	*/
+    c_error("already have %s for this case", to_token(t_else.token_id));
+  ns(n = nn(), T__STMT, "x_case_else");
+  adf_n(n, stmt);
+  rs(cases, t_else.token_id, n);	/* Add else to case		*/
+  return cases;
+} /* x_case_else */
+
+/**
+ * Note: IFDEF/IFNDEF look in both the define (T_CD_DEFINE) and variable
+ *	 table (T_ID), but definitions are not stored in the variable table.
+ */
+static
+void
+x_cd_define(symbol, value)				/* Function	*/
+  Token     symbol;
+  Node_id   value;
+{
+  Node_id   n = mkid(symbol);
+  if ( lkupid(n, T_ID) || lkupid(n, T_CD_DEFINE) )
+    {
+      c_warning("redefinition of %s - ignored", symbol.token_value);
+      goto BailOut;
+    }
+  if (value)				/* Save value (optional)	*/
+    {
+      int       xt, len;
+      Node_id   t, tt;
+      char     *xs, type[6];
+      Token     size;
+
+      ng(value, &xt, &xs);		/* Get define's value		*/
+      len = strlen(xs);
+      sprintf(type, "%s%d", xt == T_NUMBER ? "D" : "A", len);
+
+      size.token_id    = xt;		/* Make-up T__TYPE descriptor	*/
+      size.token_value = s_filter(type);
+      t  = mkid(size);
+      post_long(t, T__SIZE_BUFFER, (long)len);
+      ns(tt = nn(), T_ID, "define type");
+      rs(tt, T__TYPE, t);
+
+      rs(n, T_CD_DEFINE, value);	/* Post value for define	*/
+      rs(n, T__TYPE, tt);
+      post_long(n, T__SIZE_BUFFER, (long)len);
+    }
+  rs(_parse.div_base, T_CD_DEFINE, n);	/* Post to DEFINE table		*/
+BailOut:
+  ;
+} /* x_cd_define */
+
+static
+Node_id
+x_common_def_header(class, kw, name, redef, nosuffix)	/* Function	*/
+  Token     class;
+  Token     kw;
+  Node_id   name;
+  Node_id   redef;
+  Node_id   nosuffix;
+
+{
+  Node_id   n = mkid(kw);		/* Create T_COMMON record	*/
+
+  if (class.token_id != T__NIL)
+    rs(n, T__CLASS, mkid(class));	/* (Optional) storage class	*/
+
+  if ( ! name )				/* (Optional) common name	*/
+    name = mkupname(T_COMMON);		/* Invent name			*/
+  rs(n, T_ID, name);			/* Add record name		*/
+
+  if (redef)
+    rs(n, T_O_COMMA, redef);		/* (Optional) redefinition	*/
+  if (nosuffix)
+    rs(n, T_NOSUFFIX, nosuffix);	/* (Optional) no suffix		*/
+
+  y_setdiv(DIV_DAT);			/* In data division		*/
+
+  return n;
+} /* x_common_def_header */
+
+static
+Node_id
+x_display(chan, items)					/* Function	*/
+  Node_id   chan;
+  Node_id   items;
+{
+  Node_id   n;
+  ns(n = nn(), T_DISPLAY, "x_display");
+  rs(n, T_O_LPAREN, chan);		/* Channel number		*/
+  rs(n, T__FIRST, items);		/* Items to display		*/
+  return n;
+} /* x_display */
+
+static
+Node_id
+x_display_item(ref, vidattr)				/* Function	*/
+  Node_id   ref;
+  Node_id   vidattr;
+{
+  if (vidattr)				/* If video attributes, save	*/
+    rs(ref, T_O_LESS, vidattr);
+  return ref;
+} /* x_display_item */
+
+static
+Node_id
+x_division(prog, div)					/* Function	*/
+  Node_id   prog;
+  Node_id   div;
+{
+  if ( div )				/* Division (not directive)	*/
+    {
+      if ( ! _parse.div_base )
+        ns(_parse.div_base = nn(), T__DIVISION, "x_division");
+      if ( ! prog )			/* 1st division			*/
+        prog = _parse.div_base;		/* Assign the "base" now	*/
+      if (div > 0)			/* If real division (-1 = fake)	*/
+        prog = adf_n(prog, div);
+    }
+  return prog;
+} /* x_division */
+
+static
+Node_id
+x_delete(chan, key)					/* Function	*/
+  Node_id   chan;
+  Node_id   key;
+{
+  Node_id   n;
+  ns(n = nn(), T_DELETE, "x_delete");
+  rs(n, T_O_LPAREN, chan);		/* Channel number		*/
+  if (key)
+    rs(n, T_O_COMMA, key);		/* Optional key			*/
+  return n;
+} /* x_delete */
+
+static
+Node_id
+x_do_until(stmt, t_until, expr)				/* Function	*/
+  Node_id   stmt;
+  Token     t_until;	/* Or T_FOREVER */
+  Node_id   expr;
+{
+  Node_id   n = mkid(t_until), nt;
+  ns(nt = nn(), T__STMT, "x_do_until");
+  adf_n(nt, stmt);
+  rs(n, T__STMT, nt);
+  if (expr)				/* NIL if FOREVER		*/
+    rs(n, T__EXPR, expr);
+  return n;
+} /* x_do_until */
+
+static
+Node_id
+x_expr_op_expr(left, op, right)				/* Function	*/
+  Node_id   left;
+  Token     op;
+  Node_id   right;
+{
+  Node_id   n = mkid(op);
+  rs(n, T__LEFT, left);
+  rs(n, T__RIGHT, right);
+  return n;
+} /* x_expr_op_expr */
+
+static
+Node_id
+x_field(label, type, size, defaults)			/* Function	*/
+  Node_id   label;
+  Node_id   type;
+  Node_id   size;
+  Node_id   defaults;
+{
+  Node_id   n;
+
+  if (label && lkupid(label, T_CD_DEFINE))
+    {
+      int       xt;
+      char     *xs;
+      ng(label, &xt, &xs);
+      c_error("redefinition of named DEFINEd value %s", xs);
+    }
+  ns(n = nn(), T__FIELD, "x_field");
+
+/**
+ * Note:
+ *   If 'size' is non-NIL then the 'type' ended with a '*' (e.g. A* or D*).
+ *   In this case we need to jimmy the 'type' based on the contents of the
+ *   'defaults'.
+ */
+  if (size)				/* Have '*' for length, so go	*/
+    {					/*   figure the size via dflt	*/
+      int       xt, len;
+      Node_id   d;
+      char     *xs;
+
+/** /printf("x_field: with '*' type\n");
+/***/
+      len = 0;
+      d = defaults;
+      if (d = defaults)
+	{
+	  len = strlen((ng(d, &xt, &xs), xs));
+	  if (d = rnn(d, T__FIRST, NIL))
+	    do
+/** /{
+/***/
+             len += strlen((ng(d, &xt, &xs), xs));
+/** /printf("x_field: [%d] %s '%s'\n", d, to_token(xt), xs);
+/** /}
+/***/
+	    while (d = rnn(d, T__PRECEDES, NIL));
+	}
+/** /ng(type, &xt, &xs);
+/** /printf("x_field: len=%d type[%d].xt=%s .xs='%s'\n", len,
+/** /       type, to_token(xt), xs);
+/***/
+      { /* block */
+        char      newtype[10];
+	Node_id   t;
+	t = rnn(type, T__TYPE, NIL);
+	ng(t, &xt, &xs);
+	sprintf(newtype, "%s%d", xs, len);
+/** /printf("x_field: setting [%d].T__TYPE=[%d] to '%s'\n", type, t, newtype);
+/***/
+					/* Note: cancer for old 'xs'	*/
+	nsv(t, xt, strdup(newtype));	/* Set value only - not relation*/
+      } /* block */
+    }
+
+  if (label)				/* Optional label		*/
+    rs(n, T_LABEL, label);
+  rs(n, T__TYPE, type);			/* Data type			*/
+  if (size)				/* Optional size		*/
+    rs(n, T__EXPR, size);
+  if (defaults)				/* Optional default values	*/
+    rs(n, T__FIRST, defaults);
+  post_field(label, n);			/* Post field name		*/
+  return n;
+} /* x_field */
+
+static
+Node_id
+x_field_ref(y,z)					/* Function	*/
+{
+  Node_id   n;
+/**/c_error("gram_support.c:x_field_ref: not implemented");
+  return 10000006;
+} /* x_field_ref */
+
+static
+Node_id
+x_field_type(array, type)				/* Function	*/
+  Node_id   array;
+  Node_id   type;
+{
+  int       xt;
+  Node_id   n;
+  char     *xs;
+  ns(n = nn(), T__TYPE, "x_field_type");
+  if (array)				/* Optional array		*/
+    {
+      ng(array, &xt, &xs);
+      rs(n, xt, rnn(array, T__FIRST, NIL));
+    }
+  rs(n, T__TYPE, type);			/* Save type of field		*/
+  return n;
+} /* x_field_type */
+
+static
+Node_id
+x_find(ioch, opt)					/* Function	*/
+  Node_id   ioch;
+  Node_id   opt;
+{
+  Node_id   n;
+  ns(n = nn(), T_FIND, "x_find");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T_O_COMMA, opt);
+  return n;
+} /* x_find */
+
+static
+Node_id
+x_find_option_expr(rfa, expr)				/* Function	*/
+  Token     rfa;
+  Node_id   expr;
+{
+  Node_id   n = mkid(rfa);
+  rs(n, T_O_COLON, expr);
+  return n;
+} /* x_find_option_expr */
+
+static
+Node_id
+x_for(ref, from, thru, by, stmt)			/* Function	*/
+  Node_id   ref;
+  Node_id   from;
+  Node_id   thru;
+  Node_id   by;
+  Node_id   stmt;
+{
+  Node_id   n, nt;
+  ns(n = nn(), T_FOR, "x_for");
+  rs(n, T__REF, ref);
+  rs(n, T_FROM, from);
+  rs(n, T_THRU, thru);
+  if ( by )
+    rs(n, T_BY, by);
+  ns(nt = nn(), T__STMT, "x_for");
+  adf_n(nt, stmt);
+  rs(n, T__STMT, nt);
+  return n;
+} /* x_for */
+
+static
+Node_id
+x_forms(ioch, expr)					/* Function	*/
+  Node_id   ioch;
+  Node_id   expr;
+{
+  Node_id   n;
+  ns(n = nn(), T_FORMS, "x_forms");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T_O_COMMA, expr);
+  return n;
+} /* x_forms */
+
+static
+Node_id
+x_func_def_header(class, func, name, type)		/* Function	*/
+  Token     class;
+  Token     func;
+  Token     name;
+  Node_id   type;
+{
+  Node_id   n = mkid(func);		/* Create T_FUNCTION node	*/
+
+  if (class.token_id != T__NIL)
+    rs(n, T__CLASS, mkid(class));	/* (Optional) storage class	*/
+  rs(n, T_ID, mkid(name));		/* Function name		*/
+  if (type)
+    rs(n, T__TYPE, type);		/* (Optional) return type	*/
+
+  y_setdiv(DIV_DAT);			/* In data division		*/
+
+  return n;
+} /* x_func_def_header */
+
+static
+Node_id
+x_gbl_def_header(global, name, init, recs, endglobal)	/* Function	*/
+  Token     global;
+  Token     name;
+  Node_id   init;
+  Node_id   recs;
+  Token     endglobal;
+{
+  Node_id   n;
+  ns(n = nn(), T_GLOBAL, "x_gbl_def_header");
+  rs(n, T_ID, mkid(name));
+  rs(n, T__FIRST, recs);
+  if ( ! init)				/* Grumble if have inits	*/
+    {
+      Node_id   d, f;
+      d = recs;
+      do
+        {
+	  f = rnn(d, T__FIRST, NIL);
+	  do
+            if (rnn(f, T__FIRST, NIL))
+	      c_warning("unexpected initializers for %s.%s - ok",
+	                find_string(d, T_ID), find_string(f, T_LABEL));
+	  while (f = rnn(f, T__PRECEDES, NIL));
+	}
+      while (d = rnn(d, T__PRECEDES, NIL));
+    }
+  return n;
+} /* x_gbl_def_header */
+
+static
+Node_id
+x_get_args(ioch, ref, recno)				/* Function	*/
+  Node_id   ioch;
+  Node_id   ref;
+  Node_id   recno;
+{
+  Node_id   n;
+  ns(n = nn(), T_GET, "x_get_args");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T__REF, ref);
+  rs(n, T__EXPR, recno);
+  return n;
+} /* x_get_args */
+
+static
+Node_id
+x_gets_args(ioch, ref, label)				/* Function	*/
+  Node_id   ioch;
+  Node_id   ref;
+  Node_id   label;
+{
+  Node_id   n;
+  ns(n = nn(), T_GETS, "x_gets_args");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T__REF, ref);
+  if (label)
+    rs(n, T_O_COMMA, label);
+  return n;
+} /* x_gets_args */
+
+static
+Node_id
+x_goto(labels, expr)					/* Function	*/
+  Node_id   labels;
+  Node_id   expr;
+{
+  Node_id   n;
+  if ( ! expr)				/* Not a computed GOTO		*/
+    n = labels;
+  else
+    {
+      ns(n = nn(), T_GOTO, "x_goto: computed");
+      rs(n, T_O_LPAREN, labels);
+      rs(n, T__EXPR, expr);
+    }
+  return n;
+} /* x_goto */
+
+static
+Node_id
+x_group_definition(group, fields)			/* Function	*/
+  Token     group;
+  Node_id   fields;
+{
+  Node_id   n = mkid(group);
+  adf_n(n, fields);
+  return n;
+} /* x_group_definition */
+
+static
+Node_id
+x_if(expr, stmt)					/* Function	*/
+  Node_id   expr;
+  Node_id   stmt;
+{
+  Node_id   n, nt;
+  ns(n = nn(), T_IF, "x_if");
+  rs(n, T__EXPR, expr);
+  ns(nt = nn(), T_THEN, "x_if");
+  adf_n(nt, stmt);
+  rs(n, T_THEN, nt);
+  return n;
+} /* x_if */
+
+static
+Node_id
+x_if_then_else(expr, t_stmt, e_stmt)			/* Function	*/
+  Node_id   expr;
+  Node_id   t_stmt;
+  Node_id   e_stmt;
+{
+  Node_id   n, nt;
+  ns(n = nn(), T_IF, "x_if_then_else");
+  rs(n, T__EXPR, expr);
+  ns(nt = nn(), T_THEN, "x_if_then_else");
+  adf_n(nt, t_stmt);
+  rs(n, T_THEN, nt);
+  ns(nt = nn(), T_ELSE, "x_if_then_else");
+  adf_n(nt, e_stmt);
+  rs(n, T_ELSE, nt);
+  return n;
+} /* x_if_then_else */
+
+static
+Node_id
+x_io(args, exceptions)					/* Function	*/
+  Node_id   args;
+  Node_id   exceptions;
+{
+  if (exceptions)			/* If exceptions, add T__FIRST	*/
+    args = adf_n(args, exceptions);
+  return args;
+} /* x_io */
+
+static
+Node_id
+x_io_exception(exception, t_o_equal, label)		/* Function	*/
+  Token     exception;
+  Token     t_o_equal;
+  Token     label;
+{
+  static
+  char     *exception_keywords[] =
+              {
+		"EOF",
+		"ERR",
+		"KEY",
+		"LOCK",
+		"LONG",
+		NULL
+	      };
+  char    **kw;
+  int       ok;
+
+  ok = 0;
+  for (kw = exception_keywords;  ! ok && *kw;  ++kw)
+    ok = strcmp(exception.token_value, *kw) == 0;
+  if ( ! ok )
+    c_error("unknown i/o exception keyword %s", exception.token_value);
+  return x_expr_op_expr(mkid(exception), t_o_equal, mkid(label));
+} /* x_io_exception */
+
+static
+Node_id
+x_io_indexed_option(t, e)				/* Function	*/
+  Token     t;
+  Node_id   e;
+{
+  static
+  int       valid[]
+            = {
+	        T_KEYNUM,
+		T_KRF,
+	        T_MATCH,
+	        T_WAIT,
+	        0
+	      };
+  return y_kw_lkset(t, e, valid);
+} /* x_io_indexed_option */
+
+static
+Node_id
+x_lit_def_header(class, lit, name, redef)		/* Function	*/
+  Token     class;
+  Token     lit;
+  Node_id   name;
+  Node_id   redef;
+{
+  Node_id   n = mkid(lit);		/* Create T_LITERAL node	*/
+  if (class.token_id != T__NIL)
+    rs(n, T__CLASS, mkid(class));	/* (Optional) storage class	*/
+
+  if ( ! name )				/* (Optional) name		*/
+    name = mkupname(T_LITERAL);		/* Invent name			*/
+  rs(n, T_ID, name);
+
+  if (redef)
+    rs(n, T_O_COMMA, redef);		/* (Optional) redefinition	*/
+
+  y_setdiv(DIV_DAT);			/* In data division		*/
+
+  return n;
+} /* x_lit_def_header */
+
+static
+Node_id
+x_lpque(ref, opts)					/* Function	*/
+  Node_id   ref;
+  Node_id   opts;
+{
+  Node_id   n;
+  ns(n = nn(), T_LPQUE, "x_lpque");
+  rs(n, T_O_LPAREN, ref);
+  if (opts)
+    rs(n, T_O_COMMA, opts);
+  return n;
+} /* x_lpque */
+
+static
+Node_id
+x_lpque_option(t, e)					/* Function	*/
+  Token     t;
+  Node_id   e;
+{
+  static
+  int       valid[]
+            = {
+	        T_ALIGN,
+	        T_COPIES,
+	        T_DELETE,
+	        T_FORM,
+	        T_LPNUM,
+	        0
+	      };
+  return y_kw_lkset(t, e, valid);
+} /* x_lpque_option */
+
+static
+Node_id
+x_onerror_trap(trapno, traplab)				/* Function	*/
+  Node_id   trapno;
+  Token     traplab;
+{
+  Node_id   n = mkid(traplab);
+  if (trapno)
+    rs(n, T_NUMBER, trapno);
+  return n;
+}
+
+static
+Node_id
+x_op_expr(op, right)					/* Function	*/
+  Token     op;
+  Node_id   right;
+{
+  Node_id   n = nn();
+  ns(n, op.token_id, op.token_value);
+  rs(n, T__RIGHT, right);
+  return n;
+} /* x_op_expr */
+
+
+static
+Node_id
+x_open_attr(t, e)					/* Function	*/
+  Token     t;
+  Node_id   e;
+{
+  static
+  int       valid[]
+            = {
+	        T_ALLOC,
+	        T_BKTSIZ,
+	        T_BLKSIZ,
+	        T_BUFNUM,
+	        T_BUFSIZ,
+	        T_CONTIG,
+	        T_DEQ,
+	        T_FDL,
+	        T_KEY,
+	        T_NUMREC,
+		T_OPTIONS,
+	        T_PROTECT,
+	        T_RECSIZ,
+	        T_RECTYPE,
+	        T_SHARE,
+	        0
+	      };
+  return y_kw_lkset(t, e, valid);
+} /* x_open_attr */
+
+static
+Node_id
+x_open_mode(what, mode)					/* Function	*/
+  Token     what;
+  Node_id   mode;
+{
+  Node_id   n;
+  n = mkid(what);
+  if (mode)
+    rs(n, T_O_COLON, mode);
+  return n;
+} /* x_open_mode */
+
+static
+Node_id
+x_open_options(ioch, mode, file, attrs)			/* Function	*/
+  Node_id   ioch;
+  Node_id   mode;
+  Node_id   file;
+  Node_id   attrs;
+{
+  Node_id   n;
+  ns(n = nn(), T_OPEN, "x_open_options");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T_O_COLON, mode);
+  rs(n, T_ID, file);
+  if (attrs)
+    {
+      Node_id   a;
+      ns(a = nn(), T_O_COMMA, NULL);
+      adf_n(a, attrs);
+      rs(n, T_O_COMMA, a);
+    }
+  return n;
+} /* x_open_options */
+
+static
+Node_id
+x_proc_div_proc(proc, buffers)				/* Function	*/
+  Token     proc;
+  Node_id   buffers;
+{
+  Node_id   n = mkid(proc);
+  y_setdiv(DIV_PRC);			/* In procedure division	*/
+  if (buffers)
+    rs(n, T_O_LPAREN, buffers);
+  return n;
+} /* x_proc_div_proc */
+
+/**
+ *	Note: All labels are posted to the T_PROC label table
+ *	(containing all labels used in proc).
+ */
+static
+Node_id
+x_proc_div_label(label)					/* Function	*/
+  Node_id   label;
+{
+  post_label(label);			/* Post, and error if dup	*/
+  return label;
+} /* x_proc_div_label */
+
+static
+Node_id
+x_put_args(ioch, ref, recno)				/* Function	*/
+  Node_id   ioch;
+  Node_id   ref;
+  Node_id   recno;
+{
+  Node_id   n;
+  ns(n = nn(), T_PUT, "x_put_args");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T__REF, ref);
+  rs(n, T__EXPR, recno);
+  return n;
+} /* x_put_args */
+
+static
+Node_id
+x_puts_args(ioch, ref, label)				/* Function	*/
+  Node_id   ioch;
+  Node_id   ref;
+  Node_id   label;
+{
+  Node_id   n;
+  ns(n = nn(), T_PUTS, "x_puts_args");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T__REF, ref);
+  if (label)
+    rs(n, T_O_COMMA, label);
+  return n;
+} /* x_puts_args */
+
+static
+Node_id
+x_read_args(ioch, ref, opts)				/* Function	*/
+  Node_id   ioch;
+  Node_id   ref;
+  Node_id   opts;
+{
+  Node_id   n;
+  ns(n = nn(), T_READ, "x_read_args");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T__REF, ref);
+  if ( opts )
+    {
+      Node_id   o;
+      ns(o = nn(), T_O_COMMA, "x_read_args");
+      adf_n(o, opts);
+      rs(n, T_O_COMMA, o);
+    }
+  return n;
+} /* x_read_args */
+
+static
+Node_id
+x_read_option(t, e)					/* Function	*/
+  Token     t;
+  Node_id   e;
+{
+  static
+  int       valid[]
+            = {
+	        T_KEYNUM,
+	        T_KRF,
+	        T_MATCH,
+	        T_RFA,
+	        T_WAIT,
+	        0
+	      };
+  Node_id   o;
+
+  ns(o = nn(), T_O_COMMA, "x_read_option");
+  adf_n(o, IS_t__NIL(t) ? e : y_kw_lkset(t, e, valid));
+  return o;
+/*  return y_kw_lkset(t, e, valid); */
+} /* x_read_option */
+
+static
+Node_id
+x_reads_args(ioch, item, opts)				/* Function	*/
+  Node_id   ioch;
+  Node_id   item;
+  Node_id   opts;
+{
+  Node_id   n;
+
+  if (opts)
+    n = opts;
+  else
+    ns(n = nn(), T_READS, "x_reads_args");
+/** /printf("x_reads_args(-ioch-, -item-, opts=[%d]) n=[%d]\n", opts, n);
+/***/
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T__REF, item);
+/** /node_trace(stdout, n, -1);
+/***/
+  return n;
+} /* x_reads_args */
+
+static
+Node_id
+x_reads_label_opts(label, opts)				/* Function	*/
+  Node_id   label;
+  Node_id   opts;
+{
+  Node_id   n;
+  ns(n = nn(), T_READS, "x_reads_args: from x_reads_label_opts");
+/** /printf("x_reads_label_opts(label=[%d], opts=[%d]) n=[%d]\n",
+/** /       label, opts, n);
+/***/
+  rs(n, T_LABEL, label);
+  if (opts)
+    {
+      Node_id   o;
+      ns(o = nn(), T_O_COMMA, "x_reads_label_opts");
+/** /printf("x_reads_label_opts: o=[%d]\n", o);
+/***/
+      adf_n(o, opts);
+      rs(n, T_O_COMMA, o);
+    }
+/** /node_trace(stdout, n, -1);
+/***/
+  return n;
+} /* x_reads_label_opts */
+
+static
+Node_id
+x_reads_option(t, e)					/* Function	*/
+  Token     t;
+  Node_id   e;
+{
+  static
+  int       valid[]
+            = {
+		T_DIRECTION,
+	        T_WAIT,
+		T_REVERSE,
+	        0
+	      };
+
+  return y_kw_lkset(t, e, valid);
+} /* x_reads_option */
+
+static
+Node_id
+x_record_def_header(record, name, redef)		/* Function	*/
+  Token     record;
+  Node_id   name;
+  Node_id   redef;
+{
+  Node_id   n;
+  y_setdiv(DIV_DAT);			/* We're in the data division	*/
+  ns(n = nn(), T_RECORD, "x_record_def_header");
+  if ( ! name )				/* Optional name		*/
+    name = mkupname(T_RECORD);
+  rs(n, T_ID, name);
+  if (redef)				/* Optional redefines		*/
+    rs(n, T_O_COMMA, redef);
+  return n;
+} /* x_record_def_header */
+
+static
+Node_id
+x_recv(ref, id, size)					/* Function	*/
+  Node_id   ref;
+  Token     id;
+  Node_id   size;
+{
+  Node_id   n;
+  ns(n = nn(), T_RECV, "x_recv");
+  rs(n, T__REF, ref);
+  rs(n, T_ID, mkid(id));
+  if ( size )
+    rs(n, T__EXPR, size);
+  return n;
+} /* x_recv */
+
+/**
+ *	Build a reference.
+ *	Note: T_O_LBRACK for ref_array
+ *	      T_O_LPAREN for ref_pos
+ *	If the <ref> has a T__FIRST then it cannot be a T_ID entry.
+ */
+static
+Node_id
+x_ref(ref, array, pos)					/* Function	*/
+  Node_id   ref;
+  Node_id   array;
+  Node_id   pos;
+{
+  int       xt, t, is_subr = 0;
+  Node_id   d;
+  char     *xs;
+  char      var[BUFSIZ];
+
+  if (_parse.flags)
+    printf("x_ref(ref=[%d], array=[%d], pos=[%d]) div_base=[%d]\n",
+           ref, array, pos, _parse.div_base);
+  ng(ref, &xt, &xs);
+  strcpy(var, xs);			/* First part of reference	*/
+
+  if ( (d = lkupid(ref, t = T_CD_DEFINE  )) )
+    {
+      if (array || pos)
+        c_error("can't have array or substring on a DEFINED item");
+      post_long(ref, T_CD_DEFINE, (long) d);
+      goto Done;
+    }
+
+  if      ( (d = lkupid(ref, t = T_ID)) && ( ! rnn(d, T__FIRST, NIL)) )	
+    {					/* Unique field name reference	*/
+      if (_parse.flags)
+	printf("x_ref: id d=[%d]\n", d);
+      d = find_long(d, T__FIELD);
+      if (_parse.flags)
+	printf("x_ref: resolved to d=[%d]\n", d);
+    }
+  else if ( (d = lkupid(ref, t = T_BUILTIN  )) ||
+	    (d = lkupid(ref, t = T_COMMON   )) ||
+	    (d = lkupid(ref, t = T_FUNCTION )) ||
+	    (d = lkupid(ref, t = T_LITERAL  )) ||
+	    (d = lkupid(ref, t = T_RECORD   ))
+          )
+    { 					/* Data aggregate reference	*/
+/**
+ *	ToDo: faking it code marked
+ *	Aggregate references are not used heavily in the existing code
+ *	base (if at all), so am going to defer working this out at present.
+ */
+      ng(d, &xt, &xs);
+      if (_parse.flags)
+	printf("x_ref:aggregate d=[%d] t=%d(%s) xt=%d(%s) xs=\"%s\"\n",
+		d, t, to_token(t), xt, to_token(xt), xs);
+      if ( ! rnn(ref, T__FIRST, NIL) )	/* Full aggregate reference	*/
+        d = find_long(d, t);		/* Get to definition		*/
+      else
+        {				/* Walk & discover reference	*/
+	  Node_id   nd;
+	  int       r;
+
+	  nd = ref;			/* Starting point		*/
+	  for (r = T__FIRST;  nd = rnn(nd, r, NIL);  r = T__PRECEDES)
+	    {
+	      ng(d = nd, &xt, &xs);
+	      strcat(var, ".");		/* Add name to reference	*/
+	      strcat(var, xs);
+	    }
+/*=*/     c_warning("%s \"%s\" to \"%s\" ([%d])", 
+/*=*/	            "aggregate refs not real - resolving", var, xs, d);
+	  if ( ! (d = lkupid(d, T_ID)) )/* Now, lookup id		*/
+	    c_error("undefined variable \"%s\"", xs);
+/*=*/	  else
+	    {
+	      if (_parse.flags)
+		printf("x_ref: agg d=[%d]\n", d);
+/*=*/         d = find_long(d, T__FIELD);
+	      if (_parse.flags)
+		printf("x_ref: resolved to d=[%d]\n", d);
+	    }
+	}
+    }
+  else
+    is_subr = 1;			/* Unknown entity, must be call	*/
+
+  /**
+   *	By the time we get here, we expect that 'd' contains a pointer
+   *	to the definition of what was referenced.  This need not be the
+   *	lowest level definition.  For example: AGG, AGG.GRP, or AGG.GRP.FLD
+   *	can end at AGG, AGG.GRP, or AGG.GRP.FLD (or other "depth" as 
+   *	appropriate).
+   *	Note: 'd' is a pointer to the definition.
+   */
+
+  if (_parse.flags)
+    printf("x_ref: pointer d=[%d] is_subr=%d\n", d, is_subr);
+  if (d)				/* Save pointer (if valid ref)	*/
+    post_long(ref, T__FIELD_OF, (long) d);
+ 
+  if (d && array)			/* If array subscripted		*/
+    {
+      Node_id   a, r;
+/**/if (_parse.flags) {
+/**/printf("x_ref: array array=[%d]\n", array);
+/**/c_trace_nodes(array);
+/**/printf("x_ref:   d=[%d].T__TYPE=[%d]\n", d, a = rnn(d, T__TYPE, NIL));
+/**/c_trace_nodes(a);
+/**/}
+/***/
+      if (a = rnn(rnn(d, T__TYPE, NIL), T_O_LBRACK, NIL))
+        {
+          int       subs = 1, ok = 1;
+          r = array;			/* Reference's array subscript	*/
+	  if (_parse.flags)
+	    printf("x_ref: walking a=[%d] r=[%d]\n", a, r);
+	  for (xt = T__FIRST;  r = rnn(r, xt, NIL);  xt= T__PRECEDES)
+	    if ( ! (a = rnn(a, xt, NIL)) )
+	      {
+	        c_error("real array %s only has %d subscript%s",
+		        var, subs, (subs == 1) ? "" : "s");
+	        ok = 0;
+	      }
+	    else
+	      ++subs;
+	  rs(ref, T_O_LBRACK, array);	/* Post array ref (valid or not)*/
+	  if ( ! ok )
+	    post_string(ref, T__ERROR, "invalid subscript");
+	}
+      else
+        {
+	  ng(array, &xt, &xs);
+/**/if (_parse.flags) {
+/**/printf("x_ref: ALIGN ref=[%d] array=[%d] xt=%s(%d) xs=\"%s\"\n",
+/**/       ref, array, to_token(xt), xt, xs);
+/**/}
+/***/
+	  if ((strcmp(xs, "RIGHT") == 0) ||
+	      (strcmp(xs, "LEFT")  == 0)
+	     )
+	    rs(ref, T_ALIGN, array);	/* Hang alignment for x_assignment*/
+	  else
+            c_error("%s is not a real array, '[...]' not allowed", var);
+	}
+    }
+
+/**
+ *	If we have both a 'd' (descriptor, which means that we are doing
+ *	a reference to data rather than a routine) and a 'pos', we need
+ *	to ensure that we have one of the following forms:
+ *		'(' expr ')'		Pseudo array
+ *		'(' expr ',' expr ')'	Start/stop substring
+ *		'(' expr ':' expr ')'	Start/length substring
+ */
+  if (d && pos)				/* If substring / pseudo array	*/
+    {
+      int       ok = 0;
+      Node_id   a;
+
+      a = rnn(d, T__TYPE, NIL);
+      if (a && (a = rnn(a, T_O_LPAREN, NIL)))
+        {
+/**/if (_parse.flags) {
+/**/printf("x_ref: pseudo a=[%d] pos=[%d]\n", a, pos);
+/**/printf("x_ref:   pos.T__EXPR=[%d]\n", rnn(pos, T__EXPR, NIL));
+/**/c_trace_nodes(pos);
+/**/}
+/***/
+	  if ((a = rnn(pos, T__EXPR, NIL)) && rnn(a, T__FIRST, NIL))
+	    c_warning("substring usage of pseudo array %s", var);
+          ok = 1;
+	}
+      else				/* Is substring reference	*/
+	{
+/**/if (_parse.flags) {
+/**/printf("x_ref: pos a=[%d] pos=[%d]\n", a, pos);
+/**/printf("x_ref:   pos.T__EXPR=[%d]\n", rnn(pos, T__EXPR, NIL));
+/**/}
+/***/
+	  if ((a = rnn(pos, T__EXPR, NIL)) && (a = rnn(a, T__FIRST, NIL)))
+	    {
+	      if (rnn(a, T__PRECEDES, NIL))
+	        goto BadStringSubscript;
+              ok = 1;
+	    }
+	  else
+BadStringSubscript:
+	    c_error("substring reference of %s must have form %s or %s",
+	             var, "(start,stop)", "(start:length)");
+	}
+
+      rs(ref, T_O_LPAREN, pos);		/* Post position (valid or not)	*/
+      if ( ! ok )
+        post_string(ref, T__ERROR, "invalid pseudo array/substring");
+    }
+/**
+ *	Otherwise, we'll set up to generate a call to this thing.
+ */
+  if (is_subr)				/* We classified as subr	*/
+    {
+      int       rel = T__FIRST;
+      int       ok  = 1;
+      Node_id   a;
+
+      a = pos ? rnn(pos, T__EXPR, NIL) : NIL;
+/**/if (_parse.flags) {
+/**/printf("x_ref: is_subr: pos=[%d].T__EXPR=[%d]\n", pos, a);
+/**/}
+/***/
+					/* Ensure only have T_O_COMMAs	*/
+      while (a && (a = rnn(a, rel, NIL)))
+        {
+          int       xt;
+	  char     *xs;
+	  ng(a, &xt, &xs);
+/**/if (_parse.flags) {
+/**/printf("x_ref: is_subr: a=[%d].type=%d:\"%s\"\n", a, to_token(xt), xt);
+/**/}
+/***/
+	  if (xt !=  T_O_COMMA)
+	    {
+	      c_error("actual parameter not preceded by a comma is invalid");
+	      ok = 0;
+	    }
+	  rel = T__PRECEDES;
+	}
+      rs(ref, T__SUBR, pos);		/* Parameter list		*/
+      if ( ! ok )
+        post_string(ref, T__ERROR, "invalid parameter separator");
+    }
+
+Done:
+  return ref;
+} /* x_ref */
+
+static
+Node_id
+x_register_div(div)					/* Function	*/
+  Node_id   div;
+{
+  post_data_div(div);			/* Post data division table info*/
+/**/if (_parse.flags)
+/**/  printf("x_register_div: [%d]\n", div);
+/***/
+  return div;
+} /* x_register_div */
+
+static
+Node_id
+x_send(ref, expr, terminal)				/* Function	*/
+  Node_id   ref;
+  Node_id   expr;
+  Node_id   terminal;
+{
+  Node_id   n;
+  ns(n = nn(), T_SEND, "x_send");
+  rs(n, T__REF, ref);
+  rs(n, T__EXPR, expr);
+  if ( terminal )
+    adf_n(n, terminal);
+  return n;
+} /* x_send */
+
+static
+Node_id
+x_set(refs, expr)					/* Function	*/
+  Node_id   refs;
+  Node_id   expr;
+{
+  Node_id    n;
+  ns(n = nn(), T_SET, "x_set");
+  rs(n, T__REF, refs);
+  rs(n, T__EXPR, expr);
+  return n;
+} /* x_set */
+
+static
+Node_id
+x_sleep(secs)						/* Function	*/
+  Node_id   secs;
+{
+  Node_id   n;
+  ns(n = nn(), T__EXPR, "x_sleep");
+  rs(n, T__EXPR, secs);
+  return n;
+} /* x_sleep */
+
+static
+Node_id
+x_sort(params)						/* Function	*/
+  Node_id   params;
+{
+  Node_id   n;
+
+  ns(n = nn(), T_SORT, "x_sort");
+  adf_n(n, params);			/* Keep what we got		*/
+
+  { /* block */				/* Check out referential integ.	*/
+    int       xt, rel;
+    Node_id   d, inp, key, opt, rec;
+    char     *xs, *recn;
+   
+    recn = NULL;
+    inp = key = opt = rec = NIL;
+    rel = T__PRECEDES;
+    d = params;
+    do					/* Get Record/Key descriptors	*/
+      {
+        ng(d, &xt, &xs);
+	if (xt == T_INPUT)
+	  {
+	    if (inp)
+	      c_warning("ignoring subsequent INPUT=, using first one");
+	    else
+	      inp = d;
+	  }
+	if (xt == T_KEY)
+	  {
+	    if (key)
+	      c_warning("ignoring subsequent KEY=, using first one");
+	    else
+	      key = d;
+	  }
+	if (xt == T_OPTIONS)
+	  {
+	    if (opt)
+	      c_warning("ignoring subsequent OPTIONS=, using first one");
+	    else
+	      opt = d;
+	  }
+	if (xt == T_RECORD)		
+	  {
+	    if (rec)
+	      c_warning("ignoring subsequent RECORD=, using first one");
+	    else
+	      rec = d;
+	  }
+      }
+    while (d = rnn(d, T__PRECEDES, NIL));
+
+    if ( ! inp )
+      c_error("SORT must have an INPUT= specification");
+    if ( ! (key || opt))
+      c_error("SORT must have a KEY= or OPTIONS= specification");
+    if ( ! (rec || opt))
+      c_error("SORT must have a RECORD= or OPTIONS= specification");
+
+    if (rec && (rec = rnn(rec, T__EXPR, NIL)))
+      {
+        if (rec = find_long(rec, T__FIELD_OF))
+	  recn = find_string(rec, T_ID);
+      }
+    if ( ! (rec || opt) )
+      {
+        c_error("RECORD specification of SORT is bogus");
+        if (_parse.flags)
+	  printf("RECORD bogus spec params=[%d]\n", params);
+      }
+
+    if (key)
+      key = rnn(key, T__EXPR, NIL);
+    if ( ! (key || opt) )
+      {
+        c_error("KEY specification of SORT is bogus");
+        if (_parse.flags)
+	  printf("SORT.key params=[%d]\n", params);
+      }
+
+    if (key && rec)			/* Ensure keys are in record	*/
+      {
+	rel = T__FIRST;
+        d = key;			/* Walk keys			*/
+	do
+	  {
+            Node_id   f;
+	    ng(d, &xt, &xs);
+	    if (f = find_long(d, T__FIELD_OF))
+	      {
+                Node_id   rf;
+					/* NUTS! The fields don't have	*/
+					/* pointers back to their head,	*/
+					/* yet. Those get posted during	*/
+					/* the resolver phase. So, now	*/
+					/* we have to search the record	*/
+					/* to see if field is part of it*/
+/* Wanted to do:
+ *		if (find_long(f, T__FIELD_OF) != rec)
+ */
+/**/if (_parse.flags)
+/**/  printf("x_sort: key %s d=[%d] f=[%d].T__FIELD_OF=[%ld] rec=[%d]\n",
+/**/                      xs,   d,  f, find_long(f, T__FIELD_OF), rec);
+/***/
+		rf = NIL;
+		if (rf = rnn(rec, T__FIRST, NIL))
+		do
+		  if (f == rf)		/* Found field we want		*/
+		    break;
+		while (rf = rnn(rf, T__PRECEDES, NIL));
+/*BUG*/ /* Need to move this to post resolve as can't search redefines here */
+		if ( ! rf )
+		  c_warning("Field %s is not part of SORT record %s", xs, recn);
+	      }
+	    else
+	      c_error("No SORT key field %s", xs);
+	  }
+	while (d = rnn(d, rel, NIL), rel = T__PRECEDES, d);
+      }
+  } /* block */				/* Check out referential integ.	*/
+
+Return:
+  return n;
+} /* x_sort */
+
+static
+Node_id
+x_sort_arg(tok, value)					/* Function	*/
+  Token     tok;
+  Node_id   value;
+{
+  Node_id   n;
+  int       xt, t;
+  char     *xs;
+
+/**/if (_parse.flags) {
+/**/printf("x_sort_arg(tok.token_id=%d:%s .token_value=\"%s\", value=[%d]\n",
+/**/       tok.token_id, to_token(tok.token_id),
+/**/       tok.token_value ? tok.token_value : "",
+/**/       value);
+/**/}
+/***/
+
+  ng(value, &xt, &xs);			/* Get token internals		*/
+  					/* May use inside the following	*/
+					/* if, then in following switch	*/
+
+  if ((t = T_INPUT, strcmp(tok.token_value, tokenseq[t - T__NIL]) != 0) &&
+      (t = T_KEY,   strcmp(tok.token_value, tokenseq[t - T__NIL]) != 0) &&
+      (t = T_OPTIONS,strcmp(tok.token_value,tokenseq[t - T__NIL]) != 0) &&
+      (t = T_OUTPUT,strcmp(tok.token_value, tokenseq[t - T__NIL]) != 0) &&
+      (t = T_END,    tok.token_id != t)					&&
+      (t = T_RECORD, tok.token_id != t)
+     )
+    {
+      c_error("Got '%s', expected %s, %s, %s, %s, %s or %s",
+              (tok.token_id == T_ID) ? tok.token_value : tokenseq[t - T__NIL],
+              tokenseq[T_END    - T__NIL],
+	      tokenseq[T_INPUT  - T__NIL],
+	      tokenseq[T_KEY    - T__NIL],
+	      tokenseq[T_OPTIONS- T__NIL],
+              tokenseq[T_OUTPUT - T__NIL],
+	      tokenseq[T_RECORD - T__NIL]
+	     );
+      t = rnn(value, T__FIRST, NIL)
+            ? T_KEY
+	    : (
+	        (xt == T_STRING)
+		  ? T_INPUT
+		  : T_RECORD
+	      );
+      c_warning("acting as though it was '%s'", tokenseq[t - T__NIL]);
+    }
+  switch (t)				/* Counting on xt/xs from value	*/
+    {
+      case T_END:
+      case T_INPUT:
+      case T_OUTPUT:
+        if (xt != T_ID)			/* Can be a T_STRING		*/
+	  break;
+     /* else fall-thru */
+      case T_KEY:
+        { /* block */
+	  int       rel;
+          Node_id   d;
+
+	  d   = value;			/* Set up ref information	*/
+	  rel = T__FIRST;
+	  do
+	    x_ref(d, NIL, NIL);		/* Annotate with stuff		*/
+	  while (d = rnn(d, rel, NIL), rel = T__PRECEDES, d);
+	} /* block */
+	break;
+      case T_RECORD:
+	if ( lkupid(value, T_COMMON ) ||
+	     lkupid(value, T_LITERAL) ||
+	     lkupid(value, T_RECORD )
+	   )
+	  ;
+	else
+	  c_warning("SORT usually expects a record/common/etc, will try.");
+        x_ref(value, NIL, NIL);		/* Annotate with stuff		*/
+	break;
+    }
+
+  tok.token_id    = t;			/* Fix-up to internal token	*/
+  tok.token_value = NULL;		/* Some cancer, oh well		*/
+  n = mkkwv(tok, value);
+  return n;
+} /* x_sort_arg */
+
+static
+Node_id
+x_stop_type_at(ref, list)				/* Function	*/
+  Node_id   ref;
+  Node_id   list;
+{
+  Node_id   n;
+  ns(n = nn(), T_O_AT, "x_stop_type_at");
+  rs(n, T__REF, ref);
+  if ( list )
+    adf_n(n, list);
+  return n;
+} /* x_stop_type_at */
+
+static
+Node_id
+x_store(ioch, ref, key)					/* Function	*/
+  Node_id   ioch;
+  Node_id   ref;
+  Node_id   key;
+{
+  Node_id   n;
+  ns(n = nn(), T_STORE, "x_store");
+  rs(n, T_O_LPAREN, ioch);		/* Channel number		*/
+  rs(n, T__REF, ref);			/* Buffer to store		*/
+  if (key)
+    rs(n, T_O_COMMA, key);		/* Optional key			*/
+  return n;
+} /* x_store */
+
+static
+Node_id
+x_sub_decl(subfunc, id, type)				/* Function	*/
+  Token     subfunc;
+  Token     id;
+  Node_id   type;
+{
+  Node_id   n;
+  ns(n = nn(), subfunc.token_id, id.token_value);
+  if (type)
+    rs(n, T__TYPE, type);
+  return n;
+} /* x_sub_decl */
+
+static
+Node_id
+x_subroutine_division(sub, param)			/* Function	*/
+  Node_id   sub;
+  Node_id   param;
+{
+  Node_id   n;
+  if ( !(n = rnn(sub, T__PARAMETER, NIL)))/* Get first parameter list	*/
+    {
+      char     *t = "x_subroutine_division";
+      ns(n = nn(), T__PARAMETER, t);
+      rs(sub, T__PARAMETER, n);		/* Add 1st parameter to sub	*/
+      rs(n, T__FIRST, param);
+    }
+  else
+    adl_n(rnn(n, T__FIRST, NIL), param);/* Add parameter to end of list	*/
+  return sub;
+} /* x_subroutine_division */
+
+static
+Node_id
+x_tree_program(subr, program)				/* Function	*/
+  Node_id   subr;
+  Node_id   program;
+{
+  Node_id   n, param = NIL;
+  ns(n = nn(), T__MAIN, "x_tree_program");
+  if (subr)				/* Pick up important subr stuff	*/
+    {
+      Node_id   nsubr;
+      int       ty;
+      char     *name;
+
+      ng(subr, &ty, &name);
+      ns(nsubr = nn(), ty, name);	/* Effectively unlink 'subr'	*/
+      rs(n, T__TYPE, nsubr);		/* Function/Subroutine decl	*/
+					/* Pick up parameters if any	*/
+      param = rnn(subr, T__PARAMETER, NIL);
+    }
+  rs(n, T__DIVISION, program);		/* Data/Code body		*/
+  if ( param )				/* If parameters, add to data	*/
+    adf_n(program, param);
+  return n;
+} /* x_tree_program */
+
+static
+Node_id
+x_using_select(expr, range, selectors)			/* Function	*/
+  Node_id   expr;
+  Node_id   range;
+  Node_id   selectors;
+{
+  Node_id   n;
+  ns(n = nn(), T_SELECT, "x_using_select");
+  rs(n, T__EXPR, expr);
+  if ( range )
+    rs(n, T_RANGE, range);
+  adf_n(n, selectors);
+  return n;
+} /* x_using_select */
+
+static
+Node_id
+x_using_selector(expr, stmt)				/* Function	*/
+  Node_id   expr;
+  Node_id   stmt;
+{
+  Node_id   n, nt;
+  ns(n = nn(), T_O_LPAREN, "x_using_selector");
+  rs(n, T__EXPR, expr);
+  ns(nt = nn(), T__STMT, "x_using_selector");
+  adf_n(nt, stmt);
+  rs(n, T__STMT, nt);
+  return n;
+} /* x_using_selector */
+
+static
+Node_id
+x_video_attr(t, e)					/* Function	*/
+  Token     t;
+  Node_id   e;
+{
+  static
+  int       valid[]
+            = {
+	        T_DEFAULT,
+	        T_EDIT,
+	        T_ERASE,
+	        T_FLAGS,
+	        T_FORMAT,
+	        T_OFFSET,
+		T_POS,
+		T_PROMPT,
+		T_VIDEO,
+	        0
+	      };
+  return y_kw_lkset(t, e, valid);
+} /* x_video_attr */
+
+static
+Node_id
+x_video_attr_pos(row, col)				/* Function	*/
+  Node_id   row;
+  Node_id   col;
+{
+  Node_id   n;
+
+  ns(n = nn(), T_POS, "x_video_attr_pos");
+  rs(n, T__LEFT, row);
+  rs(n, T__RIGHT, col);
+  return n;
+} /* x_video_attr_pos */
+
+static
+Node_id
+x_while(expr, stmt)					/* Function	*/
+  Node_id   expr;
+  Node_id   stmt;
+{
+  Node_id   n, nt;
+  ns(n = nn(), T_WHILE, "x_while");
+  rs(n, T__EXPR, expr);
+  ns(nt = nn(), T__STMT, "x_while");
+  adf_n(nt, stmt);
+  rs(n, T__STMT, nt);
+  return n;
+} /* x_while */
+
+static
+Node_id
+x_write_args(ioch, ref, opts)				/* Function	*/
+  Node_id   ioch;
+  Node_id   ref;
+  Node_id   opts;
+{
+  Node_id   n;
+  ns(n = nn(), T_WRITE, "x_write_args");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T__REF, ref);
+  if ( opts )
+    {
+      Node_id   o;
+      ns(o = nn(), T_O_COMMA, "x_write_args");
+      adf_n(o, opts);
+      rs(n, T_O_COMMA, o);
+    }
+  return n;
+} /* x_write_args */
+
+static
+Node_id
+x_write_option(t, e)					/* Function	*/
+  Token     t;
+  Node_id   e;
+{
+  static
+  int       valid[]
+            = {
+	        T_RFA,
+	        0
+	      };
+  return y_kw_lkset(t, e, valid);
+} /* x_write_option */
+
+static
+Node_id
+x_writes_args(ioch, item)				/* Function	*/
+  Node_id   ioch;
+  Node_id   item;
+{
+  Node_id   n;
+  ns(n = nn(), T_WRITES, "x_writes_args");
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T__REF, item);
+  return n;
+} /* x_writes_args */
+
+static
+Node_id
+x_xcall(id, params)					/* Function	*/
+  Token     id;
+  Node_id   params;
+{
+  Node_id   n;
+  ns(n = nn(), T_XCALL, "x_xcall");
+  rs(n, T_ID, mkid(id));
+  if ( params )
+    adf_n(n, params);
+  return n;
+} /* x_xcall */
+
+static
+Node_id
+y_id_iskey(t, id)					/* Function	*/
+  Token     t;
+  int       id;
+{
+  id -= T__NIL;				/* Remove 'bias'		*/
+  if (strcmp(t.token_value, tokenseq[id]))
+    c_warning("got '%s', expected '%s' - assumed",
+              t.token_value, tokenseq[id]);
+  return mkid(t);
+} /* y_id_iskey */
+
+/**
+ *	Lookup a keyword, if valid, post expression with keyword.
+ *	Else return NIL.
+ */
+static
+Node_id
+y_kw_lkset(t, e, valid)					/* Function	*/
+  Token     t;
+  Node_id   e;
+  int       valid[];
+{
+  int       lkw, kw;
+#define MX_KW	20
+  char     *lkw_tab[MX_KW + 2];		/* Local key word table		*/
+  char     *kwv;			/* Keyword value (to look up)	*/
+
+					/* Build table of valid keywords*/
+  lkw_tab[lkw = 0] = "This entry is not used in search";
+  for (kw = 0;  kw < MX_KW && valid[kw];  ++kw)
+    lkw_tab[++lkw] = tokenseq[valid[kw] - T__NIL];
+  ++lkw;
+  lkw_tab[(lkw < MX_KW) ? lkw : (MX_KW - 1)] = NULL;
+
+  					/* Value maybe reserved/key word*/
+  kwv = (t.token_id == T_ID) ? t.token_value : tokenseq[t.token_id - T__NIL];
+
+  if (lkw == MX_KW)			/* lkw_tab too small		*/
+    c_error("y_kw_lkset: internal error, increase MX_KW, now = %d", MX_KW);
+#undef	MX_KW
+
+  if (_parse.yydebug)
+    {
+      char    **kwt = lkw_tab;
+      printf("y_kw_lkset(%d:%s kwv=\"%s\", e=[%d], lkw=%d\n",
+             t.token_id, to_token(t.token_id), kwv, e, lkw);
+      printf("%*s(\n", 10, "kwt=");
+      while (*kwt)
+        printf("%*s \"%s\"\n", 10, "", *kwt++);
+      printf("%*s)\n", 10, "");
+    }
+  					/* Is this a valid keyword?	*/
+  kw = (IS_t__NIL(t)) ? 1 : s_kw_lookup(kwv, lkw_tab);
+
+  if (_parse.yydebug)
+    printf("y_kw_lkset: kw=%d\n", kw);
+
+  if (kw)				/* Valid keyword		*/
+    {
+      if (IS_t__NIL(t))			/* No token, only an expr	*/
+        return e;
+      					/* If not a reserved word, then	*/
+      if (t.token_id == T_ID)
+	{				/* Convert T_ID keyword to T_xxx*/
+	  kw = s_kw_lookup(t.token_value, kw_tab);
+	  if (_parse.yydebug)
+            printf("y_kw_lkset: change token from %d to", t.token_id);
+          t.token_id = kw + T__NIL + (kw_tab - tokenseq);
+	  if (_parse.yydebug)
+            printf(" %d\n", t.token_id);
+	}
+      return e ? mkkwv(t, e) : mkid(t);
+    }
+  else if ( ! e )			/* Let token stand on its own	*/
+    return mkid(t);
+
+  c_error("unknown keyword %s", t.token_value);
+  return NIL;
+} /* y_kw_lkset */
+
+/**
+ *	Scan an 'expr' (T__LEFT, T__RIGHT) trees for a 'rel' node.
+ */
+static
+Node_id
+y_scan_expr(spec, rel)					/* Function	*/
+  Node_id   spec;
+  int       rel;
+{
+  Node_id   d = NIL;
+
+  if (d = rnn(spec, rel, NIL))		/* If this guy has 'rel', done	*/
+    goto Done;
+  if ((d = rnn(spec, T__RIGHT, NIL)) && (d = y_scan_expr(d, rel)))
+    goto Done;
+  if ((d = rnn(spec, T__LEFT, NIL))  && (d = y_scan_expr(d, rel)))
+    goto Done;
+  d = NIL;				/* Of course, for clarity	*/
+Done:
+  return d;
+} /* y_scan_expr */
+
+static
+void
+y_setdiv(div)						/* Function	*/
+  int       div;
+{
+  assert("xy", DIV_NONE, DIV_SUB, DIV_NONE < DIV_SUB);
+  assert("xy", DIV_SUB , DIV_DAT, DIV_SUB  < DIV_DAT);
+  assert("xy", DIV_DAT , DIV_PRC, DIV_DAT  < DIV_PRC);
+
+  if (_parse.yydebug)
+    printf("y_setdiv(%d) _parse.div=%d\n", div, _parse.div);
+  switch ( div )
+    {
+      case DIV_NONE:
+	break;
+      case DIV_SUB:
+        if ( _parse.div >  DIV_SUB )
+	  c_error("already advanced past the subroutine division");
+	break;
+      case DIV_DAT:
+        if ( _parse.div >  DIV_DAT )
+	  c_error("already advanced past the data division");
+	break;
+      case DIV_PRC:
+        if      ( _parse.div > DIV_PRC )
+	  c_error("already advanced past the procedure division");
+	else if ( _parse.div == DIV_PRC )
+	  c_error("already have a PROC division");
+	break;
+      default:
+        c_error("invalid value for _parse.div=%d", _parse.div);
+    }
+  _parse.div = div;
+} /* y_setdiv */
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/gram_support.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:05:58 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:24 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:53:02 $
+d1104 6
+a1109 1
+  return y_kw_lkset(t, e, valid);
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:12 $
+d1120 2
+a1121 1
+/**/printf("x_reads_args(-ioch-, -item-, opts=[%d]) n=[%d]\n", opts, n);
+d1124 2
+a1125 1
+/**/node_trace(stdout, n, -1);
+d1137 3
+a1139 2
+/**/printf("x_reads_label_opts(label=[%d], opts=[%d]) n=[%d]\n",
+/**/       label, opts, n);
+d1145 2
+a1146 1
+/**/printf("x_reads_label_opts: o=[%d]\n", o);
+d1150 2
+a1151 1
+/**/node_trace(stdout, n, -1);
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:07 $
+a53 1
+  x_find_indexed	PROTOARGS(()),
+a612 9
+
+static
+Node_id
+x_find_indexed(y,z)					/* Function	*/
+{
+  Node_id   n;
+/**/c_error("gram_support.c:x_find_indexed: not implemented");
+  return 10000008;
+} /* x_find_indexed */
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:37 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:35 $
+d84 1
+d760 8
+a767 3
+  ns(n = nn(), T_GOTO, "x_goto: computed");
+  rs(n, T_O_LPAREN, labels);
+  rs(n, T__EXPR, expr);
+d865 1
+d1125 6
+a1130 1
+  ns(n = nn(), T_READS, "x_reads_args");
+d1133 16
+a1148 1
+  if ( opts )
+d1151 2
+a1152 1
+      ns(o = nn(), T_O_COMMA, "x_reads_args");
+d1156 1
+d1158 1
+a1158 1
+} /* x_reads_args */
+d1169 1
+d1171 1
+d1174 1
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:27 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:10 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:32 $
+d90 1
+d967 1
+d1443 13
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:13 $
+d39 1
+a39 1
+  x_call		PROTOARGS((Token)),
+d72 1
+d254 6
+a259 1
+    adf_n(n, args);
+d279 3
+a281 2
+x_call(label)						/* Function	*/
+  Token     label;
+d289 3
+a291 1
+  rs(n, T_ID, mkid(label));		/* Target of call		*/
+d356 21
+a376 1
+    rs(n, T_CD_DEFINE, value);
+d921 12
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:02 $
+d37 1
+d161 6
+a166 1
+    adf_n(n, opts);
+d247 12
+d1035 1
+a1035 1
+  ns(n = nn(), T_READ, "x_read");
+d1039 6
+a1044 1
+    adf_n(n, opts);
+d1077 1
+a1077 1
+  rs(n, T_O_COMMA, item);
+d1079 6
+a1084 1
+    adf_n(n, opts);
+d1808 6
+a1813 1
+    adf_n(n, opts);
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:45:59 $
+d467 47
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:44:01 $
+d42 1
+a42 1
+  x_common_def_header	PROTOARGS((Token, Token, Node_id, Node_id, Token)),
+d58 1
+a58 1
+  x_gbl_def_header	PROTOARGS((Token, Token, Node_id, Token)),
+d107 1
+d342 1
+a342 1
+  Token     nosuffix;
+d356 2
+a357 2
+  if (nosuffix.token_id != T__NIL)
+    rs(n, T_NOSUFFIX, mkid(nosuffix));	/* (Optional) no suffix		*/
+d597 1
+a597 1
+x_gbl_def_header(global, name, recs, endglobal)		/* Function	*/
+d600 1
+d608 15
+d1779 13
+d1819 1
+a1819 1
+    c_error("internal error, increase MX_KW, now = %d", MX_KW);
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:44 $
+d1332 1
+a1332 1
+    Node_id   d, inp, key, rec;
+d1336 1
+a1336 1
+    inp = key = rec = NIL;
+d1356 7
+d1375 4
+a1378 4
+    if ( ! key )
+      c_error("SORT must have a KEY= specification");
+    if ( ! rec )
+      c_error("SORT must have a RECORD= specification");
+d1385 1
+a1385 1
+    if ( ! rec )
+d1394 1
+a1394 1
+    if ( ! key )
+d1470 1
+d1476 1
+a1476 1
+      c_error("Got '%s', expected %s, %s, %s, %s or %s",
+d1481 1
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:39:00 $
+d482 1
+a482 1
+/**/c_error("gram_support.c:x_field_ref: not implemented\n");
+d523 1
+a523 1
+/**/c_error("gram_support.c:x_find_indexed: not implemented\n");
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:06 $
+d58 1
+d82 1
+d596 15
+d957 1
+a957 1
+    rs(n, T_O_COMMA, opts);
+d998 15
+d1215 2
+a1216 3
+	    c_error("pseudo array %s can only have one subscript", var);
+	  else
+            ok = 1;
+d1424 1
+d1426 1
+a1426 1
+		  c_error("Field %s is not part of SORT record %s", xs, recn);
+d1463 2
+d1468 1
+a1468 1
+      c_error("Got '%s', expected %s, %s or %s",
+d1470 5
+a1474 2
+              tokenseq[T_INPUT - T__NIL], tokenseq[T_KEY - T__NIL],
+              tokenseq[T_RECORD - T__NIL]
+d1487 1
+d1489 1
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:49 $
+d1256 3
+a1258 1
+/**/printf("x_register_div: [%d]\n", div);
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:27 $
+d122 20
+a399 1
+/**/printf("x_division: [%d]\n", prog);
+d1801 1
+a1801 1
+}
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:51 $
+a44 1
+  x_division		PROTOARGS((Node_id, Node_id)),
+d47 1
+d109 1
+d113 10
+a122 1
+ *
+d289 23
+d380 1
+d436 8
+d1018 8
+d1227 1
+d1237 1
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:18 $
+d533 1
+a533 1
+x_get_args(ioch, ref, label)				/* Function	*/
+d536 1
+a536 1
+  Node_id   label;
+d542 1
+a542 2
+  if (label)
+    rs(n, T_O_COMMA, label);
+d838 1
+a838 1
+x_put_args(ioch, ref, label)				/* Function	*/
+d841 1
+a841 1
+  Node_id   label;
+d847 1
+a847 2
+  if (label)
+    rs(n, T_O_COMMA, label);
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:48 $
+a70 1
+  x_open_args		PROTOARGS((Node_id, Node_id)),
+d73 1
+a745 13
+static
+Node_id
+x_open_args(ioch, opts)					/* Function	*/
+  Node_id   ioch;
+  Node_id   opts;
+{
+  Node_id   n;
+  ns(n = nn(), T_OPEN, "x_open");
+  rs(n, T_O_LPAREN, ioch);
+  if (opts)
+    rs(n, T_O_COMMA, opts);
+  return n;
+} /* x_open_args */
+d787 23
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:40 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:46 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:22 $
+d58 2
+d76 2
+d533 32
+d826 32
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:04 $
+d580 1
+a580 1
+  adf_n(nt, t_stmt);
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:25 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:40:43 $
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:33 $
+d83 2
+d1139 195
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:46 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:36 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:03 $
+d963 1
+a963 1
+    printf("x_ref: pointer d=[%d]\n", d);
+d970 7
+d986 2
+a987 1
+	        c_error("real array %s only has %d subscripts", var, subs);
+d999 4
+a1002 2
+/** /printf("x_ref: ALIGN ref=[%d] array=[%d] xt=%s(%d) xs=\"%s\"\n",
+/** /       ref, array, to_token(xt), xt, xs);
+d1014 3
+a1016 2
+ *	If we have a 'pos', we know (because of the grammar) that we
+ *	have one of the following forms:
+a1018 1
+ *		'(' expr '-' expr ')'	Not allowed
+d1030 3
+a1032 3
+/**/printf("x_ref: pseudo a=[%d]\n", pos);
+/**/printf("x_ref:   T_O_COLON=[%d]\n", rnn(a, T_O_COLON, NIL));
+/**/printf("x_ref:   T_O_COMMA=[%d]\n", rnn(a, T_O_COMMA, NIL));
+d1035 1
+a1035 1
+	  if (rnn(a, T__FIRST, NIL))
+a1041 1
+	  a = pos;
+d1043 2
+a1044 3
+/**/printf("x_ref: pos a=[%d]\n", pos);
+/**/printf("x_ref:   T_O_COLON=[%d]\n", rnn(a, T_O_COLON, NIL));
+/**/printf("x_ref:   T_O_COMMA=[%d]\n", rnn(a, T_O_COMMA, NIL));
+d1047 6
+a1052 2
+	  if ( rnn(a, T_O_COLON, NIL) || rnn(a, T_O_COMMA, NIL) )
+            ok = 1;
+d1054 1
+d1061 1
+a1061 1
+        post_string(ref, T__ERROR, "invalid substring");
+d1067 31
+a1097 1
+    rs(ref, T__SUBR, pos);		/* Parameter list		*/
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:29 $
+d99 2
+a100 1
+  y_kw_lkset		PROTOARGS((Token, Node_id, int []));
+d140 8
+d166 20
+d187 1
+a187 1
+    rs(n, T_O_LBRACK, align);		/* save alignment info		*/
+d989 12
+a1000 1
+        c_error("%s is not a real array, '[...]' not allowed", var);
+d1024 1
+d1038 1
+d1393 22
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:44 $
+d1235 1
+a1235 1
+  rs(n, T_O_COMMA, ref);
+d1265 1
+a1265 1
+  rs(n, T_O_COMMA, item);
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:21 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:13 $
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/gram_support.c,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.36 1995/05/02 10:43:20 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.35 1995/04/25 11:48:29 ldl Exp ldl $
+d33 2
+d107 32
+d572 18
+d976 2
+a977 1
+      if (a = rnn(rnn(d, T__TYPE, NIL), T_O_LPAREN, NIL))
+d979 1
+d983 1
+d992 1
+d996 1
+d1294 1
+a1294 1
+  int       kw;
+d1296 1
+a1296 1
+  char     *lkw_tab[MX_KW + 1];		/* Local key word table		*/
+d1300 1
+d1302 3
+a1304 2
+    lkw_tab[kw] = tokenseq[valid[kw] - T__NIL];
+  lkw_tab[(kw < MX_KW) ? kw : (MX_KW - 1)] = NULL;
+d1309 1
+a1309 1
+  if (kw == MX_KW)			/* lkw_tab too small		*/
+d1316 2
+a1317 2
+      printf("y_kw_lkset(%d:%s kwv=\"%s\", e=[%d], kw=%d\n",
+             t.token_id, to_token(t.token_id), kwv, e, kw);
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.34 1995/04/24 12:23:15 ldl Exp ldl $
+d37 1
+d80 1
+d168 15
+d188 4
+a191 1
+  return x_expr_op_expr(val, colon, stmt);
+d201 1
+d204 4
+a207 1
+  rs(cases, t_else.token_id, stmt);	/* Add else to case		*/
+d984 11
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.33 1995/04/23 12:55:14 ldl Exp ldl $
+d278 4
+a281 2
+  Node_id   n = mkid(t_until);
+  rs(n, T__STMT, stmt);
+d391 1
+a391 1
+  Node_id   n;
+d398 4
+a401 1
+  rs(n, T__STMT, stmt);
+d1072 1
+a1072 1
+  Node_id   n;
+d1075 3
+a1077 1
+  rs(n, T__STMT, stmt);
+d1124 1
+a1124 1
+  Node_id   n;
+d1127 3
+a1129 1
+  rs(n, T__STMT, stmt);
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.32 1995/04/22 12:42:52 ldl Exp ldl $
+d463 1
+a463 1
+  Node_id   n;
+d466 3
+a468 1
+  rs(n, T_THEN, stmt);
+d479 1
+a479 1
+  Node_id   n;
+d482 6
+a487 2
+  rs(n, T_THEN, t_stmt);
+  rs(n, T_ELSE, e_stmt);
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.31 1995/04/19 11:29:09 ldl Exp ldl $
+d776 3
+a778 2
+/**/printf("x_ref(ref=[%d], array=[%d], pos=[%d]) div_base=[%d]\n",
+/**/       ref, array, pos, _parse.div_base);
+d784 2
+a785 1
+/**/printf("x_ref: id d=[%d]\n", d);
+d787 2
+a788 1
+/**/printf("x_ref: resolved to d=[%d]\n", d);
+d803 3
+a805 2
+/**/printf("x_ref:aggregate d=[%d] t=%d(%s) xt=%d(%s) xs=\"%s\"\n",
+/**/       d, t, to_token(t), xt, to_token(xt), xs);
+d825 7
+a831 5
+/**/      {
+/**/        printf("x_ref: agg d=[%d]\n", d);
+/*=*/       d = find_long(d, T__FIELD);
+/**/        printf("x_ref: resolved to d=[%d]\n", d);
+/**/      }
+d846 2
+a847 1
+/**/printf("x_ref: pointer d=[%d]\n", d);
+d850 1
+a850 1
+
+d858 2
+a859 1
+/**/printf("x_ref: walking a=[%d] r=[%d]\n", a, r);
+a866 1
+/**/{
+a867 2
+/**/printf("x_ref:        a=[%d] r=[%d] subs=%d\n", a, r, subs);
+/**/}
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.30 1995/04/18 12:00:40 ldl Exp ldl $
+a244 1
+/**/printf("x_division(%d, %d)\n", prog, div);
+a247 1
+/**/{
+a248 2
+/**/printf("x_division: _parse.div_base = %d\n", _parse.div_base);
+/**/}
+d771 1
+a771 1
+  int       xt, is_subr = 0;
+d781 1
+a781 1
+  if      ( (d = lkupid(ref, T_ID)) && ( ! rnn(d, T__FIRST, NIL)) )	
+d787 5
+a791 5
+  else if ( (d = lkupid(ref, T_BUILTIN  )) ||
+	    (d = lkupid(ref, T_COMMON   )) ||
+	    (d = lkupid(ref, T_FUNCTION )) ||
+	    (d = lkupid(ref, T_LITERAL  )) ||
+	    (d = lkupid(ref, T_RECORD   ))
+a798 1
+/**/printf("x_ref:aggregate d=[%d]\n", d);
+d800 2
+d803 1
+a803 1
+        d = find_long(d, xt);		/* Get to definition		*/
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.29 1995/04/13 10:23:56 ldl Exp ldl $
+d36 1
+d148 15
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.28 1995/04/03 11:47:11 ldl Exp ldl $
+d759 1
+a759 1
+  int       xt;
+d816 1
+a816 1
+    c_warning("attempt to reference unknown entity %s", var);
+d898 6
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.27 1995/03/27 03:06:28 ldl Exp ldl $
+d322 1
+d324 1
+d327 4
+a330 1
+    rs(n, T_O_LBRACK, array);
+d762 1
+d767 2
+a786 3
+      char      var[BUFSIZ];
+
+      strcpy(var, xs);			/* First part of reference	*/
+d816 1
+a816 1
+    c_warning("attempt to reference unknown entity %s", xs);
+d831 67
+a897 6
+  /* Add test for validity of array, don't post if not valid */
+  if (array)				/* If array subscripted		*/
+    rs(ref, T_O_LBRACK, array);
+  /* Add test for validity of pos, don't post if not valid */
+  if (pos)				/* If substring position	*/
+    rs(ref, T_O_LPAREN, pos);
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.26 1995/03/26 19:58:13 ldl Exp ldl $
+d76 1
+d172 1
+a172 1
+x_common_def_header(class, kw, rname, redef, nosuffix)	/* Function	*/
+d175 1
+a175 1
+  Node_id   rname;
+d184 5
+a188 2
+  if (rname)
+    rs(n, T_ID, rname);			/* (Optional) record name	*/
+d517 5
+a521 2
+  if (name)
+    rs(n, T_ID, name);			/* (Optional) name		*/
+d717 3
+a719 2
+  if (name)				/* Optional name		*/
+    rs(n, T_ID, name);
+d745 1
+d754 73
+d829 1
+d834 9
+@
+
+
+1.26
+log
+@26-Mar-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.25 1995/03/23 13:31:33 ldl Exp ldl $
+d111 2
+@
+
+
+1.25
+log
+@23-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.24 1995/03/19 23:29:18 ldl Exp ldl $
+d223 1
+d226 5
+d232 3
+a234 6
+        {
+          ns(_parse.div_base = prog = nn(), T__DIVISION, "x_division");
+          rs(prog, T__FIRST, div);
+        }
+      else
+       adl_n(rnn(prog, T__FIRST, NIL), div);/* Subsequent division	*/
+a742 3
+  Node_id   n;
+  ns(n = nn(), T_ID, "x_ref");
+  rs(n, T__FIRST, ref);
+d744 1
+a744 1
+    rs(n, T_O_LBRACK, array);
+d746 2
+a747 2
+    rs(n, T_O_LPAREN, pos);
+  return n;
+d930 1
+a930 1
+  rs(n, T_DO,   stmt);
+@
+
+
+1.24
+log
+@19-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.23 1995/03/08 13:33:28 ldl Exp ldl $
+d43 1
+a67 1
+  x_open_options	PROTOARGS((Node_id, Node_id)),
+d78 1
+a78 1
+  x_store		PROTOARGS((Node_id, Node_id)),
+d238 14
+d294 1
+d303 1
+d339 1
+d527 2
+a528 1
+  rs(n, T_O_COMMA, opts);
+d541 1
+a541 1
+	        T_LPNUM,
+d545 1
+a545 1
+	        T_ALIGN,
+d572 2
+a573 1
+  rs(n, T_O_COMMA, opts);
+a590 1
+	        T_RECSIZ,
+d593 3
+d597 1
+a599 3
+	        T_KEY,
+	        T_FDL,
+	        T_NUMREC,
+d613 2
+a614 1
+  rs(n, T_O_COLON, mode);
+a619 10
+x_open_options(mode, attrs)				/* Function	*/
+  Node_id   mode;
+  Node_id   attrs;
+{
+  adf_n(mode, attrs);
+  return mode;
+} /* x_open_options */
+
+static
+Node_id
+d782 1
+a782 1
+x_store(ioch, ref)					/* Function	*/
+d785 1
+d789 4
+a792 2
+  rs(n, T_O_LPAREN, ioch);
+  rs(n, T__REF, ref);
+d1006 1
+d1008 1
+d1010 1
+a1010 1
+    lkw_tab[kw] = tokenseq[valid[kw]];	/* Build table of valid keywords*/
+d1013 3
+d1020 12
+a1031 9
+/**/{ char **kwt = lkw_tab;
+/**/printf("y_kw_lkset(%d:%s=\"%s\", [%d],\n",
+/**/       t.token_id, to_token(t.token_id),
+/**/       t.token_value ? t.token_value : "");
+/**/printf("%*s(\n", 10, "kwt=");
+/**/while (*kwt) printf("%*s \"%s\"\n", 10, "", kwt++);
+/**/printf("%*s)\n", 10, "");
+/**/}
+/***/
+d1033 2
+a1034 1
+  kw = (IS_t__NIL(t)) ? 1 : s_kw_lookup(t.token_value, kw_tab);
+a1035 2
+/**/printf("y_kw_lkset: kw=%d\n", kw);
+/***/
+d1040 10
+a1049 7
+      					/* Convert keyword to T_xxx	*/
+      kw = s_kw_lookup(t.token_value, kw_tab);
+/**/printf("y_kw_lkset: change token from %d to", t.token_id);
+/***/
+      t.token_id = kw + T__NIL + (kw_tab - tokenseq);
+/**/printf(" %d\n", t.token_id);
+/***/
+d1052 2
+@
+
+
+1.23
+log
+@08-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.22 1995/03/06 12:00:17 ldl Exp ldl $
+d11 4
+d19 10
+d34 1
+a34 1
+  x_begin_end_stmts	PROTOARGS((Node_id, Node_id, Node_id)),
+d59 1
+d62 1
+d65 1
+d68 1
+a69 1
+  x_proc_div_stmt	PROTOARGS((Node_id, Node_id, Node_id)),
+d71 1
+a71 1
+  x_read_options	PROTOARGS((Node_id)),
+d84 2
+d88 1
+a88 1
+  x_write_option_rfa	PROTOARGS((Token, Node_id)),
+d92 2
+a93 2
+Token
+  x_xcall_flags		PROTOARGS((Token));
+a121 5
+/***
+ *	Note: If the label is present, it is NOT posted in the global
+ *	label table because it is "inside of" a block!  Only visible to
+ *	this block.  Otherwise, very similar.
+ */
+d124 1
+a124 2
+x_begin_end_stmts(block, label, stmt)			/* Function	*/
+  Node_id   block;
+a125 1
+  Node_id   stmt;
+d127 3
+a129 6
+  if ( ! block )
+    block = stmt;			/* 1st stmt is the head 	*/
+
+  if (label)				/* Check for duplicate label(s)	*/
+    {
+      Node_id   l;
+a130 30
+      ck_dup_label(block, label);	/* See if already have label	*/
+      if (l = rnn(label, T__FIRST, NIL))/* Have a list of labels	*/
+        do
+	  ck_dup_label(block, label);	/* See if already have label	*/
+	while (l = rnn(l, T__PRECEDES, NIL));
+
+
+      rs(block, T_LABEL, label);	/* Add label 			*/
+      if (block != stmt)
+        rs(stmt, T_LABEL, label);
+      if (l = rnn(label, T__FIRST, NIL))/* Have a list of labels	*/
+        do
+	  {
+            Node_id   nl;		/* Create new node with label	*/
+	    int       t;		/* info since don't want multi-	*/
+	    char     *s;		/* paths in tangled net		*/
+
+	    ng(l, &t, &s);		/* Get label value		*/
+	    ns(nl = nn(), t, s);	/* Create new node		*/
+            rs(block, T_LABEL, nl);	/* Add label			*/
+            if (block != stmt)
+              rs(stmt, T_LABEL, nl);
+	  }
+	while (l = rnn(l, T__PRECEDES, NIL));
+    }
+  if (block != stmt)
+    adf_n(block, stmt);			/* Add to stmt end of list	*/
+  return block;
+} /* x_begin_end_stmts */
+
+d465 17
+d516 19
+d560 28
+d622 2
+a623 2
+ *	Note: if there is a label, then the label is posted to the
+ *	      T_PROC label table (containing all labels used in proc).
+d627 1
+a627 2
+x_proc_div_stmt(pdiv, label, stmt)			/* Function	*/
+  Node_id   pdiv;
+a628 1
+  Node_id   stmt;
+d630 3
+a632 3
+  if (label)				/* Check for duplicate label(s)	*/
+    {
+      Node_id   l;
+a633 27
+      ck_dup_label(pdiv, label);	/* See if already have label	*/
+      if (l = rnn(label, T__FIRST, NIL))/* Have a list of labels	*/
+        do
+	  ck_dup_label(pdiv, label);	/* See if already have label	*/
+	while (l = rnn(l, T__PRECEDES, NIL));
+
+
+      rs(pdiv, T_LABEL, label);		/* Add label			*/
+      rs(stmt, T_LABEL, label);
+      if (l = rnn(label, T__FIRST, NIL))/* Have a list of labels	*/
+        do
+	  {
+            Node_id   nl;		/* Create new node with label	*/
+	    int       t;		/* info since don't want multi-	*/
+	    char     *s;		/* paths in tangled net		*/
+
+	    ng(l, &t, &s);		/* Get label value		*/
+	    ns(nl = nn(), t, s);	/* Create new node		*/
+            rs(pdiv, T_LABEL, nl);	/* Add label			*/
+            rs(stmt, T_LABEL, nl);
+	  }
+	while (l = rnn(l, T__PRECEDES, NIL));
+    }
+  adf_n(pdiv, stmt);			/* Add to stmt end of list	*/
+  return pdiv;
+} /* x_proc_div_stmt */
+
+d652 16
+a667 8
+x_read_options(expr)					/* Function	*/
+  Node_id   expr;
+{
+  Node_id   n;
+  ns(n = nn(), T_READ, "x_read_options");
+  rs(n, T__EXPR, expr);
+  return n;
+} /* x_read_options */
+d873 37
+d939 12
+a950 9
+x_write_option_rfa(rfa, expr)				/* Function	*/
+  Token     rfa;
+  Node_id   expr;
+{
+  Node_id   n;
+  n = mkid(rfa);
+  rs(n, T__EXPR, expr);
+  return n;
+} /* x_write_option_rfa */
+d980 2
+a981 1
+ *	Hack in the "flags" routine as FLAGS is used in video opts
+d984 49
+a1032 8
+Token
+x_xcall_flags(id)					/* Function	*/
+  Token     id;
+{
+  id.token_id    = T_ID;
+  id.token_value = s_filter("FLAGS");
+  return id;
+} /* x_xcall_flags */
+@
+
+
+1.22
+log
+@06-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.21 1995/03/06 10:31:58 ldl Exp ldl $
+d19 1
+a19 1
+  x_assignment		PROTOARGS((Node_id, Token, Node_id, Node_id)),
+d23 1
+d43 2
+d48 1
+a48 1
+  x_open		PROTOARGS((Node_id, Node_id)),
+d53 1
+a53 1
+  x_read		PROTOARGS((Node_id, Node_id, Node_id)),
+d55 1
+a55 1
+  x_reads		PROTOARGS((Node_id, Node_id, Node_id)),
+d68 1
+a68 1
+  x_write		PROTOARGS((Node_id, Node_id, Node_id)),
+d70 1
+a70 1
+  x_writes		PROTOARGS((Node_id, Node_id)),
+d84 1
+a84 1
+x_assignment(ref, equal, expr, fmt)			/* Function	*/
+d89 1
+d98 2
+d178 12
+d261 1
+a261 1
+  Token     t_until;
+d266 2
+a267 1
+  rs(n, T__EXPR, expr);
+d465 21
+d532 1
+a532 1
+x_open(ioch, opts)					/* Function	*/
+d541 1
+a541 1
+} /* x_open */
+d622 1
+a622 1
+x_read(ioch, ref, opts)					/* Function	*/
+d634 1
+a634 1
+} /* x_read */
+d649 1
+a649 1
+x_reads(ioch, item, opts)				/* Function	*/
+d655 1
+a655 1
+  ns(n = nn(), T_READS, "x_reads");
+d661 1
+a661 1
+} /* x_reads */
+d864 1
+a864 1
+x_write(ioch, ref, opts)				/* Function	*/
+d870 1
+a870 1
+  ns(n = nn(), T_WRITE, "x_write");
+d876 1
+a876 1
+} /* x_write */
+d892 1
+a892 1
+x_writes(ioch, item)					/* Function	*/
+d897 1
+a897 1
+  ns(n = nn(), T_WRITES, "x_writes");
+d901 1
+a901 1
+} /* x_writes */
+@
+
+
+1.21
+log
+@06-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.20 1995/03/05 03:24:37 ldl Exp ldl $
+@
+
+
+1.20
+log
+@04-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.19 1995/03/03 12:36:19 ldl Exp ldl $
+@
+
+
+1.19
+log
+@03-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.18 1995/02/27 12:55:27 ldl Exp ldl $
+@
+
+
+1.18
+log
+@27-Feb-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.17 1995/02/26 10:54:28 ldl Exp ldl $
+@
+
+
+1.17
+log
+@26-Feb-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.16 1995/01/07 15:34:52 ldl Exp ldl $
+a13 3
+static
+Node_id   div_base = NIL;		/* Holder for symbol tables	*/
+
+a18 9
+  adf_n			PROTOARGS((Node_id, Node_id)),
+  adl_n			PROTOARGS((Node_id, Node_id)),
+  adl_t			PROTOARGS((Node_id, Token)),
+  eol			PROTOARGS((Node_id)),
+  filter_data_type	PROTOARGS(()),
+  lkupid		PROTOARGS((Node_id, Token)),
+  mkcp			PROTOARGS((Token, Node_id)),
+  mkkwv			PROTOARGS((Token, Node_id)),
+  mkkwvv		PROTOARGS((Token, Node_id, Token, Node_id)),
+a76 131
+ *	Add T__FIRST node and start list (or add to end of list).
+ */
+static
+Node_id
+adf_n(list, node)					/* Function	*/
+  Node_id   list;
+  Node_id   node;
+{
+  Node_id   n;
+  if ( ! (n = rnn(list, T__FIRST, NIL)) )
+    rs(list, T__FIRST, node);		/* Create first list		*/
+  else
+    adl_n(n, node);			/* Add to the end of list	*/
+  return list;
+} /* adf_n */
+
+/**
+ *	Add node to list.
+ */
+static
+Node_id
+adl_n(list, node)					/* Function	*/
+  Node_id   list;
+  Node_id   node;
+{
+  rs(eol(list), T__PRECEDES, node);	/* Add node to end of list	*/
+  return list;
+} /* adl_n */
+
+/**
+ *	Add token to list.
+ */
+static
+Node_id
+adl_t(list, token)					/* Function	*/
+  Node_id   list;
+  Token     token;
+{
+  adl_n(list, mkid(token));		/* Add node to end of list	*/
+  return list;				/* Return head of list		*/
+} /* adl_t */
+
+/**
+ *	Find end of T__PRECEDES chain on list.
+ */
+static
+Node_id
+eol(list)						/* Function	*/
+  Node_id   list;
+{
+  Node_id   e;
+  while (list = rnn(e = list, T__PRECEDES, NIL))
+    ; /* Skip to end of list */
+  return e;
+} /* eol */
+
+static
+Node_id
+filter_data_type(id)					/* Function	*/
+{
+/* A size defaults to 65535	this is the default type
+ * D size defaults to 18 digits
+ * I size defaults to 16 bytes
+ * P size defaults to 18 digits
+ * X means redefine flag
+ */
+} /* filter_data_type */
+
+/**
+ *	Lookup a scoped identifier (if scope == NIL, then any).
+ */
+static
+Node_id
+lkupid(scope, id)					/* Function	*/
+  Node_id   scope;
+  Token     id;
+{
+/**/printf("lkupid: div_base=%d\n", div_base);
+/***/
+} /* lkupid */
+
+/**
+ *	Make command/parameter linkage.
+ */
+static
+Node_id
+mkcp(token, param)					/* Function	*/
+  Token     token;
+  Node_id   param;
+{
+  Node_id   n = mkid(token);
+  if (param)				/* Add parameters if they exist	*/
+    rs(n, T__FIRST, param);
+  return n;
+} /* mkcp */
+
+/**
+ *	Make a keyword:value node.
+ */
+static
+Node_id
+mkkwv(token, value)					/* Function	*/
+  Token     token;
+  Node_id   value;
+{
+  Node_id   n = mkid(token);		/* Create token node		*/
+  rs(n, T__EXPR, value);		/* Add expression relation	*/
+  return n;
+} /* mkkwv */
+
+/**
+ *	Make a keyword:value-value node or
+ *	       keyword:value,value node or
+ *	       keyword:value:value node
+ */
+static
+Node_id
+mkkwvv(token, valu1, tothru, valu2)			/* Function	*/
+  Token     token;
+  Node_id   valu1;
+  Token     tothru;
+  Node_id   valu2;
+{
+  Node_id   n = mkid(token), m = mkid(tothru);
+  rs(n, T__EXPR, valu1);
+  rs(n, tothru.token_id, m);
+  rs(m, T__EXPR, valu2);
+  return n;
+} /* mkkwvv */
+
+/**
+d112 1
+a112 1
+  if (label)				/* Check for duplicate label	*/
+d114 1
+a114 3
+      int       found = 0, ty;
+      char     *labname, *newname;
+      Node_id   n = NIL;
+d116 6
+a121 7
+      ng(label, &ty, &newname);		/* Get new label text		*/
+      while (n = rnn(block, T_LABEL, n))
+        {
+	  ng(n, &ty, &labname);
+	  if (strcmp(labname, newname) == 0)
+	    c_error("duplicate label %s", newname);
+	}
+d123 1
+a123 1
+      rs(block, T_LABEL, label);	/* Add label (if any)		*/
+d126 14
+d230 1
+a230 1
+          ns(div_base = prog = nn(), T__DIVISION, "x_division");
+d549 1
+a549 1
+  if (label)				/* Check for duplicate label	*/
+d551 1
+a551 3
+      int       found = 0, ty;
+      char     *labname, *newname;
+      Node_id   n = NIL;
+d553 6
+a558 7
+      ng(label, &ty, &newname);		/* Get new label text		*/
+      while (n = rnn(pdiv, T_LABEL, n))
+        {
+	  ng(n, &ty, &labname);
+	  if (strcmp(labname, newname) == 0)
+	    c_error("duplicate label %s", newname);
+	}
+d560 1
+a560 1
+      rs(pdiv, T_LABEL, label);		/* Add label (if any)		*/
+d562 13
+@
+
+
+1.16
+log
+@07-Jan-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.15 1995/01/07 11:22:35 ldl Exp ldl $
+a28 1
+  mkid			PROTOARGS((Token)),
+a87 1
+
+a183 13
+
+/**
+ *	Make identifier node.
+ */
+static
+Node_id
+mkid(token)						/* Function	*/
+  Token     token;
+{
+  Node_id   n;
+  ns(n = nn(), token.token_id, token.token_value);
+  return n;
+} /* mkid */
+@
+
+
+1.15
+log
+@07-Jan-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.14 1994/12/31 02:31:31 ldl Exp ldl $
+d33 1
+d35 1
+d255 38
+d309 10
+d1024 1
+@
+
+
+1.14
+log
+@30-Dec-1994 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.13 1994/12/30 21:01:50 ldl Exp ldl $
+d81 3
+d963 12
+@
+
+
+1.13
+log
+@30-Dec-1994 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.12 1994/12/27 04:07:25 ldl Exp ldl $
+@
+
+
+1.12
+log
+@26-Dec-1994 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram_support.c,v 1.11 1994/12/26 23:52:58 ldl Exp ldl $
+d320 1
+a320 1
+  if ( ! prog )				/* 1st division			*/
+d322 7
+a328 2
+      ns(div_base = prog = nn(), T__DIVISION, "x_division");
+      rs(prog, T__FIRST, div);
+a329 2
+  else
+   adl_n(rnn(prog, T__FIRST, NIL), div);/* Subsequent division		*/
+d970 2
+a971 2
+/**/printf("y_setdiv(%d) _parse.div=%d\n", div, _parse.div);
+/***/
+@
+
+
+1.11
+log
+@26-Dec-1994 Checkpoint 1
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d124 1
+a124 2
+  Node_id   n = mkid(token);
+  adl_n(list, n);			/* Add node to end of list	*/
+d176 1
+a176 2
+  Node_id   n;
+  ns(n = nn(), token.token_id, token.token_value);
+d337 1
+a337 2
+  Node_id   n;
+  ns(n = nn(), t_until.token_id, t_until.token_value);
+d350 1
+a350 2
+  Node_id   n;
+  ns(n = nn(), op.token_id, op.token_value);
+d684 1
+a684 1
+  ns(n, T__EXPR, expr);
+d751 1
+a751 1
+  rs(n, T__REF, ref);
+d841 1
+a841 1
+  Node_id   n;
+d843 12
+a854 2
+  if (subr)
+    rs(n, T__TYPE, subr);		/* Function/Subroutine decl	*/
+d856 2
+d993 1
+a993 1
+/* End of $Source$ */
+@

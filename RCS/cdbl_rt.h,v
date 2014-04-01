@@ -1,0 +1,1258 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.54;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.49;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.05.52;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.22;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.52.59;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.09;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.04;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.35;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.33;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.23;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.04;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.28;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.10;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.46.59;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.45.57;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.43.59;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.42;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.38.57;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.04;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.47;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.25;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.49;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.16;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.46;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.38;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.44;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.20;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.02;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.21;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.40.41;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.31;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.43;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.34;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.01;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.28;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.42;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.19;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.10;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.19;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.27;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.14;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.13;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.50;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.08;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.38;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:49 $
+ */
+
+#ifndef	_CDBL_RT_H_
+#define _CDBL_RT_H_
+
+/**
+ * Synopsis:
+ *	#include <cdbl/cdbl_rt.h>
+ *
+ * Description:
+ *	These definitions are for the generated C programs and define the
+ *	interfaces to the runtime support routines.  The #include for this
+ *	file is generated into the program 'header file'.
+ *
+ * Note:
+ *	This file must reside in a directory such that the "<>" notation
+ *	picks up the definition (via -I<dir> or whatever).
+ */
+
+#include <stdio.h>
+#include "prototype.h"
+
+
+/**
+ *	Note: This number represents the largest number of digits supported
+ *	by a 'long long' value.  It is used as a manifest constant in the
+ *	compiler, so changing this without changing recompiling the compiler
+ *	will only mess things up.  (The compiler expects the runtime to be
+ *	fairly tightly coupled in this respect).
+ */
+#define	MAX_NUM_DIGITS	18
+
+/**
+ *	Display Attribute Flags
+ */
+typedef long      DAttr_t;		/* Type DAttr_t			*/
+					/* ---------------------------- */
+					/* $SCR_ATT() values		*/
+#define DBL_DA_BLINK	0x00010000	/*   Blink attribute		*/
+#define DBL_DA_BOLD	0x00020000	/*   Bold attribute		*/
+#define DBL_DA_CLEAR	0x00040000	/*   Normal display attribute	*/
+#define DBL_DA_RESTORE	0x00080000	/*   Restore saved attributes	*/
+#define DBL_DA_REVERSE	0x00100000	/*   Reverse video attribute	*/
+#define DBL_DA_SAVE	0x00200000	/*   Save video attributes	*/
+					/* $SCR_CLR() values		*/
+#define DBL_DA_CLREOL	0x00400000	/*   Clear to end of line	*/
+#define DBL_DA_CLREOS	0x00800000	/*   Clear to end of screen	*/
+#define DBL_DA_CLRLINE	0x01000000	/*   Clear line			*/
+#define DBL_DA_CLRSCRN	0x02000000	/*   Clear screen		*/
+					/* $SCR_POS() value		*/
+#define DBL_DA_POS	0x04000000	/*   Position to (row, col)	*/
+
+/**
+ *	I/O Exception values
+ */
+typedef int       IO_Arg;		/* Type: IO_Arg			*/
+#define DBL_IOA_BUF	 0		/* Data buffer address		*/
+#define DBL_IOA_RECNO	 1		/* Record number		*/
+#define DBL_IOA_WAIT	 2		/* Wait time value		*/
+
+typedef int       IOS_t;		/* Type: IOS_t			*/
+					/* ----------------------------	*/
+#define DBL_IOS_OK	 0		/* NO I/O exception		*/
+#define	DBL_IOS_EOF	 1		/* End-Of-File			*/
+#define	DBL_IOS_ERR	 2		/* ERRor condition		*/
+#define	DBL_IOS_KEY	 3		/* ??? no key ???		*/
+#define	DBL_IOS_LOCK	 4		/* ??? locked by another ???	*/
+#define	DBL_IOS_LONG	 5		/* Record too long		*/
+
+
+/**
+ *	Define Llong to minimize grousing by gcc.
+ */
+typedef long long Llong;
+
+/**
+ *	Argument passing structure
+ *
+ *	Note:	Allow for a T_xxx token to be or'd into 'flags' below,
+ *		so leave enough bits for the token value.
+ */
+typedef
+struct					/* Type: DBLArg_t		*/
+  {					/* ----------------------------	*/
+    char     *caller;			/* Calling routine name		*/
+    void     *addr;			/* Address of argument/param	*/
+    int       size;			/* Size of argument/param	*/
+    char     *type;			/* Data type of argument/param	*/
+    int       flags;			/* Flags describing actual	*/
+#define ARG_ISTYPE(x)	(x & 0xF000)	/* Extract ARG_ISxxx part	*/
+#define ARG_TOKEN(x)	(x & 0x0FFF)	/* Extractor of T_xxx token part*/
+#define ARG_ISEMPTY	0x0000		/*   Is 'empty' i.e. rtn(,,arg)	*/
+#define ARG_ISCONST	0x1000		/*   Is a constant (string/num)	*/
+#define ARG_ISVAR	0x2000		/*   Is variable		*/
+#define ARG_ISEXPR	0x3000		/*   Is an expression		*/
+#define ARG_ISSUBR	0x4000		/*   Is a function call		*/
+  }       DBLArg_t;			/*				*/
+
+/**
+ *	ISAM Key Attributes
+ */
+#define DBL_ISAM_A_USES_WHOLE	 0	/* Segment follows "whole" attr	*/
+#define DBL_ISAM_A_CHANGE	 1	/* Key value may be changed	*/
+#define DBL_ISAM_A_NOCHANGE	 2	/* Key may not be changed    ** */
+#define DBL_ISAM_A_DUPLICATES	 4	/* Duplicate keys allowed	*/
+#define DBL_ISAM_A_NODUPLICATES	 8	/* Duplicate keys not allowed**	*/
+#define DBL_ISAM_A_ASCENDING	16	/* Key (segment) sorts up    **	*/
+#define DBL_ISAM_A_DESCENDING	32	/* Key (segment) sorts down	*/
+
+/**
+ *	ISAM file descriptor
+ *
+ *	Applicable to: Files OPENed with submode :INDEXED
+ *
+ *	This descriptor is the 'header' that describes the ISAM file.
+ *	When a file is created (OPEN with KEY specified), this header
+ *	is created.  If the file exists and OPEN specifying a KEY is
+ *	used, then the KEY descriptors *must* match exactly or an error
+ *	occurs.  When OPENing an existing file, and no KEY is supplied,
+ *	the value stored in the 'header' controls the index specification.
+ *
+ *	Note:	This is rather non-dynamic, but the limits are expected
+ *		to allow more than what most application programmers need.
+ */
+#define MAX_ISAM_KEYS	10		/* Maximum # of indexes per file*/
+#define MAX_KEY_SEGS	 8		/* Maximum # of key segs/key	*/
+
+typedef
+struct
+  {
+#define ISAM_LABEL	"KEYS v0"	/* Version of keys descriptor	*/
+    char      label[8];			/* A nul terminated string	*/
+    int       cookie;			/* Magic cookie (so can find)	*/
+#define ISAM_COOKIE	0xF00D		/* Looks like food ;-)		*/
+    int       nkey;			/* # of indexes			*/
+    struct				/* Key descriptor per index	*/
+      {					/* ----------------------------	*/
+	int       len;			/* Key length (sum seg lengths)	*/
+        char      type;			/* Type of field A, S, P, I, U	*/
+        char      attr;			/* DBL_ISAM_A_xxx values	*/
+        int       nseg;			/* # of segments in key		*/
+	struct				/* Key segment descriptors	*/
+	  {				/* ----------------------------	*/
+            int       spos;		/* Starting position (rel 1)	*/
+	    int       slen;		/* Length of segment (bytes)	*/
+	    char      stype;		/* Type of field A, S, P, I, U	*/
+            char      sattr;		/* DBL_ISAM_A_xxx values	*/
+	  }       seg[MAX_KEY_SEGS];	/* ----------------------------	*/
+      }       key[MAX_ISAM_KEYS];	/*				*/
+  }       DBLISAMH_t;			/*				*/
+
+/***
+ *	Run-time Routine Prototypes
+ */
+
+/**
+ *	Data (internal) Manipulation
+ */
+void      dbl_linkage	PROTOARGS((char *, int *, int *));
+void      dbl_mkarg	PROTOARGS((DBLArg_t *, char*, void*, int, char*, int));
+Llong     dbl_num	PROTOARGS((DBLArg_t *));
+void      dbl_putn	PROTOARGS((DBLArg_t *, Llong, int));
+void      dbl_puts	PROTOARGS((DBLArg_t *, char *, char *));
+void      dbl_putsf	PROTOARGS((DBLArg_t *, char *, char *,char*));
+Llong     dbl_round	PROTOARGS((Llong, Llong));
+void      dbl_toarg	PROTOARGS((char *, char *, void **, int, int));
+Llong     dbl_xor	PROTOARGS((Llong, Llong));
+
+/**
+ *	I/O Statements (supporting io_exceptions)
+ */
+IOS_t     drt_accept	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_delete	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_find	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_forms	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_get	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_gets	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_open	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_put	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_puts	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_read	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_reads	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_store	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_write	PROTOARGS((int, int, DBLArg_t *));
+IOS_t     drt_writes	PROTOARGS((int, int, DBLArg_t *));
+
+/**
+ *	Other "Macro" Command Support.
+ */
+void      drt_ERROR     PROTOARGS((char *, char *));
+void      drt_EXIT	PROTOARGS((int));
+void      drt_FATAL	PROTOARGS((char *));
+char     *drt_FILNM	PROTOARGS((int));
+void      drt_INIT	PROTOARGS((int, char **, char **));
+void      drt_clear	PROTOARGS((DBLArg_t *));
+void      drt_close	PROTOARGS((int));
+void      drt_decr	PROTOARGS((DBLArg_t *));
+void      drt_detach	PROTOARGS((void));
+void      drt_display	PROTOARGS((/* int, varargs */));
+void      drt_errortrap	PROTOARGS((char *));
+void      drt_flush	PROTOARGS((DBLArg_t *));
+void      drt_incr	PROTOARGS((DBLArg_t *));
+void      drt_locase	PROTOARGS((DBLArg_t *));
+void      drt_stop	PROTOARGS((DBLArg_t *));
+void      drt_terminate	PROTOARGS((void));
+void      drt_unlock	PROTOARGS((int));
+void      drt_upcase	PROTOARGS((DBLArg_t *));
+
+/**
+ *	Built-in & external call routine name mashers.
+ */
+#define BUILTIN_FUNC(func)	_BI_##func
+#define XCALL_FUNC(func)	_XC_##func
+
+/**
+ *	Standard Built-in Routines.
+ */
+DBLArg_t  BUILTIN_FUNC(ABS       )(int, DBLArg_t *),
+          BUILTIN_FUNC(ADDR      )(int, DBLArg_t *),
+          BUILTIN_FUNC(ARGA      )(int, DBLArg_t *),
+          BUILTIN_FUNC(ARGN      )(int, DBLArg_t *),
+          BUILTIN_FUNC(B         )(int, DBLArg_t *),
+          BUILTIN_FUNC(BBBKSTR   )(int, DBLArg_t *),
+          BUILTIN_FUNC(BIN       )(int, DBLArg_t *),
+          BUILTIN_FUNC(BIT_IS_CLR)(int, DBLArg_t *),
+          BUILTIN_FUNC(BIT_IS_SET)(int, DBLArg_t *),
+          BUILTIN_FUNC(CHAR      )(int, DBLArg_t *),
+          BUILTIN_FUNC(CHOPEN    )(int, DBLArg_t *),
+          BUILTIN_FUNC(CPUTIME   )(int, DBLArg_t *),
+          BUILTIN_FUNC(D         )(int, DBLArg_t *),
+          BUILTIN_FUNC(DATE      )(int, DBLArg_t *),
+          BUILTIN_FUNC(DECML     )(int, DBLArg_t *),
+          BUILTIN_FUNC(DEFINED   )(int, DBLArg_t *),
+          BUILTIN_FUNC(DESCR     )(int, DBLArg_t *),
+          BUILTIN_FUNC(ERLINE    )(int, DBLArg_t *),
+          BUILTIN_FUNC(ERNUM     )(int, DBLArg_t *),
+          BUILTIN_FUNC(ERROR     )(int, DBLArg_t *),
+          BUILTIN_FUNC(FALSE     )(int, DBLArg_t *),
+          BUILTIN_FUNC(HEX       )(int, DBLArg_t *),
+          BUILTIN_FUNC(INRANGE   )(int, DBLArg_t *),
+          BUILTIN_FUNC(INSTR     )(int, DBLArg_t *),
+          BUILTIN_FUNC(INT       )(int, DBLArg_t *),
+          BUILTIN_FUNC(INTEGER   )(int, DBLArg_t *),
+          BUILTIN_FUNC(JBNO      )(int, DBLArg_t *),
+          BUILTIN_FUNC(LEN       )(int, DBLArg_t *),
+          BUILTIN_FUNC(NUMARGS   )(int, DBLArg_t *),
+          BUILTIN_FUNC(O         )(int, DBLArg_t *),
+          BUILTIN_FUNC(OCT       )(int, DBLArg_t *),
+          BUILTIN_FUNC(OUTRANGE  )(int, DBLArg_t *),
+          BUILTIN_FUNC(PACKED    )(int, DBLArg_t *),
+          BUILTIN_FUNC(PASSED    )(int, DBLArg_t *),
+          BUILTIN_FUNC(REF       )(int, DBLArg_t *),
+          BUILTIN_FUNC(RFA       )(int, DBLArg_t *),
+          BUILTIN_FUNC(RSIZE     )(int, DBLArg_t *),
+          BUILTIN_FUNC(RTERM     )(int, DBLArg_t *),
+          BUILTIN_FUNC(SCR_ATT   )(int, DBLArg_t *),
+          BUILTIN_FUNC(SCR_CLR   )(int, DBLArg_t *),
+          BUILTIN_FUNC(SCR_MOV   )(int, DBLArg_t *),
+          BUILTIN_FUNC(SIZE      )(int, DBLArg_t *),
+          BUILTIN_FUNC(SKEL      )(int, DBLArg_t *),
+          BUILTIN_FUNC(STRING    )(int, DBLArg_t *),
+          BUILTIN_FUNC(SUCCESS   )(int, DBLArg_t *),
+          BUILTIN_FUNC(SYSERR    )(int, DBLArg_t *),
+          BUILTIN_FUNC(TIME      )(int, DBLArg_t *),
+          BUILTIN_FUNC(TNMBR     )(int, DBLArg_t *),
+          BUILTIN_FUNC(TRIM      )(int, DBLArg_t *),
+          BUILTIN_FUNC(TRUE      )(int, DBLArg_t *),
+          BUILTIN_FUNC(TTNAME    )(int, DBLArg_t *),
+          BUILTIN_FUNC(TTSTS     )(int, DBLArg_t *),
+          BUILTIN_FUNC(UNSIGNED  )(int, DBLArg_t *),
+          BUILTIN_FUNC(VAL       )(int, DBLArg_t *),
+          BUILTIN_FUNC(VARIANT   )(int, DBLArg_t *),
+          BUILTIN_FUNC(VERSN     )(int, DBLArg_t *),
+          BUILTIN_FUNC(VMS       )(int, DBLArg_t *),
+          BUILTIN_FUNC(WAIT      )(int, DBLArg_t *),
+          BUILTIN_FUNC(WKDAY     )(int, DBLArg_t *),
+          BUILTIN_FUNC(X         )(int, DBLArg_t *),
+          BUILTIN_FUNC(XTRNL     )(int, DBLArg_t *),
+          BUILTIN_FUNC(ZONED     )(int, DBLArg_t *);
+
+/**
+ *	Standard XCALL Routines.
+ */
+void      XCALL_FUNC(ACCHR       )(int, DBLArg_t *),
+          XCALL_FUNC(ASCII       )(int, DBLArg_t *),
+          XCALL_FUNC(ASCR5       )(int, DBLArg_t *),
+          XCALL_FUNC(DACHR       )(int, DBLArg_t *),
+          XCALL_FUNC(DATE        )(int, DBLArg_t *),
+          XCALL_FUNC(DECML       )(int, DBLArg_t *),
+          XCALL_FUNC(DELET       )(int, DBLArg_t *),
+          XCALL_FUNC(DFLAG       )(int, DBLArg_t *),
+          XCALL_FUNC(ENVRN       )(int, DBLArg_t *),
+          XCALL_FUNC(ERROR       )(int, DBLArg_t *),
+          XCALL_FUNC(ERTXT       )(int, DBLArg_t *),
+          XCALL_FUNC(FATAL       )(int, DBLArg_t *),
+          XCALL_FUNC(FILL        )(int, DBLArg_t *),
+          XCALL_FUNC(FILNM       )(int, DBLArg_t *),
+          XCALL_FUNC(FLAGS       )(int, DBLArg_t *),
+          XCALL_FUNC(INSTR       )(int, DBLArg_t *),
+          XCALL_FUNC(ISCLR       )(int, DBLArg_t *),
+          XCALL_FUNC(ISSTS       )(int, DBLArg_t *),
+          XCALL_FUNC(LEN         )(int, DBLArg_t *),
+          XCALL_FUNC(MONEY       )(int, DBLArg_t *),
+          XCALL_FUNC(MSGRS       )(int, DBLArg_t *),
+          XCALL_FUNC(MSGSV       )(int, DBLArg_t *),
+          XCALL_FUNC(PAINT       )(int, DBLArg_t *),
+          XCALL_FUNC(PAK         )(int, DBLArg_t *),
+          XCALL_FUNC(R5ASC       )(int, DBLArg_t *),
+          XCALL_FUNC(RANDM       )(int, DBLArg_t *),
+          XCALL_FUNC(RCFLG       )(int, DBLArg_t *),
+          XCALL_FUNC(RCVID       )(int, DBLArg_t *),
+          XCALL_FUNC(RENAM       )(int, DBLArg_t *),
+          XCALL_FUNC(RSTAT       )(int, DBLArg_t *),
+          XCALL_FUNC(SIZE        )(int, DBLArg_t *),
+          XCALL_FUNC(TIME        )(int, DBLArg_t *),
+          XCALL_FUNC(TNMBR       )(int, DBLArg_t *),
+          XCALL_FUNC(TRIM        )(int, DBLArg_t *),
+          XCALL_FUNC(TTSTS       )(int, DBLArg_t *),
+          XCALL_FUNC(UNPAK       )(int, DBLArg_t *),
+          XCALL_FUNC(VERSN       )(int, DBLArg_t *);
+
+#endif/*_CDBL_RT_H_*/
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:05:52 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:22 $
+d24 1
+a24 1
+#include <cdbl/prototype.h>
+a72 4
+/**
+ *	Built-in routine name masher.
+ */
+#define BUILTIN(func)	X_BI_##func
+d193 1
+d196 1
+d212 113
+a325 1
+
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:52:59 $
+d138 2
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:09 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:04 $
+d138 2
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:35 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:33 $
+d85 3
+d97 7
+a103 5
+#define ARG_ISEMPTY	0		/*   Is 'empty' i.e. rtn(,,arg)	*/
+#define ARG_ISCONST	1		/*   Is a constant (string/num)	*/
+#define ARG_ISVAR	2		/*   Is variable		*/
+#define ARG_ISEXPR	3		/*   Is an expression		*/
+#define ARG_ISSUBR	4		/*   Is a function call		*/
+d105 49
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:23 $
+d124 1
+a148 1
+void      drt_forms	PROTOARGS((int, DBLArg_t *));
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:04 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:28 $
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:10 $
+d72 5
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:46:59 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:45:57 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:43:59 $
+d109 1
+d111 1
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:42 $
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:38:57 $
+d104 1
+a104 1
+DBLArg_t  dbl_mkarg	PROTOARGS((char *, void *, int, char *, int));
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:04 $
+d59 5
+d114 13
+a126 13
+IOS_t     drt_accept	PROTOARGS((int, DBLArg_t *));
+IOS_t     drt_delete	PROTOARGS((int, DBLArg_t *));
+IOS_t     drt_find	PROTOARGS((/*???*/));
+IOS_t     drt_get	PROTOARGS((int, DBLArg_t *, DBLArg_t *));
+IOS_t     drt_gets	PROTOARGS((int, DBLArg_t *));
+IOS_t     drt_open	PROTOARGS((int, DBLArg_t *, DBLArg_t *));
+IOS_t     drt_put	PROTOARGS((int, DBLArg_t *, DBLArg_t *));
+IOS_t     drt_puts	PROTOARGS((int, DBLArg_t *));
+IOS_t     drt_read	PROTOARGS((/*???*/));
+IOS_t     drt_reads	PROTOARGS((/*???*/));
+IOS_t     drt_store	PROTOARGS((int, DBLArg_t *, DBLArg_t *));
+IOS_t     drt_write	PROTOARGS((int, DBLArg_t *));
+IOS_t     drt_writes	PROTOARGS((int, DBLArg_t *));
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:47 $
+d98 1
+a98 1
+int       dbl_int	PROTOARGS((char *, int, char *));
+a103 1
+void      dbl_strremove	PROTOARGS((char *, char *));
+d112 2
+a113 2
+IOS_t     drt_get	PROTOARGS((/*???*/));
+IOS_t     drt_gets	PROTOARGS((/*???*/));
+d115 2
+a116 2
+IOS_t     drt_put	PROTOARGS((/*???*/));
+IOS_t     drt_puts	PROTOARGS((/*???*/));
+d136 1
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:25 $
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:49 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:16 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:46 $
+d113 5
+a138 1
+void      drt_open	PROTOARGS((/*???*/));
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:38 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:44 $
+d28 9
+d101 3
+a103 3
+void      dbl_putn	PROTOARGS((DBLArg_t *, Llong));
+void      dbl_puts	PROTOARGS((DBLArg_t *, int, char *, char *));
+void      dbl_putsf	PROTOARGS((DBLArg_t *, int, char *, char *,char*));
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:20 $
+d93 2
+a94 2
+void      dbl_puts	PROTOARGS((DBLArg_t *, char *, char *));
+void      dbl_putsf	PROTOARGS((DBLArg_t *, char *, char *,char*));
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:02 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:21 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:40:41 $
+d91 4
+a94 4
+Llong     dbl_num	PROTOARGS((void *, int, char *));
+void      dbl_putn	PROTOARGS((char *, int, char *, Llong));
+void      dbl_puts	PROTOARGS((void *, int, char *, char *, char *));
+void      dbl_putsf	PROTOARGS((void *, int, char *, char *, char *,char*));
+d101 1
+a101 1
+IOS_t     drt_accept	PROTOARGS((/*???*/));
+d106 3
+a108 3
+IOS_t     drt_store	PROTOARGS((/*???*/));
+IOS_t     drt_write	PROTOARGS((/*???*/));
+IOS_t     drt_writes	PROTOARGS((/*???*/));
+d116 1
+a116 1
+void      drt_clear	PROTOARGS((char *, int, char *));
+d118 1
+a118 1
+void      drt_decr	PROTOARGS((char *, int, char *));
+d122 3
+a124 2
+void      drt_incr	PROTOARGS((char *, int, char *));
+void      drt_locase	PROTOARGS((char *, int, char *));
+d126 1
+a126 1
+void      drt_stop	PROTOARGS((char *, int, char *));
+d129 1
+a129 1
+void      drt_upcase	PROTOARGS((char *, int, char *));
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:31 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:43 $
+d23 1
+d60 5
+d68 1
+a68 1
+struct					/* Type: DBLArg			*/
+d91 2
+a92 2
+long long dbl_num	PROTOARGS((void *, int, char *));
+void      dbl_putn	PROTOARGS((char *, int, char *, long long));
+d96 1
+a96 1
+void      dbl_toarg	PROTOARGS((char *, char *, void **, int, char));
+d112 1
+d115 1
+d120 1
+a120 2
+/*void      drt_display	PROTOARGS((int, char *, int, char *));*/
+/**/void      drt_display	PROTOARGS((int, int));
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:34 $
+d27 20
+d49 1
+a49 1
+typedef int       IOS;			/* Type: IOS			*/
+d67 1
+a67 1
+    char      type;			/* Data type of argument/param	*/
+d74 1
+a74 1
+  }       DBLArg;			/*				*/
+d84 1
+a84 1
+DBLArg    dbl_mkarg	PROTOARGS((char *, void *, int, char, char));
+d95 8
+a102 8
+IOS       drt_accept	PROTOARGS((/*???*/));
+IOS       drt_delete	PROTOARGS((int, DBLArg *));
+IOS       drt_find	PROTOARGS((/*???*/));
+IOS       drt_read	PROTOARGS((/*???*/));
+IOS       drt_reads	PROTOARGS((/*???*/));
+IOS       drt_store	PROTOARGS((/*???*/));
+IOS       drt_write	PROTOARGS((/*???*/));
+IOS       drt_writes	PROTOARGS((/*???*/));
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:01 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:28 $
+d53 1
+d67 2
+a68 2
+void      dbl_puts	PROTOARGS((void *, int, char *, char *));
+void      dbl_putsf	PROTOARGS((void *, int, char *, char *, char *));
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:42 $
+d75 1
+a75 1
+IOS       drt_delete	PROTOARGS((/*???*/));
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:19 $
+d48 1
+a48 1
+    char      flags;			/* Flags describing actual	*/
+d64 1
+a64 1
+long long dbl_num	PROTOARGS((char *, int, char *));
+d66 2
+a67 2
+void      dbl_puts	PROTOARGS((char *, int, char *, char *));
+void      dbl_putsf	PROTOARGS((char *, int, char *, char *, char *));
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:10 $
+d49 1
+a49 1
+#define ARG_ISVAR	0		/*   Is variable (normal)	*/
+d51 2
+a52 1
+#define ARG_ISEMPTY	2		/*   Is 'empty' i.e. rtn(,,arg)	*/
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v 1.36 1995/05/02 10:43:19 ldl Exp ldl $
+d38 16
+d62 1
+d68 1
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v 1.35 1995/04/25 11:48:27 ldl Exp ldl $
+d25 20
+d46 1
+d50 13
+a62 1
+long long dbl_num	PROTOARGS((char *, int, char *));
+d64 2
+d68 1
+d70 8
+a77 1
+void      drt_display	PROTOARGS((int, char *, int, char *));
+d81 1
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v 1.34 1995/04/24 12:23:14 ldl Exp ldl $
+d28 1
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v 1.33 1995/04/23 12:55:13 ldl Exp ldl $
+d26 1
+d36 1
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v 1.32 1995/04/22 12:42:50 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v 1.31 1995/04/19 11:29:08 ldl Exp ldl $
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/cdbl_rt.h,v 1.30 1995/04/18 12:00:38 ldl Exp ldl $
+a24 1
+void      dbl_display	PROTOARGS((int, char *, int, char *));
+d26 1
+d28 7
+a34 2
+void      dbl_stop	PROTOARGS((char *, int, char *));
+void      dbl_terminate	PROTOARGS((void));
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d25 1
+d27 1
+a27 1
+void      dbl_display	PROTOARGS((int, char *, int, char *));
+d34 1
+a34 1
+/* End of $Source$ */
+@

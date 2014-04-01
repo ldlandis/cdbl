@@ -1,0 +1,45 @@
+head	1.73;
+access;
+symbols;
+locks
+	ldl:1.73; strict;
+comment	@ * @;
+
+
+1.73
+date	96.03.08.12.53.38;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@/***
+ * $Source$
+ * $Revision$ $Date$
+ */
+
+/***
+ *	Builtin function VARIANT
+ */
+
+#include "../cdbl_rt.h"
+
+DBLArg_t
+BUILTIN_FUNC(VARIANT)(narg, arg)			/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+{
+  DBLArg_t  result;
+  return result;
+} /* VARIANT BUILTIN */ 
+
+/* End of $Source$ */
+@

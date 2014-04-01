@@ -1,0 +1,16 @@
+SUBROUTINE QA_assign
+  ARG		,D2
+
+RECORD PROG_VARS
+	BLANK_LINE	,A80 , '                                        '
+&                              '                                        '
+	C_ROW 		,D2
+	AAMOUNT		,A12
+	DAMOUNT		,D9
+
+PROC
+	C_ROW       = 1 +  (C_ROW + (C_ROW + (C_ROW * 2) * 3) * 4) * 5
+	BLANK_LINE  = 1 +  (C_ROW + (C_ROW + (C_ROW * 2) * 3) * 4) * 5
+	PROG_VARS   = 1 +  (C_ROW + (C_ROW + (C_ROW * 2) * 3) * 4) * 5
+	DAMOUNT     = 100000
+	AAMOUNT     = DAMOUNT , '$,$$$,$$Z.99'

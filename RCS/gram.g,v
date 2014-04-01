@@ -1,0 +1,6712 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.05.56;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.53;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.05.56;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.24;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.01;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.11;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.06;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.37;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.35;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.26;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.09;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.31;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.12;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.01;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.45.59;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.01;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.44;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.38.59;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.06;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.48;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.26;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.50;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.18;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.48;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.40;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.45;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.22;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.04;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.25;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.40.42;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.32;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.45;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.35;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.03;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.29;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.43;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.20;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.13;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.20;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.28;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.15;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.14;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.51;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.09;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.40;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.55;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.11;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.27;	author ldl;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	95.03.26.19.58.13;	author ldl;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	95.03.23.13.31.33;	author ldl;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	95.03.19.23.29.18;	author ldl;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	95.03.08.13.33.27;	author ldl;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	95.03.06.12.00.16;	author ldl;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	95.03.06.10.31.58;	author ldl;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	95.03.05.03.24.37;	author ldl;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	95.03.03.12.36.18;	author ldl;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	95.02.27.12.55.27;	author ldl;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	95.02.26.10.54.27;	author ldl;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	95.01.07.15.34.52;	author ldl;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	95.01.07.11.22.35;	author ldl;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	94.12.31.02.31.30;	author ldl;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	94.12.30.21.01.49;	author ldl;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	94.12.27.04.07.24;	author ldl;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	94.12.26.23.52.58;	author ldl;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	94.12.16.07.22.18;	author ldl;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	94.12.15.23.42.29;	author ldl;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	94.12.04.07.22.24;	author ldl;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	94.12.02.07.12.51;	author ldl;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	94.12.01.07.06.01;	author ldl;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	94.11.28.05.26.51;	author ldl;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	94.11.26.08.23.47;	author ldl;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	94.11.22.14.26.49;	author ldl;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	94.11.19.06.22.09;	author ldl;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	94.11.16.13.07.10;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@%{
+/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/gram.g,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:53 $
+ */
+
+/**
+ *	Parser for DIBOL.
+ *	Note that there are several redundant states in this grammar.
+ *	This is intentional, but unnecessary.  It was felt that the
+ *	redundancy would allow for more ease of understanding,
+ *	which may be a mistake.  (It is certianly poor style).
+ *
+ *	An example of what is being called a "redundant state" include
+ *	productions: decr, incr, locase and upcase.
+ *	These could all be the same production as they reduce identically
+ *	and have identical action code.
+ *
+ *	Note:
+ *	The cascade of shift/reduce conflicts generated at the location
+ *	indicated by the state (around 593) characterized by:
+ *
+ *	  field_defaults : field_defaults . compiler_directive
+ *	  field_defaults : field_defaults . T_O_COMMA field_default
+ *	  opt.field_defaults : T_O_COMMA field_defaults .
+ *
+ *	is due (IMO) to the ambiguity that arises from not knowing whether
+ *	or not the compiler_directive initiator token is coming at the end
+ *	of the field_defaults, or whether it is an alternative to field in
+ *	those productions that use field, such as: subroutine_division,
+ *	common_definition, function_definition, literal_definition,
+ *	record_definition, and group_fields.  If my analysis is incorrect,
+ *	then these shift/reduce conflicts may be avoidable. I think it is
+ *	doing the 'right thing', as are the shift/reduce conflicts that
+ *	appear around the T_ELSE.  My analysis (brief) of the shift/reduce
+ *	conflicts seem to me to be doing the 'right thing' in shifting, so
+ *	I'm not messing with removing them.
+ */
+
+#include <string.h>
+#include "prototype.h"
+#include "assert.h"
+#include "parse.h"
+#include "node.h"
+
+%}
+
+%union
+  {
+    long      cd_expr;			/* Value in a compiler directive*/
+    Token     token;			/* Token returns		*/
+    Node_id   node_id;			/* All else is a "node" index	*/
+  }
+
+
+%token <token>
+		T__NIL
+		T__TOKENS_WITH_VALUES
+		  T_ID
+		  T_LABEL
+		  T_NUMBER
+		  T_STRING
+		T__TOKENS_WITH_VALUES_END
+		T__RESERVED_WORDS
+		  T_ACCEPT
+		  T_BEGIN T_BEGINCASE T_BUILTIN T_BY
+		  T_CALL T_CASE T_CLEAR T_CLOSE T_COMMON
+		  T_DECR T_DELETE T_DETACH
+		  T_DISPLAY T_DO
+		  T_ELSE T_END T_ENDCASE T_ENDGLOBAL T_ENDGROUP T_ENDUSING
+		  T_EXITLOOP T_EXTERNAL T_EXIT
+		  T_FIND T_FLUSH
+		  T_FOR T_FOREVER T_FORMS T_FRETURN T_FROM T_FUNCTION
+		  T_GET T_GETS T_GLOBAL T_GOTO T_GROUP
+		  T_IF T_INCR
+		  T_LITERAL T_LOCAL T_LOCASE T_LPQUE
+		  T_MODE
+		  T_NEXTLOOP T_NOP
+		  T_OF T_OFFERROR T_ONERROR T_OPEN
+		  T_PROC T_PUT T_PUTS
+		  T_RANGE T_READ T_READS T_RECORD
+		  T_RECV T_REPEAT T_RETURN
+		  T_SELECT T_SEND T_SET T_SLEEP T_SORT T_STEP T_STOP T_STORE
+		  T_SUBROUTINE
+		  T_THEN T_THRU
+		  T_UNLOCK T_UNTIL T_UPCASE T_USING
+		  T_WHILE T_WRITE T_WRITES
+		  T_XCALL T_XRETURN
+		T__RESERVED_WORDS_END
+		T__KEYWORDS
+		  T_ALIGN T_ALLOC
+		  T_BKTSIZ T_BLKSIZ T_BUFNUM T_BUFSIZ
+		  T_CONTIG T_COPIES
+		  T_DEFAULT T_DEQ T_DIRECTION
+		  T_EDIT T_ERASE
+		  T_FDL T_FLAGS T_FORM T_FORMAT
+		  T_INIT T_INPUT
+		  T_KEY T_KEYNUM T_KRF
+		  T_LPNUM
+		  T_MATCH
+		  T_NOSUFFIX T_NUMREC
+		  T_OFFSET T_OPTIONS T_OUTPUT
+		  T_POS T_PROMPT T_PROTECT
+		  T_RECSIZ T_RECTYPE T_REVERSE T_RFA
+		  T_SHARE
+		  T_VIDEO
+		  T_WAIT
+		  T_X
+		T__KEYWORDS_END
+		T__COMPILER_DIRECTIVES
+		  T_CD_ALIGN
+		  T_CD_DEBUG T_CD_DEFINE
+		  T_CD_ELSE T_CD_END T_CD_ENDC T_CD_ERROR
+		  T_CD_IDENT
+		  T_CD_IF T_CD_IFDEF T_CD_IFF T_CD_IFNDEF T_CD_IFT T_CD_IFTF
+		  T_CD_INCLUDE
+		  T_CD_LINE T_CD_LIST
+		  T_CD_MAIN
+		  T_CD_NAME T_CD_NOLIST T_CD_NOTE
+		  T_CD_PAGE T_CD_PROC T_CD_PSECT
+		  T_CD_RESTORE
+		  T_CD_SAVE T_CD_SHOW T_CD_START T_CD_SUBROUTINE T_CD_SUBTITLE
+		  T_CD_TITLE T_CD_TRACE
+		  T_CD_WARNING
+		T__COMPILER_DIRECTIVES_END
+		T__OPERATORS
+		  T_O_ADD T_O_AND T_O_AT
+		  T_O_BAND T_O_BNOT T_O_BOR T_O_BXOR
+		  T_O_COLON T_O_COMMA
+		  T_O_DIV
+		  T_O_EQ T_O_EQS T_O_EQU T_O_EQUAL
+		  T_O_GE T_O_GES T_O_GEU T_O_GREAT T_O_GT T_O_GTS T_O_GTU
+		  T_O_LBRACK T_O_LE T_O_LES T_O_LESS T_O_LEU T_O_LPAREN
+		  T_O_LT T_O_LTS T_O_LTU
+		  T_O_MUL
+		  T_O_NE T_O_NES T_O_NEU T_O_NOT
+		  T_O_OR
+		  T_O_PERIOD
+		  T_O_RBRACK T_O_ROUND T_O_ROUNDTRUE T_O_RPAREN
+		  T_O_SLHSLH T_O_SUB
+		  T_O_UNARY
+		  T_O_XOR
+		T__OPERATORS_END
+		T__INTERNAL_TOKENS
+		  T__CLASS T__ERROR
+		  T__FILE_LINENO
+		  T__LEFT  T__OPERATOR T__RIGHT
+		  T__STMT T__EXPR T__REF
+		  T__FIRST T__PRECEDES
+		  T__FIELD T__FIELD_OF
+		  T__OFFSET T__REDEFINES T__REDEFINEDBY T__SIZE_BUFFER
+		  T__PARAMETER T__SUBR
+		  T__VARIABLES
+		  T__RELATIONSHIP
+		  T__MAIN T__TYPE T__DIVISION
+		T__INTERNAL_TOKENS_END
+		T__RUNTIME_TOKENS
+		  T__RT_CTRL
+		  T__RT_DATA
+		  T__RT_FILENAME
+		  T__RT_MODE
+		  T__RT_RECID
+		T__RUNTIME_TOKENS_END
+		T__LAST
+
+%type <cd_expr>
+		cd_expr
+%type <token>
+		opt.storage_class
+		xcall_routine
+
+%type <node_id>
+		accept
+		accept_args
+		accept_option
+		accept_options
+		assignment
+		begin_end
+		begin_end_stmt
+		begin_end_stmts
+		builtin
+		builtin_arg_list
+		builtin_definition
+		builtin_param
+		builtin_param_list
+		call
+		call_labels
+		case
+		case_block
+		case_element
+		case_range
+		cases
+		cd_define_val
+		clear
+		close
+		close_args
+		common_definition
+		common_definition_header
+		data_division
+		decr
+		delete
+		delete_args
+		display
+		display_item
+		display_items
+		division
+		do_until
+		exit
+		expr
+		field
+		field_array_subscripts
+		field_data_type
+		field_default
+		field_defaults
+		field_label
+		field_offset
+		field_offset_val
+		field_ref
+		field_type
+		find
+		find_args
+		find_indexed
+		find_option
+		flush
+		for
+		forms
+		freturn
+		function_definition
+		function_definition_header
+		get
+		get_args
+		gets
+		gets_args
+		global_definition
+		global_definition_record
+		global_definition_records
+		goto
+		goto_labels
+		group_definition
+		group_fields
+		if_or_if_then_else
+		incr
+		io_channel
+		io_exception
+		io_exceptions
+		io_indexed_option
+		label
+		literal_definition
+		literal_definition_header
+		locase
+		lpque
+		lpque_option
+		lpque_option_list
+		lpque_options
+		lpque_output
+		number_or_string
+		number_string_or_ref
+		onerror
+		onerror_list
+		onerror_trap
+		open
+		open_args
+		open_attr
+		open_attrs
+		open_file
+		open_mode
+		open_options
+		opt.accept_options
+		opt.assignment_format
+		opt.assignment_alignment
+		opt.common_no_suffix
+		opt.delete_key
+		opt.field_array
+		opt.field_defaults
+		opt.field_size
+		opt.for_by
+		opt.function_return_type
+		opt.gets_label
+		opt.global_init
+		opt.io_exceptions
+		opt.nlit
+		opt.open_attrs
+		opt.puts_label
+		opt.read_options
+		opt.reads_options
+		opt.reads_opts
+		opt.record_name
+		opt.recv_size
+		opt.redefinition
+		opt.ref_array
+		opt.ref_pos
+		opt.send_terminal
+		opt.store_key
+		opt.subroutine_division
+		opt.using_exprs
+		opt.using_range
+		opt.write_options
+		opt.xcall_parameters
+		procedure_division
+		proc_div_stmt
+		program
+		put
+		put_args
+		puts
+		puts_args
+		read
+		read_args
+		read_option
+		read_options
+		reads
+		reads_args
+		reads_label
+		reads_label_opts
+		reads_option
+		reads_options
+		record_definition
+		record_definition_header
+		recv
+		ref
+		ref_array_subscripts
+		ref_pos
+		ref_pos_item
+		repeat
+		send
+		set
+		set.refs
+		sleep
+		sort
+		sort_arg
+		sort_args
+		sort_key_field
+		sort_key_fields
+		sort_param
+		sort_rec
+		stmt
+		stop
+		store
+		store_args
+		string
+		subroutine_declaration
+		subroutine_division
+		unlock
+		upcase
+		using_expr
+		using_exprs
+		using_select_or_range
+		using_selector
+		using_selectors
+		video_attr
+		video_attr_list
+		video_attr_pos
+		video_attrs
+		while
+		write
+		write_args
+		write_data
+		write_option
+		write_options
+		writes
+		writes_args
+		xcall
+		xcall_parameters
+
+%left T_O_OR   T_O_XOR  T_O_BOR  T_O_BXOR
+%left T_O_AND  T_O_BAND
+%left T_O_NOT  T_O_BNOT
+%left T_O_EQS  T_O_NES  T_O_GTS  T_O_LTS  T_O_GES  T_O_LES
+%left T_O_EQU  T_O_NEU  T_O_GTU  T_O_LTU  T_O_GEU  T_O_LEU
+%left T_O_EQ   T_O_NE   T_O_GT   T_O_LT   T_O_GE   T_O_LE 
+%left T_O_ADD  T_O_SUB
+%left T_O_SLHSLH
+%left T_O_MUL  T_O_DIV
+%left T_O_ROUND  T_O_ROUNDTRUE
+%left T_O_UNARY
+
+%%
+
+tree
+	: source_unit
+	| compiler_directive_list source_unit
+	;
+
+compiler_directive_list
+	: compiler_directive
+	| compiler_directive_list compiler_directive
+	;
+
+source_unit
+	: opt.subroutine_division
+	  program			{ _parse.tree= x_tree_program($1,$2);}
+	;
+
+program
+	: division			{ $$ = x_division(NIL, $1);	}
+	| program division		{ $$ = x_division($1, $2);	}
+	;
+
+division
+	: data_division			{ $$ = x_register_div($1);	}
+	| procedure_division
+	;
+
+					/* SUBROUTINE DIVISION		*/
+					/* ---------------------------- */
+opt.subroutine_division
+	: subroutine_division
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+subroutine_division
+	: subroutine_declaration
+	| subroutine_division compiler_directive
+	| subroutine_division group_definition
+					{ $$ = x_subroutine_division($1,$2);}
+	| subroutine_division field
+					{ $$ = x_subroutine_division($1,$2);}
+	;
+
+subroutine_declaration
+	: T_SUBROUTINE T_ID		{ $$ = x_sub_decl($1, $2, NIL);	}
+	| T_FUNCTION   T_ID opt.function_return_type
+					{ $$ = x_sub_decl($1, $2, $3);	}
+	;
+
+opt.function_return_type
+	: T_O_COMMA T_ID		{ $$ = mkid($2);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+					/* DATA DIVISION		*/
+					/* ---------------------------- */
+data_division
+	: builtin_definition
+	| common_definition
+	| function_definition
+	| global_definition
+	| literal_definition
+	| record_definition
+	;
+
+builtin_definition
+	: T_BUILTIN			{ $$ = x_builtin_def_args($1,NIL);}
+	| T_BUILTIN T_O_LPAREN builtin_arg_list T_O_RPAREN
+					{ $$ = x_builtin_def_args($1, $3);}
+	;
+
+builtin_arg_list
+	: T_ID				{ $$ = mkid($1);		}
+	| builtin_arg_list T_O_COMMA T_ID
+					{ $$ = adl_t($1, $3);		}
+	| builtin_arg_list compiler_directive
+	;
+
+					/* COMMON			*/
+common_definition
+	: common_definition_header
+	| common_definition compiler_directive
+	| common_definition field	{ $$ = adf_n($1, $2);		}
+	| common_definition group_definition
+					{ $$ = adf_n($1, $2);		}
+	;
+
+common_definition_header
+	: opt.storage_class
+	  T_COMMON opt.record_name
+	  opt.redefinition
+	  opt.common_no_suffix
+				{ $$ = x_common_def_header($1,$2,$3,$4,$5);}
+	;
+
+opt.storage_class
+	: T_LOCAL
+	| T_EXTERNAL
+	| /* empty */			{ $$ = t__NIL;			}
+	;
+
+opt.common_no_suffix
+	: T_O_COMMA T_ID		{ $$ = y_id_iskey($2, T_NOSUFFIX);}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+					/* EXTERNAL			*/
+function_definition
+	: function_definition_header
+	| function_definition compiler_directive
+	| function_definition field	{ $$ = adf_n($1, $2);		}
+	| function_definition group_definition
+					{ $$ = adf_n($1, $2);		}
+	;
+
+function_definition_header
+	: opt.storage_class T_FUNCTION T_ID T_O_COMMA field_data_type
+					{ $$=x_func_def_header($1,$2,$3,$5);}
+	;
+
+global_definition			/* GLOBAL (ala DISC/DBL)	*/
+	: T_GLOBAL T_ID opt.global_init
+	    global_definition_records
+	  T_ENDGLOBAL			{ $$=x_gbl_def_header($1,$2,$3,$4,$5);}
+	| global_definition compiler_directive
+	;
+
+opt.global_init
+	: T_O_COMMA T_ID		{ $$ = y_id_iskey($2, T_INIT);	}
+	| /* Empty */			{ $$ = NIL;			}
+	;
+
+global_definition_record
+	:
+	  record_definition		{ $$ = x_register_div($1);	}
+	;
+
+global_definition_records
+	: global_definition_record
+	| global_definition_records global_definition_record
+					{ $$ = adl_n($1, $2);		}
+	;
+
+
+					/* LITERAL			*/
+literal_definition
+	: literal_definition_header
+	| literal_definition compiler_directive
+	| literal_definition field	{ $$ = adf_n($1, $2);		}
+	| literal_definition group_definition
+					{ $$ = adf_n($1, $2);		}
+	;
+
+literal_definition_header
+	: opt.storage_class
+	  T_LITERAL opt.record_name opt.redefinition
+					{ $$=x_lit_def_header($1,$2,$3,$4);}
+	;
+
+					/* RECORD			*/
+record_definition
+	: record_definition_header
+	| record_definition compiler_directive
+	| record_definition field	{ $$ = adf_n($1, $2);		}
+	| record_definition group_definition
+					{ $$ = adf_n($1, $2);		}
+	;
+
+record_definition_header
+	: T_RECORD opt.record_name opt.redefinition
+					{ $$=x_record_def_header($1,$2,$3);}
+	;
+
+opt.record_name
+	: T_ID				{ $$ = mkid($1);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+			/* Note: redefines if <T_ID> present */
+opt.redefinition
+	: T_O_COMMA T_ID		{ $$ = y_id_iskey($2, T_X);	}
+	| /* Empty */			{ $$ = NIL;			}
+	;
+	
+group_definition
+	: T_GROUP group_fields
+	  T_ENDGROUP			{ $$=x_group_definition($1, $2);}
+	;
+
+group_fields
+	: field
+	| group_fields compiler_directive
+	| group_fields field		{ $$ = adl_n($1, $2);		}
+	;
+
+field
+	: field_label field_type opt.field_size opt.field_defaults
+					{ $$ = x_field($1, $2, $3, $4);	}
+	;
+
+field_array_subscripts
+	: T_NUMBER			{ $$ = mkid($1);		}
+	| field_array_subscripts T_O_COMMA T_NUMBER
+					{ $$ = adf_n($1, mkid($3));	}
+	;
+
+field_data_type
+	: T_ID				{ $$ = mkid($1);		}
+	| T_ID T_O_PERIOD T_NUMBER	{ $$ = adf_t(mkid($1), $2);	}
+	| field_data_type field_offset	{ $$ = adf_n($1, $2);		}
+	;
+
+field_default
+	: string
+	| T_NUMBER			{ $$ = mkid($1);		}
+	; 
+
+field_defaults
+	: field_default
+	| field_defaults compiler_directive
+	| field_defaults T_O_COMMA field_default
+					{ $$ = adl_n($1, $3);		}
+	;
+
+field_label
+	: T_LABEL			{ $$ = mkid($1);		}
+	;
+
+field_offset
+	: T_O_AT T_ID			{ $$ = adl_t(mkid($1), $2);	}
+	| field_offset field_offset_val	{ $$ = adl_n($1, $2);		}
+	;
+
+field_offset_val
+	: T_O_ADD T_NUMBER		{ $$ = adl_t(mkid($1), $2);	}
+	;
+
+
+field_type
+	: opt.field_array field_data_type
+					{ $$ = x_field_type($1, $2);	}
+	;
+
+opt.field_array
+	: T_O_LBRACK field_array_subscripts T_O_RBRACK
+					{ $$ = adf_n(mkid($1), $2);	}
+	| T_NUMBER			{
+					  static
+					  Token     t = {T_O_LPAREN, NULL};
+					  $$ = adf_n(mkid(t), mkid($1));
+					}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+opt.field_defaults
+	: T_O_COMMA field_defaults	{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+opt.field_size
+	: T_O_MUL			{ $$ = mkid($1);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+					/* COMPILER DIRECTIVES		*/
+					/* ----------------------------	*/
+compiler_directive
+	: T_CD_ALIGN			{ s_skip_to_eol($1);		}
+	| T_CD_DEBUG cd_expr		{ _parse.flags = (int) $2;
+					  printf("%s:%d - %s %sABLED\n",
+						 _parse.file, _parse.line,
+					  	 to_token($1.token_id),
+					         _parse.flags ? "EN" : "DIS");
+					}
+	| T_CD_DEFINE cd_define
+	| T_CD_ELSE			{ s_cd_else( 0 /* unpend */);	}
+	| T_CD_END			{ s_skip_to_eol($1);		}
+	| T_CD_ENDC			{ s_cd_endc( 0 /* unpend */);	}
+	| T_CD_ERROR T_STRING		{ c_error("%s %s",
+						  "PROGRAMMED ERROR:",
+	                                          $2.token_value);
+					  free($2.token_value);
+					}
+	| T_CD_IDENT			{ s_skip_to_eol($1);		}
+	| T_CD_IF cd_expr		{ s_cd_if($1, $2);		}
+	| T_CD_IFDEF  T_ID		{ s_cd_ifdef($1, $2);		}
+	| T_CD_IFF			{ s_cd_iftf( IFTF_FALSE  );	}
+	| T_CD_IFNDEF T_ID		{ s_cd_ifdef($1, $2);		}
+	| T_CD_IFT			{ s_cd_iftf( IFTF_TRUE   );	}
+	| T_CD_IFTF			{ s_cd_iftf( IFTF_ALWAYS );	}
+	| T_CD_INCLUDE cd_include	{ s_do_include();		}
+	| T_CD_LINE cd_expr		{ _parse.cd_line = $2 + 1;	}
+	| T_CD_LIST			{ s_skip_to_eol($1);		}
+	| T_CD_MAIN			{ s_skip_to_eol($1);		}
+	| T_CD_NAME   T_ID		{ s_skip_to_eol($1);		}
+	| T_CD_NOLIST			{ s_skip_to_eol($1);		}
+	| T_CD_NOTE T_STRING		{ printf("%s:%d NOTE: %s\n",
+					         _parse.file, _parse.line,
+					         $2.token_value);
+					  free($2.token_value);
+					}
+	| T_CD_PAGE			{ s_skip_to_eol($1);		}
+	| T_CD_PROC			{ s_skip_to_eol($1);		}
+	| T_CD_PSECT			{ s_skip_to_eol($1);		}
+	| T_CD_RESTORE			{ s_skip_to_eol($1);		}
+	| T_CD_SAVE			{ s_skip_to_eol($1);		}
+	| T_CD_SHOW			{ s_skip_to_eol($1);		}
+	| T_CD_START
+	| T_CD_SUBROUTINE		{ s_skip_to_eol($1);		}
+	| T_CD_SUBTITLE			{ s_skip_to_eol($1);		}
+	| T_CD_TITLE			{ s_skip_to_eol($1);		}
+	| T_CD_TRACE cd_expr		{
+					  _parse.yydebug = (int) $2;
+					  yydebug = (int) $2;
+					  printf("%s:%d - %s %sABLED\n",
+						 _parse.file, _parse.line,
+					         to_token($1.token_id),
+					         yydebug ? "EN" : "DIS");
+					}
+	| T_CD_WARNING T_STRING		{ c_warning("%s %s",
+						  "PROGRAMMED WARNING:",
+	                                          $2.token_value);
+					  free($2.token_value);
+					}
+	;
+
+cd_define
+	: T_LABEL cd_define_val		{ x_cd_define($1, $2);		}
+	;
+
+cd_define_val
+	: T_STRING			{ $$ = mkid($1);		}
+	| cd_expr			{
+					  static
+					  char      buf[100];
+					  static
+					  Token     t = {T_NUMBER, NULL};
+					  sprintf(buf, "%ld", $1);
+/**/if (_parse.flags)
+/**/  printf("cd_define_val: cd_expr=%ld\n", $1);
+/***/
+					  t.token_value = s_filter(buf);
+					  $$ = mkid(t);
+					}
+	| /* Empty */			{ $$ = NIL;			}
+	;
+
+cd_expr
+	: T_NUMBER			{ $$ = atol($1.token_value);
+					  free($1.token_value);
+					}
+	| T_ID				{ $$ = lkuptkval($1);
+					  free($1.token_value);
+					}
+	| cd_expr T_O_ADD cd_expr	{ $$ = $1 + $3;			}
+	| cd_expr T_O_SUB cd_expr	{ $$ = $1 - $3;			}
+	| cd_expr T_O_MUL cd_expr	{ $$ = $1 * $3;			}
+	| cd_expr T_O_DIV cd_expr	{ $$ = $1 / $3;			}
+	| T_O_SUB cd_expr %prec T_O_UNARY
+					{ $$ = - $2;			}
+	| T_O_LPAREN cd_expr T_O_RPAREN	{ $$ = $2;			}
+	;
+
+cd_include
+	: T_STRING			{ s_next_include($1);		}
+	;
+
+					/* PROCEDURE DIVISION		*/
+					/* ---------------------------- */
+procedure_division
+	: T_PROC opt.nlit		{ $$ = x_proc_div_proc($1, $2);	}
+	| procedure_division compiler_directive
+	| procedure_division proc_div_stmt
+					{ $$ = adf_n($1, $2);		}
+	| procedure_division T_END	{ $$ = adf_n($1, mkid($2));	}
+	;
+
+opt.nlit
+	: T_O_LPAREN T_NUMBER T_O_RPAREN
+					{ $$ = mkid($2);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+proc_div_stmt
+	: label				{ $$ = x_proc_div_label($1);	}
+	| stmt
+	;
+
+label
+	: T_LABEL			{ $$ = mkid($1);		}
+	;
+
+					/* Statements			*/
+					/* ----------------------------	*/
+stmt
+	: assignment
+	| T_ACCEPT accept 		{ $$ = mkcp($1, $2);		}
+	| T_BEGIN begin_end		{ $$ = mkcp($1, $2);		}
+	| T_CALL call			{ $$ = mkcp($1, $2);		}
+	| T_CASE case			{ $$ = mkcp($1, $2);		}
+	| T_CLEAR clear			{ $$ = mkcp($1, $2);		}
+	| T_CLOSE close			{ $$ = mkcp($1, $2);		}
+	| T_DECR decr			{ $$ = mkcp($1, $2);		}
+	| T_DELETE delete		{ $$ = mkcp($1, $2);		}
+	| T_DETACH			{ $$ = mkcp($1, NIL);		}
+	| T_DISPLAY display		{ $$ = mkcp($1, $2);		}
+	| T_DO do_until			{ $$ = mkcp($1, $2);		}
+	| T_EXIT exit			{ $$ = mkcp($1, $2);		}
+	| T_EXITLOOP			{ $$ = mkcp($1, NIL);		}
+	| T_FIND find			{ $$ = mkcp($1, $2);		}
+	| T_FLUSH flush			{ $$ = mkcp($1, $2);		}
+	| T_FOR for			{ $$ = mkcp($1, $2);		}
+	| T_FORMS forms			{ $$ = mkcp($1, $2);		}
+	| T_FRETURN freturn		{ $$ = mkcp($1, $2);		}
+	| T_GET get			{ $$ = mkcp($1, $2);		}
+	| T_GETS gets			{ $$ = mkcp($1, $2);		}
+	| T_GOTO goto			{ $$ = mkcp($1, $2);		}
+	| T_IF if_or_if_then_else	{ $$ = mkcp($1, $2);		}
+	| T_INCR incr			{ $$ = mkcp($1, $2);		}
+	| T_LOCASE locase		{ $$ = mkcp($1, $2);		}
+	| T_LPQUE lpque			{ $$ = mkcp($1, $2);		}
+	| T_NEXTLOOP			{ $$ = mkcp($1, NIL);		}
+	| T_NOP				{ $$ = mkcp($1, NIL);		}
+	| T_OFFERROR			{ $$ = mkcp($1, NIL);		}
+	| T_ONERROR onerror		{ $$ = mkcp($1, $2);		}
+	| T_OPEN open			{ $$ = mkcp($1, $2);		}
+	| T_PUT put			{ $$ = mkcp($1, $2);		}
+	| T_PUTS puts			{ $$ = mkcp($1, $2);		}
+	| T_READ read			{ $$ = mkcp($1, $2);		}
+	| T_READS reads			{ $$ = mkcp($1, $2);		}
+	| T_RECV recv			{ $$ = mkcp($1, $2);		}
+	| T_REPEAT repeat		{ $$ = mkcp($1, $2);		}
+	| T_RETURN			{ $$ = mkcp($1, NIL);		}
+	| T_SEND send			{ $$ = mkcp($1, $2);		}
+	| T_SET set			{ $$ = mkcp($1, $2);		}
+	| T_SLEEP sleep			{ $$ = mkcp($1, $2);		}
+	| T_SORT sort			{ $$ = mkcp($1, $2);		}
+	| T_STOP stop			{ $$ = mkcp($1, $2);		}
+	| T_STORE store			{ $$ = mkcp($1, $2);		}
+	| T_UNLOCK unlock		{ $$ = mkcp($1, $2);		}
+	| T_UPCASE upcase		{ $$ = mkcp($1, $2);		}
+	| T_USING using_select_or_range	{ $$ = mkcp($1, $2);		}
+	| T_WHILE while			{ $$ = mkcp($1, $2);		}
+	| T_WRITE write			{ $$ = mkcp($1, $2);		}
+	| T_WRITES writes		{ $$ = mkcp($1, $2);		}
+	| T_XCALL xcall			{ $$ = mkcp($1, $2);		}
+	| T_XRETURN			{ $$ = mkcp($1, NIL);		}
+	;
+
+assignment
+	: ref T_O_EQUAL expr opt.assignment_format opt.assignment_alignment
+				{ $$ = x_assignment($1,$2,$3,$4,$5);}
+	;
+
+opt.assignment_alignment
+	: T_O_LBRACK T_ID T_O_RBRACK	{ $$ = mkid($2);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+opt.assignment_format
+	: T_O_COMMA expr		{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+accept
+	: accept_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+accept_args
+	: T_O_LPAREN io_channel T_O_COMMA ref opt.accept_options T_O_RPAREN
+					{ $$ = x_accept_args($2, $4, $5);}
+	;
+
+accept_option
+	: T_ID				{ $$ = mkid($1);		}
+	| T_ID T_O_COLON expr		{ $$ = x_accept_option($1, $3);	}
+	;
+
+accept_options
+	: accept_option
+	| accept_options T_O_COMMA accept_option
+					{ $$ = adl_n($1, $3);		}
+	;
+
+opt.accept_options
+	: T_O_COMMA accept_options	{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+begin_end
+	: begin_end_stmts T_END		{ $$ = adl_t($1, $2);		}
+	;
+
+begin_end_stmt
+	: label				{ $$ = x_begin_end_label($1);	}
+	| stmt
+	;
+
+begin_end_stmts
+	: begin_end_stmt
+	| begin_end_stmts begin_end_stmt
+					{ $$ = adl_n($1, $2);		}
+	;
+
+call
+	: T_ID /* label */		{ $$ = x_call(mkid($1), NIL);	}
+	| T_O_LPAREN call_labels T_O_RPAREN opt.call_comma expr
+					{ $$ = x_call($2, $5);		}
+	;
+
+call_labels
+	: T_ID				{ $$ = mkid($1);		}
+	| call_labels T_O_COMMA T_ID	{ $$ = adf_t($1, $3);		}
+	;
+
+opt.call_comma
+	: T_O_COMMA
+	| /* empty */
+	;
+
+case
+	: expr T_OF case_block		{ $$ = x_case($1, $3);		}
+	| case T_ELSE stmt		{ $$ = x_case_else($1, $2, $3);	}
+	;
+
+case_block
+	: T_BEGINCASE cases T_ENDCASE	{ $$ = $2;			}
+	;
+
+case_element
+	: case_range T_O_COLON stmt	{ $$ = x_case_element($1,$2,$3);}
+	;
+
+case_range
+ 	: number_string_or_ref
+ 	| number_string_or_ref T_O_SUB T_NUMBER
+ 					{ $$ = adf_n($1, mkid($3));	}
+cases
+	: case_element
+	| cases case_element		{ $$ = adl_n($1, $2);		}
+	;
+
+clear
+	: ref
+	| clear T_O_COMMA ref		{ $$ = adl_n($1, $3);		}
+	;
+
+close
+	: close_args
+	| T_O_LPAREN close_args T_O_RPAREN
+					{ $$ = $2;			}
+	;
+
+close_args
+	: io_channel
+	| close_args T_O_COMMA io_channel
+					{ $$ = adl_n($1, $3);		}
+	;
+
+
+decr
+	: ref
+	;
+
+delete
+	: delete_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+delete_args
+	: T_O_LPAREN io_channel opt.delete_key T_O_RPAREN
+					{ $$ = x_delete($2, $3);	}
+	;
+
+opt.delete_key
+	: T_O_COMMA ref			{ $$ = $2;			}
+	| /* Empty */			{ $$ = NIL;			}
+
+display
+	: T_O_LPAREN io_channel T_O_COMMA display_items T_O_RPAREN
+					{ $$ = x_display($2, $4);	}
+	;
+
+display_item
+	: ref video_attrs		{ $$ = x_display_item($1, $2);	}
+	| builtin
+	| number_or_string
+	;
+
+display_items
+	: display_item
+	| display_items T_O_COMMA display_item
+					{ $$ = adl_n($1, $3);		}
+	;
+
+do_until
+	: T_FOREVER stmt		{ $$ = x_do_until($2, $1, NIL);	}
+	| stmt T_UNTIL expr		{ $$ = x_do_until($1, $2, $3);	}
+	;
+
+exit
+	: T_ID				{ $$ = mkid($1);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+find
+	: find_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+find_args
+	: T_O_LPAREN io_channel T_O_RPAREN
+					{ $$ = $2;			}
+	| T_O_LPAREN io_channel T_O_COMMA find_option T_O_RPAREN
+					{ $$ = x_find($2, $4);		}
+	;
+
+find_option
+	: T_RFA T_O_COLON expr		{ $$ = x_find_option_expr($1, $3);}
+	| find_indexed
+	;
+
+find_indexed
+	: expr
+	| find_indexed T_O_COMMA io_indexed_option
+					{ $$ = adf_n($1, $3);		}
+	;
+
+flush
+	: expr
+	;
+
+for
+	: ref T_O_EQUAL expr opt.for_by T_UNTIL expr T_DO stmt
+					{ $$=x_for($1, $3, $6, $4, $8);	}
+	| ref T_FROM expr T_THRU expr opt.for_by stmt
+					{ $$=x_for($1, $3, $5, $6, $7);	}
+	;
+
+opt.for_by
+	: T_BY   expr			{ $$ =  $2;			}
+	| T_STEP expr			{ $$ =  $2;			}
+	| /* empty */			{ $$ =  NIL;			}
+	;
+
+forms
+	: T_O_LPAREN io_channel T_O_COMMA expr T_O_RPAREN
+					{ $$ = x_forms($2, $4);		}
+	;
+
+freturn
+	: expr
+	;
+
+get
+	: get_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+get_args
+	: T_O_LPAREN io_channel T_O_COMMA ref T_O_COMMA expr T_O_RPAREN
+					{ $$ = x_get_args($2, $4, $6);	}
+	;
+
+gets
+	: gets_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+gets_args
+	: T_O_LPAREN io_channel T_O_COMMA ref opt.gets_label T_O_RPAREN
+					{ $$ = x_gets_args($2, $4, $5);	}
+	;
+
+opt.gets_label
+	: T_O_COMMA T_ID		{ $$ = mkid($2);		}
+	| /* Empty */			{ $$ = NIL;			}
+	;
+
+goto
+	: T_ID				{ $$ = x_goto(mkid($1), NIL);	}
+	| T_O_LPAREN goto_labels T_O_RPAREN opt.goto_comma expr
+					{ $$ = x_goto($2, $5);		}
+	;
+
+goto_labels
+	: T_ID				{ $$ = mkid($1);		}
+	| goto_labels T_O_COMMA T_ID	{ $$ = adf_t($1, $3);		}
+	;
+
+opt.goto_comma
+	: T_O_COMMA
+	| /* empty */
+	;
+
+if_or_if_then_else
+	: expr stmt			{ $$ = x_if($1, $2);		}
+	| expr T_THEN stmt		{ $$ = x_if($1, $3);		}
+	| expr stmt T_ELSE stmt		{ $$ = x_if_then_else($1,$2,$4);}
+	| expr T_THEN stmt T_ELSE stmt	{ $$ = x_if_then_else($1,$3,$5);}
+	;
+
+incr
+	: ref
+	;
+
+locase
+	: ref
+	;
+
+lpque
+	: T_O_LPAREN lpque_output lpque_options T_O_RPAREN
+					{ $$ = x_lpque($2, $3);		}
+	;
+
+lpque_option_list
+	: lpque_option
+	| lpque_option_list T_O_COMMA lpque_option
+					{ $$ = adl_n($1, $3);		}
+	;
+
+lpque_option
+	: T_ID				{ $$ = x_lpque_option($1, NIL);	}
+	| T_ID     T_O_COLON expr	{ $$ = x_lpque_option($1, $3);	}
+	| T_DELETE			{ $$ = x_lpque_option($1, NIL);	}
+	| T_DELETE T_O_COLON expr	{ $$ = x_lpque_option($1, $3);	}
+	;
+
+lpque_options
+	: T_O_COMMA lpque_option_list	{ $$ = adf_n(mkid($1), $2);	}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+lpque_output
+	: ref
+	| string
+	;
+
+onerror
+	: onerror_list
+	;
+
+onerror_list
+	: onerror_trap
+	| onerror_list T_O_COMMA onerror_trap
+					{ $$ = adl_n($1, $3);		}
+	;
+
+onerror_trap
+	: T_ID				{ $$ = x_onerror_trap(NIL, $1);	}
+	| T_O_LPAREN T_NUMBER T_O_RPAREN T_ID
+					{ $$ = x_onerror_trap(mkid($2),$4);}
+	;
+
+open
+	: open_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+open_args
+	: T_O_LPAREN open_options T_O_RPAREN
+					{ $$ = $2;			}
+	;
+
+open_attr
+	: T_ID				{ $$ = x_open_attr($1, NIL);	}
+	| string
+	| T_ID T_O_COLON expr		{ $$ = x_open_attr($1, $3);	}
+	| T_ID T_O_EQUAL expr		{ $$ = x_open_attr($1, $3);	}
+	;
+
+open_attrs
+	: T_O_COMMA open_attr		{ $$ = $2;			}
+	| open_attrs T_O_COMMA open_attr
+					{ $$ = adl_n($1, $3);		}
+	;
+
+opt.open_attrs
+	: open_attrs
+	| /* Empty */			{ $$ = NIL;			}
+	;
+
+open_file
+	: ref
+	| string
+	;
+
+open_options
+	: io_channel T_O_COMMA open_mode T_O_COMMA open_file opt.open_attrs
+					{ $$ = x_open_options($1, $3, $5, $6);}
+	;
+
+open_mode
+	: T_ID				{ $$ = x_open_mode($1, NIL);	}
+	| T_ID T_O_COLON T_ID		{ $$ = x_open_mode($1, mkid($3));}
+	| T_MODE T_O_COLON expr		{ $$ = x_open_mode($1, $3);	}
+	;
+
+put
+	: put_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+put_args
+	: T_O_LPAREN io_channel T_O_COMMA ref T_O_COMMA expr T_O_RPAREN
+					{ $$ = x_put_args($2, $4, $6);	}
+	;
+
+puts
+	: puts_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+puts_args
+	: T_O_LPAREN io_channel T_O_COMMA ref opt.puts_label T_O_RPAREN
+					{ $$ = x_puts_args($2, $4, $5);	}
+	;
+
+opt.puts_label
+	: T_O_COMMA T_ID		{ $$ = mkid($2);		}
+	| /* Empty */			{ $$ = NIL;			}
+	;
+
+read
+	: read_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+read_args
+	: T_O_LPAREN io_channel T_O_COMMA ref opt.read_options T_O_RPAREN
+					{ $$ = x_read_args($2, $4, $5);	}
+	;
+
+read_option
+	: expr				{ $$ = x_read_option(t__NIL,$1);}
+	| T_ID T_O_COLON expr		{ $$ = x_read_option($1, $3);	}
+	| T_ID T_O_EQUAL expr		{ $$ = x_read_option($1, $3);	}
+	;
+ 
+read_options
+	: read_option
+	| read_options T_O_COMMA read_option
+					{ $$ = adl_n($1, $3);		}
+	;
+
+opt.read_options
+	: T_O_COMMA read_options	{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+reads
+	: reads_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+reads_args
+	: T_O_LPAREN
+	    io_channel T_O_COMMA display_item opt.reads_options
+	  T_O_RPAREN
+					{ $$ = x_reads_args($2, $4, $5);}
+	;
+
+opt.reads_options
+	: T_O_COMMA reads_label_opts	{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+reads_label_opts
+	: reads_label opt.reads_opts	{ $$ = x_reads_label_opts($1, $2);}
+	;
+
+reads_label
+	: T_ID				{ $$ = mkid($1);		}
+	;
+
+opt.reads_opts
+	: T_O_COMMA reads_options	{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+reads_option
+	: T_ID				{ $$ = x_reads_option($1, NIL);	}
+	| T_ID T_O_COLON expr		{ $$ = x_reads_option($1, $3);	}
+	;
+
+reads_options
+	: reads_option
+	| reads_options T_O_COMMA reads_option
+					{ $$ = adl_n($1, $3);		}
+	;
+
+recv
+	: T_O_LPAREN ref T_O_COMMA T_ID opt.recv_size T_O_RPAREN
+					{ $$ = x_recv($2, $4, $5);	}
+	;
+
+opt.recv_size
+	: T_O_COMMA expr		{ $$ = $2;			}
+	| T_O_COMMA expr T_O_COMMA expr	/* DBL? */
+					{ $$ = adl_n($2, $4);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+repeat
+	: stmt
+	;
+
+send
+	: T_O_LPAREN expr T_O_COMMA expr opt.send_terminal T_O_RPAREN
+					{ $$ = x_send($2, $4, $5);	}
+	;
+
+opt.send_terminal
+	: T_O_COMMA expr		{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+set
+	: set.refs T_O_EQUAL expr	{ $$ = x_set($1, $3);		}
+	;
+
+set.refs
+	: ref
+	| set.refs T_O_COMMA ref	{ $$ = adf_n($1, $3);		}
+	;
+
+sleep
+	: expr				{ $$ = x_sleep($1);		}
+	;
+
+sort
+	: T_O_LPAREN sort_args T_O_RPAREN
+					{ $$ = x_sort($2);		}
+	;
+
+sort_arg
+	: T_ID T_O_EQUAL sort_param	{ $$ = x_sort_arg($1, $3);	}
+	| T_END    T_O_EQUAL sort_param	{ $$ = x_sort_arg($1, $3);	}
+	| T_RECORD T_O_EQUAL sort_rec	{ $$ = x_sort_arg($1, $3);	}
+	;
+
+sort_args
+	: sort_arg
+	| sort_args T_O_COMMA sort_arg	{ $$ = adl_n($1, $3);		}
+	;
+
+sort_key_field
+	: T_ID				{ $$ = mkid($1);		}
+	;
+
+sort_key_fields
+	: sort_key_field
+	| sort_key_fields T_O_COMMA sort_key_field
+					{ $$ = adf_n($1, $3);		}
+	;
+
+sort_param
+	: ref
+	| T_STRING			{ $$ = mkid($1);		}
+	| T_O_LPAREN sort_key_fields T_O_RPAREN
+					{ $$ = $2;			}
+	;
+
+sort_rec
+	: T_ID				{ $$ = mkid($1);		}
+	;
+
+stop
+	: ref
+	| T_NUMBER			{ $$ = mkid($1);		}
+	| T_STRING			{ $$ = mkid($1);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+store
+	: store_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+store_args
+	: T_O_LPAREN io_channel T_O_COMMA ref opt.store_key T_O_RPAREN
+					{ $$ = x_store($2, $4, $5);	}
+	;
+
+opt.store_key
+	: T_O_COMMA ref			{ $$ = $2;			}
+	| /* Empty */			{ $$ = NIL;			}
+	;
+
+unlock
+	: io_channel
+	;
+
+upcase
+	: ref
+	;
+
+using_select_or_range
+	: expr opt.using_range T_SELECT using_selectors T_ENDUSING
+					{ $$=x_using_select($1, $2, $4);}
+	;  
+
+using_expr
+	: expr
+	| expr T_THRU expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| T_O_LE expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_LEU expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_LES expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_LT expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_LTU expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_LTS expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_GE expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_GEU expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_GES expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_GT expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_GTU expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_GTS expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_EQS expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_EQU expr			{ $$ = x_op_expr($1, $2);	}
+	;
+
+using_exprs
+	: using_expr
+	| using_exprs T_O_COMMA using_expr
+					{ $$ = adl_n($1, $3);		}
+	;
+
+opt.using_exprs
+	: using_exprs
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+using_selector
+	: T_O_LPAREN opt.using_exprs T_O_RPAREN T_O_COMMA stmt
+					{ $$ = x_using_selector($2, $5);}
+	;
+
+using_selectors
+	: using_selector
+	| using_selectors using_selector
+					{ $$ = adl_n($1, $2);		}
+	;
+
+opt.using_range
+	: T_RANGE expr T_THRU expr	{ $$= mkkwvv($1, $2, $3, $4);	}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+while
+	: expr stmt			{ $$ = x_while($1, $2);		}
+	| expr T_DO stmt		{ $$ = x_while($1, $3);		}
+	;
+
+write
+	: write_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+write_args
+	: T_O_LPAREN
+	    io_channel T_O_COMMA write_data opt.write_options
+	  T_O_RPAREN
+					{ $$ = x_write_args($2, $4, $5);}
+	;
+
+write_data
+	: ref
+	| string
+	;
+
+write_option
+	: expr
+	| T_ID T_O_COLON expr		{ $$ = x_write_option($1, $3);	}
+	;
+
+write_options
+	: write_option
+	| write_options T_O_COMMA write_option
+					{ $$ = adl_n($1, $3);		}
+	;
+
+opt.write_options
+	: T_O_COMMA write_options	{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+writes
+	: writes_args opt.io_exceptions	{ $$ = x_io($1, $2);		}
+	;
+
+writes_args
+	: T_O_LPAREN io_channel T_O_COMMA display_item T_O_RPAREN
+					{ $$ = x_writes_args($2, $4);	}
+	;
+
+xcall
+	: xcall_routine opt.xcall_parameters
+					{ $$ = x_xcall($1, $2);		}
+	;
+
+xcall_routine
+	: T_ID
+	;
+
+xcall_parameters
+	: expr
+	| /*vacuous parameter*/		{ 
+					  static
+					  Token     t = {T_O_COMMA, NULL};
+					  $$ = mkid(t);
+					}
+	| xcall_parameters T_O_COMMA	{ $$ = adl_t($1, $2);		}
+	| xcall_parameters T_O_COMMA expr
+					{ $$ = adl_n($1, $3);		}
+	;
+
+opt.xcall_parameters
+	: T_O_LPAREN xcall_parameters T_O_RPAREN
+					{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - -	*/
+
+					/* Expressions			*/
+expr
+	: ref
+	| T_NUMBER			{ $$ = mkid($1);		}
+	| string
+	| builtin
+	| expr T_O_BOR  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_BXOR expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_BAND expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_BNOT expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_OR   expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_XOR  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_AND  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_NOT  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_EQS  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_NES  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_GTS  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_LTS  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_GES  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_LES  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_EQU  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_NEU  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_GTU  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_LTU  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_GEU  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_LEU  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_EQ   expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_NE   expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_GT   expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_LT   expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_GE   expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_LE   expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_ADD  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_SUB  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_SLHSLH expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_MUL  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_DIV  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| T_O_ADD expr %prec T_O_UNARY	{ $$ = x_op_expr($1, $2);	}
+	| T_O_NOT expr			{ $$ = x_op_expr($1, $2);	}
+	| T_O_SUB expr %prec T_O_UNARY	{ $$ = x_op_expr($1, $2);	}
+	| expr T_O_ROUND expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+	| expr T_O_ROUNDTRUE  expr	{ $$ = x_expr_op_expr($1,$2,$3);}
+	| T_O_LPAREN expr T_O_RPAREN	{ $$ = $2;			}
+	;
+
+builtin
+	: T_BUILTIN			{ $$ = x_builtin($1,NIL);	}
+	| T_BUILTIN T_O_LPAREN builtin_param_list T_O_RPAREN
+					{ $$ = x_builtin($1, $3);	}
+	;
+
+builtin_param
+	: expr
+	| T_CLEAR			{ $$ = mkid($1);		}
+	;
+
+builtin_param_list
+	: builtin_param
+	| builtin_param_list T_O_COMMA builtin_param
+					{ $$ = adl_n($1, $3);		}
+	| builtin_param_list compiler_directive
+	;
+
+field_ref
+	: T_ID				{ $$ = mkid($1);		}
+	| field_ref T_O_PERIOD T_ID	{ $$ = adf_t($1, $3);		}
+	;
+
+ref
+	: field_ref opt.ref_array opt.ref_pos
+					{ $$ = x_ref($1, $2, $3);	}
+	;
+
+ref_array_subscripts
+	: expr
+	| ref_array_subscripts T_O_COMMA expr
+					{ $$ = adf_n($1, $3);		}
+	;
+
+opt.ref_array
+	: T_O_LBRACK ref_array_subscripts T_O_RBRACK
+					{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+/**
+ * Note:
+ *	The 'ref_pos' can be one of three things:
+ *	1. Subscript on a pseudo array.
+ *	2. Substring selector (start,end) or (start:len)
+ *	3. Actual parameter list to a function if the 'ref' is a function
+ *	Fun, eh?
+ */
+opt.ref_pos
+	: T_O_LPAREN ref_pos T_O_RPAREN	{ $$ = mkkwv($1, $2);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+ref_pos
+	: ref_pos_item
+	| ref_pos T_O_COMMA ref_pos_item
+					{ $$ = adf_n($1, mkkwv($2, $3));}
+	| ref_pos T_O_COLON ref_pos_item
+					{ $$ = adf_n($1, mkkwv($2, $3));}
+	;
+
+ref_pos_item
+	: expr
+	| T_CLEAR			{ $$ = mkid($1);		}
+	;
+
+					/* Utility productions		*/
+					/* ---------------------------- */
+io_channel
+	: number_string_or_ref
+	;
+
+io_exception
+	: T_ID  T_O_EQUAL T_ID		{ $$ = x_io_exception($1,$2,$3);}
+	;
+
+io_exceptions
+	: io_exception
+	| io_exceptions T_O_COMMA io_exception
+					{ $$ = adl_n($1, $3);		}
+	;
+
+opt.io_exceptions
+	: T_O_LBRACK io_exceptions T_O_RBRACK
+					{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+io_indexed_option
+	: T_ID				{ $$ = x_io_indexed_option($1,NIL);}
+	| T_ID T_O_COLON expr		{ $$ = x_io_indexed_option($1,$3);}
+	;
+
+number_or_string
+	: T_NUMBER			{ $$ = mkid($1);		}
+	| string
+	;
+
+number_string_or_ref
+	: number_or_string
+	| ref
+	;
+
+string
+	: T_STRING			{ $$ = mkid($1);		}
+	| string T_STRING		{ $$ = adf_n($1, mkid($2));	}
+	;
+
+video_attr
+	: T_ID T_O_COLON expr		{ $$ = x_video_attr($1, $3);	}
+	| T_POS T_O_COLON video_attr_pos{ $$ = x_video_attr($1, $3);	}
+	;
+
+video_attrs
+	: T_O_LESS video_attr_list T_O_GREAT
+					{ $$ = adf_n(mkid($1), $2);	}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+video_attr_list
+	: video_attr
+	| video_attr_list T_O_COMMA video_attr
+					{ $$ = adl_n($1, $3);		}
+	;
+
+video_attr_pos
+	: T_O_LPAREN expr T_O_COMMA expr T_O_RPAREN
+					{ $$ = x_video_attr_pos($2, $4);}
+	;
+
+%%
+
+#include "gram_support.c"
+
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/gram.g,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:05:56 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:24 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:53:01 $
+d1202 1
+a1202 1
+	: expr
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:11 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:06 $
+d18 20
+d158 2
+d162 1
+d356 1
+d997 1
+a997 1
+	: ref /*?? what is mval? forgot */
+d999 1
+a999 1
+					{ $$ = x_find_indexed($1, $3);	}
+d1424 3
+a1426 1
+	: T_O_LPAREN io_channel T_O_COMMA ref opt.write_options T_O_RPAREN
+d1430 5
+d1623 2
+a1624 1
+	: T_ID T_O_COLON expr		{ $$ = x_io_indexed_option($1,$3);}
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:37 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:35 $
+d74 1
+a74 1
+		  T_DEFAULT T_DEQ
+d84 1
+a84 1
+		  T_RECSIZ T_RECTYPE T_RFA
+d137 4
+d263 1
+d289 2
+d561 1
+a561 1
+	| field_data_type field_offset	{ $$ = adl_n($1, $2);		}
+d1206 13
+d1224 1
+a1224 1
+	: expr
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:26 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:09 $
+d639 1
+a639 1
+	| T_CD_NAME
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:31 $
+d63 1
+a63 1
+		  T_SELECT T_SEND T_SLEEP T_SORT T_STEP T_STOP T_STORE
+d295 2
+d779 1
+d1108 1
+d1238 9
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:12 $
+d157 1
+d160 1
+d232 2
+d634 1
+a634 1
+	| T_CD_LINE cd_expr		{ _parse.cd_line = $2;		}
+d847 3
+a849 1
+	: T_ID /* label */		{ $$ = x_call($1);		}
+d852 10
+d926 1
+d1018 1
+a1018 1
+	: T_ID				{ $$ = mkid($1);		}
+d1077 13
+a1089 1
+	: T_ID				{ $$ = mkid($1);		}
+d1476 5
+d1482 2
+a1483 2
+	: ref
+	| builtin_param_list T_O_COMMA ref
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:01 $
+d154 1
+d157 1
+d1188 1
+a1188 1
+	| T_O_COMMA string T_O_COMMA expr	/* DBL? */
+d1198 1
+a1198 1
+	: T_O_LPAREN ref T_O_COMMA expr opt.send_terminal T_O_RPAREN
+d1401 1
+a1401 1
+/*	| builtin */
+d1439 13
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:45:59 $
+d20 1
+d63 1
+a63 1
+		  T_SELECT T_SEND T_SLEEP T_SORT T_STOP T_STORE
+d461 1
+d954 2
+a955 2
+	: ref T_O_EQUAL expr T_UNTIL expr T_DO stmt
+					{ $$=x_for($1, $3, $5, NIL, $7);}
+d961 2
+a962 1
+	: T_BY expr			{ $$ =  $2;			}
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:44:01 $
+d57 1
+a57 1
+		  T_NEXTLOOP T_NOP T_NOSUFFIX
+d76 1
+a76 1
+		  T_INPUT
+d80 1
+a80 1
+		  T_NUMREC
+d87 1
+a140 1
+		opt.common_no_suffix
+d237 1
+d245 1
+d438 2
+a439 2
+	: T_O_COMMA T_NOSUFFIX		{ $$ = $2;			}
+	| /* empty */			{ $$ = t__NIL;			}
+d457 1
+a457 1
+	: T_GLOBAL T_ID
+d459 1
+a459 1
+	  T_ENDGLOBAL			{ $$=x_gbl_def_header($1,$2,$3,$4);}
+d462 5
+d515 1
+a515 1
+	: T_O_COMMA T_ID		{ $$ = mkid($2);		}
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:44 $
+d81 1
+a81 1
+		  T_OFFSET T_OUTPUT
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:38:59 $
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:06 $
+d49 1
+a49 1
+		  T_ELSE T_END T_ENDCASE T_ENDGROUP T_ENDUSING
+d81 1
+a81 1
+		  T_OFFSET
+d202 3
+a259 1
+		opt.wait_seconds
+d394 1
+a431 1
+	| T_GLOBAL
+d454 18
+d597 2
+a598 1
+					  printf("%s %sABLED\n",
+d619 1
+a619 1
+	| T_CD_LINE
+d642 2
+a643 1
+					  printf("%s %sABLED\n",
+d1078 1
+a1078 1
+	: T_ID				{ $$ = mkid($1);		}
+d1159 2
+a1160 2
+	: T_ID				{ $$ = mkid($1);		}
+	| T_WAIT opt.wait_seconds	{ $$ = mkkwv($1, $2);		}
+d1206 1
+a1537 5
+	;
+
+opt.wait_seconds
+	: T_O_COLON expr		{ $$ = $2;			}
+	| /* empty */			{ $$ = NIL;			}
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:48 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:26 $
+d29 1
+d90 2
+a91 2
+		  T_CD_DEFINE
+		  T_CD_ELSE T_CD_END T_CD_ENDC
+d97 1
+a97 1
+		  T_CD_NAME T_CD_NOLIST
+d101 2
+a102 1
+		  T_CD_TITLE
+d137 2
+d576 5
+d582 1
+a582 1
+	| T_CD_ELSE
+d584 6
+a589 1
+	| T_CD_ENDC
+d591 6
+a596 6
+	| T_CD_IF
+	| T_CD_IFDEF
+	| T_CD_IFF
+	| T_CD_IFNDEF
+	| T_CD_IFT
+	| T_CD_IFTF
+d603 5
+d618 12
+d638 12
+a649 1
+	| T_NUMBER			{ $$ = mkid($1);		}
+d651 16
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:50 $
+d89 6
+a94 5
+		  T_CD_END
+		  T_CD_IDENT T_CD_IF
+		  T_CD_ELSE T_CD_ENDC
+		  T_CD_IFDEF T_CD_IFNDEF T_CD_INCLUDE
+		  T_CD_LIST
+d96 1
+a96 1
+		  T_CD_NOLIST
+d99 1
+a99 1
+		  T_CD_SAVE T_CD_SHOW T_CD_SUBROUTINE T_CD_SUBTITLE
+d157 1
+d331 2
+a332 3
+	:				{ x_division(NIL, (Node_id)-1);	}
+	  source_unit
+	| compiler_directive source_unit
+d335 5
+d572 4
+a576 7
+	| T_CD_PSECT			{ s_skip_to_eol($1);		}
+	| T_CD_RESTORE			{ s_skip_to_eol($1);		}
+	| T_CD_SAVE			{ s_skip_to_eol($1);		}
+	| T_CD_END			{ s_skip_to_eol($1);		}
+	| T_CD_MAIN			{ s_skip_to_eol($1);		}
+	| T_CD_PROC			{ s_skip_to_eol($1);		}
+	| T_CD_SUBROUTINE		{ s_skip_to_eol($1);		}
+d579 1
+d581 2
+a582 2
+	| T_CD_ELSE
+	| T_CD_ENDC
+d584 1
+d586 2
+d590 4
+d595 2
+d599 10
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:18 $
+a233 1
+		opt.get_label
+a237 1
+		opt.put_label
+d867 2
+a868 2
+	: T_O_LPAREN io_channel T_O_COMMA ref opt.get_label T_O_RPAREN
+					{ $$ = x_get_args($2, $4, $5);	}
+a870 5
+opt.get_label
+	: T_ID				{ $$ = mkid($1);		}
+	| /* Empty */			{ $$ = NIL;			}
+	;
+
+d881 1
+a881 1
+	: T_ID				{ $$ = mkid($1);		}
+d995 2
+a996 2
+	: T_O_LPAREN io_channel T_O_COMMA ref opt.put_label T_O_RPAREN
+					{ $$ = x_put_args($2, $4, $5);	}
+a998 5
+opt.put_label
+	: T_ID				{ $$ = mkid($1);		}
+	| /* Empty */			{ $$ = NIL;			}
+	;
+
+d1009 1
+a1009 1
+	: T_ID				{ $$ = mkid($1);		}
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:48 $
+d222 1
+d238 1
+d960 2
+a961 2
+	: T_O_LPAREN io_channel T_O_COMMA open_options T_O_RPAREN
+					{ $$ = x_open_args($2, $4);	}
+d976 10
+d987 2
+a988 1
+	: open_mode open_attrs		{ $$ = adf_n($1, $2);		}
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:40 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:45 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:22 $
+d52 1
+a52 1
+		  T_GLOBAL T_GOTO T_GROUP
+d58 1
+a58 1
+		  T_PROC
+d192 4
+d233 2
+d237 2
+d257 4
+d639 2
+d651 2
+d862 28
+d982 28
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:04 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:25 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:40:42 $
+d113 2
+a114 2
+		  T_O_PERIOD T_O_PND
+		  T_O_RBRACK T_O_ROUND T_O_RPAREN
+d311 1
+a312 1
+%left T_O_PND  T_O_ROUND
+a1246 1
+	| expr T_O_PND  expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+d1248 1
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:32 $
+d61 1
+a61 1
+		  T_SELECT T_SEND T_SLEEP T_STOP T_STORE
+d75 1
+d267 7
+d644 1
+d1021 36
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:45 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:35 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:03 $
+d261 2
+d1229 8
+a1236 1
+/* This is hokey - needs real code  -- is it still hokey? --ldl 12/01 */
+d1238 1
+a1238 6
+	: T_O_LPAREN expr T_O_RPAREN	{ $$ = mkkwv($1, $2);		}
+	| T_O_LPAREN T_CLEAR T_O_RPAREN	{ $$ = mkkwv($1, mkid($2));	}
+	| T_O_LPAREN expr T_O_COMMA expr T_O_RPAREN
+					{ $$ = mkkwvv($1, $2, $3, $4);	}
+	| T_O_LPAREN expr T_O_COLON expr T_O_RPAREN
+					{ $$ = mkkwvv($1, $2, $3, $4);	}
+d1240 13
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:29 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:43 $
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:20 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:13 $
+d1142 6
+a1147 2
+	| xcall_parameters T_O_COMMA
+					{ $$ = adl_t($1, $2);		}
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d3 2
+a4 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/gram.g,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.36 1995/05/02 10:43:20 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.35 1995/04/25 11:48:28 ldl Exp ldl $
+d141 2
+a142 1
+		accept_params
+d163 1
+d182 1
+d219 1
+d267 1
+d666 13
+a678 2
+	: T_O_LPAREN accept_params T_O_RPAREN
+					{ $$ = $2;			}
+d681 3
+a683 4
+accept_params
+	: expr
+	| accept_params T_O_COMMA T_ID	{ $$ = adl_t($1, $3);		}
+	| accept_params T_O_COLON expr	{ $$ = adl_n($1, $3);		}
+d750 4
+d789 4
+d1020 4
+d1194 1
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.34 1995/04/24 12:23:15 ldl Exp ldl $
+a207 1
+		number_string_or_id
+d691 1
+a691 1
+	: expr T_OF case_block		{ $$ = adf_n($1, $3);		}
+d704 3
+a706 5
+	: number_string_or_id
+	| number_string_or_id T_O_SUB T_NUMBER
+					{ $$ = adf_n($1, mkid($3));	}
+	;
+
+d986 1
+a986 1
+	: expr
+a1234 5
+	;
+
+number_string_or_id
+	: number_or_string
+	| T_ID				{ $$ = mkid($1);		}
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.33 1995/04/23 12:55:14 ldl Exp ldl $
+d802 1
+a802 1
+	: T_BY expr			{ $$ = mkkwv($1, $2);		}
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.32 1995/04/22 12:42:51 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.31 1995/04/19 11:29:09 ldl Exp ldl $
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.30 1995/04/18 12:00:40 ldl Exp ldl $
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.29 1995/04/13 10:23:55 ldl Exp ldl $
+d688 1
+a688 1
+	: T_ID /* label */		{ $$ = mkid($1);		}
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.28 1995/04/03 11:47:11 ldl Exp ldl $
+d126 1
+a126 1
+		  T__PARAMETER
+d209 1
+d1212 1
+a1212 1
+	: number_string_or_id
+d1243 5
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.27 1995/03/27 03:06:27 ldl Exp ldl $
+d119 1
+a119 1
+		  T__CLASS
+a218 1
+		opt.exit_label
+a233 1
+		opt.stop_cmdfile_parameter_list
+a258 1
+		simple_expr
+a261 1
+		stop_type
+d516 6
+a521 2
+					{ $$ = $2;			}
+	| T_NUMBER			{ $$ = mkid($1);		}
+d642 1
+a642 3
+	: ref T_O_EQUAL
+				{ $$ = x_assignment($1,$2,NIL,NIL,NIL);}
+	| ref T_O_EQUAL expr opt.assignment_format opt.assignment_alignment
+a765 1
+		
+a766 4
+	: opt.exit_label
+	;
+
+opt.exit_label
+a918 1
+	| T_ID				{ $$ = mkid($1);		}
+d992 3
+a994 13
+	: stop_type
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+stop_type
+	: simple_expr
+	| T_O_AT ref opt.stop_cmdfile_parameter_list
+					{ $$ = x_stop_type_at($2, $3);	}
+	;
+
+opt.stop_cmdfile_parameter_list
+	: T_O_LPAREN /* parameter list */ T_O_RPAREN	/*????*/
+					{ $$ = NIL; /*JUNK*/		}
+a1114 3
+	/* Note: uses simple expr since can't tell whether
+	 *	 we have parens or not if using expr.
+	 */
+d1116 1
+a1116 1
+	: simple_expr
+d1119 1
+a1119 1
+	| xcall_parameters T_O_COMMA simple_expr
+a1132 6
+	: simple_expr
+	| T_O_LPAREN simple_expr T_O_RPAREN
+					{ $$ = $2;			}
+	;
+
+simple_expr
+d1172 1
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.26 1995/03/26 19:58:13 ldl Exp ldl $
+d322 1
+a322 1
+	: data_division
+@
+
+
+1.26
+log
+@26-Mar-1995 Checkpoint 1
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.25 1995/03/23 13:31:33 ldl Exp ldl $
+d124 1
+a124 1
+		  T__FIELD
+@
+
+
+1.25
+log
+@23-Mar-1995 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.24 1995/03/19 23:29:18 ldl Exp ldl $
+d306 2
+a307 1
+	: source_unit
+d483 1
+a483 1
+	| T_ID T_O_PERIOD T_NUMBER	{ $$ = adl_t(mkid($1), $2);	}
+d829 1
+a829 1
+	| goto_labels T_O_COMMA T_ID	{ $$ = adl_t($1, $3);		}
+d1203 1
+a1203 1
+	| field_ref T_O_PERIOD T_ID	{ $$ = adl_t($1, $3);		}
+@
+
+
+1.24
+log
+@19-Mar-1995 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.23 1995/03/08 13:33:27 ldl Exp ldl $
+d218 1
+d236 1
+d738 2
+a739 2
+	: T_O_LPAREN io_channel T_O_RPAREN
+					{ $$ = $2;			}
+d742 4
+d870 1
+a870 1
+	: T_O_COMMA lpque_option_list	{ $$ = $2;			}
+d905 1
+a905 1
+	: open_mode open_attrs		{ $$ = x_open_options($1, $2);	}
+d925 1
+a925 1
+	| T_ID
+d1016 2
+a1017 2
+	: T_O_LPAREN io_channel T_O_COMMA ref T_O_RPAREN
+					{ $$ = x_store($2, $4);		}
+d1020 5
+d1137 2
+d1281 1
+a1281 1
+					{ $$ = $2;			}
+@
+
+
+1.23
+log
+@08-Mar-1995 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.22 1995/03/06 12:00:16 ldl Exp ldl $
+d42 5
+a46 6
+		T__KEYWORDS
+		  T_ACCEPT T_ALIGN T_ALLOC
+		  T_BEGIN T_BEGINCASE T_BKTSIZ T_BLKSIZ T_BUFNUM
+		  T_BUFSIZ T_BUILTIN T_BY
+		  T_CALL T_CASE T_CLEAR T_CLOSE T_COMMON T_CONTIG T_COPIES
+		  T_DECR T_DEFAULT T_DELETE T_DEQ T_DETACH
+d48 1
+a48 1
+		  T_EDIT T_ELSE T_END T_ENDCASE T_ENDGROUP T_ENDUSING T_ERASE
+d50 2
+a51 3
+		  T_FDL T_FIND T_FLAGS T_FLUSH
+		  T_FOR T_FOREVER T_FORM T_FORMAT
+		  T_FORMS T_FRETURN T_FROM T_FUNCTION
+d54 8
+a61 9
+		  T_KEY T_KEYNUM T_KRF
+		  T_LITERAL T_LOCAL T_LOCASE T_LPNUM T_LPQUE
+		  T_MATCH T_MODE
+		  T_NEXTLOOP T_NOP T_NOSUFFIX T_NUMREC
+		  T_OF T_OFFERROR T_OFFSET T_ONERROR T_OPEN
+		  T_POS T_PROC T_PROMPT T_PROTECT
+		  T_RANGE T_READ T_READS T_RECORD T_RECSIZ T_RECTYPE
+		  T_RECV T_REPEAT T_RETURN T_RFA
+		  T_SELECT T_SEND T_SHARE T_SLEEP T_STOP T_STORE
+d65 18
+d84 1
+a84 2
+		  T_WAIT T_WHILE T_WRITE T_WRITES
+		  T_XCALL T_XRETURN
+d144 1
+d206 1
+a224 1
+		opt.label
+d242 1
+d277 1
+d453 1
+a453 1
+	|				{ $$ = NIL;			}
+d567 2
+a568 2
+	| procedure_division opt.label stmt
+					{ $$ = x_proc_div_stmt($1,$2,$3);}
+d578 5
+a584 6
+	| label T_LABEL			{ $$ = adf_n($1, mkid($2));	}
+	;
+
+opt.label
+	: label
+	| /* empty */			{ $$ = NIL;			}
+d588 1
+d674 5
+d680 3
+a682 3
+	: opt.label stmt		{ $$ = x_begin_end_stmts(NIL,$1,$2);}
+	| begin_end_stmts opt.label stmt
+					{ $$ = x_begin_end_stmts($1,$2,$3);}
+d794 3
+a796 1
+	: ref T_FROM expr T_THRU expr opt.for_by stmt
+d846 1
+a846 1
+	: T_O_LPAREN ref lpque_options T_O_RPAREN
+d857 4
+a860 5
+	: T_LPNUM  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_COPIES T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_FORM   T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_DELETE T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_ALIGN			{ $$ = mkid($1);		}
+d868 5
+d887 1
+a887 15
+	: T_ALLOC   T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_BKTSIZ  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_BLKSIZ  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_BUFNUM  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_BUFSIZ  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_RECSIZ  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_CONTIG  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_DEQ     T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_PROTECT T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_RECTYPE T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_SHARE   T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_KEY     T_O_COLON T_O_LPAREN expr T_O_RPAREN /* expr is ?keylist?*/
+					{ $$ = mkkwv($1, $4);		}
+	| T_FDL     T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_NUMREC  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+d889 1
+a889 1
+	| T_ID				{ $$ = mkid($1);		}
+d918 4
+a921 6
+	: expr				{ $$ = x_read_options($1);	}
+	| T_KEYNUM T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_KRF    T_O_EQUAL expr	{ $$ = mkkwv($1, $3);		}
+	| T_MATCH  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_RFA    T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_WAIT opt.wait_seconds	{ $$ = mkkwv($1, $2);		}
+d1089 1
+a1089 1
+	| T_RFA T_O_COLON expr		{ $$ = x_write_option_rfa($1,$3);}
+a1118 1
+	| T_FLAGS			{ $$ = x_xcall_flags($1);	}
+a1227 1
+	| T_KEY T_O_EQUAL T_ID		{ $$ = x_io_exception($1,$2,$3);}
+d1243 1
+a1243 3
+	: T_KEYNUM T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_MATCH  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_WAIT   T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+d1261 5
+d1278 3
+a1280 11
+video_attr
+	: T_DEFAULT T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_EDIT    T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_ERASE   T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_FLAGS   T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_FORMAT  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_OFFSET  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_POS T_O_COLON T_O_LPAREN expr T_O_COMMA expr T_O_RPAREN
+					{ $$ = mkkwvv($1, $4, $5, $6);	}
+	| T_PROMPT  T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+	| T_VIDEO   T_O_COLON expr	{ $$ = mkkwv($1, $3);		}
+@
+
+
+1.22
+log
+@06-Mar-1995 Checkpoint 2
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.21 1995/03/06 10:31:58 ldl Exp ldl $
+d51 2
+a52 1
+		  T_FDL T_FIND T_FLAGS T_FLUSH T_FOR T_FORM T_FORMAT
+d56 1
+a56 1
+		  T_KEY T_KEYNUM
+d98 2
+a99 2
+		  T_O_PERIOD T_O_PND T_O_PNDPND
+		  T_O_RBRACK T_O_RPAREN
+d106 1
+d113 1
+d127 1
+d135 1
+d137 1
+a137 1
+		case_block
+d141 1
+d180 2
+d188 1
+a189 1
+		lpque_option
+d195 1
+d201 1
+d208 1
+d229 1
+d233 1
+d264 1
+d268 1
+d282 1
+a282 1
+%left T_O_PND  T_O_PNDPND
+d622 9
+a630 3
+	: ref T_O_EQUAL			{ $$ = x_assignment($1,$2,NIL,NIL);}
+	| ref T_O_EQUAL expr opt.assignment_format
+					{ $$ = x_assignment($1,$2,$3,$4);}
+d639 5
+a643 1
+	: T_O_LPAREN accept_args T_O_RPAREN
+d647 4
+a650 4
+accept_args
+	: ref
+	| accept_args T_O_COMMA T_ID	{ $$ = adl_t($1, $3);		}
+	| accept_args T_O_COLON expr	{ $$ = adl_n($1, $3);		}
+d669 1
+d677 7
+a683 2
+	: number_string_or_id T_O_COLON stmt
+					{ $$ = x_case_element($1,$2,$3);}
+d697 6
+d704 2
+a705 1
+	| close T_O_COMMA io_channel	{ $$ = adl_n($1, $3);		}
+d735 2
+a736 1
+	: stmt T_UNTIL expr		{ $$ = x_do_until($1, $2, $3);	}
+d850 4
+d855 2
+a856 1
+					{ $$ = x_open($2, $4);		}
+d895 4
+d900 1
+a900 1
+					{ $$ = x_read($2, $4, $5);	}
+d906 1
+d924 4
+d931 1
+a931 1
+					{ $$ = x_reads($2, $4, $5);	}
+d1067 4
+d1072 1
+a1072 1
+					{ $$ = x_write($2, $4, $5);	}
+d1092 4
+d1097 1
+a1097 1
+					{ $$ = x_writes($2, $4);	}
+d1173 1
+a1173 1
+	| expr T_O_PNDPND expr		{ $$ = x_expr_op_expr($1,$2,$3);}
+d1213 17
+@
+
+
+1.21
+log
+@06-Mar-1995 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.20 1995/03/05 03:24:37 ldl Exp ldl $
+@
+
+
+1.20
+log
+@04-Mar-1995 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.19 1995/03/03 12:36:18 ldl Exp ldl $
+@
+
+
+1.19
+log
+@03-Mar-1995 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.18 1995/02/27 12:55:27 ldl Exp ldl $
+@
+
+
+1.18
+log
+@27-Feb-1995 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.17 1995/02/26 10:54:27 ldl Exp ldl $
+@
+
+
+1.17
+log
+@26-Feb-1995 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.16 1995/01/07 15:34:52 ldl Exp ldl $
+d175 1
+d183 1
+d546 10
+d687 1
+a687 1
+	| string
+a1130 5
+opt.label
+	: T_LABEL			{ $$ = mkid($1);		}
+	| /* empty */			{ $$ = NIL;			}
+	;
+
+d1160 1
+a1160 1
+number_string_or_id
+d1163 4
+@
+
+
+1.16
+log
+@07-Jan-1995 Checkpoint 2
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.15 1995/01/07 11:22:35 ldl Exp ldl $
+d109 1
+a109 1
+		  T__OFFSET
+d441 1
+a441 1
+					{ $$ = adl_n($1, mkid($3));	}
+d446 1
+a446 1
+	| T_ID T_O_PERIOD T_NUMBER	{ $$ = adl_n(mkid($1),mkid($2));}
+d467 1
+a467 1
+	: T_O_AT T_ID			{ $$ = adl_n(mkid($1),mkid($2));}
+d472 1
+a472 1
+	: T_O_ADD T_NUMBER		{ $$ = adl_n(mkid($1),mkid($2));}
+d747 1
+a747 1
+	| goto_labels T_O_COMMA T_ID	{ $$ = adl_n($1, mkid($3));	}
+d1105 1
+a1105 1
+	| field_ref T_O_PERIOD T_ID	{ $$ = adl_n($1, mkid($3));	}
+d1116 1
+a1116 1
+					{ $$ = adl_n($1, $3);		}
+d1161 1
+a1161 1
+	| string T_STRING		{ $$ = adl_n($1, mkid($2));	}
+@
+
+
+1.15
+log
+@07-Jan-1995 Checkpoint 1
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.14 1994/12/31 02:31:30 ldl Exp ldl $
+d44 3
+a46 2
+		  T_BEGIN T_BKTSIZ T_BLKSIZ T_BUFNUM T_BUFSIZ T_BUILTIN T_BY
+		  T_CALL T_CLEAR T_CLOSE T_COMMON T_CONTIG T_COPIES
+d49 1
+a49 1
+		  T_EDIT T_ELSE T_END T_ENDGROUP T_ENDUSING T_ERASE
+d59 1
+a59 1
+		  T_OFFERROR T_OFFSET T_ONERROR T_OPEN
+d130 4
+d182 1
+d270 5
+d446 1
+d550 1
+d621 3
+a623 2
+	: stmt
+	| begin_end_stmts stmt		{ $$ = adl_n($1, $2);		}
+d630 18
+d799 2
+a800 2
+	: T_O_LPAREN io_channel open_options T_O_RPAREN
+					{ $$ = x_open($2, $3);		}
+d818 2
+d823 1
+a823 1
+	: open_attr
+d833 2
+a834 1
+	: T_ID T_O_COLON T_ID		{ $$ = x_open_mode($1, mkid($3));}
+d892 2
+d917 1
+d1064 1
+d1144 1
+a1144 2
+	: T_ID				{ $$ = mkid($1);		}
+	| T_NUMBER			{ $$ = mkid($1);		}
+d1151 6
+@
+
+
+1.14
+log
+@30-Dec-1994 Checkpoint 2
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.13 1994/12/30 21:01:49 ldl Exp ldl $
+d118 1
+d149 2
+d228 1
+d435 1
+d439 1
+a439 1
+	: T_STRING			{ $$ = mkid($1);		}
+d452 5
+a456 1
+	| T_O_COMMA			{ $$ = NIL;			}
+d459 5
+d477 1
+a477 1
+	: field_defaults
+d643 1
+a643 1
+	| T_STRING			{ $$ = mkid($1);		}
+d990 1
+a990 1
+	: T_ID opt.xcall_parameters
+d994 5
+d1113 5
+@
+
+
+1.13
+log
+@30-Dec-1994 Checkpoint 1
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.12 1994/12/27 04:07:24 ldl Exp ldl $
+d629 1
+d711 3
+a713 2
+	| expr T_THEN stmt T_ELSE stmt
+					{ $$ = x_if_then_else($1,$3,$5);}
+d1075 1
+@
+
+
+1.12
+log
+@26-Dec-1994 Checkpoint 2
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.11 1994/12/26 23:52:58 ldl Exp ldl $
+d283 1
+a314 1
+
+d321 1
+d327 1
+d356 1
+d370 1
+d385 1
+d414 1
+d440 1
+d472 30
+d506 1
+@
+
+
+1.11
+log
+@26-Dec-1994 Checkpoint 1
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.10 1994/12/16 07:22:18 ldl Exp ldl $
+d1006 2
+a1007 2
+	: T_ID				{ $$ = lkupid(NIL, $1);		}
+	| field_ref T_O_PERIOD T_ID	{ $$ = lkupid($1, $3);		}
+@
+
+
+1.10
+log
+@15-Dec-1994 late
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.9 1994/12/15 23:42:29 ldl Exp ldl $
+d105 1
+a105 1
+		  T__EXPR
+a107 1
+		  T__MAIN
+d111 1
+a111 1
+		  T__TYPE
+d265 2
+a266 2
+	: division
+	| program division		{ $$ = adl_n($1,  $2);		}
+d326 1
+a326 1
+	| common_definition field	{ $$ = adl_n($1, $2);		}
+d328 1
+a328 1
+					{ $$ = adl_n($1, $2);		}
+d354 1
+a354 1
+	| function_definition field	{ $$ = adl_n($1, $2);		}
+d356 1
+a356 1
+					{ $$ = adl_n($1, $2);		}
+d367 1
+a367 1
+	| literal_definition field	{ $$ = adl_n($1, $2);		}
+d369 1
+a369 1
+					{ $$ = adl_n($1, $2);		}
+d381 1
+a381 1
+	| record_definition field	{ $$ = adl_n($1, $2);		}
+d383 1
+a383 1
+					{ $$ = adl_n($1, $2);		}
+d404 1
+a404 1
+	  T_ENDGROUP			{ $$=x_group_definition($1,$2,$3);}
+d420 1
+a420 1
+					{ $$ = adl_n($1, $3);		}
+d471 1
+a471 1
+	| procedure_division T_END	{ $$ = adl_t($1, $2);		}
+d637 1
+a637 1
+					{ $$=x_for($1,$2,$3,$4,$5,$6,$7);}
+d662 1
+a662 1
+	| goto_labels T_O_COMMA T_ID	{ $$ = adl_n($1, $3);		}
+d673 1
+a673 1
+					{ $$ = x_if_then_else($1,$2,$3,$4,$5);}
+d745 1
+a745 1
+	: T_ID T_O_COLON T_ID		{ $$ = x_open_mode($1, $3);	}
+d755 1
+a755 2
+	: expr				{ $$ = x_read_options(
+	                                         T__NIL, T__NIL, $1);	}
+d774 4
+a777 2
+	: T_O_LPAREN io_channel display_item opt.reads_options T_O_RPAREN
+					{ $$ = x_reads($2, $3, $4);	}
+d855 1
+a855 1
+					{ $$=x_using_select($1,$2,$3,$4,$5);}
+d1006 2
+a1007 2
+	: T_ID				{ $$ = mkid($1);		}
+	| field_ref T_O_PERIOD T_ID	{ $$ = x_field_ref($1, $3);	}
+d1087 1
+a1087 711
+static
+Token     t__NIL = { T__NIL, NULL };	/* The T__NIL token		*/
+
+/**
+ *	Support functions
+ */
+
+/*	Functions requiring "forward" definitions. 
+ */
+static
+Node_id   eol		PROTOARGS((Node_id));
+static
+Node_id   mkid		PROTOARGS((Token));
+static
+void      y_setdiv	PROTOARGS((int));
+
+
+/**
+ *	Add node to list.
+ */
+static
+Node_id
+adl_n(list, node)					/* Function	*/
+  Node_id   list;
+  Node_id   node;
+{
+  rs(eol(list), T__PRECEDES, node);	/* Add node to end of list	*/
+  return list;
+} /* adl_n */
+
+/**
+ *	Add token to list.
+ */
+static
+Node_id
+adl_t(list, token)					/* Function	*/
+  Node_id   list;
+  Token     token;
+{
+  Node_id   n = mkid(token);
+  adl_n(list, n);			/* Add node to end of list	*/
+  return list;				/* Return head of list		*/
+} /* adl_t */
+
+/**
+ *	Find end of T__PRECEDES chain on list.
+ */
+static
+Node_id
+eol(list)						/* Function	*/
+  Node_id   list;
+{
+  Node_id   e;
+  while (list = rnn(e = list, T__PRECEDES, 0))
+    ; /* Skip to end of list */
+  return e;
+} /* eol */
+
+static
+Node_id
+filter_data_type(id)					/* Function	*/
+{
+/* A size defaults to 65535	this is the default type
+ * D size defaults to 18 digits
+ * I size defaults to 16 bytes
+ * P size defaults to 18 digits
+ * X means redefine flag
+ */
+} /* filter_data_type */
+
+/**
+ *	Make command/parameter linkage.
+ */
+static
+Node_id
+mkcp(token, param)					/* Function	*/
+  Token     token;
+  Node_id   param;
+{
+  Node_id   n;
+  ns(n = nn(), token.token_id, token.token_value);
+  if (param)				/* Add parameters if they exist	*/
+    rs(n, T__FIRST, param);
+  return n;
+} /* mkcp */
+
+/**
+ *	Make identifier node.
+ */
+static
+Node_id
+mkid(token)						/* Function	*/
+  Token     token;
+{
+  Node_id   n;
+  ns(n = nn(), token.token_id, token.token_value);
+  return n;
+} /* mkid */
+
+/**
+ *	Make a keyword:value node.
+ */
+static
+Node_id
+mkkwv(token, value)					/* Function	*/
+  Token     token;
+  Node_id   value;
+{
+  Node_id   n = mkid(token);		/* Create token node		*/
+  rs(n, T__EXPR, value);		/* Add expression relation	*/
+  return n;
+} /* mkkwv */
+
+/**
+ *	Make a keyword:value-value node or
+ *	       keyword:value,value node or
+ *	       keyword:value:value node
+ */
+static
+Node_id
+mkkwvv(token, valu1, tothru, valu2)			/* Function	*/
+  Token     token;
+  Node_id   valu1;
+  Token     tothru;
+  Node_id   valu2;
+{
+  Node_id   n = mkid(token), m = mkid(tothru);
+  rs(n, T__EXPR, valu1);
+  rs(n, tothru.token_id, m);
+  rs(m, T__EXPR, valu2);
+  return n;
+} /* mkkwvv */
+
+/**
+ *
+ */
+static
+Node_id
+x_assignment(ref, equal, expr, fmt)			/* Function	*/
+  Node_id   ref;
+  Token     equal;
+  Node_id   expr;
+  Node_id   fmt;
+{
+  Node_id   n = mkid(equal), op = mkid(equal);
+  rs(n, T__LEFT, ref);			/* lvalue			*/
+  rs(n, T__OPERATOR, op);		/* operator			*/
+  if (expr)
+    rs(n, T__RIGHT, expr);		/* rvalue			*/
+  if (fmt)
+    rs(n, T_O_COMMA, fmt);		/* save formatting info		*/
+  return n;
+} /* x_assignment */
+
+static
+Node_id
+x_builtin_def_args(tok, list)				/* Function	*/
+  Token     tok;
+  Node_id   list;
+{
+  Node_id   n = mkid(tok);
+
+  y_setdiv(DIV_DAT);			/* In data division		*/
+  if (list)
+    rs(n, T_O_LPAREN, list);
+  return n;
+} /* x_builtin_def_args */
+
+static
+Node_id
+x_common_def_header(class, kw, rname, redef, nosuffix)	/* Function	*/
+  Token     class;
+  Token     kw;
+  Node_id   rname;
+  Node_id   redef;
+  Token     nosuffix;
+
+{
+  Node_id   n = mkid(kw);		/* Create T_COMMON record	*/
+
+  if (class.token_id != T__NIL)
+    rs(n, T__CLASS, mkid(class));	/* (Optional) storage class	*/
+  if (rname)
+    rs(n, T_ID, rname);			/* (Optional) record name	*/
+  if (redef)
+    rs(n, T_O_COMMA, redef);		/* (Optional) redefinition	*/
+  if (nosuffix.token_id != T__NIL)
+    rs(n, T_NOSUFFIX, mkid(nosuffix));	/* (Optional) no suffix		*/
+
+  y_setdiv(DIV_DAT);			/* In data division		*/
+
+  return n;
+} /* x_common_def_header */
+
+static
+Node_id
+x_display(chan, items)					/* Function	*/
+  Node_id   chan;
+  Node_id   items;
+{
+  Node_id   n;
+  ns(n = nn(), T_DISPLAY, "x_display");
+  rs(n, T_O_LPAREN, chan);		/* Channel number		*/
+  rs(n, T__FIRST, items);		/* Items to display		*/
+  return n;
+} /* x_display */
+
+static
+Node_id
+x_display_item(ref, vidattr)				/* Function	*/
+  Node_id   ref;
+  Node_id   vidattr;
+{
+  if (vidattr)				/* If video attributes, save	*/
+    rs(ref, T_O_LESS, vidattr);
+  return ref;
+} /* x_display_item */
+
+static
+Node_id
+x_do_until(x,y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000005;
+} /* x_do_until */
+
+static
+Node_id
+x_expr_op_expr(left, op, right)				/* Function	*/
+  Node_id   left;
+  Token     op;
+  Node_id   right;
+{
+  Node_id   n;
+  ns(n = nn(), op.token_id, op.token_value);
+  rs(n, T__LEFT, left);
+  rs(n, T__RIGHT, right);
+  return n;
+} /* x_expr_op_expr */
+
+static
+Node_id
+x_field(label, type, size, defaults)			/* Function	*/
+  Node_id   label;
+  Node_id   type;
+  Node_id   size;
+  Node_id   defaults;
+{
+  Node_id   n;
+  ns(n = nn(), T__FIELD, "x_field");
+  if (label)				/* Optional label		*/
+    rs(n, T_LABEL, label);
+  rs(n, T__TYPE, type);			/* Data type			*/
+  if (size)				/* Optional size		*/
+    rs(n, T__EXPR, size);
+  if (defaults)				/* Optional default values	*/
+    rs(n, T__FIRST, defaults);
+  return n;
+} /* x_field */
+
+static
+Node_id
+x_field_ref(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000006;
+} /* x_field_ref */
+
+static
+Node_id
+x_field_type(array, type)				/* Function	*/
+  Node_id   array;
+  Node_id   type;
+{
+  Node_id   n;
+  ns(n = nn(), T__TYPE, "x_field_type");
+  if (array)				/* Optional array		*/
+    rs(n, T_O_LBRACK, array);
+  rs(n, T__TYPE, type);			/* Save type of field		*/
+  return n;
+} /* x_field_type */
+
+static
+Node_id
+x_find(y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000007;
+} /* x_find */
+
+static
+Node_id
+x_find_indexed(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000008;
+} /* x_find_indexed */
+
+static
+Node_id
+x_find_option_expr(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000009;
+} /* x_find_option_expr */
+
+static
+Node_id
+x_for(t,u,v,w,x,y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000010;
+} /* x_for */
+
+static
+Node_id
+x_forms(y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000011;
+} /* x_forms */
+
+static
+Node_id
+x_func_def_header(class, func, name, type)		/* Function	*/
+  Token     class;
+  Token     func;
+  Token     name;
+  Node_id   type;
+{
+  Node_id   n = mkid(func);		/* Create T_FUNCTION node	*/
+
+  if (class.token_id != T__NIL)
+    rs(n, T__CLASS, mkid(class));	/* (Optional) storage class	*/
+  rs(n, T_ID, mkid(name));		/* Function name		*/
+  if (type)
+    rs(n, T__TYPE, type);		/* (Optional) return type	*/
+
+  y_setdiv(DIV_DAT);			/* In data division		*/
+
+  return n;
+} /* x_func_def_header */
+
+static
+Node_id
+x_goto(y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000013;
+} /* x_goto */
+
+static
+Node_id
+x_group_definition(x,y,z)				/* Function	*/
+{
+  Node_id   n;
+  return 10000014;
+} /* x_group_definition */
+
+static
+Node_id
+x_if(y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000015;
+} /* x_if */
+
+static
+Node_id
+x_if_then_else(v,w,x,y,z)				/* Function	*/
+{
+  Node_id   n;
+  return 10000016;
+} /* x_if_then_else */
+
+static
+Node_id
+x_lit_def_header(class, lit, name, redef)		/* Function	*/
+  Token     class;
+  Token     lit;
+  Node_id   name;
+  Node_id   redef;
+{
+  Node_id   n = mkid(lit);		/* Create T_LITERAL node	*/
+  if (class.token_id != T__NIL)
+    rs(n, T__CLASS, mkid(class));	/* (Optional) storage class	*/
+  if (name)
+    rs(n, T_ID, name);			/* (Optional) name		*/
+  if (redef)
+    rs(n, T_O_COMMA, redef);		/* (Optional) redefinition	*/
+
+  y_setdiv(DIV_DAT);			/* In data division		*/
+
+  return n;
+} /* x_lit_def_header */
+
+static
+Node_id
+x_lpque(y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000018;
+} /* x_lpque */
+
+static
+Node_id
+x_op_expr(op, right)					/* Function	*/
+  Token     op;
+  Node_id   right;
+{
+  Node_id   n = nn();
+  ns(n, op.token_id, op.token_value);
+  rs(n, T__RIGHT, right);
+  return n;
+} /* x_op_expr */
+
+static
+Node_id
+x_open(y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000019;
+} /* x_open */
+
+static
+Node_id
+x_open_mode(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000020;
+} /* x_open_mode */
+
+static
+Node_id
+x_open_options(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000021;
+} /* x_open_options */
+
+static
+Node_id
+x_proc_div_proc(proc, buffers)				/* Function	*/
+  Token     proc;
+  Node_id   buffers;
+{
+  Node_id   n = mkid(proc);
+  y_setdiv(DIV_PRC);			/* In procedure division	*/
+  if (buffers)
+    rs(n, T_O_LPAREN, buffers);
+  return n;
+} /* x_proc_div_proc */
+
+static
+Node_id
+x_proc_div_stmt(pdiv, label, stmt)			/* Function	*/
+  Node_id   pdiv;
+  Node_id   label;
+  Node_id   stmt;
+{
+  Node_id   n;
+  if (label)
+    rs(pdiv, T_LABEL, label);		/* Add label (if any)		*/
+  adl_n(pdiv, stmt);			/* Add to stmt end of list	*/
+  return pdiv;
+} /* x_proc_div_stmt */
+
+static
+Node_id
+x_read(x,y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000026;
+} /* x_read */
+
+static
+Node_id
+x_read_options(t1, t2, n1)				/* Function	*/
+  int       t1;
+  int       t2;
+  Node_id   n1;
+{
+  Node_id   n = nn();
+  ns(n, t1, NULL);
+  rs(n, t2, n1); 
+  return n;
+} /* x_read_options */
+
+static
+Node_id
+x_reads_options(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000027;
+} /* x_reads_options */
+
+static
+Node_id
+x_reads(x,y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000028;
+} /* x_reads */
+
+static
+Node_id
+x_record_def_header(record, name, redef)		/* Function	*/
+  Token     record;
+  Node_id   name;
+  Node_id   redef;
+{
+  Node_id   n;
+  y_setdiv(DIV_DAT);			/* We're in the data division	*/
+  ns(n = nn(), T_RECORD, "x_record_def_header");
+  if (name)				/* Optional name		*/
+    rs(n, T_ID, name);
+  if (redef)				/* Optional redefines		*/
+    rs(n, T_O_COMMA, redef);
+  return n;
+} /* x_record_def_header */
+
+static
+Node_id
+x_recv(x,y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000030;
+} /* x_recv */
+
+/**
+ *	Build a reference.
+ *	Note: T_O_LBRACK for ref_array
+ *	      T_O_LPAREN for ref_pos
+ */
+static
+Node_id
+x_ref(ref, array, pos)					/* Function	*/
+  Node_id   ref;
+  Node_id   array;
+  Node_id   pos;
+{
+  if (array)				/* If array subscripted		*/
+    rs(ref, T_O_LBRACK, array);
+  if (pos)				/* If substring position	*/
+    rs(ref, T_O_LPAREN, pos);
+  return ref;
+} /* x_ref */
+
+static
+Node_id
+x_send(x,y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000031;
+} /* x_send */
+
+static
+Node_id
+x_stop_type_at(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000032;
+} /* x_stop_type_at */
+
+static
+Node_id
+x_store(y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000033;
+} /* x_store */
+
+static
+Node_id
+x_sub_decl(subfunc, id, type)				/* Function	*/
+  Token     subfunc;
+  Token     id;
+  Node_id   type;
+{
+  Node_id   n;
+  ns(n = nn(), subfunc.token_id, id.token_value);
+  if (type)
+    rs(n, T__TYPE, type);
+  return n;
+} /* x_sub_decl */
+
+static
+Node_id
+x_subroutine_division(sub, param)			/* Function	*/
+  Node_id   sub;
+  Node_id   param;
+{
+  Node_id   n;
+  if ( !(n = rnn(sub, T__PARAMETER, 0)))/* Get first parameter list	*/
+    {
+      ns(n = nn(), T__FIRST, "x_subroutine_division");
+      rs(sub, T__PARAMETER, n);		/* Add 1st parameter to sub	*/
+    }
+  adl_n(n, param);			/* Add parameter to end of list	*/
+  return sub;
+} /* x_subroutine_division */
+
+static
+Node_id
+x_tree_program(subr, program)				/* Function	*/
+  Node_id   subr;
+  Node_id   program;
+{
+  Node_id   n;
+  ns(n = nn(), T__MAIN, "x_tree_program");
+  if (subr)
+    rs(n, T__TYPE, subr);		/* Function/Subroutine decl	*/
+  rs(n, T__FIRST, program);		/* Data/Code body		*/
+  return n;
+} /* x_tree_program */
+
+static
+Node_id
+x_using_select(w,v,x,y,z)				/* Function	*/
+{
+  Node_id   n;
+  return 10000035;
+} /* x_using_select */
+
+static
+Node_id
+x_using_selector(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000036;
+} /* x_using_selector */
+
+static
+Node_id
+x_while(expr, stmt)					/* Function	*/
+  Node_id   expr;
+  Node_id   stmt;
+{
+  Node_id   n;
+  ns(n = nn(), T_WHILE, "x_while");
+  rs(n, T__EXPR, expr);
+  rs(n, T_DO,   stmt);
+  return n;
+} /* x_while */
+
+static
+Node_id
+x_write(x,y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000038;
+} /* x_write */
+
+static
+Node_id
+x_write_option_rfa(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000039;
+} /* x_write_option_rfa */
+
+static
+Node_id
+x_writes(y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000040;
+} /* x_writes */
+
+static
+Node_id
+x_xcall(y,z)						/* Function	*/
+{
+  Node_id   n;
+  return 10000041;
+} /* x_xcall */
+
+static
+void
+y_setdiv(div)						/* Function	*/
+  int       div;
+{
+  assert("xy", DIV_NONE, DIV_SUB, DIV_NONE < DIV_SUB);
+  assert("xy", DIV_SUB , DIV_DAT, DIV_SUB  < DIV_DAT);
+  assert("xy", DIV_DAT , DIV_PRC, DIV_DAT  < DIV_PRC);
+
+/**/printf("y_setdiv(%d) _parse.div=%d\n", div, _parse.div);
+/***/
+  switch ( div )
+    {
+      case DIV_NONE:
+	break;
+      case DIV_SUB:
+        if ( _parse.div >  DIV_SUB )
+	  c_error("already advanced past the subroutine division");
+	break;
+      case DIV_DAT:
+        if ( _parse.div >  DIV_DAT )
+	  c_error("already advanced past the data division");
+	break;
+      case DIV_PRC:
+        if      ( _parse.div > DIV_PRC )
+	  c_error("already advanced past the procedure division");
+	else if ( _parse.div == DIV_PRC )
+	  c_error("already have a PROC division");
+	break;
+      default:
+        c_error("invalid value for _parse.div=%d", _parse.div);
+    }
+  _parse.div = div;
+} /* y_setdiv */
+@
+
+
+1.9
+log
+@15-Dec-1994 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/gram.g,v 1.8 1994/12/04 07:22:24 ldl Exp ldl $
+d20 2
+d103 1
+d109 1
+d261 2
+a262 3
+	:				{ _parse.div = DIV_NONE;	}
+	  opt.subroutine_division	{ _parse.div = DIV_SUB;		}
+	  program			{ _parse.tree= x_tree_program($2,$4);}
+d271 2
+a272 2
+	: data_division			{ $$ = $1; _parse.div = DIV_DAT;}
+	| procedure_division		{ $$ = $1; _parse.div = DIV_PRC;}
+d1094 10
+d1107 1
+d1120 1
+d1134 1
+d1145 1
+a1145 1
+
+d1160 1
+d1176 1
+d1189 1
+d1205 1
+d1223 1
+d1241 1
+d1243 3
+a1245 1
+x_builtin_def_args(x, y)				/* Function	*/
+d1247 6
+a1252 2
+  Node_id   n;
+  return 10000002;
+d1255 1
+d1257 7
+a1263 1
+x_common_def_header(v,w,x,y,z)				/* Function	*/
+d1265 14
+a1278 2
+  Node_id   n;
+  return 10000003;
+d1281 1
+d1294 1
+d1305 1
+d1313 1
+d1327 1
+d1347 1
+d1355 1
+d1369 1
+d1377 1
+d1385 1
+d1393 1
+d1401 1
+d1409 1
+d1411 5
+a1415 1
+x_func_def_header(w,x,y,z)				/* Function	*/
+d1417 11
+a1427 2
+  Node_id   n;
+  return 10000012;
+d1430 1
+d1438 1
+d1446 1
+d1454 1
+d1462 1
+d1464 5
+a1468 1
+x_lit_def_header(w,x,y,z)				/* Function	*/
+d1470 11
+a1480 2
+  Node_id   n;
+  return 10000017;
+d1483 1
+d1491 1
+d1503 1
+d1511 1
+d1519 1
+d1527 1
+d1534 1
+d1540 1
+d1554 1
+d1562 1
+d1575 1
+d1583 1
+d1591 1
+d1599 1
+d1608 1
+d1621 1
+d1635 1
+d1643 1
+d1651 1
+d1659 1
+d1673 1
+d1689 1
+d1703 1
+d1711 1
+d1719 1
+d1732 1
+d1740 1
+d1748 1
+d1756 1
+d1763 35
+@
+
+
+1.8
+log
+@03-Dec-94 Checkpoint
+@
+text
+@d3 2
+a4 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/RCS/gram.g,v $
+ * $Header: /home/ldl/dbl/RCS/gram.g,v 1.7 1994/12/02 07:12:51 ldl Exp ldl $
+d36 1
+d105 1
+a105 1
+		  T__LABEL
+d264 1
+a264 1
+	| program division		{ x_program_division($$ = $1, $2);}
+d280 1
+a280 1
+	: subroutine_declaration	{ printf("sub_dec=%d\n", $$ = $1);}
+d437 1
+a437 1
+	: T_ID T_O_COMMA		{ $$ = mkid($1);		}
+d469 1
+a469 1
+	| procedure_division T_END	{ $$ = x_proc_div_end($1, $2);	}
+d528 1
+a528 1
+	: ref T_O_EQUAL			{ $$ = x_assignment_clear($1);	}
+d530 1
+a530 1
+					{ $$ = x_assignment($1, $3, $4);}
+d584 1
+a584 1
+					{ $$ = x_display($1, $4);	}
+d903 1
+d1019 1
+a1019 1
+	: T_ID T_O_COMMA		{ $$ = mkid($1);		}
+d1111 1
+a1111 2
+  Node_id   n;
+  ns(n = nn(), token.token_id, token.token_value);
+a1201 2
+	| ref T_O_EQUAL expr opt.assignment_format
+					{ $$ = x_assignment($1, $3, $4);}
+d1204 14
+a1217 4
+x_assignment(x,y,z)				/* Function	*/
+{
+  Node_id   n;
+  return 10000000;
+a1219 10
+/**
+	: ref T_O_EQUAL			{ $$ = x_assignment_clear($1);	}
+ */
+Node_id
+x_assignment_clear(x)					/* Function	*/
+{
+  Node_id   n;
+  return 10000001;
+} /* x_assignment_clear */
+
+d1251 2
+a1252 1
+  rs(ref, T_O_LESS, vidattr);
+d1286 1
+a1286 1
+    rs(n, T__LABEL, label);
+d1432 8
+a1439 11
+x_proc_div_end(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000022;
+} /* x_proc_div_end */
+
+Node_id
+x_proc_div_proc(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000023;
+d1443 4
+a1446 1
+x_proc_div_stmt(x,y,z)					/* Function	*/
+d1449 4
+a1452 1
+  return 10000024;
+a1455 7
+x_program_division(y,z)					/* Function	*/
+{
+  Node_id   n;
+  return 10000025;
+} /* x_program_division */
+
+Node_id
+d1524 1
+a1524 1
+    rs(ref, T_O_LPAREN, ref);
+a1561 1
+
+d1568 6
+a1573 4
+  if ( n = rnn(sub, T__PARAMETER, 0) )	/* Get first parameter list	*/
+    adl_n(n, param);			/* Add parameter to end of list	*/
+  else
+    rs(sub, T__PARAMETER, param);	/* Add 1st parameter to sub	*/
+d1582 6
+a1587 1
+  return 10000034;
+d1605 3
+a1607 1
+x_while(y,z)						/* Function	*/
+d1610 4
+a1613 1
+  return 10000037;
+d1645 1
+a1645 1
+/* End of $Source: /home/ldl/dbl/RCS/gram.g,v $ */
+@
+
+
+1.7
+log
+@01-Dec-94 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/gram.g,v 1.6 1994/12/01 07:06:01 ldl Exp ldl $
+d103 3
+a144 1
+		field_size
+d180 1
+d279 1
+a279 1
+	: subroutine_declaration
+d282 2
+d410 1
+a410 1
+	: field_label field_type field_size opt.field_defaults
+d421 1
+a421 4
+	: 				{ _parse.datatype = 1;		}
+	  T_ID				{ _parse.datatype = 0;
+					  $$ = filter_data_type($2);
+					}
+a439 5
+field_size
+	: T_NUMBER			{ $$ = mkid($1);		}
+	| T_O_MUL			{ $$ = nnstrdup("*");		}
+	;
+
+d457 5
+d1208 1
+d1218 1
+d1225 1
+d1232 1
+d1236 3
+a1238 1
+x_display(x,y)						/* Function	*/
+d1241 4
+d1260 1
+d1277 5
+a1281 1
+x_field(w,x,y,z)					/* Function	*/
+d1284 9
+d1299 1
+d1303 3
+a1305 1
+x_field_type(y,z)					/* Function	*/
+d1308 5
+d1319 1
+d1326 1
+d1333 1
+d1340 1
+d1347 1
+d1354 1
+d1361 1
+d1368 1
+d1375 1
+d1382 1
+d1389 1
+d1396 1
+d1414 1
+d1421 1
+d1428 1
+d1435 1
+d1442 1
+d1449 1
+d1456 1
+d1463 1
+d1482 1
+d1489 1
+d1493 4
+a1496 1
+x_record_def_header(x,y,z)				/* Function	*/
+d1499 6
+d1511 1
+d1536 1
+d1543 1
+d1550 1
+d1563 1
+d1568 3
+a1570 1
+x_subroutine_division(y,z)				/* Function	*/
+d1573 5
+d1585 1
+d1592 1
+d1599 1
+d1606 1
+d1613 1
+d1620 1
+d1627 1
+d1634 1
+@
+
+
+1.6
+log
+@30-Nov-94 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/gram.g,v 1.5 1994/11/28 05:26:51 ldl Exp ldl $
+d27 2
+a28 1
+    Node_id   node_id;			/* Everything is a "node" index	*/
+d32 1
+a32 1
+%token <node_id>
+d100 3
+a102 3
+		  T__FIRST
+		  T__LAST
+		  T__PRECEDES
+d104 1
+d108 4
+d166 1
+a174 1
+		opt.common_no_suffix
+a190 1
+		opt.storage_class
+d200 1
+d259 2
+a260 2
+	: division			{ $$ = x_division($1);		}
+	| program division		{ $$ = x_program_division($1,$2);}
+d282 1
+a282 1
+	: T_SUBROUTINE T_ID		{ $$ = x_sub_decl_subr($1,$2);	}
+d284 1
+a284 1
+					{ $$ = x_sub_decl_func($1,$2,$3);}
+d288 1
+a288 1
+	: T_O_COMMA T_ID		{ $$ = $2;			}
+d310 1
+a310 1
+	: T_ID				{ $$ = x_builtin_arg_list_id($1); }
+d312 1
+a312 1
+					{ $$ = x_builtin_arg_list($1,$2,$3);}
+d318 1
+a318 1
+	| common_definition field	{ $$ = x_common_def_field($1, $2);}
+d320 1
+a320 1
+					{ $$ = x_common_def_group($1, $2);}
+d335 1
+a335 1
+	| /* empty */			{ $$ = NIL;			}
+d340 1
+a340 1
+	| /* empty */			{ $$ = NIL;			}
+d346 1
+a346 1
+	| function_definition field	{ $$ = x_func_def_field($1, $2);}
+d348 1
+a348 1
+					{ $$ = x_func_def_group($1, $2);}
+d359 1
+a359 1
+	| literal_definition field	{ $$ = x_lit_def_field($1,$2);	}
+d361 1
+a361 1
+					{ $$ = x_lit_def_group($1,$2);	}
+d373 1
+a373 1
+	| record_definition field	{ $$=x_record_def_field($1, $2);}
+d375 1
+a375 1
+					{ $$=x_record_def_group($1, $2);}
+d384 1
+a384 1
+	: T_ID
+d390 1
+a390 1
+	: T_O_COMMA T_ID		{ $$ = $2;			}
+d401 1
+a401 1
+	| group_fields field		{ $$ = x_group_fields($1, $2);	}
+d410 1
+a410 1
+	: T_NUMBER
+d412 1
+a412 1
+					{ $$ = x_fld_arr_sub($1, $3);	}
+d423 2
+a424 2
+	: T_STRING
+	| T_NUMBER
+d430 1
+a430 1
+					{ $$ = x_field_defaults($1, $3);}
+d434 1
+a434 1
+	: T_ID T_O_COMMA
+d439 1
+a439 1
+	: T_NUMBER
+d451 1
+a451 1
+	| T_NUMBER
+d471 2
+a472 2
+					{ $$ = $2;			}
+	| /* empty */
+d477 45
+a521 45
+	: assignment			{ $$ = x_stmt($1,NIL);		}
+	| T_ACCEPT accept 		{ $$ = x_stmt($1, $2);		}
+	| T_BEGIN begin_end		{ $$ = x_stmt($1, $2);		}
+	| T_CALL call			{ $$ = x_stmt($1, $2);		}
+	| T_CLEAR clear			{ $$ = x_stmt($1, $2);		}
+	| T_CLOSE close			{ $$ = x_stmt($1, $2);		}
+	| T_DECR decr			{ $$ = x_stmt($1, $2);		}
+	| T_DELETE delete		{ $$ = x_stmt($1, $2);		}
+	| T_DETACH			{ $$ = x_stmt($1,NIL);		}
+	| T_DISPLAY display		{ $$ = x_stmt($1, $2);		}
+	| T_DO do_until			{ $$ = x_stmt($1, $2);		}
+	| T_EXIT exit			{ $$ = x_stmt($1, $2);		}
+	| T_EXITLOOP			{ $$ = x_stmt($1,NIL);		}
+	| T_FIND find			{ $$ = x_stmt($1, $2);		}
+	| T_FLUSH flush			{ $$ = x_stmt($1, $2);		}
+	| T_FOR for			{ $$ = x_stmt($1, $2);		}
+	| T_FORMS forms			{ $$ = x_stmt($1, $2);		}
+	| T_FRETURN freturn		{ $$ = x_stmt($1, $2);		}
+	| T_GOTO goto			{ $$ = x_stmt($1, $2);		}
+	| T_IF if_or_if_then_else	{ $$ = x_stmt($1, $2);		}
+	| T_INCR incr			{ $$ = x_stmt($1, $2);		}
+	| T_LOCASE locase		{ $$ = x_stmt($1, $2);		}
+	| T_LPQUE lpque			{ $$ = x_stmt($1, $2);		}
+	| T_NEXTLOOP			{ $$ = x_stmt($1,NIL);		}
+	| T_NOP				{ $$ = x_stmt($1,NIL);		}
+	| T_OFFERROR			{ $$ = x_stmt($1,NIL);		}
+	| T_ONERROR onerror		{ $$ = x_stmt($1, $2);		}
+	| T_OPEN open			{ $$ = x_stmt($1, $2);		}
+	| T_READ read			{ $$ = x_stmt($1, $2);		}
+	| T_READS reads			{ $$ = x_stmt($1, $2);		}
+	| T_RECV recv			{ $$ = x_stmt($1, $2);		}
+	| T_REPEAT repeat		{ $$ = x_stmt($1, $2);		}
+	| T_RETURN			{ $$ = x_stmt($1,NIL);		}
+	| T_SEND send			{ $$ = x_stmt($1, $2);		}
+	| T_SLEEP sleep			{ $$ = x_stmt($1, $2);		}
+	| T_STOP stop			{ $$ = x_stmt($1, $2);		}
+	| T_STORE store			{ $$ = x_stmt($1, $2);		}
+	| T_UNLOCK unlock		{ $$ = x_stmt($1, $2);		}
+	| T_UPCASE upcase		{ $$ = x_stmt($1, $2);		}
+	| T_USING using_select_or_range	{ $$ = x_stmt($1, $2);		}
+	| T_WHILE while			{ $$ = x_stmt($1, $2);		}
+	| T_WRITE write			{ $$ = x_stmt($1, $2);		}
+	| T_WRITES writes		{ $$ = x_stmt($1, $2);		}
+	| T_XCALL xcall			{ $$ = x_stmt($1, $2);		}
+	| T_XRETURN			{ $$ = x_stmt($1,NIL);		}
+d542 2
+a543 2
+	| accept_args T_O_COMMA T_ID	{ $$ = x_accept_args($1,$2,$3);	}
+	| accept_args T_O_COLON expr	{ $$ = x_accept_args($1,$2,$3);	}
+d547 1
+a547 1
+	: begin_end_stmts T_END		{ $$ = x_begin_end($1, $2);	}
+d552 1
+a552 1
+	| begin_end_stmts stmt		{ $$ = x_begin_end_stmts($1,$2);}
+d556 1
+a556 1
+	: T_ID /* label */
+d561 1
+a561 1
+	| clear T_O_COMMA ref		{ $$ = x_clear($1, $3);		}
+d566 1
+a566 1
+	| close T_O_COMMA io_channel	{ $$ = x_close($1, $3);		}
+d584 4
+d591 1
+a591 5
+					{ $$ = x_display_items($1, $3);	}
+	;
+
+display_item
+	: ref video_attrs		{ $$ = x_display_item($1, $2);	}
+d604 1
+a604 1
+	: T_ID
+d636 1
+a636 1
+	: T_BY expr			{ $$ = x_for_by($1, $2);	}
+d650 1
+a650 1
+	: T_ID
+d656 2
+a657 2
+	: T_ID
+	| goto_labels T_O_COMMA T_ID	{ $$ = x_goto_labels($1, $3);	}
+d684 14
+a702 8
+lpque_option_list
+	: T_LPNUM  T_O_COLON expr	{ $$ = x_lpque_opt_list($1,$3);	}
+	| T_COPIES T_O_COLON expr	{ $$ = x_lpque_opt_list($1,$3);	}
+	| T_FORM   T_O_COLON expr	{ $$ = x_lpque_opt_list($1,$3);	}
+	| T_DELETE T_O_COLON expr	{ $$ = x_lpque_opt_list($1,$3);	}
+	| T_ALIGN			{ $$ = x_lpque_opt_list($1,NIL);}
+	;
+
+d704 1
+a704 1
+	: T_ID
+d712 11
+a722 11
+	: T_ALLOC   T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_BKTSIZ  T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_BLKSIZ  T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_BUFNUM  T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_BUFSIZ  T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_RECSIZ  T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_CONTIG  T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_DEQ     T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_PROTECT T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_RECTYPE T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_SHARE   T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+d724 3
+a726 3
+					{ $$ = x_open_attr($1, $4);	}
+	| T_FDL     T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+	| T_NUMREC  T_O_COLON expr	{ $$ = x_open_attr($1, $3);	}
+d732 1
+a732 1
+					{ $$ = x_open_attrs($1, $3);	}
+d749 9
+d759 3
+a761 5
+	: expr				{ $$ = x_read_options($1,NIL,NIL);}
+	| T_KEYNUM T_O_COLON expr	{ $$ = x_read_options($1,$2,$3);}
+	| T_MATCH  T_O_COLON expr	{ $$ = x_read_options($1,$2,$3);}
+	| T_RFA    T_O_COLON expr	{ $$ = x_read_options($1,$2,$3);}
+	| T_WAIT opt.wait_seconds	{ $$ = x_read_options($1,$2,NIL);}
+d763 1
+a763 1
+ 
+d780 2
+a781 2
+	: T_ID
+	| T_WAIT opt.wait_seconds	{ $$=x_reads_option_wait($1,$2);}
+d787 1
+a787 1
+					{ $$ = x_reads_options($1, $3);	}
+d853 16
+a868 16
+	: expr				{ $$ = x_using(NIL, $1);	}
+	| expr T_THRU expr		{ $$ = x_using_thru($1,$2,$3);	}
+	| T_O_LE expr			{ $$ = x_using($1, $2);		}
+	| T_O_LEU expr			{ $$ = x_using($1, $2);		}
+	| T_O_LES expr			{ $$ = x_using($1, $2);		}
+	| T_O_LT expr			{ $$ = x_using($1, $2);		}
+	| T_O_LTU expr			{ $$ = x_using($1, $2);		}
+	| T_O_LTS expr			{ $$ = x_using($1, $2);		}
+	| T_O_GE expr			{ $$ = x_using($1, $2);		}
+	| T_O_GEU expr			{ $$ = x_using($1, $2);		}
+	| T_O_GES expr			{ $$ = x_using($1, $2);		}
+	| T_O_GT expr			{ $$ = x_using($1, $2);		}
+	| T_O_GTU expr			{ $$ = x_using($1, $2);		}
+	| T_O_GTS expr			{ $$ = x_using($1, $2);		}
+	| T_O_EQS expr			{ $$ = x_using($1, $2);		}
+	| T_O_EQU expr			{ $$ = x_using($1, $2);		}
+d874 1
+a874 1
+					{ $$ = x_using_exprs($1, $3);	}
+d890 1
+a890 1
+					{ $$=x_using_selectors($1, $2);	}
+d894 1
+a894 1
+	: T_RANGE expr T_THRU expr	{ $$=x_using_range($1,$2,$3,$4);}
+d915 1
+a915 1
+					{ $$ = x_write_options($1, $3);	}
+d939 1
+a939 1
+					{ $$ = x_xcall_parameters($1,$3);}
+d944 1
+a944 1
+					{ $$ = $2			}
+d959 1
+a959 1
+	| T_NUMBER
+d999 1
+a999 1
+	: T_ID
+d1011 1
+a1011 1
+					{ $$ = x_ref_arr_subs($1, $3);	}
+d1015 1
+a1015 1
+	: T_ID T_O_COMMA
+d1025 1
+a1025 1
+/* This is hokey - needs real code */
+d1027 1
+a1027 1
+	: T_O_LPAREN expr T_O_RPAREN	{ $$ = x_ref_pos_sub($2);	}
+d1029 1
+a1029 1
+					{ $$ = x_ref_pos_start_stop($2,$4);}
+d1031 1
+a1031 1
+					{ $$ = x_ref_pos_start_len($2,$4);}
+d1038 2
+a1039 2
+	: T_ID
+	| T_NUMBER
+d1043 3
+a1045 3
+	: T_KEYNUM T_O_COLON expr	{ $$ = x_io_indexed($1, $3);	}
+	| T_MATCH  T_O_COLON expr	{ $$ = x_io_indexed($1, $3);	}
+	| T_WAIT   T_O_COLON expr	{ $$ = x_io_indexed($1, $3);	}
+d1057 1
+a1057 1
+					{ $$ = x_video_attr_list($1, $3);}
+d1061 6
+a1066 6
+	: T_DEFAULT T_O_COLON expr	{ $$ = x_video_attr($1, $3,NIL);}
+	| T_EDIT    T_O_COLON expr	{ $$ = x_video_attr($1, $3,NIL);}
+	| T_ERASE   T_O_COLON expr	{ $$ = x_video_attr($1, $3,NIL);}
+	| T_FLAGS   T_O_COLON expr	{ $$ = x_video_attr($1, $3,NIL);}
+	| T_FORMAT  T_O_COLON expr	{ $$ = x_video_attr($1, $3,NIL);}
+	| T_OFFSET  T_O_COLON expr	{ $$ = x_video_attr($1, $3,NIL);}
+d1068 3
+a1070 3
+					{ $$ = x_video_attr($1, $4, $6);}
+	| T_PROMPT  T_O_COLON expr	{ $$ = x_video_attr($1, $3,NIL);}
+	| T_VIDEO   T_O_COLON expr	{ $$ = x_video_attr($1, $3,NIL);}
+d1080 3
+d1087 40
+d1139 1
+a1139 3
+ *
+	* accept_args T_O_COMMA T_ID	{ $$ = x_accept_args($1,$2,$3);	}
+	* accept_args T_O_COLON expr	{ $$ = x_accept_args($1,$2,$3);	}
+d1142 10
+a1151 3
+x_accept_args($1, $2, $3)				/* Function	*/
+{
+} /* x_accept_args */
+d1154 1
+a1154 3
+ *
+	| ref T_O_EQUAL expr opt.assignment_format
+					{ $$ = x_assignment($1, $3, $4);}
+d1157 2
+a1158 1
+x_assignment($1, $3, $4)				/* Function	*/
+d1160 4
+a1163 1
+} /* x_assignment */
+d1166 1
+a1166 1
+	: ref T_O_EQUAL			{ $$ = x_assignment_clear($1);	}
+d1169 3
+a1171 1
+x_assignment_clear($1)					/* Function	*/
+d1173 4
+a1176 1
+} /* x_assignment_clear */
+d1179 3
+a1181 1
+	: begin_end_stmts T_END		{ $$ = x_begin_end($1, $2);	}
+d1184 12
+a1195 3
+x_begin_end($1, $2)					/* Function	*/
+{
+} /* x_begin_end */
+d1198 3
+a1200 1
+	| begin_end_stmts stmt		{ $$ = x_begin_end_stmts($1,$2);}
+d1203 1
+a1203 1
+x_begin_end_stmts($1, $2)				/* Function	*/
+d1205 2
+a1206 1
+} /* x_begin_end_stmts */
+d1208 3
+d1212 1
+a1212 2
+x_builtin_arg_list_id(id)				/* Function	*/
+  Node_id   id;
+d1214 2
+a1215 20
+  Node_id   list = nn();
+  ns(list, T_STRING, "builtin_arg_list");
+  rs(list, T__FIRST, id);
+  return list;
+} /* x_builtin_arg_list_id */
+
+Node_id
+x_builtin_arg_list(list, id)				/* Function	*/
+  Node_id   list;
+  Node_id   id;
+{
+  Node_id   on = NIL, n = list;
+  int       rel = T__FIRST;
+  
+  while (n = rnn(n, rel, NIL))
+    {
+    }
+  rs(list, comma, id);
+  return list;
+} /* x_builtin_arg_list */
+d1218 1
+a1218 1
+x_builtin_def_args($1, $3)				/* Function	*/
+d1220 1
+d1224 1
+a1224 21
+x_clear($1, $3)						/* Function	*/
+{
+} /* x_clear */
+
+Node_id
+x_close($1, $3)						/* Function	*/
+{
+} /* x_close */
+
+Node_id
+x_common_def_field($1, $2)				/* Function	*/
+{
+} /* x_common_def_field */
+
+Node_id
+x_common_def_group($1, $2)				/* Function	*/
+{
+} /* x_common_def_group */
+
+Node_id
+x_common_def_header($1,$2,$3,$4,$5)			/* Function	*/
+d1226 1
+d1230 1
+a1230 1
+x_display($2, $4)					/* Function	*/
+d1232 1
+d1236 3
+a1238 1
+x_display_item($1, $2)					/* Function	*/
+d1240 2
+d1245 1
+a1245 11
+x_display_items($1, $3)					/* Function	*/
+{
+} /* x_display_items */
+
+Node_id
+x_division($1)						/* Function	*/
+{
+} /* x_division */
+
+Node_id
+x_do_until($1, $2, $3)					/* Function	*/
+d1247 1
+d1251 10
+a1260 2
+x_expr_op_expr($1, $2, $3)				/* Function	*/
+{
+d1264 1
+a1264 1
+x_field($1, $2, $3, $4)					/* Function	*/
+d1266 1
+d1270 1
+a1270 6
+x_field_default($1, $3)					/* Function	*/
+{
+} /* x_field_default */
+
+Node_id
+x_field_ref($1, $3)					/* Function	*/
+d1272 1
+d1276 1
+a1276 1
+x_field_type($1, $2)					/* Function	*/
+d1278 1
+d1282 1
+a1282 1
+x_find($2, $4)						/* Function	*/
+d1284 1
+d1288 1
+a1288 1
+x_find_indexed($1, $3)					/* Function	*/
+d1290 1
+d1294 1
+a1294 1
+x_find_option_expr($1, $3)				/* Function	*/
+d1296 1
+d1300 1
+a1300 6
+x_fld_arr_sub($1, $3)					/* Function	*/
+{
+} /* x_fld_arr_sub */
+
+Node_id
+x_for($1, $2, $3, $4, $5, $6, $7)			/* Function	*/
+d1302 1
+d1306 1
+a1306 6
+x_for_by($1, $2)					/* Function	*/
+{
+} /* x_for_by */
+
+Node_id
+x_forms($2, $4)						/* Function	*/
+d1308 1
+d1312 1
+a1312 11
+x_func_def_field($1, $2)				/* Function	*/
+{
+} /* x_func_def_field */
+
+Node_id
+x_func_def_group($1, $2)				/* Function	*/
+{
+} /* x_func_def_group */
+
+Node_id
+x_func_def_header($1,$2,$3,$5)				/* Function	*/
+d1314 1
+d1318 1
+a1318 1
+x_goto($2, $5)						/* Function	*/
+d1320 1
+d1324 1
+a1324 6
+x_goto_labels($1, $3)					/* Function	*/
+{
+} /* x_goto_labels */
+
+Node_id
+x_group_definition($1, $2, $3)				/* Function	*/
+d1326 1
+d1330 1
+a1330 6
+x_group_fields($1, $2)					/* Function	*/
+{
+} /* x_group_fields */
+
+Node_id
+x_if($1, $2)						/* Function	*/
+d1332 1
+d1336 1
+a1336 1
+x_if_then_else($1, $2, $3, $4, $5)			/* Function	*/
+d1338 1
+d1342 1
+a1342 16
+x_io_indexed($1, $3)					/* Function	*/
+{
+} /* x_io_indexed */
+
+Node_id
+x_lit_def_field($1, $2)					/* Function	*/
+{
+} /* x_lit_def_field */
+
+Node_id
+x_lit_def_group($1, $2)					/* Function	*/
+{
+} /* x_lit_def_group */
+
+Node_id
+x_lit_def_header($1,$2,$3,$4)				/* Function	*/
+d1344 1
+d1348 1
+a1348 1
+x_lpque($2, $3)						/* Function	*/
+d1350 1
+d1354 3
+a1356 1
+x_lpque_opt_list($1,$3)					/* Function	*/
+d1358 4
+a1361 5
+} /* x_lpque_opt_list */
+
+Node_id
+x_op_expr($1, $2)					/* Function	*/
+{
+d1365 1
+a1365 1
+x_open($2, $3)						/* Function	*/
+d1367 1
+d1371 1
+a1371 11
+x_open_attr($1, $3)					/* Function	*/
+{
+} /* x_open_attr */
+
+Node_id
+x_open_attrs($1, $3)					/* Function	*/
+{
+} /* x_open_attrs */
+
+Node_id
+x_open_mode($1, $3)					/* Function	*/
+d1373 1
+d1377 1
+a1377 1
+x_open_options($1, $2)					/* Function	*/
+d1379 1
+d1383 1
+a1383 1
+x_proc_div_end($1, $2)					/* Function	*/
+d1385 1
+d1389 1
+a1389 1
+x_proc_div_proc($1, $2)					/* Function	*/
+d1391 1
+d1395 1
+a1395 1
+x_proc_div_stmt($1, $2, $3)				/* Function	*/
+d1397 1
+d1401 1
+a1401 1
+x_program_division($1, $2)				/* Function	*/
+d1403 1
+d1407 1
+a1407 1
+x_read($2, $4, $5)					/* Function	*/
+d1409 1
+a1411 5
+	: expr			{ $$ = x_read_options(T__NIL,T__NIL,$1);}
+	| T_KEYNUM T_O_COLON expr	{ $$ = x_read_options($1,$2,$3);}
+	| T_MATCH  T_O_COLON expr	{ $$ = x_read_options($1,$2,$3);}
+	| T_RFA    T_O_COLON expr	{ $$ = x_read_options($1,$2,$3);}
+	| T_WAIT opt.wait_seconds	{ $$ = x_read_options($1,T__NIL,$2);}
+d1419 2
+a1420 2
+  ns(n, t1, 
+  rs(n, t2, 
+d1425 1
+a1425 1
+x_reads_options($1, $3)					/* Function	*/
+d1427 1
+d1431 1
+a1431 1
+x_reads($2, $3, $4)					/* Function	*/
+d1433 1
+d1437 1
+a1437 16
+x_reads_option_wait($1, $2)				/* Function	*/
+{
+} /* x_reads_option_wait */
+
+Node_id
+x_record_def_field($1, $2)				/* Function	*/
+{
+} /* x_record_def_field */
+
+Node_id
+x_record_def_group($1, $2)				/* Function	*/
+{
+} /* x_record_def_group */
+
+Node_id
+x_record_def_header($1, $2, $3)				/* Function	*/
+d1439 1
+d1443 1
+a1443 1
+x_recv($2, $4, $5)					/* Function	*/
+d1445 1
+d1448 5
+d1454 10
+a1463 2
+x_ref($1, $2, $3)					/* Function	*/
+{
+d1467 1
+a1467 21
+x_ref_arr_subs($1, $3)					/* Function	*/
+{
+} /* x_ref_arr_subs */
+
+Node_id
+x_ref_pos_start_len($2, $4)				/* Function	*/
+{
+} /* x_ref_pos_start_len */
+
+Node_id
+x_ref_pos_start_stop($2, $4)				/* Function	*/
+{
+} /* x_ref_pos_start_stop */
+
+Node_id
+x_ref_pos_sub($2)					/* Function	*/
+{
+} /* x_ref_pos_sub */
+
+Node_id
+x_send($2, $4, $5)					/* Function	*/
+d1469 1
+d1473 1
+a1473 1
+x_stop_type_at($2, $3)					/* Function	*/
+d1475 1
+d1479 1
+a1479 1
+x_store($2, $4)						/* Function	*/
+d1481 1
+d1485 4
+a1488 1
+x_sub_decl_func($1, $2, $3)				/* Function	*/
+d1490 5
+a1494 1
+} /* x_sub_decl_func */
+a1495 4
+Node_id
+x_sub_decl_subr($1, $2)					/* Function	*/
+{
+} /* x_sub_decl_subr */
+d1498 1
+a1498 1
+x_subroutine_division($1, $2)				/* Function	*/
+d1500 1
+d1504 3
+a1506 1
+x_tree_program($2, $4)					/* Function	*/;
+d1511 1
+a1511 6
+x_using($1, $2)						/* Function	*/
+{
+} /* x_using */
+
+Node_id
+x_using_exprs($1, $3)					/* Function	*/
+d1513 1
+a1513 10
+} /* x_using_exprs */
+
+Node_id
+x_using_range($1, $2, $3, $4)				/* Function	*/
+{
+} /* x_using_range */
+
+Node_id
+x_using_select($1, $2, $3, $4, $5)			/* Function	*/
+{
+d1517 1
+a1517 1
+x_using_selector($2, $5)				/* Function	*/
+d1519 1
+d1523 1
+a1523 11
+x_using_selectors($1, $2)				/* Function	*/
+{
+} /* x_using_selectors */
+
+Node_id
+x_using_thru($1, $2, $3)				/* Function	*/
+{
+} /* x_using_thru */
+
+Node_id
+x_video_attr($1,$2,$3)					/* Function	*/
+d1525 1
+a1525 10
+} /* x_video_attr */
+
+Node_id
+x_video_attr_list($1, $3)				/* Function	*/
+{
+} /* x_video_attr_list */
+
+Node_id
+x_while($1, $2)						/* Function	*/
+{
+d1529 1
+a1529 1
+x_write($2, $4, $5)					/* Function	*/
+d1531 1
+d1535 1
+a1535 1
+x_write_option_rfa($1, $3)				/* Function	*/
+d1537 1
+d1541 1
+a1541 1
+x_write_options($1, $3)					/* Function	*/
+d1543 1
+a1543 5
+} /* x_write_options */
+
+Node_id
+x_writes($2, $4)					/* Function	*/
+{
+d1547 1
+a1547 1
+x_xcall($1, $2)						/* Function	*/
+d1549 1
+a1550 5
+
+Node_id
+x_xcall_parameters($1, $3)				/* Function	*/
+{
+} /* x_xcall_parameters */
+@
+
+
+1.5
+log
+@27-Nov-94 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/gram.g,v 1.4 1994/11/26 08:23:47 ldl Exp ldl $
+d99 3
+d304 1
+a304 1
+	: T_ID
+d306 1
+a306 1
+					{ $$ = x_builtin_arg_list($1, $3);}
+d536 2
+a537 2
+	| accept_args T_O_COMMA T_ID	{ $$ = x_accept_args($1, $3);	}
+	| accept_args T_O_COLON expr	{ $$ = x_accept_args($1, $3);	}
+d738 5
+a742 5
+	: expr
+	| T_KEYNUM T_O_COLON expr	{ $$ = x_read_options($1, $3);	}
+	| T_MATCH  T_O_COLON expr	{ $$ = x_read_options($1, $3);	}
+	| T_RFA    T_O_COLON expr	{ $$ = x_read_options($1, $3);	}
+	| T_WAIT opt.wait_seconds	{ $$ = x_read_options($1, $2);	}
+d768 1
+a768 1
+					{ $$ = x_read_options($1, $3);	}
+d1065 1
+a1065 1
+Node *
+d1077 3
+a1079 1
+r
+d1081 2
+a1082 2
+Node *
+x_accept_args($1, $3)					/* Function	*/
+d1086 6
+a1091 1
+Node *
+d1096 4
+a1099 1
+Node *
+d1104 4
+a1107 1
+Node *
+d1112 4
+a1115 1
+Node *
+d1120 23
+a1142 3
+Node *
+x_builtin_arg_list($1, $3)				/* Function	*/
+{
+d1145 1
+a1145 1
+Node *
+d1150 1
+a1150 1
+Node *
+d1155 1
+a1155 1
+Node *
+d1160 1
+a1160 1
+Node *
+d1165 1
+a1165 1
+Node *
+d1170 1
+a1170 1
+Node *
+d1175 1
+a1175 1
+Node *
+d1180 1
+a1180 1
+Node *
+d1185 1
+a1185 1
+Node *
+d1190 1
+a1190 1
+Node *
+d1195 1
+a1195 1
+Node *
+d1200 1
+a1200 1
+Node *
+d1205 1
+a1205 1
+Node *
+d1210 1
+a1210 1
+Node *
+d1215 1
+a1215 1
+Node *
+d1220 1
+a1220 1
+Node *
+d1225 1
+a1225 1
+Node *
+d1230 1
+a1230 1
+Node *
+d1235 1
+a1235 1
+Node *
+d1240 1
+a1240 1
+Node *
+d1245 1
+a1245 1
+Node *
+d1250 1
+a1250 1
+Node *
+d1255 1
+a1255 1
+Node *
+d1260 1
+a1260 1
+Node *
+d1265 1
+a1265 1
+Node *
+d1270 1
+a1270 1
+Node *
+d1275 1
+a1275 1
+Node *
+d1280 1
+a1280 1
+Node *
+d1285 1
+a1285 1
+Node *
+d1290 1
+a1290 1
+Node *
+d1295 1
+a1295 1
+Node *
+d1300 1
+a1300 1
+Node *
+d1305 1
+a1305 1
+Node *
+d1310 1
+a1310 1
+Node *
+d1315 1
+a1315 1
+Node *
+d1320 1
+a1320 1
+Node *
+d1325 1
+a1325 1
+Node *
+d1330 1
+a1330 1
+Node *
+d1335 1
+a1335 1
+Node *
+d1340 1
+a1340 1
+Node *
+d1345 1
+a1345 1
+Node *
+d1350 1
+a1350 1
+Node *
+d1355 1
+a1355 1
+Node *
+d1360 1
+a1360 1
+Node *
+d1365 1
+a1365 1
+Node *
+d1370 1
+a1370 1
+Node *
+d1375 1
+a1375 1
+Node *
+d1380 1
+a1380 1
+Node *
+d1385 1
+a1385 1
+Node *
+d1390 15
+a1404 3
+Node *
+x_read_options($1, $3)					/* Function	*/
+{
+d1407 2
+a1408 2
+Node *
+x_read_options($1, $3)					/* Function	*/
+d1410 1
+a1410 1
+} /* x_read_options */
+d1412 1
+a1412 1
+Node *
+d1417 1
+a1417 1
+Node *
+d1422 1
+a1422 1
+Node *
+d1427 1
+a1427 1
+Node *
+d1432 1
+a1432 1
+Node *
+d1437 1
+a1437 1
+Node *
+d1442 1
+a1442 1
+Node *
+d1447 1
+a1447 1
+Node *
+d1452 1
+a1452 1
+Node *
+d1457 1
+a1457 1
+Node *
+d1462 1
+a1462 1
+Node *
+d1467 1
+a1467 1
+Node *
+d1472 1
+a1472 1
+Node *
+d1477 1
+a1477 1
+Node *
+d1482 1
+a1482 1
+Node *
+d1487 1
+a1487 1
+Node *
+d1492 1
+a1492 1
+Node *
+d1497 1
+a1497 1
+Node *
+d1502 1
+a1502 1
+Node *
+d1507 1
+a1507 1
+Node *
+d1512 1
+a1512 1
+Node *
+d1517 1
+a1517 1
+Node *
+d1522 1
+a1522 1
+Node *
+d1527 1
+a1527 1
+Node *
+d1532 1
+a1532 1
+Node *
+d1537 1
+a1537 1
+Node *
+d1542 1
+a1542 1
+Node *
+d1547 1
+a1547 1
+Node *
+d1552 1
+a1552 1
+Node *
+d1557 1
+a1557 1
+Node *
+d1562 1
+a1562 1
+Node *
+d1567 1
+a1567 1
+Node *
+d1572 1
+a1572 1
+Node *
+d1577 1
+a1577 1
+Node *
+@
+
+
+1.4
+log
+@25-Nov-94 Checkpoint (Early A.M. on the 26th)
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/gram.g,v 1.3 1994/11/22 14:26:49 ldl Exp ldl $
+d98 3
+@
+
+
+1.3
+log
+@22-Nov-94 Checkpoint
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/gram.g,v 1.2 1994/11/19 06:22:09 ldl Exp ldl $
+d32 7
+a38 1
+		T__UNUSED
+d49 1
+a49 1
+		  T_ID T_IF T_INCR
+d53 1
+a53 1
+		  T_NEXTLOOP T_NOP T_NOSUFFIX T_NUMBER T_NUMREC
+d59 1
+a59 1
+		  T_STRING T_SUBROUTINE
+d65 1
+d67 13
+d87 1
+a87 1
+		  T_O_LBRACE T_O_LE T_O_LES T_O_LESS T_O_LEU T_O_LPAREN
+d93 1
+a93 1
+		  T_O_RBRACE T_O_RPAREN
+d97 1
+d437 1
+a437 1
+	: T_O_LBRACE field_array_subscripts T_O_RBRACE
+d995 1
+a995 1
+	: T_O_LBRACE ref_array_subscripts T_O_RBRACE
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d4 1
+a4 1
+ * $Header: /home/ldl/dbl/RCS/gram.g,v 1.1 1994/11/16 13:07:10 ldl Exp ldl $
+d7 14
+d27 1
+a27 2
+    int       integer;
+    Node     *node;
+d31 47
+a77 33
+%token		'('  ')'  ','  '.'  ':'  '='  '['  ']'
+%token <node>	T_ACCEPT T_ALIGN T_ALLOC
+		T_BEGIN T_BKTSIZ T_BLKSIZ T_BUFNUM T_BUFSIZ T_BUILTIN T_BY
+		T_CALL T_CLEAR T_CLOSE T_COMMON T_CONTIG T_COPIES
+		T_DECR T_DEFAULT T_DELETE T_DELETE T_DEQ T_DETACH
+		T_DISPLAY T_DO
+		T_EDIT T_ELSE T_END T_ENDGROUP T_ENDUSING T_ERASE
+		T_EXITLOOP T_EXTERNAL T_EXIT
+		T_FDL T_FIND T_FLAGS T_FLUSH T_FOR T_FORM T_FORMAT
+		T_FORMS T_FRETURN T_FROM T_FUNCTION
+		T_GLOBAL T_GOTO T_GROUP
+		T_ID T_IF T_INCR
+		T_KEY T_KEYNUM
+		T_LITERAL T_LOCAL T_LOCASE T_LPNUM T_LPQUE
+		T_MATCH T_MODE
+		T_NEXTLOOP T_NOP T_NOSUFFIX T_NUMBER T_NUMREC
+		T_OFFERROR T_OFFSET T_ONERROR T_OPEN
+		T_O_ADD T_O_AND T_O_BAND T_O_BNOT T_O_BOR T_O_BXOR 
+		T_O_DIV T_O_EQ T_O_EQS T_O_EQU T_O_GE T_O_GES T_O_GEU
+		T_O_GT T_O_GTS T_O_GTU T_O_LE T_O_LES T_O_LEU
+		T_O_LT T_O_LTS T_O_LTU T_O_MUL T_O_NE T_O_NES T_O_NEU
+		T_O_NOT T_O_OR T_O_PND T_O_PNDPND T_O_SLHSLH T_O_SUB
+		T_O_UNARY T_O_XOR
+		T_POS T_PROC T_PROMPT T_PROTECT
+		T_RANGE T_READ T_READS T_RECORD T_RECSIZ T_RECTYPE
+		T_RECV T_REPEAT T_RETURN T_RFA
+		T_SELECT T_SEND T_SHARE T_SLEEP T_STOP T_STORE
+		T_STRING T_SUBROUTINE
+		T_THEN T_THRU
+		T_UNLOCK T_UNTIL T_UPCASE T_USING
+		T_VIDEO
+		T_WAIT T_WHILE T_WRITE T_WRITES
+		T_XCALL T_XRETURN
+d79 1
+a79 1
+%type <node>
+d255 1
+a255 1
+	: ',' T_ID			{ $$ = $2;			}
+d271 1
+a271 1
+	| T_BUILTIN '(' builtin_arg_list ')'
+d278 2
+a279 1
+	| builtin_arg_list ',' T_ID	{ $$ = x_builtin_arg_list($1, $3);}
+d306 1
+a306 1
+	: ',' T_NOSUFFIX		{ $$ = $2;			}
+d319 1
+a319 1
+	: opt.storage_class T_FUNCTION T_ID ',' field_data_type
+d357 1
+a357 1
+	: ',' T_ID			{ $$ = $2;			}
+d378 1
+a378 1
+	| field_array_subscripts ',' T_NUMBER
+d396 1
+a396 1
+	| field_defaults ',' field_default
+d401 2
+a402 2
+	: T_ID ','
+	| ','				{ $$ = NIL;			}
+d407 1
+a407 1
+	| '*'				{ $$ = nnstrdup("*");		}
+d416 1
+a416 1
+	: '[' field_array_subscripts ']'
+d437 2
+a438 1
+	: '(' T_NUMBER ')'		{ $$ = $2;			}
+d492 2
+a493 2
+	: ref '='			{ $$ = x_assignment_clear($1);	}
+	| ref '=' expr opt.assignment_format
+d498 1
+a498 1
+	: ',' expr			{ $$ = $2;			}
+d503 2
+a504 1
+	: '(' accept_args ')'		{ $$ = $2;			}
+a506 1
+tohere
+d509 2
+a510 2
+	| accept_args ',' T_ID		{ $$ = x_accept_args($1, $3);	}
+	| accept_args ':' expr		{ $$ = x_accept_args($1, $3);	}
+d528 1
+a528 1
+	| clear ',' ref			{ $$ = x_clear($1, $3);		}
+d533 1
+a533 1
+	| close ',' io_channel		{ $$ = x_close($1, $3);		}
+d542 2
+a543 1
+	: '(' io_channel ')'		{ $$ = $2;			}
+d547 1
+a547 1
+	: '(' io_channel ',' display_items ')'
+d553 1
+a553 1
+	| display_items ',' display_item
+d576 3
+a578 2
+	: '(' io_channel ')'		{ $$ = $2;			}
+	| '(' io_channel ',' find_option ')'
+d583 1
+a583 1
+	: T_RFA ':' expr		{ $$ = x_find_option_expr($1, $3);}
+d589 1
+a589 1
+	| find_indexed ',' io_indexed_option
+d608 2
+a609 1
+	: '(' io_channel ',' expr ')'	{ $$ = x_forms($2, $4);		}
+d618 1
+a618 1
+	| '(' goto_labels ')' opt.goto_comma expr
+d624 1
+a624 1
+	| goto_labels ',' T_ID		{ $$ = x_goto_labels($1, $3);	}
+d628 1
+a628 1
+	: ','
+d647 2
+a648 1
+	: '(' ref lpque_options ')'	{ $$ = x_lpque($2, $3);		}
+d652 1
+a652 1
+	: ',' lpque_option_list		{ $$ = $2;			}
+d657 4
+a660 4
+	: T_LPNUM  ':' expr		{ $$ = x_lpque_opt_list($1,$3);	}
+	| T_COPIES ':' expr		{ $$ = x_lpque_opt_list($1,$3);	}
+	| T_FORM   ':' expr		{ $$ = x_lpque_opt_list($1,$3);	}
+	| T_DELETE ':' expr		{ $$ = x_lpque_opt_list($1,$3);	}
+d669 1
+a669 1
+	: '(' io_channel open_options ')'
+d673 12
+a684 12
+	: T_ALLOC   ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_BKTSIZ  ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_BLKSIZ  ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_BUFNUM  ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_BUFSIZ  ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_RECSIZ  ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_CONTIG  ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_DEQ     ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_PROTECT ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_RECTYPE ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_SHARE   ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_KEY     ':' '(' expr ')' /* expr is ??keylist?? */
+d686 2
+a687 2
+	| T_FDL     ':' expr		{ $$ = x_open_attr($1, $3);	}
+	| T_NUMREC  ':' expr		{ $$ = x_open_attr($1, $3);	}
+d692 2
+a693 1
+	| open_attrs ',' open_attr	{ $$ = x_open_attrs($1, $3);	}
+d701 2
+a702 2
+	: T_ID ':' T_ID			{ $$ = x_open_mode($1, $3);	}
+	| T_MODE ':' expr		{ $$ = x_open_mode($1, $3);	}
+d706 1
+a706 1
+	: '(' io_channel ',' ref opt.read_options ')'
+d712 3
+a714 3
+	| T_KEYNUM ':' expr		{ $$ = x_read_options($1, $3);	}
+	| T_MATCH  ';' expr		{ $$ = x_read_options($1, $3);	}
+	| T_RFA    ':' expr		{ $$ = x_read_options($1, $3);	}
+d719 1
+a719 1
+	: ',' read_options		{ $$ = $2;			}
+d724 1
+a724 1
+	: '(' io_channel display_item opt.reads_options ')'
+d729 1
+a729 1
+	: ',' reads_options		{ $$ = $2;			}
+d740 1
+a740 1
+	| reads_options ',' reads_option
+d745 1
+a745 1
+	: '(' ref ',' T_ID opt.recv_size ')'
+d750 1
+a750 1
+	: ',' expr			{ $$ = $2;			}
+d759 1
+a759 1
+	: '(' ref ',' expr opt.send_terminal ')'
+d764 1
+a764 1
+	: ',' expr			{ $$ = $2;			}
+d778 1
+a778 1
+	| '@@' ref opt.stop_cmdfile_parameter_list
+d783 1
+a783 1
+	: '(' /* parameter list */ ')'	/*????*/
+d789 2
+a790 1
+	: '(' io_channel ',' ref ')'	{ $$ = x_store($2, $4);		}
+d827 2
+a828 1
+	| using_exprs ',' using_expr	{ $$ = x_using_exprs($1, $3);	}
+d837 1
+a837 1
+	: '(' opt.using_exprs ')' ',' stmt
+d857 1
+a857 1
+	: '(' io_channel ',' ref opt.write_options ')'
+d863 1
+a863 1
+	| T_RFA ':' expr		{ $$ = x_write_option_rfa($1,$3);}
+d868 1
+a868 1
+	| write_options ',' write_option
+d873 1
+a873 1
+	: ',' write_options		{ $$ = $2;			}
+d878 1
+a878 1
+	: '(' io_channel ',' display_item ')'
+d892 1
+a892 1
+	| xcall_parameters ',' simple_expr
+d897 2
+a898 1
+	: '(' xcall_parameters ')'	{ $$ = $2			}
+d907 2
+a908 1
+	| '(' simple_expr ')'		{ $$ = $2;			}
+d954 1
+a954 1
+	| field_ref '.' T_ID		{ $$ = x_field_ref($1, $3);	}
+d964 1
+a964 1
+	| ref_array_subscripts ',' expr
+d969 1
+a969 1
+	: T_ID ','
+d974 2
+a975 1
+	: '[' ref_array_subscripts ']'	{ $$ = $2;			}
+d981 5
+a985 3
+	: '(' expr ')'			{ $$ = x_ref_pos_sub($2);	}
+	| '(' expr ',' expr ')'		{ $$ = x_ref_pos_start_stop($2,$4);}
+	| '(' expr ':' expr ')'		{ $$ = x_ref_pos_start_len($2,$4);}
+d997 3
+a999 3
+	: T_KEYNUM ':' expr		{ $$ = x_io_indexed($1, $3);	}
+	| T_MATCH  ':' expr		{ $$ = x_io_indexed($1, $3);	}
+	| T_WAIT   ':' expr		{ $$ = x_io_indexed($1, $3);	}
+d1003 2
+a1004 1
+	: '<' video_attr_list '>'	{ $$ = $2;			}
+d1010 1
+a1010 1
+	| video_attr_list ',' video_attr
+d1015 7
+a1021 7
+	: T_DEFAULT ':' expr		{ $$ = x_video_attr($1, $3,NIL);}
+	| T_EDIT    ':' expr		{ $$ = x_video_attr($1, $3,NIL);}
+	| T_ERASE   ':' expr		{ $$ = x_video_attr($1, $3,NIL);}
+	| T_FLAGS   ':' expr		{ $$ = x_video_attr($1, $3,NIL);}
+	| T_FORMAT  ':' expr		{ $$ = x_video_attr($1, $3,NIL);}
+	| T_OFFSET  ':' expr		{ $$ = x_video_attr($1, $3,NIL);}
+	| T_POS ':' '(' expr ',' expr ')'
+d1023 2
+a1024 2
+	| T_PROMPT  ':' expr		{ $$ = x_video_attr($1, $3,NIL);}
+	| T_VIDEO   ':' expr		{ $$ = x_video_attr($1, $3,NIL);}
+d1028 1
+a1028 1
+	: ':' expr			{ $$ = $2;			}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 2
+a4 2
+ * $Locker$ $Source$
+ * $Header$
+d20 31
+a50 31
+%token <node>	T_BEGIN T_BKTSIZ T_BLKSIZ T_BUFNUM T_BUFSIZ T_BUILTIN T_BY
+%token <node>	T_CALL T_CLEAR T_CLOSE T_COMMON T_CONTIG T_COPIES
+%token <node>	T_DECR T_DEFAULT T_DELETE T_DELETE T_DEQ T_DETACH
+%token <node>	T_DISPLAY T_DO
+%token <node>	T_EDIT T_ELSE T_END T_ENDGROUP T_ENDUSING T_ERASE
+%token <node>	T_EXITLOOP T_EXTERNAL T_EXIT
+%token <node>	T_FDL T_FIND T_FLAGS T_FLUSH T_FOR T_FORM T_FORMAT
+%token <node>	T_FORMS T_FRETURN T_FROM T_FUNCTION
+%token <node>	T_GLOBAL T_GOTO T_GROUP
+%token <node>	T_ID T_IF T_INCR
+%token <node>	T_KEY T_KEYNUM
+%token <node>	T_LITERAL T_LOCAL T_LOCASE T_LPNUM T_LPQUE
+%token <node>	T_MATCH T_MODE
+%token <node>	T_NEXTLOOP T_NOP T_NOSUFFIX T_NUMBER T_NUMREC
+%token <node>	T_OFFERROR T_OFFSET T_ONERROR T_OPEN
+%token <node>	T_O_ADD T_O_AND T_O_BAND T_O_BNOT T_O_BOR T_O_BXOR 
+%token <node>	T_O_DIV T_O_EQ T_O_EQS T_O_EQU T_O_GE T_O_GES T_O_GEU
+%token <node>	T_O_GT T_O_GTS T_O_GTU T_O_LE T_O_LES T_O_LEU
+%token <node>	T_O_LT T_O_LTS T_O_LTU T_O_MUL T_O_NE T_O_NES T_O_NEU
+%token <node>	T_O_NOT T_O_OR T_O_PND T_O_PNDPND T_O_SLHSLH T_O_SUB
+%token <node>	T_O_UNARY T_O_XOR
+%token <node>	T_POS T_PROC T_PROMPT T_PROTECT
+%token <node>	T_RANGE T_READ T_READS T_RECORD T_RECSIZ T_RECTYPE
+%token <node>	T_RECV T_REPEAT T_RETURN T_RFA
+%token <node>	T_SELECT T_SEND T_SHARE T_SLEEP T_STOP T_STORE
+%token <node>	T_STRING T_SUBROUTINE
+%token <node>	T_THEN T_THRU
+%token <node>	T_UNLOCK T_UNTIL T_UPCASE T_USING
+%token <node>	T_VIDEO
+%token <node>	T_WAIT T_WHILE T_WRITE T_WRITES
+%token <node>	T_XCALL T_XRETURN
+d195 1
+a195 1
+	  program			{ _parse.tree = $2,$4,NIL;/*JUNK*/}
+d199 2
+a200 2
+	: division			{ addlist($$ = mkdiv(), $1);	}
+	| program division		{ addlist($$ = $1, $2);		}
+d218 1
+a218 1
+					{ addlist($$ = $1, $2);		}
+d222 1
+a222 1
+	: T_SUBROUTINE T_ID		{ $$ = $1,$2,NIL;/*JUNK*/	}
+d224 1
+a224 1
+					{ $$ = $1,$2,$3,NIL;/*JUNK*/	}
+d243 1
+a243 1
+	: T_BUILTIN			{ $$ = mkdef(T_BUILTIN, $1,NIL); }
+d245 2
+a246 1
+					{ $$ = mkdef(T_BUILTIN, $1, $3); }
+d250 2
+a251 2
+	: T_ID				{ addlist($$ = mklist(T_ID), $1); }
+	| builtin_arg_list ',' T_ID	{ addlist($$ = $1, $3);		}
+d257 1
+a257 1
+	| common_definition field	{ $$ = addlist($1, $2);		}
+d259 1
+a259 1
+					{ $$ = addlist($1, $2);		}
+d267 1
+a267 1
+					{ $$ = $1,$2,$3,$4,$5,NIL;/*JUNK*/}
+d285 1
+a285 1
+	| function_definition field	{ $$ = addlist($1, $2);		}
+d287 1
+a287 1
+					{ $$ = addlist($1, $2);		}
+d292 1
+a292 1
+					{ $$ = $1,$2,$3,$5,NIL;/*JUNK*/	}
+d298 1
+a298 1
+	| literal_definition field	{ addlist($$ = $1, $2);		}
+d300 1
+a300 1
+					{ addlist($$ = $1, $2);		}
+d302 1
+d306 1
+a306 1
+					{ $$ = $1,$2,$3,$4,NIL;/*JUNK*/	}
+d312 1
+a312 1
+	| record_definition field	{ addlist($$ = $1, $2);		}
+d314 1
+a314 1
+					{ addlist($$ = $1, $2);		}
+d319 1
+a319 1
+					{ $$ = $1,$2,$3,NIL;/*JUNK*/	}
+d335 2
+a336 1
+	  T_ENDGROUP			{ $$ = $1,$2,$3,NIL;/*JUNK*/	}
+d339 2
+a340 2
+	: field				{ addlist($$ = mklist(T_GROUP), $1);}
+	| group_fields field		{ addlist($$ = $1,  $2);	}
+d345 1
+a345 1
+					{ $$ = mkfld($1, $2, $3, $4);	}
+d349 1
+a349 1
+	: T_NUMBER			{ addlist($$ = mklist(T_NUMBER), $1);}
+d351 1
+a351 1
+					{ addlist($$ = $1, $3);		}
+d367 1
+a367 1
+	: field_default			{ addlist($$ = mklist(T_STRING),$1);}
+d369 1
+a369 1
+					{ addlist($$ = $1, $3);		}
+d384 1
+a384 1
+					{ $$ = mkdtype($1, $2);		}
+d390 1
+a390 1
+	| T_NUMBER			{ addlist($$ = mklist(T_NUMBER), $1);}
+d402 1
+a402 1
+	: T_PROC opt.nlit		{ addlist($$ = mkproc($1), $2);	}
+d404 2
+a405 2
+					{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| procedure_division T_END	{ $$ = $1,$2,NIL; /*JUNK*/	}
+d415 45
+a459 45
+	: assignment			{ $$ = $1,NIL;/*JUNK*/		}
+	| T_ACCEPT accept 		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_BEGIN begin_end		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_CALL call			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_CLEAR clear			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_CLOSE close			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_DECR decr			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_DELETE delete		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_DETACH			{ $$ = $1,NIL;/*JUNK*/		}
+	| T_DISPLAY display		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_DO do_until			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_EXIT exit			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_EXITLOOP			{ $$ = $1,NIL;/*JUNK*/		}
+	| T_FIND find			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_FLUSH flush			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_FOR for			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_FORMS forms			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_FRETURN freturn		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_GOTO goto			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_IF if_or_if_then_else	{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_INCR incr			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_LOCASE locase		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_LPQUE lpque			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_NEXTLOOP			{ $$ = $1,NIL;/*JUNK*/		}
+	| T_NOP				{ $$ = $1,NIL;/*JUNK*/		}
+	| T_OFFERROR			{ $$ = $1,NIL;/*JUNK*/		}
+	| T_ONERROR onerror		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_OPEN open			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_READ read			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_READS reads			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_RECV recv			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_REPEAT repeat		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_RETURN			{ $$ = $1,NIL;/*JUNK*/		}
+	| T_SEND send			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_SLEEP sleep			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_STOP stop			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_STORE store			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_UNLOCK unlock		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_UPCASE upcase		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_USING using_select_or_range	{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_WHILE while			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_WRITE write			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_WRITES writes		{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_XCALL xcall			{ $$ = $1,$2,NIL;/*JUNK*/	}
+	| T_XRETURN			{ $$ = $1,NIL;/*JUNK*/		}
+d463 1
+a463 1
+	: ref '='			{ $$ = $1,NIL; /*JUNK*/		}
+d465 1
+a465 1
+					{ $$ = $1,$3,$4,NIL; /*JUNK*/	}
+d477 1
+d480 2
+a481 2
+	| accept_args ',' T_ID		{ $$ = $1,$3,NIL;/*JUNK*/	}
+	| accept_args ':' expr		{ $$ = $1,$3,NIL;/*JUNK*/	}
+d485 1
+a485 1
+	: begin_end_stmts T_END		{ $$ = $1,$2,NIL;/*JUNK*/	}
+d490 1
+a490 1
+	| begin_end_stmts stmt		{ $$ = $1,$2,NIL; /*JUNK*/	}
+d499 1
+a499 1
+	| clear ',' ref			{ $$ = $1,$3,NIL; /*JUNK*/	}
+d504 1
+a504 1
+	| close ',' io_channel		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d518 1
+a518 1
+					{ $$ = $2,$4,NIL; /*JUNK*/	}
+d524 1
+a524 1
+					{ $$ = $1,$3,NIL; /*JUNK*/	}
+d528 1
+a528 1
+	: ref video_attrs		{ $$ = $1,$2,NIL; /*JUNK*/	}
+d532 1
+a532 1
+	: stmt T_UNTIL expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d534 1
+d548 1
+a548 1
+					{ $$ = $2,$4,NIL; /*JUNK*/	}
+d552 1
+a552 1
+	: T_RFA ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d559 1
+a559 1
+					{ $$ = $1,$3,NIL; /*JUNK*/	}
+d568 1
+a568 1
+					{ $$ = $1,$3,$5,$6,$7,NIL;/*JUNK*/}
+d572 1
+a572 1
+	: T_BY expr			{ $$ = $2;			}
+d577 1
+a577 1
+	: '(' io_channel ',' expr ')'	{ $$ = $2,$4,NIL; /*JUNK*/	}
+d587 1
+a587 1
+					{ $$ = $2,$5,NIL; /*JUNK*/	}
+d592 1
+a592 1
+	| goto_labels ',' T_ID		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d601 1
+a601 1
+	: expr stmt			{ $$ = $1,$2,NIL; /*JUNK*/	}
+d603 1
+a603 1
+					{ $$ = $1,$3,$5,NIL; /*JUNK*/	}
+d615 1
+a615 1
+	: '(' ref lpque_options ')'	{ $$ = $2,$3,NIL; /*JUNK*/	}
+d624 5
+a628 5
+	: T_LPNUM ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_COPIES ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_FORM ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_DELETE ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_ALIGN			{ $$ = $1,NIL; /*JUNK*/		}
+d637 1
+a637 1
+					{ $$ = $2,$3,NIL; /*JUNK*/	}
+d640 15
+a654 15
+	: T_ALLOC ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_BKTSIZ ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_BLKSIZ ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_BUFNUM ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_BUFSIZ ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_RECSIZ ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_CONTIG ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_DEQ ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_PROTECT ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_RECTYPE ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_SHARE ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_KEY ':' '(' expr ')' /* expr is ??keylist?? */
+					{ $$ = $1,$4,NIL; /*JUNK*/	}
+	| T_FDL ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_NUMREC ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d659 1
+a659 1
+	| open_attrs ',' open_attr	{ $$ = $1,$3,NIL; /*JUNK*/	}
+d663 1
+a663 1
+	: open_mode open_attrs		{ $$ = $1,$2,NIL; /*JUNK*/	}
+d667 2
+a668 2
+	: T_ID ':' T_ID			{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_MODE ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d673 1
+a673 1
+					{ $$ = $2,$4,$5,NIL; /*JUNK*/	}
+d678 4
+a681 4
+	| T_KEYNUM ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_MATCH ';' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_RFA ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_WAIT opt.wait_seconds	{ $$ = $1,$2,NIL; /*JUNK*/	}
+d691 1
+a691 1
+					{ $$ = $2,$3,$4,NIL; /*JUNK*/	}
+d701 1
+a701 1
+	| T_WAIT opt.wait_seconds	{ $$ = $1,$2,NIL; /*JUNK*/	}
+d707 1
+a707 1
+					{ $$ = $1,$3,NIL; /*JUNK*/	}
+d712 1
+a712 1
+					{ $$ = $2,$4,$5,NIL; /*JUNK*/	}
+d721 1
+a721 1
+	: stmt				{ $$ = $1,NIL; /*JUNK*/		}
+d726 1
+a726 1
+					{ $$ = $2,$4,$5,NIL; /*JUNK*/	}
+d735 1
+a735 1
+	: expr				{ $$ = $1,NIL; /*JUNK*/		}
+d739 1
+a739 1
+	: stop_type			{ $$ = $1,NIL; /*JUNK*/		}
+d745 1
+a745 1
+					{ $$ = $2,$3,NIL; /*JUNK*/	}
+d755 1
+a755 1
+	: '(' io_channel ',' ref ')'	{ $$ = $2,$4,NIL; /*JUNK*/	}
+d759 1
+a759 1
+	: io_channel			{ $$ = $1,NIL; /*JUNK*/		}
+d763 1
+a763 1
+	: ref				{ $$ = $1,NIL; /*JUNK*/		}
+d768 1
+a768 1
+					{ $$ = $1,$2,$3,$4,$5,NIL;/*JUNK*/}
+d772 16
+a787 16
+	: expr
+	| expr T_THRU expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| T_O_LE expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_LEU expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_LES expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_LT expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_LTU expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_LTS expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_GE expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_GEU expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_GES expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_GT expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_GTU expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_GTS expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_EQS expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_EQU expr			{ $$ = $1,$2,NIL; /*JUNK*/	}
+d791 2
+a792 2
+	: using_expr			{ $$ = $1,NIL; /*JUNK*/		}
+	| using_exprs ',' using_expr	{ $$ = $1,$3,NIL; /*JUNK*/	}
+d802 1
+a802 1
+					{ $$ = $2,$5,NIL; /*JUNK*/	}
+d806 1
+a806 1
+	: using_selector		{ $$ = $1,NIL; /*JUNK*/		}
+d808 1
+a808 1
+					{ $$ = $1,$2,NIL; /*JUNK*/	}
+d812 1
+a812 1
+	: T_RANGE expr T_THRU expr	{ $$ = $1,$2,$3,$4,NIL;/*JUNK*/	}
+d817 1
+a817 1
+	: expr stmt			{ $$ = $1,$2,NIL; /*JUNK*/	}
+d822 1
+a822 1
+					{ $$ = $2,$4,$5,NIL; /*JUNK*/	}
+d826 2
+a827 2
+	: expr				{ $$ = $1,NIL; /*JUNK*/		}
+	| T_RFA ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d831 1
+a831 1
+	: write_option			{ $$ = $1,NIL; /*JUNK*/		}
+d833 1
+a833 1
+					{ $$ = $1,$3,NIL; /*JUNK*/	}
+d837 1
+a837 1
+	: ',' write_options		{ $$ = $2,NIL; /*JUNK*/		}
+d843 2
+a844 1
+					{ $$ = $2,$4,NIL; /*JUNK*/	}
+d848 1
+a848 1
+					{ $$ = $1,$2,NIL; /*JUNK*/	}
+d855 1
+a855 1
+	: simple_expr			{ $$ = $1,NIL; /*JUNK*/		}
+d857 1
+a857 1
+					{ $$ = $1,$3,NIL; /*JUNK*/	}
+d861 1
+a861 1
+	: '(' xcall_parameters ')'	{ $$ = $2,NIL; /*JUNK*/		}
+d877 35
+a911 35
+	| expr T_O_BOR  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_BXOR expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_BAND expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_BNOT expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_OR   expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_XOR  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_AND  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_NOT  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_EQS  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_NES  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_GTS  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_LTS  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_GES  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_LES  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_EQU  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_NEU  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_GTU  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_LTU  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_GEU  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_LEU  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_EQ   expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_NE   expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_GT   expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_LT   expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_GE   expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_LE   expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_ADD  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_SUB  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_SLHSLH expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_MUL  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_DIV  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| T_O_ADD expr %prec T_O_UNARY	{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| T_O_SUB expr %prec T_O_UNARY	{ $$ = $1,$2,NIL; /*JUNK*/	}
+	| expr T_O_PND  expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+	| expr T_O_PNDPND expr		{ $$ = $1,$2,$3,NIL; /*JUNK*/	}
+d915 2
+a916 2
+	: T_ID				{ addlist($$ = mklist(T_ID), $1);}
+	| field_ref '.' T_ID		{ addlist($$ = $1, $3);		}
+d921 1
+a921 1
+					{ $$ = mkref($1, $2, $3);	}
+d925 1
+a925 1
+	: expr				{ addlist($$ = mklist(T_EXPR), $1);}
+d927 1
+a927 1
+					{ addlist($$ = $1, $3);		}
+d942 3
+a944 3
+	: '(' expr ')'			{ $$ = $2,NIL; /*JUNK*/		}
+	| '(' expr ',' expr ')'		{ $$ = $2,$4,NIL; /*JUNK*/	}
+	| '(' expr ':' expr ')'		{ $$ = $2,$4,NIL; /*JUNK*/	}
+d956 3
+a958 3
+	: T_KEYNUM ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_MATCH ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_WAIT ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d967 1
+a967 1
+	: video_attr			{ $$ = $1,NIL; /*JUNK*/		}
+d969 1
+a969 1
+					{ $$ = $1,$3,NIL; /*JUNK*/	}
+d973 6
+a978 6
+	: T_DEFAULT ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_EDIT ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_ERASE ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_FLAGS ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_FORMAT ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_OFFSET ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d980 3
+a982 3
+					{ $$ = $1,$4,$6,NIL; /*JUNK*/	}
+	| T_PROMPT ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+	| T_VIDEO ':' expr		{ $$ = $1,$3,NIL; /*JUNK*/	}
+d986 1
+a986 1
+	: ':' expr			{ $$ = $2,NIL; /*JUNK*/		}
+d992 3
+a994 4
+Node *
+addlist(list, node)					/* Function	*/
+{
+} /* addlist */
+d1007 368
+d1376 1
+a1376 1
+mkdef(kind, name, redef)				/* Function	*/
+d1378 1
+a1378 1
+} /* mkdef */
+d1381 1
+a1381 1
+mkdiv()							/* Function	*/
+d1383 1
+a1383 1
+} /* mkdiv */
+d1386 1
+a1386 1
+mkdtype(array, type)					/* Function	*/
+d1388 1
+a1388 1
+} /* mkdtype */
+d1391 1
+a1391 1
+mkfld(label, type, size, dflt)				/* Function	*/
+d1393 1
+a1393 1
+} /* mkfld */
+d1396 1
+a1396 1
+mklist(of)						/* Function	*/
+d1398 1
+a1398 1
+} /* mklist */
+d1401 1
+a1401 1
+mkref(field, array, pos)				/* Function	*/
+d1403 1
+a1403 1
+} /* mkref */
+d1406 1
+a1406 1
+mksubr(name)						/* Function	*/
+d1408 57
+a1464 1
+} /* mksubr */
+d1466 1
+a1466 1
+/* End of $Source$ */
+@

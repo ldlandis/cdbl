@@ -1,0 +1,43 @@
+; asg_anf.dbl - assignment
+;   afield = numexp, format
+RECORD
+	F, A8
+PROC
+	OPEN(1,O,'TT:')
+
+	F =      123, 'XXXXXXXX'
+	DISPLAY(1, 'F="',F, '" want "00000123"')
+
+	F =      123, 'ZZZZZZZZ'
+	DISPLAY(1, 'F="',F, '" want "     123"')
+
+	F =      123, '********'
+	DISPLAY(1, 'F="',F, '" want "*****123"')
+
+	F =      123, '$$$$$$$$'
+	DISPLAY(1, 'F="',F, '" want "    $123"')
+
+	F =    -1123, '-XXX,XXX'
+	DISPLAY(1, 'F="',F, '" want "-001,123"')
+
+	F =      123, '$$$$$.XX'
+	DISPLAY(1, 'F="',F, '" want "   $1.23"')
+
+	F =     -123, '$***.**-'
+	DISPLAY(1, 'F="',F, '" want "$**1.23-"')
+
+	F = 12345678, 'X,XXX.XX'
+	DISPLAY(1, 'F="',F, '" want "3,456.78"')
+
+	F =    123.0, 'XXX.X'
+	DISPLAY(1, 'F="',F, '" want "123.0"')
+
+	F =    123.0, 'XXX.Z'
+	DISPLAY(1, 'F="',F, '" want "123."')
+
+	F =    123.4, 'XXX.XXX'
+	DISPLAY(1, 'F="',F, '" want "123.400"')
+
+	CLOSE 1
+
+; End asg_anf.dbl - assignment

@@ -1,0 +1,44 @@
+; asg_an.dbl - assignment
+;   afield = nexp
+RECORD
+	A3, A3
+	A4, A4
+	A6, A6
+	D2, D2
+	D3, D3
+	D4, D4
+	D8, D8
+	P4, P4
+	P53, P5.3
+PROC
+;	OPEN(1,O,'TT:')
+
+	D8 = 87654321
+	A4 = D8
+	DISPLAY(1, 'A4 = D8(="',D8,'") = "',A4,'"  want "4321"', 10)
+
+	D4 = 1234
+	A6 = D4
+	DISPLAY(1, 'A6 = D4(="',D4,'") = "',A6,'"  want "1234  "', 10)
+
+;	P53 = 2
+;	A6 = P53
+;	DISPLAY(1, 'A6 = P53(="',P53,'") = "',A6,'"  want "     2"', 10)
+
+	D2 = -08
+	A3 = D2
+	DISPLAY(1, 'A3 = D2(="',D2,'") = "',A3,'"  want " -8"', 10)
+
+	D3 = 000
+	A3 = D3
+	DISPLAY(1, 'A3 = D3(="',D3,'") = "',A3,'"  want "  0"', 10)
+
+	D4 = -1234
+	A3 = D4
+	DISPLAY(1, 'A3 = D4(="',D4,'") = "',A3,'"  want "234"', 10)
+
+;	P4 = -1234
+;	A4 = P4
+;	DISPLAY(1, 'A4 = P4(="',P4,'") = "',P4,'"  want "1234"', 10)
+
+; End asg_an.dbl - assignment

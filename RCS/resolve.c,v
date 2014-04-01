@@ -1,0 +1,1593 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.06.04;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.54.03;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.06.10;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.32;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.08;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.17;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.17;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.43;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.42;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.32;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.14;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.35;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.18;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.05;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.46.03;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.05;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.48;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.39.03;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.10;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.52;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.34;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.54;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.25;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.51;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.43;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.49;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.25;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.07;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.28;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.41.02;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.35;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.48;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.38;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.06;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.34;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.46;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.23;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.16;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.23;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.31;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.18;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.16;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.54;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.12;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.43;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.58;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.14;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.30;	author ldl;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	95.03.26.19.58.16;	author ldl;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	95.03.23.13.31.35;	author ldl;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	95.03.19.23.29.21;	author ldl;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	95.03.08.13.33.30;	author ldl;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	95.03.06.12.00.19;	author ldl;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	95.03.06.10.32.00;	author ldl;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	95.03.05.03.24.39;	author ldl;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	95.03.03.12.36.21;	author ldl;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	95.02.27.12.55.30;	author ldl;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	95.02.26.10.54.30;	author ldl;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	95.01.07.15.34.55;	author ldl;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	95.01.07.11.22.37;	author ldl;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	94.12.31.02.31.33;	author ldl;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	94.12.30.21.01.53;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/resolve.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:54:03 $
+ */
+
+/***
+ *	Resolve various elements in symbol table.
+ *
+ *	Assign buffer offsets and look for duplicate entries.
+ *
+ *	See the documentation in node.h for more information.
+ *	Note: Assumes that gram.h includes node.h.
+ */
+
+#include <stdio.h>
+#include <string.h>
+#include "prototype.h"
+#include "assert.h"
+#include "gram.h"
+#include "parse.h"
+#include "_tokens.h"
+
+
+/**
+ *	Local "globals"
+ */
+
+/**
+ *	Local functions
+ */
+static
+void      allocate	PROTOARGS((Node_id, int, int));
+static
+void      annotate_subscripts PROTOARGS((Node_id, int, long, int));
+static
+void      bindblock	PROTOARGS((Node_id, int, int));
+static
+void      do_allocation	PROTOARGS((Node_id, long *));
+
+
+/**
+ *	Resolve the net for code generation.  Several items:
+ *   1.	Assign offsets to fields
+ *   2. Populate the sizes of the parameters (if any).
+ */
+int
+resolve()						/* Function	*/
+{
+  walk_divs(allocate, T_RECORD, 0);	/* Allocate space		*/
+  walk_divs(allocate, T__PARAMETER, 0);	/* Populate space requirements	*/
+  walk_divs(bindblock, T_PROC, 0);	/* Bind labels to blocks	*/
+} /* resolve */
+
+/***
+ *	Local functions.
+ */
+
+/**
+ *	Allocate space as per declarations.
+ *	NOTE: this routine 'remembers' the last allocation it did for
+ *	the case where a redefine is specified.
+ *	
+ */
+static
+void
+allocate(spec, unused, callid)				/* Function	*/
+  Node_id   spec;
+  int       unused;			/* arg currently unused		*/
+  int       callid;
+{
+  static
+  Node_id   prevspec = NIL,		/* Previous spec, none initially*/
+            isofgbl  = NIL;		/* For gluing records to global	*/
+  long      size_buffer;
+
+  if (_parse.flags)
+    printf("allocate(%d)\n", spec);
+
+  { /* block */
+    int       xt;
+    char     *xs;
+    ng(spec, &xt, &xs);
+    if (xt == T_GLOBAL)			/* Nothing to do for global	*/
+      {
+	switch (callid)
+	  {
+	    case 0:			/* Done, so clear isofgbl	*/
+	      isofgbl = NIL;
+	      break;
+	    case 1:			/* In global set trap		*/
+	      isofgbl = spec;		/* Save global descriptor	*/
+	      break;
+	    default:
+	      c_error("%s: internal error: spec=[%d] allocate callid=%d",
+	              "allocate", spec, callid);
+	  }
+        return;
+      }
+  } /* block */
+
+  if (isofgbl)				/* Part of a global		*/
+    post_long(spec, T__FIELD_OF, (long)isofgbl);
+
+  if ( ! find_string(spec, T_ID) )	/* Unnamed buffer, add one	*/
+    {
+      static
+      int       uniqueid = 0;		/* This gets bumped once per	*/
+      int       xt;
+      char     *xs, bufnm[20];
+      ng(spec, &xt, &xs);		/* Type of node			*/
+      sprintf(bufnm, "%s___%d", to_token(xt), ++uniqueid);
+      post_string(spec, T_ID, bufnm);	/* Hope programmer didn't use nm*/
+    }
+  if ( rnn(spec, T_O_COMMA, NIL) )	/* If 'redefines' previous	*/
+    {
+      if (prevspec == NIL)		/* Can't redefine if nothing b4	*/
+        {
+	  int       type;
+	  char     *s;
+          ng(spec, &type, &s);		/* Structure type T_RECORD, etc	*/
+	  s = find_string(spec, T_ID);
+          c_error("%s %s has nothing to redefine", to_token(type), s);
+	}
+      else				/* Cross point reference usage	*/
+        {
+          rs(spec, T__REDEFINES, prevspec);
+          rs(prevspec, T__REDEFINEDBY, spec);
+	}
+    }
+
+  if ( ! rnn(spec, T__REDEFINES, NIL) )	/* If not redefining		*/
+    prevspec = spec;			/*   remember this spec		*/
+
+  do_allocation(spec, &size_buffer);	/* Do the allocation		*/
+
+  if ( prevspec && prevspec != spec )	/* Redefining, ensure not larger*/
+    {
+      long      real_size = find_long(prevspec, T__SIZE_BUFFER);
+
+      if (size_buffer > real_size)	/* Redefinition overflows orig	*/
+        {
+	  char     *s;
+          int       pst, st;
+
+	  ng(prevspec, &pst, &s);	/* Get type of prev spec	*/
+	  ng(spec, &st, &s);		/* Get type of spec		*/
+          c_error("%s %s (%d bytes) exceeds size of %s %s (%d bytes)",
+	          to_token(st),  find_string(spec, T_ID),     size_buffer,
+		  to_token(pst), find_string(prevspec, T_ID), real_size);
+	}
+    }
+					/* Save the size of the buffer	*/
+  post_long(spec, T__SIZE_BUFFER, size_buffer);
+  if ( ! find_string(spec, T__TYPE) )	/* Save dummied up type too	*/
+    {
+      Node_id   n;
+      char      type[10];
+      sprintf(type, "A%d", size_buffer);
+      ns(n = nn(), T_ID, "dummied up type");
+      post_string(n, T__TYPE, type);
+      rs(spec, T__TYPE, n);
+    }
+} /* allocate */
+
+/**
+ * Recursively follow T__FIRST/T__PRECEDES and post both T__OFFSET and 
+ * T__SIZE_BUFFER 'convenience' values (makes code generation easier)
+ * as we unwing (on return exits) so that each subscripts effect on the
+ * offset is directly available.
+ */
+static
+void
+annotate_subscripts(n, esize, offset, dofirst)		/* Function	*/
+  Node_id   n;
+  int       esize;
+  long      offset;
+{
+  static
+  long      sizeper;			/* Note: usage during recursion	*/
+  Node_id   save_n = n;			/* The 'n' for this recursion	*/
+  int       cnt, xt;
+  char     *xs;
+
+  if (dofirst)
+    sizeper = esize;			/* On initial call, init	*/
+
+  ng(n, &xt, &xs);			/* Get array count		*/
+  cnt = atoi(xs);
+  if (_parse.flags && _parse.yydebug)
+           printf("annotate_subscripts n=[%d] xs=%s cnt=%d\n", n, xs, cnt);
+  					/* Have more subscripts		*/
+  if (n = rnn(n, dofirst ? T__FIRST : T__PRECEDES, NIL))
+    annotate_subscripts(n, esize, offset, 0);	/* Recurse		*/
+
+					/* Update as we unwind		*/
+					/* Now at rightmost subscript	*/
+  if (_parse.flags && _parse.yydebug)
+           printf("annotate_subscripts save_n=[%d] cnt=%d sizeper=%ld\n",
+	          save_n, cnt, sizeper);
+  post_long(save_n, T__OFFSET, offset);	/* Post 'convenience' values	*/
+  post_long(save_n, T__SIZE_BUFFER, sizeper);
+
+  sizeper *= cnt;			/* As we unwind, (go left in the*/
+  					/* subscripts), the effect of	*/
+					/* subscript componds the size	*/
+} /* annotate_subscripts */
+
+static
+void
+bindblock(spec, unused1, unused2)			/* Function	*/
+  Node_id   spec;
+  int       unused1;			/* arg currently unused		*/
+  int       unused2;			/* arg currently unused		*/
+{
+  int       xt, r;
+  Node_id   d, f;
+  char     *label, *xs;
+
+  d = spec;
+  if (_parse.flags)
+    printf("bindblock(spec=[%d])\n", spec);
+
+  for (r = T__FIRST;  d = rnn(d, r, NIL);  r = T__PRECEDES)
+    {
+      ng(d, &xt, &xs);
+      if (xt == T_LABEL)		/* Check for named block	*/
+        {
+	  label = xs;
+	  if (_parse.flags)
+	    printf("bindblock: label=[%d]=\"%s\"\n", d, label);
+	  f = rnn(d, T__PRECEDES, NIL);	/* Get next item		*/
+	  if ( ! f )			/* Label is at end of program	*/
+	    continue;
+	  ng(f, &xt, &xs);
+	  if (_parse.flags)
+	    printf("bindblock: next=[%d] %s\n", f, to_token(xt));
+	  if (xt == T_BEGIN)		/* Named block, so post it	*/
+	    {
+	      if (_parse.flags)
+		printf("bindblock: posting label %s\n", label);
+	      post_string(_parse.div_base, T_BEGIN, label);
+	      post_string(f, T_LABEL, label);
+	    }
+	}
+      if (rnn(d, T__FIRST, NIL))	/* Has something deeper		*/
+        bindblock(d, unused1, unused2);	/* Scan it too			*/
+    }
+  if (_parse.flags)
+    printf("bindblock: exit\n");
+} /* bindblock */
+
+/**
+ *	Do allocation of fields.
+ */
+static
+void
+do_allocation(spec, size_buffer)			/* Function	*/
+  Node_id   spec;
+  long     *size_buffer;
+{
+  char     *s;
+  int       rel;
+  int       cnt, esize, t;
+  Node_id   n, tspec;
+  long      offset, size, field_of;
+
+  field_of = (long)spec;		/* Save what this is a field_of	*/
+
+  offset = 0L;				/* Initial offset into buffer	*/
+  rel = T__FIRST;
+  while (spec = rnn(spec, rel, NIL))
+    {
+      if (_parse.flags && _parse.yydebug)
+        printf("  do_allocation spec=[%5d]\n", spec);
+      
+      					/* Pointer back to parent	*/
+      post_long(spec, T__FIELD_OF, field_of);
+
+      if ( ! (tspec = rnn(spec, T__TYPE, NIL)) )
+        c_error("resolve: %s spec=[%d]",
+	        "internal error, no T__TYPE", spec);
+
+      cnt = 1;				/* Default array count		*/
+      if ((n = rnn(tspec, T_O_LBRACK, NIL)) ||
+	  (n = rnn(tspec, T_O_LPAREN, NIL))
+         )
+	{
+          ng(n, &t, &s);		/* Get array count		*/
+	  cnt = atoi(s);
+	  if (_parse.flags && _parse.yydebug)
+            printf("do_allocation n=[%d] s=%s cnt=%d\n", n, s, cnt);
+	  if (n = rnn(n, T__FIRST, NIL))/* Have more subscripts		*/
+	    do
+	      {
+	        ng(n, &t, &s);		/* Get next subscript		*/
+		cnt *= atoi(s);	
+		if (_parse.flags && _parse.yydebug)
+                  printf("do_allocation n=[%d] s=%s cnt=%d\n", n, s, cnt);
+	      }
+	    while (n = rnn(n, T__PRECEDES, NIL));
+	}
+
+      esize = 0;			/* There is no default size	*/
+      if (s = find_string(tspec, T__TYPE))
+	{
+	  esize = atoi(s + 1);		/* Better be A<n> or D<n> form	*/
+	  post_long(tspec, T__SIZE_BUFFER, esize); /* Resolved size	*/
+	}
+      else
+        c_error("resolve: %s spec=[%d]",
+                "internal error - can't find size of T__TYPE", spec);
+
+      if ((n = rnn(tspec, T_O_LBRACK, NIL)) ||
+	  (n = rnn(tspec, T_O_LPAREN, NIL))
+         )
+        annotate_subscripts(n, esize, offset, 1);
+
+      if (_parse.flags && _parse.yydebug)
+        printf("[%d] do_allocation %d elements of %d = %d @@ %d\n",
+               spec, cnt, esize, cnt * esize, offset);
+      size = cnt * esize;
+      post_long(spec, T__OFFSET, offset);
+      post_long(spec, T__SIZE_BUFFER, size);
+      offset += cnt * esize;
+
+      rel = T__PRECEDES;
+    }
+  *size_buffer = offset;
+} /* do_allocation */
+
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/resolve.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:06:10 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:32 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:53:08 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:17 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:17 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:43 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:42 $
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:32 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:14 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:35 $
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:18 $
+d232 2
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:05 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:46:03 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:44:05 $
+d94 2
+a95 2
+	      c_error("internal error: spec=[%d] allocate callid=%d",
+	              spec, callid);
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:48 $
+d32 1
+a32 1
+void      allocate	PROTOARGS((Node_id, int));
+d36 1
+a36 1
+void      bindblock	PROTOARGS((Node_id, int));
+d66 1
+a66 1
+allocate(spec, unused)					/* Function	*/
+d69 1
+d72 2
+a73 1
+  Node_id   prevspec = NIL;		/* Previous spec, none initially*/
+d79 25
+d210 1
+a210 1
+bindblock(spec, unused)					/* Function	*/
+d212 2
+a213 1
+  int       unused;			/* arg currently unused		*/
+d244 1
+a244 1
+        bindblock(d, unused);		/* Scan it too			*/
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:39:03 $
+d95 1
+a95 1
+          c_error("%s %s has nothing to redefine\n", to_token(type), s);
+d120 1
+a120 1
+          c_error("%s %s (%d bytes) exceeds size of %s %s (%d bytes)\n",
+d250 1
+a250 1
+        c_error("resolve: %s spec=[%d]\n",
+d280 1
+a280 1
+        c_error("resolve: %s spec=[%d]\n",
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:10 $
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:52 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:34 $
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:54 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:25 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:51 $
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:43 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:49 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:25 $
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:07 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:28 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:41:02 $
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:35 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:48 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:38 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:06 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:34 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:46 $
+d127 9
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:23 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:16 $
+d34 2
+d129 43
+d273 5
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/resolve.c,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.36 1995/05/02 10:43:23 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.35 1995/04/25 11:48:31 ldl Exp ldl $
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.34 1995/04/24 12:23:18 ldl Exp ldl $
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.33 1995/04/23 12:55:16 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.32 1995/04/22 12:42:54 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.31 1995/04/19 11:29:12 ldl Exp ldl $
+d138 3
+a140 2
+/**/printf("bindblock(spec=[%d])\n", spec);
+/***/
+d147 2
+a148 2
+/**/printf("bindblock: label=[%d]=\"%s\"\n", d, label);
+/***/
+d151 2
+a152 2
+/**/printf("bindblock: next=[%d] %s\n", f, to_token(xt));
+/***/
+d155 2
+a156 2
+/**/printf("bindblock: posting label %s\n", label);
+/***/
+d164 2
+a165 2
+/**/printf("bindblock: exit\n");
+/***/
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.30 1995/04/18 12:00:43 ldl Exp ldl $
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.29 1995/04/13 10:23:58 ldl Exp ldl $
+d153 2
+a154 1
+/**/{printf("bindblock: posting label %s\n", label);
+d156 3
+a158 3
+	    post_string(_parse.div_base, T_BEGIN, label);
+/**/}
+/***/
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.28 1995/04/03 11:47:14 ldl Exp ldl $
+d34 2
+d49 1
+d126 39
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.27 1995/03/27 03:06:30 ldl Exp ldl $
+d156 3
+a158 1
+      if (n = rnn(tspec, T_O_LBRACK, NIL))
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.26 1995/03/26 19:58:16 ldl Exp ldl $
+@
+
+
+1.26
+log
+@26-Mar-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.25 1995/03/23 13:31:35 ldl Exp ldl $
+d137 1
+a137 1
+  long      offset, size;
+d139 2
+d148 3
+@
+
+
+1.25
+log
+@23-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.24 1995/03/19 23:29:21 ldl Exp ldl $
+@
+
+
+1.24
+log
+@19-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.23 1995/03/08 13:33:30 ldl Exp ldl $
+@
+
+
+1.23
+log
+@08-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.22 1995/03/06 12:00:19 ldl Exp ldl $
+@
+
+
+1.22
+log
+@06-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.21 1995/03/06 10:32:00 ldl Exp ldl $
+d23 4
+@
+
+
+1.21
+log
+@06-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.20 1995/03/05 03:24:39 ldl Exp ldl $
+@
+
+
+1.20
+log
+@04-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.19 1995/03/03 12:36:21 ldl Exp ldl $
+d28 1
+a28 1
+void      allocate	PROTOARGS((Node_id));
+d36 1
+d41 2
+a42 1
+  walk_data_divs(allocate);		/* Allocate space		*/
+d57 1
+a57 1
+allocate(spec)						/* Function	*/
+d59 1
+@
+
+
+1.19
+log
+@03-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.18 1995/02/27 12:55:30 ldl Exp ldl $
+d142 1
+@
+
+
+1.18
+log
+@27-Feb-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.17 1995/02/26 10:54:30 ldl Exp ldl $
+d65 10
+a81 1
+/***	  ng(rnn(spec, T_ID, NIL), &t, &s); /* Get name of structure	*/
+d161 2
+a162 3
+      if (n = rnn(tspec, T__TYPE, NIL))
+        {
+	  ng(n, &t, &s);
+d164 1
+@
+
+
+1.17
+log
+@26-Feb-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.16 1995/01/07 15:34:55 ldl Exp ldl $
+a29 2
+void      assign_offsets PROTOARGS(());
+static
+a30 4
+static
+void      post_long	PROTOARGS((Node_id, int, long));
+static
+void      post_string	PROTOARGS((Node_id, int, char *));
+d40 1
+a40 1
+  assign_offsets();			/* Allocation of space		*/
+d62 3
+a64 2
+/**/printf("allocate(%d)\n", spec);
+/***/
+d69 1
+a69 1
+	  int       t, type;
+d72 2
+a73 1
+	  ng(rnn(spec, T_ID, NIL), &t, &s); /* Get name of structure	*/
+d83 2
+a84 1
+  prevspec = spec;			/* Remember this spec		*/
+d88 3
+a90 3
+					/* Save the size of the buffer	*/
+  post_long(spec, T__SIZE_BUFFER, size_buffer);
+} /* allocate */
+d92 4
+d97 5
+a101 35
+/**
+ *	Walk through parse tree looking for record/common/etc definitions
+ *	and assign offsets into storage for the field values.
+ */
+static
+void
+assign_offsets()					/* Function	*/
+{
+  char     *s;
+  int       r, t;
+  Node_id   d, spec;
+
+/**/printf("assign_offsets\n");
+/***/
+  d = rnn(_parse.tree, T__DIVISION, NIL);
+/**/printf("d=%d\n", d);
+/***/
+  r = T__FIRST;
+  while ( spec = rnn(d, r, NIL) )	/* Handle record/common/etc	*/
+    {
+/**/printf("d=%d r=%s spec=%d\n", d, to_token(r), spec);
+/***/
+      ng(spec, &t, &s);
+/**/printf("  t=%s[%d] s=\"%s\"\n", to_token(t), t, s ? s : "");
+/***/
+      switch (t)
+        {
+	  case T_COMMON:
+	  case T_LITERAL:
+	  case T_RECORD:
+	    allocate(spec);		/* Allocate space for spec	*/
+	    break;
+	  default:
+/**/printf("  ^skipped\n");
+/***/
+a102 1
+      d = spec, r = T__PRECEDES;
+d104 3
+a106 1
+} /* assign_offsets */
+d127 2
+a128 2
+/**/printf("  do_allocation spec=[%5d]\n", spec);
+/***/
+d138 2
+a139 1
+printf("do_allocation n=[%d] s=%s cnt=%d\n", n, s, cnt);
+d145 2
+a146 1
+printf("do_allocation n=[%d] s=%s cnt=%d\n", n, s, cnt);
+d161 3
+a163 3
+/**/printf("[%d] do_allocation %d elements of %d = %d @@ %d\n",
+/**/       spec, cnt, esize, cnt * esize, offset);
+/***/
+a172 34
+
+/**
+ *	Post a "long" value to the net.
+ */
+static
+void
+post_long(spec, rel, value)				/* Function	*/
+  Node_id   spec;
+  int       rel;
+  long      value;
+{
+  char      string[20];
+
+  sprintf(string, "%ld", value);
+  post_string(spec, rel, string);
+} /* post_long */
+
+/**
+ *	Post a "string" value to the net.
+ *	Note: Assume that "string" is static.
+ */
+static
+void
+post_string(spec, rel, string)				/* Function	*/
+  Node_id   spec;
+  int       rel;
+  char     *string;
+{
+  Token     t;
+
+  t.token_id    = rel;
+  t.token_value = strdup(string);
+  rs(spec, rel, mkid(t));
+} /* post_string */
+@
+
+
+1.16
+log
+@07-Jan-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.15 1995/01/07 11:22:37 ldl Exp ldl $
+d16 1
+a23 1
+#if 0
+d28 171
+a198 1
+void      follow_nodes	PROTOARGS((FILE *, Node_id, int, int));
+d201 1
+a201 2
+ *	The following control the management of the "net" as defined in
+ *	node.h.  These are local to this routine.
+d204 7
+a210 3
+Node_id   m_net = 0,			/* Currently (max) allocated	*/
+          n_net = 1;			/* Next node to use (0=reserved)*/
+#endif
+d212 4
+d217 2
+a218 4
+ *	Initialize the net to an initial size of m_node.  If the net
+ *	exists, it is grown by m_node entries.  (At this time, there is
+ *	no "clearing" of nodes, nor re-use.  It is expected that the net
+ *	is a build-only form - no re-init.)
+d220 6
+a225 2
+int
+resolve()						/* Function	*/
+d227 6
+a232 2
+  int       m_node;
+} /* resolve */
+@
+
+
+1.15
+log
+@07-Jan-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.14 1994/12/31 02:31:33 ldl Exp ldl $
+@
+
+
+1.14
+log
+@30-Dec-1994 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/resolve.c,v 1.13 1994/12/30 21:01:53 ldl Exp ldl $
+@
+
+
+1.13
+log
+@30-Dec-1994 Checkpoint 1
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d52 1
+a52 1
+/* End of $Source$ */
+@

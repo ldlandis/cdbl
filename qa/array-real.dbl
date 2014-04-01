@@ -1,0 +1,49 @@
+;;;
+; $Source$
+; $Revision$ $Date$
+; Real Arrays
+
+RECORD
+	ALPHABET, [4,13]A1, "A","B","C","D","E","F","G","H","I","J",
+			    "K","L","M","N","O","P","Q","R","S","T",
+			    "U","V","W","X","Y","Z","a","b","c","d",
+			    "e","f","g","h","i","j","k","l","m","n",
+			    "o","p","q","r","s","t","u","v","w","x",
+			    "y","z"
+
+	X	, [2,2,2]A1, 1, 2, 3, 4, 5, 6, 7, 8
+	I	, D1
+	J	, D1
+	K	, D1
+	VALUE	, D1, 0
+	IA	, A1
+	JA	, A1
+	KA	, A1
+	VALUEA	, A1
+PROC
+	DISPLAY(1, "ALPHABET[1, 1] = '",ALPHABET[1, 1],"' want 'A'", 10)
+	DISPLAY(1, "ALPHABET[1, 2] = '",ALPHABET[1, 2],"' want 'B'", 10)
+	DISPLAY(1, "ALPHABET[4,13] = '",ALPHABET[4,13],"' want 'z'", 10)
+	DISPLAY(1, "ALPHABET[2,13] = '",ALPHABET[2,13],"' want 'Z'", 10)
+	DISPLAY(1, ALPHABET[1, 4],
+	       &   ALPHABET[1, 9],
+	       &   ALPHABET[1, 2],
+	       &   ALPHABET[2, 2],
+	       &   ALPHABET[1,12],
+	       &  10
+	       )
+	FOR I FROM 1 THRU 2
+	  FOR J FROM 1 THRU 2
+	    FOR K FROM 1 THRU 2
+	      BEGIN
+		INCR VALUE
+		IA = I
+		JA = J
+		KA = K
+		VALUEA = VALUE
+		DISPLAY(1, "X[",IA,",",JA,",",KA,"] = ", X[I,J,K],
+		       & " want ", VALUEA, 10)
+	      END
+	END
+
+; End of $Source$

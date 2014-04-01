@@ -1,0 +1,179 @@
+head	1.7;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.7
+date	94.12.02.07.12.51;	author ldl;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	94.12.01.07.06.01;	author ldl;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	94.11.28.05.26.51;	author ldl;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	94.11.26.08.23.46;	author ldl;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	94.11.22.14.26.45;	author ldl;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	94.11.19.06.22.09;	author ldl;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	94.11.16.13.07.08;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@01-Dec-94 Checkpoint
+@
+text
+@$Header$
+
+1994
+12/01 Got quite a bit hacked.  gram.g is closer (compiles clean), but
+      still have some action code to do.  Need to address lex.l, still
+      old scheme.  Put this log (Log) and TimeLog into reverse order so
+      most current is on top, and changed to RCS header in these files.
+11/30 Debugged (I think) node, and started putting gram/lex/node
+      together.  Back up.  Needing to work out net structures for parsed
+      stuff.
+11/27 Debugging node code (via node_qa).  Still needing work.  Checkin.
+11/26 Got mktokens.awk to work the way I wanted, and started mashing
+      lex.l to fit.  Need to find the DIBOL reference manual for some
+      operators!  (don't know what and/or/not/etc are).
+11/25 Hacked mktokens.awk.  Got check from TSI.
+11/22 Continue developing node.{c,h}.
+11/20 Began to developing nodes, but was reminded to honor the Sabbath.
+11/19 Completed initial pass at action code.  Began the initial pass at
+      the lexical analyzer.
+11/18 Began adding action code to gram.g.  Haven't started lex.l/node.c.
+      Finished initial pass of action code.
+11/16 Continued gram.g, started to yacc it.  Have 16 shift/reduce
+      conflicts to resolve, and a strange "undefined result assigned to
+      $$" in the "stmt: assignment" production (line 412).  Need to
+      examine to see if significant enough to worry about before
+      proceeding.  May start to hack in building the symbol table.
+      Next steps, hack lex.l and node.c.  Not planning to use C++ at
+      this time.
+11/15 Continued, hacked node.h to define a "tangled net" structure.
+      I want to see how well it works in a compiler.
+11/14 Continued gram.g
+11/12 Began lex.l, gram.g and ref using DIBOL reference manual
+
+End of $Source: /home/ldl/dbl/RCS/Log,v $
+@
+
+
+1.6
+log
+@30-Nov-94 Checkpoint
+@
+text
+@d1 1
+a1 1
+$Source: /home/ldl/dbl/RCS/Log,v $
+d3 17
+a19 10
+11/12 Began lex.l, gram.g and ref using DIBOL reference manual
+11/14 Continued gram.g
+11/15 Continued, hacked node.h to define a "tangled net" structure.  I want
+      to see how well it works in a compiler.
+11/16 Continued gram.g, started to yacc it.  Have 16 shift/reduce conflicts
+      to resolve, and a strange "undefined result assigned to $$" in the
+      "stmt: assignment" production (line 412).  Need to examine to see if
+      significant enough to worry about before proceeding.  May start to hack
+      in building the symbol table.  Next steps, hack lex.l and node.c.
+      Not planning to use C++ at this time.
+d22 11
+a32 11
+11/19 Completed initial pass at action code.  Began the initial pass at the
+      lexical analyzer.
+11/20 Began to developing nodes, but was reminded to honor the Sabbath.
+11/22 Continue developing node.{c,h}.
+11/25 Hacked mktokens.awk.  Got check from TSI.
+11/26 Got mktokens.awk to work the way I wanted, and started mashing lex.l
+      to fit.  Need to find the DIBOL reference manual for some operators!
+      (don't know what and/or/not/etc are).
+11/27 Debugging node code (via node_qa).  Still needing work.  Checkin.
+11/30 Debugged (I think) node, and started putting gram/lex/node together.
+      Back up.  Needing to work out net structures for parsed stuff.
+@
+
+
+1.5
+log
+@27-Nov-94 Checkpoint
+@
+text
+@d1 1
+a1 1
+$Source$
+d24 2
+d27 1
+a27 1
+End of $Source$
+@
+
+
+1.4
+log
+@25-Nov-94 Checkpoint (Early A.M. on the 26th)
+@
+text
+@d1 2
+d23 1
+d25 1
+a25 1
+	NEED TO GET BACK TO NODE TOO
+@
+
+
+1.3
+log
+@22-Nov-94 Checkpoint
+@
+text
+@d17 4
+d22 1
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d13 4
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d11 2
+@

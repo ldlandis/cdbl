@@ -1,0 +1,14 @@
+SUBROUTINE QA_CLEAR
+  ARG		,D2
+
+RECORD PROG_VARS
+	BLANK_LINE	,A80 , '                                        '
+&                              '                                        '
+	C_ROW 		,D2
+
+PROC
+	CLEAR PROG_VARS
+	CLEAR BLANK_LINE
+	CLEAR C_ROW
+	CLEAR ARG
+	CLEAR PROG_VARS, BLANK_LINE, C_ROW, ARG

@@ -1,0 +1,2472 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.06.01;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.54.01;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.06.08;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.29;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.07;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.16;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.16;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.42;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.41;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.31;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.13;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.34;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.17;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.04;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.46.01;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.03;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.47;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.39.02;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.08;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.51;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.32;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.53;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.20;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.50;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.42;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.48;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.24;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.06;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.27;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.41.01;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.34;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.47;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.37;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.05;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.33;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.45;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.22;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.15;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.22;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.30;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.16;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.15;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.53;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.11;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.41;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.57;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.13;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.29;	author ldl;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	95.03.26.19.58.15;	author ldl;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	95.03.23.13.31.34;	author ldl;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	95.03.19.23.29.20;	author ldl;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	95.03.08.13.33.29;	author ldl;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	95.03.06.12.00.18;	author ldl;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	95.03.06.10.31.59;	author ldl;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	95.03.05.03.24.38;	author ldl;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	95.03.03.12.36.20;	author ldl;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	95.02.27.12.55.29;	author ldl;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	95.02.26.10.54.29;	author ldl;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	95.01.07.15.34.53;	author ldl;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	95.01.07.11.22.36;	author ldl;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	94.12.31.02.31.32;	author ldl;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	94.12.30.21.01.51;	author ldl;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	94.12.27.04.07.26;	author ldl;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	94.12.26.23.53.00;	author ldl;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	94.12.16.07.22.19;	author ldl;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	94.12.15.23.42.30;	author ldl;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	94.12.04.07.22.26;	author ldl;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	94.12.02.07.12.51;	author ldl;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	94.12.01.07.06.01;	author ldl;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	94.11.28.05.26.51;	author ldl;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	94.11.26.08.23.57;	author ldl;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	94.11.22.14.26.54;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/node.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:54:01 $
+ */
+
+/***
+ *	This implements the "tangled net" structure.
+ *
+ *	See the documentation in node.h for more information.
+ *	Note: Assumes that gram.h includes node.h.
+ */
+
+#include <stdio.h>
+#include "prototype.h"
+#include "assert.h"
+#include "gram.h"
+#include "parse.h"
+#include "_tokens.h"
+
+
+/**
+ *	Local functions
+ */
+static
+void      follow_nodes	PROTOARGS((FILE *, Node_id, int, int));
+static
+void      print_node	PROTOARGS((FILE *, Node_id));
+static
+Node_id   rel_create	PROTOARGS((Node_id));
+static
+Node_id   rel_insert	PROTOARGS((Node_id, Node_id));
+static
+Node_id   rel_new	PROTOARGS((Node_id));
+
+
+/**
+ *	The following control the management of the "net" as defined in
+ *	node.h.  These are local to this routine.
+ */
+static
+Node_id   m_net = 0,			/* Currently (max) allocated	*/
+          n_net = 1;			/* Next node to use (0=reserved)*/
+
+static
+int       to_token_non_fatal = 0;	/* Kludge flag			*/
+
+
+/**
+ *	Initialize the net to an initial size of m_node.  If the net
+ *	exists, it is grown by m_node entries.  (At this time, there is
+ *	no "clearing" of nodes, nor re-use.  It is expected that the net
+ *	is a build-only form - no re-init.)
+ */
+void
+node_init(m_node)					/* Function	*/
+  int       m_node;
+{
+  if (_parse.flags)
+    printf("node_init(%d) m_net=%d\n", m_node, m_net);
+
+  if ( ! net )				/* The net is not initialized	*/
+    net = (Node *) u_calloc((m_net = m_node), sizeof(Node));
+  else					/* Expand the net		*/
+    net = (Node *) u_realloc((void *)net, (m_net += m_node) * sizeof(Node));
+
+/** /printf("node_init: m_node=%d m_net=%d\n", m_node, m_net);
+/***/
+  { /* block */				/* Init the new nodes		*/
+    Node_id   m;
+    for (m = m_net - 1;  m >= n_net;  --m)
+      net[m].n_type = NIL;		/* Init the node		*/
+  } /* block */
+  if (_parse.flags)
+    printf("node_init: m_net=%d n_net=%d net@@0x%08x\n", m_net, n_net, net);
+} /* node_init */
+
+/**
+ *	Print node table entries from b_node upto (but not including)
+ *	e_node.
+ */
+void
+node_print(f, b_node, e_node)				/* Function	*/
+  FILE     *f;
+  Node_id   b_node;
+  Node_id   e_node;
+{
+  Node_id   m, n;
+  node_usage(&m, &n);			/* Get used and allocated	*/
+  if (e_node == -1)			/* If dump to end		*/
+    e_node = n;
+  fprintf(f, "------------------------------------------------------\n");
+  fprintf(f, "Node %d thru %d    (%d/%d allocated)\n", b_node, e_node, n, m);
+  for (n = b_node;  n < e_node;  ++n)	/* Dump nodes via #		*/
+    print_node(f, n);
+  fprintf(f, "------------------------------------------------------\n");
+} /* node_print */
+
+/**
+ *	Print node table entries, tracing relationships "levels" deep.
+ *	Note: levels=-1 do all levels.
+ */
+void
+node_trace(f, b_node, levels)				/* Function	*/
+  FILE     *f;
+  Node_id   b_node;
+  int       levels;
+{
+  static
+  int       indent = 0;
+  Node_id   n;
+  int       rel;
+
+  ++indent;
+
+  printf("\n%3d [%5d] %*s", indent, b_node, _parse.indent * indent, "");
+  { /* block */				/* Print the node		*/
+    int       type;
+    char     *value;
+    ng(b_node, &type, &value);
+    printf("%s%s%s", to_token(type), value ? ":" : "", value ? value : "");
+  } /* block */
+
+/*
+ *  s rel="",n="",levels=levels-1
+ *  f:levels  s rel=$o(^NET(b_node,rel)) q:rel=""  d
+ *  . s n="" f  s n=$o(^NET(b_node,rel,n)) d:n'="" node_trace(f,n,levels)
+ */
+  rel = 0, n = NIL;			/* Start with first relation	*/
+  if (levels--)				/* If more levels requested, do	*/
+    {
+      while (rel = rn(b_node, rel))	/* For each relation		*/
+        {
+          int       n_rel = 0;
+	  ++indent;
+					/* For each node per relation	*/
+          while ((n = rnn(b_node, rel, n)) && ++n_rel)
+	  switch (rel)
+	    {
+	      case T__REDEFINES:
+	      case T__REDEFINEDBY:
+	        printf(" %s [%5d]", to_token(rel), n);
+		break;
+	      case T__FIRST:
+	      case T__PRECEDES:
+	        break;
+	      default:
+	        printf("\n%3d [%5d] %*s%s", indent, n,
+	               _parse.indent*indent, "", to_token(rel));
+                node_trace(f, n, levels);/* Trace the node		*/
+		break;
+	    }
+	  if ( ! n_rel && (rel != T__LAST))
+	    printf("\n%3d [%5d] %*s%s [NIL]", indent, b_node,
+	           _parse.indent*indent, "", to_token(rel));
+          --indent;
+        }
+      if (n = rnn(b_node, T__FIRST, NIL))/* Follow "first", if any	*/
+	{				/*  and all T__PRECEDES		*/
+	  ++indent;
+	  printf("\n%3d [%5d] %*s%s", indent, n,
+	         _parse.indent*indent, "", to_token(T__FIRST));
+	  follow_nodes(f, n, levels, indent);/* Process node list	*/
+	  --indent;
+	}
+    }
+
+  if ( --indent == 0 )
+    fprintf(f, "\nThe End\n");
+
+} /* node_trace */
+
+/**
+ *	Return usage information for statistics.
+ */
+void
+node_usage(m_node, n_node)				/* Function	*/
+  Node_id  *m_node;
+  Node_id  *n_node;
+{
+  *m_node = m_net;
+  *n_node = n_net;
+} /* node_usage */
+
+/**
+ *	Decode token value to readable text.
+ */
+char *
+to_token(t)						/* Function	*/
+  int       t;
+{
+  char     *s;
+
+  if (to_token_non_fatal && ( ! ( (T__NIL  <= t) && (t <= T__LAST) ) ))
+    return "!BOGUS!";
+
+  assert("tl", t, T__NIL , T__NIL <= t);
+  assert("th", t, T__LAST,      t <= T__LAST);
+
+  t -= T__NIL;				/* Remove offset for array ref	*/
+
+  if ( ! (s = token_kw[t]) )		/* Pick a table to decode by	*/
+    if ( ! ( s = tokenseq[t] ) )
+      s = token_rkw[t];			/* "Raw bits" is *best*		*/
+  return s;
+} /* to_token */
+
+/**
+ *	Allocate a new node (Expand net if necessary).
+ *	Note: node == 0 is "wasted" as need to have "0" as "none".
+ */
+Node_id
+nn PROTOARGS((void))					/* Function	*/
+{
+  Node_id   n;
+
+  if (m_net == 0)			/* Net not yet allocated	*/
+    node_init(NET_INITIAL_SIZE);	/*   Create the net		*/
+  else if (n_net == m_net)		/* Need to expand		*/
+    node_init(NET_GROW);		/*   So grow the net		*/
+
+  n = n_net++;				/* Take next node		*/
+  if (_parse.yydebug)
+    printf("[%d]\n", n);
+  return n;				/* Return allocated Node_id	*/
+} /* nn */
+
+/**
+ *	Set "type" and "value" of node "n".
+ */
+void
+ns(n, type, value)					/* Function	*/
+  Node_id   n;
+  int       type;
+  char     *value;
+{
+  register
+  Node     *node = net + n;
+
+/** /printf("vv------------------------------------------------------\n");
+/** /printf("ns(n=%d, type=%d, value=\"%s\")\n", n, type, value);
+/** /printf("^^------------------------------------------------------\n");
+/***/
+  node->n_type  = type;			/* Setup node			*/
+  node->n_value = value;
+  node->n_first = node->n_last = NIL;
+} /* ns */
+
+/**
+ *	Set "type" and "value" of node "n".
+ *	BUT NOT TOUCH RELATIONS.  Otherwise identical to ns().
+ */
+void
+nsv(n, type, value)					/* Function	*/
+  Node_id   n;
+  int       type;
+  char     *value;
+{
+  register
+  Node     *node = net + n;
+
+/** /printf("vv------------------------------------------------------\n");
+/** /printf("ns(vn=%d, type=%d, value=\"%s\")\n", n, type, value);
+/** /printf("^^------------------------------------------------------\n");
+/***/
+  node->n_type  = type;			/* Setup node			*/
+  node->n_value = value;
+} /* nsv */
+
+/**
+ *	Get "type" and "value" of node "n".
+ */
+void
+ng(n, type, value)					/* Function	*/
+  Node_id   n;
+  int      *type;
+  char    **value;
+{
+  register
+  Node     *node = net + n;
+
+/** /printf("ng(n=%d, ", n);
+/***/
+  assert("n", n, 0, n && n < n_net && net[n].n_type);
+  *type  = node->n_type;
+  *value = node->n_value;
+/** /printf(" *type=%d, *value=\"%s\")\n", *type, *value);
+/***/
+} /* ng */
+
+/**
+ *	Set relation "rel" between node "n" and node "m".
+ *	Note: Effectively, this routine "sorts" the rel,m nodes such
+ *	      that the "$o()" stuff works easily.
+ */
+void
+rs(n, rel, m)						/* Function	*/
+  Node_id   n;
+  int       rel;
+  Node_id   m;
+{
+  register
+  Node_id   p;
+  register
+  Node     *node;
+
+/** /printf("vv------------------------------------------------------\n");
+/** /printf("rs(n=%d, rel=%d, m=%d)\n", n, rel, m);
+/***/
+  if (p = net[n].n_first)		/* If relationships exist	*/
+    {
+/** /printf("rs: follow n_first=%d\n", p);
+/***/
+      do
+        {
+/** /printf("rs: p=%d.n_type=%d\n", p, net[p].n_type);
+/***/
+          assert("p", p, 0, net[p].n_type == T__RELATIONSHIP);
+	  if (rel < net[p].n_relation)	/* Find relationship position	*/
+	    break;			/* New rel is before p		*/
+	  else if ((rel == net[p].n_relation) && (m < net[p].n_relative))
+	    break;			/* New rel is before p		*/
+        }
+      while (p = net[p].n_next);
+/** /printf("rs: done search, now insert p=%d\n", p);
+/***/
+      					/* Insert in relationship chain	*/
+      p = rel_insert(n, p ? p : net[n].n_last);
+    }
+  else
+    p = rel_create(n);			/* Create relationship list	*/
+
+/** /printf("rs: setup p=%d\n", p);
+/***/
+  node             = net + p;
+  node->n_relation = rel;		/* Assign relationship stuff	*/
+  node->n_relative = m;
+/** /printf("rs: returning\n");
+/** /printf("^^------------------------------------------------------\n");
+/***/
+} /* rs */
+
+/**
+ *	Get next relation following "rel" between node "n" and node "m".
+ *	Note: rel=0 returns first (if any) relationship.
+ *	Return 0 when no relation follows "rel".
+ *	M equiv: $O(^NET(n,rel))
+ */
+int
+rn(n, rel)						/* Function	*/
+  Node_id   n;
+  int       rel;
+{
+  Node_id   p;
+  int       nrel = 0;
+
+  rel = rel ? rel : T__NIL;		/* Skip the first (dummy) rel	*/
+
+/** /printf("rn(n=%d, rel=%d)\n", n, rel);
+/***/
+					/* Ensure that n is valid	*/
+  assert("n", n, 0, n && n < n_net && net[n].n_type);
+
+  if ((p = net[n].n_first) != NIL)	/* We have a chain		*/
+    do
+      {
+        Node     *node = net + p;
+/** /printf("rn: p=%d.n_type=%d\n", p, node->n_type);
+/***/
+        assert("p", p, 0, p && p < n_net && node->n_type == T__RELATIONSHIP);
+
+	if (node->n_relation > rel)	/* Found the next greater rel	*/
+	  nrel = node->n_relation;	/*   mark it so loop quits	*/
+
+/** /printf("rn: nrel=%d\n", nrel);
+/***/
+	p = node->n_next;		/* Pick up next node		*/
+      }
+    while ( !nrel && p);		/* Until found or end		*/
+/** /printf("rn: returning %d\n", nrel);
+/***/
+  return nrel;
+} /* rn */
+
+/**
+ *	Read next node (following "m") on relationship "rel".
+ *	Note: m=0 returns first node on relationship "rel".
+ *	Return NIL (0) at end of nodes on relationship.
+ *	M equiv: $O(^NET(n,rel,m))
+ */
+Node_id
+rnn(n, rel, m)						/* Function	*/
+  Node_id   n;
+  int       rel;
+  Node_id   m;
+{
+  Node_id   p;
+  int       nm = NIL;
+
+/** /printf("rnn(n=%d, rel=%d, m=%d)\n", n, rel, m);
+/***/
+					/* Ensure that n is valid	*/
+  if ( ! ( n && n < n_net && net[n].n_type) )
+    {
+      printf("rnn(n=%d, rel=%d, m=%d) net[%d].n_type=%d\n",
+             n, rel, m, n, net[n].n_type);
+      assert("n", n, 0, n && n < n_net && net[n].n_type);
+    }
+
+  if ((p = net[n].n_first) != NIL)	/* We have a chain		*/
+    do
+      {
+        Node     *node = net + p;
+/** /printf("rnn: p=%d.n_type=%d\n", p, node->n_type);
+/***/
+        assert("p", p, 0, p && p < n_net && node->n_type == T__RELATIONSHIP);
+
+	if (node->n_relation == T__LAST)
+	  break;			/* There aint no more so quit	*/
+
+	if ((node->n_relation == rel)	/* Found the relation wanted	*/
+	    && (node->n_relative > m)	/*   and a next relative	*/
+	   )
+	  nm = node->n_relative;	/*   mark it so loop quits	*/
+	 				/* Pick up next node		*/
+/** /printf("rnn: nm=%d\n", nm);
+/***/
+	p = (node->n_relation <= rel) ? node->n_next : NIL;
+      }
+    while ( !nm && p);			/* Until found or end		*/
+/** /printf("\nrnn: returning %d\n", nm);
+/***/
+  return nm;
+} /* rnn */
+
+/**
+ *	Kill off nodes.
+ *	Currently not defined as I don't see a use for it, so, will leave
+ *	this here in the event that it is needed, it is here.
+ */
+void
+rk(n, rel, m)						/* Function	*/
+  Node_id   n;
+  int       rel;
+  Node_id   m;
+{
+/*
+ *	rk(n, rel, m)			I $D(rel) D
+ *		.			. I $D(m) K ^NET(n,rel,m)
+ *		.			. E K ^NET(n,rel)
+ *		.			E  K ^NET(n)
+ */
+/**/printf("rk(n=%d, rel=%d, m=%d)\n", n, rel, m);
+/***/
+ assert("nm", n, m, ("intentional fatal error", 0));
+} /* rk */
+
+
+/***
+ *	Local support functions.
+ */
+
+/**
+ *	Follow T__PRECEDES chain.
+ */
+static
+void
+follow_nodes(f, b_node, levels, indent)			/* Function	*/
+  FILE     *f;
+  Node_id   b_node;
+  int       levels;
+  int       indent;
+{
+  int       n = b_node, first = 1, on = n;
+  do
+    {
+      if ( ! first )
+	printf("\n%3d [%5d] %*s%s", indent, on,
+	       _parse.indent*indent, "", to_token(T__PRECEDES));
+      first = 0;
+      node_trace(f, n, levels);		/* Trace the node		*/
+    }
+  while (on = n, n = rnn(n, T__PRECEDES, NIL));
+} /* follow_nodes */
+
+/**
+ *	Print out a node and its relation pointers
+ */
+static
+void
+print_node(f, nid)					/* Function	*/
+  FILE     *f;
+  Node_id   nid;
+{
+  Node     *n = net + nid;
+
+  fprintf(f, "[%5d] ", nid);
+
+  if (nid && nid < n_net && n->n_type)	/* Decoding a valid node	*/
+    {
+      int       tt, r;
+      char     *s;
+
+      r  = n->n_type == T__RELATIONSHIP;
+      tt = r ? n->n_relation : n->n_type;
+
+      to_token_non_fatal = 1;
+      s  = to_token(tt);		/* Convert to readable		*/
+      to_token_non_fatal = 0;
+      					/* Print the type		*/
+      fprintf(f, "%3d:%-15s ", tt, s);
+
+      if ( ! r )			/* If not a relationship node	*/
+        fprintf(f, "f[%5d] l[%5d] v=\"%s\"\n",
+	            n->n_first,
+			   n->n_last,
+	                          (s = n->n_value) ? s : "");
+      else
+        fprintf(f, "                [%5d] ~[%5d] p[%5d] n[%5d]\n",
+	            n->n_relative,
+	                  n->n_parent,
+			         n->n_prev,
+				        n->n_next);
+    }
+  else
+    fprintf(f, "*** invalid node number ***\n");
+} /* print_node */
+
+/**
+ *	Insert a relationship node on the relationship chain.
+ *	Returns node to acquire relationship info.
+ *	Note: the "last" node is allocated initially, and is never
+ *	superceded (i.e. it always sorts "last").
+ *		 next           next
+ *	        ------>        ------>
+ *	    p              r              q
+ *	        <------        <------
+ *		 prev		prev
+ */
+static
+Node_id
+rel_create(n)						/* Function	*/
+  Node_id   n;
+{
+  Node_id   p = rel_new(n),		/* Create relationship node	*/
+            q = rel_new(n),		/* Create guaranteed "last" node*/
+	    r = rel_new(n);		/* Relationship node (allocated)*/
+
+/** /printf("rel_create(n=%d) p=%d q=%d r=%d\n", n, p, q, r);
+/** /node_print(stdout, 1, n_net);
+/***/
+  net[n].n_first    = p;		/* Setup pointers in parent	*/
+  net[n].n_last     = q;		/*   to relationship list	*/
+
+  net[p].n_relation = T__NIL;		/* The "first" token		*/
+  net[p].n_relative = 0;		/* Can never get before this	*/
+
+  net[r].n_prev     = p;		/* Establish linkages		*/
+  net[q].n_prev     = r;
+
+  net[p].n_next     = r;		/* Chain the list together	*/
+  net[r].n_next     = q;
+
+  net[q].n_relation = T__LAST;		/* The "last" token		*/
+  net[q].n_relative = -1;		/* Can never get this high	*/
+
+/** /printf("rel_create: p=%d\n", p);
+/** /node_print(stdout, 1, n_net);
+/***/
+  return r;				/* Return allocated node	*/
+} /* rel_create */
+
+/**
+ *	Insert a relationship node on the relationship chain.
+ *	Returns node to receive relationship info.
+ *	Note: The rs() routine effectively "sorts" the nodes so
+ *	      that the "$o()" stuff is easy for rn() and rnn().
+ */
+static
+Node_id
+rel_insert(parent, n)					/* Function	*/
+  Node_id   parent;
+  Node_id   n;
+{
+  Node_id   p = net[n].n_prev,		/* Get previous node in chain	*/
+            r = rel_new(n);		/* Get the new node		*/
+
+/** /printf("rel_insert(parent=%d, n=%d) p=%d r=%d\n", parent, n, p, r);
+/** /printf("rel_insert: net[p=%d].n_next=%d\n", p, net[p].n_next);
+/** /node_print(stdout, 1, n_net);
+/***/
+  assert("pn", p, n, net[p].n_next == n);/* Just checking		*/
+
+  net[r].n_next = n;			/* Insert r into chain		*/
+  net[r].n_prev = p;
+  net[p].n_next = r;
+  net[n].n_prev = r;
+
+/** /printf("rel_insert: r=%d\n", r);
+/** /node_print(stdout, 1, n_net);
+/***/
+  return r;
+} /* rel_insert */
+
+/**
+ *	Create a new relationship node
+ */
+static
+Node_id
+rel_new(n)						/* Function	*/
+  Node_id   n;
+{
+  Node_id   p = nn();			/* Get new node			*/
+  register
+  Node     *node;
+
+/** /printf("rel_new(n=%d) p=%d\n", n, p);
+/** /node_print(stdout, 1, n_net);
+/***/
+  node             = net + p;		/* Get its address		*/
+  node->n_type     = T__RELATIONSHIP;	/* This is a relationship node	*/
+  node->n_parent   = n;			/* Assign the parent node	*/
+  node->n_relation = T__NIL;		/* Nothing specified, yet	*/
+  node->n_relative = NIL;
+  node->n_prev     = NIL;		/* No next or previous (yet)	*/
+  node->n_next     = NIL;
+
+/** /printf("rel_new: p=%d\n", p);
+/** /node_print(stdout, 1, n_net);
+/***/
+  return p;				/* Return relationship node	*/
+} /* rel_new */
+
+
+#ifdef	MODULE_TEST
+#include <varargs.h>
+int       inhibit_c_dump_nodes = 0,
+	  divide_by_zero_on_assertion_failure = 0;
+/**
+ *	Test the functionality of the node code.  (Not real robust, but
+ *	enuf to get something right before tangling with the real user).
+ */
+main()
+{
+  Node_id   n, top, mnet, nnet;
+  
+  setbuf(stdout, NULL);
+
+  top = n = nn();			/* Get a new node		*/
+  ns(top, T_SUBROUTINE, "progname");
+  ns(n = nn(), T_ID,     "id");
+  rs(top, T_RETURN, n);
+  ns(n = nn(), T_STRING, "string");
+  rs(top, T_WRITES, n);
+  ns(n = nn(), T_NUMBER, "number");
+  rs(top, T_READS,  n);
+
+
+  printf("------------------------------------------------------------\n");
+  node_usage(&mnet, &nnet);
+  printf("node_usage: m_net=%d n_net=%d\n", mnet, nnet);
+  printf("------------------------------------------------------------\n");
+  printf("node_print(<stdout>, b_node=%d, e_node=%d)\n", top, top);
+  node_print(stdout, top, top);
+  printf("------------------------------------------------------------\n");
+  printf("node_print(<stdout>, b_node=%d, e_node=%d)\n", 1, nnet);
+  node_print(stdout, 1, nnet);
+  printf("------------------------------------------------------------\n");
+  printf("node_trace(<stdout>,top=%d,  0)\n", top);
+  node_trace(stdout, top, 0);
+  printf("------------------------------------------------------------\n");
+  printf("node_trace(<stdout>,top=%d,  1)\n", top);
+  node_trace(stdout, top, 1);
+  printf("------------------------------------------------------------\n");
+  printf("node_trace(<stdout>,top=%d, -1)\n", top);
+  node_trace(stdout, top, -1);
+  printf("------------------------------------------------------------\n");
+  exit( 0 );
+} /* main */
+
+void
+c_dump_nodes(n)
+  Node_id   n;
+{
+  printf("c_dump_nodes not in node.c\n");
+} /* dummy c_dump_nodes */
+
+void
+c_error()
+{
+  printf("c_error not in node.c\n");
+} /* dummy c_error */
+
+void
+c_warning()
+{
+  printf("c_warning not in node.c\n");
+} /* dummy c_error */
+#endif/*MODULE_TEST*/
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/node.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:06:08 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:29 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:53:07 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:16 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:16 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:42 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:41 $
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:31 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:13 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:34 $
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:17 $
+d636 2
+a637 1
+int       inhibit_c_dump_nodes = 0;
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:04 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:46:01 $
+d247 21
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:44:03 $
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:47 $
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:39:02 $
+d614 2
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:08 $
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:51 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:32 $
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:53 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:20 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:50 $
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:42 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:48 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:24 $
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:06 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:27 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:41:01 $
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:34 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:47 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:37 $
+d133 1
+d135 2
+a136 1
+          while (n = rnn(b_node, rel, n))/* For each node per relation	*/
+d152 3
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:05 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:33 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:45 $
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:22 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:15 $
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/node.c,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.36 1995/05/02 10:43:22 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.35 1995/04/25 11:48:30 ldl Exp ldl $
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.34 1995/04/24 12:23:16 ldl Exp ldl $
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.33 1995/04/23 12:55:15 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.32 1995/04/22 12:42:53 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.31 1995/04/19 11:29:11 ldl Exp ldl $
+d58 3
+a60 2
+/**/printf("node_init(%d) m_net=%d\n", m_node, m_net);
+/***/
+d73 2
+a74 2
+/**/printf("node_init: m_net=%d n_net=%d net@@0x%08x\n", m_net, n_net, net);
+/***/
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.30 1995/04/18 12:00:41 ldl Exp ldl $
+d377 2
+a378 1
+      printf("rnn(n=%d, rel=%d, m=%d)\n", n, rel, m);
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.29 1995/04/13 10:23:57 ldl Exp ldl $
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.28 1995/04/03 11:47:13 ldl Exp ldl $
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.27 1995/03/27 03:06:29 ldl Exp ldl $
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.26 1995/03/26 19:58:15 ldl Exp ldl $
+@
+
+
+1.26
+log
+@26-Mar-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.25 1995/03/23 13:31:34 ldl Exp ldl $
+@
+
+
+1.25
+log
+@23-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.24 1995/03/19 23:29:20 ldl Exp ldl $
+@
+
+
+1.24
+log
+@19-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.23 1995/03/08 13:33:29 ldl Exp ldl $
+d662 5
+@
+
+
+1.23
+log
+@08-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.22 1995/03/06 12:00:18 ldl Exp ldl $
+@
+
+
+1.22
+log
+@06-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.21 1995/03/06 10:31:59 ldl Exp ldl $
+d58 1
+a58 1
+/** /printf("node_init(%d) m_net=%d\n", m_node, m_net);
+d61 1
+a61 3
+    if ( ! (net = (Node *) calloc((m_net = m_node), sizeof(Node))) )
+Fail: fprintf(stderr, "node_init: can't allocate %d nodes\n", m_node),
+      exit( 1 );			/* Bail out			*/
+d63 1
+a63 2
+    if ( ! (net = (Node *)realloc(net, (m_net += m_node) * sizeof(Node))) )
+      goto Fail;
+d72 1
+a72 1
+/** /printf("node_init: m_net=%d n_net=%d net@@0x%08x\n", m_net, n_net, net);
+d375 5
+a379 1
+  assert("n", n, 0, n && n < n_net && net[n].n_type);
+d648 14
+@
+
+
+1.21
+log
+@06-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.20 1995/03/05 03:24:38 ldl Exp ldl $
+@
+
+
+1.20
+log
+@04-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.19 1995/03/03 12:36:20 ldl Exp ldl $
+@
+
+
+1.19
+log
+@03-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.18 1995/02/27 12:55:29 ldl Exp ldl $
+@
+
+
+1.18
+log
+@27-Feb-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.17 1995/02/26 10:54:29 ldl Exp ldl $
+@
+
+
+1.17
+log
+@26-Feb-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.16 1995/01/07 15:34:53 ldl Exp ldl $
+a46 11
+/**
+ *	Make identifier node using token.
+ */
+Node_id
+mkid(token)						/* Function	*/
+  Token     token;
+{
+  Node_id   n;
+  ns(n = nn(), token.token_id, token.token_value);
+  return n;
+} /* mkid */
+@
+
+
+1.16
+log
+@07-Jan-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.15 1995/01/07 11:22:36 ldl Exp ldl $
+d48 12
+d148 1
+a148 1
+	  if ((rel != T__FIRST) && (rel != T__PRECEDES))
+d150 12
+a161 3
+	      printf("\n%3d [%5d] %*s%s", indent, n,
+	             _parse.indent*indent, "", to_token(rel));
+              node_trace(f, n, levels);	/* Trace the node		*/
+d492 1
+a492 1
+      fprintf(f, "%3d:%-12s ", tt, s);
+@
+
+
+1.15
+log
+@07-Jan-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.14 1994/12/31 02:31:32 ldl Exp ldl $
+d44 3
+d180 3
+d209 2
+a210 2
+/** /printf("nn: returning %d\n", n);
+/***/
+d466 2
+d469 1
+@
+
+
+1.14
+log
+@30-Dec-1994 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.13 1994/12/30 21:01:51 ldl Exp ldl $
+@
+
+
+1.13
+log
+@30-Dec-1994 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.12 1994/12/27 04:07:26 ldl Exp ldl $
+@
+
+
+1.12
+log
+@26-Dec-1994 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.11 1994/12/26 23:53:00 ldl Exp ldl $
+a33 2
+static
+char     *to_token	PROTOARGS((int));
+d169 20
+a584 20
+/**
+ *	Create node parameters to an equivalent token.
+ */
+static
+char *
+to_token(t)						/* Function	*/
+  int       t;
+{
+  char     *s;
+
+  assert("tl", t, T__NIL , T__NIL <= t);
+  assert("th", t, T__LAST,      t <= T__LAST);
+
+  t -= T__NIL;				/* Remove offset for array ref	*/
+
+  if ( ! (s = token_kw[t]) )		/* Pick a table to decode by	*/
+    if ( ! ( s = tokenseq[t] ) )
+      s = token_rkw[t];			/* "Raw bits" is *best*		*/
+  return s;
+} /* to_token */
+@
+
+
+1.11
+log
+@26-Dec-1994 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.10 1994/12/16 07:22:19 ldl Exp ldl $
+d115 1
+a115 1
+  printf("\n%3d [%4d] %*s", indent, b_node, _parse.indent * indent, "");
+d137 1
+a137 1
+	      printf("\n%3d [%4d] %*s%s", indent, n,
+d146 1
+a146 1
+	  printf("\n%3d [%4d] %*s%s", indent, n,
+d414 1
+a414 1
+	printf("\n%3d [%4d] %*s%s", indent, on,
+d433 1
+a433 1
+  fprintf(f, "[%4d] ", nid);
+d447 1
+a447 1
+        fprintf(f, "f[%4d] l[%4d] v=\"%s\"\n",
+d452 1
+a452 1
+        fprintf(f, "                [%4d] ~[%4d] p[%4d] n[%4d]\n",
+@
+
+
+1.10
+log
+@15-Dec-1994 late
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.9 1994/12/15 23:42:30 ldl Exp ldl $
+d25 2
+d54 1
+a54 1
+  Node_id   m_node;
+d115 1
+a115 1
+  printf("\n%3d %*s", indent, _parse.indent * indent, "");
+d130 22
+a151 8
+    while (rel = rn(b_node, rel))	/* For each relation		*/
+      {
+	++indent;
+	printf("\n%3d %*s%s",indent, _parse.indent*indent, "", to_token(rel));
+        while (n = rnn(b_node, rel, n))	/* For each node per relation	*/
+          node_trace(f, n, levels);	/* Trace the node		*/
+        --indent;
+      }
+d398 23
+@
+
+
+1.9
+log
+@15-Dec-1994 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/node.c,v 1.8 1994/12/04 07:22:26 ldl Exp ldl $
+d14 2
+a19 2
+#define assert(p, n1, n2, x)\
+	{ if ( ! (x) ) dump_and_die(p, n1, n2, #x, __FILE__, __LINE__); }
+a24 2
+void      dump_and_die	PROTOARGS((char *, int, int, char *, char *, int));
+static
+a42 2
+static
+int       failing = 0;			/* Failing so abort		*/
+d281 3
+a381 18
+
+void
+dump_and_die(p, n1, n2, assertion, file, line)		/* Function	*/
+  char     *p;
+  int       n1, n2;
+  char     *assertion;
+  char     *file;
+  int       line;
+{
+  fprintf(stderr, "%s:%d Assertion Failed: %s\n", file, line, assertion);
+  fprintf(stderr, " %c = %d  ", p[0], n1);
+  if (strlen(p) == 2)
+    fprintf(stderr, " %c = %d  ", p[1], n2);
+  fprintf(stderr, "\n");
+  if (failing++)			/* It's already failing		*/
+    exit( 1 );
+  node_print(stderr, 1, -1);
+} /* dump_and_die */
+@
+
+
+1.8
+log
+@03-Dec-94 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/RCS/node.c,v $
+ * $Header: /home/ldl/dbl/RCS/node.c,v 1.7 1994/12/02 07:12:51 ldl Exp ldl $
+d15 1
+d34 2
+d45 2
+d110 2
+d115 9
+a123 1
+  print_node(f, b_node);		/* Print the node		*/
+d133 11
+a143 2
+      while (n = rnn(b_node, rel, n))	/*   for each node per relation	*/
+        node_trace(f, n, levels);	/* Trace the node		*/
+d326 1
+a326 1
+/**/printf("rnn(n=%d, rel=%d, m=%d)\n", n, rel, m);
+d352 1
+a352 1
+/** /printf("rnn: returning %d\n", nm);
+d397 2
+d421 2
+a422 5
+      tt = (r ? n->n_relation : n->n_type) - T__NIL;
+      if ( ! (s = token_kw[tt]) )	/* Pick a table to decode by	*/
+	if ( ! ( s = tokenseq[tt] ) )
+	  s = token_rkw[tt];		/* "Raw bits" is *best*		*/
+
+d424 1
+a424 1
+      fprintf(f, "%3d:%-12s ", tt + T__NIL, s);
+d547 21
+d612 1
+a612 1
+/* End of $Source: /home/ldl/dbl/RCS/node.c,v $ */
+@
+
+
+1.7
+log
+@01-Dec-94 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/RCS/node.c,v 1.6 1994/12/01 07:06:01 ldl Exp ldl $
+a12 1
+#include <assert.h>
+d17 3
+d24 2
+d84 6
+a89 1
+  Node_id   n;
+d92 1
+d189 1
+a189 1
+  assert(n && n < n_net && net[n].n_type);
+d223 1
+a223 1
+          assert(net[p].n_type == T__RELATIONSHIP);
+d264 1
+a264 1
+  assert(n && n < n_net && net[n].n_type);
+d272 1
+a272 1
+        assert(p && p < n_net && node->n_type == T__RELATIONSHIP);
+d302 1
+a302 1
+/** /printf("rnn(n=%d, rel=%d, m=%d)\n", n, rel, m);
+d305 1
+a305 1
+  assert(n && n < n_net && net[n].n_type);
+d313 1
+a313 1
+        assert(p && p < n_net && node->n_type == T__RELATIONSHIP);
+d352 1
+a352 1
+ assert(0);
+d360 16
+d482 1
+a482 1
+  assert(net[p].n_next == n);		/* Just checking		*/
+@
+
+
+1.6
+log
+@30-Nov-94 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/RCS/node.c,v 1.5 1994/11/28 05:26:51 ldl Exp ldl $
+@
+
+
+1.5
+log
+@27-Nov-94 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/RCS/node.c,v 1.4 1994/11/26 08:23:57 ldl Exp ldl $
+d49 1
+a49 1
+/**/printf("node_init(%d) m_net=%d\n", m_node, m_net);
+d59 1
+a59 1
+/**/printf("node_init: m_node=%d m_net=%d\n", m_node, m_net);
+d66 1
+a66 1
+/**/printf("node_init: m_net=%d n_net=%d net@@0x%08x\n", m_net, n_net, net);
+d139 1
+a139 1
+/**/printf("nn: returning %d\n", n);
+d156 3
+a158 1
+/**/printf("ns(n=%d, type=%d, value=\"%s\")\n", n, type, value);
+d177 1
+a177 1
+/**/printf("ng(n=%d, ", n);
+d182 1
+a182 1
+/**/printf(" *type=%d, *value=\"%s\")\n", *type, *value);
+d202 2
+a203 1
+/**/printf("rs(n=%d, rel=%d, m=%d)\n", n, rel, m);
+d207 1
+a207 1
+/**/printf("rs: follow n_first=%d\n", p);
+d211 1
+a211 1
+/**/printf("rs: p=%d.n_type=%d\n", p, net[p].n_type);
+d220 1
+a220 1
+/**/printf("rs: done search, now insert p=%d\n", p);
+d228 1
+a228 1
+/**/printf("rs: setup p=%d\n", p);
+d233 2
+a234 1
+/**/printf("rs: returning\n");
+d251 1
+a251 1
+/**/printf("rn(n=%d, rel=%d)\n", n, rel);
+d260 1
+a260 1
+/**/printf("rn: p=%d.n_type=%d\n", p, node->n_type);
+d267 1
+a267 1
+/**/printf("rn: nrel=%d\n", nrel);
+d272 1
+a272 1
+/**/printf("rn: returning %d\n", nrel);
+d292 1
+a292 1
+/**/printf("rnn(n=%d, rel=%d, m=%d)\n", n, rel, m);
+d301 1
+a301 1
+/**/printf("rnn: p=%d.n_type=%d\n", p, node->n_type);
+d313 1
+a313 1
+/**/printf("rnn: nm=%d\n", nm);
+d318 1
+a318 1
+/**/printf("rnn: returning %d\n", nm);
+d383 1
+a383 1
+        fprintf(f, "[%4d] ~[%4d] p[%4d] n[%4d]\n",
+d398 5
+d410 2
+a411 1
+            q = rel_new(n);		/* Create guaranteed "last" node*/
+d413 2
+a414 1
+/**/printf("rel_create(n=%d) p=%d q=%d\n", n, p, q);
+d419 2
+a420 2
+  net[p].n_next     = q;		/* Chain the list together	*/
+  net[q].n_prev     = p;		/*   (q is "end" from the start)*/
+d422 6
+d431 2
+a432 1
+/**/printf("rel_create: p=%d\n", p);
+d434 1
+a434 1
+  return p;				/* Return allocated node	*/
+d452 3
+a454 2
+/**/printf("rel_insert(parent=%d, n=%d) p=%d r=%d\n", parent, n, p, r);
+/**/printf("rel_insert: net[p=%d].n_next=%d\n", p, net[p].n_next);
+d463 2
+a464 1
+/**/printf("rel_insert: r=%d\n", r);
+d481 2
+a482 1
+/**/printf("rel_new(n=%d) p=%d\n", n, p);
+d492 2
+a493 1
+/**/printf("rel_new: p=%d\n", p);
+d538 1
+@
+
+
+1.4
+log
+@25-Nov-94 Checkpoint (Early A.M. on the 26th)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/RCS/node.c,v 1.3 1994/11/22 14:26:54 ldl Exp ldl $
+d10 1
+d14 3
+a16 1
+#include "node.h"
+d37 1
+a37 1
+          n_net = 0;			/* Next node to use		*/
+d41 3
+a43 3
+ *	exists, nothing is done.  (At this time, there is no "clearing"
+ *	of nodes, nor re-use.  It is expected that the net is a build-only
+ *	form - no re-init.)
+d49 2
+d52 1
+a52 1
+    if ( ! (net = (Node *)calloc(m_net = m_node, sizeof(Node))) )
+d56 1
+a56 1
+    if ( ! (net = (Node *)realloc(net, (m_net = m_node) * sizeof(Node))) )
+d59 9
+a67 2
+  for (m = m_net - 1;  m > n_net;  --m)
+        net[m].n_type = T__UNUSED;	/* Init the nodes		*/
+a69 1
+
+d71 2
+a72 1
+ *	Print node table entries from b_node thru e_node, inclusive.
+d81 1
+a81 1
+  for (n = b_node;  n > e_node;  ++n)	/* Dump nodes via #		*/
+a84 1
+
+d95 1
+a95 1
+  Node_id   n, rn;
+a96 1
+  char     *n_value;
+d101 1
+a101 1
+ *  s rel="",levels=levels-1
+d105 5
+a109 10
+  rel = 0;
+  if (levels-- > 0)			/* If more levels requested, do	*/
+    do					/* Walk relation list		*/
+      {
+        n = 0;
+	do				/* Walk relation/node list	*/
+	  node_trace(f, n, levels);	/* Trace the node		*/
+	while (n = rnn(b_bode, rel, n));
+      }
+    while (n_type = rn(b_node, rel));
+a111 1
+
+a123 1
+
+d131 1
+a131 1
+  Node_id   n = ++n_net;		/* Take next node		*/
+d136 1
+a136 1
+    node_init(m_net + NET_GROW);	/*   So grow the net		*/
+d138 3
+a143 1
+
+d145 1
+a145 1
+ *	Set "type" and "value" of node "n"
+d156 2
+d160 1
+a160 1
+  node->n_first = node->n_last = 0;
+d164 1
+a164 1
+ *	Get "type" and "value" of node "n"
+d175 7
+a181 2
+  type  = node->n_type;
+  value = node->n_value;
+d200 2
+d204 2
+d208 2
+d211 1
+a211 1
+	  if (rel < net[p].relation)	/* Find relationship position	*/
+d213 1
+a213 1
+	  else if ((rel == net[p].relation) && (m < net[p].relative))
+d217 2
+d225 2
+d230 2
+d234 5
+a238 64
+    int       n_type;			/* Type of node (T_xxx tokens)	*/
+    union				/*				*/
+      {					/* Variants:			*/
+        struct				/* n_type == T__RELATIONSHIP	*/
+	  {				/* ---------------------------- */
+	    int       _n_relation;	/* Relationship			*/
+	    Node_id   _n_relative;	/* Target of relationship	*/
+	    Node_id   _n_parent;	/* Parent of relationship list	*/
+	    Node_id   _n_prev;		/* Previous node in list	*/
+	    Node_id   _n_next;		/* Next node in list		*/
+	  }       _n_chain;		/*				*/
+	struct				/* n_type != T__RELATIONSHIP	*/
+	  {				/* ----------------------------	*/
+	    char     *_n_value;		/* Value node			*/
+	    Node_id   _n_first;		/* Relationships to node	*/
+	    Node_id   _n_last;		/* Last relationship		*/
+	  }       _n_data;		/*				*/
+      }       _n_variant;		/*				*/
+  }       Node;				/*				*/
+#define n_relation	_n_variant._n_chain._n_relation
+#define n_parent	_n_variant._n_chain._n_parent
+#define n_prev		_n_variant._n_chain._n_prev
+#define n_next		_n_variant._n_chain._n_next
+#define n_value		_n_variant._n_data._n_value
+#define n_first		_n_variant._n_data._n_first
+#define n_last		_n_variant._n_data._n_last
+
+ *
+ *	char *
+ *	rn(n, rel)			// Get next relation name after rel
+ *	  Node_id   n;			// Node to find relationship in
+ *	  int       rel;		// Relationship "seed"
+ *
+ *	Node_id
+ *	rnn(n, rel, m)			// Get next node (following rel/m)
+ *	  Node_id   n;			// Node to find relationship in
+ *	  int       rel;		// Relationship (must exist)
+ *	  Node_id   m;			// Node "seed"
+ *
+ *	void
+ *	rk(n, rel, m)			// Kill node [rel [m]]
+ *	  Node_id   n;			// Node to add relation to
+ *	  int       rel;		// Relationship of m to n
+ *	  Node_id   m;			// Node being related to
+ *
+ * Note:
+ *
+ *	The "type" of a node is not represented in the ^NET, but is
+ *	possibly interesting and helpful.
+ *
+ *	Function			M Equivalent
+ *	-----------------------------	----------------------------------
+ *	nn()				S (%n,^NET)=1+^NET
+ *	ns(n, type, value)		S ^NET(n)=value
+ *	ng(n, type, value)		S value=^NET(n)
+ *	rs(n, rel, m)			S ^NET(n,rel,m)=""
+ *	rn(n, rel)			$O(^NET(n,rel))
+ *	rnn(n, rel, m)			$O(^NET(n,rel,m))
+ *	rk(n, rel, m)			I $D(rel) D
+ *		.			. I $D(m) K ^NET(n,rel,m)
+ *		.			. E K ^NET(n,rel)
+ *		.			E  K ^NET(n)
+ * Note:
+ *	Current implementation is to use a large vector of Node
+d240 11
+d252 20
+a271 27
+typedef short     Node_id;
+struct					/* Struct: Node			*/
+  {					/* ----------------------------	*/
+    int       n_type;			/* Type of node (T_xxx tokens)	*/
+    union				/*				*/
+      {					/* Variants:			*/
+        struct				/* n_type == T__RELATIONSHIP	*/
+	  {				/* ---------------------------- */
+	    Node_id   _n_parent;	/* Parent of relationship list	*/
+	    Node_id   _n_prev;		/* Previous node in list	*/
+	    Node_id   _n_next;		/* Next node in list		*/
+	  }       _n_chain;		/*				*/
+	struct				/* n_type != T__RELATIONSHIP	*/
+	  {				/* ----------------------------	*/
+	    char     *_n_value;		/* Value node			*/
+	    Node_id   _n_first;		/* Relationships to node	*/
+	    Node_id   _n_last;		/* Last relationship		*/
+	  }       _n_data;		/*				*/
+      }       _n_variant;		/*				*/
+  }       Node;				/*				*/
+#define n_parent	_n_variant._n_chain._n_parent
+#define n_prev		_n_variant._n_chain._n_prev
+#define n_next		_n_variant._n_chain._n_next
+#define n_value		_n_variant._n_data._n_value
+#define n_first		_n_variant._n_data._n_first
+#define n_last		_n_variant._n_data._n_last
+
+d274 13
+a286 12
+ *	Node function prototypes.
+ */
+void      node_init	PROTOARGS((Node_id));
+void      node_print	PROTOARGS((FILE *, Node_id, Node_id));
+void      node_usage	PROTOARGS((Node_id, Node_id));
+Node_id   nn		PROTOARGS((void));
+void      ns		PROTOARGS((Node_id, int, char *));
+void      ng		PROTOARGS((Node_id, int *, char **));
+void      rs		PROTOARGS((Node_id, int, Node_id));
+char     *rn		PROTOARGS((Node_id, int));
+Node_id   rnn		PROTOARGS((Node_id, int, Node_id));
+void      rk		PROTOARGS((Node_id, int, Node_id));
+d288 4
+a291 2
+SC
+Node     *net IS(= (Node *)NULL);	/* The node table		*/
+d293 25
+d319 21
+a339 1
+#endif/*_NODE_H_*/
+d342 3
+a344 1
+/* End of $Source: /home/ldl/dbl/RCS/node.c,v $ */
+d351 3
+a353 1
+print_node(f, n)					/* Function	*/
+d355 32
+a388 1
+
+d403 2
+d412 1
+a412 1
+  net[q].n_relative = MAX_NODE_ID;	/* Can never get this high	*/
+d414 2
+a418 1
+
+d433 4
+a436 1
+  
+d444 2
+a448 1
+
+d460 3
+a462 1
+  
+d466 1
+a466 1
+  node->n_relation = T__UNUSED;		/* Nothing specified, yet	*/
+d471 2
+d476 43
+a518 30
+      rel_insert(p ? p : net[n].n_last);/* Insert in relationship chain	*/
+    }
+  else
+    rel_new(n);				/* Create relationship list	*/
+    int       n_type;			/* Type of node (T_xxx tokens)	*/
+    union				/*				*/
+      {					/* Variants:			*/
+        struct				/* n_type == T__RELATIONSHIP	*/
+	  {				/* ---------------------------- */
+	    int       _n_relation;	/* Relationship			*/
+	    Node_id   _n_relative;	/* Target of relationship	*/
+	    Node_id   _n_parent;	/* Parent of relationship list	*/
+	    Node_id   _n_prev;		/* Previous node in list	*/
+	    Node_id   _n_next;		/* Next node in list		*/
+	  }       _n_chain;		/*				*/
+	struct				/* n_type != T__RELATIONSHIP	*/
+	  {				/* ----------------------------	*/
+	    char     *_n_value;		/* Value node			*/
+	    Node_id   _n_first;		/* Relationships to node	*/
+	    Node_id   _n_last;		/* Last relationship		*/
+	  }       _n_data;		/*				*/
+      }       _n_variant;		/*				*/
+  }       Node;				/*				*/
+#define n_relation	_n_variant._n_chain._n_relation
+#define n_parent	_n_variant._n_chain._n_parent
+#define n_prev		_n_variant._n_chain._n_prev
+#define n_next		_n_variant._n_chain._n_next
+#define n_value		_n_variant._n_data._n_value
+#define n_first		_n_variant._n_data._n_first
+#define n_last		_n_variant._n_data._n_last
+@
+
+
+1.3
+log
+@22-Nov-94 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d325 1
+a325 1
+/* End of $Source: /home/ldl/dbl/RCS/node.h,v $ */
+d443 1
+a443 1
+/* End of $Source$ */
+@

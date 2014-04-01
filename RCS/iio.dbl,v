@@ -1,0 +1,331 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.05.58;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.56;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.05.59;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.26;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.03;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.13;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.08;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@
+RECORD PLUFIL_REC		;PRICE LOOKUP FILE
+    LItemno         ,A15
+	LMANFR	     ,A2@@LITEMNO	; MANUFACTURER MAP CODE
+	LDEPT	     ,A1@@LITEMNO+2	; DEPARTMENT MAP CODE
+	LSTYLE	     ,A6@@LITEMNO+3	; STYLE NUMBER
+	LUSRDF1	     ,A2@@LITEMNO+9	; USRDF1
+	LUSRDF2	     ,A2@@LITEMNO+11	; USRDF2
+	LUSRDF3	     ,A1@@LITEMNO+13	; USRDF3
+	LUSRDF4	     ,A1@@LITEMNO+14	; USRDF4
+    LSku            ,D6
+	LSku_X       ,A6@@LSku		; Display version of LSku
+    LUpc            ,A12
+    LDescr          ,A30
+    LPrice          ,5D7
+    LSaleSt         ,D6
+    LSalEnd         ,D6
+    LTxFlag         ,A1,"Y"
+    LQtyOnH         ,5D6
+    LOveRide        ,A1
+
+RECORD PROG_VARS
+	IS_BOF		,A1	;BEGINNING OF FILE FLAG
+	IS_EOF		,A1	;END OF FILE FLAG
+	SKU_NUM		,D6
+	UPC_NUM		,A12
+	KEYSPEC		,A*,
+	  "("
+	   "(1,15,TYPE:A,ATTR:2)"	; #1 LItemno NOCHANGE
+	   "(16,6,TYPE:I,ATTR:9)"	; #2 LSku NODUPLICATES CHANGE
+	   "(22,12,TYPE:A,ATTR:9)"	; #3 LUpc NODUPLICATES CHANGE
+	  ")"
+
+RECORD FILE_CHANNELS
+	PLU_CHNL	,D2 ,19	;PRICE LOOKUP CHANNEL
+	
+PROC
+	OPEN(PLU_CHNL,U:I,'iio',KEY:KEYSPEC)
+
+	CALL MKREC1			; Make up record 1
+	STORE(PLU_CHNL, PLUFIL_REC)
+
+	CALL MKREC2			; Make up record 2
+	STORE(PLU_CHNL, PLUFIL_REC)
+
+	CALL MKREC3			; Make up record 3
+	STORE(PLU_CHNL, PLUFIL_REC)
+
+START,
+	CALL WALK_LITEMNO
+	CALL WALK_LSKU
+	CALL WALK_LUPC
+	CALL WALK_LITEMNO
+EXIT_PROGRAM,
+	STOP
+
+;----------------------------------------------------------------------------
+
+WALK_LITEMNO,
+	DISPLAY (1, 'Walking file via LItemno', 10)
+	CALL HEADER
+	LItemno = "AA1STYLE1A1A2AB"
+	READ (PLU_CHNL, PLUFIL_REC, LItemno, KRF=1)
+	DO FOREVER
+	  BEGIN
+	    CALL PRINT
+	    READS(PLU_CHNL, PLUFIL_REC, WLI_END) [EOF=WLI_END]
+	  END
+WLI_END,
+	DISPLAY (1, 'Done walking file via LItemno', 10)
+	RETURN
+
+WALK_LSKU,
+	DISPLAY (1, 'Walking file via LSku', 10)
+	CALL HEADER
+        LSku       = 122222
+	READ (PLU_CHNL, PLUFIL_REC, LSku, KRF=2)
+	DO FOREVER
+	  BEGIN
+	    CALL PRINT
+	    READS(PLU_CHNL, PLUFIL_REC, WLS_END) [EOF=WLS_END]
+	  END
+WLS_END,
+	DISPLAY (1, 'Done walking file via LSku', 10)
+	RETURN
+
+WALK_LUPC,
+	DISPLAY (1, 'Walking file via LUpc', 10)
+	CALL HEADER
+	LUpc       = "13333 33333 "
+	READ (PLU_CHNL, PLUFIL_REC, LUpc, KRF=3)
+	DO FOREVER
+	  BEGIN
+	    CALL PRINT
+	    READS(PLU_CHNL, PLUFIL_REC, WLU_END) [EOF=WLU_END]
+	  END
+WLU_END,
+	DISPLAY (1, 'Done walking file via LUpc', 10)
+	RETURN
+
+;----------------------------------------------------------------------------
+
+HEADER,
+	DISPLAY (1, 'Item#            SKU#      UPC#     Description', 10)
+	DISPLAY (1, '--------------- ------ ------------ ----------------',10)
+	RETURN
+
+PRINT,
+	DISPLAY (1, LItemno, ' ', LSku_X, ' ', LUpc, ' ', LDescr, 10)
+	RETURN
+
+;----------------------------------------------------------------------------
+
+;;;
+; Make the records
+;
+MKREC1,
+  LMANFR  = "AA" LDEPT   = "1"  LSTYLE  = "STYLE1"
+  LUSRDF1 = "A1" LUSRDF2 = "A2" LUSRDF3 = "A" LUSRDF4 = "B"
+  LSku       = 211111
+  LUpc       = "21111 11111 "
+  LDescr     = "This is the first item in here"
+  LSaleSt    = 0   LSalEnd    = 0
+  LTxFlag    = "Y" LOveRide   = "N"
+  LQtyOnH(1) = 1 LQtyOnH(2) = 2 LQtyOnH(3) = 3 LQtyOnH(4) = 4 LQtyOnH(5) = 5
+  LPrice(1)  = 1 LPrice(2)  = 2 LPrice(3)  = 3 LPrice(4)  = 4 LPrice(5)  = 5
+  RETURN
+
+MKREC2,
+  LMANFR  = "BB" LDEPT   = "2"  LSTYLE  = "STYLE2"
+  LUSRDF1 = "B1" LUSRDF2 = "B2" LUSRDF3 = "B" LUSRDF4 = "B"
+  LSku       = 122222
+  LUpc       = "32222 22222 "
+  LDescr     = "This is the  2nd  item in here"
+  LSaleSt    = 0   LSalEnd    = 0
+  LTxFlag    = "Y" LOveRide   = "N"
+  LQtyOnH(1) = 1 LQtyOnH(2) = 2 LQtyOnH(3) = 3 LQtyOnH(4) = 4 LQtyOnH(5) = 5
+  LPrice(1)  = 1 LPrice(2)  = 2 LPrice(3)  = 3 LPrice(4)  = 4 LPrice(5)  = 5
+  RETURN
+
+MKREC3,
+  LMANFR  = "CC" LDEPT   = "3"  LSTYLE  = "STYLE3"
+  LUSRDF1 = "C1" LUSRDF2 = "C2" LUSRDF3 = "C" LUSRDF4 = "B"
+  LSku       = 333333
+  LUpc       = "13333 33333 "
+  LDescr     = "This is the  3rd  item in here"
+  LSaleSt    = 0   LSalEnd    = 0
+  LTxFlag    = "Y" LOveRide   = "N"
+  LQtyOnH(1) = 1 LQtyOnH(2) = 2 LQtyOnH(3) = 3 LQtyOnH(4) = 4 LQtyOnH(5) = 5
+  LPrice(1)  = 1 LPrice(2)  = 2 LPrice(3)  = 3 LPrice(4)  = 4 LPrice(5)  = 5
+  RETURN
+
+; End of $Source: /home/ldl/dbl/cdbl/RCS/iio.dbl,v $
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d12 1
+a21 9
+
+RECORD LOOKUP_KEY
+	STYLE_MAP		,A6
+	SIZE_MAP		,A2
+	COLOR_MAP		,A1
+	DEPT_MAP		,A1
+	MANFR_MAP		,A2
+	CLASS_MAP		,A2
+
+d31 1
+a31 1
+	   "(21,12,TYPE:A,ATTR:9)"	; #3 LUpc NODUPLICATES CHANGE
+d50 36
+d87 12
+a98 10
+READ_PLU,
+;	READ (PLU_CHNL,PLUFIL_REC,LOOKUP_KEY(1,SIZE),KRF=3) [
+;							     KEY=NOT_EXACT,
+;							     EOF=PLU_EOF,
+;							     ERR=NOT_EXACT
+;							    ]
+
+ 
+NOT_EXACT,
+PLU_EOF,
+d101 5
+a105 11
+READ_ITEMNO,
+;	READ (PLU_CHNL,PLUFIL_REC,LITEMNO)
+;	RETURN		; BACK TO PROCESS_SCREEN
+
+READS_PLU,
+;	READS (PLU_CHNL,PLUFIL_REC,READS_BOF,REVERSE)
+;	READS (PLU_CHNL,PLUFIL_REC,READS_EOF)
+
+READS_BOF,
+	CLEAR PLUFIL_REC
+	IS_BOF = 'Y'
+d107 3
+a109 3
+READS_EOF,
+	CLEAR PLUFIL_REC
+	IS_EOF = 'Y'
+d112 5
+a116 4
+;	READ(2,PLUFIL_RECORD,SKU_NUM,KRF=1) [EOF=NOT_IN_STOCK,ERR=NOT_IN_STOCK]
+;	READ(2,PLUFIL_RECORD,UPC_NUM,KRF=2) [EOF=NOT_IN_STOCK,ERR=NOT_IN_STOCK]
+;	READ(2,PLUFIL_REC,LOOKUP_KEY(1,SIZE),KRF=3)
+;				[KEY=NOT_EXACT,EOF=PLU_EOF,ERR=NOT_EXACT]
+d120 2
+a121 2
+  LSku       = 111111
+  LUpc       = "11111 11111 "
+d128 1
+d132 2
+a133 2
+  LSku       = 222222
+  LUpc       = "22222 22222 "
+d140 1
+d145 1
+a145 1
+  LUpc       = "33333 33333 "
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d31 2
+a32 2
+	BOF		,A1	;BEGINNING OF FILE FLAG
+	EOF		,A1	;END OF FILE FLAG
+d81 1
+a81 1
+	BOF = 'Y'
+d85 1
+a85 1
+	EOF = 'Y'
+d126 1
+a126 1
+; End of $Source: /home/ldl/dbl/tsi/src/def/RCS/plufil.def,v $
+@

@@ -1,0 +1,44 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.35;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source$
+ * $Revision$ $Date$
+ */
+
+/***
+ *	Builtin function RDTRM
+ */
+
+#include "../cdbl_rt.h"
+
+DBLArg_t
+BUILTIN_FUNC(RDTRM)(narg, arg)				/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+{
+  DBLArg_t  result;
+  return result;
+} /* RDTRM BUILTIN */
+
+/* End of $Source$ */
+@

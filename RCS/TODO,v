@@ -1,0 +1,698 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.05.50;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.45;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.05.48;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.19;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.52.57;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.07;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.02;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.33;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.31;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.21;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.10.18.21.49.43;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@$Source: /home/ldl/dbl/cdbl/RCS/TODO,v $
+$Revision: 1.73 $ $Date: 1996/03/08 12:53:45 $
+
+This is the "countdown" checklist of items being worked on.  As the items
+are completed, the "Pri"ority is changed to the version where the option
+was implemented.
+
+BUGS -- See ../ToDo
+
+Code Generation Missing or Incomplete
+-------------------------------------
+ #  Pri	 Function	Status
+--  ---- --------------	------------------------------------------------
+ 1 ?1.70 FIND		Complete.
+			NOT SO SURE THIS IS complete. Need to check what
+			this routine is doing.  It seems to be doing the
+			same things as GET/GETS/READ/READS, but there is
+			*no* i/o buffer.  Also, it needs to leave things
+			so that the next READS reads the record that was
+			located by FIND. Don't think it is right, but is
+			lower priority right now.  'Tis close, however.
+  			Not used in any of the TSI supplied software
+ 2   **	 FRETURN	NOT IMPLEMENTED (recognized)
+ 			Not used in any of the TSI supplied software
+ 3   -	 LPQUE		NOT IMPLEMENTED (recognized)
+ 4   -	 ONERROR	Multi-labeled error trapping not supported yet.
+ 5   -	 OPEN		Not handling advanced arguments (OPTIONS, etc).
+    1.68                Generating KEY: spec.
+ 5a  -   PURGE		NOT IMPLEMENTED
+ 6  1.65 READ		Complete except for indexed files
+    1.72                Indexed files
+ 7  1.65 READS		Complete except for indexed files
+    1.72                Indexed files
+ 8   -	 RECV		NOT IMPLEMENTED (recognized)
+ 			USED
+ 8a  -	 REPLACE	NOT IMPLEMENTED
+ 			Not used in any of the TSI supplied software
+ 8b  -	 SCAN		NOT IMPLEMENTED
+ 			Not used in any of the TSI supplied software
+ 9   -	 SEND		NOT IMPLEMENTED (recognized)
+ 			USED
+ 9a  -   SET		NOT IMPLEMENTED (recognized)
+ 			All uses in TSI software simplified to a normal
+			assignment.
+10   -	 SORT		NOT IMPLEMENTED (recognized)
+11   -	 USING		NOT IMPLEMENTED (recognized)
+12  1.65 WRITE		Complete except for indexed files
+    1.72                Indexed files
+13  1.65 WRITES		Complete except for indexed files
+    1.72                Indexed files
+
+Special Variables Missing or Incomplete
+---------------------------------------
+ #   Pri Function	Status
+--  ---- --------------	------------------------------------------------
+ 1   -	 $ERLEN		NOT IMPLEMENTED
+ 2   -	 $ERNUM		NOT IMPLEMENTED		*USED*
+ 3   -	 $FALSE		NOT IMPLEMENTED		*USED*
+ 4   -	 $LEN		NOT IMPLEMENTED		*USED*
+ 5   -	 $LINE		NOT IMPLEMENTED
+ 6   -   $PAINT		NOT IMPLEMENTED
+ 7   -   $PTR		NOT IMPLEMENTED
+ 8   -	 $RDLEN		NOT IMPLEMENTED		*USED*
+ 9   -	 $RDTRM		NOT IMPLEMENTED		*USED*
+10   -	 $RND		NOT IMPLEMENTED
+11   -   $SCR_ATT	NOT IMPLEMENTED		*USED*
+12   -   $SCR_ATT	NOT IMPLEMENTED		*USED*
+			Note: BLINK BOLD CLEAR RESTORE REV REVERSE SAVE
+13   -   $SCR_CLR	NOT IMPLEMENTED		*USED*
+			Note: BOL EOL EOS LINE SCREEN
+14   -   $SCR_POS	NOT IMPLEMENTED		*USED*
+15   -	 $TRUE		NOT IMPLEMENTED		*USED*
+16   -	 $TRUNC		NOT IMPLEMENTED		*USED*
+17   -   $XSTAT		NOT IMPLEMENTED		*USED*
+
+VMS Specific Built-in Functions (USED IN TSI SOFTWARE)
+------------------------------------------------------
+ #   Pri Function	Status
+--  ---- --------------	------------------------------------------------
+ 1   -   $CREATE_PASTBOARD
+ 2   -   $CREATE_PASTEBOARD
+ 3   -   $CREATE_VIRTUAL_DISPLAY
+ 4   -   $CVTINT
+ 5   -   $DELETE_PASTEBOARD
+ 6   -   $DRAW_RECTANGLE
+ 7   -   $END_SORT
+ 8   -   $PASS_FILES
+ 9   -   $PASTE_VIRTUAL_DISPLAY
+10   -   $SCR
+11   -   $SORT_MERGE
+
+Built-in Functions Missing or Incomplete
+----------------------------------------
+ #   Pri Function	Status
+--  ---- --------------	------------------------------------------------
+ 1   -	 %ABS		NOT IMPLEMENTED
+ 2   -	 %ADDR		NOT IMPLEMENTED
+ 3   -	 %ARGA		NOT IMPLEMENTED
+ 4   -	 %ARGN		NOT IMPLEMENTED
+ 5   -	 %B		NOT IMPLEMENTED
+ 6   -	 %BIN		NOT IMPLEMENTED
+ 7   -	 %BIT_IS_CLR	NOT IMPLEMENTED
+ 8   -	 %BIT_IS_SET	NOT IMPLEMENTED
+ 9   -   %BKSTR		NOT IMPLEMENTED
+10   -	 %CHAR		NOT IMPLEMENTED
+11   -	 %CHOPEN	NOT IMPLEMENTED
+12   -	 %CPUTIME	NOT IMPLEMENTED
+13   -	 %D		NOT IMPLEMENTED		*USED*
+14   -	 %DATE		NOT IMPLEMENTED
+15   -	 %DECML		NOT IMPLEMENTED
+16   -	 %DEFINED	NOT IMPLEMENTED
+17   -	 %DESCR		NOT IMPLEMENTED
+18   -	 %ERLINE	NOT IMPLEMENTED
+19   -	 %ERNUM		NOT IMPLEMENTED		*USED*
+20   -	 %ERROR		NOT IMPLEMENTED
+21   -	 %FALSE		NOT IMPLEMENTED		*USED*
+22   -	 %HEX		NOT IMPLEMENTED
+23   -	 %INRANGE	NOT IMPLEMENTED
+24   -	 %INSTR		NOT IMPLEMENTED		*USED*
+25   -	 %INT		NOT IMPLEMENTED
+26   -	 %INTEGER	NOT IMPLEMENTED
+27   -	 %JBNO		NOT IMPLEMENTED
+28   -	 %LEN		NOT IMPLEMENTED		*USED*
+29   -	 %NUMARGS	NOT IMPLEMENTED		*USED*
+30   -	 %O		NOT IMPLEMENTED
+31   -	 %OCT		NOT IMPLEMENTED
+32   -	 %OUTRANGE	NOT IMPLEMENTED
+33   -	 %PACKED	NOT IMPLEMENTED
+33a  -   %PAINT		NOT IMPLEMENTED
+34   -	 %PASSED	NOT IMPLEMENTED
+34a  -   %PTR 		NOT IMPLEMENTED
+34b  -   %RDLEN 	NOT IMPLEMENTED
+34c  -   %RDTRM 	NOT IMPLEMENTED
+35   -	 %REF		NOT IMPLEMENTED		*USED*
+36   -	 %RFA		NOT IMPLEMENTED
+36a  -   %RND 		NOT IMPLEMENTED
+37   -	 %RSIZE		NOT IMPLEMENTED
+38   -	 %RTERM		NOT IMPLEMENTED
+39   -	 %SCR_ATT	NOT IMPLEMENTED		*USED*
+40   -	 %SCR_CLR	NOT IMPLEMENTED		*USED*
+41   -	 %SCR_MOV	NOT IMPLEMENTED		*USED*
+42   -	 %SIZE		NOT IMPLEMENTED
+43   -	 %STRING	NOT IMPLEMENTED
+
+Built-in Functions Missing or Incomplete
+----------------------------------------
+ #   Pri Function	Status
+--  ---- --------------	------------------------------------------------
+44   -	 %SUCCESS	NOT IMPLEMENTED
+45   -	 %SYSERR	NOT IMPLEMENTED
+46   -	 %TIME		NOT IMPLEMENTED
+47   -	 %TNMBR		NOT IMPLEMENTED
+48   -	 %TRIM		NOT IMPLEMENTED		*USED*
+49   -	 %TRUE		NOT IMPLEMENTED		*USED*
+49a  -   %TRUNC 	NOT IMPLEMENTED
+50   -	 %TTNAME	NOT IMPLEMENTED
+51   -	 %TTSTS		NOT IMPLEMENTED
+52   -	 %UNSIGNED	NOT IMPLEMENTED
+53   -	 %VAL		NOT IMPLEMENTED		*USED*
+54   -	 %VARIANT	NOT IMPLEMENTED
+55   -	 %VERSN		NOT IMPLEMENTED
+56   -	 %VMS		NOT IMPLEMENTED
+57   -	 %WAIT		NOT IMPLEMENTED
+58   -	 %WKDAY		NOT IMPLEMENTED
+59   -	 %X		NOT IMPLEMENTED
+60   -	 %XTRNL		NOT IMPLEMENTED
+61   -	 %ZONED		NOT IMPLEMENTED
+
+Standard XCALL Routines
+-----------------------
+ #   Pri Function	Status
+--  ---- --------------	------------------------------------------------
+ 1   -   ACCESS		NOT IMPLEMENTED		*Not used in TSI software*
+ 2   -   ACCHR		NOT IMPLEMENTED		*Not used in TSI software*
+ 3  1.73 ASCII		Complete
+ 4   -   ASCR5		NOT IMPLEMENTED		*Not used in TSI software*
+ 5   -   BEGFL		NOT IMPLEMENTED		*Not used in TSI software*
+ 6   -   CHAIN		NOT IMPLEMENTED		*Not used in TSI software*
+ 7   -   DACHR		NOT IMPLEMENTED		*Not used in TSI software*
+ 8  1.73 DATE		Complete
+ 9  1.73 DECML		Complete
+10   -   DELET		USED
+11   -   DFLAG		NOT IMPLEMENTED		*Not used in TSI software*
+12   -   EMPBUF		NOT IMPLEMENTED		*Not used in TSI software*
+13   -   ENDFL		NOT IMPLEMENTED		*Not used in TSI software*
+14  1.73 ENVRN		Complete
+15   -   ERROR		USED
+16   -   ERTXT		USED
+17   -   FATAL		USED
+18  1.73 FILL		Complete
+19   -   FILNM		USED
+20   -   FLAGS		USED
+21   -   GETCM		NOT IMPLEMENTED		*Not used in TSI software*
+22  1.73 INSTR		Complete
+23   -   ISCLR		NOT IMPLEMENTED		*Not used in TSI software*
+24   -   ISSTS		USED
+25   -   JBNAM		NOT IMPLEMENTED		*Not used in TSI software*
+26   -   JBNO		NOT IMPLEMENTED		*Not used in TSI software*
+27   -   LEN		NOT IMPLEMENTED		*Not used in TSI software*
+28   -   MONEY		NOT IMPLEMENTED		*Not used in TSI software*
+29   -   MSGRS		NOT IMPLEMENTED		*Not used in TSI software*
+30   -   MSGSV		NOT IMPLEMENTED		*Not used in TSI software*
+31   -   PAINT		NOT IMPLEMENTED		*Not used in TSI software*
+32   -   PAK		NOT IMPLEMENTED		*Not used in TSI software*
+33   -   PUTCM		NOT IMPLEMENTED		*Not used in TSI software*
+34   -   R5ASC		NOT IMPLEMENTED		*Not used in TSI software*
+35   -   RANDM		USED
+36   -   RCFLG		NOT IMPLEMENTED		*Not used in TSI software*
+37   -   RCVID		NOT IMPLEMENTED		*Not used in TSI software*
+38   -   RENAM		USED
+39   -   RSTAT		USED
+40   -   RUNJB		NOT IMPLEMENTED		*Not used in TSI software*
+41   -   SIZE		NOT IMPLEMENTED		*Not used in TSI software*
+			Note: VMS DIBOL reverses the size,field to
+			      field,size, grrr.	
+42  1.73 TIME		Complete
+43   -   TNMBR		USED
+44  1.73 TRIM		Complete
+45   -   TTSTS		USED
+46   -   UNPAK		NOT IMPLEMENTED		*Not used in TSI software*
+47  1.73 VERSN		Complete		*Not used in TSI software*
+
+Run-time Support Missing or Incomplete
+--------------------------------------
+ #   Pri Function	Status
+--  ---- --------------	------------------------------------------------
+ 1   -	 dbl_putsf	Not using format info
+ 2   -	 drt_accept	NOT IMPLEMENTED
+ 3  1.67 drt_clear	Complete
+ 4   -	 drt_close	Complete except for indexed files and PURGE option
+ 5   -	 drt_delete	NOT IMPLEMENTED
+ 6   -	 drt_detach	NOT IMPLEMENTED
+ 6a  -   drt_display	Not interpreting (generated) SCR$xxx for screen I/O
+ 7   -	 drt_find	NOT IMPLEMENTED
+ 8   -	 drt_flush	NOT IMPLEMENTED
+ 9  1.67 drt_forms	Complete
+10  1.66 drt_get	Complete
+11 *1.66 drt_gets	Complete except for terminal I/O strangeness.
+12 *1.65 drt_open       The only modes supported (initially) include:
+ 			  A, I, I:I, I:R, I:S, O, O:P, O:S, U, U:I, U:R
+    1.69		Parsing KEY: spec.			    
+    1.70                Doing index creation and open, etc.
+13  1.66 drt_put	Complete
+14  1.66 drt_puts	Complete
+15  1.65 drt_read	Complete except for indexed files
+    1.72                Indexed files
+16  1.65 drt_reads	Complete except for indexed files
+    1.72                Indexed files
+17   -	 drt_stop	NOT IMPLEMENTED
+18  1.72 drt_store	Complete
+19   -	 drt_unlock	NOT IMPLEMENTED
+20  1.65 drt_write	Complete except for indexed files
+    1.72                Indexed files
+21  1.65 drt_writes	Complete
+
+   ^
+   * Indicates more work to do as per status.
+
+End of $Source: /home/ldl/dbl/cdbl/RCS/TODO,v $
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 1
+a2 1
+$Revision: 1.72 $ $Date: 1996/01/31 12:05:48 $
+d14 8
+a21 1
+ 1  1.70 FIND		Complete.
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d2 1
+a2 1
+$Revision: 1.71 $ $Date: 1996/01/17 09:44:19 $
+d28 1
+d30 1
+d32 1
+d34 1
+d36 2
+d52 1
+a52 1
+ 4   -	 $LEN		NOT IMPLEMENTED
+d59 9
+a67 2
+11   -	 $TRUE		NOT IMPLEMENTED		*USED*
+12   -	 $TRUNC		NOT IMPLEMENTED		*USED*
+d69 16
+d162 54
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d2 1
+a2 1
+$Revision: 1.70 $ $Date: 1995/11/20 18:52:57 $
+d23 4
+a26 2
+ 6 *1.65 READ		Complete except for indexed files
+ 7 *1.65 READS		Complete except for indexed files
+d34 4
+a37 2
+12 *1.65 WRITE		Complete except for indexed files
+13  1.65 WRITES		Complete
+d155 4
+a158 2
+15 *1.65 drt_read	Complete except for indexed files
+16 *1.65 drt_reads	Complete except for indexed files
+d160 1
+a160 1
+18   -	 drt_store	NOT IMPLEMENTED
+d162 2
+a163 1
+20 *1.65 drt_write	Complete except for indexed files
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d2 1
+a2 1
+$Revision: 1.69 $ $Date: 1995/11/11 11:15:07 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d2 1
+a2 1
+$Revision: 1.68 $ $Date: 1995/11/03 09:20:02 $
+d14 1
+a14 1
+ 1   **	 FIND		NOT IMPLEMENTED (recognized)
+d21 1
+d147 2
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d2 1
+a2 1
+$Revision: 1.67 $ $Date: 1995/10/24 08:27:33 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d2 1
+a2 1
+$Revision: 1.66 $ $Date: 1995/10/23 09:19:31 $
+d39 2
+a40 2
+ 2   -	 $ERNUM		NOT IMPLEMENTED
+ 3   -	 $FALSE		NOT IMPLEMENTED
+d45 2
+a46 2
+ 8   -	 $RDLEN		NOT IMPLEMENTED
+ 9   -	 $RDTRM		NOT IMPLEMENTED
+d48 2
+a49 2
+11   -	 $TRUE		NOT IMPLEMENTED
+12   -	 $TRUNC		NOT IMPLEMENTED
+d60 4
+a63 4
+ 6   -	 %BBBKSTR	NOT IMPLEMENTED
+ 7   -	 %BIN		NOT IMPLEMENTED
+ 8   -	 %BIT_IS_CLR	NOT IMPLEMENTED
+ 9   -	 %BIT_IS_SET	NOT IMPLEMENTED
+d67 1
+a67 1
+13   -	 %D		NOT IMPLEMENTED
+d73 1
+a73 1
+19   -	 %ERNUM		NOT IMPLEMENTED
+d75 1
+a75 1
+21   -	 %FALSE		NOT IMPLEMENTED
+d78 1
+a78 1
+24   -	 %INSTR		NOT IMPLEMENTED
+d82 2
+a83 2
+28   -	 %LEN		NOT IMPLEMENTED
+29   -	 %NUMARGS	NOT IMPLEMENTED
+d88 1
+d90 4
+a93 1
+35   -	 %REF		NOT IMPLEMENTED
+d95 1
+d98 3
+a100 3
+39   -	 %SCR_ATT	NOT IMPLEMENTED
+40   -	 %SCR_CLR	NOT IMPLEMENTED
+41   -	 %SCR_MOV	NOT IMPLEMENTED
+a102 5
+44   -	 %SUCCESS	NOT IMPLEMENTED
+45   -	 %SYSERR	NOT IMPLEMENTED
+46   -	 %TIME		NOT IMPLEMENTED
+47   -	 %TNMBR		NOT IMPLEMENTED
+48   -	 %TRIM		NOT IMPLEMENTED
+d108 7
+a114 1
+49   -	 %TRUE		NOT IMPLEMENTED
+d118 1
+a118 1
+53   -	 %VAL		NOT IMPLEMENTED
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d2 1
+a2 1
+$Revision: 1.65 $ $Date: 1995/10/19 02:07:21 $
+d128 1
+a128 1
+ 3   -	 drt_clear	NOT IMPLEMENTED
+d132 1
+d135 1
+a135 1
+ 9   -	 drt_forms	NOT IMPLEMENTED
+d149 3
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d2 1
+a2 1
+$Revision: 1.64 $ $Date: 1995/10/18 21:49:43 $
+d12 21
+a32 16
+ #  Pri	Function	Status
+-- ----	--------------	------------------------------------------------
+ 1  -	FIND		NOT IMPLEMENTED
+ 2  -	FRETURN		NOT IMPLEMENTED
+ 3  -	LPQUE		NOT IMPLEMENTED
+ 4  -	ONERROR		Multi-labeled error trapping not supported yet.
+ 5  -	OPEN		Not handling advanced arguments (OPTIONS, etc).
+ 6  -	READ		Relative files complete
+ 7  -	READS		Relative files complete
+ 8  -	RECV		NOT IMPLEMENTED
+ 9  -	SEND		NOT IMPLEMENTED
+ 9a -   SET		NOT IMPLEMENTED
+10  -	SORT		NOT IMPLEMENTED
+11  -	USING		NOT IMPLEMENTED
+12  -	WRITE		Relative files complete
+13  -	WRITES		Relative files complete
+d36 14
+a49 14
+ #  Pri	Function	Status
+-- ----	--------------	------------------------------------------------
+ 1  -	$ERLEN		NOT IMPLEMENTED
+ 2  -	$ERNUM		NOT IMPLEMENTED
+ 3  -	$FALSE		NOT IMPLEMENTED
+ 4  -	$LEN		NOT IMPLEMENTED
+ 5  -	$LINE		NOT IMPLEMENTED
+ 6  -	$PAINT		NOT IMPLEMENTED
+ 7  -	$PTR		NOT IMPLEMENTED
+ 8  -	$RDLEN		NOT IMPLEMENTED
+ 9  -	$RDTRM		NOT IMPLEMENTED
+10  -	$RND		NOT IMPLEMENTED
+11  -	$TRUE		NOT IMPLEMENTED
+12  -	$TRUNC		NOT IMPLEMENTED
+d53 50
+a102 50
+ #  Pri	Function	Status
+-- ----	--------------	------------------------------------------------
+ 1  -	%ABS		NOT IMPLEMENTED
+ 2  -	%ADDR		NOT IMPLEMENTED
+ 3  -	%ARGA		NOT IMPLEMENTED
+ 4  -	%ARGN		NOT IMPLEMENTED
+ 5  -	%B		NOT IMPLEMENTED
+ 6  -	%BBBKSTR	NOT IMPLEMENTED
+ 7  -	%BIN		NOT IMPLEMENTED
+ 8  -	%BIT_IS_CLR	NOT IMPLEMENTED
+ 9  -	%BIT_IS_SET	NOT IMPLEMENTED
+10  -	%CHAR		NOT IMPLEMENTED
+11  -	%CHOPEN		NOT IMPLEMENTED
+12  -	%CPUTIME	NOT IMPLEMENTED
+13  -	%D		NOT IMPLEMENTED
+14  -	%DATE		NOT IMPLEMENTED
+15  -	%DECML		NOT IMPLEMENTED
+16  -	%DEFINED	NOT IMPLEMENTED
+17  -	%DESCR		NOT IMPLEMENTED
+18  -	%ERLINE		NOT IMPLEMENTED
+19  -	%ERNUM		NOT IMPLEMENTED
+20  -	%ERROR		NOT IMPLEMENTED
+21  -	%FALSE		NOT IMPLEMENTED
+22  -	%HEX		NOT IMPLEMENTED
+23  -	%INRANGE	NOT IMPLEMENTED
+24  -	%INSTR		NOT IMPLEMENTED
+25  -	%INT		NOT IMPLEMENTED
+26  -	%INTEGER	NOT IMPLEMENTED
+27  -	%JBNO		NOT IMPLEMENTED
+28  -	%LEN		NOT IMPLEMENTED
+29  -	%NUMARGS	NOT IMPLEMENTED
+30  -	%O		NOT IMPLEMENTED
+31  -	%OCT		NOT IMPLEMENTED
+32  -	%OUTRANGE	NOT IMPLEMENTED
+33  -	%PACKED		NOT IMPLEMENTED
+34  -	%PASSED		NOT IMPLEMENTED
+35  -	%REF		NOT IMPLEMENTED
+36  -	%RFA		NOT IMPLEMENTED
+37  -	%RSIZE		NOT IMPLEMENTED
+38  -	%RTERM		NOT IMPLEMENTED
+39  -	%SCR_ATT	NOT IMPLEMENTED
+40  -	%SCR_CLR	NOT IMPLEMENTED
+41  -	%SCR_MOV	NOT IMPLEMENTED
+42  -	%SIZE		NOT IMPLEMENTED
+43  -	%STRING		NOT IMPLEMENTED
+44  -	%SUCCESS	NOT IMPLEMENTED
+45  -	%SYSERR		NOT IMPLEMENTED
+46  -	%TIME		NOT IMPLEMENTED
+47  -	%TNMBR		NOT IMPLEMENTED
+48  -	%TRIM		NOT IMPLEMENTED
+d106 15
+a120 15
+ #  Pri	Function	Status
+-- ----	--------------	------------------------------------------------
+49  -	%TRUE		NOT IMPLEMENTED
+50  -	%TTNAME		NOT IMPLEMENTED
+51  -	%TTSTS		NOT IMPLEMENTED
+52  -	%UNSIGNED	NOT IMPLEMENTED
+53  -	%VAL		NOT IMPLEMENTED
+54  -	%VARIANT	NOT IMPLEMENTED
+55  -	%VERSN		NOT IMPLEMENTED
+56  -	%VMS		NOT IMPLEMENTED
+57  -	%WAIT		NOT IMPLEMENTED
+58  -	%WKDAY		NOT IMPLEMENTED
+59  -	%X		NOT IMPLEMENTED
+60  -	%XTRNL		NOT IMPLEMENTED
+61  -	%ZONED		NOT IMPLEMENTED
+d124 24
+a147 24
+ #  Pri	Function	Status
+-- ----	--------------	------------------------------------------------
+ 1  -	dbl_putsf	Not using format info
+ 2  -	drt_accept	NOT IMPLEMENTED
+ 3  -	drt_clear	NOT IMPLEMENTED
+ 4  -	drt_close	Implemented
+ 5  -	drt_delete	NOT IMPLEMENTED
+ 6  -	drt_detach	NOT IMPLEMENTED
+ 7  -	drt_find	NOT IMPLEMENTED
+ 8  -	drt_flush	NOT IMPLEMENTED
+ 9  -	drt_forms	NOT IMPLEMENTED
+10  -	drt_get		NOT IMPLEMENTED
+11  -	drt_gets	NOT IMPLEMENTED
+12  -	drt_open        The only modes supported (initially) include:
+			A, I, I:I, I:R, I:S, O, O:P, O:S, U, U:I, U:R
+13  -	drt_put		NOT IMPLEMENTED
+14  -	drt_puts	NOT IMPLEMENTED
+15  -	drt_read	Relative files complete
+16  -	drt_reads	Relative files complete
+17  -	drt_stop	NOT IMPLEMENTED
+18  -	drt_store	NOT IMPLEMENTED
+19  -	drt_unlock	NOT IMPLEMENTED
+20  -	drt_write	Relative files complete
+21  -	drt_writes	Relative files complete
+@
+
+
+1.64
+log
+@1995-Oct-17 Start of list, not part of the 1.64 version.
+@
+text
+@d1 2
+a2 2
+$Source$
+$Revision$ $Date$
+d19 2
+a20 2
+ 6  -	READ		NOT IMPLEMENTED
+ 7  -	READS		NOT IMPLEMENTED
+d26 2
+a27 2
+12  -	WRITE		In process
+13  -	WRITES		In process
+d133 1
+a133 1
+			A, I, I:I, I:R, I:S, O, O:S, U, U:I, U:R
+d136 2
+a137 2
+15  -	drt_read	NOT IMPLEMENTED
+16  -	drt_reads	NOT IMPLEMENTED
+d141 2
+a142 2
+20  -	drt_write	In process
+21  -	drt_writes	In process
+d144 1
+a144 1
+End of $Source$
+@

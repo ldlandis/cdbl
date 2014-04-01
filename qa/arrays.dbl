@@ -1,0 +1,24 @@
+SUBROUTINE QA_arrays
+; This routine has several nested array definitions, with initializers.
+
+RECORD PROG_VARS
+	BLANK_LINE	,A80 , '                                        '
+&                              '                                        '
+	C_ROW 		,D2	;CURRENT ROW
+	C_COL		,20D3,1,2,3,4,5,6,7,8,9,10,11,12,13,140,9999
+	NAMES		,5A10, 'NAME1', 'NAME2', 'NAME' '3',
+&		'N' 'A' 'M' 'E' '4'
+	A960		,A960
+RECORD XXX,X
+	REDEF		,3A82
+RECORD YY1,X
+	ARRAY1		,[3]A80
+RECORD YY2,X
+	ARRAY2		,[4,2]D10
+RECORD YY3,X
+	ARRAY3		,[4,2,3]D10
+RECORD YY4,X
+	ARRAY4		,[4,2,3,4]D10, 0
+
+PROC
+	C_ROW = ROW

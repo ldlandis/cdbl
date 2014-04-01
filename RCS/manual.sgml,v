@@ -1,0 +1,7070 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.05.59;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.58;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.06.04;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.28;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.04;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.14;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.14;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.38;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.37;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.30;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.12;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.33;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.16;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.03;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.46.01;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.02;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.46;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.39.01;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.08;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.50;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.28;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@<!-- $Source: /home/ldl/dbl/cdbl/RCS/manual.sgml,v $
+     $Revision: 1.73 $ $Date: 1996/03/08 12:53:58 $
+  -->
+<!doctype linuxdoc system>
+<book>
+<title>CDBL Reference Manual
+<author>LD Landis <tt/ldl@@freenet.msp.mn.us/
+<date>v1.65, 22 Oct 1995
+<abstract>
+This document is a reference manual for the cdbl ``ANS/DIBOL''
+compiler system.
+</abstract>
+
+<toc>
+<lof>
+<lot>
+
+<chapt> Introduction to CDBL.
+<p>
+This manual describes the implementation of <bf/cdbl/, which is a
+dialect of DIBOL (<bf/DI/gital <bf/B/usiness <bf/O/riented
+<bf/L/anguage), created by Digital Equipment Corporation.  Cdbl
+includes some features of <bf/DBL/, another implementation of DIBOL
+created by DISC (<bf/D/igital <bf/I/nformation <bf/S/ystems
+<bf/C/orporation, 3336 Bradshaw Road - Suite 340, Sacramento,
+California 95827).
+
+Throughout this manual, the term DIBOL is assumed to mean the entire
+language accepted by <bf/cdbl/, which is the conglomeration of the
+DEC and DISC implementations of that language.  The implementation of
+<bf/cdbl/ is less concerned with being faithful to whatever ANSI
+standard may still exist for the DIBOL language than it is with
+compiling existing DIBOL code bases.
+
+The structure of the reference portion of the manual is similar to
+the standard UNIX manual pages, which happens to be similar to the
+form used by both DEC and DISC in their reference manuals.  The
+contents of this manual is not completely original as both the DEC and
+DISC references were consulted to ensure that the implementation of
+<bf/cdbl/ matched what DIBOL programmers expect.  Because of this
+acknowledgement of the sources consulted, and acknowledgement of their
+respective copyrights, and an attempt on the part of the author to add
+value to the descriptions of the implementation of <bf/cdbl/ it is
+expected that no one will get their legal ``shorts in a bunch'' and
+object to this manual.  (To date, neither DEC nor DISC have insisted
+that this manual be retracted, but no one has yet been aggressive in
+informing DEC and DISC of the existance of this manual ;-).
+
+This manual is intended to be a reference manual, and not a tutorial
+on the use of DIBOL nor on programming.
+
+The information in this manual is valid regardless of the platform on
+which <bf/cdbl/ is running.  See ``system philosophy'' following for
+the rationale followed by <bf/cdbl/ that facilitates this approach,
+and mitigates the need for platform specific notes.
+
+<sect> System Philosophy
+<p>
+The primary philosophy behind the <bf/cdbl/ implemenation of DIBOL is
+to minimize the need of programmers familiar with either the DEC or
+the DISC implementations to have to be concerned with changing their
+code.  <bf/cdbl/ is seen as a facilitator to extending the life of
+existing applications in a cost effective manner.
+
+Another philosophy behind <bf/cdbl/ that agrees with the first, and
+that articulated by DISC (but is unknown to DEC, who thinks that the
+only option is the one you are using at the moment ;-) is
+<it>
+  ``that the operational characteristics of a programming language
+    should remain constant across operating systems.''
+</it>
+It should be the responsibility of the compiler writer to hide
+implementation details to an extent that the underlying operating
+system may be changed without affecting the application source code.
+In this way, one body of source code is able to support all
+environments that are used by various installations of the
+application.  This characteristic is known as <it/portability/.
+
+The portability of <bf/cdbl/ conformant programs means that the
+application may be transported to another system without extensive
+modifications to the source code.  With <bf/cdbl/ this transfer is
+normally reduced to simply recompiling, relinking and running the
+programs on the new system.
+
+<bf/cdbl/, unlike DBL and especially DIBOL obviates the tendency of
+some software developers to customize programs to particular operating
+system by eliminating all system dependent features.
+
+The philosophy behind <bf/cdbl/ is to force application developers
+that are intent on using operating system-dependent features to define
+an application level interface to these features, and to not provide
+them directly from <bf/cdbl/.
+
+The approach taken by <bf/cdbl/ to these traditional system-dependent
+features is to upgrade the ``commonly'' useful items to ``standard''
+subroutines, for which the compiler writer takes responsibility of
+interfacing to the local operating system.  Provision for the support
+of other highly system-dependent functionality is made by fully
+documenting the external calling mechanism used by <bf/cdbl/, and
+requiring the developer organization to implement the interface.
+
+</sect>
+
+<sect> System Components
+<p>
+The primary components of <bf/cdbl/ are the compiler, runtime,
+external subroutine library, and indexed sequential access method
+(ISAM).  Because <bf/cdbl/ translates the DIBOL source code to
+reasonably readable C source code, no provision of <bf/cdbl/ specific
+symbolic debugging nor assembly language interfacing is needed.
+<sect1> Compiler
+<p>
+accepts source files containing DIBOL language and creates a single C
+source code file from that source.  All preprocessor directives are
+handled by the compiler.  This means that all conditional code,
+include files, defines, etc, are done during the creation of the C
+source file.
+
+Object files are created from the ``temporary'' C code created by the
+compiler.  The resulting C code is considered ``temporary'' as it
+exists only long enough to be processed by the standard C development
+tools on the hosting platform.  In general, the C code is not examined
+by the application programmer any more than the assembler code is
+examined by a C programmer (given the common approach of translating C
+to assembler which is then ``assembled'' to the native object code).
+</sect1>
+
+<sect1> Runtime
+<p>
+for <bf/cdbl/ programs is minimal, and takes the form of standard
+library routines.  Generated code accesses these routines passing
+in parameters representing the DIBOL variables or labels.  The
+compiler and the runtime routines are tightly coupled, and are not
+updated independently.  To use an updated version of <bf/cdbl/
+requires the recompiling and relinking of the source code.
+</sect1>
+
+<sect1> External Subroutine Library
+<p>
+is a <bf/cdbl/-supplied collection of external subroutines similar to
+those in the runtime.  These routines are provided to enhance the
+usability of <bf/cdbl/, and hide the system-dependencies that may be
+required to support that function.  These routines are described in
+chapter <ref id="System-Supplied External Subroutines">
+        <it/System-Supplied External Subroutines/.
+</sect1>
+
+<sect1> Indexed Sequential Access Method
+<p>
+provides an optimized file structure facilitating random and
+sequential record processing.  Multi-key ISAM files are supported.  A
+file can be created in which information is stored, retrieved and
+updated based upon one or more key fields within the record.
+<bf/cdbl/'s ISAM support is the same regardless of platform.
+</sect1>
+
+<sect1> Debugging
+<p>
+No <bf/cdbl/ specific debugging tools are provided.  The generated C
+code is readable, and the platform's C debugging tools are used,
+should use of a debugger be required.  To facilitate locating the
+location of the DIBOL statement generating an error, for example, both
+source code and runtime file and line number information is present.
+When a fatal error occurs, the DIBOL source code file and line number,
+and a full trace back (should the error occur in a subroutine) is
+provided.  DIBOL variable names are preserved to facilitate use of C
+debuggers on generated code.
+
+Chapter <ref id="Debugging Hints"> <it/Debugging Hints/ suggests
+several ways to use common debugging tools on <bf/cdbl/ compiled
+executables.
+</sect1>
+
+<sect1> Interfacing to Other Languages
+<p>
+is accomplished using the <bf/cdbl/ supplied linkage mechanisms.
+These mechanisms are detailed in chapter
+  <ref id="Interfacing to Other Languages">
+       <it/Interfacing to Other Languages/.
+The approach used is to pass a pointer to a <bf/cdbl/ specified
+descriptor of the data.
+</sect1>
+</chapt>
+
+<chapt> Basic Language Elements.
+<sect> Character Set
+</sect>
+
+<sect> Program Organization
+</sect>
+
+<sect> Statement Types
+<p>
+The DIBOL language can be categorized into the following specific groups of
+statements:
+<itemize>
+<item> Compiler Control Statements
+<item> Data Definition Statements
+<item> String Manipulation Statements
+<item> Data Manipulation Statements
+<item> File Manipulation Statements
+<item> Program Control Statements
+<item> Input/Output Statements
+</itemize>
+
+Each group consists of statements for performing specific types of actions.
+The statements are briefly summarized in the following section, whereas the
+detailed ``manpage'' form of each statement are presented in
+chapters
+<ref id="Data Division"> Data Division,
+<ref id="Procedure Division"> Procedure Division, and
+<ref id="Compiler Directives"> Compiler Directives.
+
+<sect1> Compiler Control Statements
+<p>
+These statements represent instructions to the <bf/cdbl/ compiler and are
+evaluated during the compilation of the program unit.  None of the compiler
+control statements are included in the resulting executable.
+
+<sect2> PROC
+<p>
+separates the Data Division and the Procedure Division.
+</sect2>
+
+<sect2> BEGIN
+<p>
+signals the beginning of a compound statement.  All <bf/cdbl/ statements up
+to but excluding the corresponding END statement are treated as a single
+logical unit; as a single logical statement.  A BEGIN/END block of code may
+be used whenever a statement is expected.
+</sect2>
+
+<sect2> END
+<p>
+terminates a compound statement (initiated by a BEGIN).  If there is no
+active BEGIN block, then the END marks the end of the program.
+</sect2>
+
+<sect2> .ALIGN
+<p>
+is recognized by <bf/cdbl/, but everything following the .ALIGN is ignored
+through the end of line.
+</sect2>
+
+<sect2> .DEBUG
+<p>
+allows for control of low-level ``internal'' <bf/cdbl/ diagnostic tracing.
+</sect2>
+
+<sect2> .DEFINE
+<p>
+defines a symbolic, compile-time, variable, and optionally assigns a value
+to the variable.  The variable can be used (mostly) whereeveran alpha
+literal, a decimal literal, or fixed-point literal is used.  The presence
+of the variable can be tested in .IFDEF and .IFNDEF statements.
+</sect2>
+
+<sect2> .ELSE
+<p>
+toggles the processing / ignoring of the block of code introduced by a
+.IF, .IFDEF or .IFNDEF.  The .ELSE binds to the closest .IF, .IFDEF or
+.IFNDEF.  The sense of the condition (of the .IF, .IFDEF or .IFNDEF) is
+reversed for the processing of .IFF, .IFT and .IFTF.
+</sect2>
+ 
+<sect2> .END
+<p>
+is recognized, but ignored.  In DIBOL, it is supposedly a synonym for end
+of the source file.  Currently it does not have that meaning to <bf/cdbl/.
+</sect2>
+
+<sect2> .ENDC
+<p>
+terminates a sequence of statements whose compilation is controlled by a
+preceding .IFDEF or .IFNDEF.
+</sect2>
+
+<sect2> .ERROR
+<p>
+generates an error condition.  Useful for programmed error conditions
+where, for example, conditional code requires certain .DEFINE values that
+have not been supplied.  An .ERROR causes the compile to ``fail''.
+</sect2>
+
+<sect2> .IDENT
+<p>
+</sect2>
+
+<sect2> .IF
+<p>
+introduces a block of conditionally compiled code.  If the result of the
+expression following the .IF is non-zero, then the following code is
+processed.  If the expression value is zero, then the following code is
+ignored, except as controlled by .IFF, .IFT and .IFTF.  Conditional
+.IF/.IFDEF/.IFNDEF nesting is currently arbitrarily set to 20 levels.
+</sect2>
+
+<sect2> .IFDEF
+<p>
+introduces a block of conditionally compiled code.  If the symbol tested is
+defined (either through being specified as a data element, or through a
+.DEFINE statement), then the block of code (preceding the .ENDC) is
+compiled.  If the symbol is not defined, then the block of code, through
+and including the associated .ENDC, is ignored, except as controlled by
+.IFF, .IFT, and .IFTF.  Conditional .IF/.IFDEF/.IFNDEF nesting is currently
+arbitrarily set to 20 levels.
+</sect2>
+
+<sect2> .IFNDEF
+<p>
+introduces a block of conditionally compiled code.  If the symbol tested is
+not defined (either through being specified as a data element, or through a
+.DEFINE statement), then the block of code (preceding the .ENDC) is
+compiled.  If the symbol is defined, then the block of code, through
+and including the associated .ENDC, is ignored, except as controlled by
+.IFF, .IFT, and .IFTF.  Conditional .IF/.IFDEF/.IFNDEF nesting is currently
+arbitrarily set to 20 levels.
+</sect2>
+
+<sect2> .IFT, .IFF, .IFTF
+<p>
+used within an .IF/.ENDC, .IFDEF/.ENDC, .IFNDEF/.ENDC blocks, allowing
+greater control over conditional processing.  The code following the .IFT
+statement is processed if the originating condition was TRUE; code
+following .IFF is processed if the originating contition was FALSE; code
+following .IFTF is processed regardless of the originating condition.
+The .IFT/.IFF/.IFTF does not effect the nesting level of .IF/.IFDEF/.IFNDEF.
+</sect2>
+
+<sect2> .INCLUDE
+<p>
+inserts the contents of another source file immediately after the end of
+line containing the .INCLUDE directive.  Files may .INCLUDE other files.
+The current limit is arbitrarily set to 30 levels of .INCLUDE files.
+</sect2>
+
+<sect2> .LINE
+<p>
+specifies the line number generated by the compiler.  When set, both the
+actual source code file:line number and the effective .LINE number are
+reported in diagnostic messages.  This is of limited value in <bf/cdbl/
+since <bf/cdbl/ file:line reporting is not confused by .INCLUDE files and
+.IF/.IFDEF/.IFNDEF conditional code as are DIBOL and DBL.
+</sect2>
+
+<sect2> .LIST
+<p>
+is recognized, but ignored.  <bf/cdbl/ has no ``listing'' output at this
+time.
+</sect2>
+
+<sect2> .MAIN
+<p>
+is recognized, but ignored.
+</sect2>
+
+<sect2> .NAME
+<p>
+is recognized, but is presently ignored.  (Will likely be a synonym for
+.SUBROUTINE or .PSECT)
+</sect2>
+
+<sect2> .NOLIST
+<p>
+is recognized and is the default behavior of <bf/cdbl/, as <bf/cdbl/ has no
+``listing'' output at this time.
+</sect2>
+
+<sect2> .NOTE
+<p>
+generates a message during the compile. Useful for programmed conditions
+where the programmer wants to generate some reminder message during the
+compile of the program.  A .NOTE has no effect on the compile (as do
+.WARNING and .ERROR).
+</sect2>
+
+<sect2> .PAGE
+<p>
+is recognized, but ignored.  <bf/cdbl/ has no ``listing'' output at this
+time.
+</sect2>
+
+<sect2> .PROC
+<p>
+is recognized, but ignored.
+</sect2>
+
+<sect2> .PSECT
+<p>
+is recognized, but ignored.
+</sect2>
+
+<sect2> .RESTORE
+<p>
+is recognized, but ignored.
+</sect2>
+
+<sect2> .SAVE
+<p>
+is recognized, but ignored.
+</sect2>
+
+<sect2> .SHOW
+<p>
+is recognized, but ignored.
+</sect2>
+
+<sect2> .START
+<p>
+is recognized, but ignored.
+</sect2>
+
+<sect2> .SUBROUTINE
+<p>
+is recognized, but ignored.
+</sect2>
+
+<sect2> .SUBTITLE
+<p>
+is recognized, but ignored.  <bf/cdbl/ has no ``listing'' output at this
+time.
+</sect2>
+
+<sect2> .TITLE
+<p>
+is recognized, but ignored.  <bf/cdbl/ has no ``listing'' output at this
+time.
+</sect2>
+
+<sect2> .TRACE
+<p>
+allows for control of ``internal'' <bf/cdbl/ diagnostic tracing.
+</sect2>
+
+<sect2> .WARNING
+<p>
+generates a warning condition.  Useful for programmed error conditions
+where, for example, conditional code requires certain .DEFINE values that
+have not been supplied.  A .WARNING does not cause the compile to ``fail''.
+</sect2>
+
+</sect1>
+
+<sect1> Data Definition Statements
+<p>
+Statements within this group appear only in the Data Division.  These
+statements define data elements and how these elements relate to one
+another.  Note that the SUBROUTINE statement is included in this group
+because, if used, it must appear at the head of the data division and
+introduces the data elements that are the parameters of the subroutine.
+
+<sect2> COMMON
+<p>
+is similar to the RECORD statement in a mainline program in that both
+define data records and associated fields.  The records and fields can be
+referenced by the mainline progarm and by subroutine programs.  The data is
+part of the mainline program.
+
+In a SUBROUTINE program, the COMMON defines reference data areas defined in
+the mainline program.  No new data space is defined.  No checking for
+structural congruence between the mainline and the subroutine is done.
+</sect2>
+
+<sect2> GLOBAL
+<p>
+specifies taht all record definitions that follow are allocated data space
+from a named region of memory.  This permits both mainline and subroutine
+programs to declare mappings of named data regions.  The named regions are
+shared by all modules of both the mainline and subroutine programs.
+</sect2>
+
+<sect2> RECORD
+<p>
+defines teh layout of a data record which is made up of the data fields in
+it.  Each data field within a record is allocated as they are defined.
+RECORDs are local to the routine in which they are defined.
+</sect2>
+
+<sect2> STRING POINTER
+<p>
+defines a list of string pointer variables used by the SCAN and REPLACE
+statements.
+Not implemented (yet) in <bf/cdbl/.
+</sect2>
+
+<sect2> SUBROUTINE
+<p>
+declares that the compilation unit is a subroutine program rather than a
+mainline program.  The SUBROUTINE statement also inaugurates the definition
+of formal parameters, through which another program may exchange
+information with a caller of the subroutine.
+</sect2>
+
+</sect1>
+
+
+<sect1> String Manipulation Statements
+<p>
+The following statements are used to directly manipulate strings.
+Not implemented (yet) in <bf/cdbl/.
+
+<sect2> REPLACE
+replaces a segment of a character string specified by a pointer expression,
+with one or more character strings.
+</sect2>
+
+<sect2> SCAN
+<p>
+scans a character string specified by a pointer expression for a
+particular substring until it is found or the end of string is reached.
+</sect2>
+
+</sect1>
+
+
+<sect1> Data Manipulation Statements
+<p>
+The following statements directly manipulate data.
+
+<sect2> CLEAR
+<p>
+initialize one or more variables to blanks (alpha) or zeros (numeric:
+decimal or fixed point).
+</sect2>
+
+<sect2> DECR
+<p>
+decrements a specified decimal variable by one (1).
+</sect2>
+
+<sect2> INCR
+<p>
+increments a specified decimal variable by one (1).
+</sect2>
+
+<sect2> LOCASE
+<p>
+converts all upper case characters in a variable to lower case characters.
+Characters in the variable that are not upper case characters are left
+alone.
+</sect2>
+
+<sect2> SET
+<p>
+initializes one or more variables to a single value.
+</sect2>
+
+<sect2> UPCASE
+<p>
+converts all lower case characters in a variable to upper case characters.
+Characters in the variable that are not lower case characters are left
+alone.
+</sect2>
+
+</sect1>
+
+<sect1> File Manipulation Statements
+<p>
+
+<sect2> MERGE
+<p>
+</sect2>
+
+<sect2> SORT
+<p>
+</sect2>
+
+<sect1> Program Control Statements
+<p>
+
+<sect2> BEGIN / END
+<p>
+</sect2>
+
+<sect2> CALL
+<p>
+</sect2>
+
+<sect2> CASE
+<p>
+</sect2>
+
+<sect2> DO
+<p>
+</sect2>
+
+<sect2> FOR
+<p>
+</sect2>
+
+<sect2> GOTO
+<p>
+</sect2>
+
+<sect2> IF
+<p>
+</sect2>
+
+<sect2> OFFERROR
+<p>
+</sect2>
+
+<sect2> ONERROR
+<p>
+</sect2>
+
+<sect2> RETURN
+<p>
+</sect2>
+
+<sect2> SLEEP
+<p>
+</sect2>
+
+<sect2> STOP
+<p>
+</sect2>
+
+<sect2> USING
+<p>
+</sect2>
+
+<sect2> WHILE
+<p>
+</sect2>
+
+<sect2> XCALL
+<p>
+</sect2>
+
+</sect1>
+
+<sect1> Input/Output Statements
+<p>
+
+<sect2> ACCEPT
+<p>
+</sect2>
+
+<sect2> CLOSE
+<p>
+</sect2>
+
+<sect2> DELETE
+<p>
+</sect2>
+
+<sect2> DETACH
+<p>
+</sect2>
+
+<sect2> DISPLAY
+<p>
+</sect2>
+
+<sect2> FIND
+<p>
+</sect2>
+
+<sect2> FORMS
+<p>
+</sect2>
+
+<sect2> GET
+<p>
+</sect2>
+
+<sect2> GETS
+<p>
+</sect2>
+
+<sect2> OPEN
+<p>
+</sect2>
+
+<sect2> PURGE
+<p>
+</sect2>
+
+<sect2> PUT
+<p>
+</sect2>
+
+<sect2> PUTS
+<p>
+</sect2>
+
+<sect2> READ
+<p>
+</sect2>
+
+<sect2> READS
+<p>
+</sect2>
+
+<sect2> RECV
+<p>
+</sect2>
+
+<sect2> SEND
+<p>
+</sect2>
+
+<sect2> STORE
+<p>
+</sect2>
+
+<sect2> UNLOCK
+<p>
+</sect2>
+
+<sect2> WRITE
+<p>
+</sect2>
+
+<sect2> WRITES
+<p>
+</sect2>
+
+</sect1>
+
+</sect>
+
+<sect> Format of Statement Lines
+<p>
+
+<sect1> Statement Labels
+<p>
+</sect1>
+
+<sect1> Continuation Lines
+<p>
+</sect1>
+
+<sect1> Comments
+<p>
+</sect1>
+
+<sect1> Blank Lines
+<p>
+</sect1>
+
+<sect1> Separators
+<p>
+
+<sect2> Space and Tab
+<p>
+</sect2>
+
+<sect2> Comma
+<p>
+</sect2>
+
+<sect2> Left and Right Parenthesis
+<p>
+</sect2>
+
+<sect2> Apostrophe and Quotation Marks
+<p>
+</sect2>
+
+<sect2> Semicolon
+<p>
+</sect2>
+
+<sect2> Dollar-sign and Percent-sign
+<p>
+</sect2>
+
+</sect1>
+
+</sect>
+
+<sect> Identifiers
+<sect1> Reserved Words
+<p>
+</sect1>
+
+<sect1> Keywords
+<p>
+</sect1>
+
+<sect1> Variable Names
+<p>
+</sect1>
+
+<sect1> Intrinsic Function Names
+<p>
+</sect1>
+
+<sect1> Subroutine Names
+<p>
+</sect1>
+
+</sect>
+
+<sect> Data Types
+<p>
+
+<sect1> Alpha Data
+<p>
+</sect1>
+
+<sect1> Decimal Data
+<p>
+</sect1>
+
+<sect1> Fixed-Point Decimal Data
+<p>
+</sect1>
+
+</sect>
+
+<sect> Literals
+<p>
+
+<sect1> Alpha Literals
+<p>
+</sect1>
+
+<sect1> Decimal Literals
+<p>
+</sect1>
+
+<sect1> Fixed-Point Decimal Literals
+<p>
+</sect1>
+
+</sect>
+
+<sect> Variables
+<p>
+A variable is a location in the computer memory that is used to store a
+data value, that is referenced by an identifier.  Variables differ from
+literals in that a literal remains constant during program execution,
+whereas the contents of a variable may be changed by the program as it
+executes.  Variables are defined in the Data Division in one of several
+ways: a record, common, global structure, an alpha, decimal or fixed-point
+decimal field.  In addition to defining the variable name and data type,
+additional characteristics of the memory area may be described including:
+length,  number of occurrences, initial value or memory position relative
+to other previously defined variables.  All variables used in the Procedure
+Division must be defined in the Data Division.
+
+Each unique field name of a record, common or global is automatically
+aliased and given a ``nickname'' of itself so that programmers need not
+supply the full name of a variable.  For example, given the following
+definition:
+<tscreen><code>
+RECORD DEMOGRAPHICS
+  NAME      , A20
+  ADDRESS   , A30
+  CITY      , A20
+  STATE     , A2
+  ZIP_CODE  , D5
+</code></tscreen>
+the real names of the variables are: DEMOGRAPHICS.NAME,
+DEMOGRAPHICS.ADDRESS, DEMOGRAPHICS.CITY, DEMOGRAPHICS.STATE and
+DEMOGRAPHICS.ZIP_CODE.  The automatic aliasing process allows the
+programmer to use the nicknames of NAME, ADDRESS, CITY, STATE and ZIP_CODE
+(thereby eliminating the ``DEMOGRAPHICS.'' from each reference).  Note that
+the nicknames operation work only when all field names are unique between
+all record definitions.  When multiple (two or more) records contain the
+same named field, then the full name must be used, a warning is issued when
+a non-unique nickname is encountered so that the programmer is made aware
+of the ambiguity of the nickname.  Record names must be unique.
+
+<sect1> Simple Variables
+<p>
+Simple variables reference the first (and possibly) only occurrence of a
+variable.  For variables which are not defined as arrays, using the
+variables name (a reference) causes an access to the entire memory area
+associated with the variable.  For an array reference, a simple reference
+of the variable (that is, without parenthesis) accesses the first element
+of the array.  Some examples of a simple variable include:
+<itemize>
+<item> FLAG
+<item> Amount
+<item> X11R6
+<item> POSIX
+<item> The_Value
+<item> _123
+</itemize>
+
+</sect1>
+
+<sect1> Subscripted Variables
+<p>
+A subscripted variable references a unique element in a vector of elements.
+Any variable may be subscripted, even if defined as a simple variable.
+
+<sect2> Pseudo Arrays
+<p>
+The element is selected by following the name of the variable with a
+subscript value enclosed in parenthesis.  The subscript value may be any
+non-zero positive decimal expression which identifies the element of the
+vector to access.  A subscript value of one (1) represents the first
+element in the vector.  A subscript may not access an element beyond the
+end of the memory area allocated for the Data Division.
+
+To understand the process of subscripting variables (other than Real
+Arrays) more completely, consider the following example.
+
+Assuming the following Data Division statements:
+<tscreen><code>
+RECORD DEMO
+  ALPHA     , 3D4   , 3, 9876, 4321
+  BETA      , A6    , 'ABCDEF'
+  GAMMA     , D3    , 545
+  DELTA     , 4A2   , 'LM', 'NP', 'RS', 'TV'
+  EPSILON   , 3F3.2 , 6.75, 1.23, 8.00
+</code></tscreen>
+
+The data memory is allocated as follows, from left to right and top to
+bottom:
+<tscreen><code>
+  Variable     Memory (characters)
+  ALPHA(1)     0  0  0  3
+       (2)     9  8  7  6
+       (3)     4  3  2  1
+  BETA         A  B  C  D  E  F
+  GAMMA        5  4  5
+  DELTA(1)     L  M
+       (2)     N  P
+       (3)     R  S
+       (4)     T  V
+  EPSILON(1)   6. 7  5
+         (2)   1. 2  3
+         (3)   8. 0  0
+</code></tscreen>
+
+The decimal points shown in the memory allocation for EPSILON are not
+stored in memory, they are shown for clarity.  The decimal placement is
+automatically maintained and comes from the field definition.  Accessing
+these elements results in the following:
+<tscreen><code>
+Variable Reference           Data Obtained
+DEMO                         000398764321ABCDEF545LMNPRSTV675123800
+ALPHA                        0003
+ALPHA(1)                     0003
+ALPHA(3)                     4321
+ALPHA(4)                     ABCD
+ALPHA(5)                     EF54
+BETA(2)                      545LMN
+GAMMA(ALPHA(1))              PRS
+DELTA(4)                     TV
+DELTA(-3)                    *Subscript Error*
+EPSILON(1)                   6.75
+EPSILON(2)                   1.23
+EPSILON(3)                   8.00
+EPSILON(4)                   *Subscript Error*
+</code></tscreen>
+
+Note that ALPHA(4) and ALPHA(5) are both allowable references.  They do not
+extend beyond theend of the total data space allocated by the collection of
+Data Division statements.  On the other hand, EPSILON(4) attempts to
+reference past the end and this is not allowed.
+
+Note that BETA and GAMMA can each be subscripted even though they are not
+declared as having multiple occurances.  BETA(2) references the location in
+memory where the second element (group of characters) within BETA (each
+element being 6 characters long).
+
+</sect2>
+
+<sect2> Real Arrays
+<p>
+A real or ``bracketed'' array variable allows defining multi-dimensional
+rectangular areas of memory, where an element exists for each declared
+dimension.  For example, if a variable is declared as:
+<tscreen><code>
+RECORD
+  BRACKET   , [3,4,6,3]D1
+</code></tscreen>
+then the references BRACKET[1,2,1,1] and BRACKET[2,2,5,3] are valit because
+each dimension is referenced and in not larger than the size of the
+declared dimensions.  In comparison, BRACKET[1,2] is not valid because only
+2 of the 4 dimensions are specified.  Also, BRACKET[5,1,1,1] is not valid
+because the referenced element for the first dimension (5) is larger than
+the declared size of the first dimentions(3).
+
+</sect2>
+
+</sect1>
+
+<sect1> Ranged Variables
+<p>
+Ranged variable references are those references where a variable is
+followed by a ranging expression enclosed with parentheses.  The ranging
+expression can be either absolute or relative in form.  Each form results
+in the specification of a starting and ending character position relative
+to the beginning of the variable's memory space.  The value of a ranged
+reference is the characters between the start and end positions
+(inclusive).  Real arrays may be used in conjunction with ranging
+expressions, but any ranging must be specified after the bracketed
+subscript specification, e.g. BRACKET[1,2,3,1](1,23).  Ranging of fixed
+point variables is not allowed.
+
+A subscript error si generated if:
+<itemize>
+<item> The starting position is less than one (1).
+<item> The ending position is less than the starting position.
+<item> The indicated character sequence extends beyond the end of the data
+       space of the program.  In the case of GLOBAL variables, the check is
+       made against the end of hte GLOBAL memory area associated with the
+       variable.
+</itemize>
+
+<sect2> Absolute Ranging
+<p>
+Absolute ranging expressions specify the character sequence by expliciting
+indicating the starting and ending positions using the form
+<it/(startpos,endpos)/, where &lt;startpos&gt; is the starting character
+position and &lt;endpos&gt; is the ending character position.
+
+Assuming the following Data Division  statements:
+<tscreen><code>
+RECORD ABS
+  DFLD      , D8      , 10203405
+  AFLD      , A13     , 'ABCDEFGHIJKLM'
+  MFLD      , [3,2]A3 , 'ABC', 'DEF'
+                    & , 'GHI', 'JKL'
+                    & , 'MNO', 'PQR'
+</code></tscreen>
+
+Doing absolute range referencing on these variables results in:
+<tscreen><code>
+Variable Reference           Data Obtained
+DFLD(2,4)                    020
+ABS(8,13)                    5ABCDE
+AFLD(3,6)                    CDEF
+AFLD(DFLD(2,3),DFLD(7,8))    BCDE
+AFLD(DFLD(2,3)+2,5)          DE
+AFLD(13,14)                  MA
+MFLD[1,2](2,3)               EF
+MFLD[2,2](3,6)               LMNO
+MFLD[3,2](3,4)               *Subscript error*
+DFLD(6,3)                    *Subscript error*
+</code></tscreen>
+
+</sect2>
+
+<sect2> Relative Ranging
+<p>
+Relative ranging expressions specify character sequences by indicating a
+starting position and a length of the sequence using the form
+<it/(startpos:length)/, where &lt;startpos&gt; is an expression for the
+starting position (relative to 1), and &lt;length&gt; is and expression
+representing the length of the sequence.
+For positive lengths, the specified &lt;startpos&gt; is the starting point.
+For negative lengths, the specified &lt;startpos&gt; is the ending point
+with the beginning of the sequence occuring &lt;length&gt; characters to
+the left (negative length).
+
+For example, given the same Data Division of:
+<tscreen><code>
+RECORD ABS
+  DFLD      , D8      , 10203405
+  AFLD      , A13     , 'ABCDEFGHIJKLM'
+  MFLD      , [3,2]A3 , 'ABC', 'DEF'
+                    & , 'GHI', 'JKL'
+                    & , 'MNO', 'PQR'
+</code></tscreen>
+
+Doing absolute range referencing on these variables results in:
+<tscreen><code>
+Variable Reference           Data Obtained
+DFLD(3:1)                    2
+DFLD(3:2)                    20
+ABS(6:-2)                    34
+AFLD(1:-3)                   05A
+AFLD(13:2)                   MA
+MFLD[1,2](1:2)               DE
+MFLD[1,1](1:12)              ABCDEFGHIJKL
+MFLD[3,2](1:12)              *Subscript error*
+AFLD(2:-15)                  *Subscript error*
+</code></tscreen>
+
+</sect2>
+
+</sect1>
+
+</sect>
+
+
+</chapt>
+
+<chapt> Data Division.
+<p>
+<label id="Data Division">
+<sect> General Concepts
+<p>
+
+<sect1> Records
+<p>
+
+<sect2> Local Records
+<p>
+</sect2>
+
+<sect2> Common Records
+<p>
+</sect2>
+
+<sect2> Global Records
+<p>
+</sect2>
+
+<sect2> Record Overlays
+<p>
+</sect2>
+
+</sect1>
+
+<sect1> Fields
+<p>
+</sect1>
+
+<sect1> Arrays
+<p>
+</sect1>
+
+<sect1> Working Storage
+<p>
+</sect1>
+
+<sect> Field Definitions
+<sect1> Field Position Indicator
+<p>
+</sect1>
+
+<sect1> Initial Value Specifications
+<p>
+</sect1>
+
+</sect>
+
+<sect> RECORD Statement
+<p>
+</sect>
+
+<sect> COMMON Statement
+<p>
+</sect>
+
+<sect> GLOBAL Statement
+<p>
+</sect>
+
+<sect> STRING POINTER Statementt
+<p>
+</sect>
+
+<sect> SUBROUTINE Statement
+<p>
+</sect>
+
+</chapt>
+
+<chapt> Procedure Division.
+<p>
+<label id="Procedure Division">
+
+<sect> Expressions
+<p>
+
+<sect1> Permitted Operands
+<p>
+</sect1>
+
+<sect1> Available Operators
+<p>
+</sect1>
+
+<sect1> Special Notes
+<p>
+</sect1>
+
+<sect1> The Division Operator
+<p>
+</sect1>
+
+<sect1> The Rounding Operator
+</sect>
+
+<sect> String Pointer Expressions
+</sect>
+
+<sect> Intrinsic Functions
+<p>
+
+<sect1> &dollar;ERLIN
+<p>
+</sect1>
+
+<sect1> &dollar;ERNUM
+<p>
+</sect1>
+
+<sect1> &dollar;LEN
+<p>
+</sect1>
+
+<sect1> &dollar;LINE
+<p>
+</sect1>
+
+<sect1> &dollar;PAINT
+<p>
+</sect1>
+
+<sect1> &dollar;PTR
+<p>
+</sect1>
+
+<sect1> &dollar;RDLEN
+<p>
+</sect1>
+
+<sect1> &dollar;RDTRM
+<p>
+</sect1>
+
+<sect1> &dollar;RND
+<p>
+</sect1>
+
+<sect1> &dollar;TRUE and &dollar;FALSE
+<p>
+</sect1>
+
+<sect1> &dollar;TRUNC
+<p>
+</sect1>
+
+<sect1> Examples of Usagee
+<p>
+</sect1>
+
+</sect>
+
+<sect> Assignment Statments
+<p>
+
+<sect1> Alpha-to-Alpha Assignments
+<p>
+</sect1>
+
+<sect1> Alpha-to-Decimal Assignments
+<p>
+</sect1>
+
+<sect1> Alpha-to-Fixed-Point Assignments
+<p>
+</sect1>
+
+<sect1> Decimal-to-Decimal Assignments
+<p>
+</sect1>
+
+<sect1> Decimal-to-Fixed-Point Assignments
+<p>
+</sect1>
+
+<sect1> Fixed-Point-to-Fixed-Point Assignments
+<p>
+</sect1>
+
+<sect1> Fixed-Point-to-Decimal Assignments
+<p>
+</sect1>
+
+<sect1> Decimal-to-Alpha Assignments
+<p>
+
+<sect2> Implicit Formatting
+<p>
+</sect2>
+
+<sect2> Explicit Formatting
+<p>
+</sect2>
+
+<sect2> Controlling Justification
+<p>
+</sect2>
+
+</sect1>
+
+<sect1> Fixed-Point-to-Alpha Assignments
+<p>
+</sect1>
+
+<sect1> Clearing of Variables
+<p>
+</sect1>
+
+</sect>
+
+<sect> Compound Statements
+</sect>
+
+<sect> Input/Output Error Lists
+
+<label id="input/output error lists">
+</sect>
+
+<sect> Statement Descriptions
+
+<sect1> ACCEPT
+<p>
+The ACCEPT statement receives a character from the specified channel
+and stores it (or its decimal value) into the specified variable.
+
+<bf/Syntax:/
+
+ACCEPT(&lt;channel&gt;,&lt;variable&gt;&lsqb;,&lt;label&gt;&rsqb;)
+  &lsqb;&lt;errlist&gt;&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       an arithmetic expression specifying the channel from which to accept
+       a character.
+
+<item> &lt;variable&gt;
+       an alpha or decimal variable into which the character is stored.
+
+       <bf/Alpha Fields/.
+       The character is stored into the leftmost position of the variable.
+       All other characters in the variable (to the right) are left
+       untouched.  If an end-of-file is encountered and a &lt;label&gt; is
+       specified, control is immediately transferred to the lablled
+       statement. If no &lt;label&gt; is specified, then an EOF error is
+       generated, which the &lt;errlist&gt; may catch.
+
+       <bf/Decimal Fields/.
+       The numeric value of the character is stored (e.g. ASCII 'A' yields
+       the value of 65).  As such, this field is at most 3 characters in
+       length, and has a value in the range 0 through 255.  This value is
+       stored right-justified in the field.  The end-of-file character
+       yields the decimal value of that character (e.g. control-D is 4,
+       control-Z is 26, etc).
+
+<item> &lt;label&gt;
+       is an optional label to which control is tranfered when an
+       end-of-file is received.
+
+<item> &lt;errlist&gt;
+       See <ref id="input/output error lists">.
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+
+       <tscreen><code>
+       RECORD
+                    AFLD,  A5
+             DFLD1, D1
+             DFLD2, D5
+       </code></tscreen>
+
+<bf/Caveats:/
+
+       ACCEPT is a character-based input operation.  As such, no special
+       handling of record terminators occurs as is the case for READS, for
+       example.  The programmer must handle these characters.
+       
+       End-of-file processing is also effected.  If the &lt;variable&gt; is
+       a decimal field, no end-of-file processing occurs.  ACCEPT into a
+       decimal field causes ``raw'' character I/O mode to be selected.
+
+</sect1>
+
+<sect1> CALL
+<p>
+The CALL statement is used to call an internal subroutine.  Upon return
+from the subroutine, execution continues with the statement following the
+CALL.  Entry to an internal subroutine is at the statement having the same
+label as the CALL statement.  Return from the subroutine is effected by
+execution of a RETURN statement.
+
+Two forms of CALL statement are provided: unconditional and computed.  The
+unconditional form executes the specified routine when encountered.  The
+computed form selects the target routine from the list of labels base on
+the value of the selector (relative to 1).  If the selector is
+out-of-bounds, that is less than 1 or has a value greater than the number
+of labels in the list, then no routine is called.
+
+<bf/Syntax:/
+
+CALL &lt;label&gt;
+
+or
+
+CALL (&lt;list&gt;), &lt;selector&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;label&gt;
+       is a specific label to which execution control is immediately
+       transferred.
+<item> &lt;list&gt;
+       is a list of labels separated by commas.  The value of the
+       &lt;selector&gt; selects which of the comma separated labels to
+       invoke, where the value of 1 selects the first label, the value 2
+       selects the second label, an so forth.  Execution control is
+       transferred to the selected label.  A negative or zero value or a
+       value that exceeds the number of labels in the &lt;list&gt; causes
+       not tranfer (the CALL is a NOP), and execution immediately continues
+       with the statement following the CALL.
+<item> &lt;selector&gt;
+       is a decimal variable whose value is used to select a label from the
+       &lt;list&gt; of labels, as discussed in &lt;list&gt above.
+</itemize>
+
+<bf/Discussion:/
+
+
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> CASE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> CLEAR
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> CLOSE (and PURGE)
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> DECR
+<p>
+The DECR statement decrements the value of the indicated variable by one.
+
+<bf/Syntax:/
+
+DECR &lt;variable&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;variable&gt;
+       is a decimal variable whose value is decremented by one.  The value
+       is not restricted to positive numbers.
+</itemize>
+
+<bf/Discussion:/
+
+       Using DECR is the same as subtracting one to a variable.
+
+<bf/Examples:/
+
+<tscreen><code>
+  DECR DVAR
+  DECR DVAR1(X3)
+</code></tscreen>
+
+<bf/Caveats:/
+       Currently, the code generated is different in that a call to
+       drt_decr() is made, rather than generating the code in-line.  There
+       may be a slight speed benefit to DECR over subtracting 1, but don't
+       promise better performance because of it!
+
+</sect1>
+
+<sect1> DELETE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> DETACH
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> DISPLAY
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> DO
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> FIND
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> FOR
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> FORMS
+<p>
+The FORMS statement processes special ASCII control codes.  This statement
+is most commonly used to control vertical form alignment on printers.
+
+<bf/Syntax:/
+
+FORMS(&lt;channel&gt;,&lt;control&gt;)
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       an arithmetic expression specifying the channel to which the form
+       control character(s) is(are) written.  The channel must have already
+       been opened in OUTPUT mode.
+<item> &lt;control&gt;
+       is an expression whose value causes the following control characters
+       to be transmitted:
+       <itemize>
+       <item> 1-9999 the indicated number of newlines (ASCII 10)
+       <item>  0 Form-feed       (ASCII 12)
+       <item> -1 Vertical tab    (ASCII 11)
+       <item> -2 CTRL/N          (ASCII 14)
+       <item> -3 Carriage Return (ASCII 13)
+       </itemize>
+</itemize>
+
+<bf/Discussion:/
+
+Control values of less than -3 cause no action.  A control number of
+greater than 9999 causes a &lsqb;LONG&rsqb; error which may be trapped.
+
+<bf/Examples:/
+
+<tscreen><code>
+  FORMS(3,0)
+  FORMS(2,-1)
+  FORMS(8,15)
+</code></tscreen>
+The first transmits a form-feed to channel 3.
+The second transmits one vertical tab to channel 2.
+The third transmits 15 new-lines to channel 8.
+
+<bf/Caveats:/
+
+A &lsqb;LONG&rsqb; error is generated if the &lt;control&gt; is greater
+than 9999, which may be trapped.
+
+</sect1>
+
+<sect1> GET
+<p>
+The GET statement performs random-access binary input.  The contents of
+the designated data area are updated with the contents of the record
+from the file opened on the specified channel.  No special interpretation
+of record terminators is done.  Any record terminators that are encountered
+are treated as ordinary data.
+
+<bf/Syntax:/
+
+GET(&lt;channel&gt;,&lt;data-area&gt;,&lt;recnum&gt;)
+&lsqb;&lt;errlist&gt;&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       an arithmetic expression specifying the channel from which to read
+       the data from the &lt;data-area&gt;.  The channel must have already
+       been opened in INPUT or UPDATE mode.
+<item> &lt;data-area&gt;
+       is the variable to receive the data read.  The length of the
+       variable determines the number of characters to be read.
+<item> &lt;recnum&gt;
+       is an expression indicating which record is to be read.  A value
+       less than one causes a KEY error.  The record number is interpreted
+       in relation to the size of the &lt;data-area&gt;.
+<item> &lt;errlist&gt;
+       See <ref id="input/output error lists">.
+</itemize>
+
+<bf/Discussion:/
+
+       The GET statement is one of the four statements that support
+       ``binary'' I/O.  The other three are GETS, PUT and PUTS.  None of
+       these statements interpret the characters during I/O.  Each
+       character is assumed to be an 8-bit binary value.  No record
+       terminators added or stripped during the I/O operations.
+
+       The first byte of data transferred is determined according to the
+       formula&nl;
+         (&lt;recnum&gt - 1) * sizeof(&lt;data-area&gt;) + 1&nl;
+       where the first byte of the file is byte 1.
+
+       The GET operation may not be issued on a channel opened in
+       sequential mode.
+
+<bf/Examples:/
+
+        Assuming the following Data Division statements:
+
+<tscreen><code>
+  RECORD
+    AREA1    , A30
+    AREA2    , A1967
+    AREA3    , A5
+</code></tscreen>
+
+        The following are examples of PUT statements:
+<tscreen><code>
+  GET(1, AREA1, 123)
+</code></tscreen>
+        This statement reads the 123th 30-byte record from channel 1.  The
+	record starts at offset (123 - 1) * 30 + 1 or byte 3661 (relative
+	to 1).  If the less than 123 records (of 30 bytes each) exist in
+	the file on channel 1, an EOF error is generated.
+
+<tscreen><code>
+  GET(CH, AREA2, RECNO) [ERR=LBL1]
+</code></tscreen>
+        This statement reads the record given in variable RECNO from
+	channel CH. If a trappable error occurs, control is immediately
+	passed to label LBL1.
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> GETS
+<p>
+The GETS statement performs sequential-access binary input.  The contents
+of the designated data area are replaced with the next group of characters
+from the specified channel.  The size of the group read is equal to the
+size of the data area.  No record terminators are interpreted, and should
+they exist, they are treated as ordinary data.
+
+<bf/Syntax:/
+
+GETS(&lt;channel&gt;,&lt;data-area&gt;&lsqb;,&lt;label&gt;&rsqb;)
+  &lsqb;&lt;errlist&gt;&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       an arithmetic expression specifying the channel from which to read
+       the data from the &lt;data-area&gt;.  The channel must have already
+       been opened in INPUT or UPDATE mode.
+<item> &lt;data-area&gt;
+       is the variable to received the data read.  The length of the
+       variable determines the number of characters to be read.
+<item> &lt;label&gt;
+       is an optional label, to which control is transferred in the event
+       of an EOF error.  If the label is omitted, then the error causes the
+       program to be terminated.
+<item> &lt;errlist&gt;
+       See <ref id="input/output error lists">.
+</itemize>
+
+<bf/Discussion:/
+
+       The GETS statement is one of the four statements that support
+       ``binary'' I/O.  The other three are GET, PUT and PUTS.  None of
+       these statements interpret the characters during I/O.  Each
+       character is assumed to be an 8-bit binary value.  No record
+       terminators added or stripped during the I/O operations.
+
+       The record in &lt;data-area&gt; is read from the file at the
+       ``current'' file position, and the file position is updated to point
+       to the first character past the end of the where read of the
+       &lt;data-area&gt; ended.
+
+       When the channel is opened to a terminal, the GETS statement
+       performs similarly to a READS statement with the following
+       exception.  When a non-terminating character is typed which would
+       cause an overflow of the receiving data area, an ASCII BEL character
+       is issued to warn the operator and the character is ignored.  The
+       GETS statement, on the other hand, immediately terminates the input.
+       If the GETS is terminated with a record terminator, the &dollar;RDTRM
+       function may be used to determine the decimal code for the
+       terminator character.  In the event that the GETS was terminated by
+       having received the full number of characters requested, &dollar;RDTRM
+       returns a zero (0) value.
+
+<bf/Examples:/
+
+       Assuming the following Data Division statements:
+
+<tscreen><code>
+  RECORD
+    AREA1    , A30
+    AREA2    , A1967
+    AREA3    , A5
+</code></tscreen>
+
+       The following are examples of GETS statements:
+<tscreen><code>
+  GETS(1, AREA1)
+</code></tscreen>
+       This statement reads the next 30-byte record from channel 1 starting
+       at the next character in the channel.  This is the character
+       following the end of the last infomration exchanged with the file.
+       If fewer than 30 characters remain on the channel, and EOF trappable
+       error is reported.
+
+<tscreen><code>
+  GETS(CH, AREA2) [ERR=LBL1]
+</code></tscreen>
+       This statement reads the 1967-byte record from channel CH. If a
+       trappable error occurs, control is immediately passed to label LBL1.
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> GOTO
+<p>
+The GOTO statement transfers execution control to a specified label.  The
+unconditional form specifies a single label, to which control is
+immediately transferred.  The computed form specifies a list of labels and
+a selection expression, the value of which selects a label in the list to
+which control is transferred.
+
+<bf/Syntax:/
+
+Unconditional form:
+
+GOTO &lt;label&gt;
+
+Computed form:
+
+GOTO (&lt;label-list&gt;), &lt;selector&gt;
+
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;label&gt;
+       is a label to which execution is immediately transferred.
+<item> &lt;label-list&gt;
+       is a comma separated list of labels to which control is transferred,
+       based on the value of &lt;selector&gt;.  The first label in the list
+       is selected if the value of the &lt;selector&gt; is 1, the second of
+       the value is 2, and so on.  If the &lt;selector&gt; value does not
+       yield a value in the range of 1 to the number of labels in the
+       &lt;label-list&gt, then control passes to the statement immediately
+       following the GOTO (i.e. the GOTO is ignored).
+<item> &lt;selector&gt;
+       is a decimal expression whose value determines which label in
+       &lt;label-list&gt; to transfer control.  If the value is less than
+       1, or greater than the number of labels in &lt;label-list&gt;, then
+       no label is selected and execution continues with the statement
+       following the GOTO.  If the selector is of value 1 to the number of
+       labels in &lt;label-list&gt;, then the corresponding label is
+       selected, and execution is immediately transferred to that label.
+</itemize>
+
+<bf/Discussion:/
+
+       If you need more discussion, maybe you should consider getting into
+       management or sales.
+
+<bf/Examples:/
+
+       Consider the following program:
+
+<tscreen><code>
+  RECORD
+    INPT  , A5
+    DECML , D5
+
+  PROC
+    OPEN(15, O, 'TT:')
+  LOOP,
+    DISPLAY(15, 10, 'Enter label number: ')
+    READS(15, INPT)
+    DECML = INPT
+    GOTO (AA,BB,CC),DECML
+    WRITES(15, '. . . no branch occurred')
+  AA,
+    WRITES(15, '. . . went to label #1 (AA)')
+    GOTO LOOP
+  BB,
+    WRITES(15, '. . . went to label #2 (BB)')
+    GOTO LOOP
+  CC,
+    WRITES(15, '. . . went to label #3 (CC)')
+    GOTO LOOP
+    END
+</code></tscreen>
+       If a value of 1 is entered, control is transferred to label AA.  A
+       value of 2 or 3 transfers to labels BB and CC, respectively.  Any
+       other value causes the '. . . no branch occurred' message.
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> IF
+<p>
+
+The IF statement controls the logic flow of the program by evaluating a
+conditional expression.  There are two forms of IF statement.
+
+<bf/Syntax:/
+
+IF &lt;condition&gt; &lt;statement&gt;
+
+and
+
+IF &lt;condition&gt; &lsqb;THEN&rsqb; &lt;then-part&gt; &lsqb;ELSE
+&lt;else-part&gt;&rsqb;
+
+or
+
+IF &lt;condition&gt; THEN &lt;then-part&gt; &lsqb;ELSE
+&lt;else-part&gt;&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;condition&gt;
+       is a conditional expression whose value controls which, if any,
+       statements to execute.  In the first form, a value of TRUE
+       (non-zero) causes the statement to execute, while a value of FALSE
+       (or zero) causes the statement to be skipped.  In either case,
+       execution continues with the statement following the IF.
+
+       In the  IF-THEN-ELSE form, a TRUE (or non-zero) causes the THEN-part
+       to be executed, while a FALSE (or zero) causes the ELSE-part to be
+       executed.  In either case execution continues with the statement
+       following the IF.
+<item> &lt;statement&gt;
+       represents a statement, possibly compound, which is executed if the
+       condition is TRUE (or non-zero).
+<item> &lt;then-part&gt;
+       is executed if the &lt;condition&gt; is TRUE (or non-zero).
+<item> &lt;else-part&gt;
+       is executed if the &lt;condition&gt; is FALSE (or zero).
+</itemize>
+
+<bf/Discussion:/
+
+       The semantics of DIBOL, and its strange parsing based on the
+       presence or absense of parenthesis is not the same as DBL nor
+       <bf/cdbl/.  In all cases, the ELSE is bound with the most recent IF.
+
+<bf/Examples:/
+
+       Consider the following example:
+
+<tscreen><code>
+  IF (A.EQ.B) THEN
+    IF (C.NE.D)
+      X = Y
+    ELSE
+      X = Z
+</code></tscreen>
+       Under <bf/cdbl/ and DBL, the ELSE is tied to the second IF statement
+       (as depicted by the indentation).  DIBOL, on the other hand would
+       parse the preceding code as:
+
+<tscreen><code>
+  IF (A.EQ.B) THEN
+    IF (C.NE.D)
+      X = Y
+  ELSE
+      X = Z
+</code></tscreen>
+       DIBOL has a bunch of screwy rules regarding the presence or absense
+       of parenthesis to determine how to interpret the ELSE.  Unlike DBL,
+       <bf/cdbl/ does not provide any way to allow the DIBOL interpretation
+       of the IF.  In the DBL manual, the flag is set for the entire
+       compilation, so all code would be subject to, or exempt from the
+       DIBOL rules.  Shoot.  Just fix the application code, or stick with
+       DIBOL on DEC!
+
+<bf/Caveats:/
+
+       The grouping of the ELSE does *NOT* match DIBOL.  For more details,
+       see the DISC/DBL manual.
+
+</sect1>
+
+<sect1> INCR
+<p>
+The INCR statement increments the value of the indicated variable by one.
+
+<bf/Syntax:/
+
+INCR &lt;variable&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;variable&gt;
+       is a decimal variable whose value is incremented by one.  The value
+       is not restricted to positive numbers.
+</itemize>
+
+<bf/Discussion:/
+
+       Using INCR is the same as adding one to a variable.
+
+<bf/Examples:/
+
+<tscreen><code>
+  INCR DVAR
+  INCR DVAR1(X3)
+</code></tscreen>
+
+<bf/Caveats:/
+
+       Currently, the code generated is different in that a call to
+       drt_incr() is made, rather than generating the code in-line.  There
+       may be a slight speed benefit to INCR over adding 1, but don't
+       promise better performance because of it!
+
+</sect1>
+
+<sect1> LOCASE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> LPQUE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> MERGE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> NOP
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> OFFERROR
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> ONERROR
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> OPEN
+<p>
+The OPEN statement initiates the linkage between a CDBL program and the
+operating system environment for ``file I/O''.
+
+<bf/Syntax:/
+
+OPEN(&lt;channel&gt;, &lt;iomode&gt;, &lt;filespec&gt;
+ &lsqb;,&lt;file-qualifiers&gt;&rsqb;) &lsqb;&lt;errlist&gt;&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       an arithmetic expression specifying the channel number to associate
+       with the external entity referenced in &lt;filespec&gt;.
+       a character.
+<item> &lt;iomode&gt;
+       is the I/O mode with which the association is made to the external
+       entity referenced in &lt;filespec&gt;.  &lt;iomode&gt; has the form:
+         mode&lsqb;:submode&rsqb;
+       where ``mode'' represents the primary mode.
+       <itemize>
+       <item> A
+              mode provides for APPENDing records to the end of an existing
+	      file.
+       <item> I
+              mode allows INPUT operations only (e.g. ACCEPT, GET, GETS,
+	      READ, READS), and performs no record locking.  Mode SINPUT is
+	      equivalent to I:I.
+       <item> O
+              mode creates a file allowing OUTPUT operations only (e.g.
+	      DISPLAY, PUT, PUTS, WRITE, WRITES).  If the file does not
+	      exist it is created.  If the file exists, it is opened and
+	      positioned at ``end of file''.
+       <item> U
+              mode opens an existing file for UPDATE operations (e.g.
+	      GET, GETS, PUT, PUTS, READ, READS, WRITE, WRITES).  Record
+	      locking is performed in the U mode for multi-user environments.
+	      Mode SUPDATE is equivalent to U:I.
+       </itemize>
+       The ``submode'' optionally specifies certian characteristics within
+       the mode.
+       <itemize>
+       <item> B
+              submode indicates that BLOCK mode I/O (raw I/O) is going to 
+	      be done for this file.  All block transfers must be of the
+	      size of the physical medium of the file (i.e. sector size for
+	      a disk file, etc).
+       <item> I
+              submode specifies that the file is INDEXED and that only
+	      ISAM-specific statements are allowed.
+       <item> P
+              submode (PRINT) is only valid on mode O (OUTPUT) files, and 
+	      indicates that the file is being created for output to a 
+	      printer-like device.
+       <item> R
+              submode indicates that RELATIVE or random access operations
+	      are allowed.
+       <item> S
+              submode indicates that only SEQUENTIAL operations are going
+	      to be performed.
+       </itemize>
+       Not all possible combinations of mode and submode are valid.
+<item> &lt;filespec&gt;
+       can be an alpha literal, a record name, or a field name.  It names
+       the operating system file accessed during the OPEN processing.  
+<item> &lt;file-qualifiers&gt;
+       Qualifiers listed are in ``compile-time'' form, and may be supplied
+       at ``run-time'' using the ``OPTIONS=spec'' form, where ``spec'' is
+       a string literal, record, or field.
+       <itemize>
+       <item> Record Locking
+       <item> Multi-key Indexed (ISAM) Files
+       </itemize>
+<item> &lt;errlist&gt;
+       See <ref id="input/output error lists">.
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> PURGE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> PUT
+<p>
+The PUT statement performs random-access binary output.  The contents of
+the designated data area are output to the specified channel.  No record
+terminators are appended.
+
+<bf/Syntax:/
+
+PUT(&lt;channel&gt;,&lt;data-area&gt;,&lt;recnum&gt;)
+&lsqb;&lt;errlist&gt;&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       an arithmetic expression specifying the channel to which to write
+       the data from the &lt;data-area&gt;.  The channel must have already
+       been opened in OUTPUT or UPDATE mode.
+<item> &lt;data-area&gt;
+       is the variable containing the data to be written.  The length of
+       the variable determines the number of characters to be written.
+<item> &lt;recnum&gt;
+       is an expression indicating which record is to be written.  A value
+       less than one causes a KEY error.  The record number is interpreted
+       in relation to the size of the &lt;data-area&gt;.
+<item> &lt;errlist&gt;
+       See <ref id="input/output error lists">.
+</itemize>
+
+<bf/Discussion:/
+
+       The PUT statement is one of the four statements that support
+       ``binary'' I/O.  The other three are GET, GETS and PUTS.  None of
+       these statements interpret the characters during I/O.  Each
+       character is assumed to be an 8-bit binary value.  No record
+       terminators added or stripped during the I/O operations.
+
+       The first byte of data transferred is determined according to the
+       formula&nl;
+       (&lt;recnum&gt - 1) * sizeof(&lt;data-area&gt;) + 1&nl;
+       where the first byte of the file is byte 1.
+
+<bf/Examples:/
+
+       Assuming the following Data Division statements:
+
+<tscreen><code>
+  RECORD
+    AREA1    , A30
+    AREA2    , A1967
+    AREA3    , A5
+</code></tscreen>
+
+       The following are examples of PUT statements:
+<tscreen><code>
+  PUT(12, AREA3, 157)
+</code></tscreen>
+       This statement writes the 157th 5-byte record to channel 12.  The
+       record starts at offset (157 - 1) * 5 + 1 or byte 781 (relative to
+       1).
+
+<tscreen><code>
+  PUT(3, AREA2, RECNO) [ERR=LBL1]
+</code></tscreen>
+       This statement writes the record given in variable RECNO to channel
+       3. If a trappable error occurs, control is immediately passed to
+       label LBL1.
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> PUTS
+<p>
+The PUTS statement performs sequential-access binary output.  The contents
+of the designated data area are output to the specified channel.  No record
+terminators are appended.
+
+<bf/Syntax:/
+
+PUTS(&lt;channel&gt;,&lt;data-area&gt;&lsqb;,&lt;label&gt;&rsqb;)
+&lsqb;&lt;errlist&gt;&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       an arithmetic expression specifying the channel to which to write
+       the data from the &lt;data-area&gt;.  The channel must have already
+       been opened in OUTPUT or UPDATE mode.
+<item> &lt;data-area&gt;
+       is the variable containing the data to be written.  The length of
+       the variable determines the number of characters to be written.
+<item> &lt;label&gt;
+       is an optional label, to which control is transferred in the event
+       of an EOF or FULL error.  If the label is omitted, then the error
+       causes the program to be terminated.
+<item> &lt;errlist&gt;
+       See <ref id="input/output error lists">.
+</itemize>
+
+<bf/Discussion:/
+
+       The PUTS statement is one of the four statements that support
+       ``binary'' I/O.  The other three are GET, GETS and PUT.  None of
+       these statements interpret the characters during I/O.  Each
+       character is assumed to be an 8-bit binary value.  No record
+       terminators added or stripped during the I/O operations.
+
+       The record in &lt;data-area&gt; is written to the file at the
+       ``current'' file position, and the file position is updated to point
+       to the first character past the end of the where the
+       &lt;data-area&gt; ended.
+
+<bf/Examples:/
+
+       Assuming the following Data Division statements:
+
+<tscreen><code>
+  RECORD
+    AREA1    , A30
+    AREA2    , A1967
+    AREA3    , A5
+</code></tscreen>
+
+       The following are examples of PUTS statements:
+<tscreen><code>
+  PUT(12, AREA3)
+</code></tscreen>
+       This statement writes the 5-byte record to channel 12 starting at
+       the next character in the channel.  This is the character following
+       the end of the last infomration exchanged with the file.
+
+<tscreen><code>
+  PUT(3, AREA2) [ERR=LBL1]
+</code></tscreen>
+       This statement writes the 1967-byte record to channel 3. If a
+       trappable error occurs, control is immediately passed to label LBL1.
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> READ
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> READS
+<p>
+
+<bf/Syntax:/
+
+DIRECTION:&lt;expr&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> RECV
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> REPLACE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> SCAN
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> SEND
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> SET
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> SLEEP
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> SORT
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> STOP
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> STORE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> UNLOCK
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> UPCASE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> USING
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> WHILE
+<p>
+
+<bf/Syntax:/
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> WRITE
+<p>
+The WRITE statement performs random-access, record-oriented output to the
+specified channel.  The WRITE statement is used to update (rewrite) records
+which are already present in the file, and my be used with either non-ISAM
+or ISAM files.
+
+<bf/Syntax:/
+
+WRITE(&lt;channel&gt;,&lt;data-area&gt;,&lt;record-id&gt;)
+  &lsqb;&lt;errlist&gt;&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       is an arithmetic expression, the value of which specifies the channel
+       of the target file.  The channel to the file must have already been
+       opened in OUTPUT, UPDATE, or U:I mode.
+<item> &lt;data-area&gt;
+       is the variable containing the data to be written.
+<item> &lt;record-id&gt;
+       indicates the specific record in the file that is the target of the 
+       update. For non-ISAM files, the &lt;record-id&gt; is a decimal value
+       of the ordinal number of the record (relative to 1).
+
+       For ISAM files, the &lt;record-id&gt; is an alpha variable, the value
+       of which is the primary key value, which determines the logical
+       position of the record within the ISAM file.  If the length of the
+       key value is different from the length of the key values in the ISAM
+       file, then a KEY error is generated, which may be trapped by the
+       &lt;errlist&gt;
+<item> &lt;errlist&gt;
+       See <ref id="input/output error lists">.
+</itemize>
+
+<bf/Discussion:/
+
+       For non-ISAM files, the record written is that which is associated
+       with the specified ordinal record number.  The length of the
+       &lt;data-area&gt; and the ordinal number of the record are used to
+       determine the offset into the file at which the write occurs.  After
+       the contents of &lt;data-area&gt; are written, an end-of-line
+       terminator is written.  When the data is read with the READ or READS
+       statement, the end-of-line terminator is not transferred to the
+       receiving data area.
+
+       For ISAM files, the record rewritten is the one retrieved by the
+       last READ or READS.  Note that no other I/O operation can occur on
+       the specified channel between the READ, READS, and WRITE.  If some
+       other I/O operation has occured, the the KEY error is generated (and
+       the record is not updated).
+
+<bf/Examples:/
+
+<tscreen><code>
+  WRITE(12,REC,42) [LOCK=RETRY]
+</code></tscreen>
+       This attempts to write record number 42 in a non-ISAM file. In the
+       event that record 42 was not previously locked by channel 12, the
+       WRITE attempts to lock it before modifying it.  If the record is
+       locked by another channel, control is transferred to the statement
+       labeled RETRY.  If the record is written, it is unlocked afterwards.
+
+<tscreen><code>
+  WRITE(4,ISMREC,KEYVAL) [KEY=OOPS]
+</code></tscreen>
+       This attempts to rewrite the ISAM record which was previously read
+       and whose key value matches the value of KEYVAL.  If the key values
+       do not match, control is transferred to the statement labeled OOPS.
+       If the record is successfully rewritten, it is unlocked.
+
+<bf/Caveats:/
+
+<it/For non-ISAM files/:
+       A line terminator is written after the contents of
+       &lt;data-area&gt;.  A record number less than one generates a KEY
+       I/O exception.  If the write fails (because space is exhausted), an
+       EOF I/O exception is generated.  If the channel is not open, or
+       other error occurs, an ERR I/O exception is generated.  If the
+       end-of-line terminator is not found immediately following the data
+       record, a LONG I/O exception is generated (the terminator is not
+       transferred to the &lt;data-area&gt; but must physically follow the
+       record in the file).
+
+<it/For ISAM files/:
+       No end-of-line terminator appears in the ISAM file.  If some other
+       I/O operation occurs between the READ, READS and the WRITE, the the
+       KEY error is generated (and the record is not updated).
+
+</sect1>
+
+<sect1> WRITES
+<p>
+The WRITES statement performs sequential-access, record-oriented output to
+the specified channel.  The statement can be used only with non-ISAM files.
+
+<bf/Syntax:/
+
+WRITES(&lt;channel&gt;, &lt;data-area&gt;, &lsqb;&lt;label&gt;&rsqb;)
+  &lsqb;&lt;errlist&gt;&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       is an arithmetic expression, the value of which specifies the channel
+       of the target file.  The channel to the file must have already been
+       opened in APPEND, OUTPUT, or UPDATE mode.
+<item> &lt;data-area&gt;
+       is the variable containing the data to be written.
+<item> &lt;label&gt;
+       in an optional label that is transferred to if the write was not
+       successful.  This is equivalent to having an &lt;errlist&gt; of
+       &lsqb;EOF=label&rsqb;.
+<item> &lt;errlist&gt;
+       See <ref id="input/output error lists">.
+</itemize>
+
+<bf/Discussion:/
+
+       The WRITES statement is used to write the record immediately
+       following the most recent record read from or written to the output
+       file.  If no record has been read or written, then the write is to
+       the first record in the file.  If the file is opened in append mode,
+       then the file is always positioned to the end of file.  The data
+       written to the file is specified in &lt;data-area&gt; and is
+       terminated by an end-of-line indicator.  The terminator is not
+       transferred to the &lt;data-area&gt;.  Note that the size of the
+       record for a given file is determined by the first read or write
+       operation done on that file.  If subsequent operations use record
+       lengths that differ from the first one used, then a
+       &lsqb;LONG=label&rsqb;
+       exception is generated, and the WRITES operation is not done.
+
+<bf/Examples:/
+
+<tscreen><code>
+  WRITES(2, RECA)
+</code></tscreen>
+       This writes the contents of RECA to channel 2.  If no more space is
+       left in the file, and EOF error occurs and the program is
+       terminated.
+
+<tscreen><code>
+  WRITES(5, RECA, NOMORE)
+</code></tscreen>
+       or
+<tscreen><code>
+  WRITES(5, RECA) [EOF=NOMORE]
+</code></tscreen>
+       These statements also write the contents of RECA but to channel 5.
+       In addition, if an EOF error occurs (the write operation failed to
+       write all of the data), the program is not terminated. Rather
+       control is transferred to the statement labeled NOMORE.
+
+<bf/Caveats:/
+
+       Generate I/O &lt;errlist&gt; exception EOF when the WRITES operation
+       fails (out of disk space), ERR if the channel is not opened or some
+       other programming error, and LONG if the length of subsequent
+       &lt;data-area&gt;s do not match the length of the initial
+       &lt;data-area&gt; used in an I/O operation.
+
+</sect1>
+
+<sect1> XCALL
+<p>
+The XCALL statement transfers control to an external subroutine (as
+contrasted with the CALL which transfers control to an internal
+subroutine), which has been linked into the executable program module.
+External routines may be written in <bf/cdbl/ or other programming
+language.  Note that <bf/cdbl/ calling sequence is used.
+
+<bf/Syntax:/
+
+XCALL &lt;subroutine&gt;&lsqb;(&lt;arg-list&gt;)&rsqb;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;subroutine&gt;
+       is the name of the external subroutine to which control is
+       transferred.  See <it/Calling Sequence/ for more information.
+<item> &lt;arg-list&gt;
+       in an optional list of arguments to pass to the external subroutine.
+       The number of arguments passed must match those expected by the
+       subroutine.  Any valid <bf/cdbl/ variables, expressions, constants
+       or literals may be used as arguments.  If more than one argument is
+       present, each is separated by a comma.  Expressions, constants and
+       literals represent values that cannot be altered by the subroutine.
+</itemize>
+
+<bf/Discussion:/
+
+       Control is transferred to the external subroutine and does not
+       return to the calling program until the subroutine executes a RETURN
+       that corresponds to the XCALL.  Control is returned to the statement
+       that follows the XCALL statement.
+
+<bf/Examples:/
+
+       Calling Program:
+<tscreen><code>
+  RECORD
+     ARG1, A5
+     ARG2, D5
+     ARG3, A12
+  PROC
+     OPEN(15,I,'TT:')
+      ...
+     ARG3 = "BOSS'S SALARY"
+     XCALL DISP(ARG2,ARG3)
+      ...
+     STOP
+  END
+</code></tscreen>
+
+       External Subroutine:
+<tscreen><code>
+  SUBROUTINE DISP
+     VAR1, D
+     VAR2, A
+  RECORD
+     FLD,  A15
+  PROC
+     FLD = VAR1, 'ZZZ,ZZZ,ZZZ.XX-'
+     DISPLAY(15, VAR2, ' IS ', FLD, 10)
+     RETURN
+  END
+</code></tscreen>
+
+<bf/Caveats:/
+
+       Any ONERROR traps in effect within the calling program are disabled
+       while the external subroutine has control.  When the external
+       subroutine returns control to the calling program the error traps
+       are re-enabled.
+
+</sect1>
+
+</chapt>
+
+<chapt> Compiler Directives.
+<p>
+<label id="Compiler Directives">
+
+<sect> Division Directives
+<p>
+
+<sect1> PROC
+<p>
+Beginning of Procedure Division.
+
+<bf/Syntax:/
+
+PROC
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> BEGIN
+<p>
+Start of a code block.
+
+<bf/Syntax:/
+
+BEGIN
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+<bf/See Also:/
+
+END statement.
+
+</sect1>
+
+<sect1> END
+<p>
+End of program or BEGIN block.
+
+<bf/Syntax:/
+
+END
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+<bf/See Also:/
+
+BEGIN statement.
+
+</sect1>
+
+<sect> General Directives
+<p>
+
+<sect1> .ALIGN
+<p>
+Specify alignment resolution of data.
+
+<bf/Syntax:/
+
+.ALIGN
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+Recognized for compatibility with DEC DIBOL.  Currently has no effect.
+
+<bf/Examples:/
+
+N/A.
+
+<bf/Caveats:/
+
+Currently has no effect.
+
+</sect1>
+
+<sect1> .DEBUG
+<p>
+Control compiler low-level internal state diagnostics.
+
+<bf/Syntax:/
+
+.DEBUG &lt;value&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;value&gt;
+       an expression which, if non-zero, enables low-level diagnostic
+       tracing; if zero, disables low-level diagnostic tracing.
+</itemize>
+
+<bf/Discussion:/
+
+This is useful only for those supporting the compiler itself.  The output
+may be slightly useful to those trying to figure out just what is wrong
+with the source being compiled, but generally the output is not meaningful
+to anyone not familiar with the internal structure of the compiler.
+
+<bf/Examples:/
+
+<tscreen><code>
+.DEBUG 1 ; Enable debugging
+     DISPLAY(1,"What are you doing this for?", 10)
+.DEBUG 0 ; Done looking at that!  Wasn't that helpful? NOT!
+</code></tscreen>
+
+<bf/Caveats:/
+
+Of little value to anyone not working on the compiler.  Note: to fully
+enable all diagnostics, the environment variable YYDEBUG must evaluate to a
+non-zero value when supplied to atoi(3).
+
+<bf/See Also:/
+
+.TRACE statement.
+</sect1>
+
+<sect1> .DEFINE
+<p>
+Define a compile-time value.
+
+<bf/Syntax:/
+
+.DEFINE &lt;symbol&gt;
+
+or
+
+.DEFINE &lt;symbol&gt; &lt;value&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;symbol&gt;
+       is the symbol to be defined.  If &lt;symbol&gt; has appeared in a
+       data definition or in a previous .DEFINE statement, then a
+       diagnostic is issued.  The first value associated with a
+       &lt;symbol&gt; is the value of the &lt;symbol&gt; for the compile.
+<item> &lt;value&gt;
+       is optional value of the &lt;symbol&gt to .DEFINE.  The
+       &lt;value&gt; may be a quoted string, a number or a numeric
+       expression.
+</itemize>
+
+<bf/Discussion:/
+
+The &lt;symbol&gt; is posted to the .DEFINE table, with optional
+&lt;value&gt;.  If the &lt;symbol&gt; was previously .DEFINEd, or appeared
+in a data definition (RECORD, COMMON, etc), then an error is diagnosed.
+
+<bf/Examples:/
+
+<tscreen><code>
+.DEFINE SYM_IS_DEFINED
+.DEFINE MAXITEMS 30
+</code></tscreen>
+
+<bf/Caveats:/
+
+In some cases, <bf/cdbl/ does not allow .DEFINE values where it appears DEC
+DIBOL and DISC/DBL allow them.  For example, the following is not supported
+(yet) by <bf/cdbl/:
+
+<tscreen><code>
+.DEFINE TYPESIZE 22
+FLD	, A TYPESIZE
+</code></tscreen>
+
+<bf/See Also:/
+
+.IF, .IFDEF, and .IFNDEF statements.
+
+</sect1>
+
+<sect1> .ELSE
+<p>
+Switch sense of .IF, .IFDEF or .IFNDEF statement.
+
+<bf/Syntax:/
+
+.ELSE
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+<bf/See Also:/
+
+.ENDC, .IF, .IFDEF, .IFNDEF, .IFF, .IFT and .IFTF statements.
+
+</sect1>
+
+<sect1> .END
+<p>
+End of source.
+
+<bf/Syntax:/
+
+.END
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Ignored.
+
+</sect1>
+
+<sect1> .ENDC
+<p>
+End a conditional compilation block, initiated by .IF, .IFDEF or .IFNDEF.
+
+<bf/Syntax:/
+
+.ENDC
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+<bf/See Also:/
+
+.ELSE, .IF, .IFDEF and .IFNDEF statements.
+
+</sect1>
+
+<sect1> .ERROR
+<p>
+Generate compile-time error diagnostic.
+
+<bf/Syntax:/
+
+.ERROR &lt;quoted-string&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;quoted-string&gt;
+       contains the diagnostic message to emit.
+</itemize>
+
+<bf/Discussion:/
+.ERROR generates an error message during the compile. Useful for programmed
+error conditions where the programmer wants to generate a fatal compile
+error due to a erroneous compile time condition.
+
+<bf/Examples:/
+<tscreen><code>
+.IFDEF SAM
+  .ERROR "BIG OOPS! This was compiled while SAM was defined"
+.ENDC
+</code></tscreen>
+
+<bf/Caveats:/
+
+.ERROR prevents the generation of C code by <bf/cdbl/.
+
+<bf/See Also:/
+
+.NOTE and .WARNING.
+</sect1>
+
+<sect1> .IDENT
+<p>
+Set external module identification information?
+
+<bf/Syntax:/
+
+.IDENT
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Ignored.
+
+</sect1>
+
+<sect1> .IF
+<p>
+Conditional compile based on expression value.
+
+<bf/Syntax:/
+
+.IF &lt;value&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;value&gt;
+       is the value of the expression.  If &lt;value&gt; is non-zero, then
+       the code that follows is compiled.  If &lt;value&gt; is zero, then
+       the code that follows is ignored.
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+.IF, .IFDEF and .IFNDEF nesting are all limited by a single statically
+allocated stack in the compiler.
+
+<bf/See Also:/
+
+.ENDC, .IFF, .IFT and .IFTF statements.
+</sect1>
+
+<sect1> .IFDEF
+<p>
+Conditional compile based on symbol being defined.
+
+<bf/Syntax:/
+
+.IFDEF &lt;symbol&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;symbol&gt;
+       has been encountered in a data division definition or appeared in a
+       .DEFINE statement.
+</itemize>
+
+<bf/Discussion:/
+
+If the &lt;symbol&gt; has been encountered in a data division statement
+(e.g. RECORD, COMMON, etc) or has been defined by a .DEFINE statement, then
+the condition is evaluated TRUE, and the lines of code following are
+processed.  If not, then the following lines of code are ignored until the
+.ENDC, except as per .ELSE, .IFF, .IFT and .IFTF statements.
+
+<bf/Examples:/
+
+<tscreen><code>
+.IFDEF TO_PESOS
+   PESOS = DOLLARS * DOL_TO_PESO
+.ENDC
+</code></tscreen>
+
+<bf/Caveats:/
+
+.IF, .IFDEF and .IFNDEF nesting are all limited by a single statically
+allocated stack in the compiler.
+
+<bf/See Also:/
+
+.ENDC, .DEFINE, .IFNDEF statements.
+
+</sect1>
+
+<sect1> .IFF
+<p>
+Conditional-conditional compile currently ignoring source.
+
+<bf/Syntax:/
+
+.IFF
+
+<bf/Semantics:/
+
+n/a.
+
+<bf/Discussion:/
+
+The .IFF statement modifies the sense of the initial conditional as set by 
+.IF, IFDEF or .IFNDEF.  If the conditional evaluated to TRUE, then the
+lines following the .IFF are not processed (because the condition was not
+FALSE).  If the conditional evaluated FALSE, then the lines following the
+.IFF are processed (becase the condition was FALSE).
+
+<bf/Examples:/
+
+<tscreen><code>
+.IFDEF SAM
+  DISPLAY(1, "SAM WAS DEFINED", 10)
+.IFF
+  DISPLAY(1, "SAM WAS NOT DEFINED", 10)
+.ENDC
+</code></tscreen>
+
+<bf/Caveats:/
+
+Does not effect the if-stack level of nesting.
+
+<bf/See Also:/
+
+.ENDC, .IF, .IFDEF, .IFNDEF, .IFT and .IFTF statements.
+
+</sect1>
+
+<sect1> .IFNDEF
+<p>
+Conditional compile based on symbol not being defined.
+
+<bf/Syntax:/
+
+.IFNDEF &lt;symbol&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;symbol&gt;
+       has not been encountered in a data division definition nor appeared
+       in a .DEFINE statement.
+</itemize>
+
+<bf/Discussion:/
+
+If the &lt;symbol&gt; has NOT been encountered in a data division statement
+(e.g. RECORD, COMMON, etc) NOR has it been defined by a .DEFINE statement,
+then the condition is evaluated TRUE, and the lines of code following are
+processed.  If not, then the following lines of code are ignored until the
+.ENDC, except as per .ELSE, .IFF, .IFT and .IFTF statements.
+
+<bf/Examples:/
+
+<tscreen><code>
+.IFNDEF TO_PESOS
+  DISPLAY(1, "PESO CONVERSION NOT ENABLED", 10)
+.ENDC
+</code></tscreen>
+
+<bf/Caveats:/
+
+.IF, .IFDEF and .IFNDEF nesting are all limited by a single statically
+allocated stack in the compiler.
+
+<bf/See Also:/
+
+.ENDC, .DEFINE, .IFDEF statements.
+
+</sect1>
+
+<sect1> .IFT
+<p>
+Conditional-conditional compile currently processing source.
+
+<bf/Syntax:/
+
+.IFT
+
+<bf/Semantics:/
+
+n/a.
+
+<bf/Discussion:/
+
+The .IFT statement modifies the sense of the initial conditional as set by 
+.IF, IFDEF or .IFNDEF.  If the conditional evaluated to TRUE, then the
+lines following the .IFT are processed (because the condition was TRUE)
+If the conditional evaluated FALSE, then the lines following the
+.IFT are not processed (becase the condition was FALSE).
+
+<bf/Examples:/
+
+<tscreen><code>
+.IFNDEF SAM
+  DISPLAY(1, "SAM WAS NOT DEFINED", 10)
+.IFT
+  DISPLAY(1, "SO I DON'T WANT TO BE EITHER", 10)
+.ENDC
+</code></tscreen>
+
+<bf/Caveats:/
+
+Does not effect the if-stack level of nesting.
+
+<bf/See Also:/
+
+.ENDC, .IF, .IFDEF, .IFNDEF, .IFF and .IFTF statements.
+
+</sect1>
+
+<sect1> .IFTF
+<p>
+Conditional-conditional compile source regardless of conditional.
+
+<bf/Syntax:/
+
+.IFTF
+
+<bf/Semantics:/
+
+n/a.
+
+<bf/Discussion:/
+The .IFTF statement modifies the sense of the initial conditional as set by 
+.IF, IFDEF or .IFNDEF.  Regardless of the result of the condition, the
+lines following the .IFTF are processed.
+
+<bf/Examples:/
+
+<tscreen><code>
+.IFDEF SAM
+  DISPLAY(1, "SAM WAS DEFINED", 10)
+.IFTF
+  DISPLAY(1, "BUT I DON'T CARE, I'M ALWAYS HERE", 10)
+.ENDC
+</code></tscreen>
+
+<bf/Caveats:/
+
+Does not effect the if-stack level of nesting.
+
+<bf/See Also:/
+
+.ENDC, .IF, .IFDEF, .IFNDEF, .IFF and .IFT statements.
+
+
+</sect1>
+
+<sect1> .INCLUDE
+<p>
+Insert contents of another file.
+
+<bf/Syntax:/
+
+.INCLUDE &lt;quoted-string&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;quoted-string&gt;
+       is interpreted as the name of the file to read, inserting the
+       contents of the file immediately after the line that the .INCLUDE
+       appeared on.
+</itemize>
+
+<bf/Discussion:/
+
+The name of the file in &lt;quoted-string&gt; may contain a ``logical''
+reference.  The form of a file name references is:
+
+&lsqb;&lt;logical-reference&gt:&rsqb;&lt;file-name&gt;
+
+where &lt;logical-reference&gt; is optional.  If &lt;logical-reference&gt;
+is present, it is separated from the &lt;file-name&gt; by a colon (:)
+character.
+
+If a &lt;logical-reference&gt; is supplied, it is converted to upper-case,
+and then an ``environment variable'' (getenv(3)) is accessed using that
+name.  If found, the value of the environment variable is pre-pended to the
+the &lt;file-name&gt;.
+
+The &lt;file-name&gt; is converted to lower case, since that is the more
+natural case for UNIX file names.
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+The nesting level (include files including include files) is limited to a
+statically allocated array within the compiler.
+
+The &lt;logical-reference&gt; is converted to upper case and dereferenced
+from the environment variable (via getenv(3)).  The &lt;file-name&gt; is
+converted to lower case.
+
+</sect1>
+
+<sect1> .LINE
+<p>
+Set (override) line number of input source.
+
+<bf/Syntax:/
+
+.LINE &lt;value&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;value&gt;
+       is the reported line number.  &lt;value&gt; may be a numeric
+       expression.
+</itemize>
+
+<bf/Discussion:/
+
+This directive allows overriding the current line number generated by the
+compiler.  When set, both the actual source code file:line number and the
+effective .LINE number are reported in diagnostic messages.  This is of
+limited value in <bf/cdbl/ since <bf/cdbl/ file:line reporting is not
+confused by .INCLUDE files and .IF/.IFDEF/.IFNDEF conditional code as are
+DIBOL and DBL.
+
+<bf/Examples:/
+<tscreen><code>
+.LINE 3000
+</code></tscreen>
+
+<bf/Caveats:/
+
+The reported error in a run-time error message is the actual file:line, not
+the specified .LINE number.
+
+</sect1>
+
+<sect1> .LIST
+<p>
+
+<bf/Syntax:/
+
+.LIST
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+
+</sect1>
+
+<sect1> .MAIN
+<p>
+
+<bf/Syntax:/
+
+.MAIN
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+
+</sect1>
+
+<sect1> .NAME
+<p>
+
+<bf/Syntax:/
+
+.NAME
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+
+</sect1>
+
+<sect1> .NOLIST
+<p>
+Turn off listing.
+
+<bf/Syntax:/
+
+.NOLIST
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+
+</sect1>
+
+<sect1> .NOTE
+<p>
+Issue a compile-time message.
+
+<bf/Syntax:/
+
+.NOTE &lt;quoted-string&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;quoted-string&gt;
+       contains the diagnostic message to emit.
+</itemize>
+
+<bf/Discussion:/
+.NOTE generates a message during the compile. Useful for programmed
+conditions where the programmer wants to generate some reminder message
+during the compile of the program.  A .NOTE has no effect on the compile
+(as do .WARNING and .ERROR).
+
+<bf/Examples:/
+<tscreen><code>
+.IFDEF SAM
+  .NOTE "This was compiled while SAM was defined"
+.ENDC
+</code></tscreen>
+
+<bf/Caveats:/
+
+N/A.
+
+<bf/See Also:/
+
+.ERROR and .WARNING statements.
+</sect1>
+
+<sect1> .PAGE
+<p>
+Issue a page break in listing.
+
+<bf/Syntax:/
+
+.PAGE
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+
+</sect1>
+
+<sect1> .PROC
+<p>
+Start of procedure division.
+
+<bf/Syntax:/
+
+.PROC
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+
+</sect1>
+
+<sect1> .PSECT
+<p>
+Issue Program SECTion to object.
+
+<bf/Syntax:/
+
+.PSECT
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+
+</sect1>
+
+<sect1> .RESTORE
+<p>
+
+<bf/Syntax:/
+
+.RESTORE
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognize but ignored.
+</sect1>
+
+<sect1> .SAVE
+<p>
+
+<bf/Syntax:/
+
+.SAVE
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+</sect1>
+
+<sect1> .SHOW
+<p>
+
+<bf/Syntax:/
+
+.SHOW
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+
+</sect1>
+
+<sect1> .START
+<p>
+Optionally advances program listing to new page and sets/resets compiler
+flags, titles and subtitles.
+
+<bf/Syntax:/
+
+.START
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+</sect1>
+
+<sect1> .SUBROUTINE
+<p>
+Specify output subroutine name.
+
+<bf/Syntax:/
+
+.SUBROUTINE
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+</sect1>
+
+<sect1> .SUBTITLE
+<p>
+Set listing subtitle.
+
+<bf/Syntax:/
+
+.SUBTITLE
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+Listing operations are not implemented.
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+Recognized but ignored.
+
+</sect1>
+
+<sect1> .TITLE
+<p>
+Set listing title.
+
+<bf/Syntax:/
+
+.TITLE
+
+<bf/Semantics:/
+<itemize>
+<item> x
+</itemize>
+
+<bf/Discussion:/
+
+Listing operations are not implemented.
+
+<bf/Examples:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+</sect1>
+
+<sect1> .TRACE
+<p>
+
+<bf/Syntax:/
+
+.TRACE &lt;value&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;value&gt;
+       an expression which, if non-zero, enables diagnostic tracing; if
+       zero, disables low-level diagnostic tracing.
+</itemize>
+
+<bf/Discussion:/
+
+This is useful only for those supporting the compiler itself.  The output
+may be slightly useful to those trying to figure out just what is wrong
+with the source being compiled, but generally the output is not meaningful
+to anyone not familiar with the internal structure of the compiler.
+
+<bf/Examples:/
+
+<tscreen><code>
+.TRACE 1 ; Enable debugging
+     DISPLAY(1,"What are you doing this for?", 10)
+.TRACE 0 ; Done looking at that!  Wasn't that helpful? NOT!
+</code></tscreen>
+
+<bf/Caveats:/
+
+Of little value to anyone not working on the compiler.
+</sect1>
+
+<sect1> .WARNING
+<p>
+Generate non-fatal compile-time warning diagnostic.
+
+<bf/Syntax:/
+
+.WARNING &lt;quoted-string&gt;
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;quoted-string&gt;
+       contains the diagnostic message to emit.
+</itemize>
+
+<bf/Discussion:/
+
+.WARNING generates a warning message during the compile. Useful for
+programmed conditions where the programmer wants to generate a non-fatal
+compile warning due to a compile time condition.
+
+<bf/Examples:/
+<tscreen><code>
+.IFDEF SAM
+  .WARNING "OOPS! This was compiled while SAM was defined"
+.ENDC
+</code></tscreen>
+
+<bf/Caveats:/
+
+.WARNING does not prevent the generation of C code by <bf/cdbl/.
+
+<bf/See Also:/
+
+.ERROR and .NOTE statements.
+</sect1>
+
+</sect>
+
+</chapt>
+
+<chapt> System-Supplied External Subroutines.
+<p>
+<label id="System-Supplied External Subroutines">
+
+<sect> ACCHR <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> ASCII
+<p>
+
+<bf/Syntax:/
+
+XCALL ASCII(&lt;nfield&gt;, &lt;afield&gt;)
+
+<bf/Semantics:/
+
+<itemize>
+<item> &lt;nfield&gt;
+       is a numeric field or numeric literal that contains the numeric
+       value for the character code.
+
+<item> &lt;afield&gt;
+       is an alpha field or record that is to contain the ASCII character.
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+
+<tscreen><code>
+RECORD
+  NUM,    I2, 87      ; numeric character code
+  CHAR,   A1          ; ASCII character
+PROC
+  XCALL ASCII(NUM, CHAR) ; Get ASCII character
+  DISPLAY(1, "The ASCII for 87 is '",CHAR,"'", 10)
+  STOP
+</code></tscreen>
+
+<bf/Caveats:/
+
+<itemize>
+<item> &lt;afield&gt;
+       should be a 1 character field.
+       Only the first character of the field is modified to contain the
+       value of the &lt;nfield&gt;.
+<item> The ASCII character is moved to &lt;afield&gt; according to the
+       rules for moving alpha data.
+<item> &lt;nfield&gt; is treated as a single character code.
+
+<item> If the value of &lt;nfield&gt; exceeds the range of the ASCII
+       character codes (e.g. less than 0 or greater than 255), then
+       &lt;nfield&gt; is automatically truncated to the value of the least
+       significant byte (lowest 8 bits) using the modulo operator (258
+       becomes 2, 259 becomes 3, etc).
+</itemize>
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> ASCR5 <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> DACHR <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> DATE
+<p>
+
+<bf/Syntax:/
+
+XCALL DATE(&lt;afield&gt;)
+
+<bf/Semantics:/
+
+<itemize>
+<item> &lt;afield&gt;
+       is an alpha field or record that is to contain the date.
+</itemize>
+
+<bf/Discussion:/
+
+<bf/Examples:/
+
+<tscreen><code>
+RECORD
+  THEDATE, A9
+PROC
+  XCALL DATE(THEDATE);
+  DISPLAY(1, "The current date is '",THEDATE,"'", 10)
+  STOP
+</code></tscreen>
+
+<bf/Caveats:/
+
+<itemize>
+<item> &lt;afield&gt; should be a 9 character field.
+<item> The date is moved to the alpha field according to the rules for
+       moving alpha data.
+<item> The date is returned in the form:
+
+        dd-mmm-yy
+
+	where:
+<itemize>
+<item> dd
+       is the day of the month (01-31).
+<item> mmm
+       is the first three characters for the name of the month (JAN, FEB,
+       MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, or DEC).
+<item> yy
+       is the last two digits of the year (00-99).
+</itemize>
+
+<item> If the field is shorter than the 9 character result, only the size
+       of the field is copied (starting from the left).
+<item> If the &lt;afield&gt; is longer than the 9 character result, the
+       remainder of the field is filled with spaces.
+</itemize>
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+
+</sect>
+
+<sect> DECML
+<p>
+
+<bf/Syntax:/
+
+XCALL DECML(&lt;afield&gt;, &lt;nfield&gt)
+
+<bf/Semantics:/
+
+<itemize>
+<item> &lt;afield&gt;
+       is an alpha field, literal or record that contains the ASCII
+       character.
+
+<item> &lt;nfield&gt;
+       is a numeric field that is to contain the numeric character code.
+
+</itemize>
+
+<bf/Discussion:/
+
+DECML returns the numeric character code for an ASCII character.
+
+<bf/Examples:/
+
+<tscreen><code>
+RECORD
+  NUM,    D3          ; numeric character code
+RECORD,X
+  NUM_X,  A3          ; code, printable
+
+PROC
+  XCALL DECML("A is 65", NUM)
+  DISPLAY(1, "The DECML('A',N): N = ",NUM_X,10)
+  END
+</code></tscreen>
+
+<bf/Caveats:/
+
+<itemize>
+<item> If &lt;afield&gt; is longer than one character, only the first
+       (leftmost) character is used.
+<item> &lt;nfield&gt; should be a three digit field (the value is truncated
+       if size of &lt;nfield&gt; is too small).
+<item> The numeric character code is moved to &lt;nfield&gt; according to
+       the rules for moving numeric data.
+</itemize>
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+
+</sect>
+
+<sect> DELET <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> DFLAG <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> ENVRN
+<p>
+
+<bf/Syntax:/
+XCALL ENVRN(&lt;os-id&gt;)
+
+<bf/Semantics:/
+
+<itemize>
+<item> &lt;os-id&gt;
+       is a decimal variable that is loaded with the operating system
+       identifying code.  Some of the possible codes are:
+       <itemize>
+       <item> 0 RT-11
+       <item> 1 TSX
+       <item> 2 RSTS
+       <item> 3 RSX
+       <item> 4 TSX-PLUS
+       <item> 5 VAX
+       <item> 6 VMS
+       <item> 7 MS-DOS
+       <item> 8 UNIX
+       </itemize>
+</itemize>
+
+<bf/Discussion:/
+
+The ENVRN external subroutine returns a decimal code identifying the
+operating system on which the program is running.  This value can be
+used to control program actions dependent on the specific operating
+system.
+
+<bf/Examples:/
+
+<tscreen><code>
+RECORD
+  OSNAME, A20         ; Operating system name
+
+RECORD
+  OSID,   D3          ; Operating system id
+RECORD,X
+  OSID_X, A3          ; printable
+
+PROC
+  XCALL ENVRN(OSID)
+  CASE OSID OF
+  BEGINCASE
+    0: OSNAME = 'RT-11'
+    1: OSNAME = 'TSX'
+    2: OSNAME = 'RSTS'
+    3: OSNAME = 'RSX'
+    4: OSNAME = 'TSX-PLUS'
+    5: OSNAME = 'VAX'
+    6: OSNAME = 'VMS'
+    7: OSNAME = 'MS-DOS'
+    8: OSNAME = 'UNIX'
+  ENDCASE
+  DISPLAY(1, "ENVRN = ", OSID_X, " which is ", OSNAME, 10)
+  END
+</code></tscreen>
+
+<bf/Caveats:/
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> ERROR <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> ERTXT <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> FATAL <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> FILL
+<p>
+
+<bf/Syntax:/
+
+XCALL FILL(&lt;pattern&gt;,&lt;target&gt;)
+
+<bf/Semantics:/
+
+<itemize>
+<item> &lt;pattern&gt;
+       is an alpha variable or literal whose value is used in filling
+       the &lt;target&gt;.
+<item> &lt;target&gt;
+       is an alpha variable or record that is loaded with the indicated
+       pattern.  All character positions of the variable are loaded,
+       left-justified.  If the destination is longer than the pattern,
+       the pattern is repeated as often as necessary to fill the 
+       destination.
+</itemize>
+
+<bf/Discussion:/
+
+The FILL external subroutine fills an alpha variable or record with a
+specified pattern.  The pattern is loaded left-justified and repeated
+as often as necessary until the destination target is filled.
+
+<bf/Examples:/
+
+<tscreen><code>
+RECORD
+  DATA,   A20         ; Target
+PROC
+  DISPLAY(1, "      123456789012345678901234", 10)
+  XCALL FILL(']', DATA)
+  DISPLAY(1, "]    '",DATA,"'",10)
+  XCALL FILL('A.', DATA)
+  DISPLAY(1, "A.   '",DATA,"'",10)
+  XCALL FILL('ABC', DATA)
+  DISPLAY(1, "ABC  '",DATA,"'",10)
+  XCALL FILL('abcdefghijklmnopqrstuvwxyz', DATA)
+  DISPLAY(1, "abc..'",DATA,"'",10)
+  END
+</code></tscreen>
+
+<bf/Caveats:/
+
+<itemize>
+<item> Only alpha fields or records are allowed for both the pattern
+       and the target.
+</itemize>
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> FILNM
+<p>
+
+<bf/Syntax:/
+
+XCALL FILNM(&lt;channel&gt;, &lt;filespec&gt;)
+
+<bf/Semantics:/
+
+<itemize>
+<item> &lt;channel&gt;
+       is a decimal expression whose value identifies the open channel.
+       The channel must currently be open.  Otherwise, a 
+
+<item> &lt;filespec&gt;
+       is an alpha variable or record into which the left-justified name
+       of the open file specification is written.  If the file specification
+       of the open file is longer than &lt;filespec&gt;, only the left-most
+       characters are returned.
+
+</itemize>
+
+<bf/Discussion:/
+
+The FILNM external subroutine returns the file specification of the file currently
+<bf/Examples:/
+
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+
+<bf/Caveats:/
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> FLAGS <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> INSTR
+<p>
+
+<bf/Syntax:/
+
+XCALL INSTR(&lt;start&gt;,&lt;string1&gt;,&lt;string2&gt;,&lt;position&gt;)
+
+<bf/Semantics:/
+
+<itemize>
+<item> &lt;start&gt;
+       is a numeric field or numeric literal which specifies the character
+       position (relative to 1) within &lt;string1&gt; where the search
+       begins.
+<item> &lt;string1&gt;
+       is an alpha field, literal or record to be searched.
+<item> &lt;string2&gt;
+       is an alpha field, literal or record that is searched for in
+       &lt;string1&gt;.
+<item> &lt;position&gt;
+       is a numeric variable that set to the starting position (relative
+       to 1) of &lt;string2&gt; within &lt;string1&gt;.
+</itemize>
+
+<bf/Discussion:/
+
+INSTR searches a string of data for another string.
+
+<bf/Examples:/
+
+<tscreen><code>
+RECORD
+  DATA,   A20         ; Target
+RECORD
+  LEN,    D3          ; Length
+RECORD,X
+  LEN_X,  A3          ; Displayable length
+PROC
+  XCALL INSTR(1, "FILE.EXT", ".ISM", LEN)
+  DISPLAY(1, "INSTR - WANT 0 GOT ",LEN_X,10)
+  XCALL INSTR(1, "FILE.EXT", ".EXT", LEN)
+  DISPLAY(1, "INSTR - WANT 5 GOT ",LEN_X,10)
+  XCALL INSTR(4, "FILE.EXT", ".EXT", LEN)
+  DISPLAY(1, "INSTR - WANT 5 GOT ",LEN_X,10)
+  XCALL INSTR(5, "FILE.EXT", ".EXT", LEN)
+  DISPLAY(1, "INSTR - WANT 5 GOT ",LEN_X,10)
+  XCALL INSTR(6, "FILE.EXT", ".EXT", LEN)
+  DISPLAY(1, "INSTR - WANT 0 GOT ",LEN_X,10)
+  XCALL INSTR(10,"FILE.EXT", ".EXT", LEN)
+  DISPLAY(1, "INSTR - WANT 0 GOT ",LEN_X,10)
+  END
+</code></tscreen>
+
+<bf/Caveats:/
+
+<itemize>
+<item> The starting position specifies the position within &lt;string1&gt;
+       where the search begins.  The starting position (relative to 1)
+       indicates the leftmost boundary for &lt;string1&gt;.
+<item> If the starting position is less than 1, or is greater than the
+       length of &lt;string1&gt;, no search takes place and &lt;position&gt;
+       is set to zero.
+<item> The &lt;position&gt; field is set to a numeric value indicating the
+       leftmost position of &lt;string2&gt; within &lt;string1&gt;.  The
+       complete &lt;string2&gt; (all characters in the order specified)
+       must be found within &lt;string1&gt;.
+<item> If the search is unsuccessful, the &lt;position&gt; field is set
+       to zero.
+<item> The value indicating the leftmost position if &lt;string2&gt; within
+       &lt;string1&gt; is moved to the position field according to the
+       rules for moving numeric data.
+</itemize>
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGMIS\ \ \ \ Argument missing
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> ISCLR <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> ISSTS <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> LEN <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> MONEY <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> MSGRS <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> MSGSV <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> PAINT <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> PAK <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> R5ASC <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> RANDM <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> RCFLG <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> RCVID <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> RENAM <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> RSTAT <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> SIZE <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> TIME
+<p>
+
+<bf/Syntax:/
+
+XCALL TIME(&lt;nfield&gt;)
+
+<bf/Semantics:/
+
+<itemize>
+<item> &lt;nfield&gt;
+       is a numeric field that is to contain the time.
+</itemize>
+
+<bf/Discussion:/
+
+<itemize>
+<item> &lt;nfield&gt;
+       should be a 6 digit field.
+<item> The time is moved to  &gt;nfield&lt according to the rules for
+       moving numeric data. 
+<item> The time is returned in a 24-hour noation in the format:
+
+       hhmmss
+
+<itemize>
+<item> hh
+       is the number of hours since midnight.
+<item> mm
+       is the minutes past the last hour.
+<item> ss
+       is the seconds past the last minute.
+</itemize>
+
+</itemize>
+
+<bf/Examples:/
+
+<tscreen><code>
+RECORD
+  NOW,     D6         ; The time value
+RECORD,X
+  THETIME, A6         ; Displayable time
+PROC
+  XCALL TIME(NOW);
+  DISPLAY(1, "The time is now '",THETIME,"'", 10)
+  STOP
+</code></tscreen>
+
+<bf/Caveats:/
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+
+</sect>
+
+<sect> TNMBR <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> TRIM
+<p>
+
+<bf/Syntax:/
+
+XCALL TRIM(&lt;string&gt;, &lt;count&gt;)
+
+<bf/Semantics:/
+<itemize>
+
+<item> &lt;string&gt;
+       is an alpha literal or variable that is examined for the number of
+       trailing blanks.  The number of trailing spaces is subtracted from
+       the length of &lt;string&gt;, yielding the subscript of the last
+       non-space character.  This number is then returned in &lt;count&gt;.
+
+<item> &lt;count&gt;
+       is a decimal variable into which the subscript (relative to 1) of
+       the last non-space character is stored.  A &lt;string&gt; consisting
+       of all spaces yields a value of one.  Thus, a value of zero is never
+       returned.
+
+</itemize>
+
+<bf/Discussion:/
+
+The TRIM external subroutine returns the length of the specified alpha
+item, minus the number of trailing spaces.
+
+<bf/Examples:/
+
+<tscreen><code>
+RECORD
+  LEN,     D2         ; Length of non-trailing space data
+RECORD,X
+  LEN_X,   A2         ; Printable form 
+
+PROC
+  DISPLAY(1, "      123456789012345678901234", 10)
+  XCALL       TRIM(" ", LEN)                        ; Want 1
+  DISPLAY(1, 'TRIM(" ", LEN):                        LEN = ', LEN_X, 10)
+
+  XCALL       TRIM("Test       ", LEN)              ; Want 4
+  DISPLAY(1, 'TRIM("Test       ", LEN):              LEN = ', LEN_X, 10)
+
+  XCALL       TRIM("This is another test    ", LEN) ; Want 20
+  DISPLAY(1, 'TRIM("This is another test    ", LEN): LEN = ', LEN_X, 10)
+  DISPLAY(1, "      123456789012345678901234", 10)
+
+  END
+</code></tscreen>
+
+<bf/Caveats:/
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> TTSTS <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> UNPAK <p> <bf/Syntax:/ ROUTINE <bf/Semantics:/
+<itemize> <item> x </itemize> <bf/Discussion:/ <bf/Examples:/ <bf/Caveats:/
+<tscreen><code>
+  DATA,   A20         ; Target
+</code></tscreen>
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+<sect> VERSN
+<p>
+
+<bf/Syntax:/
+XCALL VERSN(&lt;afield&gt;)
+
+<bf/Semantics:/
+
+<itemize>
+<item> &lt;afield&gt;
+       is an alpha field or record which is to contain the version number.
+</itemize>
+
+<bf/Discussion:/
+
+<itemize>
+<item> The version number is returned in the following format:
+
+       vvvvvvvsssstmm.nnpp
+
+  <itemize>
+  <item> vvvvvvv
+         is the operating system.
+  <item> ssss
+         is the operating system subsystem.
+  <item> t
+         is the release status of the product.
+    <itemize>
+    <item> V = Release Version
+    <item> T = Test Version
+    <item> Y = Test Version
+    <item> X = Internal Version
+    </itemize>
+  <item> mm
+         is the major version number.
+  <item> nn
+         is the minor version number.
+  <item> pp
+         is the patch level.
+  </itemize>
+<item> The version number is moved to &lt;afield&gt; according to the rules
+       for moving alpha data.
+<item> For Linux, the return value is:
+
+       "Linux      Tvv.rr00"
+
+  <itemize>
+  <item> vv = Major RCS version.
+  <item> rr = Minor RCS version.
+  </itemize>
+</itemize>
+
+<bf/Examples:/
+
+<tscreen><code>
+RECORD
+  VERSN,  A20         ; Version ID string
+PROC
+  XCALL VERSN(VERSN)
+  DISPLAY(1, "        ", "1234567890123456789", 10)
+  DISPLAY(1, "Version ", VERSN, 10)
+  DISPLAY(1, "        ", "-------====-==.--==", 10)
+  END
+</code></tscreen>
+
+<bf/Caveats:/
+
+<bf/Errors:/
+
+<itemize>
+<item> \$ERR_ARGNUM\ \ \ \ Incorrect number of arguments passed
+<item> \$ERR_ARGSIZ\ \ \ \ Argument specified with wrong size
+<item> \$ERR_INVARGTYP\ Invalid argument type
+<item> \$ERR_WRITLIT\ \ \ Attempt to store data into a literal
+</itemize>
+
+</sect>
+
+</chapt>
+
+<chapt> Debugging Hints.
+<p>
+<label id="Debugging Hints">
+</chapt>
+
+<chapt> Interfacing to Other Languages.
+<p>
+<label id="Interfacing to Other Languages">
+</chapt>
+
+</book>
+<!-- End of $Source: /home/ldl/dbl/cdbl/RCS/manual.sgml,v $ -->
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 1
+a2 1
+     $Revision: 1.72 $ $Date: 1996/01/31 12:06:04 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d2 1
+a2 1
+     $Revision: 1.71 $ $Date: 1996/01/17 09:44:28 $
+d1090 1
+a1090 1
+<ref id="Data Division">
+d1162 1
+a1162 1
+<ref id="Procedure Division">
+d1192 1
+a1192 1
+<sect1> $ERLIN
+d1196 1
+a1196 1
+<sect1> $ERNUM
+d1200 1
+a1200 1
+<sect1> $LEN
+d1204 1
+a1204 1
+<sect1> $LINE
+d1208 1
+a1208 1
+<sect1> $PAINT
+d1212 1
+a1212 1
+<sect1> $PTR
+d1216 1
+a1216 1
+<sect1> $RDLEN
+d1220 1
+a1220 1
+<sect1> $RDTRM
+d1224 1
+a1224 1
+<sect1> $RND
+d1228 1
+a1228 1
+<sect1> $TRUE and $FALSE
+d1232 1
+a1232 1
+<sect1> $TRUNC
+d1317 2
+a1318 1
+ACCEPT(&lt;channel&gt;,&lt;variable&gt;[,&lt;label&gt;])  [&lt;errlist&gt;]
+d1423 3
+d1438 1
+a1438 1
+<item>
+d1444 3
+d1459 1
+a1459 1
+<item>
+d1465 3
+d1480 1
+a1480 1
+<item>
+d1486 3
+d1535 1
+a1535 1
+<item>
+d1541 3
+d1556 1
+a1556 1
+<item>
+d1562 3
+d1577 1
+a1577 1
+<item>
+d1583 3
+d1598 1
+a1598 1
+<item>
+d1604 3
+d1619 1
+a1619 1
+<item>
+d1625 3
+d1640 1
+a1640 1
+<item>
+d1646 3
+d1684 1
+a1684 1
+greater than 9999 causes a [LONG] error which may be trapped.
+d1699 2
+a1700 2
+A [LONG] error is generated if the &lt;control&gt; is greater than 9999,
+which may be trapped.
+d1714 2
+a1715 1
+GET(&lt;channel&gt;,&lt;data-area&gt;,&lt;recnum&gt;) [&lt;errlist&gt;]
+d1791 2
+a1792 1
+GETS(&lt;channel&gt;,&lt;data-area&gt;[,&lt;label&gt;]) [&lt;errlist&gt;]
+d1830 1
+a1830 1
+       If the GETS is terminated with a record terminator, the $RDTRM
+d1833 1
+a1833 1
+       having received the full number of characters requested, $RDTRM
+d1961 2
+a1962 1
+IF &lt;condition&gt; [THEN] &lt;then-part&gt; [ELSE &lt;else-part&gt;]
+d1966 2
+a1967 1
+IF &lt;condition&gt; THEN &lt;then-part&gt; [ELSE &lt;else-part&gt;]
+d2076 1
+a2076 1
+<item>
+d2082 3
+d2097 1
+a2097 1
+<item>
+d2103 3
+d2118 1
+a2118 1
+<item>
+d2124 3
+d2139 1
+a2139 1
+<item>
+d2145 3
+d2160 1
+a2160 1
+<item>
+d2166 3
+d2181 1
+a2181 1
+<item>
+d2187 3
+d2203 1
+a2203 1
+ [,&lt;file-qualifiers&gt;]) [&lt;errlist&gt;]
+d2214 1
+a2214 1
+         mode[:submode]
+d2276 3
+d2292 1
+a2292 1
+<item>
+d2298 3
+d2314 2
+a2315 1
+PUT(&lt;channel&gt;,&lt;data-area&gt;,&lt;recnum&gt;) [&lt;errlist&gt;]
+d2385 2
+a2386 1
+PUTS(&lt;channel&gt;,&lt;data-area&gt;[,&lt;label&gt;]) [&lt;errlist&gt;]
+d2454 1
+a2454 1
+<item>
+d2460 3
+d2477 1
+a2477 1
+<item>
+d2483 3
+d2498 1
+a2498 1
+<item>
+d2505 4
+d2520 1
+a2520 1
+<item>
+d2526 3
+d2541 1
+a2541 1
+<item>
+d2547 3
+d2562 1
+a2562 1
+<item>
+d2568 3
+d2583 1
+a2583 1
+<item>
+d2589 3
+d2604 1
+a2604 1
+<item>
+d2610 3
+d2625 1
+a2625 1
+<item>
+d2631 3
+d2646 1
+a2646 1
+<item>
+d2652 3
+d2667 1
+a2667 1
+<item>
+d2673 3
+d2688 1
+a2688 1
+<item>
+d2694 3
+d2709 1
+a2709 1
+<item>
+d2715 3
+d2730 1
+a2730 1
+<item>
+d2736 3
+d2751 1
+a2751 1
+<item>
+d2757 3
+d2775 1
+a2775 1
+  [&lt;errlist&gt;]
+d2863 2
+a2864 2
+WRITES(&lt;channel&gt;, &lt;data-area&gt;, [&lt;label&gt;])
+  [&lt;errlist&gt;]
+d2877 1
+a2877 1
+       [EOF=label].
+d2894 2
+a2895 1
+       lengths that differ from the first one used, then a [LONG=label]
+d2939 1
+a2939 1
+XCALL &lt;subroutine&gt;[(&lt;arg-list&gt;)]
+d3007 1
+a3007 1
+<ref id="Compiler Directives">
+d3022 1
+a3022 1
+<item>
+d3028 3
+d3046 1
+a3046 1
+<item>
+d3052 3
+d3074 1
+a3074 1
+<item>
+d3080 3
+d3105 1
+a3105 1
+<item>
+d3228 1
+a3228 1
+<item>
+d3234 3
+d3256 1
+a3256 1
+<item>
+d3262 3
+d3282 1
+a3282 1
+<item>
+d3288 3
+d3345 1
+a3345 1
+<item>
+d3351 3
+d3380 3
+d3617 1
+a3617 1
+[&lt;logical-reference&gt:]&lt;file-name&gt;
+d3632 3
+d3692 1
+a3692 1
+<item>
+d3698 3
+d3717 1
+a3717 1
+<item>
+d3723 3
+d3742 1
+a3742 1
+<item>
+d3748 3
+d3768 1
+a3768 1
+<item>
+d3774 3
+d3830 1
+a3830 1
+<item>
+d3836 3
+d3856 1
+a3856 1
+<item>
+d3862 3
+d3882 1
+a3882 1
+<item>
+d3888 3
+d3907 1
+a3907 1
+<item>
+d3913 3
+d3931 1
+a3931 1
+<item>
+d3937 3
+d3955 1
+a3955 1
+<item>
+d3961 3
+d3982 1
+a3982 1
+<item>
+d3988 3
+d4007 1
+a4007 1
+<item>
+d4013 3
+d4032 1
+a4032 1
+<item>
+d4040 3
+d4060 1
+a4060 1
+<item>
+d4068 3
+d4153 1092
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d2 1
+a2 1
+     $Revision: 1.70 $ $Date: 1995/11/20 18:53:04 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d2 1
+a2 1
+     $Revision: 1.69 $ $Date: 1995/11/11 11:15:14 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d2 1
+a2 1
+     $Revision: 1.68 $ $Date: 1995/11/03 09:20:14 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d2 1
+a2 1
+     $Revision: 1.67 $ $Date: 1995/10/24 08:27:38 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d2 1
+a2 1
+     $Revision: 1.66 $ $Date: 1995/10/23 09:19:37 $
+d2390 20
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d2 1
+a2 1
+     $Revision: 1.65 $ $Date: 1995/10/19 02:07:30 $
+d1625 2
+d1630 2
+d1634 14
+a1647 1
+<item>
+d1652 3
+d1657 9
+d1667 3
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d1 4
+a4 3
+<--! $Source: /home/ldl/dbl/cdbl/RCS/manual.sgml,v $
+ --! $Revision: 1.64 $ $Date: 1995/09/28 09:40:12 $
+ -->
+d6 3
+d10 2
+d13 2
+d18 1
+a18 1
+<chapt> Introduction to CDBL
+d173 1
+d185 1
+a185 1
+<chapt> Basic Language Elements
+d187 2
+d190 2
+d193 21
+d215 229
+d445 7
+d453 11
+d465 7
+d473 6
+d480 6
+d487 10
+d498 4
+d503 4
+d508 8
+d517 3
+d521 5
+d527 4
+d532 4
+d537 6
+d544 4
+d549 8
+d558 2
+d561 3
+d565 3
+d569 2
+d572 3
+d576 3
+d580 3
+d584 3
+d588 3
+d592 3
+d596 3
+d600 3
+d604 3
+d608 3
+d612 3
+d616 3
+d620 3
+d624 3
+d628 5
+d634 2
+d637 3
+d641 3
+d645 3
+d649 3
+d653 3
+d657 3
+d661 3
+d665 3
+d669 3
+d673 3
+d677 3
+d681 3
+d685 3
+d689 3
+d693 3
+d697 3
+d701 3
+d705 3
+d709 3
+d713 3
+d717 7
+d725 2
+d728 3
+d732 3
+d736 3
+d740 3
+d744 2
+d747 3
+d751 3
+d755 3
+d759 3
+d763 3
+d767 7
+d776 3
+d780 3
+d784 3
+d788 3
+d792 5
+d798 2
+d801 3
+d805 3
+d809 5
+d815 2
+d818 3
+d822 3
+d826 5
+d849 1
+a849 1
+<tcode>
+d856 1
+a856 1
+</tcode>
+d886 1
+d893 1
+d905 1
+a905 1
+<tcode>
+d912 1
+a912 1
+</tcode>
+d916 1
+a916 1
+<tcode>
+d930 1
+a930 1
+</tcode>
+d936 1
+a936 1
+<tcode>
+d952 1
+a952 1
+</tcode>
+d964 2
+d971 1
+a971 1
+<tcode>
+d974 1
+a974 1
+</tcode>
+d982 4
+d987 1
+d1017 1
+a1017 1
+<tcode>
+d1024 1
+a1024 1
+</tcode>
+d1027 1
+a1027 1
+<tcode>
+d1039 3
+a1041 1
+</tcode>
+d1056 1
+a1056 1
+<tcode>
+d1063 1
+a1063 1
+</tcode>
+d1066 1
+a1066 1
+<tcode>
+d1077 5
+a1081 1
+</tcode>
+d1083 2
+d1088 3
+a1090 1
+<chapt> Data Division
+d1092 2
+d1095 2
+d1098 3
+d1102 3
+d1106 3
+d1110 5
+d1116 3
+d1120 3
+d1124 3
+d1129 3
+d1133 5
+d1139 3
+d1143 3
+d1147 3
+d1151 3
+d1155 2
+d1160 4
+a1163 1
+<chapt> Procedure Division
+d1165 2
+d1168 3
+d1172 3
+d1176 3
+d1180 3
+d1184 2
+d1187 2
+d1190 2
+d1193 3
+d1197 3
+d1201 3
+d1205 3
+d1209 3
+d1213 3
+d1217 3
+d1221 3
+d1225 3
+d1229 3
+d1233 3
+d1237 5
+d1243 2
+d1246 3
+d1250 3
+d1254 3
+d1258 3
+d1262 3
+d1266 3
+d1270 3
+d1274 2
+d1277 3
+d1281 3
+d1285 5
+d1291 3
+d1295 5
+d1301 2
+d1304 1
+d1306 2
+d1351 1
+d1353 1
+d1355 2
+a1356 1
+       <tcode>
+d1361 2
+a1362 1
+       </tcode>
+d1364 1
+a1372 2
+</itemize>
+
+d1428 1
+d1446 1
+d1464 1
+d1482 2
+d1487 2
+d1491 3
+a1493 1
+<item>
+d1498 2
+d1502 5
+d1508 4
+d1516 1
+d1534 1
+d1552 1
+d1570 1
+d1588 1
+d1606 1
+d1624 1
+d1642 6
+d1651 2
+d1655 13
+a1667 1
+<item>
+d1672 14
+d1688 25
+d1718 6
+d1727 2
+d1731 13
+a1743 1
+<item>
+d1748 23
+d1773 25
+d1803 6
+d1812 9
+d1823 18
+a1840 1
+<item>
+d1845 3
+d1850 30
+d1885 1
+d1905 10
+d1916 2
+d1919 1
+d1921 1
+d1926 4
+d1932 28
+d1962 3
+d1968 2
+d1973 2
+d1977 3
+a1979 1
+<item>
+d1984 2
+d1988 5
+d1995 5
+d2003 1
+d2021 1
+d2039 1
+d2057 1
+d2075 1
+d2093 1
+d2124 1
+a2124 17
+       with the external entity referenced in &lt;filespect&gt;.
+       a character.
+<item> &lt;iomode&gt;
+       is the I/O mode with which the association is made to the external
+       entity referenced in &lt;filespec&gt;.  &lt;iomode&gt; has the form:
+         mode[:submode]
+
+<bf/Syntax:/
+
+OPEN(&lt;channel&gt;, &lt;iomode&gt;, &lt;filespec&gt;
+ [,&lt;file-qualifiers&gt;]) [&lt;errlist&gt;]
+
+<bf/Semantics:/
+<itemize>
+<item> &lt;channel&gt;
+       an arithmetic expression specifying the channel number to associate
+       with the external entity referenced in &lt;filespect&gt;.
+d2197 1
+d2216 4
+d2223 2
+d2227 13
+a2239 1
+<item>
+d2244 11
+d2257 24
+d2286 4
+d2293 2
+d2297 13
+a2309 1
+<item>
+d2314 11
+d2327 23
+d2355 1
+d2373 1
+d2391 1
+d2409 1
+d2427 1
+d2445 1
+d2463 1
+d2481 1
+d2499 1
+d2517 1
+d2535 1
+d2553 1
+d2571 1
+d2589 1
+d2643 14
+a2656 12
+For non-ISAM files, the record written is that which is associated with 
+the specified ordinal record number.  The length of the &lt;data-area&gt;
+and the ordinal number of the record are used to determine the offset into
+the file at which the write occurs.  After the contents of &lt;data-area&gt;
+are written, an end-of-line terminator is written.  When the data is read
+with the READ or READS statement, the end-of-line terminator is not
+transferred to the receiving data area.
+
+For ISAM files, the record rewritten is the one retrieved by the last READ
+or READS.  Note that no other I/O operation can occur on the specified 
+channel between the READ, READS, and WRITE.  If some other I/O operation
+has occured, the the KEY error is generated (and the record is not updated).
+d2660 16
+a2675 14
+WRITE(12,REC,42) [LOCK=RETRY]
+
+This attempts to write record number 42 in a non-ISAM file. In the event
+that record 42 was not previously locked by channel 12, the WRITE attempts
+to lock it before modifying it.  If the record is locked by another
+channel, control is transferred to the statement labeled RETRY.  If the
+record is written, it is unlocked afterwards.
+
+WRITE(4,ISMREC,KEYVAL) [KEY=OOPS]
+
+This attempts to rewrite the ISAM record which was previously read and
+whose key value matches the value of KEYVAL.  If the key values do not
+match, control is transferred to the statement labeled OOPS.  If the record
+is successfully rewritten, it is unlocked.
+d2680 9
+a2688 8
+A line terminator is written after the contents of &lt;data-area&gt;.
+A record number less than one generates a KEY I/O exception.  If the write
+fails (because space is exhausted), an EOF I/O exception is generated.  If
+the channel is not open, or other error occurs, an ERR I/O exception is
+generated.  If the end-of-line terminator is not found immediately
+following the data record, a LONG I/O exception is generated (the
+terminator is not transferred to the &lt;data-area&gt; but must physically
+follow the record in the file).
+d2691 3
+a2693 3
+No end-of-line terminator appears in the ISAM file.  If some other I/O
+operation occurs between the READ, READS and the WRITE, the the KEY error
+is generated (and the record is not updated).
+d2725 12
+a2736 11
+The WRITES statement is used to write the record immediately following the
+most recent record read from or written to the output file.  If no record
+has been read or written, then the write is to the first record in the file.
+If the file is opened in append mode, then the file is always positioned to
+the end of file.  The data written to the file is specified in
+&lt;data-area&gt; and is terminated by an end-of-line indicator.  The
+terminator is not transferred to the &lt;data-area&gt;.  Note that the size
+of the record for a given file is determined by the first read or write 
+operation done on that file.  If subsequent operations use record lengths
+that differ from the first one used, then a [LONG=label] exception is 
+generated, and the WRITES operation is not done.
+d2740 18
+a2757 4
+WRITES(2, RECA)
+
+This writes the contents of RECA to channel 2.  If no more space is left
+in the file, and EOF error occurs and the program is terminated.
+a2758 11
+WRITES(5, RECA, NOMORE)
+
+or
+
+WRITES(5, RECA) [EOF=NOMORE]
+
+These statements also write the contents of RECA but to channel 5.  In
+addition, if an EOF error occurs (the write operation failed to write all
+of the data), the program is not terminated. Rather control is transferred
+to the statement labeled NOMORE.
+
+d2761 5
+a2765 5
+Generate I/O &lt;errlist&gt; exception EOF when the WRITES operation fails
+(out of disk space), ERR if the channel is not opened or some other 
+programming error, and LONG if the length of subsequent &lt;data-area&gt;s
+do not match the length of the initial &lt;data-area&gt; used in an I/O 
+operation.
+d2797 4
+a2800 4
+Control is transferred to the external subroutine and does not return to
+the calling program until the subroutine executes a RETURN that corresponds
+to the XCALL.  Control is returned to the statement that follows the XCALL
+statement.
+d2804 2
+a2805 2
+CallingProgram:
+<tcode>
+d2818 1
+a2818 1
+</tcode>
+d2820 2
+a2821 2
+External Subroutine:
+<tcode>
+d2832 1
+a2832 1
+</tcode>
+d2836 5
+a2840 3
+Any ONERROR traps in effect within the calling program are disabled while
+the external subroutine has control.  When the external subroutine returns
+control to the calling program the error traps are re-enabled.
+d2845 1074
+a3918 6
+<chapt> Compiler Directives
+.DEBUG
+.ERROR
+.NOTE
+.WARNING
+.TRACE
+d3921 1
+a3921 1
+<chapt> System-Supplied External Subroutines
+d3923 1
+d3926 1
+a3926 1
+<chapt> Debugging Hints
+d3928 1
+d3931 1
+a3931 1
+<chapt> Interfacing to Other Languages
+d3933 1
+d3937 1
+a3937 1
+<--! End of $Source: /home/ldl/dbl/cdbl/RCS/manual.sgml,v $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.63 $ $Date: 1995/09/19 10:41:33 $
+d265 36
+d302 17
+d320 4
+d325 70
+d396 15
+d412 21
+d434 31
+d466 36
+d610 3
+a612 3
+             AFLD,  A5
+	     DFLD1, D1
+	     DFLD2, D5
+d625 2
+d628 14
+d643 7
+d652 15
+a666 1
+<item>
+d668 1
+d670 3
+d674 1
+d677 2
+d680 1
+d682 1
+d687 1
+d689 1
+d691 1
+d694 2
+d697 1
+d699 1
+d704 1
+d706 1
+d708 1
+d711 2
+d714 1
+d716 1
+d721 1
+d723 1
+d725 1
+d728 2
+d731 1
+d733 1
+d738 1
+d740 1
+d742 1
+d745 2
+d748 1
+d750 1
+d755 1
+d757 1
+d759 1
+d762 2
+d765 1
+d767 1
+d772 1
+d774 1
+d776 1
+d779 2
+d782 1
+d784 1
+d789 1
+d791 1
+d793 1
+d796 2
+d799 1
+d801 1
+d806 1
+d808 1
+d810 1
+d813 2
+d816 1
+d818 1
+d823 1
+d825 1
+d827 1
+d830 2
+d833 1
+d835 1
+d840 1
+d842 1
+d844 1
+d847 2
+d850 1
+d852 1
+d857 1
+d859 1
+d861 1
+d864 2
+d867 1
+d869 1
+d874 1
+d876 1
+d878 1
+d881 2
+d884 1
+d886 1
+d891 1
+d893 1
+d895 1
+d898 2
+d901 1
+d903 1
+d908 1
+d910 1
+d912 1
+d915 2
+d918 4
+d923 11
+d936 4
+a939 1
+<item>
+d941 1
+d943 1
+d945 1
+d948 2
+d951 1
+d953 1
+d958 1
+d960 1
+d962 1
+d965 2
+d968 1
+d970 1
+d975 1
+d977 1
+d979 1
+d982 2
+d985 1
+d987 1
+d992 1
+d994 1
+d996 1
+d999 2
+d1002 1
+d1004 1
+d1009 1
+d1011 1
+d1013 1
+d1016 2
+d1019 1
+d1021 1
+d1026 1
+d1028 1
+d1030 1
+d1033 2
+d1036 1
+d1038 1
+d1043 1
+d1045 1
+d1047 1
+d1050 2
+d1053 1
+d1055 1
+d1060 1
+d1062 1
+d1064 1
+d1067 2
+d1070 20
+d1091 4
+d1097 64
+a1160 1
+<item>
+d1162 1
+d1164 1
+d1166 1
+d1169 2
+d1172 1
+d1174 1
+d1176 1
+d1180 1
+d1182 1
+d1184 1
+d1187 2
+d1190 1
+d1192 1
+d1197 1
+d1199 1
+d1201 1
+d1204 2
+d1207 1
+d1209 1
+d1214 1
+d1216 1
+d1218 1
+d1221 2
+d1224 1
+d1226 1
+d1231 1
+d1233 1
+d1235 1
+d1238 2
+d1241 1
+d1243 1
+d1248 1
+d1250 1
+d1252 1
+d1255 2
+d1258 1
+d1260 1
+d1265 1
+d1267 1
+d1269 1
+d1272 2
+d1275 1
+d1277 1
+d1282 1
+d1284 1
+d1286 1
+d1289 2
+d1292 1
+d1294 1
+d1299 1
+d1301 1
+d1303 1
+d1306 2
+d1309 1
+d1311 1
+d1316 1
+d1318 1
+d1320 1
+d1323 2
+d1326 1
+d1328 1
+d1333 1
+d1335 1
+d1337 1
+d1340 2
+d1343 1
+d1345 1
+d1350 1
+d1352 1
+d1354 1
+d1357 2
+d1360 1
+d1362 1
+d1367 1
+d1369 1
+d1371 1
+d1374 2
+d1377 1
+d1379 1
+d1384 1
+d1386 1
+d1388 1
+d1391 2
+d1394 1
+d1396 1
+d1401 1
+d1403 1
+d1405 1
+d1408 2
+d1411 1
+d1413 1
+d1418 1
+d1420 1
+d1422 1
+d1425 2
+d1428 1
+d1430 1
+d1435 1
+d1437 1
+d1439 1
+d1442 2
+d1445 1
+d1447 1
+d1452 1
+d1454 1
+d1456 1
+d1459 2
+d1462 6
+d1469 4
+d1475 19
+a1493 1
+<item>
+d1495 1
+d1497 14
+d1512 16
+d1530 17
+d1548 4
+d1553 4
+d1559 12
+a1570 1
+<item>
+d1572 1
+d1574 13
+d1588 17
+d1607 8
+d1616 70
+a1685 8
+<bf/Syntax:/
+<bf/Semantics:/
+<itemize>
+<item>
+</itemize>
+<bf/Discussion:/
+<bf/Examples:/
+<bf/Caveats:/
+d1690 1
+d1694 1
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.62 $ $Date: 1995/09/11 10:27:16 $
+d334 1
+d339 3
+a341 2
+<sect2> Syntax
+<p>
+d343 52
+a394 22
+<sect2> Semantics
+<sect3> &lt;channel&gt;
+<p>
+an arithmetic expression specifying the channel from which to accept
+a character.
+<sect3> &lt;variable&gt;
+an alpha or decimal variable into which the character is stored.
+
+Alpha Fields.  The character is stored into the leftmost position of
+the variable.  All other characters in the variable (to the right) are
+left untouched.  If an end-of-file is encountered and a &lt;label&gt;
+is specified, control is immediately transferred to the lablled
+statement. If no &lt;label&gt; is specified, then an EOF error is
+generated, which the &lt;errlist&gt; may catch.
+
+Decimal Fields.
+<sect3> &lt;label&gt;
+<sect3> &lt;errlist&gt;
+See <ref id="input/output error lists">.
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d396 9
+a404 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d406 9
+a414 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d416 9
+a424 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d426 9
+a434 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d436 9
+a444 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d446 9
+a454 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d456 9
+a464 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d466 9
+a474 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d476 9
+a484 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d486 9
+a494 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d496 9
+a504 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d506 9
+a514 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d516 9
+a524 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d526 9
+a534 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d536 9
+a544 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d546 9
+a554 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d556 9
+a564 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d566 9
+a574 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d576 9
+a584 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d586 9
+a594 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d596 9
+a604 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d606 9
+a614 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d616 9
+a624 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d626 9
+a634 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d636 9
+a644 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d646 9
+a654 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d656 9
+a664 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d666 9
+a674 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d676 9
+a684 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d686 9
+a694 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d696 9
+a704 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d706 9
+a714 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d716 9
+a724 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d726 9
+a734 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d736 9
+a744 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d746 9
+a754 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d756 9
+a764 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d766 9
+a774 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d776 9
+a784 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d786 9
+a794 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d796 9
+a804 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d806 9
+a814 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d816 9
+a824 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+d826 8
+a833 5
+<sect2> Syntax
+<sect2> Semantics
+<sect2> Discussion
+<sect2> Examples
+<sect2> Caveats
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.61 $ $Date: 1995/09/08 10:47:03 $
+d12 37
+d50 46
+d97 6
+d104 16
+d121 9
+d131 9
+d141 8
+d150 15
+d166 8
+d637 9
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.60 $ $Date: 1995/09/06 10:46:01 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.59 $ $Date: 1995/09/05 11:44:02 $
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.58 $ $Date: 1995/09/04 12:12:46 $
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.57 $ $Date: 1995/08/02 12:39:01 $
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.56 $ $Date: 1995/08/01 11:52:08 $
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.55 $ $Date: 1995/07/21 12:24:50 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d2 1
+a2 1
+ --! $Revision: 1.54 $ $Date: 1995/07/18 12:39:28 $
+d186 1
+a186 1
+ACCEPT(&ltchannel&gt,&ltvariable&gt[,&ltlabel&gt])  [&lterrlist&gt]
+d188 1
+a188 1
+<sect3> &ltchannel&gt
+d192 1
+a192 1
+<sect3> &ltvariable&gt
+d195 3
+a197 3
+Alpha Fields.  The character is stored into the leftmost position
+of the variable.  All other characters in the variable (to the right)
+are left untouched.  If an end-of-file is encountered and a &ltlabel&gt 
+d199 2
+a200 2
+statement. If no &ltlabel&gt is specified, then an EOF error is generated,
+which the &lterrlist&gt may catch.
+d203 2
+a204 2
+<sect3> &ltlabel&gt
+<sect3> &lterrlist&gt
+d477 3
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d1 2
+a2 2
+<--! $Source$
+ --! $Revision$ $Date$
+d483 1
+a483 1
+<--! End of $Source$
+@

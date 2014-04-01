@@ -1,0 +1,31 @@
+; asg_nn.dbl - assignment
+;   nfield = nexp
+RECORD
+	C,   D4
+	D2,  D2
+	D64, D6.4
+	D74, D7.4
+;	I2,  I2
+;	I4,  I4
+	P10, P10
+	P2,  P2
+	P4,  P4
+PROC
+	OPEN(1,O,'TT:')
+
+	D4 = 1234
+	P2 = 34
+	C = D4 * P2
+	DISPLAY(1, 'C = D4(="',D4,'") * P2(="',P2,'") = "',C,'"  want "1956"')
+
+	P53 = 12.345
+	D64 = P53
+	DISPLAY(1, 'D64 = P53(="',P53,'") = "',D64,'"  want "12.3450"')
+
+	D74 = P53
+	DISPLAY(1, 'D74 = P53(="',P53,'") = "',D74,'"  want "012.3450"')
+
+;	I4 = P53
+;	DISPLAY(1, 'I4 = P53(="',P53,'") = "',I4,'"  want "12"')
+
+; End asg_nn.dbl - assignment

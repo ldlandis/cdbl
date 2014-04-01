@@ -1,0 +1,16 @@
+record
+	line, a
+proc
+.trace 1
+	display(1, scr$att(clear,bold))
+	display(1, scr$att(bold,clear))
+.trace 0
+	onerror lab
+	onerror (1)lab1, (2)lab2, lab
+	call lab
+	call (lab, lab1, lab2), line + 1
+	line = line(%trim(line,line,line) : -4)
+lab,
+lab1,
+lab2,
+

@@ -1,0 +1,10 @@
+SUBROUTINE QA_Label_dup
+; This subroutine ensures that duplicate labels are discovered.
+COL		,D2
+
+PROC
+A,
+	DISPLAY(1, COL)
+A,
+	DISPLAY(1, COL)
+	END

@@ -1,0 +1,133 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.06.05;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.54.06;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@RECORD
+	DATA,		A20
+	TIMENOW,	D6
+	REC,		D1
+	ASC,		A3
+	R50,		D5
+	DATENOW,	A10
+	VERSN,		A20
+
+RECORD
+	TOD,		D6
+RECORD,X
+	TOD_X,		A6
+
+RECORD
+	LEN,		D3
+RECORD,X
+	LEN_X,		A3
+
+PROC
+	XCALL VERSN(VERSN)
+	DISPLAY(1, "        ", "1234567890123456789", 10)
+	DISPLAY(1, "Version ", VERSN, 10)
+	DISPLAY(1, "        ", "-------====-==.--==", 10)
+
+	XCALL ENVRN(LEN)
+	CASE LEN OF
+	BEGINCASE
+	  0: DATA = 'RT-11'
+	  1: DATA = 'TSX'
+	  2: DATA = 'RSTS'
+	  3: DATA = 'RSX'
+	  4: DATA = 'TSX-PLUS'
+	  5: DATA = 'VAX'
+	  6: DATA = 'VMS'
+	  7: DATA = 'MS-DOS'
+	  8: DATA = 'UNIX'
+	ENDCASE
+	DISPLAY(1, "ENVRN = ", LEN_X, " which is ", DATA, 10)
+
+;	XCALL ASCR5(ASC,R50)
+
+	ASC = '? A'
+	XCALL ASCII(65, ASC)
+	DISPLAY(1, "Want 'A A' --> '", ASC, "'", 10)
+
+	XCALL DECML("A is 65", LEN)
+	DISPLAY(1, "The DECML('A',N): N = ",LEN_X,10)
+
+	DATENOW = '1234567890'
+	XCALL DATE(DATENOW)
+	DISPLAY(1, "The date is ", DATENOW, 10)
+
+	TIMENOW = 999999
+	XCALL TIME(TIMENOW)
+	DATA = TIMENOW
+	DISPLAY(1, "The time is ", DATA, 10)
+
+	XCALL TIME(TOD)
+	DISPLAY(1, "The time is ", TOD_X, 10)
+
+	DISPLAY(1, "      123456789012345678901234", 10)
+ 	XCALL       TRIM(" ", LEN)
+	DISPLAY(1, 'TRIM(" ", LEN):                        LEN = ', LEN_X, 10)
+
+ 	XCALL       TRIM("Test       ", LEN)
+	DISPLAY(1, 'TRIM("Test       ", LEN):              LEN = ', LEN_X, 10)
+
+ 	XCALL       TRIM("This is another test    ", LEN)
+	DISPLAY(1, 'TRIM("This is another test    ", LEN): LEN = ', LEN_X, 10)
+	DISPLAY(1, "      123456789012345678901234", 10)
+
+	XCALL FILL(']', DATA)
+	DISPLAY(1, "]    '",DATA,"'",10)
+	XCALL FILL('A.', DATA)
+	DISPLAY(1, "A.   '",DATA,"'",10)
+	XCALL FILL('ABC', DATA)
+	DISPLAY(1, "ABC  '",DATA,"'",10)
+	XCALL FILL('abcdefghijklmnopqrstuvwxyz', DATA)
+	DISPLAY(1, "abc..'",DATA,"'",10)
+
+	XCALL INSTR(1, "FILE.EXT", ".ISM", LEN)
+	DISPLAY(1, "INSTR - WANT 0 GOT ",LEN_X,10)
+	XCALL INSTR(1, "FILE.EXT", ".EXT", LEN)
+	DISPLAY(1, "INSTR - WANT 5 GOT ",LEN_X,10)
+	XCALL INSTR(4, "FILE.EXT", ".EXT", LEN)
+	DISPLAY(1, "INSTR - WANT 5 GOT ",LEN_X,10)
+	XCALL INSTR(5, "FILE.EXT", ".EXT", LEN)
+	DISPLAY(1, "INSTR - WANT 5 GOT ",LEN_X,10)
+	XCALL INSTR(6, "FILE.EXT", ".EXT", LEN)
+	DISPLAY(1, "INSTR - WANT 0 GOT ",LEN_X,10)
+	XCALL INSTR(10,"FILE.EXT", ".EXT", LEN)
+	DISPLAY(1, "INSTR - WANT 0 GOT ",LEN_X,10)
+
+	XCALL FILNM(1, DATA)
+	DISPLAY(1, "Channel 1 is opened to file ",DATA,10)
+	END
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@@

@@ -1,0 +1,778 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.05.50;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.45;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.05.48;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.19;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.52.56;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.07;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.02;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.33;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.31;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.21;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.39.58;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.25;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.09;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.46.58;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.45.56;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.43.57;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.40;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.38.56;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.03;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.44;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.23;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.47;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.15;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.45;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.37;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.42;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.19;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.01;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.20;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.40.40;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.29;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.42;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.33;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.00;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.14.20;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.41;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.18;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.09;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.17;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.26;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.13;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.12;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.49;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.07;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.34;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.49;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@###
+# $Source: /home/ldl/dbl/cdbl/RCS/Runtime,v $
+# $Revision: 1.73 $ $Date: 1996/03/08 12:53:45 $
+
+Notes about organization of runtime code.
+
+General
+-------
+Each module is generated as one large block.  This is done because of the
+potential scoping problems.  Therefore, it is one big routine, sprinkled
+with 'goto's.
+
+Variables Generated
+-------------------
+int       __iexpr	Use for results of small computations.
+char     *__errortrap	Used to hold target of ONERROR.
+
+Error Trapping (ONERROR/OFFERROR)
+---------------------------------
+Another item, since the ONERROR traps to a label, and since it is difficult
+for a C program to reference a label address in a pointer, the error trap
+code is laid out at the top of the routine.  On entry to the routine, this
+code is jumped over, and error trap code is setup to 'goto' it to dispatch
+to the target label.  If an ONERROR is set for a routine, then the variable
+__errortrap is set to a string containing the name of the label that is the
+target of the ONERROR.  The aforementioned error trap code, when invoked,
+does a lookup and goto to get to the target.  OFFERROR merely clears the
+__errortrap variable to NULL.
+
+# End of $Source: /home/ldl/dbl/cdbl/RCS/Runtime,v $
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.72 $ $Date: 1996/01/31 12:05:48 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.71 $ $Date: 1996/01/17 09:44:19 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.70 $ $Date: 1995/11/20 18:52:56 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.69 $ $Date: 1995/11/11 11:15:07 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.68 $ $Date: 1995/11/03 09:20:02 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.67 $ $Date: 1995/10/24 08:27:33 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.66 $ $Date: 1995/10/23 09:19:31 $
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.65 $ $Date: 1995/10/19 02:07:21 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.64 $ $Date: 1995/09/28 09:39:58 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.63 $ $Date: 1995/09/19 10:41:25 $
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.62 $ $Date: 1995/09/11 10:27:09 $
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.61 $ $Date: 1995/09/08 10:46:58 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.60 $ $Date: 1995/09/06 10:45:56 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.59 $ $Date: 1995/09/05 11:43:57 $
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.58 $ $Date: 1995/09/04 12:12:40 $
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.57 $ $Date: 1995/08/02 12:38:56 $
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.56 $ $Date: 1995/08/01 11:52:03 $
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.55 $ $Date: 1995/07/21 12:24:44 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.54 $ $Date: 1995/07/18 12:39:23 $
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.53 $ $Date: 1995/07/17 12:40:47 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.52 $ $Date: 1995/07/12 14:07:15 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.51 $ $Date: 1995/07/05 12:50:45 $
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.50 $ $Date: 1995/07/03 12:17:37 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.49 $ $Date: 1995/06/30 11:14:42 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.48 $ $Date: 1995/06/29 09:14:19 $
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.47 $ $Date: 1995/06/28 09:53:01 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.46 $ $Date: 1995/06/23 11:19:20 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.45 $ $Date: 1995/06/21 12:40:40 $
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.44 $ $Date: 1995/06/20 12:17:29 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.43 $ $Date: 1995/06/15 09:12:42 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.42 $ $Date: 1995/06/14 08:57:33 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.41 $ $Date: 1995/06/12 11:37:00 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.40 $ $Date: 1995/06/12 09:14:20 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.39 $ $Date: 1995/06/09 11:19:41 $
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.38 $ $Date: 1995/06/06 11:47:18 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Revision: 1.37 $ $Date: 1995/05/15 10:22:09 $
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+# $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/Runtime,v $
+# $Header: /home/ldl/dbl/cdbl/RCS/Runtime,v 1.36 1995/05/02 10:43:17 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Header: /home/ldl/dbl/cdbl/RCS/Runtime,v 1.35 1995/04/25 11:48:26 ldl Exp ldl $
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Header: /home/ldl/dbl/cdbl/RCS/Runtime,v 1.34 1995/04/24 12:23:13 ldl Exp ldl $
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Header: /home/ldl/dbl/cdbl/RCS/Runtime,v 1.33 1995/04/23 12:55:12 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+# $Header: /home/ldl/dbl/cdbl/RCS/Runtime,v 1.32 1995/04/22 12:42:49 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+# $Header: /home/ldl/dbl/cdbl/RCS/Runtime,v 1.31 1995/04/19 11:29:07 ldl Exp ldl $
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Header: /home/ldl/dbl/cdbl/RCS/Runtime,v 1.30 1995/04/18 12:00:34 ldl Exp ldl $
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+# $Header: /home/ldl/dbl/cdbl/RCS/Runtime,v 1.29 1995/04/13 10:23:49 ldl Exp ldl $
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d2 2
+a3 2
+# $Locker$ $Source$
+# $Header$
+d30 1
+a30 1
+# End of $Source$
+@

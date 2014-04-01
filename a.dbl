@@ -1,0 +1,14 @@
+RECORD XXX
+	TxFlag,		A1
+	P_Total,	F11.2
+	Peso_Rate,	D8
+	SaleCredit,	D8
+	SaleSub,	D11
+	TaxTot,		F8.2
+	Total,		F11.2
+PROC
+	IF (TXFLAG.EQ.'Y')
+	BEGIN
+	  Total = (SaleSub + SaleCredit + TaxTot)/100
+	  P_TOTAL = (TOTAL * PESO_RATE) /100
+	END

@@ -1,0 +1,1293 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.06.01;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.54.01;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.06.06;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.29;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.05;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.15;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.15;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.42;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.41;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.31;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.12;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.34;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.16;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.04;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.46.01;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.03;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.46;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.39.02;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.08;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.51;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.32;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.52;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.20;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.50;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.42;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.47;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.24;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.05;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.27;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.41.01;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.34;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.47;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.37;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.04;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.33;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.45;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.22;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.14;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.21;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.30;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.16;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.15;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.53;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.10;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.41;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.57;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.12;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.29;	author ldl;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	95.03.26.19.58.14;	author ldl;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	95.03.23.13.31.34;	author ldl;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	95.03.19.23.29.20;	author ldl;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	95.03.08.13.33.29;	author ldl;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	95.03.06.12.00.17;	author ldl;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	95.03.06.10.31.59;	author ldl;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	95.03.05.03.24.38;	author ldl;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	95.03.03.12.36.20;	author ldl;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	95.02.27.12.55.28;	author ldl;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	95.02.26.10.54.29;	author ldl;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	95.01.07.15.34.53;	author ldl;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	95.01.07.11.22.36;	author ldl;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	94.12.31.02.31.31;	author ldl;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	94.12.30.21.01.51;	author ldl;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	94.12.27.04.07.25;	author ldl;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	94.12.26.23.53.00;	author ldl;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	94.12.16.07.22.19;	author ldl;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	94.12.15.23.42.30;	author ldl;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	94.12.04.07.22.26;	author ldl;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	94.12.02.07.12.51;	author ldl;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	94.12.01.07.06.01;	author ldl;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	94.11.28.05.26.51;	author ldl;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	94.11.26.08.23.55;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/mktokens.map,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:54:01 $
+ */
+
+/**
+ *	This file is part of the "input" fed to mktokens.awk, which creates
+ *	the token string tables for the lexical analyzer.  Entries that
+ *	trigger actions in mktokens.awk are the lines that start with "T_".
+ *	(Caution: this file is not necessarily as "free form" as it appears.
+ *	 It is depending on the insensitivity of mktokens.awk).
+ */
+
+/**
+ *	Special rules used by mktokens.awk are:
+ *	1) /^#define/ triggers as a line from y.tab.h giving the token
+ *	   name and value assigned by yacc.
+ *	2) /^T_/ triggers as a line from this file.  By default it uses
+ *	   itself for how to display for decoding and for the sequence
+ *	   of characters that are recognized as the token.
+ *	3) /^token T_/ triggers as a line from this file.  This line *MUST*
+ *	   follow the /^T_/ (see rule 2), and overrides the value that is
+ *	   recognized by the scanner as a token.  (See the code).
+ *	4) Within the rules, the token stands for itself if it is of the
+ *	   form "T_xxx" where xxx is a DIBOL keyword: T_ASSIGN->"ASSIGN"
+ *	5) The token is a "compiler directive" if it starts with T_CD_xxx
+ *	   where xxx is a directive: T_CD_ALIGN->".ALIGN"
+ *	6) Any mappings here override those from the y.tab.h file:
+ *	   T__NIL->"NIL"
+ *	7) It is assumed that T_NIL can be added to the subscript of the
+ *	   index into the created "token" string vector to yield the yacc
+ *	   assigned token id for that token.
+ */
+
+/*
+ * Handle the compiler internal "tokens" that never see the light of day
+ */
+Token			Mapping
+----------------------	--------------
+T__NIL			NIL
+token T__NIL
+T__TOKENS_WITH_VALUES
+T__TOKENS_WITH_VALUES_END
+T__RESERVED_WORDS
+T__RESERVED_WORDS_END
+T__KEYWORDS
+T__KEYWORDS_END
+T__COMPILER_DIRECTIVES
+T__COMPILER_DIRECTIVES_END
+T__OPERATORS
+T__OPERATORS_END
+T__LAST			~
+token T__LAST
+
+/*
+ * The following are NOT tokens to be recognized as per themselves
+ */
+T_ID			<ID>
+token T_ID
+T_LABEL			<LABEL>
+token T_LABEL
+T_NUMBER		<NUMBER>
+token T_NUMBER
+T_STRING		<STRING>
+token T_STRING
+
+/*
+ * Handle the operators (like keywords but not named like they appear)
+ */
+Token			Mapping
+----------------------	--------------
+T_O_ADD			+
+T_O_AND			.AND
+T_O_AT			@@
+T_O_BAND		T_O_BAND***NOT_MAPPED***
+T_O_BNOT		T_O_BNOT***NOT_MAPPED***
+T_O_BOR			T_O_BOR***NOT_MAPPED***
+T_O_BXOR		T_O_BXOR***NOT_MAPPED***
+T_O_COLON		:
+T_O_COMMA		,
+T_O_DIV			/
+T_O_EQ			.EQ
+T_O_EQS			.EQS
+T_O_EQU			.EQU
+T_O_EQUAL		=
+T_O_GE			.GE
+T_O_GES			.GES
+T_O_GEU			.GEU
+T_O_GREAT		>
+T_O_GT			.GT
+T_O_GTS			.GTS
+T_O_GTU			.GTU
+T_O_LBRACK		[
+T_O_LE			.LE
+T_O_LES			.LES
+T_O_LESS		<
+T_O_LEU			.LEU
+T_O_LPAREN		(
+T_O_LT			.LT
+T_O_LTS			.LTS
+T_O_LTU			.LTU
+T_O_MUL			*
+T_O_NE			.NE
+T_O_NES			.NES
+T_O_NEU			.NEU
+T_O_NOT			.NOT
+T_O_OR			.OR
+T_O_PERIOD		.
+T_O_RBRACK		]
+T_O_ROUND		#
+T_O_ROUNDTRUE		##
+T_O_RPAREN		)
+T_O_SLHSLH		//
+T_O_SUB			-
+T_O_UNARY		?unary?
+T_O_XOR			T_O_XOR***NOT_MAPPED***
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/mktokens.map,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:06:06 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:29 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:53:05 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:15 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:15 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:42 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:41 $
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:31 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:12 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:34 $
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:16 $
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:04 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:46:01 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:44:03 $
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:46 $
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:39:02 $
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:08 $
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:51 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:32 $
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:52 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:20 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:50 $
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:42 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:47 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:24 $
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:05 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:27 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:41:01 $
+a108 1
+T_O_PND			#
+d110 2
+a111 1
+T_O_ROUND		##
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:34 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:47 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:37 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:04 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:33 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:45 $
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:22 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:14 $
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/mktokens.map,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.36 1995/05/02 10:43:21 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.35 1995/04/25 11:48:30 ldl Exp ldl $
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.34 1995/04/24 12:23:16 ldl Exp ldl $
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.33 1995/04/23 12:55:15 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.32 1995/04/22 12:42:53 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.31 1995/04/19 11:29:10 ldl Exp ldl $
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.30 1995/04/18 12:00:41 ldl Exp ldl $
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.29 1995/04/13 10:23:57 ldl Exp ldl $
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.28 1995/04/03 11:47:12 ldl Exp ldl $
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.27 1995/03/27 03:06:29 ldl Exp ldl $
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.26 1995/03/26 19:58:14 ldl Exp ldl $
+@
+
+
+1.26
+log
+@26-Mar-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.25 1995/03/23 13:31:34 ldl Exp ldl $
+@
+
+
+1.25
+log
+@23-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.24 1995/03/19 23:29:20 ldl Exp ldl $
+@
+
+
+1.24
+log
+@19-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.23 1995/03/08 13:33:29 ldl Exp ldl $
+@
+
+
+1.23
+log
+@08-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.22 1995/03/06 12:00:17 ldl Exp ldl $
+d44 2
+@
+
+
+1.22
+log
+@06-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.21 1995/03/06 10:31:59 ldl Exp ldl $
+a107 1
+T_O_PNDPND		##
+d109 1
+@
+
+
+1.21
+log
+@06-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.20 1995/03/05 03:24:38 ldl Exp ldl $
+@
+
+
+1.20
+log
+@04-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.19 1995/03/03 12:36:20 ldl Exp ldl $
+@
+
+
+1.19
+log
+@03-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.18 1995/02/27 12:55:28 ldl Exp ldl $
+@
+
+
+1.18
+log
+@27-Feb-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.17 1995/02/26 10:54:29 ldl Exp ldl $
+@
+
+
+1.17
+log
+@26-Feb-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.16 1995/01/07 15:34:53 ldl Exp ldl $
+@
+
+
+1.16
+log
+@07-Jan-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.15 1995/01/07 11:22:36 ldl Exp ldl $
+@
+
+
+1.15
+log
+@07-Jan-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.14 1994/12/31 02:31:31 ldl Exp ldl $
+@
+
+
+1.14
+log
+@30-Dec-1994 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.13 1994/12/30 21:01:51 ldl Exp ldl $
+@
+
+
+1.13
+log
+@30-Dec-1994 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.12 1994/12/27 04:07:25 ldl Exp ldl $
+d71 1
+a71 1
+T_O_AND			T_O_AND***NOT_MAPPED***
+d104 2
+a105 2
+T_O_NOT			T_O_NOT***NOT_MAPPED***
+T_O_OR			T_O_OR***NOT_MAPPED***
+@
+
+
+1.12
+log
+@26-Dec-1994 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.11 1994/12/26 23:53:00 ldl Exp ldl $
+@
+
+
+1.11
+log
+@26-Dec-1994 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.10 1994/12/16 07:22:19 ldl Exp ldl $
+@
+
+
+1.10
+log
+@15-Dec-1994 late
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.9 1994/12/15 23:42:30 ldl Exp ldl $
+@
+
+
+1.9
+log
+@15-Dec-1994 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/mktokens.map,v 1.8 1994/12/04 07:22:26 ldl Exp ldl $
+@
+
+
+1.8
+log
+@03-Dec-94 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/RCS/mktokens.map,v $
+ * $Header: /home/ldl/dbl/RCS/mktokens.map,v 1.7 1994/12/02 07:12:51 ldl Exp ldl $
+d58 2
+d116 1
+a116 1
+/* End of $Source: /home/ldl/dbl/RCS/mktokens.map,v $ */
+@
+
+
+1.7
+log
+@01-Dec-94 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/RCS/mktokens.map,v 1.6 1994/12/01 07:06:01 ldl Exp ldl $
+@
+
+
+1.6
+log
+@30-Nov-94 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/RCS/mktokens.map,v 1.5 1994/11/28 05:26:51 ldl Exp ldl $
+@
+
+
+1.5
+log
+@27-Nov-94 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/RCS/mktokens.map,v 1.4 1994/11/26 08:23:55 ldl Exp ldl $
+@
+
+
+1.4
+log
+@25-Nov-94 Checkpoint (Early A.M. on the 26th)
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d16 1
+a16 1
+ *	1) /^#define/ triggers as a line from gram.h giving the token
+d28 1
+a28 1
+ *	6) Any mappings here override those from the gram.h file:
+d114 1
+a114 1
+/* End of $Source$ */
+@

@@ -1,0 +1,1975 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.06.04;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.54.04;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.06.11;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.33;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.09;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.18;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.18;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.44;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.43;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.34;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.15;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.36;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.18;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.05;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.46.03;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.05;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.48;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.39.04;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.10;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.53;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.34;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.54;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.26;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.51;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.44;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.49;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.25;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.07;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.29;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.41.02;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.36;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.49;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.39;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.06;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.35;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.47;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.24;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.16;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.23;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.31;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.18;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.17;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.55;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.12;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.43;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.59;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.14;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.30;	author ldl;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	95.03.26.19.58.16;	author ldl;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	95.03.23.13.31.36;	author ldl;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	95.03.19.23.29.21;	author ldl;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	95.03.08.13.33.31;	author ldl;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	95.03.06.12.00.19;	author ldl;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	95.03.06.10.32.00;	author ldl;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	95.03.05.03.24.39;	author ldl;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	95.03.03.12.36.21;	author ldl;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	95.02.27.12.55.30;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/util.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:54:04 $
+ */
+
+/***
+ *	Various utilities for munging and walking the parse tree.
+ *
+ *	See the documentation in parse.h for more information.
+ *	Note: Assumes that gram.h includes node.h.
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "prototype.h"
+#include "assert.h"
+#include "gram.h"
+#include "parse.h"
+#include "_tokens.h"
+
+
+/**
+ *	Local functions
+ */
+static
+void      copy_to_sym	PROTOARGS((char *));
+static
+void      copy_to_end	PROTOARGS((void));
+static
+void      proc_decl_params PROTOARGS((Node_id, int, int));
+
+/**
+ *	Local "globals"
+ */
+static
+FILE     *psyms_in, *psyms_out;		/* Permanent symbols		*/
+
+/**
+ *	Add T__FIRST node and start list (or add to end of list).
+ */
+Node_id
+adf_n(list, node)					/* Function	*/
+  Node_id   list;
+  Node_id   node;
+{
+  Node_id   n;
+  if ( ! (n = rnn(list, T__FIRST, NIL)) )
+    rs(list, T__FIRST, node);		/* Create first list		*/
+  else
+    adl_n(n, node);			/* Add to the end of list	*/
+  return list;
+} /* adf_n */
+
+/**
+ *	Add token to list on end of T__FIRST list.
+ */
+Node_id
+adf_t(list, token)					/* Function	*/
+  Node_id   list;
+  Token     token;
+{
+  adf_n(list, mkid(token));		/* Add node to end of list	*/
+  return list;				/* Return head of list		*/
+} /* adf_t */
+
+/**
+ *	Add node to list.
+ */
+Node_id
+adl_n(list, node)					/* Function	*/
+  Node_id   list;
+  Node_id   node;
+{
+  rs(eol(list), T__PRECEDES, node);	/* Add node to end of list	*/
+  return list;
+} /* adl_n */
+
+/**
+ *	Add token to list.
+ */
+Node_id
+adl_t(list, token)					/* Function	*/
+  Node_id   list;
+  Token     token;
+{
+  adl_n(list, mkid(token));		/* Add node to end of list	*/
+  return list;				/* Return head of list		*/
+} /* adl_t */
+
+/**
+ *	Find end of T__PRECEDES chain on list.
+ */
+Node_id
+eol(list)						/* Function	*/
+  Node_id   list;
+{
+  Node_id   e;
+  while (list = rnn(e = list, T__PRECEDES, NIL))
+    ; /* Skip to end of list */
+  return e;
+} /* eol */
+
+Node_id
+filter_data_type(id)					/* Function	*/
+{
+/* A size defaults to 65535	this is the default type
+ * D size defaults to 18 digits
+ * I size defaults to 16 bytes
+ * P size defaults to 18 digits
+ * X means redefine flag
+ */
+} /* filter_data_type */
+
+/**
+ *	Find the "long" value in the net.
+ */
+long
+find_long(spec, rel)					/* Function	*/
+  Node_id   spec;
+  int       rel;
+{
+  char     *s = find_string(spec, rel);
+  return s ? atol(s) : 0L;
+} /* find_long */
+
+/**
+ *	Find the "string" value in the net.
+ *	Note: Assume that "string" is static.
+ */
+char *
+find_string(spec, rel)					/* Function	*/
+  Node_id   spec;
+  int       rel;
+{
+  char     *s = NULL;
+  int       t;
+  Node_id   n;
+
+  if (n = rnn(spec, rel, NIL))		/* Get the node for rel		*/
+    ng(n, &t, &s);			/* Get the value		*/ 
+  return s;
+} /* find_string */
+
+/**
+ *	Lookup an identifier.
+ */
+Node_id
+lkupid(id, table)					/* Function	*/
+  Node_id   id;
+  int       table;
+{
+  int       xt;
+  char     *name;
+  Node_id   n = NIL;
+
+  ng(id, &xt, &name);			/* Get new id name text		*/
+  if (_parse.flags)
+    printf("lkupid(id=%d, table=%d:%s) _parse.div_base=%d name=%s\n",
+           id, table, to_token(table), _parse.div_base,   name );
+  n = lkupname(name, table);
+  if (_parse.flags)
+    printf("lkupid: %s, returning [%d]\n", n ? "succeeded" : "failed", n);
+  return n;
+} /* lkupid */
+
+/**
+ *	Lookup node for name in table.
+ */
+Node_id
+lkupname(name, table)					/* Function	*/
+  char     *name;
+  int       table;
+{
+  int       xt;
+  Node_id   n = NIL, ids;
+  char     *xs;
+
+  if ( ! name )
+    {
+      c_error("lkupname: internal error - called with name=NULL");
+      goto BailOut;
+    }
+  if (_parse.flags)
+    printf("lkupname(name=%s, table=%d:%s) _parse.div_base=%d\n",
+           name, table, to_token(table), _parse.div_base);
+  ids = _parse.div_base;		/* Get symbol table base addr	*/
+  if (ids)
+    while (n = rnn(ids, table, n))	/* Walk label table for dups	*/
+      {
+        ng(n, &xt, &xs);		/* Existing field name text	*/
+        if (strcmp(name, xs) == 0)
+          break;			/* Found field, bail out	*/
+      }
+BailOut:
+  if (_parse.flags)
+    printf("lkupname: %s, returning [%d]\n", n ? "succeeded" : "failed", n);
+  return n;
+} /* lkupname */
+
+/**
+ *	Lookup and return the value of an identifier.
+ *	T_CD_DEFINE table entries only.
+ */
+long
+lkuptkval(token)					/* Function	*/
+  Token     token;
+{
+  long      value = 0;
+  int       xt;
+  char     *xs;
+  Node_id   n = NIL, ids;
+
+  if (_parse.flags)
+    printf("lkuptkval(id=token_id=%d:%s token_value=\"%s\")\n",
+           token.token_id, to_token(token.token_id), token.token_value);
+  n = lkupname(token.token_value, T_CD_DEFINE);
+  if (n == 0)
+    ;					/* Not defined, returning 0	*/
+  else if (n && (n = rnn(n, T_CD_DEFINE, NIL)))
+    {
+      ng(n, &xt, &xs);
+      value = atol(xs);
+    }
+  else
+    c_error("lkuptkval: internal error - .DEFINE entry bogus");
+  if (_parse.flags)
+    printf("lkuptkval: %s, returning %ld\n", token.token_value, value);
+  return value;
+} /* lkuptkval */
+
+/**
+ *	Make command/parameter linkage.
+ *	Note: This is where filename.lineno info is stuffed.
+ */
+Node_id
+mkcp(token, param)					/* Function	*/
+  Token     token;
+  Node_id   param;
+{
+  Node_id   n = mkid(token);
+
+  post_file_lineno(n);			/* Post the current file/lineno	*/
+  if (param)				/* Add parameters if they exist	*/
+    rs(n, T__FIRST, param);
+  return n;
+} /* mkcp */
+
+/**
+ *	Make identifier node using token.
+ */
+Node_id
+mkid(token)						/* Function	*/
+  Token     token;
+{
+  Node_id   n;
+  ns(n = nn(), token.token_id, token.token_value);
+  return n;
+} /* mkid */
+
+/**
+ *	Make a keyword:value node.
+ */
+Node_id
+mkkwv(token, value)					/* Function	*/
+  Token     token;
+  Node_id   value;
+{
+  Node_id   n = mkid(token);		/* Create token node		*/
+  rs(n, T__EXPR, value);		/* Add expression relation	*/
+  return n;
+} /* mkkwv */
+
+/**
+ *	Make a keyword:value-value node or
+ *	       keyword:value,value node or
+ *	       keyword:value:value node
+ */
+Node_id
+mkkwvv(token, valu1, tothru, valu2)			/* Function	*/
+  Token     token;
+  Node_id   valu1;
+  Token     tothru;
+  Node_id   valu2;
+{
+  Node_id   n = mkid(token), m = mkid(tothru);
+  rs(n, T__EXPR, valu1);
+  rs(n, tothru.token_id, m);
+  rs(m, T__EXPR, valu2);
+  return n;
+} /* mkkwvv */
+
+/**
+ */
+Node_id
+mkupname(kind)						/* Function	*/
+  int       kind;
+{
+  static
+  int       uniqueid = 0;		/* This gets bumped once per	*/
+  Token     t;
+  char      name[20];
+
+  sprintf(name, "%s___%d", to_token(kind), ++uniqueid);
+  t.token_id    = T_ID;
+  t.token_value = u_strdup(name);
+  return mkid(t);			/* Return node of made-up name	*/
+} /* mkupname */
+
+/**
+ */
+void
+post_data_div(div)					/* Function	*/
+  Node_id   div;
+{
+  int       xt, dtype;
+  Node_id   d, n;
+  char     *newname;
+
+  ng(div, &dtype, &newname);		/* Get division type		*/
+  if ( ! (d = rnn(div, T_ID, NIL)) )	/* Ensure have name		*/
+    {
+      c_error("post_data_div: internal error - no id for div=[%d]", div);
+      return;
+    }
+  ng(d, &xt, &newname);
+  if (lkupid(d, dtype))			/* Lookup field in table	*/
+    c_error("duplicate data aggregate %s", newname);
+  ns(n = nn(), xt, newname);		/* Create id node		*/
+  post_long(n, dtype, (long) div);
+  rs(_parse.div_base, dtype, n);	/* Post field to/create table	*/
+} /* post_data_div */
+
+/**
+ *	Post field name to name table (for lookup).
+ */
+void
+post_field(field, def)					/* Function	*/
+  Node_id   field;
+  Node_id   def;
+{
+  int       xt;
+  char     *newname;
+  Node_id   n;
+
+  ng(field, &xt, &newname);		/* Get name of new field	*/
+  if (lkupid(field, T_ID))		/* Lookup field in T_ID table	*/
+    c_warning("duplicate field %s - need full name to reference", newname);
+  ns(n = nn(), T_ID, newname);		/* Create id node		*/
+  post_long(n, T__FIELD, (long)def);
+  rs(_parse.div_base, T_ID, n);		/* Post field to/create table	*/
+} /* post_field */
+
+/**
+ */
+void
+post_file_lineno(n)					/* Function	*/
+  Node_id   n;
+{
+  char      buf[100];
+  sprintf(buf, "%s:%d", _parse.file, _parse.line);
+  post_string(n, T__FILE_LINENO, buf);	/* Add file.line information	*/
+} /* post_file_lineno */
+
+/**
+ *	Post label, checking for duplicate of label in table.
+ */
+void
+post_label(label)					/* Function	*/
+  Node_id   label;
+{
+  int       xt;
+  char     *newname;
+  Node_id   n;
+
+  ng(label, &xt, &newname);		/* Get name of new label	*/
+  if (n = lkupid(label, T_LABEL))	/* Lookup label in T_LABEL table*/
+    c_error("duplicate label %s", newname);
+  rs(_parse.div_base, T_LABEL, label);	/* Post label to/create table	*/
+} /* post_label */
+
+/**
+ *	Post a "long" value to the net.
+ */
+void
+post_long(spec, rel, value)				/* Function	*/
+  Node_id   spec;
+  int       rel;
+  long      value;
+{
+  char      string[20];
+
+  sprintf(string, "%ld", value);
+  post_string(spec, rel, string);
+} /* post_long */
+
+/**
+ *	Post a "string" value to the net.
+ *	Note: Assume that "string" is static.
+ */
+void
+post_string(spec, rel, string)				/* Function	*/
+  Node_id   spec;
+  int       rel;
+  char     *string;
+{
+  Token     t;
+
+  t.token_id    = rel;
+  t.token_value = u_strdup(string);
+  rs(spec, rel, mkid(t));
+} /* post_string */
+
+void
+sym_ck_proc_use(spec)					/* Function	*/
+  Node_id   spec;
+{
+} /* sym_ck_proc_use */
+
+void
+sym_save_proc_decl()					/* Function	*/
+{
+  int       xt;
+  Node_id   d;
+  char     *xs, *name;
+
+					/* Is this a function?		*/
+  if ( ! (d = rnn(_parse.tree, T__TYPE, NIL)) )
+    return;				/* Nope - not interesting	*/
+
+  ng(d, &xt, &name);			/* Name of the procedure	*/
+
+  copy_to_sym(name);			/* Copy to existing symbol entry*/
+  if (psyms_out)
+    fprintf(psyms_out, "%s\n", name);	/* Save symbol name		*/
+  walk_divs(proc_decl_params, T__PARAMETER, 0);	/* Save formal params	*/
+  copy_to_end();			/* Copy remainter of symbols	*/
+} /* sym_save_proc_decl */
+
+void *
+u_calloc(n, ln)						/* Function	*/
+  size_t    n;
+  size_t    ln;
+{
+  void     *s;
+  if ( ! (s = calloc(n, ln)) )		/* Out of memory		*/
+    {
+      c_error("OUT OF MEMORY trying to calloc(%d, %d)", n, ln);
+      if (_parse.flags)
+        c_dump_nodes(_parse.tree);	/* Dump the nodes if flags set	*/
+      exit( 1 );
+    }
+  return s;
+} /* u_calloc */
+
+void *
+u_malloc(ln)						/* Function	*/
+  size_t    ln;
+{
+  void     *s;
+  if ( ! (s = malloc(ln)) )		/* Out of memory		*/
+    {
+      c_error("OUT OF MEMORY trying to malloc(%d)", ln);
+      if (_parse.flags)
+        c_dump_nodes(_parse.tree);	/* Dump the nodes if flags set	*/
+      exit( 1 );
+    }
+  return s;
+} /* u_malloc */
+
+void *
+u_realloc(s, ln)					/* Function	*/
+  void     *s;
+  size_t    ln;
+{
+  void     *ns;
+  if ( ! (ns = realloc(s, ln)) )	/* Out of memory		*/
+    {
+      c_error("OUT OF MEMORY trying to realloc(0x%08lx, %d)", s, ln);
+      if (_parse.flags)
+        c_dump_nodes(_parse.tree);	/* Dump the nodes if flags set	*/
+      exit( 1 );
+    }
+  return ns;
+} /* u_realloc */
+
+/**
+ *	Duplicate a string, FATAL fail if out of memory.
+ */
+char *
+u_strdup(str)						/* Function	*/
+  char     *str;
+{
+  char     *s;
+  if ( ! (s = strdup(str)) )		/* Out of memory		*/
+    {
+      c_error("OUT OF MEMORY trying to strdup(\"%s\")", str);
+      if (_parse.flags)
+        c_dump_nodes(_parse.tree);	/* Dump the nodes if flags set	*/
+      exit( 1 );
+    }
+  return s;
+} /* u_strdup */
+
+/**
+ *	Walk the 'kind' divisions calling func.
+ *	Note: T_RECORD triggers walking 'data' divisions.
+ */
+void
+walk_divs(func, kind, arg)				/* Function	*/
+  void    (*func) PROTOARGS((Node_id, int, int));
+  int       kind;
+  int       arg;
+{
+  char     *s;
+  int       r, t, dofunc;
+  Node_id   d, spec;
+
+  if (_parse.flags)
+    printf("walk_divs(-func-, kind=%d, arg=%d)\n", kind, arg);
+
+  d = rnn(_parse.tree, T__DIVISION, NIL);
+  if (_parse.flags && _parse.yydebug)
+    printf("d=%d\n", d);
+  r = T__FIRST;
+  while ( spec = rnn(d, r, NIL) )	/* Handle record/common/etc	*/
+    {
+      ng(spec, &t, &s);
+      if (_parse.flags && _parse.yydebug)
+	{
+          printf("d=%d r=%s spec=[%d]\n", d, to_token(r), spec);
+          printf("  t=%s[%d] s=\"%s\"\n", to_token(t), t, s ? s : "");
+	}
+      dofunc = 0;			/* Default: don't do func	*/
+      switch (t)
+        {
+	  case T_GLOBAL:
+	    dofunc = kind == T_RECORD;	/* Wanting 'data' divs		*/
+	    if ( ! dofunc )
+	      break;
+	    {				/* Like a mini walk_divs (yuck)	*/
+	      char     *t_s;
+	      int       t_r, t_t;
+	      Node_id   t_d, t_spec;
+
+	      (*func)(spec, arg, 1);
+	      t_d = spec;
+	      t_r = T__FIRST;
+	      while ( t_spec = rnn(t_d, t_r, NIL) )
+	        {
+	          ng(t_spec, &t_t, &t_s);
+	          if (_parse.flags && _parse.yydebug)
+	            {
+                      printf("t_d=%d t_r=%s t_spec=[%d]\n",
+		             t_d, to_token(t_r), t_spec);
+                      printf("  t_t=%s[%d] t_s=\"%s\"\n",
+		             to_token(t_t), t_t, t_s ? t_s : "");
+		    }
+	          switch (t_t)
+	            {
+		      case T_RECORD:
+		        (*func)(t_spec, arg, 0);
+		        break;
+		      default:
+		        c_error("can't have a %s in GLOBAL section",
+			        to_token(t_t));
+		    }
+	          t_d = t_spec, t_r = T__PRECEDES;
+	        }
+	      /* Note: does the callid=0 below as part of the main loop */
+	    }
+	    break;
+
+	  case T_COMMON:
+	  case T_LITERAL:
+	  case T_RECORD:
+	    dofunc = kind == T_RECORD;	/* Wanting 'data' divs		*/
+	    break;
+	  case T_PROC:
+	    dofunc = kind == T_PROC;	/* Wanting 'proc' div		*/
+	    break;
+	  case T__PARAMETER:
+	    dofunc = kind == T__PARAMETER; /* Wanting 'parameter' div	*/
+	    break;
+	}
+      if (dofunc)			/* If division selected		*/
+        (*func)(spec, arg, 0);		/*   do the function		*/
+      else if (_parse.flags && _parse.yydebug)
+        printf("  ^skipped\n");
+      d = spec, r = T__PRECEDES;
+    }
+} /* walk_divs */
+
+/**
+ *	Local support functions.
+ */
+
+static
+void
+copy_to_sym(name)					/* Function	*/
+  char     *name;
+{
+  char      ch, buf[BUFSIZ];
+
+  psyms_in  = fopen("CDBL.pst", "r");
+  if ((psyms_out = fopen("CDBL.new", "w")) == (FILE *)NULL)
+    {
+      perror("CDBL.new");
+      if (psyms_in)
+        fclose(psyms_in);
+      return;
+    }
+
+  if (psyms_in)				/* Expect a documented CDBL.pst	*/
+    goto CopyInToOut;
+
+/**
+ *	Note: It is the intention that all formats of stanzas in the
+ *	permenant symbol table are documented here.  Currently, the
+ *	stanza names used are thought "impossible" to create in any
+ *	natural way (via compiling), and are "safe" from being used 
+ *	by any automated process.  They are strictly for the human
+ *	reader of the file.
+ */
+  fprintf(psyms_out, "CDBL Permanent Symbols for files in this directory\n");
+  fprintf(psyms_out, ". Each table entry is represented by a stanza\n");
+  fprintf(psyms_out, ". Stanzas are started with a stanza name\n");
+  fprintf(psyms_out, ". A stanza name is the entire non-'.' started line\n");
+  fprintf(psyms_out, ". This is the last line of this stanza\n");
+  fprintf(psyms_out, "PROCEDURE FORMAL PARAMETERS (Prototype)\n");
+  fprintf(psyms_out, ".<ParameterName>  (in declaration order)\n");
+  fprintf(psyms_out, "..:<ParameterDataType>\n");
+  fprintf(psyms_out, "..[               (optional \"real\" array)\n");
+  fprintf(psyms_out, "...<RealArray1stSubscript>\n");
+  fprintf(psyms_out, "....<RealArray2ndSubscript>\n");
+  fprintf(psyms_out, "..... ...<RealArrayXthSubscript>\n");
+  fprintf(psyms_out, "..(               (optional \"pseudo\" array)\n");
+  fprintf(psyms_out, "...<PseudoArraySubscript>\n");
+
+CopyInToOut:
+  if (psyms_in && psyms_out)
+    while(fgets(buf, sizeof(buf), psyms_in))
+      {
+        buf[strlen(buf) - 1] = '\0';	/* Kill <nl> char		*/
+        if (strcmp(buf, name) == 0)	/* Found symbol			*/
+	  goto SkipDef;			/* Bail out			*/
+        fprintf(psyms_out, "%s\n", buf);/* Write old line to new	*/
+      }
+  goto Return;				/* Our def was at the end	*/
+
+SkipDef:				/* Skip existing def & bailout	*/
+  do
+    {	
+      ch = getc(psyms_in);		/* Look at first char		*/
+      if (ch == EOF)			/* Ran into end of file?	*/
+        break;
+      if (ch == '.')			/* If still in def, skip to eol	*/
+	fgets(buf, sizeof(buf), psyms_in);
+    }
+  while (ch == '.');
+  if (ch != EOF)
+    ungetc(ch, psyms_in);		/* Not our def, put char back	*/
+
+Return: ;
+} /* copy_to_sym */
+
+static
+void
+copy_to_end()						/* Function	*/
+{
+  char      buf[BUFSIZ];
+  if (psyms_in && psyms_out)
+    while (fgets(buf, sizeof(buf), psyms_in))
+      fprintf(psyms_out, "%s", buf);	/* buf has <nl> still		*/
+  if (psyms_in)
+    fclose(psyms_in);
+  if (psyms_out)
+    {
+      fclose(psyms_out);
+      if (psyms_in)			/* Had a pre-existing file	*/
+        system("mv CDBL.pst CDBL.pst.old");/* For now			*/
+      system("mv CDBL.new CDBL.pst");
+    }
+} /* copy_to_end */
+
+/**
+ *	Loosely patterned after generate.c:g_data_buffers.
+ */
+static
+void
+proc_decl_params(spec, unused1, unused2)		/* Function	*/
+  Node_id   spec;
+  int       unused1;			/* Currently unused		*/
+  int       unused2;			/* Currently unused		*/
+{
+  int       r;
+  Node_id   d;
+
+  if (psyms_out == (FILE *)NULL)	/* Error in copy of symtab	*/
+    return;				/* Forget it			*/
+
+  d = spec;				/* Walk the definition		*/
+  for (r = T__FIRST;  d = rnn(d, r, NIL);  r = T__PRECEDES)
+    {
+      Node_id   t;
+
+      t = rnn(d, T__TYPE, NIL);		/* Type descriptor for field	*/
+      fprintf(psyms_out, ".%s\n", find_string(d, T_LABEL));
+      /* if group */
+      /*   ToDo */
+      /* else */
+      {
+        Node_id   a;			/* Array dimension descriptor	*/
+	int       ar;			/* Array relationship walker	*/
+        int       xt;			/* For ng()			*/
+        char     *xs;			/* For ng()			*/
+
+	ng(rnn(t, T__TYPE, NIL), &xt, &xs);
+	fprintf(psyms_out, "..:%s\n", xs);
+
+	if      ((a = rnn(t, T_O_LBRACK, NIL)))
+	  fprintf(psyms_out, "..[\n");
+	else if ((a = rnn(t, T_O_LPAREN, NIL)))
+	  fprintf(psyms_out, "..(\n");
+	if (a)
+	  {
+            int       i, n;		/* Array dimension descriptor	*/
+            ng(a, &xt, &xs);
+	    fprintf(psyms_out, "...%s\n", xs);
+	    n = 4;
+	    for (ar = T__FIRST;  a = rnn(a, ar, NIL);  ar = T__PRECEDES)
+              {
+                ng(a, &xt, &xs);
+		for (++n, i = 0;  i < n;  ++i)
+		  fprintf(psyms_out, ".");
+	        fprintf(psyms_out, "%s\n", xs);
+              }
+	  }
+      }
+    }
+} /* proc_decl_params */
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/util.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:06:11 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:33 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:53:09 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:18 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:18 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:44 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:43 $
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:34 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:15 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:36 $
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:18 $
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:05 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:46:03 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:44:05 $
+d31 1
+a31 1
+void      proc_decl_params PROTOARGS((Node_id, int));
+d181 1
+a181 1
+      c_error("internal error - lkupname called with name=NULL");
+d226 1
+a226 1
+    c_error("lkuptkval - internal error .DEFINE entry bogus");
+d323 1
+a323 1
+      c_error("internal error - no id for div=[%d]", div);
+d691 1
+a691 1
+proc_decl_params(spec, unused)			/* Function	*/
+d693 2
+a694 1
+  int       unused;			/* Currently unused		*/
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:48 $
+d511 1
+a511 1
+  void    (*func) PROTOARGS((Node_id,int));
+d531 1
+a531 1
+          printf("d=%d r=%s spec=%d\n", d, to_token(r), spec);
+d537 37
+d587 1
+a587 1
+        (*func)(spec, arg);		/*   do the function		*/
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:39:04 $
+d448 1
+a448 1
+      c_error("OUT OF MEMORY trying to calloc(%d, %d)\n", n, ln);
+d463 1
+a463 1
+      c_error("OUT OF MEMORY trying to malloc(%d)\n", ln);
+d479 1
+a479 1
+      c_error("OUT OF MEMORY trying to realloc(0x%08lx, %d)\n", s, ln);
+d497 1
+a497 1
+      c_error("OUT OF MEMORY trying to strdup(\"%s\")\n", str);
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:10 $
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:53 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:34 $
+d154 22
+a175 1
+  char     *lkupname, *name;
+d177 1
+d179 5
+a183 1
+  ng(id, &xt, &lkupname);		/* Get new id name text	*/
+d185 2
+a186 2
+    printf("lkupid(id=%d, table=%d:%s) _parse.div_base=%d lkupname=%s\n",
+           id, table, to_token(table), _parse.div_base, lkupname );
+d191 2
+a192 2
+        ng(n, &xt, &name);		/* Existing field name text	*/
+        if (strcmp(name, lkupname) == 0)
+d195 1
+d197 1
+a197 1
+    printf("lkupid: %s, returning [%d]\n", n ? "succeeded" : "failed", n);
+d199 32
+a230 1
+} /* lkupid */
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:54 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:26 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:51 $
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:44 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:49 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:25 $
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:07 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:29 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:41:02 $
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:36 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:49 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:39 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:06 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:35 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:47 $
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:24 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:16 $
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/util.c,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.36 1995/05/02 10:43:23 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.35 1995/04/25 11:48:31 ldl Exp ldl $
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.34 1995/04/24 12:23:18 ldl Exp ldl $
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.33 1995/04/23 12:55:17 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.32 1995/04/22 12:42:55 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.31 1995/04/19 11:29:12 ldl Exp ldl $
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.30 1995/04/18 12:00:43 ldl Exp ldl $
+d27 5
+a31 1
+void      g_close_file	PROTOARGS(());
+d36 2
+d356 26
+d498 148
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.29 1995/04/13 10:23:59 ldl Exp ldl $
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.28 1995/04/03 11:47:14 ldl Exp ldl $
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.27 1995/03/27 03:06:30 ldl Exp ldl $
+a150 3
+/**/printf("lkupid(id=%d, table=%d:%s) _parse.div_base=%d\n",
+/**/       id, table, to_token(table), _parse.div_base );
+/***/
+d152 3
+a154 2
+/**/printf("lkupid:   lkupname=%s\n", lkupname);
+/***/
+d163 2
+a164 2
+/**/printf("lkupid: %s, returning [%d]\n", n ? "succeeded" : "failed", n);
+/***/
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.26 1995/03/26 19:58:16 ldl Exp ldl $
+d232 41
+d286 1
+a286 1
+    c_warning("duplicate field %s", newname);
+@
+
+
+1.26
+log
+@26-Mar-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.25 1995/03/23 13:31:36 ldl Exp ldl $
+a85 62
+ *	Create a C code expression for spec.
+ *	Note: Returns dynamically allocated buffer.
+ */
+char *
+c_expr(spec)						/* Function	*/
+  Node_id   spec;
+{
+  int       xt;
+  Node_id   d;
+  char     *xs;
+
+  char      buf[BUFSIZ];
+  strcpy(buf, "");			/* Clear buffer			*/
+/**/printf("c_ref(spec=[%d])\n", spec);
+/***/
+
+/**/printf("c_ref: spec=[%d] returning \"%s\"\n", spec, buf);
+/***/
+  return u_strdup(buf);
+} /* c_expr */
+
+/**
+ *	Create a C code expression for spec returning numeric result.
+ *	Note: Returns dynamically allocated buffer.
+ */
+char *
+c_nexpr(spec)						/* Function	*/
+  Node_id   spec;
+{
+  char      buf[BUFSIZ];
+  strcpy(buf, "");			/* Clear buffer			*/
+/**/printf("c_ref(spec=[%d])\n", spec);
+/***/
+
+/**/sprintf(buf, "/*c_nexpr(spec=[%d])*/ 1", spec);
+/***/
+
+/**/printf("c_ref: spec=[%d] returning \"%s\"\n", spec, buf);
+/***/
+  return u_strdup(buf);
+} /* c_nexpr */
+
+/**
+ *	Create a C code reference for spec.
+ *	Note: Returns dynamically allocated buffer.
+ */
+char *
+c_ref(spec)						/* Function	*/
+  Node_id   spec;
+{
+  char      buf[BUFSIZ];
+  strcpy(buf, "");			/* Clear buffer			*/
+/**/printf("c_ref(spec=%d)\n", spec);
+/***/
+
+/**/printf("c_ref: spec=%d returning \"%s\"\n", spec, buf);
+/***/
+  return u_strdup(buf);
+} /* c_ref */
+
+
+/**
+a178 1
+  char      buf[100];
+d181 1
+a181 2
+  sprintf(buf, "%s:%d", _parse.file, _parse.line);
+  post_string(n, T__FILE_LINENO, buf);	/* Add file.line information	*/
+a231 17
+ *	Make a variable node reference into a string.
+ *	Note:	The string returned is a pointer to a statically
+ *		allocated buffer within the routine!
+ */
+char *
+mkvarref(id)						/* Function	*/
+  Node_id   id;
+{
+  static
+  char      varref[200];
+
+  strcpy(varref, "");
+/**/printf("mkvarref: [%d]\n", id);
+  return "mkvarref: not implemented";
+} /* mkvarref */
+
+/**
+d250 11
+@
+
+
+1.25
+log
+@23-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.24 1995/03/19 23:29:21 ldl Exp ldl $
+d50 12
+d93 4
+d99 1
+a99 1
+/**/printf("c_ref(spec=%d)\n", spec);
+d102 1
+a102 1
+/**/printf("c_ref: spec=%d returning \"%s\"\n", spec, buf);
+d108 21
+d202 1
+a202 1
+ *	Lookup a scoped identifier (if scope == NIL, then any).
+d205 3
+a207 3
+lkupid(scope, id)					/* Function	*/
+  Node_id   scope;
+  Token     id;
+d209 9
+a217 1
+/**/printf("lkupid: _parse.div_base=%d\n", _parse.div_base);
+d219 11
+d244 1
+a244 3
+/* #ifdef GCC  when needed */
+  sprintf(buf, "#line %d \"%s\"", _parse.line, _parse.file);
+/* #endif GCC */
+d296 17
+d321 2
+a322 2
+  char     *fldname, *newname;
+  Node_id   n = NIL, f, fields;
+d324 6
+a329 11
+  fields = _parse.div_base;		/* Get field table		*/
+  ng(field, &xt, &newname);		/* Get new field name text	*/
+  if (fields)
+    while (n = rnn(fields, T_ID, n))	/* Walk label table for dups	*/
+      {
+        f = rnn(n, T_LABEL, NIL);	/* Field we're looking at	*/
+        ng(f, &xt, &fldname);		/* Existing field name text	*/
+        if (strcmp(fldname, newname) == 0)
+          c_warning("duplicate field %s", newname);
+      }
+  rs(fields, T_ID, def);		/* Post label to/create table	*/
+d340 2
+a341 5
+  char     *labname, *newname;
+  Node_id   n = NIL, labels;
+
+  labels = _parse.div_base;		/* Get label table		*/
+  ng(label, &xt, &newname);		/* Get new label text		*/
+d343 4
+a346 8
+  if (labels)
+    while (n = rnn(labels, T_LABEL, n))	/* Walk label table for dups	*/
+      {
+        ng(n, &xt, &labname);		/* Existing label text		*/
+        if (strcmp(labname, newname) == 0)
+          c_error("duplicate label %s", newname);
+      }
+  rs(labels, T_LABEL, label);		/* Post label to/create table	*/
+@
+
+
+1.24
+log
+@19-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.23 1995/03/08 13:33:31 ldl Exp ldl $
+d242 25
+d276 1
+d287 1
+a287 2
+  					/* Post label to/create table	*/
+  rs(labels, T_LABEL, label);
+@
+
+
+1.23
+log
+@08-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.22 1995/03/06 12:00:19 ldl Exp ldl $
+a108 20
+/**
+ *	Check for duplicate label in table.
+ */
+void
+ck_dup_label(block, label)				/* Function	*/
+  Node_id   block;
+  Node_id   label;
+{
+  int       ty;
+  char     *labname, *newname;
+  Node_id   n = NIL, l = label;
+
+  ng(l, &ty, &newname);			/* Get new label text		*/
+  while (n = rnn(block, T_LABEL, n))
+    {
+      ng(n, &ty, &labname);		/* Existing label text		*/
+      if (strcmp(labname, newname) == 0)
+        c_error("duplicate label %s", newname);
+    }
+} /* ck_dup_label */
+d242 24
+d377 1
+a377 1
+    printf("walk_divs\n");
+@
+
+
+1.22
+log
+@06-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.21 1995/03/06 10:32:00 ldl Exp ldl $
+d74 36
+d198 1
+d205 1
+d207 5
+d289 1
+a289 1
+  t.token_value = strdup(string);
+d292 65
+@
+
+
+1.21
+log
+@06-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.20 1995/03/05 03:24:39 ldl Exp ldl $
+@
+
+
+1.20
+log
+@04-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.19 1995/03/03 12:36:21 ldl Exp ldl $
+d251 2
+a252 1
+ *	Walk the data divisions calling func
+d255 4
+a258 2
+walk_data_divs(func)					/* Function	*/
+  void    (*func)(Node_id);
+d261 1
+a261 1
+  int       r, t;
+d265 1
+a265 1
+    printf("walk_data_divs\n");
+d279 1
+d285 1
+a285 1
+	    (*func)(spec);		/* Call func passing spec	*/
+d287 6
+a292 3
+	  default:
+            if (_parse.flags && _parse.yydebug)
+              printf("  ^skipped\n");
+d294 4
+d300 1
+a300 1
+} /* walk_data_divs */
+@
+
+
+1.19
+log
+@03-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.c,v 1.18 1995/02/27 12:55:30 ldl Exp ldl $
+@
+
+
+1.18
+log
+@27-Feb-1995 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d127 1
+a127 1
+  return atol(s);
+d139 1
+a139 1
+  char     *s;
+d143 2
+a144 2
+  n = rnn(spec, rel, NIL);		/* Get the node for rel		*/
+  ng(n, &t, &s);			/* Get the value		*/ 
+d291 1
+a291 1
+/* End of $Source$ */
+@

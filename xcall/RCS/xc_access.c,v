@@ -1,0 +1,62 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.43;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.41;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_access.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:41 $
+ */
+
+#include <stdio.h>
+#include "../cdbl_rt.h"
+#include "xc__ckarg.h"
+
+void
+XCALL_FUNC(ACCESS)(narg, arg)				/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+{
+  char     *rtn = "ACCESS";
+  set_error(rtn, "$ERR_FEANOTIMP");
+} /* ACCESS XCALL */
+
+/* End of $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_access.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Source$
+ * $Revision$ $Date$
+d19 1
+a19 1
+/* End of $Source$ */
+@

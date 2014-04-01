@@ -1,0 +1,997 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.05.53;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.47;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@###
+# $Source: /home/ldl/dbl/cdbl/RCS/cdbl.ini,v $
+# $Revision: 1.73 $ $Date: 1996/03/08 12:53:47 $
+#	Parameters for cdbl.
+#
+
+##
+# CDBL Compiler Messages
+#
+[CDBL COMPILER MESSAGES]
+001	ALIGNARG	E	".ALIGN cannot be used on argument declaration"
+002	ALINOPROC	E	".ALIGN not valid in procedure division"
+003	ALPHACTCE	E	"Alpha value in numeric compile-time expr"
+				An alpha operand was found where a numeric
+				operand was required.
+004	ALPHALITLEN	E	"Length of alpha literal cannot exceed %d"
+005	AMBIGSYM	E	"Ambiguous symbol referenced: %s"
+				Symbol is ambiguous, supply a nonambiguous
+				symbol name path, e.g. recordname.group.name.
+006	ARRAYGRP	E	"Arguments cannot be arrays of GROUPs"
+007	ARRBYDESCR	E	"Arrays can only be passed by descriptor"
+				Arrays cannot be passed by value or by
+				reference. (Oh, why not reference?)
+008	ARRTOLARGE	E	"Array is too large"
+				The total size of an array cannot exceed
+				2,147,483,647 bytes.  (Oh, why not?)
+009	ARYNOTSPE	E	"Array field preceding %s must be specified"
+				The pathname must be used when specifying a
+				subfield to an array.
+010	BADARRAY	E	"Invalid array element count"
+011	BADELSE		E	".ELSE without .IF"
+				No matching .IF
+012	BADLFTEQU	E	"Invalid left side of assignment statement"
+				Either an illegal variable or no variable
+				is designated as the destination in an 
+				assignment statement.
+013	BADLIMIT	E	"High limit is below low limit"
+				High limit in USING with RANGE has to exceed
+				low limit.
+014	BADOPER		E	"Illegal operand - %s"
+				A copy of the input that generated the error.
+015	CDDFORNOTFIX	E	"CDD record format not CDD$K_REC_FIXED"
+				Cdbl does not support CDD at all.
+016	CDDMAXLEVEXC	E	"Max levels exceeded generating CDD def"
+				Cdbl does not support CDD at all.
+017	CDDNOFRAC	W	"Fractional part not allowed on data type"
+				Cdbl does not support CDD at all.
+				Fractional part is not allowed on integer
+				or text strings.
+018	CDDNOREPGRPS	W	"Repeating groups not supported"
+				Cdbl does not support CDD at all.
+019	CDDNOSCALUP	W	"Positive SCALE is not supported"
+				Cdbl does not support CDD at all.
+020	CDDNOTTRANS	E	"Unsupported type in CDD field, not translated"
+				Cdbl does not support CDD at all.
+021	CDDUNSCORE	E	"Unsupported CDD core level - %s"
+				Cdbl does not support CDD at all.
+				A copy of the input that generated the error.
+022	CDDUNSDTYPE	W	"CDD field has unsupported data type"
+				Cdbl does not support CDD at all.
+023	CDDUNSPROTO	E	"Unsupported CDD protocol - %s"
+				Cdbl does not support CDD at all.
+				A copy of the input that generated the error.
+024	CMPERR		E	"Compilation errors detected"
+025	CMPWARN		E	"Compilation warnings detected"
+026	COMMAMIS	E	"Comma missing"
+				Comma is expected but not found.
+027	CONDERR		E	"Improper pairing of conditional directives"
+				A conditional compiler directive is not
+				paired with an .ENDC statement.
+028	CONFLATT	W	"Conflicting PSECT attributes"
+				Cdbl does not support PSECT at all.
+				Mutually exclusive (contradictory) attributes
+				were specified in a PSECT directive.
+029	CRFNOTFND	S	"Sharable library CRPSHR not found"
+				Not supported by CDBL.
+030	CTFONLY		E	"Function must be a compile-time function - %s"
+				Function mentioned is not a compile-time
+				function (whatever that means).
+031	DBGOVROPT	I	"OPTIMIZE overridden by DEBUG specification"
+				Not supported by CDBL.
+				Both OPTIMIZE and DEBUG were specified in a
+				command line.
+032	DBGTRUNAM	W	"DEBUG/NONSTANDARD may truncate name"
+				Not supported by CDBL.
+033	DIMTOOLARGE	E	"Array dimension is too large"
+				Array dimension cannot exceed 65535.
+				(Oh, why not?)
+034	DIRECTERR	E	"Directive error"
+				The directive is not recognized as valid,
+				is it misspelled?
+035	DIRNOPROC	E	"%s not valid in procedure division"
+				The named directive is only valid in the
+				Data Division.
+036	DIVBYZERO	E	"Division by zero in compile-time expression"
+037	ENDPROGRM	W	"End of program encountered"
+				Lines of source code appeared after the final
+				END statement or .END directive.
+038	ENDQUMIS	W	"End quote missing"
+				A numeric or alpha literal does not end with
+				a quote (' or ").
+039	ERLYTERM	E	"Premature termination of line"
+				A lince contained less information than was
+				expected.
+040	ERRNOT83	E	"Invalid DIBOL-83 syntax: %s"
+				Mentioned code is not a valid DIBOL-83 syntax.
+041	EXINOTLAB	E	"EXIT statement not within block %s"
+				EXIT statement is not within block specified
+				by named block.
+042
+043
+044
+045
+046
+047
+048
+049
+050
+051
+052
+053
+054
+055
+056
+057
+058
+059
+060
+061
+062
+063
+064
+065
+066
+067
+068
+069
+##
+# CDBL Run-time Error Codes
+#
+[CDBL RUN-TIME MESSAGES]
+000	NO_ERROR	I	"No errorr"
+001	$ERR_EOF	E	"End of file encountered"
+				The end of file has been detected on a
+				READS or READ, or a CTRL/D has been entered
+				from a terminal during an ACCEPT or READS.
+002	$ERR_NOCALL	F	"RETURN with no CALL or XCALL"
+				A RETURN statement was executed without the
+				execution of an associated CALL or XCALL
+				statement preceding it.
+003	$ERR_CMPERR	F	"Compilation error"
+				Execution of a statement which contained
+				a compilation error was attempted.
+004	[RESERVED]	F	"[RESERVED  4]"
+005	$ERR_RECEXTCAL	F	"Recursive external call"
+006	$ERR_ARGNUM	F	"Incorrect number of arguments passed"
+				The number of arguments passed to an external
+				subroutine was incorrect.
+007	$ERR_SUBSCR	E	"Invalid subscript specified"
+				A subscript has a value which is negative,
+				zero, or refers to a data element which is
+				beyond the data definition of the program,
+				or if the variable is doubly-subscripted,
+				the value of the first subscript exceeds
+				the value of the second subscript.
+008	$ERR_WRITLIT	F	"Attempt to store data into a literal"
+				An external subroutine attempted to write
+				data into a literal which was passed to the
+				subroutine.
+009	$ERR_NOMEM	E	"Not enough memory for desired operation"
+				Insufficient memory is available to:
+				o SEND a message
+				o OPEN a file
+				o LPQUE a file
+010	$ERR_ILLCHN	F	"Illegal channel number specified"
+				The channel number specified in an OPEN or
+				other I/O statement is outside the allowable
+				range (1:15 if /STANDARD, 1:255 if /NOSTANDARD)
+011	$ERR_NOOPEN	F	"Channel has not been opened"
+				An I/O statement specified a channel which
+				had not been OPENed.
+012	$ERR_ONLYWR	E	"Attempt to open output device in input mode"
+				An OPEN statement attempted to open an 
+				output-only device, such as a line printer,
+				usingg input (I) mode.
+013	$ERR_CHADEFERR	F	"Channel definition error"
+				An internal error occured in the cdbl run-time
+				library.  Please file a bug report.
+014	$ERR_UNDOPC	F	"Undefined opcode"
+				An internal error was detected by the cdbl
+				run-time library.  Please verify that you are
+				using compatible versions of the compiler and 
+				run-time library.  If compatible, please file
+				a bug report.
+015	$ERR_BIGNUM	E	"Arithmetic operand exceeds 18 digits"
+				An arithmetic operation has resulted in a
+				number which exceeds 18 digits.
+016	$ERR_CHNUSE	F	"Channel is in use"
+				An OPEN statement attempted to use a channel
+				which is already open.
+017	$ERR_FILSPC	E	"Bad file name"
+				A file specification contained a syntax error.
+018	$ERR_FNF	E	"File not found"
+				The file specified does not exist.
+019	$ERR_HANNOTAVA	E	"Device handler not available"
+				The device specified is not known to the 
+				operating system.
+020	$ERR_DIGIT	E	"Bad digit encountered"
+				The alphanumeric value converted to a numeric
+				value contained a character other than a
+				numeric digit, a sign character (+ or -), or
+				a space.
+021	$ERR_FILOPT	E	"An invalid operation for file type"
+				The file I/O statement is not allowed by the
+				mode in which the file was opened.
+022	$ERR_IOFAIL	E	"Bad data encountered during I/O operation"
+				Invalid data was detected during an input
+				or output operation.
+023	$ERR_TOOBIG	E	"Input data size exceeds destination size"
+				The size of the input data exceeds the size
+				of the record or alpha field.
+024	$ERR_NOSPAC	E	"No space exists for file in disk"
+				An OPEN statemetn includes a specification of
+				more blocks than are available.
+025	$ERR_FILFUL	E	"Output file is full"
+				All space allocated for a file has been filled,
+				and the file cannot be extended.
+026	$ERR_FLDRECLNG	F	"Field or record too long"
+				The size of a field or record exceeds the
+				maximum allowed size.
+027	[RESERVED]	I	"[RESERVED  27]"
+028	$ERR_RECNUM	E	"Illegal record number specified"
+				A READ or WRITE statement specifies a record
+				number that is negative, zero, or greater than
+				the number of records in the file.
+029	$ERR_BADCMP	F	"Compile not compatible with execution system"
+				The program was compiled using a version of
+				the compiler which is not compatible with the
+				current run-time library.
+030	$ERR_DIVIDE	E	"Attempt to divide by zero"
+				An arithmetic operation attempted to divide
+				by zero.
+031	$ERR_ARGSIZ	F	"Argument specified with wrong size"
+				An external subroutine was called using an
+				argument which was of incorrect size.
+032	$ERR_REPLAC	E	"Cannot supersede existing file"
+				An OPEN statement or RENAM subroutine call
+				attempted to supersede an existing file, and
+				FLAGS had been set to prevent this.
+033	$ERR_CHNEXC	E	"Too many channels open"
+				The program attempted to open more channels
+				than were available.
+034	[RESERVED]	I	"[RESERVED  34]"
+035	[RESERVED]	I	"[RESERVED  35]"
+036	[RESERVED]	I	"[RESERVED  36]"
+037	$ERR_DEVUSE	E	"Device in use"
+				An OPEN statement attempted to open a non-
+				sharable device that was in use by another
+				program.
+038	$ERR_FINUSE	E	"File in use by another user"
+				An OPEN statement attempted to open a
+				non-sharable file that was in use.
+039	$ERR_ONLYRD	E	"Attempt to write to read-only device"
+				An I/O statement attempted to perform output
+				to a device which is write-locked.
+040	$ERR_LOCKED	E	"Record is locked"
+				An I/O statement specified a record which
+				is currently in use by another program.
+041	[RESERVED]	I	"[RESERVED  41]"
+042	[RESERVED]	I	"[RESERVED  42]"
+043	[RESERVED]	I	"[RESERVED  43]"
+044	[RESERVED]	I	"[RESERVED  44]"
+045	[RESERVED]	I	"[RESERVED  45]"
+046	[RESERVED]	I	"[RESERVED  46]"
+047	[RESERVED]	I	"[RESERVED  47]"
+048	[RESERVED]	I	"[RESERVED  48]"
+049	[RESERVED]	I	"[RESERVED  49]"
+050	[RESERVED]	I	"[RESERVED  50]"
+051	[RESERVED]	I	"[RESERVED  51]"
+052	$ERR_BADKEY	E	"An illegal key was specified"
+				The key specified by an indexed I/O operation
+				was either outside of the specified record
+				area or did not match a key defined for the
+				file.
+053	$ERR_KEYNOT	E	"Key not same"
+				The key of the record retrieved by an indexed
+				READ does not exactly match the key requested;
+				or the key specified by an indexed WRITE or 
+				DELETE did not match the key of the record
+				which was last retrieved.
+054	$ERR_NODUPS	E	"Duplicate key specified"
+				An indexed STORE statement specified a key for
+				which a record already exists, and duplicate
+				keys are not allowed.
+055	[RESERVED]	I	"[RESERVED  55]"
+056	$ERR_NOTISMFIL	E	"Not ISAM file"
+				An OPEN statement attempted to open a non-
+				indexed file using SI or SU mode.
+057	[RESERVED]	I	"[RESERVED  57]"
+058	$ERR_START	E	"Job startup error"
+				The specified job could not be started as 
+				requested in a call to the RUNJB subroutine.
+059	$ERR_ILLTRMNUM	E	"Illegal terminal number"
+				The host terminal identification could not be
+				translated into a cdbl terminal number, or
+				a cdbl terminal number could not be translated
+				into a host terminal identifier.
+060	[RESERVED]	I	"[RESERVED  60]"
+061	$ERR_NOCURR	E	"No current record"
+				An indexed WRITE or DELETE was attempted before
+				a record had been read or a FIND was issued.
+062	$ERR_PROTEC	E	"Protection violation"
+				A file operation was attempted on a file whose
+				protection would not allow the operation; or an
+				operation was attempted for which the user did
+				not have sufficient privilege.
+063	$ERR_NO_SUCOPR	F	"No such operation (RMS)"
+				Obviously: Support for the VAX RMS service or
+				option is not present in the system (yippee!).
+064	$ERR_RNF	E	"Record not found"
+				A relative READ statement specified a non-
+				existant record.
+065	[RESERVED]	I	"[RESERVED  65]"
+066	[RESERVED]	I	"[RESERVED  66]"
+067	$ERR_SYSTEM	F	"System error"
+				An error occurred during an operating system
+				service or other external system call.
+068	[RESERVED]	I	"[RESERVED  68]"
+069	[RESERVED]	I	"[RESERVED  69]"
+070	[RESERVED]	I	"[RESERVED  70]"
+071	[RESERVED]	I	"[RESERVED  71]"
+072	[RESERVED]	I	"[RESERVED  72]"
+073	[RESERVED]	I	"[RESERVED  73]"
+074	[RESERVED]	I	"[RESERVED  74]"
+075	[RESERVED]	I	"[RESERVED  75]"
+076	[RESERVED]	I	"[RESERVED  76]"
+077	$ERR_ARGOUTORD	E	"Arguments out of order"
+				The arguments specified in a call to PAK/UNPAK
+				are not in the correct order.
+078	$ERR_ARGOUTLIM	E	"Argument out of record"
+				An argument specified in a call to PAK/UNPAK
+				is outside of the specified record area.
+079	$ERR_ARGCOUNT	E	"Needs a minimum of three arguments"
+				A call to PAK requires a minimum of three
+				arguments.
+080	$ERR_FLDNOTPAK	E	"Field not packed"
+				A field specified in a call to UNPAK was not
+				packed.
+081	[RESERVED]	I	"[RESERVED  81]"
+082	[RESERVED]	I	"[RESERVED  82]"
+083	[RESERVED]	I	"[RESERVED  83]"
+084	$ERR_ILLBIOSIZ	E	"Illegal block I/O record size"
+				The record size specified in a block I/O
+				statement was not a multiple of 512 bytes.
+085	[RESERVED]	I	"[RESERVED  85]"
+086	$ERR_WROSIZREC	E	"Wrong size record"
+087	$ERR_ARGMIS	E	"Argument missing"
+				A required argument was omitted from an XCALL,
+				or a subroutine attempted to use an argument
+				which was not passed.
+088	[RESERVED]	I	"[RESERVED  88]"
+089	$ERR_INVSHRCOD	E	"Invalid SHARE value in OPEN"
+				Invalid code on SHARE keyword in OPEN.
+090	[RESERVED]	I	"[RESERVED  90]"
+091	[RESERVED]	I	"[RESERVED  91]"
+092	[RESERVED]	I	"[RESERVED  92]"
+093	[RESERVED]	I	"[RESERVED  93]"
+094	[RESERVED]	I	"[RESERVED  94]"
+095	[RESERVED]	I	"[RESERVED  95]"
+096	[RESERVED]	I	"[RESERVED  96]"
+097	[RESERVED]	I	"[RESERVED  97]"
+098	[RESERVED]	I	"[RESERVED  98]"
+099	[RESERVED]	I	"[RESERVED  99]"
+100	$ERR_RMSERROR	F	"Unexpected RMS error"
+				Except that cdbl doesn't support RMS, so...
+101	$ERR_INVARGTYP	F	"Invalid argument type"
+				An argument passed to a library routine was
+				of the wrong type (alpha instead of decimal,
+				or decimal instead of alpha).
+102	$ERR_DBLRTLERR	F	"cdbl run-time library internal error"
+				An error occurred in the cdbl run-time library
+				software.  Please file a bug report.
+103	$ERR_FILEORG	E	"Invalid file organization specified"
+				The mode specified in an OPEN statement did
+				not match the organization of the file being
+				opened (for instance, an ISAM file being
+				opened in U mode).
+104	$ERR_OUTRNG	F	"Value out of range"
+				A statement parameter or library subroutine
+				argument was outside of the permitted range
+				of values.
+105	$ERR_NOTDIB	F	"Caller not cdbl"
+				A library subroutine was called by a non-cdbl
+				program, for which the call is invalid.
+106	$ERR_EXQUOTA	E	"Exceeded quota"
+107	$ERR_DEVNOTRDY	E	"Device not ready"
+				The device accessed by a I/O statement was
+				off-line or otherwise not ready.
+108	$ERR_IOMODE	E	"Bad mode specified"
+				An OPEN statement specified an invalid open
+				mode.
+109	$ERR_CANCEL	F	"Cancel character detected"
+				The user entered CTRL/C.
+110	$ERR_INTRPT	F	"Interrupt character detected"
+				The user entered CTRL/Y.
+111	$ERR_TIMOUT	E	"Time out detected"
+112	$ERR_OPENERROR	E	"Error during file open"
+				An unexpected error occurred while attempting
+				to open a file.
+113	$ERR_ALLOC	E	"Invalid value specified for ALLOC"
+				The ALLOC value specified in the OPEN statement
+				was outside the permitted range of values.
+114	$ERR_BKTSIZ	E	"Invalid value specified for BKTSIZ"
+				The BKTSIZ value specified in an OPEN statement
+				was outside the permitted range of values.
+115	$ERR_BLKSIZ	E	"Invalid value specified for BLKSIZ"
+				The BLKSIZ value specified in an OPEN statement
+				was outside the permitted range of values.
+116	$ERR_BUFSIZ	E	"Invalid value specified for BUFSIZ"
+				The BUFSIZ value specified in an OPEN statement
+				was outside the permitted range of values.
+117	$ERR_RECSIZ	E	"Invalid value specified for RECSIZ"
+				The RECSIZ value specified in an OPEN statement
+				was outside the permitted range of values.
+118	$ERR_NOMSGMGR	E	"Unable ot open message manager mailbox"
+				The mailbox used by the cdbl SEND/RECV message
+				manager could not be opened.
+119	$ERR_FEANOTIMP	E	"Feature not implemented for field test"
+120	$ERR_QUENOTAVA	E	"Queue not available or invalid queue name"
+				The queue specified in an LPQUE statement was
+				either not available or invalid.
+121	$ERR_INVKEYNUM	E	"Invalid KEYNUM value"
+				Invalid key of reference specified with KEYNUM
+				keyword on READ or FIND.
+122	$ERR_FORGNTERM	E	"Foreign terminals not supported"
+				Attempt to use VIDEO, ERASE, or POS attributes
+				on a non-ANSI terminal for which a terminal
+				capabilities file has not been created.
+123	$ERR_OUTATTERR	E	"Invalid output attribute"
+				Invalid code used on an output attribute in
+				WRITES, DISPLAY, or READS statement.
+124	$ERR_INATTERR	E	"Invalid input attribute"
+				Invalid code used on an input attribute in
+				READS statement.
+125	$ERR_INVCHRERR	E	"Invalid character entered"
+				A character was entered while usign EDIT
+				capability of READS which did not conform
+				to the EDIT mask.
+126	$ERR_FULBUFERR	E	"Input buffer full"
+				READS buffer was filled.
+127	$ERR_UNSUPDTYP	E	"Invalid data type encountered"
+				Attempt to use a data type which is not
+				supported by the cdbl run-time system in that
+				context.
+128	$ERR_INVMATCH	E	"Invalid MATCH value"
+				Invalid codeon MATCH keyword in FIND or READ.
+129	$ERR_INVCONTIG	E	"Invalid CONTIG value in OPEN"
+				Invalid code on CONTIG keyword in OPEN.
+130	$ERR_INVDEQ	E	"Invalid DEQ value in OPEN"
+				Invalid code on DEQ keyword in OPEN.
+131	$ERR_NUMREC	E	"Invalid value specified for NUMREC"
+				Invalid number of records specified on NUMREC
+				keyword in OPEN.
+132	$ERR_INVRECTYP	E	"Invalid RECTYP value in OPEN"
+				Invalid code on RECTYP keyword in OPEN.
+133	$ERR_INVALFDL	E	"Invalid FDL value in OPEN"
+				Invalid statement in string on FDL keyword
+				in OPEN.
+134	$ERR_INVBUFNUM	E	"Invalid BUFNUM value in OPEN"
+				Invalid number specified on BUFNUM keyword
+				in OPEN.
+135	$ERR_INVPRO	E	"Invalid PROTECT string in OPEN"
+				Invalid UIC-type protection string on PROTECT
+				keyword in OPEN.
+136	$ERR_INVACL	E	"Invalid PROTECT/ACL string in OPEN"
+				Invalid Access Control List entry in string
+				on PROTECT keyword in OPEN.
+137	$ERR_TOOMNYSEG	E	"Too many key segments in OPEN"
+				OPEN KEY keyword declared more than 8 segments
+				on a segmented key.
+138	$ERR_INVDATYP	E	"Invalid TYPE string in OPEN"
+				Invalid key type specified in string on TYPE
+				keyword in OPEN.
+139	$ERR_NO_RECSIZ	E	"RECSIZ keyword required"
+				Record size is required by OPEN modes O:R, O:I,
+				and OPEN keyword NUMREC.
+140	$ERR_INVALRFA	E	"Invalid RFA value"
+				An invalid RFA was specified on a READ, FIND,
+				or WRITE.
+141	$ERR_NOTYETFUN	E	"Functionality is not yet supported"
+				A non-functional cdbl element was used in a
+				statement line...  Not fun yet!
+142	$ERR_INVKEYPOS	E	"Invalid POS in KEY for OPEN"
+143	$ERR_INVKEYKRF	E	"Invalid key of reference in OPEN"
+144	$ERR_INVKEYATR	E	"Invalid ATTR in KEY for OPEN"
+145	[RESERVED]	I	"[RESERVED 145]"
+146	[RESERVED]	I	"[RESERVED 146]"
+147	[RESERVED]	I	"[RESERVED 147]"
+148	[RESERVED]	I	"[RESERVED 148]"
+149	[RESERVED]	I	"[RESERVED 149]"
+150	[RESERVED]	I	"[RESERVED 150]"
+151	[RESERVED]	I	"[RESERVED 151]"
+152	[RESERVED]	I	"[RESERVED 152]"
+153	[RESERVED]	I	"[RESERVED 153]"
+154	[RESERVED]	I	"[RESERVED 154]"
+155	[RESERVED]	I	"[RESERVED 155]"
+156	[RESERVED]	I	"[RESERVED 156]"
+157	[RESERVED]	I	"[RESERVED 157]"
+158	[RESERVED]	I	"[RESERVED 158]"
+159	[RESERVED]	I	"[RESERVED 159]"
+160	[RESERVED]	I	"[RESERVED 160]"
+161	[RESERVED]	I	"[RESERVED 161]"
+162	[RESERVED]	I	"[RESERVED 162]"
+163	[RESERVED]	I	"[RESERVED 163]"
+164	[RESERVED]	I	"[RESERVED 164]"
+165	[RESERVED]	I	"[RESERVED 165]"
+166	[RESERVED]	I	"[RESERVED 166]"
+167	[RESERVED]	I	"[RESERVED 167]"
+168	[RESERVED]	I	"[RESERVED 168]"
+169	[RESERVED]	I	"[RESERVED 169]"
+170	[RESERVED]	I	"[RESERVED 170]"
+171	[RESERVED]	I	"[RESERVED 171]"
+172	[RESERVED]	I	"[RESERVED 172]"
+173	[RESERVED]	I	"[RESERVED 173]"
+174	[RESERVED]	I	"[RESERVED 174]"
+175	[RESERVED]	I	"[RESERVED 175]"
+176	[RESERVED]	I	"[RESERVED 176]"
+177	[RESERVED]	I	"[RESERVED 177]"
+178	[RESERVED]	I	"[RESERVED 178]"
+179	[RESERVED]	I	"[RESERVED 179]"
+180	[RESERVED]	I	"[RESERVED 180]"
+181	[RESERVED]	I	"[RESERVED 181]"
+182	[RESERVED]	I	"[RESERVED 182]"
+183	[RESERVED]	I	"[RESERVED 183]"
+184	[RESERVED]	I	"[RESERVED 184]"
+185	[RESERVED]	I	"[RESERVED 185]"
+186	[RESERVED]	I	"[RESERVED 186]"
+187	[RESERVED]	I	"[RESERVED 187]"
+188	[RESERVED]	I	"[RESERVED 188]"
+189	[RESERVED]	I	"[RESERVED 189]"
+190	[RESERVED]	I	"[RESERVED 190]"
+191	[RESERVED]	I	"[RESERVED 191]"
+192	[RESERVED]	I	"[RESERVED 192]"
+193	[RESERVED]	I	"[RESERVED 193]"
+194	[RESERVED]	I	"[RESERVED 194]"
+195	[RESERVED]	I	"[RESERVED 195]"
+196	[RESERVED]	I	"[RESERVED 196]"
+197	[RESERVED]	I	"[RESERVED 197]"
+198	[RESERVED]	I	"[RESERVED 198]"
+199	[RESERVED]	I	"[RESERVED 199]"
+200	STOP		S	"STOP"
+				The STOP or END statement has been successfully
+				executed.
+201	AT_LINE		I	"At line %d in routine %s"
+				Indicates traceback information after a STOP
+				or error.
+202	PC_PSL		I	"PC = %p PSL=0x%08lx"
+				Indicates Program Counter and Processor Status
+				Word (longword) values.
+203	IOERRINFO	I	"Channel %d, mode %s,  file name = %s"
+				Indicates channel, open mode, and file name
+				after an I/O error.
+204	NUMOFARGS	I	"%d arguments specified"
+				Indicates number of arguments actually passed
+				after an INCNUMARG (Incorrect number of 
+				arguments - error $ERR_ARGNUM (#6) error.
+205	SUBSCRPT1	I	"Subscript = %d"
+				Indicates value of subscript after a subscript
+				error $ERR_SUBSCR (#7) - single subscripting.
+206	SUBSCRPT2	I	"Subscript 1 = %d, subscript 2 = %d"
+				Indicates value of subscript after a subscript
+				error $ERR_SUBSCR (#7) - double subscripting
+207	ARG_NMBR	I	"Argument %d"
+				Indicates argument number causing error after
+				an argument-related error.
+208	LOGCHAN		I	"Channel %d"
+				Indicates channel number after an I/O error.
+209	ARG_SIZE	I	"Argument size %d"
+				Indicates sie of argumetn causing error after
+				an $ERR_ARGSIZE (#31) error.
+210	VALUE		I	"Value %s"
+				Indicates value of argument or parameter after
+				an $ERR_OUTRNG (#104) or other error.
+211	ALLSNDBUF	I	"%d bytes requred for SEND buffer"
+				Indicates reason and number of bytes required
+				after a $ERR_NOMEM (#9) error.
+212	UNDEFLBL	I	"Attempt to GOTO or CALL undefined label"
+				Indicates reason after a $ERR_CMPERR (#3)
+				error.  (cdbl catches this at compile time).
+213	OUTOFBND	I	"Subscripting beyond data division"
+				Indicates reason after a $ERR_SUBSCR (#7)
+				error.
+214	WARNING		I	"Warning"
+				Indicates that a warning was returned from
+				a system service, which was ignored by the
+				run-time library.
+215	STV		I	"RMS STV field contains error code"
+				Indicates that further error information can
+				be found in the RMS STV field.  Not supported
+				by cdbl.
+216	OPCODE		I	"Opcode value %x at address %p"
+				Indicates opcode value and address after 
+				$ERR_UNDOPC error.
+217	FILENAME	I	"Filename = %s"
+				Indicates the filename after an error involving
+				a file.
+218	NUMDIMS		I	"Number of dimensions of array mismatch"
+				The number of dimensions of a multidimensional
+				array passed to a subroutine does not match the
+				argument declaration.
+219	BOUNDS		I	"Array or substring index out of bounds"
+				Array usage was out of bounds of the declared
+				array.  Subscripted variable was out of bounds
+				of the declared field.  Only output when the
+				program is compiled with /CHECK=BOUNDS.
+220	DTYPEINFO	I	"Data type is DSC$K_DTYPE_!AC (!UB)"
+				Describes the invalid data typee which caused
+				the $ERR_INVDATYP error.
+221	[RESERVED]	I	"[RESERVED 221]"
+222	[RESERVED]	I	"[RESERVED 222]"
+223	[RESERVED]	I	"[RESERVED 223]"
+224	[RESERVED]	I	"[RESERVED 224]"
+225	[RESERVED]	I	"[RESERVED 225]"
+226	[RESERVED]	I	"[RESERVED 226]"
+227	[RESERVED]	I	"[RESERVED 227]"
+228	[RESERVED]	I	"[RESERVED 228]"
+229	[RESERVED]	I	"[RESERVED 229]"
+230	[RESERVED]	I	"[RESERVED 230]"
+231	[RESERVED]	I	"[RESERVED 231]"
+232	[RESERVED]	I	"[RESERVED 232]"
+233	[RESERVED]	I	"[RESERVED 233]"
+234	[RESERVED]	I	"[RESERVED 234]"
+235	[RESERVED]	I	"[RESERVED 235]"
+236	[RESERVED]	I	"[RESERVED 236]"
+237	[RESERVED]	I	"[RESERVED 237]"
+238	[RESERVED]	I	"[RESERVED 238]"
+239	[RESERVED]	I	"[RESERVED 239]"
+240	[RESERVED]	I	"[RESERVED 240]"
+241	[RESERVED]	I	"[RESERVED 241]"
+242	[RESERVED]	I	"[RESERVED 242]"
+243	[RESERVED]	I	"[RESERVED 243]"
+244	[RESERVED]	I	"[RESERVED 244]"
+245	[RESERVED]	I	"[RESERVED 245]"
+246	[RESERVED]	I	"[RESERVED 246]"
+247	[RESERVED]	I	"[RESERVED 247]"
+248	[RESERVED]	I	"[RESERVED 248]"
+249	[RESERVED]	I	"[RESERVED 249]"
+250	[RESERVED]	I	"[RESERVED 250]"
+251	[RESERVED]	I	"[RESERVED 251]"
+252	[RESERVED]	I	"[RESERVED 252]"
+253	[RESERVED]	I	"[RESERVED 253]"
+254	[RESERVED]	I	"[RESERVED 254]"
+255	[RESERVED]	I	"[RESERVED 255]"
+256	[RESERVED]	I	"[RESERVED 256]"
+257	[RESERVED]	I	"[RESERVED 257]"
+258	[RESERVED]	I	"[RESERVED 258]"
+259	[RESERVED]	I	"[RESERVED 259]"
+260	[RESERVED]	I	"[RESERVED 260]"
+261	[RESERVED]	I	"[RESERVED 261]"
+262	[RESERVED]	I	"[RESERVED 262]"
+263	[RESERVED]	I	"[RESERVED 263]"
+264	[RESERVED]	I	"[RESERVED 264]"
+265	[RESERVED]	I	"[RESERVED 265]"
+266	[RESERVED]	I	"[RESERVED 266]"
+267	[RESERVED]	I	"[RESERVED 267]"
+268	[RESERVED]	I	"[RESERVED 268]"
+269	[RESERVED]	I	"[RESERVED 269]"
+270	[RESERVED]	I	"[RESERVED 270]"
+271	[RESERVED]	I	"[RESERVED 271]"
+272	[RESERVED]	I	"[RESERVED 272]"
+273	[RESERVED]	I	"[RESERVED 273]"
+274	[RESERVED]	I	"[RESERVED 274]"
+275	[RESERVED]	I	"[RESERVED 275]"
+276	[RESERVED]	I	"[RESERVED 276]"
+277	[RESERVED]	I	"[RESERVED 277]"
+278	[RESERVED]	I	"[RESERVED 278]"
+279	[RESERVED]	I	"[RESERVED 279]"
+280	[RESERVED]	I	"[RESERVED 280]"
+281	[RESERVED]	I	"[RESERVED 281]"
+282	[RESERVED]	I	"[RESERVED 282]"
+283	[RESERVED]	I	"[RESERVED 283]"
+284	[RESERVED]	I	"[RESERVED 284]"
+285	[RESERVED]	I	"[RESERVED 285]"
+286	[RESERVED]	I	"[RESERVED 286]"
+287	[RESERVED]	I	"[RESERVED 287]"
+288	[RESERVED]	I	"[RESERVED 288]"
+289	[RESERVED]	I	"[RESERVED 289]"
+290	[RESERVED]	I	"[RESERVED 290]"
+291	[RESERVED]	I	"[RESERVED 291]"
+292	[RESERVED]	I	"[RESERVED 292]"
+293	[RESERVED]	I	"[RESERVED 293]"
+294	[RESERVED]	I	"[RESERVED 294]"
+295	[RESERVED]	I	"[RESERVED 295]"
+296	[RESERVED]	I	"[RESERVED 296]"
+297	[RESERVED]	I	"[RESERVED 297]"
+298	[RESERVED]	I	"[RESERVED 298]"
+299	[RESERVED]	I	"[RESERVED 299]"
+##
+# Built-in functions to recognize
+# <name> <return-type> <narg> <argtypes>
+#
+#   <name>
+#	Name of built-in
+#   <return-type>
+#	Return type[:C].
+#	Where ':C' indicates that cdbl interprets this function at
+#	compile time.  Functions may resolve to a particular value
+#	(e.g. %B() and X()), whereas others affect the code generation
+#	(e.g. %ADDR(), %PASSED()), thereby having an appearance of (or
+#	in actuality) having a run-time effect.  Being used at compile
+#	time, all of the arguments must be immediately resolvable (with
+#	exceptions of %CHAR() and %DECML(), which may have run-time or
+#	compile-time resolution -- if in Data Division, then they *must*
+#	have compile-time resolution).
+#	Return types:
+#		A - Alpha
+#		D - Decimal
+#		I - Integer
+#		P - Packed (not implemented)
+#		X - Any
+#		Z - Zoned  (not implemented)
+#	Note: all built-ins return DBLArg_t.
+#   <narg>
+#	Number of arguments specification.
+#	Currently only a number (no varargs stuff).
+#   <argtypes>
+#	Prototype of data types for each argument.
+#	  A<n>	ASCII (alpha-numeric)
+#	  D<n>  Decimal number
+#	  X	Don't care
+#
+[BUILT-INS]
+ABS		X	1	(D)
+ADDR		I	1	(X)
+ARGA		A	1	(D)
+ARGN		D	1	(D)
+#ARGN		N	1	(D)
+B		I:C	1	(D)
+BIN		A	1,2	(D,D)
+BIT_IS_CLR	I	2	(D,D)
+BIT_IS_SET	I	2	(D,D)
+BKSTR		I	3	(D,A,A)
+CHAR		A:C	1	(D)
+CHOPEN		I	1	(D)
+CPUTIME		I	0
+D		I:C	1	(D)
+DATE		A	0
+DECML		I:C	1	(A)
+DEFINED		I:C	1	(X)
+DESCR		X:C	1	(X)
+ERLINE		I	0
+ERNUM		I	0
+ERROR		I	0
+FALSE		I:C	0
+HEX		A	1,2	(D,D)
+INRANGE		X:C	0
+INSTR		I	3	(D,A,A)
+INT		X	1	(D)
+INTEGER		I	1	(D)
+JBNO		I	0
+LEN		I	1	(X)
+LINE		I:C	0
+NUMARGS		I	0
+O		I:C	1	(D)
+OCT		A	1,2	(D,D)
+OUTRANGE	X:C	0
+PACKED		P	1	(D)
+PAINT		I	0
+PASSED		I:C	1	(X)
+PTR		X:C	1	(X)
+RDLEN		I	0
+RDTRM		I	0
+REF		X:C	1	(X)
+RFA		I	0
+RND		I	1	(D)
+RSIZE		I	0
+RTERM		I	0
+!SCR_ATT
+!SCR_CLR
+!SCR_MOV
+SIZE		I:C	1	(X)
+STRING		A	1	(D)
+SUCCESS		I	1	(D)
+SYSERR		I	0
+TIME		I	0
+#TIME		Z	0
+TNMBR		I	0
+!TRIM
+TRUE		I:C	0
+TRUNC		I	1	(D)
+TTNAME		A	0
+TTSTS		I	1	(D)
+UNIX		I:C	0
+UNSIGNED	X	1	(D)
+VAL		X:C	1	(X)
+VARIANT		I:C	0
+VERSN		A	0
+VMS		I:C	0
+WAIT		I	1,2	(??)
+WKDAY		I	0
+X		I:C	1	(A)
+#XTRNL		X:C	?	?
+ZONED		Z	1	(D)
+
+##
+# Standard XCALL subroutines to recognize
+# <name> <return-type> <narg> <argtypes>
+#
+#   <name>
+#	Name of subroutine
+#   <return-type>
+#	Not used for XCALL.  Present so that the specifications exist for
+#	both XCALL and built-in functions.
+#   <narg>
+#	Number of arguments specification.  Formats include:
+#	  <n>	   Expect exactly <n> arguments
+#	  <n>,<m>  Expect exactly <n> or <m> arguments
+#	  <n>-<m>  Expect from <n> to <m> arguments
+#	  <n>+	   Expect atleast <n> arguments
+#   <argtypes>
+#	Prototype of data types for each argument.  For <narg> of:
+#	  <n>	   Specify type for each argument
+#	  <n>,<m>  Specify type for each argument
+#	  <n>-<m>  Specify type for each argument
+#	  <n>+     Specify type for each of the expected arguments,
+#	           where the <n+1> argument is the type of all arguments
+#		   that follow the <n>th argument.
+#	Types are:
+#	  A<n>	ASCII (alpha-numeric)
+#	  D<n>  Decimal number
+#	  X	Don't care
+#
+[XCALLS]
+ACCESS		-	2	(A,D)
+!ACCHR
+ASCII		-	2	(D,A)
+ASCR5		-	2	(A3,A2)
+BEGFL		-	1	(D)
+CHAIN		-	2	(A,A)
+!DACHR
+DATE		-	1	(A9+)
+DECML		-	2	(A,D)
+DELET		-	1,2	(X,A)
+DFLAG		-	1,2	(D,D)
+EMPBUF		-	1	(D)
+ENDFL		-	1	(D)
+ENVRN		-	1	(D)
+ERROR		-	2,3	(D3+,D4+,D4+)
+ERTXT		-	2	(D,A)
+FATAL		-	1,2	(X,A)
+FILL		-	2	(A,A)
+FILNM		-	2	(D,A)
+FLAGS		-	1,2	(D,D)
+GETCM		-	1	(A)
+INSTR		-	4	(D,A,A,D)
+ISCLR		-	3	(D,A,D)
+ISSTS		-	2	(D,A29+)
+JBNAM		-	1	(A63+)
+JBNO		-	1	(D10+)
+LEN		-	2	(D,X)
+MONEY		-	1	(A1)
+MSGRS		-	0,1	(A)
+MSGSV		-	0,1	(A)
+PAINT		-	1	(A1)
+PAK		-	3+	(A,D,X,X)
+PUTCM		-	1	(A)
+R5ASC		-	2	(A2,A3)
+RANDM		-	3	(D,D5,D5)
+RCFLG		-	1,2	(D,D)	
+RCVID		-	1,2	(A,D)
+RENAM		-	2,3	(X,A,A)
+RSTAT		-	1,2	(D,A)
+RUNJB		-	2	(A,A)
+# Note: VMS DIBOL reverses the size,field to field,size, grrr.
+SIZE		-	2	(D,X)
+TIME		-	1	(A6)
+TNMBR		-	1	(D)
+TRIM		-	2	(A,D)
+TTSTS		-	1,2	(D,D)
+UNPAK		-	2+	(A,X,X)
+VERSN		-	1	(A)
+
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 2
+a3 2
+# $Source$
+# $Revision$ $Date$
+d705 18
+a722 3
+#	Return type.  Note: right now, all built-ins return DBLArg_t.
+#	This is here in the event we want to do something more exotic
+#	in the future.
+d733 71
+a803 62
+ABS
+ADDR
+ARGA
+ARGN
+B
+BBBKSTR
+BIN
+BIT_IS_CLR
+BIT_IS_SET
+CHAR
+CHOPEN
+CPUTIME
+D
+DATE
+DECML
+DEFINED
+DESCR
+ERLINE
+ERNUM
+ERROR
+FALSE
+HEX
+INRANGE
+INSTR
+INT
+INTEGER
+JBNO
+LEN
+NUMARGS
+O
+OCT
+OUTRANGE
+PACKED
+PASSED
+REF
+RFA
+RSIZE
+RTERM
+SCR_ATT
+SCR_CLR
+SCR_MOV
+SIZE
+STRING
+SUCCESS
+SYSERR
+TIME
+TNMBR
+TRIM
+TRUE
+TTNAME
+TTSTS
+UNIX
+UNSIGNED
+VAL
+VARIANT
+VERSN
+VMS
+WAIT
+WKDAY
+X
+XTRNL
+ZONED
+d835 1
+a835 1
+ACCHR
+d840 1
+a840 1
+DACHR
+@

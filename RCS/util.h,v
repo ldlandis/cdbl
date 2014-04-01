@@ -1,0 +1,1227 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.06.05;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.54.06;	author ldl;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	96.01.31.12.06.11;	author ldl;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	96.01.17.09.44.33;	author ldl;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	95.11.20.18.53.09;	author ldl;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	95.11.11.11.15.19;	author ldl;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	95.11.03.09.20.18;	author ldl;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	95.10.24.08.27.44;	author ldl;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	95.10.23.09.19.43;	author ldl;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	95.10.19.02.07.35;	author ldl;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	95.09.28.09.40.15;	author ldl;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	95.09.19.10.41.36;	author ldl;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	95.09.11.10.27.19;	author ldl;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	95.09.08.10.47.06;	author ldl;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	95.09.06.10.46.03;	author ldl;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	95.09.05.11.44.08;	author ldl;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	95.09.04.12.12.49;	author ldl;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	95.08.02.12.39.04;	author ldl;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	95.08.01.11.52.11;	author ldl;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	95.07.21.12.24.53;	author ldl;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	95.07.18.12.39.35;	author ldl;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	95.07.17.12.40.55;	author ldl;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	95.07.12.14.07.26;	author ldl;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	95.07.05.12.50.52;	author ldl;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	95.07.03.12.17.44;	author ldl;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	95.06.30.11.14.50;	author ldl;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	95.06.29.09.14.26;	author ldl;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	95.06.28.09.53.07;	author ldl;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	95.06.23.11.19.29;	author ldl;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	95.06.21.12.41.03;	author ldl;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	95.06.20.12.17.36;	author ldl;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	95.06.15.09.12.49;	author ldl;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	95.06.14.08.57.39;	author ldl;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	95.06.12.11.37.06;	author ldl;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	95.06.12.09.15.35;	author ldl;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	95.06.09.11.19.47;	author ldl;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	95.06.06.11.47.24;	author ldl;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	95.05.15.10.22.16;	author ldl;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	95.05.02.10.43.24;	author ldl;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	95.04.25.11.48.32;	author ldl;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	95.04.24.12.23.18;	author ldl;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	95.04.23.12.55.17;	author ldl;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	95.04.22.12.42.55;	author ldl;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	95.04.19.11.29.13;	author ldl;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	95.04.18.12.00.43;	author ldl;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	95.04.13.10.23.59;	author ldl;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	95.04.03.11.47.14;	author ldl;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	95.03.27.03.06.31;	author ldl;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	95.03.26.19.58.16;	author ldl;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	95.03.23.13.31.36;	author ldl;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	95.03.19.23.29.21;	author ldl;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	95.03.08.13.33.31;	author ldl;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	95.03.06.12.00.19;	author ldl;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	95.03.06.10.32.01;	author ldl;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	95.03.05.03.24.41;	author ldl;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	95.03.03.12.36.21;	author ldl;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	95.02.27.12.55.32;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/RCS/util.h,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:54:06 $
+ */
+
+#ifndef	_UTIL_H_
+#define _UTIL_H_
+
+#include <stdio.h>
+#include "prototype.h"
+
+/***
+ *	This defines a "tangled net" structure.
+ *
+ * Synopsis:
+ *
+ *	Node_id				// Same as 'list'
+ *	adf_n(list, node)		// Add to end of T__FIRST list
+ *	  Node_id   list;		// Anchor of T__FIRST/T__PRECEDES list
+ *	  Node_id   node;		// Node to add to list
+ *
+ *	Node_id				// Same as 'list'
+ *	adf_t(list, token)		// Add to end of T__FIRST list
+ *	  Node_id   list;		// Anchor of T__FIRST/T__PRECEDES list
+ *	  Token     token;		// Token to node-ify and add
+ *
+ *	Node_id				// Same as 'list'
+ *	adl_n(list, node)		// Add to end of list via T__PRECEDES
+ *	  Node_id   list;		// Anchor of T__FIRST/T__PRECEDES list
+ *	  Node_id   node;		// Node to add to list
+ *
+ *	Node_id				// Same as 'list'
+ *	adl_t(list, token)		// Add token to list via T__PRECEDES
+ *	  Node_id   list;		// Anchor of T__FIRST/T__PRECEDES list
+ *	  Token     token;		// Token to node-ify and add
+ *
+ *	Node_id				// Last node of chain from 'list'
+ *	eol(list)			// Find end of T__PRECEDES chain
+ *	  Node_id   list;		// T__FIRST/T__PRECEDES to follow
+ *
+ *	long				// The value as a long
+ *	find_long(spec, rel)		// Get spec value via rel as long
+ *	  Node_id   spec;		// Specification node
+ *	  int       rel;		// Relationship to follow
+ *
+ *	char *				// String (possibly STATIC!)
+ *	find_string(spec, rel)		// Get spec value via rel as string
+ *	  Node_id   spec;		// Specification node
+ *	  int       rel;		// Relationship to follow
+ *
+ *   	Node_id				// Definition
+ *	lkupid(id, table)		// Look-up scoped identifier
+ *	  Node_id   id;			// Id to find
+ *	  int       table;		// T_xxx "table-id" to search
+ *
+ *	Node_id				// Definition
+ *	lkupname(name, table)		// Look-up name in table
+ *	  char     *name;		// Id to find
+ *	  int       table;		// T_xxx "table-id" to search
+ *
+ *	long				// Value of token
+ *	lkuptkval(token)		// Look-up value of token
+ *	  Token     token;		// Token to look-up
+ *
+ *	Node_id				// Node containing 'token' via mkid
+ *	mkcp(token, param)		// Make command/parameter linkage
+ *	  Token     token;		// Token to node-ify
+ *	  Node_id   param;		// Optional (T__FIRST) parameters
+ *
+ *	Node_id				// Node containing 'token'
+ *	mkid(token)			// Make identifier node using token
+ *	  Token     token;		// Token to node-ify
+ *
+ *	Node_id				// Node containing 'token' via mkid
+ *	mkkwv(token, value)		// Make a keyword:value node
+ *	  Token     token;		// Token (keyword) to node-ify
+ *	  Node_id   value;		// Value (T__EXPR) of keyword
+ *
+ *	Make a keyword:value-value node or	T_O_SUB
+ *	       keyword:value,value node or	T_O_COMMA
+ *	       keyword:value:value node		T_O_COLON
+ *	Node_id				// Node containing 'token' via mkid
+ *	mkkwvv(token, valu1, tothru, valu2)
+ *	  Token     token;		// Token (keyword) to node-ify
+ *	  Node_id   valu1;		// Starting value (T__EXPR) of keyword
+ *	  Token     tothru;		// Set type (T_O_{SUB,COMMA,COLON})
+ *	  Node_id   valu2;		// Ending value (T__EXPR) of keyword
+ *
+ *	Node_id				// Node containing made-up name
+ *	mkupname(kind)			// Make-up a name
+ *	  int       kind;		// Kind of name (for to_token(kind))
+ *
+ *	void
+ *	post_data_div(div)		// Post data division table info
+ *	  Node_id   div;		// Division definition
+ *
+ *	void
+ *	post_field(field, def)		// Post/Check for duplicate field
+ *        Node_id   field;		// Name node of field
+ *        Node_id   def;		// Definition of field
+ *
+ *	void
+ *	post_file_lineno(n)		// Post current file/lineno to n
+ *	  Node_id   n;			// Target node to get info
+ *
+ *	void
+ *	post_label(label)		// Check for duplicate label & post
+ *	  Node_id   label;		// Label to post
+ *
+ *	void
+ *	post_long(spec, rel, value)	// Post a "long" value to spec.rel
+ *	  Node_id   spec;		// Specification to get value
+ *	  int       rel;		// Relationship on specification
+ *	  long      value;		// Value to store
+ *
+ *	void
+ *	post_string(spec, rel, string)	// Post a "string" to spec.rel
+ *	  Node_id   spec;		// Specification to get value
+ *	  int       rel;		// Relationship on specification
+ *	  char     *string;		// String (possibly STATIC!) to store
+ *
+ *	void
+ *	sym_ck_proc_use(spec)		// Check proc arg against spec
+ *	  Node_id   spec;		// Spec of external call
+ *
+ *	void
+ *	sym_save_proc_decl()		// Save permanent proc symbol info
+ *
+ *	void *				// Allocated memory
+ *	u_calloc(n, ln)			// Call calloc()
+ *        size_t    n;			// Number to allocate
+ *	  size_t    ln;			// Size to allocate
+ *
+ *	void *				// Allocated memory
+ *	u_malloc(ln)			// Call malloc()
+ *	  size_t    ln;			// Size to allocate
+ *
+ *	void *				// Allocated memory
+ *	u_realloc(s, ln)		// Call realloc()
+ *        void     *s;			// Old allocation
+ *	  size_t    ln;			// Size to allocate
+ *
+ *	char *				// Dup'd string
+ *	u_strdup(str)			// Dup a string (w/FATAL failure)
+ *	  char     *str;		// String to duplicate
+ *
+ *	void
+ *	walk_divs(func, kind, arg)	// Walk "kind" divisions calling func
+ *	  void    (*func)(Node_id, arg, id); // Function to call passing spec
+ *        int       kind;		// T_* selecting div to walk
+ *					// Note: T_RECORD selects 'data' divs
+ *	  int       arg;		// Argument to func
+ */
+
+Node_id
+  adf_n			PROTOARGS((Node_id, Node_id));
+Node_id
+  adf_t			PROTOARGS((Node_id, Token));
+Node_id
+  adl_n			PROTOARGS((Node_id, Node_id));
+Node_id
+  adl_t			PROTOARGS((Node_id, Token));
+Node_id
+  eol			PROTOARGS((Node_id));
+long
+  find_long		PROTOARGS((Node_id, int));
+char *
+  find_string		PROTOARGS((Node_id, int));
+Node_id
+  lkupid		PROTOARGS((Node_id, int));
+Node_id
+  lkupname		PROTOARGS((char *, int));
+long
+  lkuptkval		PROTOARGS((Token));
+Node_id
+  mkcp			PROTOARGS((Token, Node_id));
+Node_id
+  mkid			PROTOARGS((Token));
+Node_id
+  mkkwv			PROTOARGS((Token, Node_id));
+Node_id
+  mkkwvv		PROTOARGS((Token, Node_id, Token, Node_id));
+Node_id
+  mkupname		PROTOARGS((int));
+void
+  post_data_div		PROTOARGS((Node_id));
+void
+  post_field		PROTOARGS((Node_id, Node_id));
+void
+  post_file_lineno	PROTOARGS((Node_id));
+void
+  post_label		PROTOARGS((Node_id));
+void
+  post_long		PROTOARGS((Node_id, int, long));
+void
+  post_string		PROTOARGS((Node_id, int, char *));
+void
+  sym_ck_proc_use	PROTOARGS((Node_id));
+void
+  sym_save_proc_decl	PROTOARGS((void));
+void *
+  u_calloc		PROTOARGS((size_t, size_t));
+void *
+  u_malloc		PROTOARGS((size_t));
+void *
+  u_realloc		PROTOARGS((void *, size_t));
+char *
+  u_strdup		PROTOARGS((char *));
+void
+  walk_divs		PROTOARGS((void (*)(Node_id,int,int), int, int));
+
+#endif/*_UTIL_H_*/
+
+
+/* End of $Source: /home/ldl/dbl/cdbl/RCS/util.h,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.72 $ $Date: 1996/01/31 12:06:11 $
+@
+
+
+1.72
+log
+@1996-Jan-31 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.71 $ $Date: 1996/01/17 09:44:33 $
+@
+
+
+1.71
+log
+@1996-Jan-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.70 $ $Date: 1995/11/20 18:53:09 $
+@
+
+
+1.70
+log
+@1995-Nov-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.69 $ $Date: 1995/11/11 11:15:19 $
+@
+
+
+1.69
+log
+@1995-Nov-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.68 $ $Date: 1995/11/03 09:20:18 $
+@
+
+
+1.68
+log
+@1995-Nov-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.67 $ $Date: 1995/10/24 08:27:44 $
+@
+
+
+1.67
+log
+@1995-Oct-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.66 $ $Date: 1995/10/23 09:19:43 $
+@
+
+
+1.66
+log
+@1995-Oct-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.65 $ $Date: 1995/10/19 02:07:35 $
+@
+
+
+1.65
+log
+@1995-Oct-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.64 $ $Date: 1995/09/28 09:40:15 $
+@
+
+
+1.64
+log
+@1995-Sep-28 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.63 $ $Date: 1995/09/19 10:41:36 $
+@
+
+
+1.63
+log
+@1995-Sep-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.62 $ $Date: 1995/09/11 10:27:19 $
+@
+
+
+1.62
+log
+@1995-Sep-11 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.61 $ $Date: 1995/09/08 10:47:06 $
+@
+
+
+1.61
+log
+@1995-Sep-08 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.60 $ $Date: 1995/09/06 10:46:03 $
+@
+
+
+1.60
+log
+@1995-Sep-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.59 $ $Date: 1995/09/05 11:44:08 $
+@
+
+
+1.59
+log
+@1995-Sep-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.58 $ $Date: 1995/09/04 12:12:49 $
+d149 1
+a149 1
+ *	  void    (*func)(Node_id);	// Function to call passing spec
+d210 1
+a210 1
+  walk_divs		PROTOARGS((void (*)(Node_id,int), int, int));
+@
+
+
+1.58
+log
+@1995-Sep-04 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.57 $ $Date: 1995/08/02 12:39:04 $
+@
+
+
+1.57
+log
+@1995-Aug-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.56 $ $Date: 1995/08/01 11:52:11 $
+@
+
+
+1.56
+log
+@1995-Aug-01 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.55 $ $Date: 1995/07/21 12:24:53 $
+@
+
+
+1.55
+log
+@1995-Jul-21 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.54 $ $Date: 1995/07/18 12:39:35 $
+d56 9
+d171 4
+@
+
+
+1.54
+log
+@1995-Jul-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.53 $ $Date: 1995/07/17 12:40:55 $
+@
+
+
+1.53
+log
+@1995-Jul-17 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.52 $ $Date: 1995/07/12 14:07:26 $
+@
+
+
+1.52
+log
+@1995-Jul-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.51 $ $Date: 1995/07/05 12:50:52 $
+@
+
+
+1.51
+log
+@1995-Jul-05 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.50 $ $Date: 1995/07/03 12:17:44 $
+@
+
+
+1.50
+log
+@1995-Jul-03 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.49 $ $Date: 1995/06/30 11:14:50 $
+@
+
+
+1.49
+log
+@1995-Jun-30 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.48 $ $Date: 1995/06/29 09:14:26 $
+@
+
+
+1.48
+log
+@1995-Jun-29 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.47 $ $Date: 1995/06/28 09:53:07 $
+@
+
+
+1.47
+log
+@1995-Jun-28 Checkpoint. Happy 17th birthday, Kara\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.46 $ $Date: 1995/06/23 11:19:29 $
+@
+
+
+1.46
+log
+@1995-Jun-23 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.45 $ $Date: 1995/06/21 12:41:03 $
+@
+
+
+1.45
+log
+@1995-Jun-21 Checkpoint. hello.dbl runs\!
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.44 $ $Date: 1995/06/20 12:17:36 $
+@
+
+
+1.44
+log
+@1995-Jun-20 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.43 $ $Date: 1995/06/15 09:12:49 $
+@
+
+
+1.43
+log
+@1995-Jun-15 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.42 $ $Date: 1995/06/14 08:57:39 $
+@
+
+
+1.42
+log
+@1995-Jun-14 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.41 $ $Date: 1995/06/12 11:37:06 $
+@
+
+
+1.41
+log
+@1995-Jun-12 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.40 $ $Date: 1995/06/12 09:15:35 $
+@
+
+
+1.40
+log
+@1995-Jun-12 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.39 $ $Date: 1995/06/09 11:19:47 $
+@
+
+
+1.39
+log
+@1995-Jun-09 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.38 $ $Date: 1995/06/06 11:47:24 $
+@
+
+
+1.38
+log
+@1995-Jun-06 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Revision: 1.37 $ $Date: 1995/05/15 10:22:16 $
+@
+
+
+1.37
+log
+@1995-May-15 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker: ldl $ $Source: /home/ldl/dbl/cdbl/RCS/util.h,v $
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.36 1995/05/02 10:43:24 ldl Exp ldl $
+@
+
+
+1.36
+log
+@1995-May-02 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.35 1995/04/25 11:48:32 ldl Exp ldl $
+@
+
+
+1.35
+log
+@1995-Apr-25 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.34 1995/04/24 12:23:18 ldl Exp ldl $
+@
+
+
+1.34
+log
+@1995-Apr-24 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.33 1995/04/23 12:55:17 ldl Exp ldl $
+@
+
+
+1.33
+log
+@1995-Apr-23 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.32 1995/04/22 12:42:55 ldl Exp ldl $
+@
+
+
+1.32
+log
+@1995-Apr-22 Checkpoint (a.m.)
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.31 1995/04/19 11:29:13 ldl Exp ldl $
+@
+
+
+1.31
+log
+@1995-Apr-19 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.30 1995/04/18 12:00:43 ldl Exp ldl $
+d113 7
+d184 4
+@
+
+
+1.30
+log
+@1995-Apr-18 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.29 1995/04/13 10:23:59 ldl Exp ldl $
+@
+
+
+1.29
+log
+@1995-Apr-13 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.28 1995/04/03 11:47:14 ldl Exp ldl $
+@
+
+
+1.28
+log
+@1995-Apr-03 Checkpoint.
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.27 1995/03/27 03:06:31 ldl Exp ldl $
+@
+
+
+1.27
+log
+@26-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.26 1995/03/26 19:58:16 ldl Exp ldl $
+d80 8
+d163 4
+@
+
+
+1.26
+log
+@26-Mar-1995 Checkpoint 1
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.25 1995/03/23 13:31:36 ldl Exp ldl $
+a36 4
+ *	char *				// DYNAMIC string
+ *	c_ref(ref)			// Create a C reference
+ *	  Node_id   ref;		// Base of ref
+ *	
+a40 8
+ *	char *				// DYNAMIC Resulting expression
+ *	c_expr(expr)			// Create C expression
+ *	  Node_id   expr;		// Base of expr
+ *
+ *	char *				// DYNAMIC Resulting expression
+ *	c_nexpr(expr)			// Create numeric C expression
+ *	  Node_id   expr;		// Base of expr
+ *
+a79 4
+ *	char *				// String of ref
+ *	mkvarref(id)			// Make a string for a reference
+ *	  Node_id   id;			// Node of id to string-ify
+ *
+d86 4
+a138 6
+char *
+  c_expr		PROTOARGS((Node_id));
+char *
+  c_nexpr		PROTOARGS((Node_id));
+char *
+  c_ref			PROTOARGS((Node_id));
+a154 2
+char *
+  mkvarref		PROTOARGS((Node_id));
+d157 2
+@
+
+
+1.25
+log
+@23-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.24 1995/03/19 23:29:21 ldl Exp ldl $
+d23 5
+d37 4
+d45 7
+a51 2
+ *	Node_id
+ * ??	filter_data_type(id)		// Who knows, yet.
+d63 4
+a66 4
+ * ??	Node_id				// Who knows
+ *	lkupid(scope, id)		// Look-up scoped identifier
+ *	  Node_id   scope;		// Scope to use (NIL = any)
+ *	  Token     id;			// Id to find
+d92 4
+d146 2
+d154 2
+d164 1
+a164 1
+  lkupid		PROTOARGS((Node_id, Token));
+d173 2
+d184 1
+a184 1
+u_calloc		PROTOARGS((size_t, size_t));
+@
+
+
+1.24
+log
+@19-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.23 1995/03/08 13:33:31 ldl Exp ldl $
+d79 5
+d151 2
+@
+
+
+1.23
+log
+@08-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.22 1995/03/06 12:00:19 ldl Exp ldl $
+a31 5
+ *	void
+ *	ck_dup_label(block, label)	// Check for duplicate label
+ *	  Node_id   block;		// Block to check
+ *	  Node_id   label;		// Label to look (by name) for
+ *
+d79 4
+a129 2
+void
+  ck_dup_label		PROTOARGS((Node_id, Node_id));
+d146 2
+@
+
+
+1.22
+log
+@06-Mar-1995 Checkpoint 2
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.21 1995/03/06 10:32:01 ldl Exp ldl $
+d95 18
+d127 4
+d153 8
+@
+
+
+1.21
+log
+@06-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.20 1995/03/05 03:24:41 ldl Exp ldl $
+@
+
+
+1.20
+log
+@04-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.19 1995/03/03 12:36:21 ldl Exp ldl $
+d96 1
+a96 1
+ *	walk_data_divs(func)		// Walk data divisions calling func
+d98 3
+d132 1
+a132 1
+  walk_data_divs	PROTOARGS((void (*)(Node_id)));
+@
+
+
+1.19
+log
+@03-Mar-1995 Checkpoint
+@
+text
+@d3 1
+a3 1
+ * $Header: /home/ldl/dbl/cdbl/RCS/util.h,v 1.18 1995/02/27 12:55:32 ldl Exp ldl $
+@
+
+
+1.18
+log
+@27-Feb-1995 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Locker$ $Source$
+ * $Header$
+d134 1
+a134 1
+/* End of $Source$ */
+@

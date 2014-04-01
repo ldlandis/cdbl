@@ -1,0 +1,24 @@
+; asg_aa.dbl - assignment
+;   afield = aexp
+RECORD NAME
+	A3, A3
+	A4, A4
+RECORD FGH
+	A5, A5
+	A7, A7
+PROC
+	OPEN(1,O,'TT:')
+
+	A4 = 'Fred'
+	A7 = 'Johnson'
+	A4 = A7
+	DISPLAY(1, 'A4 = A7(="',A7,'") = "',A4,'"  want "John"')
+	DISPLAY(1, 'NAME = "',NAME,'"  want "JohnJohnson"')
+
+	A5 = 'ABCDE'
+	A3 = 'FGH'
+	A5 = A3
+	DISPLAY(1, 'A5 = A3(="',A3,'") = "',A5,'"  want "FGH  "')
+	DISPLAY(1, 'FGH = "',FGH,'"  want "FGH  FGH"')
+
+; End asg_aa.dbl - assignment

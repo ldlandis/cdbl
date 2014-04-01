@@ -1,0 +1,155 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.74
+date	96.04.08.00.05.25;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.32;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@###
+# $Source: /home/ldl/dbl/cdbl/builtin/RCS/Makefile,v $
+# $Revision: 1.73 $ $Date: 1996/03/08 12:53:32 $
+#
+
+HEADERS	= \
+	../cdbl_rt.h
+
+SRC	=\
+	bi_abs.c \
+	bi_addr.c \
+	bi_arga.c \
+	bi_argn.c \
+	bi_bin.c \
+	bi_bit_is_clr.c \
+	bi_bit_is_set.c \
+	bi_bkstr.c \
+	bi_char.c \
+	bi_chopen.c \
+	bi_cputime.c \
+	bi_date.c \
+	bi_decml.c \
+	bi_erline.c \
+	bi_ernum.c \
+	bi_error.c \
+	bi_false.c \
+	bi_hex.c \
+	bi_instr.c \
+	bi_int.c \
+	bi_integer.c \
+	bi_jbno.c \
+	bi_len.c \
+	bi_numargs.c \
+	bi_oct.c \
+	bi_packed.c \
+	bi_ptr.c \
+	bi_rdlen.c \
+	bi_rdtrm.c \
+	bi_rfa.c \
+	bi_rnd.c \
+	bi_rsize.c \
+	bi_rterm.c \
+	bi_scr_att.c \
+	bi_scr_clr.c \
+	bi_scr_mov.c \
+	bi_string.c \
+	bi_success.c \
+	bi_syserr.c \
+	bi_time.c \
+	bi_tnmbr.c \
+	bi_trim.c \
+	bi_true.c \
+	bi_ttname.c \
+	bi_ttsts.c \
+	bi_unsigned.c \
+	bi_versn.c \
+	bi_wait.c \
+	bi_wkday.c \
+	bi_zoned.c
+
+LIBRARY	= ../libcdbl.a
+LIB	=\
+	$(LIBRARY)($(SRC:.c=.o))
+
+CFLAGS	= -pedantic -DYYDEBUG -g -static
+#CFLAGS	= -pedantic -DYYDEBUG
+
+all:	lib
+
+lib:	$(LIBRARY)
+$(LIBRARY): $(LIB)
+
+always:
+
+clean:
+	-
+
+diffs:	Makefile *.[chgl]
+	doRCSprocess rcsdiff > diffs 2>&1
+
+
+# End of $Source: /home/ldl/dbl/cdbl/builtin/RCS/Makefile,v $
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 2
+a3 2
+# $Source$
+# $Revision$ $Date$
+a13 2
+	bi_b.c \
+	bi_bbbkstr.c \
+d17 1
+a20 1
+	bi_d.c \
+a22 2
+	bi_defined.c \
+	bi_descr.c \
+a27 1
+	bi_inrange.c \
+a33 1
+	bi_o.c \
+a34 1
+	bi_outrange.c \
+d36 3
+a38 2
+	bi_passed.c \
+	bi_ref.c \
+d40 1
+a45 1
+	bi_size.c \
+a55 2
+	bi_val.c \
+	bi_variant.c \
+a56 1
+	bi_vms.c \
+a58 2
+	bi_x.c \
+	bi_xtrnl.c \
+d82 1
+a82 1
+# End of $Source$
+@

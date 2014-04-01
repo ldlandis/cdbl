@@ -1,0 +1,10 @@
+for i
+do
+  ed $i <<E_O_F
+1
+/<cdbl
+s/<cdbl/"../
+s/cdbl_rt.h>/cdbl_rt.h"/
+w
+E_O_F
+done

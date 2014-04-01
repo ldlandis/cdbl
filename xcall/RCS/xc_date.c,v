@@ -1,0 +1,95 @@
+head	1.74;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.74
+date	96.04.08.00.05.44;	author ldl;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	96.03.08.12.53.41;	author ldl;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.74
+log
+@1996-Apr-07 Checkpoint
+@
+text
+@/***
+ * $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_date.c,v $
+ * $Revision: 1.73 $ $Date: 1996/03/08 12:53:41 $
+ */
+
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include "../cdbl_rt.h"
+#include "xc__ckarg.h"
+
+static
+XC_ADscr  adscr[] =
+            { /* min  max  type     flags     ercode     */
+	      {    0,   0, "A" , ARG_ISVAR  ,   NULL   }
+	    };
+static
+int       nadscr = sizeof(adscr) / sizeof(adscr[0]);
+
+void
+XCALL_FUNC(DATE)(narg, arg)				/* Function	*/
+  int       narg;
+  DBLArg_t *arg;
+{
+  char     *rtn = "DATE";
+  int       n;
+  char     *dst, *src, buf[10];
+  time_t    t;
+
+  xc__ckarg(rtn, narg, arg, nadscr, adscr);
+
+  time(&t);				/*  012345678901234567890123	*/
+  src = ctime(&t);			/* "Day Mon dd hh:mm:ss yyyy\n"	*/
+
+ 					/* Create dd-mmm-yy		*/
+  sprintf(buf, "%02d-%.3s-%02d", atoi(src + 8), src + 4, atoi(src + 22));
+
+  for (src = buf;  *src;  ++src)	/* Force all to upper case	*/
+    if (islower(*src))
+      *src = toupper(*src);
+
+  n   = arg->size;			/* Maximum length to copy	*/
+  src = buf;
+  dst = (char *)arg->addr;
+  while (*src && n-- > 0)		/* Copy to target		*/
+    *dst++ = *src++;
+  while (n-- > 0)			/* Space fill, if needed	*/
+    *dst++ = ' ';
+} /* DATE XCALL */ 
+
+/* End of $Source: /home/ldl/dbl/cdbl/xcall/RCS/xc_date.c,v $ */
+@
+
+
+1.73
+log
+@1996-Mar-08 Checkpoint
+@
+text
+@d2 2
+a3 2
+ * $Source$
+ * $Revision$ $Date$
+d52 1
+a52 1
+/* End of $Source$ */
+@

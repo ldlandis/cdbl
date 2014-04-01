@@ -1,0 +1,31 @@
+
+RECORD PROG_VARS
+	A,D3,0
+PROC
+
+BLOCKA,
+	BEGIN
+	  EXIT
+	  EXIT BLOCKA
+	  BEGIN
+	    EXIT
+	    EXIT BLOCKA
+BLOCKB,	    BEGIN
+	      EXIT
+	      EXIT BLOCKA
+	      EXIT BLOCKB
+	      BEGIN
+	        EXIT
+		EXIT BLOCKA
+		EXIT BLOCKB
+	      END
+	      EXIT
+	      EXIT BLOCKA
+	      EXIT BLOCKB
+	    END
+	    EXIT
+	    EXIT BLOCKA
+	  END
+	  EXIT
+	  EXIT BLOCKA
+	END
